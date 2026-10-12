@@ -1,0 +1,6 @@
+{
+  "name": "uttar-pradesh",
+  "extends": "default",
+  "description": "Uttar Pradesh - same layout as default (3x10). Kept as a named template so UP-specific tweaks can be made without touching other states.",
+  "match": { "states": ["Uttar Pradesh", "UP", "उत्तर प्रदेश"] }
+}

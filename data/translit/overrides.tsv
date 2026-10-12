@@ -1,0 +1,21 @@
+# Exact overrides, highest priority. Format: <Devanagari>TAB<Roman>. "#" lines are ignored.
+# A whole phrase matches first (e.g. a polling-station name), then single tokens.
+# Edit freely; the file is read at start-up, no retraining needed.
+सिंह	Singh
+सिंघ	Singh
+श्रीमती	Smt
+श्री	Shri
+सुश्री	Sushri
+मो.	Mo.
+मोहम्मद	Mohammad
+मौहम्मद	Mohammad
+मुहम्मद	Muhammad
+स्व.	Late
+स्वर्गीय	Late
+क.नं.	K.No.
+क.न.	K.No.
+क,नं.	K.No.
+नं.	No.
+नं	No.
+सं.	No.
+कमरा	Kamra

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Usage: bin/run "<path-to-constituency-folder>" [options]
+# Thin wrapper around `node dist/cli.js run ...`. Build first with `npm run build`.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+if [ ! -f "$ROOT/dist/cli.js" ]; then
+  echo "dist/cli.js not found - run 'npm run build' first" >&2
+  exit 2
+fi
+cd "$ROOT"
+exec node "$ROOT/dist/cli.js" run "$@"

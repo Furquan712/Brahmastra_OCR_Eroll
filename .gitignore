@@ -1,0 +1,11 @@
+node_modules/
+dist/
+output/
+cache/
+.env
+*.log
+tmp/
+tmp-*/
+output-*/
+cache-*/
+raw-data/
