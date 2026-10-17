@@ -3,14 +3,14 @@ import path from "node:path";
 import { RESULT_SCHEMA_VERSION, type ResultCache } from "./cache.js";
 import type { Config } from "./config.js";
 import { correctNames } from "./consensus.js";
-import { buildCover, COVER_SCHEMA, CoverModelZ, coverPrompt, parseCoverText, parseErollFilename, readCoverText, type CoverModelOut } from "./cover.js";
+import { applyCoverMeta, buildCover, COVER_SCHEMA, CoverModelZ, coverPrompt, parseCoverText, parseErollFilename, readCoverPage, type CoverModelOut } from "./cover.js";
 import {
   cropBand, cropRect, detectColumnBands, detectRowBands, downscaleForClassification,
   imageDims, isBlank, templateRowBands, type Band, type Dims,
 } from "./image.js";
-import { cardRects, classifyHeader, localReadCards, readHeaderText, type LocalCard, type Rect } from "./local.js";
+import { cardRects, classifyHeader, localReadCards, readHeaderText, readPrintedPage, type FooterRead, type LocalCard, type Rect } from "./local.js";
 import type { Logger } from "./logger.js";
-import { mapGender, mapRelation, normalizeCard } from "./normalize.js";
+import { cleanNameHi, mapGender, mapRelation, normalizeCard } from "./normalize.js";
 import { pdfPageCount, removeQuiet, renderPage } from "./pdf.js";
 import { classifyPrompt, extractPrompt, systemPrompt } from "./prompts.js";
 import { CLASSIFY_JSON_SCHEMA, ClassifyZ, EXTRACT_JSON_SCHEMA, ExtractZ, type CardOut } from "./schemas.js";
@@ -71,7 +71,10 @@ function toCover(c: NonNullable<ReturnType<typeof ClassifyZ.parse>["cover"]>): C
     stateHi: c.stateHi, stateEn: c.stateEn,
     acNo: c.acNo.replace(/\D/g, ""), acNameHi: c.acNameHi, acNameEn: c.acNameEn,
     partNo: c.partNo.replace(/\D/g, ""),
-    psNoAndNameHi: c.psNoAndNameHi, psNameHi: c.psNameHi, psNameEn: c.psNameEn, psAddressHi: c.psAddressHi,
+    psNoAndNameHi: c.psNoAndNameHi, psNameHi: c.psNameHi, psNameEn: c.psNameEn, psAddressHi: c.psAddressHi, psAddressEn: "",
+    mainTownVillageHi: "", mainTownVillageEn: "", wardHi: "", wardEn: "", postOfficeHi: "", postOfficeEn: "",
+    policeStationHi: "", policeStationEn: "", panchayatHi: "", panchayatEn: "", blockHi: "", blockEn: "",
+    tehsilHi: "", tehsilEn: "", districtHi: "", districtEn: "", pinCode: "",
     revisionType: c.revisionType, revisionYear: c.revisionYear.replace(/\D/g, "").slice(0, 4),
     qualifyingDate: c.qualifyingDate, publicationDate: c.publicationDate,
     serialFrom: num(c.serialFrom), serialTo: num(c.serialTo), totalElectors: num(c.totalElectors),
@@ -98,15 +101,46 @@ function fillEnglish(cards: VoterCard[], translit: Transliterator): void {
   }
 }
 
-/** Cached results keep their OCR but get fresh English, so edits to overrides/model apply without re-OCR. */
+/** Cached results keep their OCR but get fresh name cleaning + English, so edits to overrides/model apply without re-OCR. */
 function refreshEnglish(pages: PageResult[], translit: Transliterator): void {
+  const en = (hi: string | undefined): string => (hi ? translit.name(hi) : "");
   for (const pg of pages) {
+    for (const c of pg.cards) {
+      c.nameHi = cleanNameHi(c.nameHi);
+      c.relationNameHi = cleanNameHi(c.relationNameHi);
+    }
     fillEnglish(pg.cards, translit);
-    if (pg.cover) {
-      pg.cover.acNameEn = pg.cover.acNameHi ? translit.name(pg.cover.acNameHi) : "";
-      pg.cover.psNameEn = pg.cover.psNameHi ? translit.name(pg.cover.psNameHi) : "";
+    const cv = pg.cover;
+    if (cv) {
+      cv.acNameEn = en(cv.acNameHi);
+      cv.psNameEn = en(cv.psNameHi);
+      cv.psAddressEn = en(cv.psAddressHi);
+      cv.mainTownVillageEn = en(cv.mainTownVillageHi);
+      cv.wardEn = en(cv.wardHi);
+      cv.postOfficeEn = en(cv.postOfficeHi);
+      cv.policeStationEn = en(cv.policeStationHi);
+      cv.panchayatEn = en(cv.panchayatHi);
+      cv.blockEn = en(cv.blockHi);
+      cv.tehsilEn = en(cv.tehsilHi);
+      cv.districtEn = en(cv.districtHi);
     }
   }
+}
+
+/**
+ * Footer page number for a voter page. Never throws: an unreadable footer leaves both null and
+ * the CSV falls back to the PDF page index.
+ */
+async function footerOf(ctx: PdfContext, pngPath: string, dims: Dims, workDir: string, pageNo: number, label: string, warnings: string[]): Promise<FooterRead> {
+  let fr: FooterRead = { page: null, total: null, text: "" };
+  try {
+    fr = await readPrintedPage(pngPath, dims, ctx.tpl, workDir);
+  } catch (e) {
+    ctx.log.debug("page", `${label}: footer read failed (${errMsg(e)})`);
+  }
+  if (fr.page === null) warnings.push("footer page number not read; Page_no uses the PDF page index");
+  else if (fr.page !== pageNo) warnings.push(`footer says page ${fr.page} but this is PDF page ${pageNo}`);
+  return fr;
 }
 
 /**
@@ -118,8 +152,10 @@ async function extractCover(
   ctx: PdfContext, pdfFile: string, pngPath: string, workDir: string, usage: Usage, label: string,
 ): Promise<{ cover: CoverInfo; warnings: string[]; source: string }> {
   const { cfg, tpl, translit, log } = ctx;
-  const text = await readCoverText(pngPath, tpl, workDir);
-  const regex = parseCoverText(text);
+  const read = await readCoverPage(pngPath, tpl, workDir);
+  const text = read.text;
+  const regex = applyCoverMeta(parseCoverText(text), read);
+  if (!read.metaText) log.debug("cover", `${label}: section-2 box not located; metadata from the whole-page text`);
   let model: CoverModelOut | null = null;
   let source = "tesseract";
   if (cfg.coverViaModel) {
@@ -213,6 +249,9 @@ async function processPageLlm(ctx: PdfContext, pdfFile: string, pageNo: number, 
 
   // 2. Card extraction.
   const dims = await imageDims(pngPath);
+  const footer = await footerOf(ctx, pngPath, dims, path.dirname(pngPath), pageNo, label, warnings);
+  result.printedPage = footer.page;
+  result.printedTotal = footer.total;
   const rawCards: CardOut[] = await extractCards(ctx, pngPath, dims, cls.gridRowsFilled, label, usage, warnings);
 
   // 3. Normalize + order by serial where available (keeps reading order otherwise).
@@ -352,11 +391,11 @@ function localToVoterCard(c: LocalCard, serial: number | null, tpl: Template): V
   return {
     serial,
     epicNo: c.epicNo,
-    nameHi: c.nameHi,
+    nameHi: cleanNameHi(c.nameHi),
     nameEn: "",
     relationTypeHi: c.relationTypeHi,
     relationType: mapRelation(c.relationTypeHi, tpl),
-    relationNameHi: c.relationNameHi,
+    relationNameHi: cleanNameHi(c.relationNameHi),
     relationNameEn: "",
     houseNo: c.houseNo,
     age: c.age,
@@ -457,7 +496,10 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
     return result;
   }
 
-  // 2. Local read of every card.
+  // 2. Footer page number, then the local read of every card.
+  const footer = await footerOf(ctx, pngPath, dims, workDir, pageNo, label, warnings);
+  result.printedPage = footer.page;
+  result.printedTotal = footer.total;
   let rects: Rect[];
   if (bands) {
     rects = await cardRects(pngPath, dims, bands, tpl);

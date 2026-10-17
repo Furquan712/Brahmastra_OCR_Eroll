@@ -211,6 +211,35 @@ export async function readHeaderText(pngPath: string, dims: Dims, tpl: Template,
   return r?.text ?? "";
 }
 
+export interface FooterRead { page: number | null; total: number | null; text: string }
+
+/** "कुल पृष्ठ 42 - पृष्ठ 40" (or "Page 40 of 42") -> { total: 42, page: 40 }. */
+export function parseFooterText(text: string): FooterRead {
+  const t = asciiDigits(text).replace(/\s+/g, " ").trim();
+  const out: FooterRead = { page: null, total: null, text: t };
+  let m = /(?:कुल\s*)?पृष्ठ\s*(\d{1,4})\s*[-–—]+\s*पृष्ठ\s*(\d{1,4})/.exec(t);
+  if (m) { out.total = Number(m[1]); out.page = Number(m[2]); return out; }
+  m = /page\s*(\d{1,4})\s*(?:of|\/)\s*(\d{1,4})/i.exec(t);
+  if (m) { out.page = Number(m[1]); out.total = Number(m[2]); return out; }
+  const tot = /कुल\s*पृष्ठ\s*(\d{1,4})/.exec(t);
+  if (tot) out.total = Number(tot[1]);
+  const pg = /[-–—]\s*पृष्ठ\s*(\d{1,4})\s*$/.exec(t) ?? /पृष्ठ\s*(\d{1,4})\s*$/.exec(t);
+  if (pg) out.page = Number(pg[1]);
+  return out;
+}
+
+/** Reads the page number printed in the footer (bottom-right corner), upscaled for the small type. */
+export async function readPrintedPage(pngPath: string, dims: Dims, tpl: Template, workDir: string): Promise<FooterRead> {
+  const frac = tpl.local.footerFraction ?? 0.045;
+  const top = Math.round(dims.height * (1 - frac));
+  const left = Math.round(dims.width * 0.5);
+  const box = { left, top, width: dims.width - left, height: dims.height - top };
+  const png = await sharp(pngPath).extract(box).resize({ width: box.width * 2, kernel: "lanczos3" }).greyscale().normalise()
+    .extend({ top: 16, bottom: 16, left: 16, right: 16, background: "#fff" }).png().toBuffer();
+  const [r] = await tesseractBatch([png], { langs: tpl.local.langs, psm: 7 }, workDir);
+  return parseFooterText(r?.text ?? "");
+}
+
 /** Card rectangles for all detected bands (left-to-right, top-to-bottom). */
 export async function cardRects(pngPath: string, dims: Dims, bands: Band[], tpl: Template): Promise<Rect[]> {
   const rects: Rect[] = [];

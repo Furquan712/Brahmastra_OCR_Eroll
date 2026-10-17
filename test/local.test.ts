@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { classifyHeader, parseCardBody, parseEpicText } from "../src/local.js";
+import { classifyHeader, parseCardBody, parseEpicText, parseFooterText } from "../src/local.js";
 import { fixSerials } from "../src/pipeline.js";
 import { loadTemplates, selectTemplate } from "../src/templates.js";
 import { parseTsv, type TessResult } from "../src/tesseract.js";
@@ -110,4 +110,14 @@ test("parseTsv groups words into lines per page", () => {
 test("editDistance counts code points", () => {
   assert.equal(editDistance("मौहममद", "मौहम्मद"), 1);
   assert.equal(editDistance("abc", "abc"), 0);
+});
+
+test("parseFooterText reads the printed page number and total", () => {
+  assert.deepEqual(parseFooterText("रहता दिनांक : 0-0-2026 के अनुसार आयु प्रकाशन की तिथि :- 70-04-2026 कुल पृष्ठ 42 - पृष्ठ 40").page, 40);
+  assert.equal(parseFooterText("कुल पृष्ठ 42 - पृष्ठ 40").total, 42);
+  assert.deepEqual(parseFooterText("कुल पृष्ठ १६ - पृष्ठ १"), { page: 1, total: 16, text: "कुल पृष्ठ 16 - पृष्ठ 1" });
+  assert.equal(parseFooterText("Page 3 of 16").page, 3);
+  assert.equal(parseFooterText("Page 3 of 16").total, 16);
+  assert.equal(parseFooterText("कुल पृष्ठ 42 - पृ 40").total, 42);
+  assert.deepEqual(parseFooterText("nothing here"), { page: null, total: null, text: "nothing here" });
 });

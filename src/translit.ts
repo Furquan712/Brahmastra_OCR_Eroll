@@ -67,6 +67,23 @@ export function loadPairsAny(file: string): TrainPair[] {
   return out;
 }
 
+/**
+ * Final tidy of a romanised name: only letters, digits, space, dot, hyphen and apostrophe survive
+ * (an OCR "@" or quote in the Hindi field must never reach the English one), no doubled or
+ * dangling punctuation, single spaces.
+ */
+export function cleanRoman(s: string): string {
+  return s
+    .replace(/[^A-Za-z0-9 .'\-]/g, " ")
+    .replace(/\s+/g, " ")
+    .replace(/(^|\s)[.'\-]+(?=\s|$)/g, " ") // lone punctuation tokens
+    .replace(/\s+\./g, ".")
+    .replace(/\.{2,}/g, ".")
+    .replace(/^[\s.'\-]+/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function capitalize(s: string): string {
   const i = s.search(/[a-z]/i);
   if (i < 0) return s;
@@ -131,6 +148,9 @@ export class Transliterator {
     let out: string;
     if (!isDevanagari(t)) {
       out = t;
+    } else if (/^[ऀ-ॿ]+0$/.test(t)) {
+      // "कु0", "मौ0": the rolls print a 0 as the abbreviation sign.
+      out = this.word(t.slice(0, -1)).replace(/\.$/, "") + ".";
     } else {
       const m = /^([^ऀ-ॿ]*)(.*?)([^ऀ-ॿ]*)$/u.exec(t)!;
       // Punctuation / digits inside a token ("क.नं.") separate independent Devanagari runs.
@@ -154,11 +174,10 @@ export class Transliterator {
     if (!t) return "";
     const whole = this.overrides.get(t);
     if (whole) return whole;
-    return t
+    const out = t
       .split(" ")
       .map((w) => w.split("-").map((part) => this.word(part)).join("-"))
-      .join(" ")
-      .replace(/\s+/g, " ")
-      .trim();
+      .join(" ");
+    return cleanRoman(out);
   }
 }

@@ -24,6 +24,8 @@ export interface Template {
     headerFraction: number;
     /** Tesseract page-segmentation mode for the cover page (default 4). */
     coverPsm?: number;
+    /** Height of the footer strip (fraction of the page) that carries "कुल पृष्ठ N - पृष्ठ M". Default 0.045. */
+    footerFraction?: number;
     epicBox: { left: number; top: number; width: number; height: number };
     serialBox: { left: number; top: number; width: number; height: number };
     bodyBox: { left: number; top: number; width: number; height: number };

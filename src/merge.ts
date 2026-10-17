@@ -1,7 +1,7 @@
 import type { Config } from "./config.js";
 import type { Logger } from "./logger.js";
 import type { Template } from "./templates.js";
-import type { ConstituencyInfo, OutputRow, PageResult, PdfResult } from "./types.js";
+import type { ConstituencyInfo, CoverInfo, OutputRow, PageResult, PdfResult } from "./types.js";
 import { VOTER_PAGE_TYPES } from "./types.js";
 import { cardFlags } from "./validate.js";
 
@@ -60,6 +60,29 @@ export function mergeResults(
     const psEn = cover?.psNameEn ?? "";
     const psHi = cover?.psNameHi ?? "";
     const pdfPart = r.partNo;
+    const cv = (k: keyof CoverInfo): string => {
+      const v = cover?.[k];
+      return v === null || v === undefined ? "" : String(v);
+    };
+    // Repeated on every row so a CSV stays self-describing when rows are filtered or merged.
+    const meta = {
+      State: cv("stateEn") || c.state,
+      AC_no: cv("acNo") || c.acNo,
+      AC_name_eg: cv("acNameEn") || c.acName,
+      AC_name_hi: cv("acNameHi"),
+      Main_town_village_eg: cv("mainTownVillageEn"), Main_town_village_hi: cv("mainTownVillageHi"),
+      Ward_eg: cv("wardEn"), Ward_hi: cv("wardHi"),
+      Post_office_eg: cv("postOfficeEn"), Post_office_hi: cv("postOfficeHi"),
+      Police_station_eg: cv("policeStationEn"), Police_station_hi: cv("policeStationHi"),
+      Panchayat_eg: cv("panchayatEn"), Panchayat_hi: cv("panchayatHi"),
+      Block_eg: cv("blockEn"), Block_hi: cv("blockHi"),
+      Tehsil_eg: cv("tehsilEn"), Tehsil_hi: cv("tehsilHi"),
+      District_eg: cv("districtEn"), District_hi: cv("districtHi"),
+      Pin_code: cv("pinCode"),
+      PS_address_eg: cv("psAddressEn"), PS_address_hi: cv("psAddressHi"),
+      Roll_type: (cover && cover.revisionType !== "Unknown" ? cover.revisionType : "") || c.type,
+      Roll_year: cv("revisionYear") || c.year,
+    };
     let prevSerial: number | null = null;
     let prevSection: PageResult["section"] | null = null;
     let mainCount = 0;
@@ -74,6 +97,13 @@ export function mergeResults(
       const partNoMismatch = Boolean(pg.partNo && pdfPart && pg.partNo !== pdfPart);
       if (partNoMismatch) stats.warnings.push(`${r.file} p${pg.page}: page part no ${pg.partNo} != cover part no ${pdfPart}`);
       const rawEpics = pg.rawEpics ?? [];
+      // Printed page number: trusted when it agrees with the PDF index or the printed total
+      // matches the PDF's page count (so the footer read is known to be good); else the PDF index.
+      const printed = pg.printedPage ?? null;
+      const footerOk = printed !== null && printed > 0 && (printed === pg.page || pg.printedTotal === r.pageCount);
+      const pageNo = footerOk ? printed! : pg.page;
+      const pageNoMismatch = footerOk && printed !== pg.page;
+      if (printed !== null && !footerOk) stats.warnings.push(`${r.file} p${pg.page}: footer page number ${printed} (of ${pg.printedTotal ?? "?"}) not trusted; Page_no uses the PDF page index`);
       for (const [i, card] of pg.cards.entries()) {
         stats.rowsIn++;
         if (pg.section === "main") mainCount++;
@@ -84,6 +114,7 @@ export function mergeResults(
         });
         if (card.serial !== null) prevSerial = card.serial;
         for (const f of card.extraFlags ?? []) if (!flags.includes(f)) flags.push(f);
+        if (pageNoMismatch) flags.push("page_no_mismatch");
         const row: OutputRow = {
           PS_name_eg: psEn,
           PS_name_hi: psHi,
@@ -99,10 +130,12 @@ export function mergeResults(
           age: card.age === null ? "" : String(card.age),
           Gender_eg: card.genderEn,
           Gender_hi: card.genderHi,
+          Serial_no: card.serial === null ? "" : String(card.serial),
+          Page_no: String(pageNo),
+          Section: pg.section,
+          ...meta,
           _source_pdf: r.file,
           _page: String(pg.page),
-          _serial: card.serial === null ? "" : String(card.serial),
-          _section: pg.section,
           _ocr_confidence: card.confidence.toFixed(2),
           _ocr_engine: card.engine ? (card.engine === "llm" && card.escalated?.length ? `llm(${card.escalated.join("|")})` : card.engine) : "llm",
           _flag_reason: flags.join(";"),
@@ -115,7 +148,7 @@ export function mergeResults(
           const f = new Set(row._flag_reason ? row._flag_reason.split(";") : []);
           f.add("dup_epic_replaced_earlier");
           row._flag_reason = [...f].join(";");
-          log.debug("merge", `EPIC ${key}: ${prev._source_pdf} p${prev._page} #${prev._serial} replaced by ${row._source_pdf} p${row._page} #${row._serial}`);
+          log.debug("merge", `EPIC ${key}: ${prev._source_pdf} p${prev._page} #${prev.Serial_no} replaced by ${row._source_pdf} p${row._page} #${row.Serial_no}`);
           rows[idx] = row;
         } else {
           if (key) byEpic.set(key, rows.length);

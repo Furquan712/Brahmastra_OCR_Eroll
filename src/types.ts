@@ -30,6 +30,25 @@ export interface CoverInfo {
   psNameHi: string;
   psNameEn: string;
   psAddressHi: string;
+  psAddressEn: string;
+  /** Section 2 of the cover: "भाग और मतदान क्षेत्र का विवरण" (administrative location of the part). */
+  mainTownVillageHi: string; // मुख्य कस्बा अथवा ग्राम
+  mainTownVillageEn: string;
+  wardHi: string; // वार्ड
+  wardEn: string;
+  postOfficeHi: string; // डाकघर
+  postOfficeEn: string;
+  policeStationHi: string; // थाना
+  policeStationEn: string;
+  panchayatHi: string; // पंचायत
+  panchayatEn: string;
+  blockHi: string; // ब्लॉक
+  blockEn: string;
+  tehsilHi: string; // तहसील
+  tehsilEn: string;
+  districtHi: string; // जिला
+  districtEn: string;
+  pinCode: string; // पिन कोड, 6 digits
   revisionType: "Draft" | "Final" | "Unknown";
   revisionYear: string;
   qualifyingDate: string;
@@ -93,6 +112,10 @@ export interface PageResult {
   sectionHeader: string;
   section: "main" | "supplement" | "modification" | "deletion" | "none";
   cards: VoterCard[];
+  /** Page number printed in the footer ("कुल पृष्ठ 42 - पृष्ठ 40" -> 40); null when not read. */
+  printedPage?: number | null;
+  /** Total page count printed in the footer; null when not read. */
+  printedTotal?: number | null;
   /** EPICs exactly as the model returned them (parallel to cards) - used to flag auto-corrections. */
   rawEpics?: string[];
   cover: CoverInfo | null;
@@ -135,10 +158,38 @@ export interface OutputRow {
   age: string;
   Gender_eg: string;
   Gender_hi: string;
+  /** Serial number printed on the card (क्रम संख्या). */
+  Serial_no: string;
+  /** Page number printed in the page footer (falls back to the PDF page index). */
+  Page_no: string;
+  Section: string;
+  State: string;
+  AC_no: string;
+  AC_name_eg: string;
+  AC_name_hi: string;
+  Main_town_village_eg: string;
+  Main_town_village_hi: string;
+  Ward_eg: string;
+  Ward_hi: string;
+  Post_office_eg: string;
+  Post_office_hi: string;
+  Police_station_eg: string;
+  Police_station_hi: string;
+  Panchayat_eg: string;
+  Panchayat_hi: string;
+  Block_eg: string;
+  Block_hi: string;
+  Tehsil_eg: string;
+  Tehsil_hi: string;
+  District_eg: string;
+  District_hi: string;
+  Pin_code: string;
+  PS_address_eg: string;
+  PS_address_hi: string;
+  Roll_type: string;
+  Roll_year: string;
   _source_pdf: string;
   _page: string;
-  _serial: string;
-  _section: string;
   _ocr_confidence: string;
   _ocr_engine: string;
   _flag_reason: string;
@@ -159,10 +210,36 @@ export const CSV_COLUMNS: (keyof OutputRow)[] = [
   "age",
   "Gender_eg",
   "Gender_hi",
+  "Serial_no",
+  "Page_no",
+  "Section",
+  "State",
+  "AC_no",
+  "AC_name_eg",
+  "AC_name_hi",
+  "Main_town_village_eg",
+  "Main_town_village_hi",
+  "Ward_eg",
+  "Ward_hi",
+  "Post_office_eg",
+  "Post_office_hi",
+  "Police_station_eg",
+  "Police_station_hi",
+  "Panchayat_eg",
+  "Panchayat_hi",
+  "Block_eg",
+  "Block_hi",
+  "Tehsil_eg",
+  "Tehsil_hi",
+  "District_eg",
+  "District_hi",
+  "Pin_code",
+  "PS_address_eg",
+  "PS_address_hi",
+  "Roll_type",
+  "Roll_year",
   "_source_pdf",
   "_page",
-  "_serial",
-  "_section",
   "_ocr_confidence",
   "_ocr_engine",
   "_flag_reason",

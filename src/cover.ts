@@ -10,7 +10,7 @@ import type { z } from "zod";
 import { asciiDigits } from "./normalize.js";
 import { COVER_JSON_SCHEMA, CoverZ } from "./schemas.js";
 import type { Template } from "./templates.js";
-import { tesseractBatch } from "./tesseract.js";
+import { tesseractBatch, type TessResult } from "./tesseract.js";
 import type { Transliterator } from "./translit.js";
 import type { CoverInfo } from "./types.js";
 
@@ -59,6 +59,54 @@ export interface CoverParse {
 }
 
 const DATE_RE = /(\d{1,2}[-/.]\d{1,2}[-/.]\d{4})/;
+
+/**
+ * Labelled fields of cover section 2 ("भाग और मतदान क्षेत्र का विवरण"). The label may be preceded by
+ * junk from the left column (section names) when the whole page is read, so it is not anchored.
+ */
+const META_LABELS: { key: keyof CoverInfo; re: RegExp }[] = [
+  { key: "mainTownVillageHi", re: /कस्?बा\s*(?:अथवा|या)?\s*(?:ग्राम|गाँव|गांव)?\s*[:：]\s*(.*)$/ },
+  { key: "wardHi", re: /(?:^|\s)वार्ड\s*[:：]\s*(.*)$/ },
+  { key: "postOfficeHi", re: /(?:^|\s)(?:डाकघर|डाक\s*घर|पोस्ट\s*ऑफिस)\s*[:：>]\s*(.*)$/ },
+  { key: "policeStationHi", re: /(?:^|\s)(?:थाना|पुलिस\s*स्टेशन)\s*[:：]\s*(.*)$/ },
+  { key: "panchayatHi", re: /(?:^|\s)पंचायत\s*[:：]?\s*(.*)$/ },
+  { key: "blockHi", re: /(?:^|\s)(?:ब्लॉक|ब्लाक|ब्लौक|विकास\s*खंड|विकासखण्ड|विकास\s*खण्ड)\s*[:：]?\s*(.*)$/ },
+  { key: "tehsilHi", re: /(?:^|\s)(?:तहसील|तहसिल)\s*[:：]\s*(.*)$/ },
+  { key: "districtHi", re: /(?:^|\s)(?:जिला|ज़िला|जिल्ला)\s*[:：]\s*(.*)$/ },
+  { key: "pinCode", re: /(?:^|\s)(?:पिन\s*कोड|पिनकोड|पिन)\s*[:：]?\s*(\d[\d\s]{3,9}\d)\s*$/ },
+];
+
+/** A value from a labelled cover line: Devanagari, digits and light punctuation only. */
+export function cleanMetaValue(v: string): string {
+  return asciiDigits(v)
+    .replace(/[^ऀ-ॿ0-9A-Za-z\s.,()/-]/g, " ")
+    .replace(/\s+/g, " ")
+    .replace(/^[\s.,/-]+|[\s.,/-]+$/g, "")
+    .trim();
+}
+
+/** Section-2 fields from the text of a cover page (or of the section-2 box alone). */
+export function parseCoverMetaText(text: string): Partial<Record<keyof CoverInfo, string>> {
+  const lines = asciiDigits(text).split(/\r?\n/).map((l) => l.replace(/\s+/g, " ").trim()).filter(Boolean);
+  const f: Partial<Record<keyof CoverInfo, string>> = {};
+  for (const l of lines) {
+    for (const { key, re } of META_LABELS) {
+      if (f[key] !== undefined) continue;
+      const m = re.exec(l);
+      if (!m) continue;
+      if (key === "pinCode") {
+        const d = m[1].replace(/\D/g, "");
+        if (d.length === 6) f.pinCode = d;
+        continue;
+      }
+      // An empty value ("पंचायत :") is legitimate; stop at the next label on the same line.
+      const v = cleanMetaValue(m[1].split(/\s(?=(?:वार्ड|डाकघर|थाना|पंचायत|ब्लॉक|तहसील|जिला|पिन)\s*[:：])/)[0]);
+      f[key] = /[ऀ-ॿ]/.test(v) ? v : "";
+      break;
+    }
+  }
+  return f;
+}
 
 /** Deterministic parse of the tesseract text of a cover page. All values are strings ("" = absent). */
 export function parseCoverText(text: string): CoverParse {
@@ -150,16 +198,96 @@ export function parseCoverText(text: string): CoverParse {
     }
   }
 
+  // Section 2 (town/village, ward, post office, police station, ..., pin code) from the full text.
+  // readCoverPage() re-reads that box alone at 2x, which is cleaner; those values win in buildCover.
+  Object.assign(f, parseCoverMetaText(text));
+
   const want: (keyof CoverInfo)[] = ["stateHi", "acNo", "acNameHi", "partNo", "revisionYear", "revisionType", "psNameHi", "serialTo"];
   return { fields: f, missing: want.filter((k) => !f[k]) };
 }
 
 export async function readCoverText(pngPath: string, tpl: Template, workDir: string): Promise<string> {
+  return (await readCoverPage(pngPath, tpl, workDir)).text;
+}
+
+export interface CoverRead {
+  /** Whole-page tesseract text (psm 4). */
+  text: string;
+  /** Section-2 box ("मुख्य कस्बा ... पिन कोड") re-read on its own at 2x; "" when the box was not located. */
+  metaText: string;
+  /** Pin code from a digit-only re-read of the pin line; "" when not read. */
+  pinCode: string;
+}
+
+const META_LABEL_WORD = /^[:：]?(?:मुख्य|कस्बा|वार्ड|डाकघर|थाना|पंचायत|ब्लॉक|ब्लाक|तहसील|जिला|पिन)[:：]?$/;
+
+/**
+ * Cover page OCR. The two-column page is read as a whole (psm 4), then the section-2 box is
+ * located from the positions of its label words and re-read alone, upscaled, so the section
+ * names printed in the left column cannot run into the values. The pin code gets a digit-only
+ * pass because the thin "1" of this print is dropped or read as "7" at native resolution.
+ */
+export async function readCoverPage(pngPath: string, tpl: Template, workDir: string): Promise<CoverRead> {
   // Page-segmentation mode 4 (single column of variable-size text) reads the two-column cover far
   // better than mode 6, and English first keeps the digits intact.
-  const png = await sharp(pngPath).greyscale().png().toBuffer();
+  const img = sharp(pngPath);
+  const meta = await img.metadata();
+  const W = meta.width ?? 0, H = meta.height ?? 0;
+  const png = await img.clone().greyscale().png().toBuffer();
   const [r] = await tesseractBatch([png], { langs: tpl.local.langs, psm: tpl.local.coverPsm ?? 4 }, workDir);
-  return r?.text ?? "";
+  const out: CoverRead = { text: r?.text ?? "", metaText: "", pinCode: "" };
+  if (!r || !W || !H) return out;
+
+  // Locate the box: label words share one left edge (x) in the right half of the page.
+  let labels = r.words.filter((w) => META_LABEL_WORD.test(w.text) && w.x > W * 0.3);
+  if (labels.length >= 3) {
+    const xs = labels.map((w) => w.x).sort((a, b) => a - b);
+    const med = xs[Math.floor(xs.length / 2)];
+    labels = labels.filter((w) => Math.abs(w.x - med) < W * 0.03);
+  }
+  if (labels.length < 3) return out;
+  const top = Math.max(0, Math.min(...labels.map((w) => w.y)) - Math.round(H * 0.012));
+  const bottom = Math.min(H, Math.max(...labels.map((w) => w.y + w.h)) + Math.round(H * 0.012));
+  const left = Math.max(0, Math.min(...labels.map((w) => w.x)) - Math.round(W * 0.015));
+  const right = W - Math.round(W * 0.012);
+  if (bottom - top < 20 || right - left < 50) return out;
+  const box = { left, top, width: right - left, height: bottom - top };
+  const crop = await img.clone().extract(box).resize({ width: box.width * 2, kernel: "lanczos3" }).greyscale().normalise().png().toBuffer();
+  const [m] = await tesseractBatch([crop], { langs: tpl.local.langs, psm: 6 }, workDir);
+  if (!m) return out;
+  out.metaText = m.text;
+
+  // Pin code: digit-only re-read of the number on the "पिन कोड" line.
+  const pinLine = m.lines.find((l) => /पिन/.test(l.text));
+  const digitsWord = pinLine?.words.filter((w) => /\d/.test(asciiDigits(w.text))).sort((a, b) => b.w - a.w)[0];
+  if (digitsWord) {
+    const cm = await sharp(crop).metadata();
+    const cw = cm.width ?? 0, ch = cm.height ?? 0;
+    const l2 = Math.max(0, digitsWord.x - 20), t2 = Math.max(0, digitsWord.y - 14);
+    const w2 = Math.min(cw - l2, digitsWord.w + 60), h2 = Math.min(ch - t2, digitsWord.h + 28);
+    if (w2 > 10 && h2 > 10) {
+      const pinPng = await sharp(crop).extract({ left: l2, top: t2, width: w2, height: h2 }).resize({ width: w2 * 3, kernel: "lanczos3" })
+        .extend({ top: 20, bottom: 20, left: 30, right: 30, background: "#fff" }).png().toBuffer();
+      const [d] = await tesseractBatch([pinPng], { langs: "eng", psm: 7, whitelist: "0123456789" }, workDir);
+      const digits = (d?.text ?? "").replace(/\D/g, "");
+      if (digits.length === 6) out.pinCode = digits;
+    }
+  }
+  return out;
+}
+
+/** Applies the section-2 box read (and the digit-only pin read) on top of a whole-page parse. */
+export function applyCoverMeta(regex: CoverParse, read: CoverRead): CoverParse {
+  const f = { ...regex.fields };
+  if (read.metaText) {
+    const box = parseCoverMetaText(read.metaText);
+    for (const [k, v] of Object.entries(box) as [keyof CoverInfo, string][]) {
+      // The box read is cleaner, so it wins even when empty (an empty "पंचायत :" is real).
+      if (v !== undefined && !(k === "pinCode" && !v)) f[k] = v;
+    }
+  }
+  if (read.pinCode) f.pinCode = read.pinCode;
+  return { fields: f, missing: regex.missing };
 }
 
 export function coverPrompt(text: string): string {
@@ -228,11 +356,28 @@ export function buildCover(
   const psNoAndNameHi = pick("psNoAndNameHi") || (psNameHi && partNo ? `${partNo} - ${psNameHi}` : "");
   for (const k of regex.missing) if (!(model && String((model as Record<string, unknown>)[k] ?? "").trim())) w.push(`${pdfLabel}: cover field ${k} not read`);
 
+  const en = (hi: string): string => (hi ? translit.name(hi) : "");
+  const psAddressHi = pick("psAddressHi");
+  const meta = (k: keyof CoverInfo): string => cleanMetaValue(pick(k));
+  const mainTownVillageHi = meta("mainTownVillageHi"), wardHi = meta("wardHi"), postOfficeHi = meta("postOfficeHi");
+  const policeStationHi = meta("policeStationHi"), panchayatHi = meta("panchayatHi"), blockHi = meta("blockHi");
+  const tehsilHi = meta("tehsilHi"), districtHi = meta("districtHi");
+  const pinCode = pick("pinCode", true);
+  if (pinCode && pinCode.length !== 6) w.push(`${pdfLabel}: cover pin code "${pinCode}" is not 6 digits`);
   const cover: CoverInfo = {
     stateHi, stateEn,
-    acNo, acNameHi, acNameEn: acNameHi ? translit.name(acNameHi) : "",
+    acNo, acNameHi, acNameEn: en(acNameHi),
     partNo,
-    psNoAndNameHi, psNameHi, psNameEn: psNameHi ? translit.name(psNameHi) : "", psAddressHi: pick("psAddressHi"),
+    psNoAndNameHi, psNameHi, psNameEn: en(psNameHi), psAddressHi, psAddressEn: en(psAddressHi),
+    mainTownVillageHi, mainTownVillageEn: en(mainTownVillageHi),
+    wardHi, wardEn: en(wardHi),
+    postOfficeHi, postOfficeEn: en(postOfficeHi),
+    policeStationHi, policeStationEn: en(policeStationHi),
+    panchayatHi, panchayatEn: en(panchayatHi),
+    blockHi, blockEn: en(blockHi),
+    tehsilHi, tehsilEn: en(tehsilHi),
+    districtHi, districtEn: en(districtHi),
+    pinCode,
     revisionType, revisionYear,
     qualifyingDate: pick("qualifyingDate"), publicationDate: pick("publicationDate"),
     serialFrom: num(pick("serialFrom", true)), serialTo: num(pick("serialTo", true)), totalElectors: num(pick("totalElectors", true)),

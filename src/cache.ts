@@ -3,7 +3,7 @@ import path from "node:path";
 import type { PageResult, PdfResult } from "./types.js";
 
 /** Bump when cached results become unusable: 2 = cover parsed locally, English names local. */
-export const RESULT_SCHEMA_VERSION = 2;
+export const RESULT_SCHEMA_VERSION = 3; // 3: cover section-2 metadata, printed page numbers, cleaned names
 
 export class ResultCache {
   constructor(private readonly dir: string) {

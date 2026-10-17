@@ -26,13 +26,16 @@ raw-data/<State>/<AC No>-<AC Name>-<Year>-<Draft|Final>/*.pdf
   pdftoppm (300 dpi PNG)
         │
         ├─ page 1 ──► tesseract (full page) ──► regex: state, AC no/name, part no, year, Draft/Final,
-        │             dates, polling station, elector counts; file name cross-checks / fills gaps
+        │             dates, polling station + address, elector counts; file name cross-checks / fills gaps
+        │             section-2 box located from its label words, re-read at 2x ──► town/village, ward,
+        │             post office, police station, panchayat, block, tehsil, district; pin code digit-only
         │             OPENROUTER=true: the same TEXT also goes to the model, its AC/part reads win
         │
         ├─ other pages: tesseract reads the header strip ──► voter_grid / supplement / modification /
         │                                                    deletion (skipped) / summary / other
         │                                                    (unreadable header: local engine assumes a
         │                                                     main-roll grid and warns; hybrid asks the model)
+        │               footer strip (2x) ──► printed page number "कुल पृष्ठ 42 - पृष्ठ 40" ──► Page_no
         ▼
   detect card rows & columns from the printed borders ──► per card, batched tesseract passes:
         │   EPIC box: eng, whitelist, 1x + 2x + 3x-binarised ──► majority vote
@@ -363,7 +366,8 @@ node dist/cli.js ocr-eval                        # score the local read against 
 
 ## CSV columns
 
-The first 14 columns match the existing upload format exactly:
+The first 14 columns match the existing upload format exactly (the dashboard matches columns by
+header name, so the extra columns after them are harmless):
 
 ```
 PS_name_eg, PS_name_hi, Part_no, Epic_no, Name_eg, Name_hi, Relation_type_eg, Relation_type_hi,
@@ -371,12 +375,58 @@ Relation_name_eg, Relation_name_hi, house_no, age, Gender_eg, Gender_hi
 ```
 
 `Gender_eg`/`Gender_hi` and `Relation_type_*` hold the mapped raw values (`Male` / `पुरुष`,
-`Father` / `पिता`); no further normalisation is done. Then audit-only columns the dashboard ignores:
+`Father` / `पिता`); no further normalisation is done.
+
+Then, per voter, the card position and the part's metadata from the cover page (repeated on every
+row so a filtered or merged CSV stays self-describing):
+
+| column | source |
+|---|---|
+| `Serial_no` | the serial printed in the card's top-left box (क्रम संख्या), derived from grid order and cross-checked with the box read |
+| `Page_no` | the page number printed in the page footer (`कुल पृष्ठ 42 - पृष्ठ 40` -> `40`), read per page; falls back to the PDF page index when the footer is unreadable |
+| `Section` | `main`, `supplement` (परिवर्धन की सूची) or `modification` |
+| `State`, `AC_no`, `AC_name_eg`, `AC_name_hi` | cover title / AC line (folder name when the cover is unreadable) |
+| `Main_town_village_*` | मुख्य कस्बा अथवा ग्राम |
+| `Ward_*` | वार्ड |
+| `Post_office_*` | डाकघर |
+| `Police_station_*` | थाना |
+| `Panchayat_*` | पंचायत (often blank on urban parts) |
+| `Block_*` | ब्लॉक |
+| `Tehsil_*` | तहसील |
+| `District_*` | जिला |
+| `Pin_code` | पिन कोड, 6 digits (read with a dedicated digit-only pass) |
+| `PS_address_*` | मतदान स्थल का पता |
+| `Roll_type`, `Roll_year` | Final / Draft and the revision year |
+
+`*_hi` is the Devanagari as printed, `*_eg` its transliteration from the same engine that spells
+the names (`data/translit/overrides.tsv` fixes any spelling, e.g. `नोएडा -> Noida`).
+
+The dashboard's ERoll upload reads all of these: `Serial_no`, `Page_no` and `Section` are stored
+on each voter (and shown as *Sr.* / *Page* in the Matdarpan table); the part metadata is stored
+once per part and shown above the table when a part is selected. `example/` holds a two-row CSV
+in this exact layout; the dashboard's "Example file" button downloads the same.
+
+The section-2 box of the cover ("मुख्य कस्बा ... पिन कोड") is located from the positions of its
+label words and re-read on its own at 2x, so the section names printed in the left column cannot
+run into the values; the pin code additionally gets a digit-only pass (the thin "1" of this print
+is otherwise dropped or read as "7").
+
+Finally the audit-only columns the dashboard ignores:
 
 ```
-_source_pdf, _page, _serial, _section (main|supplement|modification), _ocr_confidence,
+_source_pdf, _page (PDF page index), _ocr_confidence,
 _ocr_engine (tesseract | llm | llm(<why it was escalated>)), _flag_reason
 ```
+
+### Name clean-up
+
+Both Hindi name fields are cleaned before transliteration: quotes, `@`, `|`, `_`, brackets,
+stray combining marks with no base letter (a lone virama, Vedic accents), Latin letters glued to
+a Devanagari token and tokens with no Devanagari letter at all (`“`, `;`, `754`) are dropped.
+Abbreviations survive: `मो.`, and the `0` the rolls print as an abbreviation sign (`कु0`, `मौ0`),
+which the English side renders as `Ku.`, `Mohd.`. The English name is then restricted to letters,
+digits, space, dot, hyphen and apostrophe, so no OCR punctuation can reach `Name_eg`. Cached
+PDFs get the clean-up and fresh English on the next run without re-OCR.
 
 `_flag_reason` is a `;`-separated list. Flagged rows are always written, never dropped:
 
@@ -394,6 +444,7 @@ _ocr_engine (tesseract | llm | llm(<why it was escalated>)), _flag_reason
 | `llm_fallback_empty` | hybrid: model saw no card in an escalated crop; local read kept |
 | `deleted_stamp` | card was overprinted DELETED on a non-deletion page |
 | `part_no_missing` / `part_no_mismatch` | page header part number absent / differs from the cover page |
+| `page_no_mismatch` | the footer's printed page number differs from the PDF page index (`Page_no` holds the printed one, `_page` the index) |
 | `dup_epic_replaced_earlier` | this row replaced an earlier row with the same EPIC |
 
 ## Accuracy (local engine)

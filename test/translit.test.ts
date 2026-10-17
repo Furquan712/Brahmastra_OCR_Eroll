@@ -4,7 +4,7 @@ import os from "node:os";
 import path from "node:path";
 import { test } from "node:test";
 import { fileURLToPath } from "node:url";
-import { Transliterator } from "../src/translit.js";
+import { cleanRoman, Transliterator } from "../src/translit.js";
 import { clusterKey, parseWord } from "../src/translit/devanagari.js";
 import { alignSlots, trainModel, transliterateWord } from "../src/translit/model.js";
 import { schwaKeep, slotsOf } from "../src/translit/rules.js";
@@ -82,6 +82,12 @@ test("Transliterator applies overrides, lexicon and capitalisation", () => {
   assert.equal(t.name("  राम-कुमार  "), "Ram-Kumar");
   assert.equal(t.name("NDT123"), "NDT123");
   assert.equal(t.name(""), "");
+  // OCR punctuation never reaches the English name; "0" as abbreviation sign becomes a dot.
+  assert.equal(t.name("राम@कुमार"), "Ram Kumar");
+  assert.equal(t.name('“ ; मंजू'), "Manju");
+  assert.equal(t.name("कु0 सीमा"), "Ku. Seema");
+  assert.equal(cleanRoman("Sher @Mau0 \"x\" ."), "Sher Mau0 x");
+  assert.equal(cleanRoman(" - Manju"), "Manju");
 });
 
 test("shipped model and seed data give expected spellings", { skip: !fs.existsSync(path.join(dataDir, "model.json")) && "model.json not built" }, () => {

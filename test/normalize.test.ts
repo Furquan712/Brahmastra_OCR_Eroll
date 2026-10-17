@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { epicMatches, mapGender, mapRelation, normalizeEpic, parseIntLoose } from "../src/normalize.js";
+import { cleanNameHi, epicMatches, mapGender, mapRelation, normalizeEpic, parseIntLoose } from "../src/normalize.js";
 import { loadTemplates, selectTemplate } from "../src/templates.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -39,4 +39,20 @@ test("Devanagari digits parse", () => {
   assert.equal(parseIntLoose("३९"), 39);
   assert.equal(parseIntLoose("age 42"), 42);
   assert.equal(parseIntLoose(""), null);
+});
+
+test("cleanNameHi drops OCR garbage but keeps real abbreviations", () => {
+  assert.equal(cleanNameHi("“ ; मंजू"), "मंजू");
+  assert.equal(cleanNameHi("राम@कुमार"), "राम कुमार");
+  assert.equal(cleanNameHi("|| सीता"), "सीता");
+  assert.equal(cleanNameHi("बिट॒टू"), "बिटटू"); // stray Vedic accent
+  assert.equal(cleanNameHi("कु0 सीमा ् व"), "कु0 सीमा व"); // lone virama dropped, abbreviation kept
+  assert.equal(cleanNameHi('नं प्रेमवती "७५४'), "नं प्रेमवती");
+  assert.equal(cleanNameHi("शेर मौ0"), "शेर मौ0");
+  assert.equal(cleanNameHi("मो. इरफान"), "मो. इरफान");
+  assert.equal(cleanNameHi("ok सिंह"), "सिंह");
+  assert.equal(cleanNameHi("राम-प्रसाद"), "राम-प्रसाद");
+  assert.equal(cleanNameHi("  धीर   सिंह "), "धीर सिंह");
+  assert.equal(cleanNameHi(""), "");
+  assert.equal(cleanNameHi("754"), "");
 });

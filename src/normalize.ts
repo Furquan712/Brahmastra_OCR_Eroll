@@ -76,6 +76,39 @@ export function tidyName(s: string): string {
   return s.replace(/\s+/g, " ").replace(/^[\s:.-]+/, "").trim();
 }
 
+// Combining marks that cannot start a token (vowel signs, nukta, virama, nasal/visarga, accents).
+const LEADING_MARKS = /^[\u0900-\u0903\u093A-\u093C\u093E-\u094F\u0951-\u0957\u0962\u0963]+/;
+// Vedic accents / rare signs tesseract emits for print noise; never part of a name.
+const NOISE_MARKS = /[\u0951-\u0954\u0955-\u0957\u0970\u0973-\u097F]/g;
+
+/**
+ * A Hindi name field as read: keeps Devanagari letters and marks, spaces, hyphens, the dot of an
+ * abbreviation ("मो.") and the "0" the rolls print as an abbreviation sign ("कु0", "मौ0").
+ * Drops OCR garbage: quotes, "@", "|", stray marks with no base letter, tokens with no Devanagari
+ * letter at all ("“", ";", "754", "ok"), and Latin letters glued to a Devanagari token.
+ */
+export function cleanNameHi(raw: string): string {
+  let t = asciiDigits(raw.normalize("NFC"))
+    .replace(/[\u200B-\u200D\uFEFF]/g, "")
+    .replace(NOISE_MARKS, "")
+    .replace(/[\u0964\u0965]/g, ".") // danda
+    .replace(/[^\u0900-\u097F0-9A-Za-z\s.\-]/g, " ") // quotes, @, |, _, brackets, ...
+    .replace(/\s+/g, " ")
+    .trim();
+  const tokens: string[] = [];
+  for (let tok of t.split(" ")) {
+    tok = tok.replace(LEADING_MARKS, "").replace(/^[.\-]+/, "");
+    if (!/[\u0905-\u0939\u0958-\u0961\u0972-\u097F]/.test(tok)) continue; // no Devanagari letter: garbage
+    tok = tok.replace(/[A-Za-z]/g, ""); // Latin glued to Devanagari
+    // digits only as a trailing abbreviation sign after a letter ("कु0"); elsewhere they are noise
+    tok = tok.replace(/^\d+|(?<![\u0900-\u097F])\d+|\d+(?=[\u0900-\u097F])/g, "").replace(/\d{2,}$/, "0");
+    tok = tok.replace(/\.{2,}/g, ".").replace(/-{2,}/g, "-").replace(/[.\-]+$/, (m) => (m.includes(".") ? "." : ""));
+    tok = tok.replace(LEADING_MARKS, "");
+    if (tok) tokens.push(tok);
+  }
+  return tokens.join(" ");
+}
+
 /**
  * Model card -> normalized VoterCard. Pure; flags are computed separately in validate.ts.
  * English names are left empty here: the pipeline fills them from the local transliterator.
@@ -85,11 +118,11 @@ export function normalizeCard(c: CardOut, tpl: Template): VoterCard {
   return {
     serial: parseIntLoose(c.serial),
     epicNo: epic,
-    nameHi: tidyName(c.nameHi),
+    nameHi: cleanNameHi(c.nameHi),
     nameEn: "",
     relationTypeHi: cleanLabel(c.relationTypeHi),
     relationType: mapRelation(c.relationTypeHi, tpl),
-    relationNameHi: tidyName(c.relationNameHi),
+    relationNameHi: cleanNameHi(c.relationNameHi),
     relationNameEn: "",
     houseNo: tidyName(c.houseNo),
     age: parseIntLoose(c.age),
