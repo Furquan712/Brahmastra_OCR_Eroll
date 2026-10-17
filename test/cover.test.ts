@@ -3,7 +3,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { test } from "node:test";
-import { applyCoverMeta, buildCover, cleanMetaValue, parseCoverMetaText, parseCoverText, parseErollFilename } from "../src/cover.js";
+import { applyCoverMeta, buildCover, cleanMetaValue, looksLikeCover, parseCoverMetaText, parseCoverText, parseErollFilename, parseSectionList, parseSupplementHeader, titleCaseIfUpper } from "../src/cover.js";
 import { Transliterator } from "../src/translit.js";
 
 // Tesseract (eng+hin, psm 4) output of the Dadri part 794 cover, verbatim including its errors.
@@ -75,6 +75,134 @@ test("parseCoverText reads the assembly (not the parliamentary) seat, part, date
   assert.equal(f.tehsilHi, "गौतमबुद्धनगर");
   assert.equal(f.districtHi, "गौतम बुद्ध नगर");
   assert.equal(f.pinCode, "201308");
+  assert.ok(looksLikeCover(TEXT));
+});
+
+// Tesseract (eng, psm 4) of the Goa part 1 cover, verbatim: an English roll.
+const GOA = `ELECTORAL ROLL 2026 S05 Goa
+
+No. Name and Reservation Status of Assembly Constituency : 26 - DABOLIM (GEN) Part No.:1
+
+No. Name and Reservation Status of Parliamentary Constituency(ies) in which the Assembly Constituency is located : 2 - SOUTH
+GOA (GEN)
+
+1. Details of Revision
+
+Year of Revision 2026 Roll Identification
+Integrated Electoral Roll based on the Draft Roll of Special Intensive Revision
+Qualifying Date 01-01-2026 2026 published on 16-12-2025 and integrated with Additions, Deletions and
+.. . . . Modifications carried out during Special Intensive Revision 2026
+Type of revision Special Intensive Revision
+2026
+Date of Updation 21-02-2026
+
+2. Details of part and polling area
+
+No. and name of sections in the part
+
+1-Near Sohia Pay Phone, New Vaddem
+
+9 Main Town or Village : VASCO-DA-GAMA
+Nan Last Bus Stop, New Vaddem Post Office : VASCO-DA-GAMA
+Nee Aslam Bakery, New Vaddem Police Station : VASCO
+een Bore Well, New Vaddem Block : MORMUGAO
+ave nee ae a Vaddem Subdivision : MORMUGAO
+
+-Near Gajeshri Vidhalaya, New Vaddem District : SOUTH GOA
+
+Pin code : 403802
+
+3. Polling station details
+No. and Name of Polling Station : Type of Polling Station General
+
+(Male/Female/General)
+
+1 - Vaddemnagar English High School, New Vaddem,
+Vasco-da-Gama (Room No. 1) Number of Auxiliary Polling 0
+Stations in this part:
+
+Address of Polling Station :
+
+Vaddemnagar English High School, New Vaddem,
+Vasco-da-Gama
+
+4. NUMBER OF ELECTORS
+
+Starting Ending Net Electors
+Serial No. Serial No. Male Female Third Gender Total
+1 875 371 351 0 722
+
+Signature of Electoral Registration Officer
+
+Total Pages 37 - Page 1`;
+
+test("parseCoverText reads an English (Goa) cover: identifiers, station, address, counts, metadata, sections", () => {
+  const { fields: f, sections, missing } = parseCoverText(GOA);
+  assert.equal(f.stateEn, "Goa");
+  assert.equal(f.acNo, "26");
+  assert.equal(f.acNameHi, "DABOLIM");
+  assert.equal(f.partNo, "1");
+  assert.equal(f.revisionYear, "2026");
+  assert.equal(f.revisionType, "Final");
+  assert.equal(f.qualifyingDate, "01-01-2026");
+  assert.equal(f.publicationDate, "21-02-2026");
+  assert.equal(f.psNameHi, "Vaddemnagar English High School, New Vaddem, Vasco-da-Gama (Room No. 1)");
+  assert.equal(f.psNoAndNameHi, "1 - Vaddemnagar English High School, New Vaddem, Vasco-da-Gama (Room No. 1)");
+  assert.equal(f.psAddressHi, "Vaddemnagar English High School, New Vaddem, Vasco-da-Gama");
+  assert.equal(f.serialFrom, "1");
+  assert.equal(f.serialTo, "875");
+  assert.equal(f.totalElectors, "722");
+  assert.equal(f.mainTownVillageHi, "VASCO-DA-GAMA");
+  assert.equal(f.postOfficeHi, "VASCO-DA-GAMA");
+  assert.equal(f.policeStationHi, "VASCO");
+  assert.equal(f.blockHi, "MORMUGAO");
+  assert.equal(f.tehsilHi, "MORMUGAO"); // "Subdivision"
+  assert.equal(f.districtHi, "SOUTH GOA");
+  assert.equal(f.pinCode, "403802");
+  assert.deepEqual(sections?.[0], { no: "1", name: "Near Sohia Pay Phone, New Vaddem" });
+  assert.deepEqual(missing, []);
+  assert.ok(looksLikeCover(GOA));
+
+  const translit = new Transliterator(fs.mkdtempSync(path.join(os.tmpdir(), "cover-")));
+  const { cover } = buildCover(parseCoverText(GOA), null, parseErollFilename("AC026_SIR-FinalRoll_part_0001.pdf"), translit, "x.pdf");
+  assert.equal(cover.acNameHi, "");
+  assert.equal(cover.acNameEn, "Dabolim");
+  assert.equal(cover.psNameHi, "");
+  assert.equal(cover.psNameEn, "Vaddemnagar English High School, New Vaddem, Vasco-da-Gama (Room No. 1)");
+  assert.equal(cover.districtEn, "South Goa");
+  assert.equal(cover.mainTownVillageEn, "Vasco-Da-Gama");
+  assert.equal(cover.tehsilEn, "Mormugao");
+  assert.equal(cover.pinCode, "403802");
+  assert.equal(cover.sections[0].nameEn, "Near Sohia Pay Phone, New Vaddem");
+  assert.equal(cover.supplementNo, "");
+});
+
+test("parseSectionList reads the cover's section list, wrapped names included", () => {
+  assert.deepEqual(parseSectionList("1-कामबक्शपुर\n2-गुरजा डेरीन कामबक्शपुर\n3-पंडित डेरीन\nकामबक्शपुर"), [
+    { no: "1", name: "कामबक्शपुर" }, { no: "2", name: "गुरजा डेरीन कामबक्शपुर" }, { no: "3", name: "पंडित डेरीन कामबक्शपुर" },
+  ]);
+  assert.deepEqual(parseSectionList("1-Near Sohia Pay Phone, New Vaddem\n2 - Near Last Bus Stop, New Vaddem\nPost Office : VASCO"), [
+    { no: "1", name: "Near Sohia Pay Phone, New Vaddem" }, { no: "2", name: "Near Last Bus Stop, New Vaddem" },
+  ]);
+});
+
+test("a separately published supplement has no cover: its header gives the identifiers", () => {
+  const hdr = "Supplement 2\nList of Addition, Deletion and Modification carried out during Continuous Updation with respect to Ist April 2026\nAssembly Constituency No and Name : 26-DABOLIM Part No. :17\n2- List of Deletions";
+  assert.ok(!looksLikeCover(hdr));
+  assert.deepEqual(parseSupplementHeader(hdr), { supplementNo: "2", acNo: "26", acNameHi: "DABOLIM", partNo: "17", revisionYear: "2026" });
+  const hi = "निर्वाचक नामावली -2026 ,विधानसभा निर्वाचन क्षेत्र: : 62-दादरी भाग संख्या : : 793\nपरिवर्धन की सूची 1 (06-01-2026 01-04-2026 )";
+  const p = parseSupplementHeader(hi);
+  assert.equal(p.acNo, "62");
+  assert.equal(p.acNameHi, "दादरी");
+  assert.equal(p.partNo, "793");
+  const translit = new Transliterator(fs.mkdtempSync(path.join(os.tmpdir(), "cover-")));
+  const { cover } = buildCover({ fields: parseSupplementHeader(hdr), sections: [], missing: [] }, null, parseErollFilename("2026-SUPPLEMENTGEN-S05-26-2-all_together-ENG-17-WI.pdf"), translit, "s.pdf");
+  assert.equal(cover.supplementNo, "2");
+  assert.equal(cover.partNo, "17");
+  assert.equal(cover.acNameEn, "Dabolim");
+  assert.equal(cover.stateEn, "Goa");
+  assert.equal(titleCaseIfUpper("SOUTH GOA"), "South Goa");
+  assert.equal(titleCaseIfUpper("Vasco-da-Gama"), "Vasco-da-Gama");
 });
 
 test("parseCoverMetaText survives left-column junk, missing colons and OCR'd labels", () => {
@@ -119,7 +247,13 @@ test("parseCoverText tolerates a draft roll and missing pieces", () => {
 
 test("parseErollFilename", () => {
   assert.deepEqual(parseErollFilename("2026-EROLLGEN-S24-62-SIR-FinalRoll-Revision1-HIN-794-WI.pdf"), {
-    year: "2026", stateCode: "S24", acNo: "62", type: "Final", partNo: "794",
+    year: "2026", stateCode: "S24", acNo: "62", type: "Final", partNo: "794", supplementNo: "",
+  });
+  assert.deepEqual(parseErollFilename("2026-SUPPLEMENTGEN-S05-26-2-all_together-ENG-17-WI.pdf"), {
+    year: "2026", stateCode: "S05", acNo: "26", type: "Unknown", partNo: "17", supplementNo: "2",
+  });
+  assert.deepEqual(parseErollFilename("AC026_SIR-FinalRoll_part_0001.pdf"), {
+    year: "", stateCode: "", acNo: "26", type: "Final", partNo: "1", supplementNo: "",
   });
   assert.equal(parseErollFilename("part-794.pdf"), null);
 });

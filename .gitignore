@@ -9,3 +9,4 @@ tmp-*/
 output-*/
 cache-*/
 raw-data/
+data/pushed.json

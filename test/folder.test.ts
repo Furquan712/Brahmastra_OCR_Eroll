@@ -32,3 +32,15 @@ test("per-part CSV name and output directory follow the requested layout", () =>
   assert.equal(partCsvName(c, ""), "Uttar Pradesh-390-Varanasi Cantt-2024-Finalunknown.csv");
   assert.equal(partCsvName(c, "7/9"), "Uttar Pradesh-390-Varanasi Cantt-2024-Final7_9.csv");
 });
+
+test("a '<AC name> Supplement <n>' folder belongs to the same AC", () => {
+  const c = parseConstituencyFolder("raw-data/Goa/26-Dabolim Supplement 2-2026-Final");
+  assert.equal(c.parsed, true);
+  assert.equal(c.acNo, "26");
+  assert.equal(c.acName, "Dabolim");
+  assert.equal(c.supplementNo, "2");
+  assert.equal(outputDirName(c), "26-Dabolim-2026");
+  assert.equal(outputCsvName(c), "Goa-26-Dabolim-2026-Final-supplement2.csv");
+  assert.equal(partCsvName(c, "17"), "Goa-26-Dabolim-2026-Final17-supplement2.csv");
+  assert.equal(parseConstituencyFolder("raw-data/Goa/26-Dabolim-2026-Final").supplementNo, "");
+});

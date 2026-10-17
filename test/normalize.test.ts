@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { cleanNameHi, epicMatches, mapGender, mapRelation, normalizeEpic, parseIntLoose } from "../src/normalize.js";
+import { cleanNameHi, cleanNameLatin, epicMatches, mapGender, mapRelation, normalizeEpic, parseIntLoose, parseSerialBox } from "../src/normalize.js";
 import { loadTemplates, selectTemplate } from "../src/templates.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -55,4 +55,32 @@ test("cleanNameHi drops OCR garbage but keeps real abbreviations", () => {
   assert.equal(cleanNameHi("  धीर   सिंह "), "धीर सिंह");
   assert.equal(cleanNameHi(""), "");
   assert.equal(cleanNameHi("754"), "");
+});
+
+test("cleanNameLatin tidies an English roll's names", () => {
+  assert.equal(cleanNameLatin("DEVIKA SANTOSH PILLAI"), "Devika Santosh Pillai");
+  assert.equal(cleanNameLatin("Shamsunder Mayekar"), "Shamsunder Mayekar");
+  assert.equal(cleanNameLatin("Ajoy R. Raj"), "Ajoy R. Raj");
+  assert.equal(cleanNameLatin("SUNITA ABHISHEK RAI 12"), "Sunita Abhishek Rai");
+  assert.equal(cleanNameLatin("Panem@ Venkata | Nitheesh"), "Panem Venkata Nitheesh");
+  assert.equal(cleanNameLatin("D'Souza"), "D'Souza");
+  assert.equal(cleanNameLatin(""), "");
+});
+
+test("parseSerialBox separates the deletion / modification marker from the serial", () => {
+  assert.deepEqual(parseSerialBox("S2 144", "2144"), { serial: 144, marker: "S", supplementNo: "2" });
+  assert.deepEqual(parseSerialBox("#2 93", "293"), { serial: 93, marker: "#", supplementNo: "2" });
+  assert.deepEqual(parseSerialBox("R 1084", "1084"), { serial: 1084, marker: "R", supplementNo: "" });
+  assert.deepEqual(parseSerialBox("1082", "1082"), { serial: 1082, marker: "", supplementNo: "" });
+  assert.deepEqual(parseSerialBox("S2144", "2144"), { serial: 144, marker: "S", supplementNo: "2" });
+  assert.deepEqual(parseSerialBox("", ""), { serial: null, marker: "", supplementNo: "" });
+  assert.deepEqual(parseSerialBox("I082", "1082"), { serial: 1082, marker: "", supplementNo: "" }); // letter-whitelist misread, digits read wins
+  // The spaced read lost the letter; the single-word read of the same box supplies it.
+  assert.deepEqual(parseSerialBox("2 144", "2144", "S2144"), { serial: 144, marker: "S", supplementNo: "2" });
+  assert.deepEqual(parseSerialBox("2 144", "2144", "52144"), { serial: 144, marker: "", supplementNo: "2" });
+  assert.deepEqual(parseSerialBox("R 1084", "1084", "R1084"), { serial: 1084, marker: "R", supplementNo: "" });
+  assert.deepEqual(parseSerialBox("#2 93", "293", "#293"), { serial: 93, marker: "#", supplementNo: "2" });
+  assert.deepEqual(parseSerialBox("7 05", "705", "705", false), { serial: 705, marker: "", supplementNo: "" }); // kerning gap inside one serial
+  assert.deepEqual(parseSerialBox("08", "08", "708"), { serial: 708, marker: "", supplementNo: "" }); // leading digit lost by the line read
+  assert.deepEqual(parseSerialBox("2 144", "2144", "52144", true), { serial: 144, marker: "", supplementNo: "2" });
 });

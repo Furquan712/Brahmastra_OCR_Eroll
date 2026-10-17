@@ -14,7 +14,13 @@ test("header carries serial, page, section, cover metadata and then the audit co
   const cols = csvHeader().split(",");
   assert.equal(cols[14], "Serial_no");
   assert.equal(cols[15], "Page_no");
-  assert.equal(cols[16], "Section");
+  assert.equal(cols[16], "Action_status");
+  assert.equal(cols[17], "Action_reason");
+  assert.equal(cols[18], "Section_no");
+  assert.equal(cols[19], "Section_name_eg");
+  assert.equal(cols[20], "Section_name_hi");
+  assert.equal(cols[21], "Supplement_no");
+  assert.ok(!cols.includes("Section"));
   for (const c of ["State", "AC_no", "AC_name_eg", "AC_name_hi", "Main_town_village_eg", "Main_town_village_hi", "Ward_eg", "Ward_hi",
     "Post_office_eg", "Post_office_hi", "Police_station_eg", "Police_station_hi", "Panchayat_eg", "Panchayat_hi", "Block_eg", "Block_hi",
     "Tehsil_eg", "Tehsil_hi", "District_eg", "District_hi", "Pin_code", "PS_address_eg", "PS_address_hi", "Roll_type", "Roll_year"]) {

@@ -21,7 +21,11 @@ function card(serial: number, epic: string, extra: Partial<VoterCard> = {}): Vot
   };
 }
 
-type TestPage = { page: number; section: "main" | "supplement"; cards: VoterCard[]; printedPage?: number | null; printedTotal?: number | null };
+type TestPage = {
+  page: number; section: "main" | "supplement" | "deletion" | "modification"; cards: VoterCard[];
+  printedPage?: number | null; printedTotal?: number | null; sectionNo?: string; sectionName?: string; supplementNo?: string;
+};
+const PAGE_TYPE = { main: "voter_grid", supplement: "supplement_grid", deletion: "deletion_grid", modification: "modification_grid" } as const;
 
 function pdf(file: string, partNo: string, pages: TestPage[], pageCount = pages.length): PdfResult {
   return {
@@ -32,18 +36,20 @@ function pdf(file: string, partNo: string, pages: TestPage[], pageCount = pages.
       mainTownVillageHi: "नोएडा", mainTownVillageEn: "Noida", wardHi: "नोएडा", wardEn: "Noida", postOfficeHi: "कासना", postOfficeEn: "Kasna",
       policeStationHi: "नॉलेज पार्क", policeStationEn: "Knowledge Park", panchayatHi: "", panchayatEn: "", blockHi: "", blockEn: "",
       tehsilHi: "गौतमबुद्धनगर", tehsilEn: "Gautam Buddh Nagar", districtHi: "गौतम बुद्ध नगर", districtEn: "Gautam Buddh Nagar", pinCode: "201308",
+      sections: [{ no: "1", name: "कामबक्शपुर", nameEn: "Kambakshpur" }, { no: "2", name: "गुरजा डेरीन कामबक्शपुर", nameEn: "Gurja Derin Kambakshpur" }],
+      supplementNo: "",
       revisionType: "Final", revisionYear: "2024", qualifyingDate: "", publicationDate: "", serialFrom: 1, serialTo: null, totalElectors: null,
     },
     pages: pages.map((p) => ({
-      page: p.page, pageType: p.section === "main" ? "voter_grid" : "supplement_grid", partNo, sectionHeader: "", section: p.section,
+      page: p.page, pageType: PAGE_TYPE[p.section], partNo, sectionHeader: "", section: p.section,
       cards: p.cards, cover: null, warnings: [], usage: { inputTokens: 0, outputTokens: 0, calls: 0 }, durationMs: 0,
-      printedPage: p.printedPage, printedTotal: p.printedTotal,
+      printedPage: p.printedPage, printedTotal: p.printedTotal, sectionNo: p.sectionNo, sectionName: p.sectionName, supplementNo: p.supplementNo,
     })),
     status: "ok", startedAt: "", finishedAt: "", usage: { inputTokens: 0, outputTokens: 0, calls: 0 },
   };
 }
 
-const constituency = { folder: "/x", state: "Uttar Pradesh", acNo: "62", acName: "Dadri", year: "2024", type: "Final", parsed: true };
+const constituency = { folder: "/x", state: "Uttar Pradesh", acNo: "62", acName: "Dadri", year: "2024", type: "Final", supplementNo: "", parsed: true };
 
 test("later-read row replaces the earlier one with the same EPIC, position preserved", () => {
   const r = pdf("a.pdf", "1", [
@@ -91,7 +97,7 @@ test("every row carries serial, printed page number, section and the cover metad
   assert.ok(rows[3]._flag_reason.includes("page_no_mismatch"));
   assert.ok(!rows[2]._flag_reason.includes("page_no_mismatch"));
   assert.ok(stats.warnings.some((w) => /p6: footer page number 9/.test(w)));
-  assert.deepEqual(rows.map((x) => x.Section), ["main", "main", "main", "main", "supplement"]);
+  assert.deepEqual(rows.map((x) => x.Action_status), ["existing", "existing", "existing", "existing", "added"]);
   for (const row of rows) {
     assert.equal(row.State, "Uttar Pradesh");
     assert.equal(row.AC_no, "62");
@@ -120,4 +126,57 @@ test("cover metadata falls back to the folder name when the cover was not read",
   assert.equal(rows[0].Roll_type, "Final");
   assert.equal(rows[0].Pin_code, "");
   assert.equal(rows[0].Page_no, "3");
+});
+
+test("action status, reason, section and supplement number per row", () => {
+  const r = pdf("a.pdf", "793", [
+    { page: 3, section: "main", sectionNo: "1", sectionName: "कामबक्शपुर", cards: [card(1, "NDT0000001"), card(2, "NDT0000002", { deleted: true })] },
+    { page: 20, section: "main", sectionNo: "5", sectionName: "नया टोला", cards: [card(600, "NDT0000600", { marker: "#" })] },
+    { page: 40, section: "supplement", supplementNo: "1", cards: [card(1082, "NDT8003485", { sectionNo: "1" }), card(1084, "NDT8091910", { sectionNo: "2", marker: "R", deleted: true })] },
+    { page: 41, section: "deletion", supplementNo: "1", cards: [card(144, "NDT0000144", { sectionNo: "2", marker: "S", markerSupplementNo: "2" }), card(702, "NDT0000702", { sectionNo: "1", marker: "E" })] },
+    { page: 42, section: "modification", supplementNo: "1", cards: [card(93, "NDT0000093", { sectionNo: "2", marker: "#" })] },
+  ]);
+  const { rows } = mergeResults([r], constituency, tpl, cfg, log);
+  const by = Object.fromEntries(rows.map((x) => [x.Epic_no, x]));
+  assert.equal(by.NDT0000001.Action_status, "existing");
+  assert.equal(by.NDT0000001.Section_no, "1");
+  assert.equal(by.NDT0000001.Section_name_hi, "कामबक्शपुर");
+  assert.equal(by.NDT0000001.Section_name_eg, "Kambakshpur");
+  assert.equal(by.NDT0000001.Supplement_no, "");
+  assert.equal(by.NDT0000002.Action_status, "deleted"); // DELETED stamp on a main-roll card
+  assert.equal(by.NDT0000600.Action_status, "modified"); // "#" marker
+  assert.equal(by.NDT0000600.Section_no, "5");
+  assert.equal(by.NDT0000600.Section_name_hi, "नया टोला"); // header name, not in the cover list
+  assert.equal(by.NDT0000600.Section_name_eg, "");
+  assert.equal(by.NDT8003485.Action_status, "added");
+  assert.equal(by.NDT8003485.Section_no, "1");
+  assert.equal(by.NDT8003485.Section_name_eg, "Kambakshpur");
+  assert.equal(by.NDT8003485.Supplement_no, "1");
+  assert.equal(by.NDT8091910.Action_status, "deleted");
+  assert.equal(by.NDT8091910.Action_reason, "Duplicate");
+  assert.equal(by.NDT0000144.Action_status, "deleted");
+  assert.equal(by.NDT0000144.Action_reason, "Shifted");
+  assert.equal(by.NDT0000144.Supplement_no, "2"); // the marker's own digit wins over the page's list number
+  assert.equal(by.NDT0000144.Section_name_eg, "Gurja Derin Kambakshpur");
+  assert.equal(by.NDT0000702.Action_reason, "Expired");
+  assert.ok(!by.NDT0000702._flag_reason.includes("serial_gap"), "deletion lists are never consecutive");
+  assert.equal(by.NDT0000093.Action_status, "modified");
+  assert.equal(by.NDT0000093.Action_reason, "");
+});
+
+test("an English roll leaves the Hindi columns blank and keeps names as read", () => {
+  const goa = selectTemplate(loadTemplates(path.join(root, "templates")), "Goa");
+  const r = pdf("a.pdf", "1", [{ page: 3, section: "main", sectionNo: "1", sectionName: "Near Sohia Pay Phone, New Vaddem", cards: [card(1, "WUC0039404", { nameHi: "Shamsunder Mayekar", nameEn: "Shamsunder Mayekar", relationTypeHi: "Father", relationNameHi: "Shambhu Mayekar", relationNameEn: "Shambhu Mayekar", genderHi: "Male" })] }]);
+  r.cover!.sections = [{ no: "1", name: "Near Sohia Pay Phone, New Vaddem", nameEn: "Near Sohia Pay Phone, New Vaddem" }];
+  r.cover!.psNameHi = ""; r.cover!.psNameEn = "Vaddemnagar English High School";
+  const { rows } = mergeResults([r], { ...constituency, state: "Goa", acNo: "26", acName: "Dabolim" }, goa, cfg, log);
+  assert.equal(rows[0].Name_eg, "Shamsunder Mayekar");
+  assert.equal(rows[0].Name_hi, "");
+  assert.equal(rows[0].Relation_type_eg, "Father");
+  assert.equal(rows[0].Relation_type_hi, "");
+  assert.equal(rows[0].Gender_eg, "Male");
+  assert.equal(rows[0].Gender_hi, "");
+  assert.equal(rows[0].Section_name_eg, "Near Sohia Pay Phone, New Vaddem");
+  assert.equal(rows[0].Section_name_hi, "");
+  assert.equal(rows[0].PS_name_hi, "");
 });

@@ -3,14 +3,14 @@ import path from "node:path";
 import { RESULT_SCHEMA_VERSION, type ResultCache } from "./cache.js";
 import type { Config } from "./config.js";
 import { correctNames } from "./consensus.js";
-import { applyCoverMeta, buildCover, COVER_SCHEMA, CoverModelZ, coverPrompt, parseCoverText, parseErollFilename, readCoverPage, type CoverModelOut } from "./cover.js";
+import { applyCoverMeta, buildCover, COVER_SCHEMA, CoverModelZ, coverPrompt, looksLikeCover, parseCoverText, parseErollFilename, parseSupplementHeader, readCoverPage, type CoverModelOut } from "./cover.js";
 import {
   cropBand, cropRect, detectColumnBands, detectRowBands, downscaleForClassification,
   imageDims, isBlank, templateRowBands, type Band, type Dims,
 } from "./image.js";
 import { cardRects, classifyHeader, localReadCards, readHeaderText, readPrintedPage, type FooterRead, type LocalCard, type Rect } from "./local.js";
 import type { Logger } from "./logger.js";
-import { cleanNameHi, mapGender, mapRelation, normalizeCard } from "./normalize.js";
+import { cleanName, mapGender, mapRelation, normalizeCard } from "./normalize.js";
 import { pdfPageCount, removeQuiet, renderPage } from "./pdf.js";
 import { classifyPrompt, extractPrompt, systemPrompt } from "./prompts.js";
 import { CLASSIFY_JSON_SCHEMA, ClassifyZ, EXTRACT_JSON_SCHEMA, ExtractZ, type CardOut } from "./schemas.js";
@@ -74,7 +74,7 @@ function toCover(c: NonNullable<ReturnType<typeof ClassifyZ.parse>["cover"]>): C
     psNoAndNameHi: c.psNoAndNameHi, psNameHi: c.psNameHi, psNameEn: c.psNameEn, psAddressHi: c.psAddressHi, psAddressEn: "",
     mainTownVillageHi: "", mainTownVillageEn: "", wardHi: "", wardEn: "", postOfficeHi: "", postOfficeEn: "",
     policeStationHi: "", policeStationEn: "", panchayatHi: "", panchayatEn: "", blockHi: "", blockEn: "",
-    tehsilHi: "", tehsilEn: "", districtHi: "", districtEn: "", pinCode: "",
+    tehsilHi: "", tehsilEn: "", districtHi: "", districtEn: "", pinCode: "", sections: [], supplementNo: "",
     revisionType: c.revisionType, revisionYear: c.revisionYear.replace(/\D/g, "").slice(0, 4),
     qualifyingDate: c.qualifyingDate, publicationDate: c.publicationDate,
     serialFrom: num(c.serialFrom), serialTo: num(c.serialTo), totalElectors: num(c.totalElectors),
@@ -93,36 +93,46 @@ async function tracked<T>(ctx: PdfContext, usage: Usage, fn: () => Promise<T>): 
   return r;
 }
 
-/** English names always come from the local transliterator, whichever engine read the Devanagari. */
-function fillEnglish(cards: VoterCard[], translit: Transliterator): void {
+/**
+ * English names: the local transliterator for a Devanagari roll; for a Latin-script roll the read
+ * itself, cleaned (the card's nameHi then holds the raw read and the CSV leaves Name_hi blank).
+ */
+function fillEnglish(cards: VoterCard[], translit: Transliterator, script: Template["script"]): void {
   for (const c of cards) {
-    c.nameEn = translit.name(c.nameHi);
-    c.relationNameEn = translit.name(c.relationNameHi);
+    if (script === "latin") {
+      c.nameEn = cleanName(c.nameHi, "latin");
+      c.relationNameEn = cleanName(c.relationNameHi, "latin");
+    } else {
+      c.nameEn = translit.name(c.nameHi);
+      c.relationNameEn = translit.name(c.relationNameHi);
+    }
   }
 }
 
 /** Cached results keep their OCR but get fresh name cleaning + English, so edits to overrides/model apply without re-OCR. */
-function refreshEnglish(pages: PageResult[], translit: Transliterator): void {
-  const en = (hi: string | undefined): string => (hi ? translit.name(hi) : "");
+function refreshEnglish(pages: PageResult[], translit: Transliterator, tpl: Template): void {
+  // Only a Devanagari value is re-transliterated; an English roll's values stay as read.
+  const en = (hi: string | undefined, cur: string | undefined): string => (hi && /[ऀ-ॿ]/.test(hi) ? translit.name(hi) : (cur ?? ""));
   for (const pg of pages) {
     for (const c of pg.cards) {
-      c.nameHi = cleanNameHi(c.nameHi);
-      c.relationNameHi = cleanNameHi(c.relationNameHi);
+      c.nameHi = cleanName(c.nameHi, tpl.script);
+      c.relationNameHi = cleanName(c.relationNameHi, tpl.script);
     }
-    fillEnglish(pg.cards, translit);
+    fillEnglish(pg.cards, translit, tpl.script);
     const cv = pg.cover;
     if (cv) {
-      cv.acNameEn = en(cv.acNameHi);
-      cv.psNameEn = en(cv.psNameHi);
-      cv.psAddressEn = en(cv.psAddressHi);
-      cv.mainTownVillageEn = en(cv.mainTownVillageHi);
-      cv.wardEn = en(cv.wardHi);
-      cv.postOfficeEn = en(cv.postOfficeHi);
-      cv.policeStationEn = en(cv.policeStationHi);
-      cv.panchayatEn = en(cv.panchayatHi);
-      cv.blockEn = en(cv.blockHi);
-      cv.tehsilEn = en(cv.tehsilHi);
-      cv.districtEn = en(cv.districtHi);
+      cv.acNameEn = en(cv.acNameHi, cv.acNameEn);
+      cv.psNameEn = en(cv.psNameHi, cv.psNameEn);
+      cv.psAddressEn = en(cv.psAddressHi, cv.psAddressEn);
+      cv.mainTownVillageEn = en(cv.mainTownVillageHi, cv.mainTownVillageEn);
+      cv.wardEn = en(cv.wardHi, cv.wardEn);
+      cv.postOfficeEn = en(cv.postOfficeHi, cv.postOfficeEn);
+      cv.policeStationEn = en(cv.policeStationHi, cv.policeStationEn);
+      cv.panchayatEn = en(cv.panchayatHi, cv.panchayatEn);
+      cv.blockEn = en(cv.blockHi, cv.blockEn);
+      cv.tehsilEn = en(cv.tehsilHi, cv.tehsilEn);
+      cv.districtEn = en(cv.districtHi, cv.districtEn);
+      for (const sec of cv.sections ?? []) sec.nameEn = en(sec.name, sec.nameEn);
     }
   }
 }
@@ -150,12 +160,22 @@ async function footerOf(ctx: PdfContext, pngPath: string, dims: Dims, workDir: s
  */
 async function extractCover(
   ctx: PdfContext, pdfFile: string, pngPath: string, workDir: string, usage: Usage, label: string,
-): Promise<{ cover: CoverInfo; warnings: string[]; source: string }> {
+): Promise<{ cover: CoverInfo; warnings: string[]; source: string; isCover: boolean }> {
   const { cfg, tpl, translit, log } = ctx;
   const read = await readCoverPage(pngPath, tpl, workDir);
   const text = read.text;
+  const isCover = looksLikeCover(text);
+  if (!isCover) {
+    // Page 1 of a separately published supplement: a four-line header ("Supplement 2 / ... /
+    // Assembly Constituency No and Name : 26-DABOLIM / Part No. : 17") above the first list.
+    const fields = parseSupplementHeader(text);
+    const out = buildCover({ fields, sections: [], missing: [] }, null, parseErollFilename(pdfFile), translit, path.basename(pdfFile));
+    log.info("cover", `${label}: no cover page (supplement ${out.cover.supplementNo || "?"} of part ${out.cover.partNo || "?"}); identifiers from its header and the file name`);
+    return { ...out, source: "supplement-header", isCover: false };
+  }
   const regex = applyCoverMeta(parseCoverText(text), read);
   if (!read.metaText) log.debug("cover", `${label}: section-2 box not located; metadata from the whole-page text`);
+  if (!regex.sections?.length) log.debug("cover", `${label}: section list not read`);
   let model: CoverModelOut | null = null;
   let source = "tesseract";
   if (cfg.coverViaModel) {
@@ -178,7 +198,7 @@ async function extractCover(
   }
   const out = buildCover(regex, model, parseErollFilename(pdfFile), translit, path.basename(pdfFile));
   if (regex.missing.length) log.debug("cover", `${label}: text parse missed ${regex.missing.join(", ")}`);
-  return { ...out, source };
+  return { ...out, source, isCover: true };
 }
 
 /** Processes a single page: classify, then (if a voter grid) extract cards. */
@@ -223,12 +243,17 @@ async function processPageLlm(ctx: PdfContext, pdfFile: string, pageNo: number, 
     else if (hit(tpl.sectionHints.main ?? [])) pageType = "voter_grid";
   }
 
+  // The header strip is still read locally for the section / list numbers the model is not asked for.
+  const dims0 = await imageDims(pngPath);
+  const bands0 = await detectRowBands(pngPath, dims0, tpl);
+  const hinfo = classifyHeader(await readHeaderText(pngPath, dims0, tpl, path.dirname(pngPath), bands0), !!bands0, pageNo, tpl);
   const result: PageResult = {
     page: pageNo,
     pageType,
-    partNo: cls.partNo.replace(/\D/g, ""),
+    partNo: cls.partNo.replace(/\D/g, "") || hinfo.partNo,
     sectionHeader: cls.sectionHeader,
     section: sectionOf(pageType),
+    sectionNo: hinfo.sectionNo, sectionName: hinfo.sectionName, supplementNo: hinfo.supplementNo,
     cards: [],
     cover,
     warnings,
@@ -236,11 +261,6 @@ async function processPageLlm(ctx: PdfContext, pdfFile: string, pageNo: number, 
     durationMs: 0,
   };
 
-  if (pageType === "deletion_grid") {
-    log.info("page", `${label}: deletion list (${cls.cardCount} cards) - skipped, not voters`);
-    result.durationMs = Date.now() - t0;
-    return result;
-  }
   if (!VOTER_PAGE_TYPES.has(pageType)) {
     log.info("page", `${label}: ${pageType}`);
     result.durationMs = Date.now() - t0;
@@ -256,7 +276,7 @@ async function processPageLlm(ctx: PdfContext, pdfFile: string, pageNo: number, 
 
   // 3. Normalize + order by serial where available (keeps reading order otherwise).
   const cards: VoterCard[] = rawCards.map((c) => ({ ...normalizeCard(c, tpl), engine: "llm" as const }));
-  fillEnglish(cards, ctx.translit);
+  fillEnglish(cards, ctx.translit, tpl.script);
   result.rawEpics = rawCards.map((c) => c.epicNo);
   result.cards = cards;
 
@@ -390,12 +410,15 @@ export function fixSerials(reads: (number | null)[]): { serials: (number | null)
 function localToVoterCard(c: LocalCard, serial: number | null, tpl: Template): VoterCard {
   return {
     serial,
+    sectionNo: c.sectionNo,
+    marker: c.marker,
+    markerSupplementNo: c.markerSupplementNo,
     epicNo: c.epicNo,
-    nameHi: cleanNameHi(c.nameHi),
+    nameHi: cleanName(c.nameHi, tpl.script),
     nameEn: "",
     relationTypeHi: c.relationTypeHi,
     relationType: mapRelation(c.relationTypeHi, tpl),
-    relationNameHi: cleanNameHi(c.relationNameHi),
+    relationNameHi: cleanName(c.relationNameHi, tpl.script),
     relationNameEn: "",
     houseNo: c.houseNo,
     age: c.age,
@@ -424,24 +447,30 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   const dims = await imageDims(pngPath);
   const bands = await detectRowBands(pngPath, dims, tpl);
 
-  // 1. Classification: page 1 is the cover and is parsed from its tesseract text (see
-  //    extractCover); other pages are classified from the tesseract read of the header strip,
-  //    with the model as fallback when the header is unrecognisable.
-  let pageType: PageType;
+  // 1. Classification: page 1 is normally the cover and is parsed from its tesseract text (see
+  //    extractCover); a separately published supplement has no cover, so its page 1 is classified
+  //    like any other page, from the tesseract read of the header strip (the model is the
+  //    fallback when the header is unrecognisable).
+  let pageType: PageType | undefined;
   let partNo = "";
   let sectionHeader = "";
   let cover: CoverInfo | null = null;
   let classifierCards = 0;
   let classifierRows = 0;
   let headerSource = "tesseract";
-  const hdr = pageNo === 1 ? null : classifyHeader(await readHeaderText(pngPath, dims, tpl, workDir), !!bands, pageNo, tpl);
+  const hdr = classifyHeader(await readHeaderText(pngPath, dims, tpl, workDir, bands), !!bands, pageNo, tpl);
   if (pageNo === 1) {
     const cv = await extractCover(ctx, pdfFile, pngPath, workDir, usage, label);
-    pageType = "cover";
     cover = cv.cover;
-    partNo = cv.cover.partNo;
-    headerSource = cv.source;
     warnings.push(...cv.warnings);
+    if (cv.isCover) {
+      pageType = "cover";
+      partNo = cv.cover.partNo;
+      headerSource = cv.source;
+    }
+  }
+  if (pageType) {
+    // cover: nothing more to classify
   } else if (hdr?.pageType && hdr.pageType !== "cover") {
     pageType = hdr.pageType;
     partNo = hdr.partNo;
@@ -482,14 +511,10 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   }
 
   const result: PageResult = {
-    page: pageNo, pageType, partNo, sectionHeader, section: sectionOf(pageType),
+    page: pageNo, pageType, partNo: partNo || cover?.partNo || "", sectionHeader, section: sectionOf(pageType),
+    sectionNo: hdr.sectionNo, sectionName: hdr.sectionName, supplementNo: hdr.supplementNo || cover?.supplementNo || "",
     cards: [], cover, warnings, usage, durationMs: 0,
   };
-  if (pageType === "deletion_grid") {
-    log.info("page", `${label}: deletion list - skipped, not voters`);
-    result.durationMs = Date.now() - t0;
-    return result;
-  }
   if (!VOTER_PAGE_TYPES.has(pageType)) {
     log.info("page", `${label}: ${pageType} (${headerSource})`);
     result.durationMs = Date.now() - t0;
@@ -515,7 +540,12 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   }
   rects = kept;
   const localCards = await localReadCards(pngPath, rects, tpl, workDir, cfg.localMinConf);
-  const { serials, corrected } = fixSerials(localCards.map((c) => c.serial));
+  if (localCards.length < rects.length) log.debug("page", `${label}: ${rects.length - localCards.length} bordered cell(s) with nothing voter-like skipped`);
+  rects = localCards.map((c) => c.rect);
+  // Deletion / modification lists print the voters' ORIGINAL serials, which are not consecutive,
+  // so grid order cannot repair them there.
+  const consecutive = pageType === "voter_grid" || pageType === "supplement_grid";
+  const { serials, corrected } = consecutive ? fixSerials(localCards.map((c) => c.serial)) : { serials: localCards.map((c) => c.serial), corrected: [] as number[] };
 
   // 3. Escalate uncertain cards to the model. Cards are batched (several card images per
   //    call) to amortise the prompt; a batch whose reply has the wrong card count is redone
@@ -540,6 +570,9 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
       return;
     }
     const vc: VoterCard = { ...normalizeCard(raw, tpl), engine: "llm", escalated: localCards[i].escalate, extraFlags: [] };
+    vc.sectionNo = localCards[i].sectionNo;
+    vc.marker = localCards[i].marker;
+    vc.markerSupplementNo = localCards[i].markerSupplementNo;
     rawEpics[i] = raw.epicNo;
     // Serial from the grid position is more reliable than either read.
     if (serials[i] !== null && vc.serial !== serials[i]) {
@@ -593,10 +626,12 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   }
 
   // 4. Page-level name consensus (a confident read elsewhere on the page repairs a 1-char
-  //    variant), then English names: local transliteration for every card, whichever engine read it.
-  const fixed = correctNames(cards, { known: knownNames(ctx) });
+  //    Devanagari variant), then English names: local transliteration for every card, whichever
+  //    engine read it (an English roll's names are taken as read).
+  const fixed = tpl.script === "latin" ? 0 : correctNames(cards, { known: knownNames(ctx) });
   if (fixed) log.debug("page", `${label}: ${fixed} name token(s) repaired by page consensus`);
-  fillEnglish(cards, translit);
+  fillEnglish(cards, translit, tpl.script);
+  if (!result.supplementNo) result.supplementNo = cards.map((c) => c.markerSupplementNo ?? "").find(Boolean) ?? "";
 
   result.cards = cards;
   result.rawEpics = rawEpics;
@@ -624,7 +659,7 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
   const cached = cache.getPdf(hash);
   if (cached) {
     log.info("pdf", `${base}: cached result (${cached.pages.reduce((n, p) => n + p.cards.length, 0)} cards, ${cached.model}) - skipping OCR`);
-    refreshEnglish(cached.pages, ctx.translit);
+    refreshEnglish(cached.pages, ctx.translit, tpl);
     cached.cover = cached.pages.find((x) => x.cover)?.cover ?? null;
     return cached;
   }
@@ -646,7 +681,7 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
       Array.from({ length: last }, (_, k) => k + 1).map(async (p) => {
         const cachedPage = cache.getPage(hash, p);
         if (cachedPage) {
-          refreshEnglish([cachedPage], ctx.translit);
+          refreshEnglish([cachedPage], ctx.translit, tpl);
           slots[p - 1] = cachedPage;
           done++;
           log.debug("pdf", `${base} p${p}: from page cache`);
@@ -679,10 +714,10 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
     // Document-level consensus: names repeat across a part (families), so a token read
     // confidently on one page repairs a one-character variant on another.
     const allCards = pages.flatMap((p) => p.cards);
-    const fixed = correctNames(allCards, { known: knownNames(ctx) });
+    const fixed = tpl.script === "latin" ? 0 : correctNames(allCards, { known: knownNames(ctx) });
     if (fixed) {
       log.info("pdf", `${base}: ${fixed} name token(s) repaired by document consensus`);
-      fillEnglish(allCards, ctx.translit);
+      fillEnglish(allCards, ctx.translit, tpl.script);
     }
 
     const cover = pages.find((x) => x.cover)?.cover ?? null;

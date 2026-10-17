@@ -6,8 +6,8 @@
 import sharp from "sharp";
 import type { Band, Dims } from "./image.js";
 import { detectColumnBands } from "./image.js";
-import { asciiDigits, epicMatches, mapGender, mapRelation, normalizeEpic, parseIntLoose, tidyName } from "./normalize.js";
-import type { Template } from "./templates.js";
+import { asciiDigits, epicMatches, mapGender, mapRelation, normalizeEpic, parseIntLoose, parseSerialBox, tidyName } from "./normalize.js";
+import { labelAlternation, labelRegex, scriptLetters, type Template } from "./templates.js";
 import { tesseractBatch, type TessResult, type TessWord } from "./tesseract.js";
 import type { PageType } from "./types.js";
 import { editDistance } from "./util.js";
@@ -16,8 +16,16 @@ export interface Rect { left: number; top: number; width: number; height: number
 
 export interface LocalCard {
   rect: Rect;
+  /** Index of `rect` in the rectangles given to localReadCards (cells that were not cards are skipped). */
+  index: number;
   serial: number | null;
   serialConf: number;
+  /** Marker printed before the serial: deletion reason letter (E S R M Q) or "#" (modified). */
+  marker: string;
+  /** Supplement digit glued to the marker ("S2 144" -> "2"). */
+  markerSupplementNo: string;
+  /** Section number from the small box next to the serial; "" when the card has none (main roll). */
+  sectionNo: string;
   epicNo: string;
   epicRaw: string;
   epicConf: number;
@@ -67,32 +75,53 @@ function bbox(words: TessWord[]): Box | undefined {
   return { x, y, w: r - x, h: b - y };
 }
 
-/** Finds a gender word in a line, tolerating one OCR'd character (पुरूष, महीला). */
-export function fuzzyGender(words: string[], genderWords: string[]): string {
-  for (const w of words) for (const g of genderWords) if (w === g) return g;
+/** Finds a gender word in a line, tolerating one OCR'd character (पुरूष, महीला / Femle). */
+export function fuzzyGender(words: string[], genderWords: string[], script: Template["script"] = "devanagari"): string {
+  const letters = script === "latin" ? /[^A-Za-z]/g : /[^ऀ-ॿ]/g;
+  const norm = (x: string) => (script === "latin" ? x.toLowerCase() : x);
+  for (const w of words) for (const g of genderWords) if (norm(w) === norm(g)) return g;
   for (const w of words) {
-    const clean = w.replace(/[^ऀ-ॿ]/g, "");
+    const clean = norm(w.replace(letters, ""));
     if (clean.length < 3) continue;
-    for (const g of genderWords) if (g.length >= 3 && editDistance(clean, g) <= 1) return g;
+    for (const g of genderWords) if (g.length >= 3 && editDistance(clean, norm(g).replace(letters, "")) <= 1) return g;
   }
   return "";
 }
 
 const LABEL_SPLIT = /\s*[:：]\s*/;
 
+/** Whole-word test for a Latin label, substring test for Devanagari (OCR often glues marks). */
+function hasLabel(line: string, label: string, script: Template["script"]): boolean {
+  if (script === "latin") return new RegExp(`\\b${label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}s?\\b`, "i").test(line);
+  return line.includes(label);
+}
+
 /**
  * Parses the Tesseract read of a card body (name / relation / house / age-gender lines).
- * Label matching is tolerant of OCR damage; line position is the fallback.
+ * Labels come from the template (Hindi: नाम / पिता का नाम / मकान संख्या / आयु, लिंग; English:
+ * Name / Fathers Name / House Number / Age, Gender); matching is tolerant of OCR damage and line
+ * position is the fallback.
  */
 export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   const out: BodyFields = {
     nameHi: "", nameConf: 0, relationTypeHi: "", relationNameHi: "", relationConf: 0,
     houseNo: "", houseConf: 0, age: null, genderHi: "", ageGenderConf: 0, deleted: false,
   };
-  const lines = res.lines.filter((l) => l.text.trim());
+  // Apostrophes vary between prints ("Father's Name" / "Fathers Name") and OCR; labels never need them.
+  const lines = res.lines.filter((l) => l.text.trim()).map((l) => ({ ...l, text: l.text.replace(/['’]/g, "") }));
   const used = new Set<number>();
   const joined = res.text;
-  if (/DELETED|विलोपित|DELETE/i.test(joined)) out.deleted = true;
+  if (/DELET|विलोपित/i.test(joined)) out.deleted = true;
+  const script = tpl.script;
+  const L = tpl.labels ?? {};
+  const nameLabels = L.name?.length ? L.name : ["नाम"];
+  const nameStartRe = new RegExp(`^\\W{0,2}(?:${labelAlternation(nameLabels)})\\s*[:：ः]`, "iu");
+  const nameRe = labelRegex(nameLabels)!;
+  const ageRe = labelRegex(L.age?.length ? L.age : ["आयु", "उम्र"])!;
+  const genderRe = labelRegex(L.gender?.length ? L.gender : ["लिंग"])!;
+  const houseRe = labelRegex(L.house?.length ? L.house : ["मकान संख्या", "गृह संख्या"])!;
+  const houseLooseRe = labelRegex(L.houseLoose);
+  const nameWord = script === "latin" ? /\bName\b/i : /नाम/;
 
   const valueOf = (line: { text: string; words: { text: string; conf: number }[] }): { value: string; conf: number } => {
     const idx = line.text.search(LABEL_SPLIT);
@@ -105,30 +134,32 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
     return { value, conf };
   };
 
-  const relationLabels = Object.keys(tpl.relationMap).filter((k) => /[ऀ-ॿ]/.test(k) && !/ /.test(k));
-  const genderWords = Object.keys(tpl.genderMap).filter((k) => /[ऀ-ॿ]/.test(k));
+  const ofScript = (k: string) => (script === "latin" ? /^[A-Za-z ]+$/.test(k) : /[ऀ-ॿ]/.test(k));
+  const relationLabels = Object.keys(tpl.relationMap).filter((k) => ofScript(k) && !/ /.test(k)).sort((a, b) => a.length - b.length);
+  const genderWords = Object.keys(tpl.genderMap).filter(ofScript).sort((a, b) => b.length - a.length);
+  const findGender = (t: string): string => genderWords.find((gw) => hasLabel(t, gw, script)) ?? "";
 
   // 1. age/gender line: most distinctive (digits + gender word).
   for (const [i, l] of lines.entries()) {
     const t = asciiDigits(l.text);
-    const g = genderWords.find((gw) => t.includes(gw)) || fuzzyGender(l.words.map((w) => w.text), genderWords);
-    const ageM = /(?:^|[^\d])(\d{1,3})(?!\d)/.exec(t.replace(/^.*?आयु|^.*?उम्र/u, (m) => m.replace(/\d/g, " ")));
-    if (g || /आयु|उम्र|लिंग/.test(t)) {
+    const g = findGender(t) || fuzzyGender(l.words.map((w) => w.text), genderWords, script);
+    const ageM = /(?:^|[^\d])(\d{1,3})(?!\d)/.exec(t.replace(new RegExp(`^.*?${ageRe.source}`, "iu"), (m) => m.replace(/\d/g, " ")));
+    if (g || ageRe.test(t) || genderRe.test(t)) {
       used.add(i);
       const ageWord = l.words.find((w) => /^\d{1,3}$/.test(asciiDigits(w.text)));
       out.age = ageWord ? parseIntLoose(ageWord.text) : ageM ? Number(ageM[1]) : null;
-      out.genderHi = g ?? "";
-      const gWord = l.words.find((w) => g && (w.text.includes(g) || editDistance(w.text.replace(/[^ऀ-ॿ]/g, ""), g) <= 1));
+      out.genderHi = g;
+      const gWord = l.words.find((w) => g && (hasLabel(w.text, g, script) || editDistance(w.text.replace(scriptLetters(tpl), "").toLowerCase(), g.replace(scriptLetters(tpl), "").toLowerCase()) <= 1));
       out.ageGenderConf = Math.min(ageWord?.conf ?? 0, gWord?.conf ?? 0);
       out.ageLine = bbox(l.words);
       break;
     }
   }
-  // 2. relation line: "<पिता|पति|माता> का नाम: X"
+  // 2. relation line: "<पिता|पति|माता> का नाम: X" / "Fathers Name: X"
   for (const [i, l] of lines.entries()) {
     if (used.has(i)) continue;
-    const lab = relationLabels.find((r) => l.text.includes(r));
-    if (lab && /नाम|नामः|नाम:/.test(l.text) && !/^\s*नाम\b/.test(l.text)) {
+    const lab = relationLabels.find((r) => hasLabel(l.text, r, script));
+    if (lab && nameWord.test(l.text) && !nameStartRe.test(l.text)) {
       used.add(i);
       out.relationTypeHi = lab;
       const v = valueOf(l);
@@ -137,10 +168,10 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
       break;
     }
   }
-  // 3. house line: "मकान संख्या : X" (label often damaged -> accept "संख्या" alone)
+  // 3. house line: "मकान संख्या : X" / "House Number : X" (label often damaged -> accept the loose label alone)
   for (const [i, l] of lines.entries()) {
     if (used.has(i)) continue;
-    if (/(मकान|गृह|संख्या|सकान)/.test(l.text) && !/आयु|लिंग/.test(l.text)) {
+    if ((houseRe.test(l.text) || houseLooseRe?.test(l.text)) && !ageRe.test(l.text) && !genderRe.test(l.text)) {
       used.add(i);
       const v = valueOf(l);
       out.houseNo = v.value;
@@ -148,10 +179,10 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
       break;
     }
   }
-  // 4. name line: "नाम : X" - first remaining line that starts with the name label.
+  // 4. name line: "नाम : X" / "Name : X" - first remaining line that starts with the name label.
   for (const [i, l] of lines.entries()) {
     if (used.has(i)) continue;
-    if (/^\s*(नाम|नामः|नाम:)/.test(l.text) || /नाम/.test(l.text)) {
+    if (nameStartRe.test(l.text) || nameRe.test(l.text)) {
       used.add(i);
       const v = valueOf(l);
       out.nameHi = v.value;
@@ -172,25 +203,83 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   return out;
 }
 
-/** Recognise the page kind from the header strip text + whether a card grid was found. */
-export function classifyHeader(headerText: string, hasBands: boolean, pageNo: number, tpl: Template): { pageType: PageType | null; partNo: string; sectionHeader: string } {
+export interface HeaderInfo {
+  pageType: PageType | null;
+  partNo: string;
+  sectionHeader: string;
+  /** Main-roll pages: "अनुभाग संख्या और नाम : 1-कामबक्शपुर" / "Section No and Name 1-Near ..." */
+  sectionNo: string;
+  sectionName: string;
+  /** "परिवर्धन की सूची 1", "List of Additions 1 (...)", or a "Supplement 2" line. */
+  supplementNo: string;
+}
+
+const LIST_KINDS: { kind: PageType; hint: string; re: RegExp }[] = [
+  { kind: "deletion_grid", hint: "deletion", re: /विलोपन(?:ों)?\s*की\s*सूची|List\s+of\s+Deletions?\b/i },
+  { kind: "modification_grid", hint: "modification", re: /संशोधन(?:ों)?\s*की\s*सूची|List\s+of\s+Modifications?\b/i },
+  { kind: "supplement_grid", hint: "supplement", re: /परिवर्धन(?:ों)?\s*की\s*सूची|पूरक\s*सूची|List\s+of\s+Additions?\b/i },
+  { kind: "voter_grid", hint: "main", re: /अनुभाग\s*संख्या|Section\s*No\.?\s*(?:and|&)\s*Name/i },
+];
+
+/** A section name as printed on a header line, without the OCR debris of the other script. */
+export function cleanSectionName(name: string, script: Template["script"]): string {
+  const junk = script === "latin" ? /[ऀ-ॿ]/ : /[A-Za-z]/;
+  return name
+    .replace(/[^ऀ-ॿA-Za-z0-9\s.,()'/-]/g, " ")
+    .split(/\s+/)
+    .filter((t) => t && !junk.test(t))
+    .join(" ")
+    .replace(/^[\s.,/-]+|[\s.,/-]+$/g, "")
+    .trim();
+}
+
+/**
+ * Recognises the page kind from the header strip text + whether a card grid was found, and reads
+ * the part / section / list numbers printed there. Works for Hindi and English rolls. When several
+ * list headings appear (a supplement's description line names all three kinds, then "2- List of
+ * Deletions" names the one on the page), the last one wins.
+ */
+export function classifyHeader(headerText: string, hasBands: boolean, pageNo: number, tpl: Template): HeaderInfo {
   const rawLines = asciiDigits(headerText).split(/\r?\n/).map((l) => l.replace(/\s+/g, " ").trim()).filter(Boolean);
   const t = rawLines.join(" ");
-  const m = /भाग\s*संख्या\s*[:：\s]*(\d{1,4})/.exec(t) || /(\d{1,4})\s*$/.exec(rawLines[0] ?? "");
+  const m = /(?:भाग\s*संख्या|Part\s*No\.?)\s*[:：\s]*(\d{1,4})/i.exec(t) || /(\d{1,4})\s*$/.exec(rawLines[0] ?? "");
   const partNo = m ? m[1] : "";
-  const hit = (keys: string[] | undefined) => (keys ?? []).some((k) => t.includes(k));
-  const second = rawLines.slice(1).join(" ").trim();
+  const hintsOf = (h: string) => tpl.sectionHints[h] ?? [];
+  let best: { kind: PageType; line: string } | null = null;
+  for (const line of rawLines) {
+    for (const k of LIST_KINDS) {
+      if (hintsOf(k.hint).some((h) => line.includes(h)) || k.re.test(line)) {
+        best = { kind: k.kind, line };
+        break;
+      }
+    }
+  }
   let pageType: PageType | null = null;
-  if (pageNo === 1) pageType = "cover";
-  else if (/निर्वाचकों का सार|निर्वाचकों की संख्या|नामावली का प्रकार/.test(t) && !hasBands) pageType = "summary";
-  else if (hit(tpl.sectionHints.deletion) || /विलोपन/.test(t)) pageType = "deletion_grid";
-  else if (hit(tpl.sectionHints.modification) || /संशोधन/.test(t)) pageType = "modification_grid";
-  else if (hit(tpl.sectionHints.supplement) || /परिवर्धन|पूरक/.test(t)) pageType = "supplement_grid";
-  else if (hit(tpl.sectionHints.main) || /अनुभाग/.test(t)) pageType = "voter_grid";
-  else if (!hasBands) pageType = "other";
-  // hasBands but no recognisable header -> null (caller asks the vision model)
-  if (pageType && pageType.endsWith("_grid") && !hasBands) pageType = null;
-  return { pageType, partNo, sectionHeader: second };
+  // The summary page's bordered table looks like a card grid to the row detector, so its heading
+  // decides regardless; a page whose header names a list is that list even when the grid detector
+  // saw nothing (a last page with a single card has no full-width border).
+  if (/निर्वाचकों\s*का\s*सार|निर्वाचकों\s*की\s*संख्या|नामावली\s*का\s*प्रकार|SUMMARY\s+OF\s+ELECTORS|NUMBER\s+OF\s+ELECTORS/i.test(t)) pageType = "summary";
+  else if (best) pageType = best.kind;
+  else if (!hasBands) pageType = pageNo === 1 ? "cover" : "other";
+  // hasBands but no recognisable header -> null (caller decides)
+
+  let sectionNo = "", sectionName = "", supplementNo = "";
+  if (best?.kind === "voter_grid") {
+    const sm = /(?:अनुभाग\s*संख्या\s*(?:और|व|एवं)?\s*नाम|Section\s*No\.?\s*(?:and|&)?\s*Name)\s*[:：]?\s*(\d{1,3})\s*[-–.]\s*(.*)$/i.exec(best.line);
+    if (sm) {
+      sectionNo = String(Number(sm[1]));
+      sectionName = cleanSectionName(sm[2], tpl.script);
+    }
+  } else if (best) {
+    const lm = /(?:सूची|Additions?|Deletions?|Modifications?)\s*[-–]?\s*(\d{1,2})\s*(?:\(|$)/i.exec(best.line);
+    if (lm) supplementNo = String(Number(lm[1]));
+  }
+  if (!supplementNo) {
+    const sp = /(?:Supplement|अनुपूरक|परिशिष्ट|पूरक\s*सूची)\s*(?:No\.?|संख्या)?\s*[:：-]?\s*(\d{1,2})\b/i.exec(t);
+    if (sp) supplementNo = String(Number(sp[1]));
+  }
+  const second = rawLines.slice(1).join(" ").trim();
+  return { pageType, partNo, sectionHeader: best?.line ?? second, sectionNo, sectionName, supplementNo };
 }
 
 /* ---------- image-level ---------- */
@@ -204,8 +293,11 @@ function sub(r: Rect, box: { left: number; top: number; width: number; height: n
   };
 }
 
-export async function readHeaderText(pngPath: string, dims: Dims, tpl: Template, workDir: string): Promise<string> {
-  const h = Math.round(dims.height * tpl.local.headerFraction);
+export async function readHeaderText(pngPath: string, dims: Dims, tpl: Template, workDir: string, bands?: Band[] | null): Promise<string> {
+  // Everything above the first card row is header (a separately published supplement has a
+  // four-line header); without a grid, the template's fixed fraction.
+  let h = Math.round(dims.height * tpl.local.headerFraction);
+  if (bands && bands.length) h = Math.max(Math.round(dims.height * 0.02), Math.min(bands[0].top - 4, Math.round(dims.height * 0.2)));
   const png = await sharp(pngPath).extract({ left: 0, top: 0, width: dims.width, height: h }).greyscale().png().toBuffer();
   const [r] = await tesseractBatch([png], { langs: tpl.local.langs, psm: 6 }, workDir);
   return r?.text ?? "";
@@ -218,6 +310,8 @@ export function parseFooterText(text: string): FooterRead {
   const t = asciiDigits(text).replace(/\s+/g, " ").trim();
   const out: FooterRead = { page: null, total: null, text: t };
   let m = /(?:कुल\s*)?पृष्ठ\s*(\d{1,4})\s*[-–—]+\s*पृष्ठ\s*(\d{1,4})/.exec(t);
+  if (m) { out.total = Number(m[1]); out.page = Number(m[2]); return out; }
+  m = /Total\s*Pages?\s*(\d{1,4})\s*[-–—]+\s*Page\s*(\d{1,4})/i.exec(t);
   if (m) { out.total = Number(m[1]); out.page = Number(m[2]); return out; }
   m = /page\s*(\d{1,4})\s*(?:of|\/)\s*(\d{1,4})/i.exec(t);
   if (m) { out.page = Number(m[1]); out.total = Number(m[2]); return out; }
@@ -240,6 +334,51 @@ export async function readPrintedPage(pngPath: string, dims: Dims, tpl: Template
   return parseFooterText(r?.text ?? "");
 }
 
+export interface TopBoxes { serial: Rect | null; section: Rect | null }
+
+/**
+ * The small boxes printed along the top-left of a card (serial, and on supplement / deletion /
+ * modification cards the section number), found from their own borders so the crops hold the
+ * digits alone whatever the print size (A4 roll, oversized supplement). Null = not found.
+ */
+export async function detectTopBoxes(pngPath: string, r: Rect): Promise<TopBoxes> {
+  const w = Math.max(10, Math.round(r.width * 0.68));
+  const h = Math.max(10, Math.round(r.height * 0.24));
+  const { data } = await sharp(pngPath).extract({ left: r.left, top: r.top, width: w, height: h }).greyscale().raw().toBuffer({ resolveWithObject: true });
+  const dark = 150;
+  // Vertical rules: columns dark over at least half the strip (a box is 12-15% of the card, the
+  // strip 24%, so a box border covers 50-65% of it; a digit stroke reaches ~35%).
+  const colDark = new Int32Array(w);
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) if (data[y * w + x] < dark) colDark[x]++;
+  const rules: { x0: number; x1: number; full: boolean }[] = [];
+  for (let x = 0; x < w; x++) {
+    if (colDark[x] < h * 0.5) continue;
+    const last = rules[rules.length - 1];
+    if (last && x - last.x1 <= 2) { last.x1 = x; last.full = last.full || colDark[x] >= h * 0.95; }
+    else rules.push({ x0: x, x1: x, full: colDark[x] >= h * 0.95 });
+  }
+  // Drop the card's own left border (dark over the whole strip) and anything too thick to be a rule.
+  const xs = rules.filter((q) => !q.full && q.x0 > 2 && q.x1 - q.x0 < Math.max(6, r.width * 0.01));
+  const boxes: Rect[] = [];
+  for (let i = 0; i + 1 < xs.length && boxes.length < 2; i += 2) {
+    const left = xs[i].x1 + 1, right = xs[i + 1].x0 - 1;
+    if (right - left < r.width * 0.05 || right - left > r.width * 0.45) break;
+    // Horizontal borders of this box: rows dark across most of its width but not across the whole
+    // strip (that is the card's own top border).
+    const rows: number[] = [];
+    for (let y = 0; y < h; y++) {
+      let d = 0, all = 0;
+      for (let x = 0; x < w; x++) if (data[y * w + x] < dark) { all++; if (x >= left && x <= right) d++; }
+      if (d >= (right - left) * 0.7 && all < w * 0.9) rows.push(y);
+    }
+    if (rows.length < 2) break;
+    const top = rows[0] + 1, bottom = rows[rows.length - 1] - 1;
+    if (bottom - top < r.height * 0.04) break;
+    boxes.push({ left: r.left + left + 1, top: r.top + top + 1, width: Math.max(1, right - left - 2), height: Math.max(1, bottom - top - 2) });
+  }
+  return { serial: boxes[0] ?? null, section: boxes[1] ?? null };
+}
+
 /** Card rectangles for all detected bands (left-to-right, top-to-bottom). */
 export async function cardRects(pngPath: string, dims: Dims, bands: Band[], tpl: Template): Promise<Rect[]> {
   const rects: Rect[] = [];
@@ -251,12 +390,14 @@ export async function cardRects(pngPath: string, dims: Dims, bands: Band[], tpl:
 }
 
 const latinInName = (s: string): boolean => /[A-Za-z]/.test(s);
+/** Characters of the other script inside a name are OCR garbage. */
+export const foreignInName = (s: string, script: Template["script"]): boolean => (script === "latin" ? /[ऀ-ॿ]/.test(s) : latinInName(s));
 
 interface Read { v: string; conf: number }
 
-/** Two reads of a Devanagari field: drop Latin garbage, prefer the confident one, reward agreement. */
-export function voteName(a: Read, b: Read): Read {
-  const ok = (r: Read): boolean => !!r.v && !latinInName(r.v);
+/** Two reads of a name field: drop reads with garbage from the other script, prefer the confident one, reward agreement. */
+export function voteName(a: Read, b: Read, script: Template["script"] = "devanagari"): Read {
+  const ok = (r: Read): boolean => !!r.v && !foreignInName(r.v, script);
   const A = ok(a) ? a : null;
   const B = ok(b) ? b : null;
   if (A && B) {
@@ -280,9 +421,9 @@ export function voteEpic(reads: Read[], tpl: Template): Read {
 }
 
 /** Merges the eng+hin body read (A: labels, digits) with the Hindi-only read (B: names). */
-export function mergeBodies(A: BodyFields, B: BodyFields): BodyFields {
-  const name = voteName({ v: A.nameHi, conf: A.nameConf }, { v: B.nameHi, conf: B.nameConf });
-  const rel = voteName({ v: A.relationNameHi, conf: A.relationConf }, { v: B.relationNameHi, conf: B.relationConf });
+export function mergeBodies(A: BodyFields, B: BodyFields, script: Template["script"] = "devanagari"): BodyFields {
+  const name = voteName({ v: A.nameHi, conf: A.nameConf }, { v: B.nameHi, conf: B.nameConf }, script);
+  const rel = voteName({ v: A.relationNameHi, conf: A.relationConf }, { v: B.relationNameHi, conf: B.relationConf }, script);
   const ageFromA = A.age !== null;
   return {
     nameHi: name.v, nameConf: name.conf,
@@ -312,6 +453,10 @@ export async function localReadCards(pngPath: string, rects: Rect[], tpl: Templa
   const epicCrops2x: Buffer[] = [];
   const epicCrops3x: Buffer[] = [];
   const serialCrops: Buffer[] = [];
+  const serialCrops3x: Buffer[] = [];
+  const sectionCrops: Buffer[] = [];
+  const sectionCrops4x: Buffer[] = [];
+  const serialBoxFound: boolean[] = [];
   const bodyCrops: Buffer[] = [];
   const bodyCropsHi: Buffer[] = [];
   const hindiOnly = L.langs.split("+").includes("hin") ? "hin" : L.langs;
@@ -320,28 +465,52 @@ export async function localReadCards(pngPath: string, rects: Rect[], tpl: Templa
     epicCrops.push(await img.clone().extract(e).greyscale().png().toBuffer());
     epicCrops2x.push(await img.clone().extract(e).resize({ width: e.width * 2, kernel: "lanczos3" }).greyscale().normalise().png().toBuffer());
     epicCrops3x.push(await img.clone().extract(e).resize({ width: e.width * 3, kernel: "lanczos3" }).greyscale().normalise().threshold(165).png().toBuffer());
-    // Serial box interior only (the box border confuses tesseract), padded with white and upscaled.
-    const sb = sub(r, L.serialBox);
-    serialCrops.push(
-      await img.clone().extract(sb).resize({ width: sb.width * 2, kernel: "lanczos3" }).greyscale()
-        .extend({ top: 16, bottom: 16, left: 24, right: 24, background: "#fff" }).png().toBuffer(),
-    );
+    // Serial / section box interiors only (the box borders confuse tesseract), found from the
+    // borders themselves, else from the template; padded with white and upscaled.
+    const found = await detectTopBoxes(pngPath, r);
+    serialBoxFound.push(!!found.serial);
+    // Box interiors with a margin off the borders (a border row left in the crop turns a "2" into a "1").
+    const inner = (b: Rect): Rect => {
+      const mx = Math.max(3, Math.round(b.height * 0.06)), my = Math.max(3, Math.round(b.height * 0.07));
+      return { left: b.left + mx, top: b.top + my, width: Math.max(4, b.width - 2 * mx), height: Math.max(4, b.height - 2 * my) };
+    };
+    const sb = found.serial ? inner(found.serial) : sub(r, L.serialBox);
+    const pad = { top: 16, bottom: 16, left: 24, right: 24, background: "#fff" };
+    // Digits read best at 60-100 px tall: the A4 boxes (~45 px) are doubled, the oversized
+    // supplement print (~100 px) is read as is (doubling it loses the leading digit).
+    const scaleOf = (b: Rect): number => (b.height >= 70 ? 1 : b.height >= 40 ? 2 : 3);
+    const up = (b: Rect, k: number) => (k > 1 ? img.clone().extract(b).resize({ width: b.width * k, kernel: "lanczos3" }) : img.clone().extract(b));
+    serialCrops.push(await up(sb, scaleOf(sb)).greyscale().extend(pad).png().toBuffer());
+    serialCrops3x.push(await up(sb, 2).greyscale().extend(pad).png().toBuffer());
+    // A main-roll card has no section box: only a box found by its borders is read (twice: plain
+    // and binarised at double scale, the small digit is faint on the oversized supplement print).
+    const xb = found.section ? inner(found.section) : null;
+    const blank = async () => sharp({ create: { width: 40, height: 20, channels: 3, background: "#fff" } }).png().toBuffer();
+    sectionCrops.push(xb ? await up(xb, scaleOf(xb)).greyscale().extend(pad).png().toBuffer() : await blank());
+    sectionCrops4x.push(xb ? await up(xb, scaleOf(xb) * 2).greyscale().normalise().threshold(160).extend(pad).png().toBuffer() : await blank());
     const bb = sub(r, L.bodyBox);
     bodyCrops.push(await img.clone().extract(bb).greyscale().png().toBuffer());
     bodyCropsHi.push(await img.clone().extract(bb).resize({ width: bb.width * 2, kernel: "lanczos3" }).greyscale().normalise().png().toBuffer());
   }
   const WL = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/";
-  const [epicRes, epic2xRes, epic3xRes, serialRes, bodyRes, bodyHiRes] = await Promise.all([
+  // The serial box is read twice: digits only (the serial itself) and with letters, for the marker a
+  // deletion / modification card prints before the serial ("S2 144", "#2 93", "R 1084").
+  const SWL = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ# ";
+  const [epicRes, epic2xRes, epic3xRes, serialRes, serialAlnumRes, serialWordRes, sectionRes, section4xRes, bodyRes, bodyHiRes] = await Promise.all([
     tesseractBatch(epicCrops, { langs: "eng", psm: 7, whitelist: WL }, workDir),
     tesseractBatch(epicCrops2x, { langs: "eng", psm: 7, whitelist: WL }, workDir),
     tesseractBatch(epicCrops3x, { langs: "eng", psm: 7, whitelist: WL }, workDir),
     tesseractBatch(serialCrops, { langs: "eng", psm: 7, whitelist: "0123456789" }, workDir),
+    tesseractBatch(serialCrops, { langs: "eng", psm: 7, whitelist: SWL }, workDir),
+    tesseractBatch(serialCrops3x, { langs: "eng", psm: 8, whitelist: SWL.trim() }, workDir),
+    tesseractBatch(sectionCrops, { langs: "eng", psm: 7, whitelist: "0123456789" }, workDir),
+    tesseractBatch(sectionCrops4x, { langs: "eng", psm: 7, whitelist: "0123456789" }, workDir),
     tesseractBatch(bodyCrops, { langs: L.langs, psm: 6 }, workDir),
     tesseractBatch(bodyCropsHi, { langs: hindiOnly, psm: 6 }, workDir),
   ]);
 
   const empty: TessResult = { text: "", words: [], lines: [] };
-  const bodies: BodyFields[] = rects.map((_, i) => mergeBodies(parseCardBody(bodyRes[i] ?? empty, tpl), parseCardBody(bodyHiRes[i] ?? empty, tpl)));
+  const bodies: BodyFields[] = rects.map((_, i) => mergeBodies(parseCardBody(bodyRes[i] ?? empty, tpl), parseCardBody(bodyHiRes[i] ?? empty, tpl), tpl.script));
 
   // Second round: digits-only re-read of the age line where the body read is missing or unsure.
   const ageIdx = bodies.map((b, i) => (b.ageLine && (b.age === null || b.ageGenderConf < 90) ? i : -1)).filter((i) => i >= 0);
@@ -369,6 +538,13 @@ export async function localReadCards(pngPath: string, rects: Rect[], tpl: Templa
 
   const cards: LocalCard[] = [];
   for (let i = 0; i < rects.length; i++) {
+    // A bordered cell that is not a card: no serial box along its top and no EPIC (the totals table
+    // under a supplement list, a summary table row), or nothing voter-like at all.
+    const probe = bodies[i];
+    const epicText = parseEpicText(epicRes[i]?.text ?? "");
+    const hasEpic = EPIC_RE.test(epicText);
+    if (!hasEpic && !serialBoxFound[i]) continue;
+    if (!hasEpic && !probe.nameHi.trim() && !probe.relationNameHi && probe.age === null && !probe.genderHi) continue;
     const epic = (() => {
       const reads = [epicRes[i], epic2xRes[i], epic3xRes[i]].map((r) => ({
         v: normalizeEpic(parseEpicText(r?.text ?? "")).epic,
@@ -378,20 +554,25 @@ export async function localReadCards(pngPath: string, rects: Rect[], tpl: Templa
       return { epic: v.v, conf: v.conf };
     })();
 
-    const serialText = asciiDigits(serialRes[i]?.text ?? "").replace(/\D/g, "");
-    const serial = serialText ? Number(serialText.slice(0, 5)) : null;
+    // Two words far apart in the box = marker and serial; a small gap is kerning inside one number.
+    const sw = serialAlnumRes[i]?.words ?? [];
+    const wideGap = sw.length >= 2 ? sw[sw.length - 1].x - (sw[sw.length - 2].x + sw[sw.length - 2].w) > Math.max(...sw.map((w) => w.h)) * 1.2 : true;
+    const { serial, marker, supplementNo: markerSupplementNo } = parseSerialBox(serialAlnumRes[i]?.text ?? "", serialRes[i]?.text ?? "", serialWordRes[i]?.text ?? "", wideGap);
     const serialConf = serialRes[i]?.words.length ? Math.min(...serialRes[i].words.map((w) => w.conf)) : 0;
+    const secReads = [sectionRes[i], section4xRes[i]].map((x) => ({ v: asciiDigits(x?.text ?? "").replace(/\D/g, ""), conf: x?.words.length ? Math.min(...x.words.map((w) => w.conf)) : 0 })).filter((x) => x.v.length >= 1 && x.v.length <= 3);
+    const secBest = secReads.length === 2 && secReads[0].v === secReads[1].v ? secReads[0] : secReads.sort((x, y) => y.conf - x.conf)[0];
+    const sectionNo = secBest ? String(Number(secBest.v)) : "";
 
     const body = bodies[i];
 
     const escalate: string[] = [];
-    // Latin letters inside a Devanagari name are OCR garbage ("ok सिंह", "fast"), always escalate.
+    // Letters of the other script inside a name are OCR garbage ("ok सिंह", "fast"), always escalate.
     if (!epic.epic || !epicMatches(epic.epic, tpl)) escalate.push("epic_unreadable");
     else if (epic.conf < minConf * 100) escalate.push("epic_low_conf");
     if (!body.nameHi) escalate.push("name_unreadable");
-    else if (latinInName(body.nameHi)) escalate.push("name_garbled");
+    else if (foreignInName(body.nameHi, tpl.script)) escalate.push("name_garbled");
     else if (body.nameConf < minConf * 100) escalate.push("name_low_conf");
-    if (body.relationNameHi && latinInName(body.relationNameHi)) escalate.push("relation_name_garbled");
+    if (body.relationNameHi && foreignInName(body.relationNameHi, tpl.script)) escalate.push("relation_name_garbled");
     if (body.relationTypeHi && !mapRelation(body.relationTypeHi, tpl)) escalate.push("relation_unknown");
     if (!body.relationTypeHi) escalate.push("relation_unreadable");
     else if (body.relationConf < minConf * 100 || !body.relationNameHi) escalate.push("relation_name_low_conf");
@@ -403,7 +584,8 @@ export async function localReadCards(pngPath: string, rects: Rect[], tpl: Templa
     const key = [epic.conf, body.nameConf, body.relationConf, body.ageGenderConf].map((c) => c / 100);
     cards.push({
       rect: rects[i],
-      serial, serialConf,
+      index: i,
+      serial, serialConf, marker, markerSupplementNo, sectionNo,
       epicNo: epic.epic, epicRaw: epicRes[i]?.text ?? "", epicConf: epic.conf,
       nameHi: body.nameHi, nameConf: body.nameConf,
       relationTypeHi: body.relationTypeHi, relationNameHi: body.relationNameHi, relationConf: body.relationConf,

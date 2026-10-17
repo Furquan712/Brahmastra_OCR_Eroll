@@ -3,6 +3,7 @@
   "description": "ECI Hindi eRoll (iText generated), A4, 3 columns x 10 rows of bordered voter cards per page. Used for UP/Bihar/MP/Rajasthan/Delhi style rolls.",
   "match": { "states": [] },
   "language": "Hindi (Devanagari script)",
+  "script": "devanagari",
   "grid": { "cols": 3, "rows": 10 },
   "strips": { "rowsPerStrip": 2, "padPx": 6 },
   "fallbackBody": { "top": 0.034, "bottom": 0.962, "left": 0.02, "right": 0.98 },
@@ -13,6 +14,7 @@
     "headerFraction": 0.045,
     "epicBox":   { "left": 0.38, "top": 0.0,  "width": 0.62, "height": 0.22 },
     "serialBox": { "left": 0.03, "top": 0.04, "width": 0.29, "height": 0.12 },
+    "sectionBox": { "left": 0.3, "top": 0.03, "width": 0.28, "height": 0.14 },
     "bodyBox":   { "left": 0.0,  "top": 0.2,  "width": 0.66, "height": 0.8 }
   },
   "labels": {
@@ -23,9 +25,11 @@
     "mother": ["माता का नाम"],
     "other": ["अन्य"],
     "house": ["मकान संख्या", "गृह संख्या"],
+    "houseLoose": ["संख्या", "सकान"],
     "age": ["आयु", "उम्र"],
     "gender": ["लिंग"],
     "partNo": ["भाग संख्या"],
+    "sectionNoName": ["अनुभाग संख्या और नाम", "अनुभाग संख्या व नाम"],
     "photoPlaceholder": ["फोटो उपलब्ध है", "फोटो उपलब्ध नहीं है"]
   },
   "relationMap": {
@@ -63,8 +67,8 @@
   ],
   "sectionHints": {
     "main": ["अनुभाग संख्या और नाम"],
-    "supplement": ["परिवर्धन की सूची", "पूरक"],
-    "deletion": ["विलोपन की सूची"],
+    "supplement": ["परिवर्धन की सूची", "परिवर्धनों की सूची", "पूरक सूची"],
+    "deletion": ["विलोपन की सूची", "विलोपनों की सूची"],
     "modification": ["संशोधन की सूची", "संशोधनों की सूची"]
   },
   "promptNotes": "Cards in the main roll show: serial number (small box, top-left), EPIC number (top-right, Latin letters+digits), then 'नाम : <name>', then 'पिता का नाम: <name>' / 'पति का नाम: <name>' / 'माता का नाम: <name>', then 'मकान संख्या : <house no>', then 'आयु : <age> लिंग : <gender>'. A box on the right says 'फोटो उपलब्ध है' (photo placeholder) - ignore it. Supplement-list cards additionally show a small box with the supplement number next to the serial."

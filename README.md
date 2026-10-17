@@ -13,7 +13,15 @@ Three engines:
 | `llm` | the vision model reads every page in strips | best on very poor scans | highest |
 
 In every engine **Hindi -> English names are produced locally** by the transliteration engine
-described below, and the cover page is parsed from Tesseract text.
+described below, and the cover page is parsed from Tesseract text. **English-language rolls**
+(Goa) are read by the same pipeline with the `goa` template: names are taken as printed, the Hindi
+columns stay blank.
+
+Every list of the roll is read: the main roll, the supplements printed inside it and the
+**separately published supplement PDFs** (additions, deletions, modifications). Each row says
+what happened to the voter (`Action_status`), which section it belongs to and which supplement
+it came from. With `--push` (or the `watch` command) each finished PDF lands **straight in the
+dashboard**, so nothing has to be uploaded by hand.
 
 Runs as a long-running CLI on a single Linux box (tested budget: 2 vCPU / 4 GB RAM / 80 GB disk).
 
@@ -31,15 +39,22 @@ raw-data/<State>/<AC No>-<AC Name>-<Year>-<Draft|Final>/*.pdf
         │             post office, police station, panchayat, block, tehsil, district; pin code digit-only
         │             OPENROUTER=true: the same TEXT also goes to the model, its AC/part reads win
         │
-        ├─ other pages: tesseract reads the header strip ──► voter_grid / supplement / modification /
-        │                                                    deletion (skipped) / summary / other
-        │                                                    (unreadable header: local engine assumes a
-        │                                                     main-roll grid and warns; hybrid asks the model)
-        │               footer strip (2x) ──► printed page number "कुल पृष्ठ 42 - पृष्ठ 40" ──► Page_no
+        │             a supplement PDF has no cover: its header ("Supplement 2 / AC 26-DABOLIM / Part No. 17")
+        │             and file name give the identifiers instead
+        │
+        ├─ other pages: tesseract reads the header strip (everything above the first card)
+        │                 ──► main roll ("अनुभाग संख्या और नाम : 1-…" / "Section No and Name 1-…": section no + name)
+        │                   / additions / deletions / modifications list (its number) / summary / other
+        │                   (unreadable header: local engine assumes a main-roll grid and warns; hybrid asks the model)
+        │               footer strip (2x) ──► printed page number "कुल पृष्ठ 42 - पृष्ठ 40" / "Total Pages 37 - Page 3"
         ▼
   detect card rows & columns from the printed borders ──► per card, batched tesseract passes:
         │   EPIC box: eng, whitelist, 1x + 2x + 3x-binarised ──► majority vote
-        │   serial box: digits ──► cross-checked with grid order
+        │   serial + section boxes found from their own borders (any print size): serial read as
+        │     digits and as letters+digits for the marker a deletion / modification card prints
+        │     ("S2 144" = shifted, supplement 2; "#2 93" = modified) ──► cross-checked with grid order
+        │     (main roll and additions only; deletion / modification lists keep the original serials)
+        │   bordered cells with nothing voter-like (a totals table) are dropped
         │   body: eng+hin (labels, digits) + Hindi-only 2x (names) ──► per-field vote, Latin garbage dropped
         │   age line: re-read at 3x with a digit whitelist when unsure; gender/relation matched fuzzily
         ▼
@@ -230,14 +245,23 @@ Notes for Windows:
 ## Input folder format (`raw-data`)
 
 Put the PDFs in **one folder per constituency (AC) and roll type**, inside a folder named after
-the **state**:
+the **state**. Separately published supplements (ECI's `SUPPLEMENTGEN` PDFs, one per part) go in
+a sibling folder named `<AC No>-<AC Name> Supplement <n>-<Year>-<Draft|Final>`: they belong to the
+same AC, their rows are *added* to it (and pushed into the same dashboard roll), never a
+constituency of their own.
 
 ```
 raw-data/
-└── <State>/
-    └── <AC No>-<AC Name>-<Year>-<Draft|Final>/
-        ├── <part PDF>.pdf
-        ├── <part PDF>.pdf
+├── <State>/
+│   ├── <AC No>-<AC Name>-<Year>-<Draft|Final>/
+│   │   ├── <part PDF>.pdf
+│   │   └── ...
+│   └── <AC No>-<AC Name> Supplement 2-<Year>-<Draft|Final>/
+│       ├── 2026-SUPPLEMENTGEN-S05-26-2-all_together-ENG-1-WI.pdf
+│       └── ...
+└── Goa/
+    └── 26-Dabolim-2026-Final/
+        ├── AC026_SIR-FinalRoll_part_0001.pdf
         └── ...
 ```
 
@@ -260,7 +284,7 @@ Rules:
 | state folder | the state's name; it selects the layout template (`templates/*.json` -> `match.states`, e.g. `Uttar Pradesh`, `UP`). No match -> the `default` template | `Uttar Pradesh` |
 | AC folder | exactly `<AC No>-<AC Name>-<Year>-<Draft\|Final>`: number, a hyphen, the name (spaces allowed), a 4-digit year, then `Draft` or `Final` (case-insensitive) | `390-Varanasi Cantt-2024-Final` |
 | PDFs | any `*.pdf` directly in the AC folder (sub-folders are not scanned), one PDF per part, processed in natural order (part 2 before part 10) | |
-| PDF names | free, but the original ECI download names (`<Year>-EROLLGEN-<State code>-<AC No>-...-<Part No>-WI.pdf`) are cross-checked against the cover page and fill gaps if the cover is unreadable | `2026-EROLLGEN-S24-62-...-794-WI.pdf` |
+| PDF names | free, but the original ECI download names (`<Year>-EROLLGEN-<State code>-<AC No>-...-<Part No>-WI.pdf`, `<Year>-SUPPLEMENTGEN-<State code>-<AC No>-<Supplement no>-...-<Part No>-WI.pdf`, `AC<AC No>_SIR-FinalRoll_part_<Part No>.pdf`) are cross-checked against the cover page and fill gaps if the cover is unreadable | `2026-EROLLGEN-S24-62-...-794-WI.pdf` |
 
 - The state, AC number/name, year and Draft/Final in the output file names come from the folder
   names. The **part number** is read from each PDF's cover page.
@@ -281,6 +305,18 @@ Get-ChildItem "raw-data\Uttar Pradesh" -Directory | ForEach-Object { node dist\c
 
 Finished PDFs are cached (`cache/`), so re-running a folder after an interruption only OCRs what
 is missing.
+
+### Keep it running: `watch`
+
+```bash
+node dist/cli.js watch raw-data --push --interval 120        # every 2 min: every <State>/<AC folder> under raw-data
+node dist/cli.js watch raw-data --push --once                # one pass (e.g. from cron / Task Scheduler)
+```
+
+`watch` loops over every AC folder under the root, runs the same processing as `run` (cached
+PDFs cost nothing, so only new or changed PDFs are OCR'd) and, with `--push`, sends each finished
+PDF into the dashboard. Drop new PDFs or a new supplement folder into `raw-data` and they appear in
+the dashboard on the next pass; Ctrl-C stops after the current folder.
 
 ## Choose cloud or local with one switch (hybrid / llm engines only)
 
@@ -356,6 +392,26 @@ Useful options (all also settable in `.env`, see `.env.example`):
 --page-concurrency N  (pages in parallel, default CPU cores)      --no-learn  (skip name memory)
 ```
 
+### Push into the dashboard (no manual upload)
+
+```
+DASHBOARD_URL=https://your-dashboard.example.com      # in .env
+DASHBOARD_INGEST_TOKEN=<the dashboard's EROLL_INGEST_TOKEN>
+```
+```bash
+node dist/cli.js run "raw-data/Goa/26-Dabolim-2026-Final" --push
+```
+
+After each PDF is merged, its rows go to the dashboard's ingest API (`/api/eroll/upload`, bearer
+token) in four steps: `begin-part` clears the rows *that PDF* produced last time (same part and
+source: `main`, or `supplement-2`), `parts` sends the part's cover metadata and section list,
+`chunk` sends the voters 5,000 at a time, `finish` recomputes the roll's counts. A supplement
+pushed later therefore never wipes the main roll, and a re-OCR of the main roll never wipes the
+supplements. The roll is identified by the folder name (state, AC no/name, year, Draft/Final),
+exactly like a manual upload. `data/pushed.json` remembers what was sent; an unchanged PDF is not
+re-sent unless `--force-push`. A failed push is logged and leaves the CSV run unaffected
+(exit code 1 so a scheduler notices); the next run retries it.
+
 Other commands:
 
 ```bash
@@ -384,7 +440,10 @@ row so a filtered or merged CSV stays self-describing):
 |---|---|
 | `Serial_no` | the serial printed in the card's top-left box (क्रम संख्या), derived from grid order and cross-checked with the box read |
 | `Page_no` | the page number printed in the page footer (`कुल पृष्ठ 42 - पृष्ठ 40` -> `40`), read per page; falls back to the PDF page index when the footer is unreadable |
-| `Section` | `main`, `supplement` (परिवर्धन की सूची) or `modification` |
+| `Action_status` | `existing` (main roll), `added` (परिवर्धन की सूची / List of Additions), `deleted` (विलोपन की सूची / List of Deletions, or a card stamped DELETED), `modified` (संशोधन की सूची / List of Modifications, or a `#` before the serial) |
+| `Action_reason` | deletion reason printed before the serial: Expired, Shifted, Duplicate, Missing, Disqualified |
+| `Section_no`, `Section_name_eg`, `Section_name_hi` | the section (अनुभाग) of the part: main-roll pages carry "अनुभाग संख्या और नाम : 1-…" in their header, supplement / deletion / modification cards carry the section number in the box next to the serial; the name comes from the cover's section list |
+| `Supplement_no` | the supplement / list number the row was printed in (`1` for the lists inside the roll PDF, `2`… for separately published supplements); empty for the main roll |
 | `State`, `AC_no`, `AC_name_eg`, `AC_name_hi` | cover title / AC line (folder name when the cover is unreadable) |
 | `Main_town_village_*` | मुख्य कस्बा अथवा ग्राम |
 | `Ward_*` | वार्ड |
@@ -399,7 +458,9 @@ row so a filtered or merged CSV stays self-describing):
 | `Roll_type`, `Roll_year` | Final / Draft and the revision year |
 
 `*_hi` is the Devanagari as printed, `*_eg` its transliteration from the same engine that spells
-the names (`data/translit/overrides.tsv` fixes any spelling, e.g. `नोएडा -> Noida`).
+the names (`data/translit/overrides.tsv` fixes any spelling, e.g. `नोएडा -> Noida`). On an English
+roll (Goa) every `*_hi` column is empty and `*_eg` holds the value as printed (ALL-CAPS values are
+title-cased: `SOUTH GOA -> South Goa`).
 
 The dashboard's ERoll upload reads all of these: `Serial_no`, `Page_no` and `Section` are stored
 on each voter (and shown as *Sr.* / *Page* in the Matdarpan table); the part metadata is stored
@@ -524,7 +585,14 @@ it, and the reply is validated with zod either way).
 ## Templates
 
 Grid geometry, Tesseract crop boxes, and vocabulary are per-state templates in `templates/`; see
-[templates/README.md](templates/README.md) for adding a state whose layout differs.
+[templates/README.md](templates/README.md) for adding a state whose layout differs. `default` /
+`uttar-pradesh` are the Hindi print (`"script": "devanagari"`); `goa` is the English print
+(`"script": "latin"`, `langs: eng`, labels `Name` / `Fathers Name` / `House Number` / `Age`,
+`Gender`, list headings `List of Additions` …). Card-body parsing, header classification and the
+cover parser are label-driven from the template, so another English-language state is a template
+with its own `match.states`. The separately published supplement PDFs (bigger page, 3x6 cards) are
+read with the same template: the grid and the serial / section boxes are found from the printed
+borders, not from fixed geometry.
 
 ## Development
 

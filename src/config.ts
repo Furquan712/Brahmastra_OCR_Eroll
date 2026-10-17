@@ -102,6 +102,10 @@ export interface CliOverrides {
   dryRun?: boolean;
   bom?: boolean;
   threshold?: number;
+  /** --push: send each finished PDF's rows to the dashboard (DASHBOARD_URL + DASHBOARD_INGEST_TOKEN). */
+  push?: boolean;
+  /** --force-push: re-send PDFs the push ledger says are already on the dashboard. */
+  forcePush?: boolean;
 }
 
 /**

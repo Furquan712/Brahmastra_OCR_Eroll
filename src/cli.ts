@@ -13,6 +13,7 @@ import { mergeResults, type MergeStats } from "./merge.js";
 import { evalText, evalTruthFile } from "./ocr-eval.js";
 import { checkPopplerAvailable, pdfPageCount, removeQuiet, renderPage } from "./pdf.js";
 import { processPdf, type PdfContext } from "./pipeline.js";
+import { pushConfigFromEnv, pushPdf, type PushConfig } from "./push.js";
 import { buildSummary, summaryText, writeSummary } from "./summary.js";
 import { loadTemplates, selectTemplate } from "./templates.js";
 import { checkTesseract } from "./tesseract.js";
@@ -52,6 +53,8 @@ function addCommonOptions(cmd: Command): Command {
     .option("--force", "ignore cached results and re-OCR")
     .option("--no-learn", "do not read or update the cross-PDF Hindi name memory (data/learned/hi-names.json)")
     .option("--bom", "write a UTF-8 BOM at the start of the CSV (Excel-friendly)")
+    .option("--push", "after each PDF, push its rows into the dashboard (needs DASHBOARD_URL and DASHBOARD_INGEST_TOKEN in .env; or OCR_PUSH=true)")
+    .option("--force-push", "with --push: re-send PDFs already recorded in data/pushed.json")
     .option("--dry-run", "list PDFs and planned output; no rendering or model calls");
 }
 
@@ -60,6 +63,53 @@ addCommonOptions(program.command("run").description("process every PDF in a cons
     const code = await runCommand(folder, opts);
     process.exitCode = code;
   });
+
+addCommonOptions(
+  program.command("watch")
+    .description("keep processing every <State>/<AC folder> under a raw-data root: new or changed PDFs are OCR'd (finished ones are cached) and, with --push, land in the dashboard without any upload")
+    .argument("[root]", "raw-data root holding <State>/<AC No>-<AC Name>-<Year>-<Draft|Final>/ folders", "raw-data")
+    .option("--interval <seconds>", "seconds between scans (default 120)", (v) => Number(v), 120)
+    .option("--once", "scan every folder once and exit (e.g. from cron)"),
+).action(async (rootDir: string, opts: CliOverrides & { interval: number; once?: boolean }) => {
+  const root = path.resolve(rootDir);
+  if (!fs.existsSync(root)) {
+    console.error(`Not a directory: ${root}`);
+    process.exitCode = 2;
+    return;
+  }
+  const interval = Math.max(10, Number(opts.interval) || 120) * 1000;
+  let stop = false;
+  process.on("SIGINT", () => { stop = true; console.log("\nstopping after the current folder..."); });
+  for (;;) {
+    const folders = listAcFolders(root);
+    const t0 = Date.now();
+    let failed = 0;
+    for (const f of folders) {
+      if (stop) break;
+      const code = await runCommand(f, opts);
+      if (code !== 0) failed++;
+    }
+    console.log(`[watch] ${new Date().toISOString()} scanned ${folders.length} folder(s) in ${((Date.now() - t0) / 1000).toFixed(0)}s${failed ? `, ${failed} with failures` : ""}`);
+    if (opts.once || stop) {
+      process.exitCode = failed ? 1 : 0;
+      return;
+    }
+    await new Promise((r) => setTimeout(r, interval));
+  }
+});
+
+/** <root>/<State>/<AC folder>/ directories that hold at least one PDF, natural order. */
+function listAcFolders(root: string): string[] {
+  const out: string[] = [];
+  for (const state of fs.readdirSync(root, { withFileTypes: true }).filter((d) => d.isDirectory() && !d.name.startsWith(".")).sort((a, b) => naturalCompare(a.name, b.name))) {
+    const stateDir = path.join(root, state.name);
+    for (const ac of fs.readdirSync(stateDir, { withFileTypes: true }).filter((d) => d.isDirectory() && !d.name.startsWith(".")).sort((a, b) => naturalCompare(a.name, b.name))) {
+      const dir = path.join(stateDir, ac.name);
+      if (fs.readdirSync(dir).some((f) => /\.pdf$/i.test(f))) out.push(dir);
+    }
+  }
+  return out;
+}
 
 program
   .command("templates")
@@ -208,7 +258,17 @@ async function runCommand(folder: string, opts: CliOverrides): Promise<number> {
 
   const templates = loadTemplates(cfg.templatesDir);
   const tpl = selectTemplate(templates, c.state, cfg.templateOverride);
-  log.info("run", `template: ${tpl.name} (${tpl.grid.cols}x${tpl.grid.rows})`);
+  log.info("run", `template: ${tpl.name} (${tpl.grid.cols}x${tpl.grid.rows}, ${tpl.script})${c.supplementNo ? `; supplement ${c.supplementNo} of AC ${c.acNo}` : ""}`);
+
+  let push: PushConfig | null = null;
+  try {
+    push = pushConfigFromEnv(PROJECT_ROOT, { push: opts.push, forcePush: opts.forcePush });
+  } catch (e) {
+    log.error("run", errMsg(e));
+    await log.close();
+    return 2;
+  }
+  if (push) log.info("run", `push: each finished PDF -> ${push.url} (${push.batchRows} rows per request${push.force ? ", forced" : ""})`);
 
   if (cfg.dryRun) {
     for (const f of pdfs) log.info("dry-run", `would process ${f}`);
@@ -279,9 +339,16 @@ async function runCommand(folder: string, opts: CliOverrides): Promise<number> {
   // One CSV per part PDF. Duplicate EPICs are resolved within a part (main roll + its supplements).
   const agg: MergeStats = { rowsIn: 0, rowsOut: 0, duplicatesReplaced: 0, flagged: 0, flagCounts: {}, warnings: [] };
   const written = new Set<string>();
+  let pushed = 0, pushSkipped = 0, pushFailed = 0;
   for (const r of results) {
     if (r.status !== "ok") continue;
     const m = mergeResults([r], c, tpl, cfg, log);
+    if (push) {
+      const o = await pushPdf(push, c, r, m.rows, log);
+      if (o.pushed) pushed++;
+      else if (/failed/.test(o.reason)) { pushFailed++; agg.warnings.push(o.reason); }
+      else { pushSkipped++; log.info("push", o.reason); }
+    }
     let name = partCsvName(c, r.partNo);
     if (written.has(name)) {
       const alt = name.replace(/\.csv$/, `_${path.basename(r.file, path.extname(r.file))}.csv`);
@@ -299,6 +366,7 @@ async function runCommand(folder: string, opts: CliOverrides): Promise<number> {
     agg.warnings.push(...m.stats.warnings);
   }
   for (const w of agg.warnings) log.warn("check", w);
+  if (push) log.info("push", `dashboard: ${pushed} PDF(s) pushed, ${pushSkipped} unchanged, ${pushFailed} failed`);
   const merged = { stats: agg };
 
   const summary = buildSummary(c, acDir, results, cachedFiles, merged.stats, startedAt, { provider: cfg.engine === "local" ? "local" : cfg.provider, model: cfg.engine === "local" ? "tesseract" : cfg.model, template: tpl.name });
@@ -310,7 +378,7 @@ async function runCommand(folder: string, opts: CliOverrides): Promise<number> {
   }
   log.info("run", `log file: ${log.file}`);
   await log.close();
-  return summary.pdfs.failed > 0 ? 1 : 0;
+  return summary.pdfs.failed > 0 || pushFailed > 0 ? 1 : 0;
 }
 
 program.parseAsync(process.argv).catch((e) => {

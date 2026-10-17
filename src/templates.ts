@@ -7,6 +7,8 @@ export interface Template {
   extends?: string;
   match: { states: string[] };
   language: string;
+  /** Script the roll is printed in: names are transliterated (devanagari) or taken as read (latin). */
+  script: "devanagari" | "latin";
   grid: { cols: number; rows: number };
   strips: { rowsPerStrip: number; padPx: number };
   fallbackBody: { top: number; bottom: number; left: number; right: number };
@@ -28,6 +30,8 @@ export interface Template {
     footerFraction?: number;
     epicBox: { left: number; top: number; width: number; height: number };
     serialBox: { left: number; top: number; width: number; height: number };
+    /** The second small box next to the serial on supplement / deletion / modification cards: the section number. */
+    sectionBox?: { left: number; top: number; width: number; height: number };
     bodyBox: { left: number; top: number; width: number; height: number };
   };
 }
@@ -85,6 +89,25 @@ function validate(t: Template): void {
     }
   }
   for (const p of t.epicPatterns) new RegExp(p); // throws on bad regex
+  if (t.script !== "devanagari" && t.script !== "latin") throw new Error(`Template "${t.name}": "script" must be devanagari or latin`);
+}
+
+/** Regex alternation source for printed labels: flexible spaces, apostrophes optional. */
+export function labelAlternation(labels: string[]): string {
+  return labels
+    .map((l) => l.trim().replace(/['’]/g, "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s*'?’?"))
+    .join("|");
+}
+
+/** Alternation regex for a list of printed labels: case-insensitive, flexible spaces, apostrophes optional. */
+export function labelRegex(labels: string[] | undefined, flags = "iu"): RegExp | null {
+  if (!labels || labels.length === 0) return null;
+  return new RegExp(`(?:${labelAlternation(labels)})`, flags);
+}
+
+/** Letters of the template's script (for stripping OCR junk from a token before comparing). */
+export function scriptLetters(t: Template): RegExp {
+  return t.script === "latin" ? /[^A-Za-z]/g : /[^ऀ-ॿ]/g;
 }
 
 /** Pick the template for a state: explicit override > state match > "default". */

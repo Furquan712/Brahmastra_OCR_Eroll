@@ -1,9 +1,28 @@
 import type { Config } from "./config.js";
 import type { Logger } from "./logger.js";
 import type { Template } from "./templates.js";
-import type { ConstituencyInfo, CoverInfo, OutputRow, PageResult, PdfResult } from "./types.js";
+import { DELETION_REASONS } from "./normalize.js";
+import type { ActionStatus, ConstituencyInfo, CoverInfo, OutputRow, PageResult, PdfResult, VoterCard } from "./types.js";
 import { VOTER_PAGE_TYPES } from "./types.js";
 import { cardFlags } from "./validate.js";
+
+/** What the list a card was printed in (and its DELETED stamp / serial marker) says about the voter. */
+export function actionOf(section: PageResult["section"], card: VoterCard): { status: ActionStatus; reason: string } {
+  const marker = (card.marker ?? "").toUpperCase();
+  const reason = marker && marker !== "#" ? (DELETION_REASONS[marker] ?? "") : "";
+  if (section === "deletion" || card.deleted) return { status: "deleted", reason };
+  if (section === "modification") return { status: "modified", reason: "" };
+  if (section === "supplement") return { status: "added", reason: "" };
+  // "#" before a main-roll serial: modified as per a supplement (the footer legend "#/#1 Modified as per supplement").
+  if (marker === "#") return { status: "modified", reason: "" };
+  return { status: "existing", reason: "" };
+}
+
+/** A printed value split by script: Devanagari stays Hindi (+ English given), Latin is English only. */
+function byScript(printed: string, en: string): { hi: string; eg: string } {
+  if (!printed) return { hi: "", eg: en };
+  return /[ऀ-ॿ]/.test(printed) ? { hi: printed, eg: en } : { hi: "", eg: en || printed };
+}
 
 export interface MergeStats {
   rowsIn: number;
@@ -60,6 +79,8 @@ export function mergeResults(
     const psEn = cover?.psNameEn ?? "";
     const psHi = cover?.psNameHi ?? "";
     const pdfPart = r.partNo;
+    const latin = tpl.script === "latin";
+    const sectionsByNo = new Map((cover?.sections ?? []).map((s) => [s.no, s]));
     const cv = (k: keyof CoverInfo): string => {
       const v = cover?.[k];
       return v === null || v === undefined ? "" : String(v);
@@ -97,6 +118,9 @@ export function mergeResults(
       const partNoMismatch = Boolean(pg.partNo && pdfPart && pg.partNo !== pdfPart);
       if (partNoMismatch) stats.warnings.push(`${r.file} p${pg.page}: page part no ${pg.partNo} != cover part no ${pdfPart}`);
       const rawEpics = pg.rawEpics ?? [];
+      // Deletion / modification lists print the voters' original serials: never consecutive.
+      const consecutive = pg.section === "main" || pg.section === "supplement";
+      const pageSupplement = pg.supplementNo || cover?.supplementNo || c.supplementNo || "";
       // Printed page number: trusted when it agrees with the PDF index or the printed total
       // matches the PDF's page count (so the footer read is known to be good); else the PDF index.
       const printed = pg.printedPage ?? null;
@@ -110,9 +134,20 @@ export function mergeResults(
         const flags = cardFlags({
           card, rawEpic: rawEpics[i] ?? card.epicNo, tpl,
           confidenceThreshold: cfg.confidenceThreshold,
-          prevSerial, partNoMismatch, partNoMissing: !pagePart,
+          prevSerial: consecutive ? prevSerial : null, partNoMismatch, partNoMissing: !pagePart,
         });
         if (card.serial !== null) prevSerial = card.serial;
+        const action = actionOf(pg.section, card);
+        // Section: the card's own box (supplement / deletion / modification cards) or the page
+        // header (main roll); the name from the cover's list when the number is listed there.
+        const sectionNo = pg.section === "main" ? (pg.sectionNo || "") : (card.sectionNo || pg.sectionNo || "");
+        const listed = sectionNo ? sectionsByNo.get(sectionNo) : undefined;
+        const sectionName = listed
+          ? byScript(listed.name, listed.nameEn)
+          : sectionNo && sectionNo === pg.sectionNo && pg.sectionName
+            ? byScript(pg.sectionName, /[ऀ-ॿ]/.test(pg.sectionName) ? "" : pg.sectionName)
+            : { hi: "", eg: "" };
+        if (sectionName.hi && !sectionName.eg) sectionName.eg = ""; // Hindi header name without a cover entry: no English spelling
         for (const f of card.extraFlags ?? []) if (!flags.includes(f)) flags.push(f);
         if (pageNoMismatch) flags.push("page_no_mismatch");
         const row: OutputRow = {
@@ -121,18 +156,23 @@ export function mergeResults(
           Part_no: pagePart,
           Epic_no: card.epicNo,
           Name_eg: card.nameEn,
-          Name_hi: card.nameHi,
+          Name_hi: latin ? "" : card.nameHi,
           Relation_type_eg: card.relationType,
-          Relation_type_hi: card.relationTypeHi,
+          Relation_type_hi: latin ? "" : card.relationTypeHi,
           Relation_name_eg: card.relationNameEn,
-          Relation_name_hi: card.relationNameHi,
+          Relation_name_hi: latin ? "" : card.relationNameHi,
           house_no: card.houseNo,
           age: card.age === null ? "" : String(card.age),
           Gender_eg: card.genderEn,
-          Gender_hi: card.genderHi,
+          Gender_hi: latin ? "" : card.genderHi,
           Serial_no: card.serial === null ? "" : String(card.serial),
           Page_no: String(pageNo),
-          Section: pg.section,
+          Action_status: action.status,
+          Action_reason: action.reason,
+          Section_no: sectionNo,
+          Section_name_eg: sectionName.eg,
+          Section_name_hi: sectionName.hi,
+          Supplement_no: action.status === "existing" ? "" : (card.markerSupplementNo || pageSupplement),
           ...meta,
           _source_pdf: r.file,
           _page: String(pg.page),
