@@ -511,21 +511,33 @@ export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Te
   ]);
 
   const empty: TessResult = { text: "", words: [], lines: [] };
-  const bodies: BodyFields[] = rects.map((_, i) => mergeBodies(parseCardBody(bodyRes[i] ?? empty, tpl), parseCardBody(bodyHiRes[i] ?? empty, tpl), tpl.script));
+  const bodies: BodyFields[] = rects.map((_, i) => {
+    // The Hindi-only read ran on the 2x crop: bring its age-line box back to the 1x crop's pixels.
+    const hi = parseCardBody(bodyHiRes[i] ?? empty, tpl);
+    if (hi.ageLine) {
+      const b = hi.ageLine;
+      hi.ageLine = { x: Math.floor(b.x / 2), y: Math.floor(b.y / 2), w: Math.ceil(b.w / 2), h: Math.ceil(b.h / 2) };
+    }
+    return mergeBodies(parseCardBody(bodyRes[i] ?? empty, tpl), hi, tpl.script);
+  });
 
   // Second round: digits-only re-read of the age line where the body read is missing or unsure.
-  const ageIdx = bodies.map((b, i) => (b.ageLine && (b.age === null || b.ageGenderConf < 90) ? i : -1)).filter((i) => i >= 0);
-  const ageCrops = await Promise.all(
-    ageIdx.map(async (i) => {
+  const ageCandidates = bodies.map((b, i) => (b.ageLine && (b.age === null || b.ageGenderConf < 90) ? i : -1)).filter((i) => i >= 0);
+  const ageJobs = (await Promise.all(
+    ageCandidates.map(async (i) => {
       const box = bodies[i].ageLine!;
       const meta = await sharp(bodyCrops[i]).metadata();
       const left = Math.max(0, box.x - 4), top = Math.max(0, box.y - 4);
       const width = Math.min((meta.width ?? box.w) - left, box.w + 8), height = Math.min((meta.height ?? box.h) - top, box.h + 8);
-      return sharp(bodyCrops[i]).extract({ left, top, width, height }).resize({ width: width * 3, kernel: "lanczos3" }).normalise()
+      // A box that lies outside the crop would make sharp throw and fail the whole PDF: skip the re-read.
+      if (width < 1 || height < 1) return null;
+      const png = await sharp(bodyCrops[i]).extract({ left, top, width, height }).resize({ width: width * 3, kernel: "lanczos3" }).normalise()
         .extend({ top: 12, bottom: 12, left: 12, right: 12, background: "#fff" }).png().toBuffer();
+      return { i, png };
     }),
-  );
-  const ageRes = await tesseractBatch(ageCrops, { langs: "eng", psm: 7, whitelist: "0123456789 " }, workDir);
+  )).filter((j) => j !== null);
+  const ageIdx = ageJobs.map((j) => j.i);
+  const ageRes = await tesseractBatch(ageJobs.map((j) => j.png), { langs: "eng", psm: 7, whitelist: "0123456789 " }, workDir);
   ageIdx.forEach((i, k) => {
     const r = ageRes[k];
     const nums = (r?.text ?? "").split(/\s+/).map((s) => s.replace(/\D/g, "")).filter((s) => s.length >= 1 && s.length <= 3).map(Number).filter((n) => n >= 0 && n <= 120);
