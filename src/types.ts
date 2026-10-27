@@ -12,12 +12,25 @@ export type PageType =
   | "blank"
   | "other";
 
-/** Page types whose cards become voter rows. */
+/** Page types whose cards become voter rows (deletion lists too: those rows carry Action_status "deleted"). */
 export const VOTER_PAGE_TYPES: ReadonlySet<PageType> = new Set([
   "voter_grid",
   "supplement_grid",
   "modification_grid",
+  "deletion_grid",
 ]);
+
+/** What the list a card was printed in says happened to the voter. */
+export type ActionStatus = "existing" | "added" | "deleted" | "modified";
+
+/** One entry of the cover's "sections in the part" list. */
+export interface SectionEntry {
+  no: string;
+  /** As printed (Devanagari or Latin). */
+  name: string;
+  /** Transliterated / cleaned English. */
+  nameEn: string;
+}
 
 export interface CoverInfo {
   stateHi: string;
@@ -30,6 +43,29 @@ export interface CoverInfo {
   psNameHi: string;
   psNameEn: string;
   psAddressHi: string;
+  psAddressEn: string;
+  /** Section 2 of the cover: "भाग और मतदान क्षेत्र का विवरण" (administrative location of the part). */
+  mainTownVillageHi: string; // मुख्य कस्बा अथवा ग्राम
+  mainTownVillageEn: string;
+  wardHi: string; // वार्ड
+  wardEn: string;
+  postOfficeHi: string; // डाकघर
+  postOfficeEn: string;
+  policeStationHi: string; // थाना
+  policeStationEn: string;
+  panchayatHi: string; // पंचायत
+  panchayatEn: string;
+  blockHi: string; // ब्लॉक
+  blockEn: string;
+  tehsilHi: string; // तहसील
+  tehsilEn: string;
+  districtHi: string; // जिला
+  districtEn: string;
+  pinCode: string; // पिन कोड, 6 digits
+  /** "भाग में अनुभागों की संख्या और नाम" / "No. and name of sections in the part". */
+  sections: SectionEntry[];
+  /** Supplement number when the PDF is a separately published supplement ("Supplement 2"); "" for the main roll. */
+  supplementNo: string;
   revisionType: "Draft" | "Final" | "Unknown";
   revisionYear: string;
   qualifyingDate: string;
@@ -54,6 +90,12 @@ export interface PageClassification {
 /** One voter card exactly as the model returned it (after light normalization). */
 export interface VoterCard {
   serial: number | null;
+  /** Section number from the small box next to the serial (supplement / deletion / modification cards); "" on main-roll cards. */
+  sectionNo?: string;
+  /** Marker printed before the serial: a deletion reason (E S R M Q) or "#" for a modification. */
+  marker?: string;
+  /** Supplement digit printed with the marker ("S2 144" -> "2"). */
+  markerSupplementNo?: string;
   epicNo: string;
   nameHi: string;
   nameEn: string;
@@ -93,6 +135,15 @@ export interface PageResult {
   sectionHeader: string;
   section: "main" | "supplement" | "modification" | "deletion" | "none";
   cards: VoterCard[];
+  /** From the page header: "अनुभाग संख्या और नाम : 1-कामबक्शपुर" / "Section No and Name 1-Near ...". */
+  sectionNo?: string;
+  sectionName?: string;
+  /** Supplement / list number from the header ("परिवर्धन की सूची 1", "Supplement 2"). */
+  supplementNo?: string;
+  /** Page number printed in the footer ("कुल पृष्ठ 42 - पृष्ठ 40" -> 40); null when not read. */
+  printedPage?: number | null;
+  /** Total page count printed in the footer; null when not read. */
+  printedTotal?: number | null;
   /** EPICs exactly as the model returned them (parallel to cards) - used to flag auto-corrections. */
   rawEpics?: string[];
   cover: CoverInfo | null;
@@ -135,10 +186,46 @@ export interface OutputRow {
   age: string;
   Gender_eg: string;
   Gender_hi: string;
+  /** Serial number printed on the card (क्रम संख्या). */
+  Serial_no: string;
+  /** Page number printed in the page footer (falls back to the PDF page index). */
+  Page_no: string;
+  /** existing | added | deleted | modified (from the list the card was printed in, or a DELETED stamp). */
+  Action_status: string;
+  /** Deletion reason printed before the serial (Expired, Shifted, Duplicate, Missing, Disqualified). */
+  Action_reason: string;
+  Section_no: string;
+  Section_name_eg: string;
+  Section_name_hi: string;
+  /** Supplement / list number the row was printed in ("" for the main roll). */
+  Supplement_no: string;
+  State: string;
+  AC_no: string;
+  AC_name_eg: string;
+  AC_name_hi: string;
+  Main_town_village_eg: string;
+  Main_town_village_hi: string;
+  Ward_eg: string;
+  Ward_hi: string;
+  Post_office_eg: string;
+  Post_office_hi: string;
+  Police_station_eg: string;
+  Police_station_hi: string;
+  Panchayat_eg: string;
+  Panchayat_hi: string;
+  Block_eg: string;
+  Block_hi: string;
+  Tehsil_eg: string;
+  Tehsil_hi: string;
+  District_eg: string;
+  District_hi: string;
+  Pin_code: string;
+  PS_address_eg: string;
+  PS_address_hi: string;
+  Roll_type: string;
+  Roll_year: string;
   _source_pdf: string;
   _page: string;
-  _serial: string;
-  _section: string;
   _ocr_confidence: string;
   _ocr_engine: string;
   _flag_reason: string;
@@ -159,10 +246,41 @@ export const CSV_COLUMNS: (keyof OutputRow)[] = [
   "age",
   "Gender_eg",
   "Gender_hi",
+  "Serial_no",
+  "Page_no",
+  "Action_status",
+  "Action_reason",
+  "Section_no",
+  "Section_name_eg",
+  "Section_name_hi",
+  "Supplement_no",
+  "State",
+  "AC_no",
+  "AC_name_eg",
+  "AC_name_hi",
+  "Main_town_village_eg",
+  "Main_town_village_hi",
+  "Ward_eg",
+  "Ward_hi",
+  "Post_office_eg",
+  "Post_office_hi",
+  "Police_station_eg",
+  "Police_station_hi",
+  "Panchayat_eg",
+  "Panchayat_hi",
+  "Block_eg",
+  "Block_hi",
+  "Tehsil_eg",
+  "Tehsil_hi",
+  "District_eg",
+  "District_hi",
+  "Pin_code",
+  "PS_address_eg",
+  "PS_address_hi",
+  "Roll_type",
+  "Roll_year",
   "_source_pdf",
   "_page",
-  "_serial",
-  "_section",
   "_ocr_confidence",
   "_ocr_engine",
   "_flag_reason",
@@ -175,5 +293,7 @@ export interface ConstituencyInfo {
   acName: string;
   year: string;
   type: string; // Draft | Final
+  /** "2" for a "<AC name> Supplement 2" folder (separately published supplement), else "". */
+  supplementNo: string;
   parsed: boolean; // false if folder name did not match the convention
 }

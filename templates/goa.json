@@ -1,0 +1,53 @@
+{
+  "name": "goa",
+  "extends": "default",
+  "description": "Goa - English-language ECI eRoll (same iText 3x10 layout, Latin script). Supplement PDFs are published separately on a larger page with 3x6 cards; the same template reads them.",
+  "match": { "states": ["Goa", "GA"] },
+  "language": "English (Latin script)",
+  "script": "latin",
+  "local": {
+    "langs": "eng",
+    "sectionBox": { "left": 0.27, "top": 0.03, "width": 0.3, "height": 0.13 }
+  },
+  "labels": {
+    "serial": ["Serial No"],
+    "name": ["Name"],
+    "father": ["Fathers Name", "Father Name"],
+    "husband": ["Husbands Name", "Husband Name"],
+    "mother": ["Mothers Name", "Mother Name"],
+    "other": ["Others Name", "Other Name", "Guardians Name", "Guardian Name"],
+    "house": ["House Number", "House No", "House"],
+    "houseLoose": ["Number"],
+    "age": ["Age"],
+    "gender": ["Gender"],
+    "partNo": ["Part No"],
+    "sectionNoName": ["Section No and Name", "Section No & Name"],
+    "photoPlaceholder": ["Photo Available", "Photo Not Available"]
+  },
+  "relationMap": {
+    "Father": "Father",
+    "Fathers": "Father",
+    "Husband": "Husband",
+    "Husbands": "Husband",
+    "Mother": "Mother",
+    "Mothers": "Mother",
+    "Other": "Other",
+    "Others": "Other",
+    "Guardian": "Other",
+    "Guardians": "Other"
+  },
+  "genderMap": {
+    "Male": "Male",
+    "Female": "Female",
+    "Third Gender": "Other",
+    "Transgender": "Other",
+    "Other": "Other"
+  },
+  "sectionHints": {
+    "main": ["Section No and Name", "Section No & Name"],
+    "supplement": ["List of Additions", "List of Addition"],
+    "deletion": ["List of Deletions", "List of Deletion"],
+    "modification": ["List of Modifications", "List of Modification"]
+  },
+  "promptNotes": "Cards show: serial number (small box, top-left; supplement cards have a second small box with the section number), EPIC number (top-right, Latin letters+digits), then 'Name : <name>', then 'Fathers Name: <name>' / 'Husbands Name: <name>' / 'Mothers Name: <name>', then 'House Number : <house no>', then 'Age : <age> Gender : <gender>'. 'Photo Available' on the right is a placeholder - ignore it."
+}

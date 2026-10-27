@@ -1,38 +1,65 @@
-import sharp from "sharp";
+import sharp, { type Sharp } from "sharp";
 import type { Template } from "./templates.js";
 
 export interface Band { top: number; bottom: number }
 export interface Dims { width: number; height: number }
 
-export async function imageDims(file: string): Promise<Dims> {
+/**
+ * A page decoded once into raw pixels. Every crop of a page is cut from this buffer instead of
+ * re-decoding the PNG (a 300 dpi page decodes in ~35 ms; a card page needs ~300 crops).
+ */
+export interface PageImage { data: Buffer; width: number; height: number; channels: 1 | 2 | 3 | 4; density?: number }
+/** A page as a PNG path (decoded on every use) or as an already decoded PageImage. */
+export type PageSource = string | PageImage;
+
+export async function loadPage(file: string): Promise<PageImage> {
+  const { density } = await sharp(file).metadata();
+  const { data, info } = await sharp(file).raw().toBuffer({ resolveWithObject: true });
+  return { data, width: info.width, height: info.height, channels: info.channels as PageImage["channels"], density };
+}
+
+/**
+ * A sharp instance over the page; the pixel pipeline is identical for both source kinds, and a
+ * decoded page keeps the PNG's DPI tag on every crop (tesseract reads it to size the text).
+ * Call this once per crop: sharp's clone() deep-copies the input, which for a decoded page is
+ * the whole page buffer.
+ */
+export function pageSharp(src: PageSource): Sharp {
+  if (typeof src === "string") return sharp(src);
+  const s = sharp(src.data, { raw: { width: src.width, height: src.height, channels: src.channels } });
+  return src.density ? s.withMetadata({ density: src.density }).withIccProfile("srgb", { attach: false }) : s;
+}
+
+export async function imageDims(file: PageSource): Promise<Dims> {
+  if (typeof file !== "string") return { width: file.width, height: file.height };
   const m = await sharp(file).metadata();
   if (!m.width || !m.height) throw new Error(`Cannot read image dimensions of ${file}`);
   return { width: m.width, height: m.height };
 }
 
 /** Downscale a page for the cheap classification call. Returns PNG bytes. */
-export async function downscaleForClassification(file: string, longEdgePx: number): Promise<Buffer> {
-  return sharp(file)
+export async function downscaleForClassification(file: PageSource, longEdgePx: number): Promise<Buffer> {
+  return pageSharp(file)
     .resize({ width: longEdgePx, height: longEdgePx, fit: "inside", withoutEnlargement: true })
     .png({ compressionLevel: 6 })
     .toBuffer();
 }
 
 /** Crop a horizontal strip (full width) with vertical padding. Returns PNG bytes. */
-export async function cropBand(file: string, dims: Dims, band: Band, padPx: number): Promise<Buffer> {
+export async function cropBand(file: PageSource, dims: Dims, band: Band, padPx: number): Promise<Buffer> {
   const top = Math.max(0, band.top - padPx);
   const bottom = Math.min(dims.height, band.bottom + padPx);
-  return sharp(file)
+  return pageSharp(file)
     .extract({ left: 0, top, width: dims.width, height: bottom - top })
     .png({ compressionLevel: 6 })
     .toBuffer();
 }
 
 export async function cropRect(
-  file: string,
+  file: PageSource,
   rect: { left: number; top: number; width: number; height: number },
 ): Promise<Buffer> {
-  return sharp(file).extract(rect).png({ compressionLevel: 6 }).toBuffer();
+  return pageSharp(file).extract(rect).png({ compressionLevel: 6 }).toBuffer();
 }
 
 /**
@@ -41,8 +68,8 @@ export async function cropRect(
  * per-state geometry. Returns null when the result does not look like a grid
  * (caller then falls back to the template's fixed geometry).
  */
-export async function detectRowBands(file: string, dims: Dims, tpl: Template): Promise<Band[] | null> {
-  const { data, info } = await sharp(file).greyscale().raw().toBuffer({ resolveWithObject: true });
+export async function detectRowBands(file: PageSource, dims: Dims, tpl: Template): Promise<Band[] | null> {
+  const { data, info } = await pageSharp(file).greyscale().raw().toBuffer({ resolveWithObject: true });
   const w = info.width;
   const h = info.height;
   const darkThreshold = 140;
@@ -57,7 +84,7 @@ export async function detectRowBands(file: string, dims: Dims, tpl: Template): P
   }
 
   // Groups consecutive rows whose dark fraction >= minFrac into "lines"; drops thick blobs.
-  const linesAbove = (minFrac: number): { y0: number; y1: number }[] => {
+  const linesAbove = (minFrac: number, maxThick = Math.max(8, h * 0.004)): { y0: number; y1: number }[] => {
     const minDark = Math.floor(w * minFrac);
     const lines: { y0: number; y1: number }[] = [];
     for (let y = 0; y < h; y++) {
@@ -66,42 +93,62 @@ export async function detectRowBands(file: string, dims: Dims, tpl: Template): P
       if (last && y - last.y1 <= 2) last.y1 = y;
       else lines.push({ y0: y, y1: y });
     }
-    return lines.filter((l) => l.y1 - l.y0 < Math.max(8, h * 0.004));
+    return lines.filter((l) => l.y1 - l.y0 < maxThick);
   };
 
   // 2. Strong rules = borders of full (or mostly full) card rows. Text lines across
-  //    all columns reach ~30% of the width, full-row borders ~95%.
-  const rules = linesAbove(tpl.detection.minLineFraction);
-  if (rules.length < 2) return null;
+  //    all columns reach ~30% of the width, full-row borders ~95%. A page with a single
+  //    card per row (the last page of a list, a one-entry deletion list) has borders
+  //    spanning only ~1/cols of the width, so those are tried when the full-width pass
+  //    finds no grid; the card-sized-gap test below keeps table rows and text out.
+  const pairUp = (rules: { y0: number; y1: number }[]): Band[] | null => {
+    if (rules.length < 2) return null;
+    const gaps: number[] = [];
+    for (let i = 0; i + 1 < rules.length; i++) gaps.push(rules[i + 1].y0 - rules[i].y1);
+    const sorted = [...gaps].sort((a, b) => a - b);
+    const cardGap = sorted[Math.floor(sorted.length * 0.9)];
+    if (!cardGap || cardGap < h * 0.03) return null;
+    const out: Band[] = [];
+    let i = 0;
+    while (i + 1 < rules.length) {
+      const gap = rules[i + 1].y0 - rules[i].y1;
+      if (gap > cardGap * 0.6 && gap < cardGap * 1.6) {
+        out.push({ top: rules[i].y0, bottom: rules[i + 1].y1 });
+        i += 2;
+      } else {
+        i += 1;
+      }
+    }
+    if (out.length === 0 || out.length > tpl.grid.rows + 1) return null;
+    const hs = out.map((b) => b.bottom - b.top);
+    const m = hs.slice().sort((a, b) => a - b)[Math.floor(hs.length / 2)];
+    if (hs.some((hh) => Math.abs(hh - m) > m * 0.25)) return null;
+    // Rows must be card-sized for this page: the rows of a totals / summary table pair up just
+    // as neatly but are far shorter than a card.
+    const expected = ((tpl.fallbackBody.bottom - tpl.fallbackBody.top) / tpl.grid.rows) * h;
+    if (m < expected * 0.6 || m > expected * 1.5) return null;
+    return out;
+  };
+  let rules = linesAbove(tpl.detection.minLineFraction);
+  let sparse = false;
+  if (!pairUp(rules)) {
+    // At this width a line of text qualifies too, but text is thick (8+ px of dense rows) where
+    // a printed border is 3-4 px, so only hairlines count in the sparse pass.
+    rules = linesAbove(Math.max(0.12, 0.8 / tpl.grid.cols), Math.max(6, Math.round(h * 0.001)));
+    sparse = true;
+    if (!pairUp(rules)) return null;
+  }
 
   // 3. Pair rules into bands: a card row = (top rule, next rule) where the gap is
   //    "card sized" (close to the largest gaps we see). Inter-card gaps are much smaller.
-  const gaps: number[] = [];
-  for (let i = 0; i + 1 < rules.length; i++) gaps.push(rules[i + 1].y0 - rules[i].y1);
-  const sorted = [...gaps].sort((a, b) => a - b);
-  const cardGap = sorted[Math.floor(sorted.length * 0.9)];
-  if (!cardGap || cardGap < h * 0.03) return null;
-
-  const bands: Band[] = [];
-  let i = 0;
-  while (i + 1 < rules.length) {
-    const gap = rules[i + 1].y0 - rules[i].y1;
-    if (gap > cardGap * 0.6 && gap < cardGap * 1.6) {
-      bands.push({ top: rules[i].y0, bottom: rules[i + 1].y1 });
-      i += 2;
-    } else {
-      i += 1;
-    }
-  }
-  if (bands.length === 0 || bands.length > tpl.grid.rows + 1) return null;
+  const bands = pairUp(rules)!;
   const heights = bands.map((b) => b.bottom - b.top);
   const med = heights.slice().sort((a, b) => a - b)[Math.floor(heights.length / 2)];
-  if (heights.some((hh) => Math.abs(hh - med) > med * 0.25)) return null;
 
   // 4. A trailing partial row with a single card has borders spanning only ~1/cols of
   //    the width - the same as a text line - so look for it by POSITION: it must sit
   //    one row pitch below the last band and have the same height.
-  if (bands.length >= 2 && bands.length < tpl.grid.rows) {
+  if (!sparse && bands.length >= 2 && bands.length < tpl.grid.rows) {
     const pitch = bands[bands.length - 1].top - bands[bands.length - 2].top;
     const last = bands[bands.length - 1];
     const expTop = last.top + pitch;
@@ -133,13 +180,13 @@ export function templateRowBands(dims: Dims, tpl: Template, rowsFilled: number):
  * Falls back to equal division by template column count.
  */
 export async function detectColumnBands(
-  file: string,
+  file: PageSource,
   dims: Dims,
   band: Band,
   tpl: Template,
 ): Promise<{ left: number; right: number }[]> {
   const height = band.bottom - band.top;
-  const { data, info } = await sharp(file)
+  const { data, info } = await pageSharp(file)
     .extract({ left: 0, top: band.top, width: dims.width, height })
     .greyscale()
     .raw()
