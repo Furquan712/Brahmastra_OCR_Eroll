@@ -1,38 +1,65 @@
-import sharp from "sharp";
+import sharp, { type Sharp } from "sharp";
 import type { Template } from "./templates.js";
 
 export interface Band { top: number; bottom: number }
 export interface Dims { width: number; height: number }
 
-export async function imageDims(file: string): Promise<Dims> {
+/**
+ * A page decoded once into raw pixels. Every crop of a page is cut from this buffer instead of
+ * re-decoding the PNG (a 300 dpi page decodes in ~35 ms; a card page needs ~300 crops).
+ */
+export interface PageImage { data: Buffer; width: number; height: number; channels: 1 | 2 | 3 | 4; density?: number }
+/** A page as a PNG path (decoded on every use) or as an already decoded PageImage. */
+export type PageSource = string | PageImage;
+
+export async function loadPage(file: string): Promise<PageImage> {
+  const { density } = await sharp(file).metadata();
+  const { data, info } = await sharp(file).raw().toBuffer({ resolveWithObject: true });
+  return { data, width: info.width, height: info.height, channels: info.channels as PageImage["channels"], density };
+}
+
+/**
+ * A sharp instance over the page; the pixel pipeline is identical for both source kinds, and a
+ * decoded page keeps the PNG's DPI tag on every crop (tesseract reads it to size the text).
+ * Call this once per crop: sharp's clone() deep-copies the input, which for a decoded page is
+ * the whole page buffer.
+ */
+export function pageSharp(src: PageSource): Sharp {
+  if (typeof src === "string") return sharp(src);
+  const s = sharp(src.data, { raw: { width: src.width, height: src.height, channels: src.channels } });
+  return src.density ? s.withMetadata({ density: src.density }).withIccProfile("srgb", { attach: false }) : s;
+}
+
+export async function imageDims(file: PageSource): Promise<Dims> {
+  if (typeof file !== "string") return { width: file.width, height: file.height };
   const m = await sharp(file).metadata();
   if (!m.width || !m.height) throw new Error(`Cannot read image dimensions of ${file}`);
   return { width: m.width, height: m.height };
 }
 
 /** Downscale a page for the cheap classification call. Returns PNG bytes. */
-export async function downscaleForClassification(file: string, longEdgePx: number): Promise<Buffer> {
-  return sharp(file)
+export async function downscaleForClassification(file: PageSource, longEdgePx: number): Promise<Buffer> {
+  return pageSharp(file)
     .resize({ width: longEdgePx, height: longEdgePx, fit: "inside", withoutEnlargement: true })
     .png({ compressionLevel: 6 })
     .toBuffer();
 }
 
 /** Crop a horizontal strip (full width) with vertical padding. Returns PNG bytes. */
-export async function cropBand(file: string, dims: Dims, band: Band, padPx: number): Promise<Buffer> {
+export async function cropBand(file: PageSource, dims: Dims, band: Band, padPx: number): Promise<Buffer> {
   const top = Math.max(0, band.top - padPx);
   const bottom = Math.min(dims.height, band.bottom + padPx);
-  return sharp(file)
+  return pageSharp(file)
     .extract({ left: 0, top, width: dims.width, height: bottom - top })
     .png({ compressionLevel: 6 })
     .toBuffer();
 }
 
 export async function cropRect(
-  file: string,
+  file: PageSource,
   rect: { left: number; top: number; width: number; height: number },
 ): Promise<Buffer> {
-  return sharp(file).extract(rect).png({ compressionLevel: 6 }).toBuffer();
+  return pageSharp(file).extract(rect).png({ compressionLevel: 6 }).toBuffer();
 }
 
 /**
@@ -41,8 +68,8 @@ export async function cropRect(
  * per-state geometry. Returns null when the result does not look like a grid
  * (caller then falls back to the template's fixed geometry).
  */
-export async function detectRowBands(file: string, dims: Dims, tpl: Template): Promise<Band[] | null> {
-  const { data, info } = await sharp(file).greyscale().raw().toBuffer({ resolveWithObject: true });
+export async function detectRowBands(file: PageSource, dims: Dims, tpl: Template): Promise<Band[] | null> {
+  const { data, info } = await pageSharp(file).greyscale().raw().toBuffer({ resolveWithObject: true });
   const w = info.width;
   const h = info.height;
   const darkThreshold = 140;
@@ -153,13 +180,13 @@ export function templateRowBands(dims: Dims, tpl: Template, rowsFilled: number):
  * Falls back to equal division by template column count.
  */
 export async function detectColumnBands(
-  file: string,
+  file: PageSource,
   dims: Dims,
   band: Band,
   tpl: Template,
 ): Promise<{ left: number; right: number }[]> {
   const height = band.bottom - band.top;
-  const { data, info } = await sharp(file)
+  const { data, info } = await pageSharp(file)
     .extract({ left: 0, top: band.top, width: dims.width, height })
     .greyscale()
     .raw()

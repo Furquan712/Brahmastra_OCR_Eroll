@@ -5,6 +5,7 @@
  */
 import sharp from "sharp";
 import type { Band, Dims } from "./image.js";
+import { pageSharp, type PageSource } from "./image.js";
 import { detectColumnBands } from "./image.js";
 import { asciiDigits, epicMatches, mapGender, mapRelation, normalizeEpic, parseIntLoose, parseSerialBox, tidyName } from "./normalize.js";
 import { labelAlternation, labelRegex, scriptLetters, type Template } from "./templates.js";
@@ -293,12 +294,12 @@ function sub(r: Rect, box: { left: number; top: number; width: number; height: n
   };
 }
 
-export async function readHeaderText(pngPath: string, dims: Dims, tpl: Template, workDir: string, bands?: Band[] | null): Promise<string> {
+export async function readHeaderText(pngPath: PageSource, dims: Dims, tpl: Template, workDir: string, bands?: Band[] | null): Promise<string> {
   // Everything above the first card row is header (a separately published supplement has a
   // four-line header); without a grid, the template's fixed fraction.
   let h = Math.round(dims.height * tpl.local.headerFraction);
   if (bands && bands.length) h = Math.max(Math.round(dims.height * 0.02), Math.min(bands[0].top - 4, Math.round(dims.height * 0.2)));
-  const png = await sharp(pngPath).extract({ left: 0, top: 0, width: dims.width, height: h }).greyscale().png().toBuffer();
+  const png = await pageSharp(pngPath).extract({ left: 0, top: 0, width: dims.width, height: h }).greyscale().png().toBuffer();
   const [r] = await tesseractBatch([png], { langs: tpl.local.langs, psm: 6 }, workDir);
   return r?.text ?? "";
 }
@@ -323,12 +324,12 @@ export function parseFooterText(text: string): FooterRead {
 }
 
 /** Reads the page number printed in the footer (bottom-right corner), upscaled for the small type. */
-export async function readPrintedPage(pngPath: string, dims: Dims, tpl: Template, workDir: string): Promise<FooterRead> {
+export async function readPrintedPage(pngPath: PageSource, dims: Dims, tpl: Template, workDir: string): Promise<FooterRead> {
   const frac = tpl.local.footerFraction ?? 0.045;
   const top = Math.round(dims.height * (1 - frac));
   const left = Math.round(dims.width * 0.5);
   const box = { left, top, width: dims.width - left, height: dims.height - top };
-  const png = await sharp(pngPath).extract(box).resize({ width: box.width * 2, kernel: "lanczos3" }).greyscale().normalise()
+  const png = await pageSharp(pngPath).extract(box).resize({ width: box.width * 2, kernel: "lanczos3" }).greyscale().normalise()
     .extend({ top: 16, bottom: 16, left: 16, right: 16, background: "#fff" }).png().toBuffer();
   const [r] = await tesseractBatch([png], { langs: tpl.local.langs, psm: 7 }, workDir);
   return parseFooterText(r?.text ?? "");
@@ -341,10 +342,10 @@ export interface TopBoxes { serial: Rect | null; section: Rect | null }
  * modification cards the section number), found from their own borders so the crops hold the
  * digits alone whatever the print size (A4 roll, oversized supplement). Null = not found.
  */
-export async function detectTopBoxes(pngPath: string, r: Rect): Promise<TopBoxes> {
+export async function detectTopBoxes(pngPath: PageSource, r: Rect): Promise<TopBoxes> {
   const w = Math.max(10, Math.round(r.width * 0.68));
   const h = Math.max(10, Math.round(r.height * 0.24));
-  const { data } = await sharp(pngPath).extract({ left: r.left, top: r.top, width: w, height: h }).greyscale().raw().toBuffer({ resolveWithObject: true });
+  const { data } = await pageSharp(pngPath).extract({ left: r.left, top: r.top, width: w, height: h }).greyscale().raw().toBuffer({ resolveWithObject: true });
   const dark = 150;
   // Vertical rules: columns dark over at least half the strip (a box is 12-15% of the card, the
   // strip 24%, so a box border covers 50-65% of it; a digit stroke reaches ~35%).
@@ -380,7 +381,7 @@ export async function detectTopBoxes(pngPath: string, r: Rect): Promise<TopBoxes
 }
 
 /** Card rectangles for all detected bands (left-to-right, top-to-bottom). */
-export async function cardRects(pngPath: string, dims: Dims, bands: Band[], tpl: Template): Promise<Rect[]> {
+export async function cardRects(pngPath: PageSource, dims: Dims, bands: Band[], tpl: Template): Promise<Rect[]> {
   const rects: Rect[] = [];
   for (const b of bands) {
     const cols = await detectColumnBands(pngPath, dims, b, tpl);
@@ -445,10 +446,10 @@ export function mergeBodies(A: BodyFields, B: BodyFields, script: Template["scri
  *   body eng+hin (labels, digits) + body Hindi-only 2x (names) -> per-field vote
  *   age line re-read at 3x with a digit whitelist when the body read is unsure
  */
-export async function localReadCards(pngPath: string, rects: Rect[], tpl: Template, workDir: string, minConf: number): Promise<LocalCard[]> {
+export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Template, workDir: string, minConf: number): Promise<LocalCard[]> {
   if (rects.length === 0) return [];
   const L = tpl.local;
-  const img = sharp(pngPath);
+  const img = { clone: () => pageSharp(pngPath) }; // a fresh instance per crop (see pageSharp)
   const epicCrops: Buffer[] = [];
   const epicCrops2x: Buffer[] = [];
   const epicCrops3x: Buffer[] = [];

@@ -55,6 +55,7 @@ function addCommonOptions(cmd: Command): Command {
     .option("--bom", "write a UTF-8 BOM at the start of the CSV (Excel-friendly)")
     .option("--push", "after each PDF, push its rows into the dashboard (needs DASHBOARD_URL and DASHBOARD_INGEST_TOKEN in .env; or OCR_PUSH=true)")
     .option("--force-push", "with --push: re-send PDFs already recorded in data/pushed.json")
+    .option("--no-csv", "with --push: do not write a part's CSV once the dashboard has accepted it (kept if the push failed or was skipped)")
     .option("--dry-run", "list PDFs and planned output; no rendering or model calls");
 }
 
@@ -339,15 +340,29 @@ async function runCommand(folder: string, opts: CliOverrides): Promise<number> {
   // One CSV per part PDF. Duplicate EPICs are resolved within a part (main roll + its supplements).
   const agg: MergeStats = { rowsIn: 0, rowsOut: 0, duplicatesReplaced: 0, flagged: 0, flagCounts: {}, warnings: [] };
   const written = new Set<string>();
-  let pushed = 0, pushSkipped = 0, pushFailed = 0;
+  let pushed = 0, pushSkipped = 0, pushFailed = 0, csvSkipped = 0;
   for (const r of results) {
     if (r.status !== "ok") continue;
     const m = mergeResults([r], c, tpl, cfg, log);
+    // With --no-csv the dashboard is the record: a part's CSV is written only when its rows did
+    // NOT reach the dashboard (push failed, or nothing could be pushed), so no data is ever lost.
+    let inDashboard = false;
     if (push) {
       const o = await pushPdf(push, c, r, m.rows, log);
       if (o.pushed) pushed++;
       else if (/failed/.test(o.reason)) { pushFailed++; agg.warnings.push(o.reason); }
       else { pushSkipped++; log.info("push", o.reason); }
+      inDashboard = o.pushed || /already pushed/.test(o.reason);
+    }
+    if (inDashboard && opts.csv === false) {
+      csvSkipped++;
+      agg.rowsIn += m.stats.rowsIn;
+      agg.rowsOut += m.stats.rowsOut;
+      agg.duplicatesReplaced += m.stats.duplicatesReplaced;
+      agg.flagged += m.stats.flagged;
+      for (const [k, v] of Object.entries(m.stats.flagCounts)) agg.flagCounts[k] = (agg.flagCounts[k] ?? 0) + v;
+      agg.warnings.push(...m.stats.warnings);
+      continue;
     }
     let name = partCsvName(c, r.partNo);
     if (written.has(name)) {
@@ -366,7 +381,7 @@ async function runCommand(folder: string, opts: CliOverrides): Promise<number> {
     agg.warnings.push(...m.stats.warnings);
   }
   for (const w of agg.warnings) log.warn("check", w);
-  if (push) log.info("push", `dashboard: ${pushed} PDF(s) pushed, ${pushSkipped} unchanged, ${pushFailed} failed`);
+  if (push) log.info("push", `dashboard: ${pushed} PDF(s) pushed, ${pushSkipped} unchanged, ${pushFailed} failed${csvSkipped ? `; ${csvSkipped} CSV(s) not written (--no-csv)` : ""}`);
   const merged = { stats: agg };
 
   const summary = buildSummary(c, acDir, results, cachedFiles, merged.stats, startedAt, { provider: cfg.engine === "local" ? "local" : cfg.provider, model: cfg.engine === "local" ? "tesseract" : cfg.model, template: tpl.name });

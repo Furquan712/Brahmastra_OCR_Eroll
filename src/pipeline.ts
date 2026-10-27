@@ -21,6 +21,7 @@ import { errMsg, Semaphore, sha256File } from "./util.js";
 import type { NameMemory } from "./name-memory.js";
 import type { Transliterator } from "./translit.js";
 import type { VisionClient } from "./vision/index.js";
+import { loadPage, type PageSource } from "./image.js";
 
 export interface PdfContext {
   cfg: Config;
@@ -141,7 +142,7 @@ function refreshEnglish(pages: PageResult[], translit: Transliterator, tpl: Temp
  * Footer page number for a voter page. Never throws: an unreadable footer leaves both null and
  * the CSV falls back to the PDF page index.
  */
-async function footerOf(ctx: PdfContext, pngPath: string, dims: Dims, workDir: string, pageNo: number, label: string, warnings: string[]): Promise<FooterRead> {
+async function footerOf(ctx: PdfContext, pngPath: PageSource, dims: Dims, workDir: string, pageNo: number, label: string, warnings: string[]): Promise<FooterRead> {
   let fr: FooterRead = { page: null, total: null, text: "" };
   try {
     fr = await readPrintedPage(pngPath, dims, ctx.tpl, workDir);
@@ -444,8 +445,10 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   const system = systemPrompt(tpl);
   const workDir = path.dirname(pngPath);
 
-  const dims = await imageDims(pngPath);
-  const bands = await detectRowBands(pngPath, dims, tpl);
+  // The page is decoded once; the header, footer, band and card crops below are all cut from it.
+  const page = await loadPage(pngPath);
+  const dims = await imageDims(page);
+  const bands = await detectRowBands(page, dims, tpl);
 
   // 1. Classification: page 1 is normally the cover and is parsed from its tesseract text (see
   //    extractCover); a separately published supplement has no cover, so its page 1 is classified
@@ -458,7 +461,7 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   let classifierCards = 0;
   let classifierRows = 0;
   let headerSource = "tesseract";
-  const hdr = classifyHeader(await readHeaderText(pngPath, dims, tpl, workDir, bands), !!bands, pageNo, tpl);
+  const hdr = classifyHeader(await readHeaderText(page, dims, tpl, workDir, bands), !!bands, pageNo, tpl);
   if (pageNo === 1) {
     const cv = await extractCover(ctx, pdfFile, pngPath, workDir, usage, label);
     cover = cv.cover;
@@ -522,24 +525,24 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   }
 
   // 2. Footer page number, then the local read of every card.
-  const footer = await footerOf(ctx, pngPath, dims, workDir, pageNo, label, warnings);
+  const footer = await footerOf(ctx, page, dims, workDir, pageNo, label, warnings);
   result.printedPage = footer.page;
   result.printedTotal = footer.total;
   let rects: Rect[];
   if (bands) {
-    rects = await cardRects(pngPath, dims, bands, tpl);
+    rects = await cardRects(page, dims, bands, tpl);
   } else {
     warnings.push("row detection failed; used template geometry");
-    rects = await cardRects(pngPath, dims, templateRowBands(dims, tpl, classifierRows || tpl.grid.rows), tpl);
+    rects = await cardRects(page, dims, templateRowBands(dims, tpl, classifierRows || tpl.grid.rows), tpl);
   }
   // Drop blank cells (the last row of a page is usually partial).
   const kept: Rect[] = [];
   for (const r of rects) {
-    const png = await cropRect(pngPath, r);
+    const png = await cropRect(page, r);
     if (!(await isBlank(png))) kept.push(r);
   }
   rects = kept;
-  const localCards = await localReadCards(pngPath, rects, tpl, workDir, cfg.localMinConf);
+  const localCards = await localReadCards(page, rects, tpl, workDir, cfg.localMinConf);
   if (localCards.length < rects.length) log.debug("page", `${label}: ${rects.length - localCards.length} bordered cell(s) with nothing voter-like skipped`);
   rects = localCards.map((c) => c.rect);
   // Deletion / modification lists print the voters' ORIGINAL serials, which are not consecutive,
@@ -556,7 +559,7 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   const escalatedIdx = local ? [] : uncertain;
   const pad = tpl.strips.padPx;
   const cropCard = (r: Rect) =>
-    cropRect(pngPath, {
+    cropRect(page, {
       left: Math.max(0, r.left - pad), top: Math.max(0, r.top - pad),
       width: Math.min(dims.width, r.left + r.width + pad) - Math.max(0, r.left - pad),
       height: Math.min(dims.height, r.top + r.height + pad) - Math.max(0, r.top - pad),

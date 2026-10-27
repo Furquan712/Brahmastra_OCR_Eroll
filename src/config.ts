@@ -106,6 +106,8 @@ export interface CliOverrides {
   push?: boolean;
   /** --force-push: re-send PDFs the push ledger says are already on the dashboard. */
   forcePush?: boolean;
+  /** false from --no-csv */
+  csv?: boolean;
 }
 
 /**
@@ -145,6 +147,21 @@ function applyBackendSwitch(): Config["backend"] {
   return "local";
 }
 
+/**
+ * Absolute path with symlinks resolved (created if missing). tesseract cannot open the file
+ * list of a batch through a symlinked path such as macOS's /tmp -> /private/tmp ("failed to
+ * open locally with tail list.txt"), so scratch dirs are always given to it as real paths.
+ */
+function realDir(p: string): string {
+  const abs = path.resolve(p);
+  try {
+    fs.mkdirSync(abs, { recursive: true });
+    return fs.realpathSync(abs);
+  } catch {
+    return abs;
+  }
+}
+
 export function buildConfig(o: CliOverrides, projectRoot: string): Config {
   loadDotEnv();
   const backend = applyBackendSwitch();
@@ -181,7 +198,7 @@ export function buildConfig(o: CliOverrides, projectRoot: string): Config {
     confidenceThreshold: o.threshold ?? envNum("OCR_CONFIDENCE_THRESHOLD", 0.7),
     mode,
     cacheDir: path.resolve(o.cache ?? process.env.OCR_CACHE_DIR ?? "./cache"),
-    tmpDir: path.resolve(o.tmp ?? process.env.OCR_TMP_DIR ?? "./tmp"),
+    tmpDir: realDir(o.tmp ?? process.env.OCR_TMP_DIR ?? "./tmp"),
     outDir: path.resolve(o.out ?? process.env.OCR_OUT_DIR ?? "./output"),
     templatesDir: process.env.OCR_TEMPLATES_DIR
       ? path.resolve(process.env.OCR_TEMPLATES_DIR)
