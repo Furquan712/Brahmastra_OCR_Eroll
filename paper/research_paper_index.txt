@@ -1,0 +1,294 @@
+================================================================================
+RESEARCH PAPER - TABLE OF CONTENTS (WORKING INDEX)
+================================================================================
+
+WORKING TITLE
+  Making the Invisible Roll Visible: Consensus OCR for Hindi Electoral Rolls
+  and an Audit of Additions and Deletions in India's Special Intensive Revision
+
+ALTERNATIVE TITLES
+  - Auditing India's Electoral Roll Revision at Scale with Low-Cost,
+    CPU-Only Document AI
+  - From Image-Only PDFs to Accountable Rolls: An Open Pipeline for
+    Electoral Roll Transparency in India
+
+PAPER TYPE   : Computational social science / applied document AI
+TARGET VENUES: ACM COMPASS, ACM FAccT, ICDAR (applications track),
+               EPW (policy version), J. of Information Technology & Politics
+LENGTH GUIDE : 8-12 pages main text + appendices (two-column ACM format)
+
+--------------------------------------------------------------------------------
+FRONT MATTER
+--------------------------------------------------------------------------------
+  Title Page
+    - Title, subtitle
+    - Author name(s), affiliation(s), email, ORCID
+    - Corresponding author
+  Abstract (150-250 words)
+    - Problem: rolls published as image-only PDFs, so they cannot be audited
+    - Method: CPU-only consensus OCR + transliteration pipeline
+    - Accuracy result (headline number)
+    - Audit result (headline finding on additions/deletions)
+    - Significance for electoral transparency
+  Keywords (5-7)
+    - electoral rolls, OCR, low-resource languages, Devanagari
+      transliteration, election integrity, India, document AI
+  CCS Concepts / JEL / Subject Classification (as required by venue)
+
+--------------------------------------------------------------------------------
+1. INTRODUCTION
+--------------------------------------------------------------------------------
+  1.1  Background and Motivation
+       - The electoral roll as the foundation of democratic participation
+       - Special Intensive Revision (SIR) 2025-26 and public debate on
+         deletions
+  1.2  Problem Statement
+       - ECI publishes rolls as flattened raster PDFs
+       - No machine-readable access means no independent audit
+       - Hindi script, poor scans, bilingual layout, scale (lakhs of pages)
+  1.3  Research Questions
+       - RQ1: Can a low-cost, CPU-only pipeline recover roll data accurately
+              enough for auditing?
+       - RQ2: How do consensus, voting and cross-document memory improve
+              accuracy over single-pass OCR?
+       - RQ3: What patterns of addition, deletion and modification appear
+              across booths, age groups and gender during SIR?
+  1.4  Contributions
+       - C1: Open, reproducible OCR + transliteration pipeline
+       - C2: Hand-labelled benchmark of electoral roll cards
+       - C3: Empirical audit of roll changes in N constituencies
+       - C4: Ethical framework for research on voter-roll data
+  1.5  Paper Organisation
+
+--------------------------------------------------------------------------------
+2. BACKGROUND
+--------------------------------------------------------------------------------
+  2.1  India's Electoral Roll System
+       2.1.1  Structure: State > AC > Part (booth) > Section > Voter card
+       2.1.2  Draft roll, final roll and supplements
+       2.1.3  Claims and objections: Forms 6, 7, 8
+       2.1.4  Special Intensive Revision (SIR): purpose, timeline, process
+  2.2  Anatomy of an Electoral Roll PDF
+       2.2.1  Cover page (polling station, elector counts, admin units)
+       2.2.2  Voter card grid (EPIC, name, relation, house no., age, gender)
+       2.2.3  Supplement lists: additions, deletions, modifications
+       2.2.4  Deletion and modification markers on cards
+  2.3  Legal and Policy Context
+       2.3.1  Representation of the People Act, 1950
+       2.3.2  ECI policy on image-only publication
+       2.3.3  Digital Personal Data Protection Act, 2023
+       2.3.4  Relevant court cases and public debate on roll access
+
+--------------------------------------------------------------------------------
+3. RELATED WORK
+--------------------------------------------------------------------------------
+  3.1  OCR for Indic and Low-Resource Scripts
+       - Tesseract, IndicOCR, transformer OCR (TrOCR, Donut)
+  3.2  Vision-Language Models for Document Understanding
+       - Cost, hallucination, reliability on structured forms
+  3.3  Transliteration of Indian Names
+       - Rule-based schwa deletion, Aksharantar, Dakshina, neural models
+  3.4  Ensemble / Multi-Pass OCR and Post-OCR Correction
+  3.5  Computational Studies of Elections and Voter Lists
+       - Voter-list audits in India and abroad (e.g. US voter-file studies)
+  3.6  Election Integrity, Transparency and Civic Tech
+  3.7  Research Gap
+       - No open, validated pipeline + audit for Hindi rolls under SIR
+
+--------------------------------------------------------------------------------
+4. DATA
+--------------------------------------------------------------------------------
+  4.1  Data Source and Collection
+       4.1.1  ECI public CDN, URL structure and roll types
+       4.1.2  Downloader design: binary search for part counts, rate
+              limiting, resumable fetching
+       4.1.3  Lawful and respectful collection practices
+  4.2  Corpus Description
+       4.2.1  States, constituencies, parts, pages (summary table)
+       4.2.2  Languages (Hindi, English) and print-quality variation
+       4.2.3  Draft vs final vs supplements coverage
+  4.3  Ground-Truth Benchmark Construction
+       4.3.1  Sampling strategy (states, scan quality, page types)
+       4.3.2  Annotation protocol and field definitions
+       4.3.3  Inter-annotator agreement
+       4.3.4  Train / evaluation separation (transliteration eval set)
+  4.4  Data Limitations
+
+--------------------------------------------------------------------------------
+5. METHODOLOGY I - THE OCR PIPELINE
+--------------------------------------------------------------------------------
+  5.1  System Overview (architecture diagram)
+  5.2  Pre-processing
+       5.2.1  PDF rasterisation (300 dpi)
+       5.2.2  Page classification: cover / main roll / additions /
+              deletions / modifications / summary
+  5.3  Cover Page Parsing
+       5.3.1  Regex extraction of identifiers and elector counts
+       5.3.2  Cross-checking against file names
+  5.4  Layout Analysis
+       5.4.1  Card grid detection from printed borders
+       5.4.2  Serial and section box detection
+       5.4.3  Filtering non-voter cells
+  5.5  Field Recognition
+       5.5.1  EPIC: multi-scale, whitelist passes + majority vote
+       5.5.2  Name and relation name: bilingual + Hindi-only passes
+       5.5.3  Age, gender, relation type: digit whitelist, fuzzy matching
+       5.5.4  Serial numbers and action markers (shifted / modified)
+  5.6  Consensus and Error Repair
+       5.6.1  Per-field voting
+       5.6.2  Page- and PDF-level name consensus
+       5.6.3  Cross-document Hindi name memory (2-PDF confirmation rule)
+  5.7  Transliteration (Hindi -> English)
+       5.7.1  Rule-based syllabification and schwa deletion
+       5.7.2  Learned context re-ranker
+       5.7.3  Lexicon and override layer
+  5.8  Uncertainty Flagging ("flag, don't guess")
+       5.8.1  Flag taxonomy (epic_low_conf, name_garbled, ...)
+       5.8.2  Hybrid mode: routing flagged cards to a vision model
+  5.9  Merge, Deduplication and Validation
+  5.10 Implementation and Resource Footprint
+       - Hardware (2 vCPU / 4 GB), throughput, cost per page
+
+--------------------------------------------------------------------------------
+6. EVALUATION OF THE PIPELINE  (answers RQ1, RQ2)
+--------------------------------------------------------------------------------
+  6.1  Experimental Setup
+       6.1.1  Metrics: field accuracy, card accuracy, CER/WER,
+              flag precision and recall
+       6.1.2  Baselines: single-pass Tesseract, vision LLM only, hybrid
+  6.2  Field-Level Accuracy (table)
+  6.3  Card-Level Accuracy (table)
+  6.4  Ablation Study
+       - Without multi-pass voting
+       - Without Hindi-only pass
+       - Without page/PDF consensus
+       - Without cross-document memory
+  6.5  Flag Calibration
+       - Are errors caught by flags? Residual unflagged error rate
+  6.6  Transliteration Evaluation
+       - Rules vs model vs full engine; exact match, CER
+  6.7  Robustness Across States and Scan Quality
+  6.8  Cost and Speed Comparison (CPU vs API-based LLM)
+  6.9  Error Analysis (qualitative examples)
+
+--------------------------------------------------------------------------------
+7. METHODOLOGY II - AUDIT FRAMEWORK
+--------------------------------------------------------------------------------
+  7.1  Audit Questions and Hypotheses
+  7.2  Unit of Analysis: constituency, part (booth), section, household
+  7.3  Indicators
+       7.3.1  Addition, deletion and modification rates
+       7.3.2  Age-group and gender composition of deletions
+       7.3.3  Sex ratio before and after revision
+       7.3.4  Household reconstruction (shared house number) and
+              whole-household deletions
+       7.3.5  Booth-level clustering and outlier detection
+  7.4  Statistical Methods
+       - Descriptive statistics, rate comparisons, confidence intervals
+       - Outlier detection (z-score / robust methods)
+       - Spatial clustering (if booth geolocation used)
+  7.5  Propagating OCR Error into Audit Estimates
+       - Sensitivity analysis using flagged-row exclusion and
+         measured error rates
+
+--------------------------------------------------------------------------------
+8. RESULTS - ROLL REVISION AUDIT  (answers RQ3)
+--------------------------------------------------------------------------------
+  8.1  Overview of Studied Constituencies
+  8.2  Scale of Roll Change (additions, deletions, modifications)
+  8.3  Demographic Patterns
+       8.3.1  By age group
+       8.3.2  By gender
+  8.4  Household-Level Patterns
+  8.5  Booth-Level Variation and Outliers
+  8.6  Cross-State Comparison
+  8.7  Robustness Checks
+
+--------------------------------------------------------------------------------
+9. DISCUSSION
+--------------------------------------------------------------------------------
+  9.1  Interpretation of Findings
+  9.2  Implications for Election Administration and Transparency
+  9.3  Implications for Low-Resource Document AI
+  9.4  Is Image-Only Publication an Effective Privacy Safeguard?
+  9.5  Recommendations
+       - For ECI (structured, privacy-preserving aggregate releases)
+       - For researchers and civil society
+  9.6  Generalisability to Other States and Countries
+
+--------------------------------------------------------------------------------
+10. ETHICAL CONSIDERATIONS
+--------------------------------------------------------------------------------
+  10.1  Personal Data and DPDP Act Compliance
+  10.2  Data Minimisation: aggregate-only release, no name-level data
+  10.3  No Inference of Religion, Caste or Other Sensitive Attributes
+  10.4  Risk of Misuse (voter profiling, targeted suppression)
+  10.5  Dual-Use and Release Policy for Code and Data
+  10.6  Ethics Review / IRB Approval
+  10.7  Conflict of Interest Disclosure
+
+--------------------------------------------------------------------------------
+11. LIMITATIONS
+--------------------------------------------------------------------------------
+  11.1  Benchmark Size and Representativeness
+  11.2  OCR Errors on Poor Scans
+  11.3  Coverage (states, constituencies, time)
+  11.4  Deletion Records Do Not Reveal Reasons or Legitimacy
+  11.5  Household Reconstruction Assumptions
+
+--------------------------------------------------------------------------------
+12. CONCLUSION AND FUTURE WORK
+--------------------------------------------------------------------------------
+  12.1  Summary of Contributions
+  12.2  Answers to Research Questions
+  12.3  Future Work
+        - More languages (Marathi, Telugu, Tamil, Bengali)
+        - Longitudinal tracking across revisions
+        - Linking roll change to turnout and booth results (Form-20)
+        - Fine-tuned open OCR models
+
+--------------------------------------------------------------------------------
+BACK MATTER
+--------------------------------------------------------------------------------
+  Acknowledgements
+  Author Contributions (CRediT statement)
+  Funding Statement
+  Conflict of Interest Statement
+  Data and Code Availability Statement
+  References (ACM / APA / IEEE style, per venue)
+
+--------------------------------------------------------------------------------
+APPENDICES
+--------------------------------------------------------------------------------
+  Appendix A  Sample Roll Pages (redacted) and Field Layout
+  Appendix B  Annotation Guidelines for the Benchmark
+  Appendix C  Full Flag Taxonomy and Definitions
+  Appendix D  Transliteration Rules and Examples
+  Appendix E  Per-Constituency Result Tables
+  Appendix F  Hyperparameters, Software Versions, Hardware
+  Appendix G  Reproducibility Checklist
+
+--------------------------------------------------------------------------------
+LIST OF FIGURES (PLANNED)
+--------------------------------------------------------------------------------
+  Fig 1   Sample electoral roll page (redacted) with annotated fields
+  Fig 2   End-to-end pipeline architecture
+  Fig 3   Multi-pass voting and consensus repair illustration
+  Fig 4   Accuracy: baselines vs ablations vs full pipeline
+  Fig 5   Flag calibration (errors caught vs flags raised)
+  Fig 6   Deletion rate distribution across booths
+  Fig 7   Age-gender pyramid of deletions vs full roll
+  Fig 8   Booth-level map of deletion outliers
+
+--------------------------------------------------------------------------------
+LIST OF TABLES (PLANNED)
+--------------------------------------------------------------------------------
+  Table 1  Corpus statistics by state and constituency
+  Table 2  Field-level accuracy vs baselines
+  Table 3  Ablation results
+  Table 4  Transliteration accuracy (rules / model / full)
+  Table 5  Cost and throughput comparison
+  Table 6  Addition / deletion / modification summary
+  Table 7  Demographic breakdown of deletions
+
+================================================================================
