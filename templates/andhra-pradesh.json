@@ -1,0 +1,9 @@
+{
+  "name": "andhra-pradesh",
+  "extends": "goa",
+  "description": "Andhra Pradesh - English-language ECI eRoll (3x10 cards, Latin script). Pages are ~2.75x A4, so run it with --dpi 100 (300 dpi renders the text too large for tesseract). Names run closer to the photo box than in Goa, hence the wider body crop.",
+  "match": { "states": ["Andhra Pradesh", "AP"] },
+  "local": {
+    "bodyBox": { "left": 0.0, "top": 0.2, "width": 0.74, "height": 0.8 }
+  }
+}

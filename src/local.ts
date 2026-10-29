@@ -118,8 +118,10 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   const nameLabels = L.name?.length ? L.name : ["नाम"];
   const nameStartRe = new RegExp(`^\\W{0,2}(?:${labelAlternation(nameLabels)})\\s*[:：ः]`, "iu");
   const nameRe = labelRegex(nameLabels)!;
-  const ageRe = labelRegex(L.age?.length ? L.age : ["आयु", "उम्र"])!;
-  const genderRe = labelRegex(L.gender?.length ? L.gender : ["लिंग"])!;
+  // Latin labels must be whole words: "Age" is inside NAGESWARA, SAGAR, BHAGESH ...
+  const wholeWord = (re: RegExp): RegExp => (script === "latin" ? new RegExp(`\\b(?:${re.source})\\b`, re.flags) : re);
+  const ageRe = wholeWord(labelRegex(L.age?.length ? L.age : ["आयु", "उम्र"])!);
+  const genderRe = wholeWord(labelRegex(L.gender?.length ? L.gender : ["लिंग"])!);
   const houseRe = labelRegex(L.house?.length ? L.house : ["मकान संख्या", "गृह संख्या"])!;
   const houseLooseRe = labelRegex(L.houseLoose);
   const nameWord = script === "latin" ? /\bName\b/i : /नाम/;
@@ -140,8 +142,11 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   const genderWords = Object.keys(tpl.genderMap).filter(ofScript).sort((a, b) => b.length - a.length);
   const findGender = (t: string): string => genderWords.find((gw) => hasLabel(t, gw, script)) ?? "";
 
-  // 1. age/gender line: most distinctive (digits + gender word).
+  // 1. age/gender line: most distinctive (digits + gender word). A line carrying the age/gender label
+  // wins over one that only contains a gender word ("Others: Veera ..." is a relation line).
+  const labelled = lines.findIndex((l) => ageRe.test(asciiDigits(l.text)) || genderRe.test(asciiDigits(l.text)));
   for (const [i, l] of lines.entries()) {
+    if (labelled >= 0 && i !== labelled) continue;
     const t = asciiDigits(l.text);
     const g = findGender(t) || fuzzyGender(l.words.map((w) => w.text), genderWords, script);
     const ageM = /(?:^|[^\d])(\d{1,3})(?!\d)/.exec(t.replace(new RegExp(`^.*?${ageRe.source}`, "iu"), (m) => m.replace(/\d/g, " ")));
@@ -160,7 +165,9 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   for (const [i, l] of lines.entries()) {
     if (used.has(i)) continue;
     const lab = relationLabels.find((r) => hasLabel(l.text, r, script));
-    if (lab && nameWord.test(l.text) && !nameStartRe.test(l.text)) {
+    // Usually "Fathers Name: X"; some English rolls print just "Others: X".
+    const bareLabel = script === "latin" && lab !== undefined && new RegExp(`^\\W{0,2}${lab}s?\\s*[:：]`, "i").test(l.text);
+    if (lab && (nameWord.test(l.text) || bareLabel) && !nameStartRe.test(l.text)) {
       used.add(i);
       out.relationTypeHi = lab;
       const v = valueOf(l);
@@ -189,6 +196,28 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
       out.nameHi = v.value;
       out.nameConf = v.conf;
       break;
+    }
+  }
+  // English rolls wrap a long name onto a second, unlabelled line ("Fathers Name: NARAYANA MURTY" /
+  // "GUNTURU"): append such a line to the field whose line it follows.
+  if (script === "latin") {
+    const fieldAt = new Map<number, "name" | "relation" | "house">();
+    lines.forEach((l, i) => {
+      if (!used.has(i)) return;
+      const v = valueOf(l).value;
+      if (v && v === out.relationNameHi) fieldAt.set(i, "relation");
+      else if (v && v === out.houseNo) fieldAt.set(i, "house");
+      else if (v && v === out.nameHi) fieldAt.set(i, "name");
+    });
+    for (const [i, l] of lines.entries()) {
+      const field = fieldAt.get(i - 1);
+      if (used.has(i) || !field || field === "house" || LABEL_SPLIT.test(l.text)) continue;
+      const extra = tidyName(l.text);
+      if (!/^[A-Za-z][A-Za-z .]*$/.test(extra)) continue;
+      used.add(i);
+      fieldAt.set(i, field);
+      if (field === "name") out.nameHi = `${out.nameHi} ${extra}`;
+      else out.relationNameHi = `${out.relationNameHi} ${extra}`;
     }
   }
   // Positional fallback: if the name is still missing, take the first unused line's value.
