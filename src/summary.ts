@@ -23,7 +23,7 @@ export interface RunSummary {
   usage: { calls: number; inputTokens: number; outputTokens: number };
   failures: { file: string; error: string }[];
   warnings: string[];
-  perPdf: { file: string; status: string; partNo: string; pages: number; cards: number; psNameHi: string }[];
+  perPdf: { file: string; status: string; partNo: string; pages: number; cards: number; psNameHi: string; serialTo: number | null }[];
 }
 
 export function buildSummary(
@@ -61,6 +61,7 @@ export function buildSummary(
     perPdf: results.map((r) => ({
       file: r.file, status: r.status, partNo: r.partNo, pages: r.pages.length,
       cards: r.pages.reduce((n, p) => n + p.cards.length, 0), psNameHi: r.cover?.psNameHi ?? "",
+      serialTo: r.cover?.serialTo ?? null,
     })),
   };
 }

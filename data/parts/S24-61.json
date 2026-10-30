@@ -1,0 +1,4067 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2406",
+ "acNumber": 61,
+ "fetchedAt": "2026-10-30T05:40:32",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 811,
+ "maxPart": 811,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "PURV MADHYAMIK VIDYALAYA, HAROLA MAKANPUR ROOM NO 1",
+   "partId": 423342
+  },
+  {
+   "partNumber": 2,
+   "partName": "PURV MADHYAMIK VIDYALAYA, HAROLA MAKANPUR ROOM NO 2",
+   "partId": 423343
+  },
+  {
+   "partNumber": 3,
+   "partName": "PURV MADHYAMIK VIDYALAYA, HAROLA MAKANPUR ROOM NO 3",
+   "partId": 423344
+  },
+  {
+   "partNumber": 4,
+   "partName": "PURV MADHYAMIK VIDYALAYA, HAROLA MAKANPUR ROOM NO 4",
+   "partId": 423345
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRIMARY SCHOOL, HAROLA MAKANPUR ROOM NO 1",
+   "partId": 424313
+  },
+  {
+   "partNumber": 6,
+   "partName": "PRIMARY SCHOOL, HAROLA MAKANPUR ROOM NO 2",
+   "partId": 424314
+  },
+  {
+   "partNumber": 7,
+   "partName": "PRIMARY SCHOOL, HAROLA MAKANPUR ROOM NO 3",
+   "partId": 424315
+  },
+  {
+   "partNumber": 8,
+   "partName": "PRIMARY SCHOOL, HAROLA MAKANPUR ROOM NO 4",
+   "partId": 424316
+  },
+  {
+   "partNumber": 9,
+   "partName": "PRIMARY SCHOOL, HAROLA MAKANPUR ROOM NO 5",
+   "partId": 424317
+  },
+  {
+   "partNumber": 10,
+   "partName": "PRIMARY SCHOOL, HAROLA MAKANPUR ROOM NO 6",
+   "partId": 424318
+  },
+  {
+   "partNumber": 11,
+   "partName": "PRIMARY SCHOOL, HAROLA MAKANPUR ROOM NO 7",
+   "partId": 424328
+  },
+  {
+   "partNumber": 12,
+   "partName": "PRIMARY SCHOOL, HAROLA MAKANPUR ROOM NO 8",
+   "partId": 424329
+  },
+  {
+   "partNumber": 13,
+   "partName": "INDIRA GANDHI KALA KENDRA, SECTOR- 6 NOIDA",
+   "partId": 424330
+  },
+  {
+   "partNumber": 14,
+   "partName": "COMMUNITY CENTRE, JHUNDPURA PART 1",
+   "partId": 424331
+  },
+  {
+   "partNumber": 15,
+   "partName": "COMMUNITY CENTRE, JHUNDPURA PART 2",
+   "partId": 424332
+  },
+  {
+   "partNumber": 16,
+   "partName": "COMMUNITY CENTRE, JHUNDPURA PART 3",
+   "partId": 424333
+  },
+  {
+   "partNumber": 17,
+   "partName": "COMMUNITY CENTRE, JHUNDPURA PART 4",
+   "partId": 424339
+  },
+  {
+   "partNumber": 18,
+   "partName": "COMMUNITY CENTRE, JHUNDPURA PART 5",
+   "partId": 424340
+  },
+  {
+   "partNumber": 19,
+   "partName": "COMMUNITY CENTRE, JHUNDPURA PART 6",
+   "partId": 424349
+  },
+  {
+   "partNumber": 20,
+   "partName": "COMMUNITY CENTRE, JHUNDPURA PART 7",
+   "partId": 424350
+  },
+  {
+   "partNumber": 21,
+   "partName": "BHAURAV DEVRAS SARASWATI VIDYA MANDIR, SECTOR- 12 NOIDA ROOM NO 1",
+   "partId": 424351
+  },
+  {
+   "partNumber": 22,
+   "partName": "BHAURAV DEVRAS SARASWATI VIDYA MANDIR, SECTOR- 12 NOIDA ROOM NO 2",
+   "partId": 424352
+  },
+  {
+   "partNumber": 23,
+   "partName": "BHAURAV DEVRAS SARASWATI VIDYA MANDIR, SECTOR- 12 NOIDA ROOM NO 3",
+   "partId": 424353
+  },
+  {
+   "partNumber": 24,
+   "partName": "BHAURAV DEVRAS SARASWATI VIDYA MANDIR, SECTOR- 12 NOIDA ROOM NO 4",
+   "partId": 424354
+  },
+  {
+   "partNumber": 25,
+   "partName": "BHAURAV DEVRAS SARASWATI VIDYA MANDIR, SECTOR- 12 NOIDA ROOM NO 5",
+   "partId": 424355
+  },
+  {
+   "partNumber": 26,
+   "partName": "BHAURAV DEVRAS SARASWATI VIDYA MANDIR, SECTOR- 12 NOIDA ROOM NO 6",
+   "partId": 424366
+  },
+  {
+   "partNumber": 27,
+   "partName": "BHAURAV DEVRAS SARASWATI VIDYA MANDIR, SECTOR- 12 NOIDA ROOM NO 7",
+   "partId": 424367
+  },
+  {
+   "partNumber": 28,
+   "partName": "BHAURAV DEVRAS SARASWATI VIDYA MANDIR, SECTOR- 12 NOIDA ROOM NO 8",
+   "partId": 424368
+  },
+  {
+   "partNumber": 29,
+   "partName": "PANCHAYAT GHAR, JHUNDPURA SECTOR-11 NOIDA",
+   "partId": 424369
+  },
+  {
+   "partNumber": 30,
+   "partName": "SARASWATI SHISHU VIDYA MANDIR SECTOR 12 NOIDA ROOM NO 1",
+   "partId": 424370
+  },
+  {
+   "partNumber": 31,
+   "partName": "SARASWATI SHISHU VIDYA MANDIR SECTOR 12 NOIDA ROOM NO 2",
+   "partId": 424371
+  },
+  {
+   "partNumber": 32,
+   "partName": "SARASWATI SHISHU VIDYA MANDIR SECTOR 12 NOIDA ROOM NO 3",
+   "partId": 424372
+  },
+  {
+   "partNumber": 33,
+   "partName": "SARASWATI SHISHU VIDYA MANDIR SECTOR 12 NOIDA ROOM NO 4",
+   "partId": 424373
+  },
+  {
+   "partNumber": 34,
+   "partName": "SARASWATI SHISHU VIDYA MANDIR SECTOR 12 NOIDA ROOM NO 5",
+   "partId": 424374
+  },
+  {
+   "partNumber": 35,
+   "partName": "SARASWATI SHISHU VIDYA MANDIR SECTOR 12 NOIDA ROOM NO 6",
+   "partId": 424375
+  },
+  {
+   "partNumber": 36,
+   "partName": "SARASWATI SHISHU VIDYA MANDIR SECTOR 12 NOIDA ROOM NO 7",
+   "partId": 424382
+  },
+  {
+   "partNumber": 37,
+   "partName": "SARASWATI SHISHU VIDYA MANDIR SECTOR 12 NOIDA ROOM NO 8",
+   "partId": 424383
+  },
+  {
+   "partNumber": 38,
+   "partName": "I.T.I. BHAWAN SECTOR-11 NOIDA ROOM NO 1",
+   "partId": 424384
+  },
+  {
+   "partNumber": 39,
+   "partName": "I.T.I. BHAWAN SECTOR-11 NOIDA ROOM NO 2",
+   "partId": 424385
+  },
+  {
+   "partNumber": 40,
+   "partName": "I.T.I. BHAWAN SECTOR-11 NOIDA ROOM NO 3",
+   "partId": 424386
+  },
+  {
+   "partNumber": 41,
+   "partName": "I.T.I. BHAWAN SECTOR-11 NOIDA ROOM NO 4",
+   "partId": 424387
+  },
+  {
+   "partNumber": 42,
+   "partName": "NEHRU INTERNATIONAL PUBLIC SCHOOL, SECTOR -11 NOIDA ROOM NO 1",
+   "partId": 424388
+  },
+  {
+   "partNumber": 43,
+   "partName": "NEHRU INTERNATIONAL PUBLIC SCHOOL, SECTOR -11 NOIDA ROOM NO 2",
+   "partId": 424389
+  },
+  {
+   "partNumber": 44,
+   "partName": "NEHRU INTERNATIONAL PUBLIC SCHOOL, SECTOR -11 NOIDA ROOM NO 3",
+   "partId": 424398
+  },
+  {
+   "partNumber": 45,
+   "partName": "PRIMARY SCHOOL, JHUNDPURA SECTOR-11 NOIDA ROOM NO 1",
+   "partId": 424399
+  },
+  {
+   "partNumber": 46,
+   "partName": "MODERN SCHOOL, S-1 SECTOR-11 NOIDA ROOM NO 1",
+   "partId": 424400
+  },
+  {
+   "partNumber": 47,
+   "partName": "MODERN SCHOOL, S-1 SECTOR-11 NOIDA ROOM NO 2",
+   "partId": 424401
+  },
+  {
+   "partNumber": 48,
+   "partName": "MODERN SCHOOL, S-1 SECTOR-11 NOIDA ROOM NO 3",
+   "partId": 424402
+  },
+  {
+   "partNumber": 49,
+   "partName": "MODERN SCHOOL, S-1 SECTOR-11 NOIDA ROOM NO 4",
+   "partId": 424403
+  },
+  {
+   "partNumber": 50,
+   "partName": "MODERN SCHOOL, S-1 SECTOR-11 NOIDA ROOM NO 5",
+   "partId": 424404
+  },
+  {
+   "partNumber": 51,
+   "partName": "MODERN SCHOOL, S-1 SECTOR-11 NOIDA ROOM NO 6",
+   "partId": 424405
+  },
+  {
+   "partNumber": 52,
+   "partName": "MODERN SCHOOL, S-1 SECTOR-11 NOIDA ROOM NO 7",
+   "partId": 424406
+  },
+  {
+   "partNumber": 53,
+   "partName": "MODERN SCHOOL, S-1 SECTOR-11 NOIDA ROOM NO 8",
+   "partId": 424407
+  },
+  {
+   "partNumber": 54,
+   "partName": "COMMUNITY CENTRE, SECTOR-11 NOIDA PART 1",
+   "partId": 424415
+  },
+  {
+   "partNumber": 55,
+   "partName": "COMMUNITY CENTRE, SECTOR-11 NOIDA PART 2",
+   "partId": 424416
+  },
+  {
+   "partNumber": 56,
+   "partName": "COMMUNITY CENTRE, SECTOR-11 NOIDA PART 3",
+   "partId": 424417
+  },
+  {
+   "partNumber": 57,
+   "partName": "COMMUNITY CENTRE, SECTOR-11 NOIDA PART 4",
+   "partId": 424418
+  },
+  {
+   "partNumber": 58,
+   "partName": "YASH MEMORIAL JUNIOR HIGH SCHOOL, BISHANPURA SECTOR-58 NOIDA ROOM NO 1",
+   "partId": 424419
+  },
+  {
+   "partNumber": 59,
+   "partName": "YASH MEMORIAL JUNIOR HIGH SCHOOL, BISHANPURA SECTOR-58 NOIDA ROOM NO 2",
+   "partId": 424420
+  },
+  {
+   "partNumber": 60,
+   "partName": "PRIMARY SCHOOL CHAURA SADATPUR ROOM NO 1",
+   "partId": 424421
+  },
+  {
+   "partNumber": 61,
+   "partName": "PRIMARY SCHOOL CHAURA SADATPUR ROOM NO 2",
+   "partId": 424422
+  },
+  {
+   "partNumber": 62,
+   "partName": "PRIMARY SCHOOL CHAURA SADATPUR ROOM NO 3",
+   "partId": 424429
+  },
+  {
+   "partNumber": 63,
+   "partName": "PRIMARY SCHOOL CHAURA SADATPUR ROOM NO 4",
+   "partId": 424430
+  },
+  {
+   "partNumber": 64,
+   "partName": "PRIMARY SCHOOL CHAURA SADATPUR ROOM NO 5",
+   "partId": 424431
+  },
+  {
+   "partNumber": 65,
+   "partName": "GANDHI MEMORIAL INTER COLLEGE CHAUDA SADATPUR ROOM NO 1",
+   "partId": 424432
+  },
+  {
+   "partNumber": 66,
+   "partName": "GANDHI MEMORIAL INTER COLLEGE CHAUDA SADATPUR ROOM NO 2",
+   "partId": 424433
+  },
+  {
+   "partNumber": 67,
+   "partName": "GANDHI MEMORIAL INTER COLLEGE CHAUDA SADATPUR ROOM NO 3",
+   "partId": 424434
+  },
+  {
+   "partNumber": 68,
+   "partName": "GANDHI MEMORIAL INTER COLLEGE CHAUDA SADATPUR ROOM NO 4",
+   "partId": 424435
+  },
+  {
+   "partNumber": 69,
+   "partName": "GANDHI MEMORIAL INTER COLLEGE CHAUDA SADATPUR ROOM NO 5",
+   "partId": 424436
+  },
+  {
+   "partNumber": 70,
+   "partName": "GANDHI MEMORIAL INTER COLLEGE CHAUDA SADATPUR  ROOM NO 6",
+   "partId": 424437
+  },
+  {
+   "partNumber": 71,
+   "partName": "GANDHI MEMORIAL INTER COLLEGE CHAUDA SADATPUR ROOM NO 7",
+   "partId": 424442
+  },
+  {
+   "partNumber": 72,
+   "partName": "GANDHI MEMORIAL INTER COLLEGE CHAUDA SADATPUR  ROOM NO 8",
+   "partId": 424443
+  },
+  {
+   "partNumber": 73,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 1",
+   "partId": 424444
+  },
+  {
+   "partNumber": 74,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 2",
+   "partId": 424445
+  },
+  {
+   "partNumber": 75,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 3",
+   "partId": 424446
+  },
+  {
+   "partNumber": 76,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 4",
+   "partId": 424447
+  },
+  {
+   "partNumber": 77,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 5",
+   "partId": 424448
+  },
+  {
+   "partNumber": 78,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 6",
+   "partId": 424449
+  },
+  {
+   "partNumber": 79,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 7",
+   "partId": 424450
+  },
+  {
+   "partNumber": 80,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 8",
+   "partId": 424451
+  },
+  {
+   "partNumber": 81,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 9",
+   "partId": 424454
+  },
+  {
+   "partNumber": 82,
+   "partName": "GOVERNMENT INTER COLLEGE, SECTOR-12 NOIDA ROOM NO 10",
+   "partId": 423334
+  },
+  {
+   "partNumber": 83,
+   "partName": "SOMERVILLE SCHOOL, D-89, SECTOR-22 NOIDA ROOM NO 1",
+   "partId": 423335
+  },
+  {
+   "partNumber": 84,
+   "partName": "SOMERVILLE SCHOOL, D-89, SECTOR-22 NOIDA ROOM NO 2",
+   "partId": 423336
+  },
+  {
+   "partNumber": 85,
+   "partName": "COMMUNITY CENTRE, SECTOR-23 NOIDA PART 1",
+   "partId": 423337
+  },
+  {
+   "partNumber": 86,
+   "partName": "COMMUNITY CENTRE, SECTOR-23 NOIDA PART 2",
+   "partId": 423338
+  },
+  {
+   "partNumber": 87,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 1",
+   "partId": 423339
+  },
+  {
+   "partNumber": 88,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 2",
+   "partId": 423340
+  },
+  {
+   "partNumber": 89,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 3",
+   "partId": 423341
+  },
+  {
+   "partNumber": 90,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 4",
+   "partId": 423346
+  },
+  {
+   "partNumber": 91,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 5",
+   "partId": 423347
+  },
+  {
+   "partNumber": 92,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 6",
+   "partId": 423348
+  },
+  {
+   "partNumber": 93,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 7",
+   "partId": 424309
+  },
+  {
+   "partNumber": 94,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 8",
+   "partId": 424310
+  },
+  {
+   "partNumber": 95,
+   "partName": "COMPOSITE SCHOOL SECTOR 12 NOIDA ROOM NO 9",
+   "partId": 424311
+  },
+  {
+   "partNumber": 96,
+   "partName": "PRIMARY SCHOOL, SECTOR 22 NOIDA ROOM NO 1",
+   "partId": 424312
+  },
+  {
+   "partNumber": 97,
+   "partName": "PRIMARY SCHOOL, SECTOR 22 NOIDA ROOM NO 2",
+   "partId": 424319
+  },
+  {
+   "partNumber": 98,
+   "partName": "PRIMARY SCHOOL, SECTOR 22 NOIDA ROOM NO 3",
+   "partId": 424320
+  },
+  {
+   "partNumber": 99,
+   "partName": "PRIMARY SCHOOL, SECTOR 22 NOIDA ROOM NO 4",
+   "partId": 424321
+  },
+  {
+   "partNumber": 100,
+   "partName": "PRIMARY SCHOOL, SECTOR 22 NOIDA ROOM NO 5",
+   "partId": 424322
+  },
+  {
+   "partNumber": 101,
+   "partName": "BAL BHARATI PUBLIC SCHOOL, SECTOR-21 NOIDA ROOM NO 1",
+   "partId": 424323
+  },
+  {
+   "partNumber": 102,
+   "partName": "BAL BHARATI PUBLIC SCHOOL, SECTOR-21 NOIDA ROOM NO 2",
+   "partId": 424324
+  },
+  {
+   "partNumber": 103,
+   "partName": "BAL BHARATI PUBLIC SCHOOL, SECTOR-21 NOIDA ROOM NO 3",
+   "partId": 424325
+  },
+  {
+   "partNumber": 104,
+   "partName": "BAL BHARATI PUBLIC SCHOOL, SECTOR-21 NOIDA ROOM NO 4",
+   "partId": 424326
+  },
+  {
+   "partNumber": 105,
+   "partName": "BAL BHARATI PUBLIC SCHOOL, SECTOR-21 NOIDA ROOM NO 5",
+   "partId": 424327
+  },
+  {
+   "partNumber": 106,
+   "partName": "BAL BHARATI PUBLIC SCHOOL, SECTOR-21 NOIDA ROOM NO 6",
+   "partId": 424334
+  },
+  {
+   "partNumber": 107,
+   "partName": "R. K. MODERN SCHOOL, C-75A, SECTOR- 55 NOIDA ROOM NO 1",
+   "partId": 424335
+  },
+  {
+   "partNumber": 108,
+   "partName": "R. K. MODERN SCHOOL, C-75A, SECTOR- 55 NOIDA ROOM NO 2",
+   "partId": 424336
+  },
+  {
+   "partNumber": 109,
+   "partName": "R. K. MODERN SCHOOL, C-75A, SECTOR- 55 NOIDA ROOM NO 3",
+   "partId": 424337
+  },
+  {
+   "partNumber": 110,
+   "partName": "R. K. MODERN SCHOOL, C-75A, SECTOR- 55 NOIDA ROOM NO 4",
+   "partId": 424338
+  },
+  {
+   "partNumber": 111,
+   "partName": "R. K. MODERN SCHOOL, C-75A, SECTOR- 55 NOIDA ROOM NO 5",
+   "partId": 424341
+  },
+  {
+   "partNumber": 112,
+   "partName": "R. K. MODERN SCHOOL, C-75A, SECTOR- 55 NOIDA ROOM NO 6",
+   "partId": 424342
+  },
+  {
+   "partNumber": 113,
+   "partName": "D. A. V. SCHOOL, A -53, SECTOR-56 NOIDA ROOM NO 1",
+   "partId": 424343
+  },
+  {
+   "partNumber": 114,
+   "partName": "D. A. V. SCHOOL, A -53, SECTOR-56 NOIDA ROOM NO 2",
+   "partId": 424344
+  },
+  {
+   "partNumber": 115,
+   "partName": "D. A. V. SCHOOL, A -53, SECTOR-56 NOIDA ROOM NO 3",
+   "partId": 424345
+  },
+  {
+   "partNumber": 116,
+   "partName": "D. A. V. SCHOOL, A -53, SECTOR-56 NOIDA ROOM NO 4",
+   "partId": 424346
+  },
+  {
+   "partNumber": 117,
+   "partName": "D. A. V. SCHOOL, A -53, SECTOR-56 NOIDA ROOM NO 5",
+   "partId": 424347
+  },
+  {
+   "partNumber": 118,
+   "partName": "D. A. V. SCHOOL, A -53, SECTOR-56 NOIDA ROOM NO 6",
+   "partId": 424348
+  },
+  {
+   "partNumber": 119,
+   "partName": "D. A. V. SCHOOL, A -53, SECTOR-56 NOIDA ROOM NO 7",
+   "partId": 424356
+  },
+  {
+   "partNumber": 120,
+   "partName": "D. A. V. SCHOOL, A -53, SECTOR-56 NOIDA ROOM NO 8",
+   "partId": 424357
+  },
+  {
+   "partNumber": 121,
+   "partName": "CLUB HOUSE DESGNER PARK APARTMENT SECTOR -62",
+   "partId": 424358
+  },
+  {
+   "partNumber": 122,
+   "partName": "ASPAM SCOTTISH SCHOOL, A-43, SECTOR - 62 NOIDA ROOM NO 1",
+   "partId": 425045
+  },
+  {
+   "partNumber": 123,
+   "partName": "ASPAM SCOTTISH SCHOOL, A-43, SECTOR - 62 NOIDA ROOM NO 2",
+   "partId": 424359
+  },
+  {
+   "partNumber": 124,
+   "partName": "ASPAM SCOTTISH SCHOOL, A-43, SECTOR - 62 NOIDA ROOM NO 3",
+   "partId": 424360
+  },
+  {
+   "partNumber": 125,
+   "partName": "ASPAM SCOTTISH SCHOOL, A-43, SECTOR - 62 NOIDA ROOM NO 4",
+   "partId": 424361
+  },
+  {
+   "partNumber": 126,
+   "partName": "ASPAM SCOTTISH SCHOOL, A-43, SECTOR - 62 NOIDA ROOM NO 5",
+   "partId": 424362
+  },
+  {
+   "partNumber": 127,
+   "partName": "ASPAM SCOTTISH SCHOOL, A-43, SECTOR - 62 NOIDA ROOM NO 6",
+   "partId": 424363
+  },
+  {
+   "partNumber": 128,
+   "partName": "ASPAM SCOTTISH SCHOOL, A-43, SECTOR - 62 NOIDA ROOM NO 7",
+   "partId": 424364
+  },
+  {
+   "partNumber": 129,
+   "partName": "SPAM SCOTTISH SCHOOL A-43 SECTOR-62 NOIDA ROOM NO 8",
+   "partId": 425047
+  },
+  {
+   "partNumber": 130,
+   "partName": "CLUB HOUSE SHAKTI KUNJ APARTMENT SECTOR 62 NOIDA",
+   "partId": 424365
+  },
+  {
+   "partNumber": 131,
+   "partName": "CLUB HOUSE INDIAN OIL APARTMENT SECTOR 62 NOIDA",
+   "partId": 424376
+  },
+  {
+   "partNumber": 132,
+   "partName": "COMMUNITY CENTRE ,RASULPUR NAWADA",
+   "partId": 424377
+  },
+  {
+   "partNumber": 133,
+   "partName": "COMMUNITY CENTRE, SECTOR 62 NOIDA PART 1",
+   "partId": 424378
+  },
+  {
+   "partNumber": 134,
+   "partName": "COMMUNITY CENTRE, SECTOR 62 NOIDA PART 2",
+   "partId": 424379
+  },
+  {
+   "partNumber": 135,
+   "partName": "COMMUNITY CENTRE, SECTOR 62 NOIDA PART 3",
+   "partId": 424380
+  },
+  {
+   "partNumber": 136,
+   "partName": "CLUB HOUSE TELECOM CITY SECTOR-62",
+   "partId": 425046
+  },
+  {
+   "partNumber": 137,
+   "partName": "PRIMARY SCHOOL, HAZRATPUR WAJIDPUR ROOM NO 1",
+   "partId": 424381
+  },
+  {
+   "partNumber": 138,
+   "partName": "PRIMARY SCHOOL HAJRATPUR WAJIDPUR ROOM NO 2",
+   "partId": 425048
+  },
+  {
+   "partNumber": 139,
+   "partName": "COMPOSITE SCHOOL MAHINUDDINPUR KANAWANI ROOM NO 1",
+   "partId": 424390
+  },
+  {
+   "partNumber": 140,
+   "partName": "COMPOSITE SCHOOL MAHINUDDINPUR KANAWANI ROOM NO 2",
+   "partId": 424391
+  },
+  {
+   "partNumber": 141,
+   "partName": "COMPOSITE SCHOOL MAHINUDDINPUR KANAWANI ROOM NO 3",
+   "partId": 424392
+  },
+  {
+   "partNumber": 142,
+   "partName": "COMPOSITE SCHOOL MAHINUDDINPUR KANAWANI ROOM NO 4",
+   "partId": 424393
+  },
+  {
+   "partNumber": 143,
+   "partName": "COMPOSITE SCHOOL MAHINUDDINPUR KANAWANI ROOM NO 5",
+   "partId": 424394
+  },
+  {
+   "partNumber": 144,
+   "partName": "COMPOSITE SCHOOL MAHINUDDINPUR KANAWANI ROOM NO 6",
+   "partId": 424395
+  },
+  {
+   "partNumber": 145,
+   "partName": "COMPOSITE SCHOOL MAHINUDDINPUR KANAWANI ROOM NO 7",
+   "partId": 424396
+  },
+  {
+   "partNumber": 146,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 1",
+   "partId": 424397
+  },
+  {
+   "partNumber": 147,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 2",
+   "partId": 424408
+  },
+  {
+   "partNumber": 148,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 3",
+   "partId": 424409
+  },
+  {
+   "partNumber": 149,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 4",
+   "partId": 424410
+  },
+  {
+   "partNumber": 150,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 5",
+   "partId": 424411
+  },
+  {
+   "partNumber": 151,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 6",
+   "partId": 424412
+  },
+  {
+   "partNumber": 152,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 7",
+   "partId": 424413
+  },
+  {
+   "partNumber": 153,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 8",
+   "partId": 424414
+  },
+  {
+   "partNumber": 154,
+   "partName": "COMPOSITE SCHOOL, CHHIJARSI ROOM NO 9",
+   "partId": 424423
+  },
+  {
+   "partNumber": 155,
+   "partName": "SAKSHI PUBLIC SCHOOL CHHIJARASI ROOM NO 1",
+   "partId": 424424
+  },
+  {
+   "partNumber": 156,
+   "partName": "SAKSHI PUBLIC SCHOOL CHHIJARASI ROOM NO 2",
+   "partId": 425049
+  },
+  {
+   "partNumber": 157,
+   "partName": "SAKSHI PUBLIC SCHOOL, CHHIJARASI ROOM NO 3",
+   "partId": 424425
+  },
+  {
+   "partNumber": 158,
+   "partName": "SAKSHI PUBLIC SCHOOL, CHHIJARASI ROOM NO 4",
+   "partId": 424426
+  },
+  {
+   "partNumber": 159,
+   "partName": "CITY PUBLIC SCHOOL, SECTOR- 61 NOIDA ROOM NO 1",
+   "partId": 424427
+  },
+  {
+   "partNumber": 160,
+   "partName": "CITY PUBLIC SCHOOL, SECTOR- 61 NOIDA ROOM NO 2",
+   "partId": 424428
+  },
+  {
+   "partNumber": 161,
+   "partName": "CITY PUBLIC SCHOOL, SECTOR- 61 NOIDA ROOM NO 3",
+   "partId": 424438
+  },
+  {
+   "partNumber": 162,
+   "partName": "CITY PUBLIC SCHOOL, SECTOR- 61 NOIDA ROOM NO 4",
+   "partId": 424439
+  },
+  {
+   "partNumber": 163,
+   "partName": "CITY PUBLIC SCHOOL, SECTOR- 61 NOIDA ROOM NO 5",
+   "partId": 424440
+  },
+  {
+   "partNumber": 164,
+   "partName": "CITY PUBLIC SCHOOL, SECTOR- 61 NOIDA ROOM NO 6",
+   "partId": 424441
+  },
+  {
+   "partNumber": 165,
+   "partName": "CLUB HOUSE SAKET DHAM, SECTOR-61",
+   "partId": 424452
+  },
+  {
+   "partNumber": 166,
+   "partName": "CLUB HOUSE PRATEEK FEDORA SECTOR-61",
+   "partId": 425050
+  },
+  {
+   "partNumber": 167,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 1",
+   "partId": 424453
+  },
+  {
+   "partNumber": 168,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 2",
+   "partId": 424455
+  },
+  {
+   "partNumber": 169,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 3",
+   "partId": 424456
+  },
+  {
+   "partNumber": 170,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 4",
+   "partId": 424457
+  },
+  {
+   "partNumber": 171,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 5",
+   "partId": 424458
+  },
+  {
+   "partNumber": 172,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 6",
+   "partId": 424459
+  },
+  {
+   "partNumber": 173,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 7",
+   "partId": 424460
+  },
+  {
+   "partNumber": 174,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 8",
+   "partId": 424461
+  },
+  {
+   "partNumber": 175,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 9",
+   "partId": 424462
+  },
+  {
+   "partNumber": 176,
+   "partName": "COMPOSITE SCHOOL, MAMURA ROOM NO 10",
+   "partId": 424463
+  },
+  {
+   "partNumber": 177,
+   "partName": "COMPOSITE SCHOOL, RASULPUR NAWADA ROOM NO 1",
+   "partId": 424464
+  },
+  {
+   "partNumber": 178,
+   "partName": "COMPOSITE SCHOOL, RASULPUR NAWADA ROOM NO 2",
+   "partId": 424465
+  },
+  {
+   "partNumber": 179,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 1",
+   "partId": 424466
+  },
+  {
+   "partNumber": 180,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 2",
+   "partId": 424467
+  },
+  {
+   "partNumber": 181,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 3",
+   "partId": 424468
+  },
+  {
+   "partNumber": 182,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 4",
+   "partId": 424469
+  },
+  {
+   "partNumber": 183,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 5",
+   "partId": 424470
+  },
+  {
+   "partNumber": 184,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 6",
+   "partId": 424471
+  },
+  {
+   "partNumber": 185,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 7",
+   "partId": 424472
+  },
+  {
+   "partNumber": 186,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 8",
+   "partId": 424473
+  },
+  {
+   "partNumber": 187,
+   "partName": "COMPOSITE SCHOOL, GIJHORE ROOM NO 9",
+   "partId": 424474
+  },
+  {
+   "partNumber": 188,
+   "partName": "VENUS PUBLIC SCHOOL SECTOR 53, NOIDA ROOM NO 1",
+   "partId": 424475
+  },
+  {
+   "partNumber": 189,
+   "partName": "VENUS PUBLIC SCHOOL SECTOR 53, NOIDA ROOM NO 2",
+   "partId": 424476
+  },
+  {
+   "partNumber": 190,
+   "partName": "COMMUNITY CENTRE, SECTOR-53 NOIDA PART 1",
+   "partId": 424477
+  },
+  {
+   "partNumber": 191,
+   "partName": "COMMUNITY CENTRE, SECTOR-53 NOIDA PART 2",
+   "partId": 424478
+  },
+  {
+   "partNumber": 192,
+   "partName": "COMMUNITY CENTRE, SECTOR-53 NOIDA PART 3",
+   "partId": 424479
+  },
+  {
+   "partNumber": 193,
+   "partName": "COMMUNITY CENTRE, SECTOR-53 NOIDA PART 4",
+   "partId": 424480
+  },
+  {
+   "partNumber": 194,
+   "partName": "BILLABONG HIGH INTERNATIONAL SCHOOL, SECTOR-34 NOIDA ROOM NO 1",
+   "partId": 424481
+  },
+  {
+   "partNumber": 195,
+   "partName": "BILLABONG HIGH INTERNATIONAL SCHOOL, SECTOR-34 NOIDA ROOM NO 2",
+   "partId": 424482
+  },
+  {
+   "partNumber": 196,
+   "partName": "BILLABONG HIGH INTERNATIONAL SCHOOL, SECTOR-34 NOIDA ROOM NO 3",
+   "partId": 424483
+  },
+  {
+   "partNumber": 197,
+   "partName": "BILLABONG HIGH INTERNATIONAL SCHOOL, SECTOR-34 NOIDA ROOM NO 4",
+   "partId": 424484
+  },
+  {
+   "partNumber": 198,
+   "partName": "BILLABONG HIGH INTERNATIONAL SCHOOL, SECTOR-34 NOIDA ROOM NO 5",
+   "partId": 424485
+  },
+  {
+   "partNumber": 199,
+   "partName": "BILLABONG HIGH INTERNATIONAL SCHOOL, SECTOR-34 NOIDA ROOM NO 6",
+   "partId": 424486
+  },
+  {
+   "partNumber": 200,
+   "partName": "BILLABONG HIGH INTERNATIONAL SCHOOL, SECTOR-34 NOIDA ROOM NO 7",
+   "partId": 424487
+  },
+  {
+   "partNumber": 201,
+   "partName": "COMMUNITY CENTRE, SECTOR-34 NOIDA PART 1",
+   "partId": 424488
+  },
+  {
+   "partNumber": 202,
+   "partName": "COMMUNITY CENTRE, SECTOR-34 NOIDA  PART 2",
+   "partId": 424489
+  },
+  {
+   "partNumber": 203,
+   "partName": "COMMUNITY CENTRE, SECTOR-34 NOIDA  PART 3",
+   "partId": 424490
+  },
+  {
+   "partNumber": 204,
+   "partName": "COMMUNITY CENTRE, BLOCK A SECTOR-51 NOIDA  PART 1",
+   "partId": 424491
+  },
+  {
+   "partNumber": 205,
+   "partName": "COMMUNITY CENTRE, BLOCK A SECTOR-51 NOIDA  PART 2",
+   "partId": 424492
+  },
+  {
+   "partNumber": 206,
+   "partName": "COMMUNITY CENTRE, BLOCK A SECTOR-51 NOIDA  PART 3",
+   "partId": 424493
+  },
+  {
+   "partNumber": 207,
+   "partName": "COMMUNITY CENTRE, BLOCK A SECTOR-51 NOIDA  PART 4",
+   "partId": 424494
+  },
+  {
+   "partNumber": 208,
+   "partName": "COMMUNITY CENTRE BLOCK-A SECTOR-51 NOIDA PAPRT 5",
+   "partId": 425051
+  },
+  {
+   "partNumber": 209,
+   "partName": "ROCKWOOD SCHOOL, SECTOR- 33 NOIDA ROOM NO 1",
+   "partId": 424495
+  },
+  {
+   "partNumber": 210,
+   "partName": "ROCKWOOD SCHOOL, SECTOR- 33 NOIDA ROOM NO 2",
+   "partId": 424496
+  },
+  {
+   "partNumber": 211,
+   "partName": "ROCKWOOD SCHOOL, SECTOR- 33 NOIDA ROOM NO 3",
+   "partId": 424497
+  },
+  {
+   "partNumber": 212,
+   "partName": "ROCKWOOD SCHOOL, SECTOR- 33 NOIDA ROOM NO 4",
+   "partId": 424498
+  },
+  {
+   "partNumber": 213,
+   "partName": "ROCKWOOD SCHOOL, SECTOR- 33 NOIDA ROOM NO 5",
+   "partId": 424499
+  },
+  {
+   "partNumber": 214,
+   "partName": "ROCKWOOD SCHOOL, SECTOR- 33 NOIDA ROOM NO 6",
+   "partId": 424500
+  },
+  {
+   "partNumber": 215,
+   "partName": "ROCKWOOD SCHOOL, SECTOR- 33 NOIDA ROOM NO 7",
+   "partId": 424501
+  },
+  {
+   "partNumber": 216,
+   "partName": "COMMUNITY CENTRE, KENDRIYA VIHAR SECTOR-51 NOIDA PART 1",
+   "partId": 424502
+  },
+  {
+   "partNumber": 217,
+   "partName": "COMMUNITY CENTRE, KENDRIYA VIHAR SECTOR-51 NOIDA PART 2",
+   "partId": 424503
+  },
+  {
+   "partNumber": 218,
+   "partName": "COMPOSITE SCHOOL, HOSHIYARPUR ROOM NO 1",
+   "partId": 424504
+  },
+  {
+   "partNumber": 219,
+   "partName": "COMPOSITE SCHOOL, HOSHIYARPUR ROOM NO 2",
+   "partId": 424505
+  },
+  {
+   "partNumber": 220,
+   "partName": "COMPOSITE SCHOOL, HOSHIYARPUR ROOM NO 3",
+   "partId": 424506
+  },
+  {
+   "partNumber": 221,
+   "partName": "COMPOSITE SCHOOL, HOSHIYARPUR ROOM NO 4",
+   "partId": 424507
+  },
+  {
+   "partNumber": 222,
+   "partName": "COMPOSITE SCHOOL, HOSHIYARPUR ROOM NO 5",
+   "partId": 424508
+  },
+  {
+   "partNumber": 223,
+   "partName": "COMPOSITE SCHOOL HOSHIYARPUR ROOM NO 6",
+   "partId": 425052
+  },
+  {
+   "partNumber": 224,
+   "partName": "FONRWA OFFICE, SECTOR- 52 NOIDA PART 1",
+   "partId": 424509
+  },
+  {
+   "partNumber": 225,
+   "partName": "FONRWA OFFICE, SECTOR- 52 NOIDA PART 2",
+   "partId": 424510
+  },
+  {
+   "partNumber": 226,
+   "partName": "FONRWA OFFICE, SECTOR- 52 NOIDA PART 3",
+   "partId": 424511
+  },
+  {
+   "partNumber": 227,
+   "partName": "COMMUNITY CENTRE, SECTOR-52 NOIDA PART 1",
+   "partId": 424512
+  },
+  {
+   "partNumber": 228,
+   "partName": "COMMUNITY CENTRE, SECTOR-52 NOIDA PART 2",
+   "partId": 424513
+  },
+  {
+   "partNumber": 229,
+   "partName": "CLUB HOUSE ARAVALI APARTMENTS SECTOR-52",
+   "partId": 424514
+  },
+  {
+   "partNumber": 230,
+   "partName": "CLUB HOUSE MAHAGUN MANOR SECTOR-50 NOIDA",
+   "partId": 424515
+  },
+  {
+   "partNumber": 231,
+   "partName": "NILGIRI HILLS PUBLIC SCHOOL F-1 SECTOR-50 NOIDA ROOM NO 1",
+   "partId": 425053
+  },
+  {
+   "partNumber": 232,
+   "partName": "NILGIRI HILLS PUBLIC SCHOOL, F-1 SECTOR-50 NOIDA ROOM NO 2",
+   "partId": 424516
+  },
+  {
+   "partNumber": 233,
+   "partName": "NILGIRI HILLS PUBLIC SCHOOL, F-1 SECTOR-50 NOIDA ROOM NO 3",
+   "partId": 425026
+  },
+  {
+   "partNumber": 234,
+   "partName": "CLUB HOUSE SILVER STATE SECTOR-50 NOIDA",
+   "partId": 425054
+  },
+  {
+   "partNumber": 235,
+   "partName": "COMMUNITY CENTRE, SECTOR- 50 NOIDA PART 1",
+   "partId": 424517
+  },
+  {
+   "partNumber": 236,
+   "partName": "CLUB HOUSE SWARN JAYANTI RAIL NAGAR SECTOR-50 NOIDA",
+   "partId": 425055
+  },
+  {
+   "partNumber": 237,
+   "partName": "CLUB HOUSE KAILASH DHAM SECTOR-50 NOIDA",
+   "partId": 424518
+  },
+  {
+   "partNumber": 238,
+   "partName": "RAMAGYA SCHOOL, SECTOR-50 NOIDA ROOM NO 1",
+   "partId": 424519
+  },
+  {
+   "partNumber": 239,
+   "partName": "RAMAGYA SCHOOL, SECTOR-50 NOIDA ROOM NO 2",
+   "partId": 424520
+  },
+  {
+   "partNumber": 240,
+   "partName": "RAMAGYA SCHOOL, SECTOR-50 NOIDA ROOM NO 3",
+   "partId": 424521
+  },
+  {
+   "partNumber": 241,
+   "partName": "CLUB HOUSE ALOK VIHAR-1 SECTOR-50 NOIDA",
+   "partId": 425098
+  },
+  {
+   "partNumber": 242,
+   "partName": "CLUB HOUSE SHUBHKAMNA APARTMENTS SECTOR-50 NOIDA",
+   "partId": 424522
+  },
+  {
+   "partNumber": 243,
+   "partName": "CULTURAL CLUB F-34A SECTOR 50 NOIDA PART 1",
+   "partId": 424523
+  },
+  {
+   "partNumber": 244,
+   "partName": "CULTURAL CLUB F-34A SECTOR 50 NOIDA PART 2",
+   "partId": 424524
+  },
+  {
+   "partNumber": 245,
+   "partName": "CLUB HOUSE, MAHAGUN MAPLE, SECTOR-50 NOIDA",
+   "partId": 424525
+  },
+  {
+   "partNumber": 246,
+   "partName": "CULTURAL CLUB F-34A SECTOR 50 NOIDA PART 3",
+   "partId": 424526
+  },
+  {
+   "partNumber": 247,
+   "partName": "CLUB HOUSE, TGB MEGHDUTAM, SECTOR-50 NOIDA",
+   "partId": 425056
+  },
+  {
+   "partNumber": 248,
+   "partName": "COMMUNITY CENTRE, JANTA FLAT SECTOR-71 NOIDA PART 1",
+   "partId": 424527
+  },
+  {
+   "partNumber": 249,
+   "partName": "COMMUNITY CENTRE, JANTA FLAT SECTOR-71 NOIDA PART 2",
+   "partId": 424528
+  },
+  {
+   "partNumber": 250,
+   "partName": "COMMUNITY CENTRE, JANTA FLAT SECTOR-71 NOIDA PART 3",
+   "partId": 424529
+  },
+  {
+   "partNumber": 251,
+   "partName": "COMMUNITY CENTRE, JANTA FLAT SECTOR-71 NOIDA PART 4",
+   "partId": 424530
+  },
+  {
+   "partNumber": 252,
+   "partName": "COMMUNITY CENTRE, JANTA FLAT SECTOR-71 NOIDA PART 5",
+   "partId": 424531
+  },
+  {
+   "partNumber": 253,
+   "partName": "COMMUNITY CENTRE, JANTA FLAT SECTOR-71 NOIDA PART 6",
+   "partId": 424532
+  },
+  {
+   "partNumber": 254,
+   "partName": "COMMUNITY CENTRE, BLOCK- B SECTOR-71 NOIDA PART 1",
+   "partId": 424533
+  },
+  {
+   "partNumber": 255,
+   "partName": "COMMUNITY CENTRE, BLOCK- B SECTOR-71 NOIDA PART 2",
+   "partId": 424534
+  },
+  {
+   "partNumber": 256,
+   "partName": "COMPOSITE SCHOOL, SUTHARI URF NITHARI ROOM NO 1",
+   "partId": 424535
+  },
+  {
+   "partNumber": 257,
+   "partName": "COMPOSITE SCHOOL, SUTHARI URF NITHARI ROOM NO 2",
+   "partId": 424536
+  },
+  {
+   "partNumber": 258,
+   "partName": "COMPOSITE SCHOOL, SUTHARI URF NITHARI ROOM NO 3",
+   "partId": 424537
+  },
+  {
+   "partNumber": 259,
+   "partName": "COMPOSITE SCHOOL, SUTHARI URF NITHARI ROOM NO 4",
+   "partId": 424538
+  },
+  {
+   "partNumber": 260,
+   "partName": "COMPOSITE SCHOOL, SUTHARI URF NITHARI ROOM NO 5",
+   "partId": 424539
+  },
+  {
+   "partNumber": 261,
+   "partName": "COMPOSITE SCHOOL, SUTHARI URF NITHARI ROOM NO 6",
+   "partId": 424540
+  },
+  {
+   "partNumber": 262,
+   "partName": "COMPOSITE SCHOOL, SUTHARI URF NITHARI ROOM NO 7",
+   "partId": 424541
+  },
+  {
+   "partNumber": 263,
+   "partName": "COMPOSITE SCHOOL, SUTHARI URF NITHARI ROOM NO 8",
+   "partId": 424542
+  },
+  {
+   "partNumber": 264,
+   "partName": "MOTHER MERRY PUBLIC SCHOOL IN NITHARI ROOM NO 1",
+   "partId": 424543
+  },
+  {
+   "partNumber": 265,
+   "partName": "MOTHER MERRY PUBLIC SCHOOL IN NITHARI ROOM NO 2",
+   "partId": 424544
+  },
+  {
+   "partNumber": 266,
+   "partName": "MOTHER MERRY PUBLIC SCHOOL IN NITHARI ROOM NO 3",
+   "partId": 424545
+  },
+  {
+   "partNumber": 267,
+   "partName": "MOTHER MERRY PUBLIC SCHOOL IN NITHARI ROOM NO 4",
+   "partId": 424546
+  },
+  {
+   "partNumber": 268,
+   "partName": "ARUN VIHAR CLUB SECTOR 29 NOIDA PART 1",
+   "partId": 424547
+  },
+  {
+   "partNumber": 269,
+   "partName": "ARUN VIHAR CLUB SECTOR 29 NOIDA PART 2",
+   "partId": 424548
+  },
+  {
+   "partNumber": 270,
+   "partName": "ARUN VIHAR CLUB SECTOR 29 NOIDA PART 3",
+   "partId": 424549
+  },
+  {
+   "partNumber": 271,
+   "partName": "VISHWA BHARTI PUBLIC SCHOOL, SECTOR- 28 NOIDA ROOM NO 1",
+   "partId": 424550
+  },
+  {
+   "partNumber": 272,
+   "partName": "VISHWA BHARTI PUBLIC SCHOOL, SECTOR- 28 NOIDA ROOM NO 2",
+   "partId": 424551
+  },
+  {
+   "partNumber": 273,
+   "partName": "VISHWA BHARTI PUBLIC SCHOOL, SECTOR- 28 NOIDA ROOM NO 3",
+   "partId": 424552
+  },
+  {
+   "partNumber": 274,
+   "partName": "VISHWA BHARTI PUBLIC SCHOOL, SECTOR- 28 NOIDA ROOM NO 4",
+   "partId": 424553
+  },
+  {
+   "partNumber": 275,
+   "partName": "VISHWA BHARTI PUBLIC SCHOOL, SECTOR- 28 NOIDA ROOM NO 5",
+   "partId": 424554
+  },
+  {
+   "partNumber": 276,
+   "partName": "I. T. I. BHAWAN, SECTOR- 31 NOIDA ROOM NO 1",
+   "partId": 424555
+  },
+  {
+   "partNumber": 277,
+   "partName": "COMMUNITY CENTRE, SECTOR- 30 NOIDA PART 1",
+   "partId": 424556
+  },
+  {
+   "partNumber": 278,
+   "partName": "COMMUNITY CENTRE, SECTOR- 30 NOIDA PART 2",
+   "partId": 424557
+  },
+  {
+   "partNumber": 279,
+   "partName": "COMMUNITY CENTRE, SECTOR- 30 NOIDA PART 3",
+   "partId": 424558
+  },
+  {
+   "partNumber": 280,
+   "partName": "SARASWATI BALIKA VIDHYA MANDIR, NITHARI SECTOR- 31 NOIDA ROOM NO 1",
+   "partId": 424559
+  },
+  {
+   "partNumber": 281,
+   "partName": "SARASWATI BALIKA VIDHYA MANDIR, NITHARI SECTOR- 31 NOIDA ROOM NO 2",
+   "partId": 424560
+  },
+  {
+   "partNumber": 282,
+   "partName": "SARASWATI BALIKA VIDHYA MANDIR, NITHARI SECTOR- 31 NOIDA ROOM NO 3",
+   "partId": 424561
+  },
+  {
+   "partNumber": 283,
+   "partName": "SARASWATI BALIKA VIDHYA MANDIR, NITHARI SECTOR- 31 NOIDA ROOM NO 4",
+   "partId": 424562
+  },
+  {
+   "partNumber": 284,
+   "partName": "SARASWATI BALIKA VIDYA MANDIR, NITHARI, SECTOR-31 NOIDA ROOM 5",
+   "partId": 425057
+  },
+  {
+   "partNumber": 285,
+   "partName": "N. S. PUBLIC SCHOOL, SECTOR-26 NOIDA ROOM NO 1",
+   "partId": 424563
+  },
+  {
+   "partNumber": 286,
+   "partName": "N. S. PUBLIC SCHOOL, SECTOR-26 NOIDA ROOM NO 2",
+   "partId": 424564
+  },
+  {
+   "partNumber": 287,
+   "partName": "N. S. PUBLIC SCHOOL, SECTOR-26 NOIDA ROOM NO 3",
+   "partId": 424565
+  },
+  {
+   "partNumber": 288,
+   "partName": "N. S. PUBLIC SCHOOL, SECTOR-26 NOIDA ROOM NO 4",
+   "partId": 424566
+  },
+  {
+   "partNumber": 289,
+   "partName": "N. S. PUBLIC SCHOOL, SECTOR-26 NOIDA ROOM NO 5",
+   "partId": 424567
+  },
+  {
+   "partNumber": 290,
+   "partName": "BRAHMANANDA PUBLIC SCHOOL, BLOCK-A SECTOR-20 NOIDA ROOM NO 1",
+   "partId": 424568
+  },
+  {
+   "partNumber": 291,
+   "partName": "BRAHMANANDA PUBLIC SCHOOL, BLOCK- A SECTOR-20 NOIDA ROOM NO 2",
+   "partId": 424569
+  },
+  {
+   "partNumber": 292,
+   "partName": "BRAHMANANDA PUBLIC SCHOOL, BLOCK-A SECTOR-20 NOIDA ROOM NO 3",
+   "partId": 424570
+  },
+  {
+   "partNumber": 293,
+   "partName": "BRAHMANANDA PUBLIC SCHOOL, BLOCK-A SECTOR-20 NOIDA ROOM NO 4",
+   "partId": 424571
+  },
+  {
+   "partNumber": 294,
+   "partName": "BRAHMANANDA PUBLIC SCHOOL, BLOCK-A SECTOR-20 NOIDA ROOM NO 5",
+   "partId": 424572
+  },
+  {
+   "partNumber": 295,
+   "partName": "BRAHMANANDA PUBLIC SCHOOL, BLOCK-A SECTOR-20 NOIDA ROOM NO 6",
+   "partId": 424573
+  },
+  {
+   "partNumber": 296,
+   "partName": "BRAHMANANDA PUBLIC SCHOOL, BLOCK-A SECTOR-20 NOIDA ROOM NO 7",
+   "partId": 424574
+  },
+  {
+   "partNumber": 297,
+   "partName": "BRAHMANANDA PUBLIC SCHOOL, BLOCK-A SECTOR-20 NOIDA ROOM NO 8",
+   "partId": 424575
+  },
+  {
+   "partNumber": 298,
+   "partName": "MARIGOLD PUBLIC SCHOOL, SECTOR-19 NOIDA ROOM NO 1",
+   "partId": 424576
+  },
+  {
+   "partNumber": 299,
+   "partName": "MARIGOLD PUBLIC SCHOOL, SECTOR-19 NOIDA ROOM NO 2",
+   "partId": 424577
+  },
+  {
+   "partNumber": 300,
+   "partName": "MARIGOLD PUBLIC SCHOOL, SECTOR-19 NOIDA ROOM NO 3",
+   "partId": 424578
+  },
+  {
+   "partNumber": 301,
+   "partName": "MARIGOLD PUBLIC SCHOOL, SECTOR-19 NOIDA ROOM NO 4",
+   "partId": 424579
+  },
+  {
+   "partNumber": 302,
+   "partName": "MARIGOLD PUBLIC SCHOOL, SECTOR-19 NOIDA ROOM NO 5",
+   "partId": 424580
+  },
+  {
+   "partNumber": 303,
+   "partName": "MARIGOLD PUBLIC SCHOOL, SECTOR-19 NOIDA ROOM NO 6",
+   "partId": 424581
+  },
+  {
+   "partNumber": 304,
+   "partName": "MARIGOLD PUBLIC SCHOOL, SECTOR-19 NOIDA ROOM NO 7",
+   "partId": 424582
+  },
+  {
+   "partNumber": 305,
+   "partName": "COMMUNITY CENTRE, BLOCK B SECTOR-19 NOIDA PART 1",
+   "partId": 424583
+  },
+  {
+   "partNumber": 306,
+   "partName": "COMMUNITY CENTRE, BLOCK B SECTOR-19 NOIDA PART 2",
+   "partId": 424584
+  },
+  {
+   "partNumber": 307,
+   "partName": "COMMUNITY CENTRE, BLOCK B SECTOR-19 NOIDA PART 3",
+   "partId": 424585
+  },
+  {
+   "partNumber": 308,
+   "partName": "COMMUNITY CENTRE, BLOCK B SECTOR-19 NOIDA PART 4",
+   "partId": 424586
+  },
+  {
+   "partNumber": 309,
+   "partName": "COMPOSITE SCHOOL, MORNA ROOM NO 1",
+   "partId": 424587
+  },
+  {
+   "partNumber": 310,
+   "partName": "COMPOSITE SCHOOL, MORNA ROOM NO 2",
+   "partId": 424588
+  },
+  {
+   "partNumber": 311,
+   "partName": "COMPOSITE SCHOOL, MORNA ROOM NO 3",
+   "partId": 424589
+  },
+  {
+   "partNumber": 312,
+   "partName": "COMPOSITE SCHOOL, MORNA ROOM NO 4",
+   "partId": 424590
+  },
+  {
+   "partNumber": 313,
+   "partName": "COMPOSITE SCHOOL, MORNA ROOM NO 5",
+   "partId": 424591
+  },
+  {
+   "partNumber": 314,
+   "partName": "COMPOSITE SCHOOL, MORNA ROOM NO 6",
+   "partId": 424592
+  },
+  {
+   "partNumber": 315,
+   "partName": "COMPOSITE SCHOOL, MORNA ROOM NO 7",
+   "partId": 424593
+  },
+  {
+   "partNumber": 316,
+   "partName": "COMPOSITE SCHOOL, MORNA ROOM NO 8",
+   "partId": 424594
+  },
+  {
+   "partNumber": 317,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, BAROLA ROOM NO 1",
+   "partId": 424595
+  },
+  {
+   "partNumber": 318,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, BAROLA ROOM NO 2",
+   "partId": 424596
+  },
+  {
+   "partNumber": 319,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, BAROLA ROOM NO 3",
+   "partId": 424597
+  },
+  {
+   "partNumber": 320,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, BAROLA ROOM NO 4",
+   "partId": 424598
+  },
+  {
+   "partNumber": 321,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, BAROLA ROOM NO 5",
+   "partId": 424599
+  },
+  {
+   "partNumber": 322,
+   "partName": "PURVA MADHYAMIK VIDHYALAYA BAROLA ROOM NO 6",
+   "partId": 425058
+  },
+  {
+   "partNumber": 323,
+   "partName": "SANT YUVRAJ INTER COLLEGE, HINDON VIHAR SECTOR-49 ROOM NO 1",
+   "partId": 424600
+  },
+  {
+   "partNumber": 324,
+   "partName": "SANT YUVRAJ INTER COLLEGE, HINDON VIHAR SECTOR-49 ROOM NO 2",
+   "partId": 424601
+  },
+  {
+   "partNumber": 325,
+   "partName": "SANT YUVRAJ INTER COLLEGE, HINDON VIHAR SECTOR-49 ROOM NO 3",
+   "partId": 424602
+  },
+  {
+   "partNumber": 326,
+   "partName": "SANT YUVRAJ INTER COLLEGE, HINDON VIHAR SECTOR-49 ROOM NO 4",
+   "partId": 424603
+  },
+  {
+   "partNumber": 327,
+   "partName": "SANT YUVRAJ INTER COLLEGE, HINDON VIHAR SECTOR-49 ROOM NO 5",
+   "partId": 424604
+  },
+  {
+   "partNumber": 328,
+   "partName": "SANT YUVRAJ INTER COLLEGE, HINDON VIHAR SECTOR-49 ROOM NO 6",
+   "partId": 424605
+  },
+  {
+   "partNumber": 329,
+   "partName": "SANT YUVRAJ INTER COLLEGE, HINDON VIHAR SECTOR-49 ROOM NO 7",
+   "partId": 424606
+  },
+  {
+   "partNumber": 330,
+   "partName": "SANT YUVRAJ INTER COLLEGE, HINDON VIHAR SECTOR-49 ROOM NO 8",
+   "partId": 424607
+  },
+  {
+   "partNumber": 331,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 1",
+   "partId": 424608
+  },
+  {
+   "partNumber": 332,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 2",
+   "partId": 424609
+  },
+  {
+   "partNumber": 333,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 3",
+   "partId": 424610
+  },
+  {
+   "partNumber": 334,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 4",
+   "partId": 424611
+  },
+  {
+   "partNumber": 335,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 5",
+   "partId": 424612
+  },
+  {
+   "partNumber": 336,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 6",
+   "partId": 424613
+  },
+  {
+   "partNumber": 337,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 7",
+   "partId": 424614
+  },
+  {
+   "partNumber": 338,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 8",
+   "partId": 424615
+  },
+  {
+   "partNumber": 339,
+   "partName": "THE S.D. VIDYA SCHOOL, SECTOR- 49 NOIDA ROOM NO 9",
+   "partId": 424616
+  },
+  {
+   "partNumber": 340,
+   "partName": "COMMUNITY CENTRE, SECTOR-49 NOIDA PART 1",
+   "partId": 424617
+  },
+  {
+   "partNumber": 341,
+   "partName": "COMMUNITY CENTRE, SECTOR-49 NOIDA PART 2",
+   "partId": 424618
+  },
+  {
+   "partNumber": 342,
+   "partName": "COMMUNITY CENTRE SECTOR-49 NOIDA PART 3",
+   "partId": 425099
+  },
+  {
+   "partNumber": 343,
+   "partName": "PRIMARY SCHOOL, BAROLA ROOM NO 1",
+   "partId": 424619
+  },
+  {
+   "partNumber": 344,
+   "partName": "PRIMARY SCHOOL, BAROLA ROOM NO 2",
+   "partId": 424620
+  },
+  {
+   "partNumber": 345,
+   "partName": "PRIMARY SCHOOL, BAROLA ROOM NO 3",
+   "partId": 424621
+  },
+  {
+   "partNumber": 346,
+   "partName": "PRIMARY SCHOOL, BAROLA ROOM NO 4",
+   "partId": 424622
+  },
+  {
+   "partNumber": 347,
+   "partName": "JAGRAN PUBLIC SCHOOL, SECTOR-47 NOIDA ROOM NO 1",
+   "partId": 424623
+  },
+  {
+   "partNumber": 348,
+   "partName": "JAGRAN PUBLIC SCHOOL, SECTOR-47 NOIDA ROOM NO 2",
+   "partId": 424624
+  },
+  {
+   "partNumber": 349,
+   "partName": "JAGRAN PUBLIC SCHOOL, SECTOR-47 NOIDA ROOM NO 3",
+   "partId": 424625
+  },
+  {
+   "partNumber": 350,
+   "partName": "JAGRAN PUBLIC SCHOOL SECTOR-47 NOIDA ROOM NO 4",
+   "partId": 425100
+  },
+  {
+   "partNumber": 351,
+   "partName": "COMMUNITY CENTRE, SECTOR-47 NOIDA PART 1",
+   "partId": 424626
+  },
+  {
+   "partNumber": 352,
+   "partName": "COMMUNITY CENTRE, SECTOR-47 NOIDA PART 2",
+   "partId": 424627
+  },
+  {
+   "partNumber": 353,
+   "partName": "COMMUNITY CENTRE, SECTOR-47 NOIDA PART 3",
+   "partId": 424628
+  },
+  {
+   "partNumber": 354,
+   "partName": "CLUB HOUSE JALVAYU TOWER SECTOR-47 NOIDA",
+   "partId": 425101
+  },
+  {
+   "partNumber": 355,
+   "partName": "COMMUNITY CENTRE, SECTOR-46 NOIDA PART 1",
+   "partId": 424629
+  },
+  {
+   "partNumber": 356,
+   "partName": "COMMUNITY CENTRE, SECTOR-46 NOIDA PART 2",
+   "partId": 424630
+  },
+  {
+   "partNumber": 357,
+   "partName": "CLUB HOUSE GARDENIA GLORY SECTOR-46 NOIDA",
+   "partId": 425102
+  },
+  {
+   "partNumber": 358,
+   "partName": "GOVERNMENT POST GRADUATE COLLEGE NOIDA, SECTOR-39 NOIDA ROOM NO 1",
+   "partId": 424631
+  },
+  {
+   "partNumber": 359,
+   "partName": "GOVERNMENT POST GRADUATE COLLEGE NOIDA, SECTOR-39 NOIDA ROOM NO 2",
+   "partId": 424632
+  },
+  {
+   "partNumber": 360,
+   "partName": "GOVERNMENT POST GRADUATE COLLEGE NOIDA, SECTOR-39 NOIDA ROOM NO 3",
+   "partId": 424633
+  },
+  {
+   "partNumber": 361,
+   "partName": "COMMUNITY CENTRE, SECTOR-36 NOIDA PART 1",
+   "partId": 424634
+  },
+  {
+   "partNumber": 362,
+   "partName": "COMMUNITY CENTRE, SECTOR-36 NOIDA PART 2",
+   "partId": 424635
+  },
+  {
+   "partNumber": 363,
+   "partName": "COMMUNITY CENTRE, SECTOR-36 NOIDA PART 3",
+   "partId": 424636
+  },
+  {
+   "partNumber": 364,
+   "partName": "COMMUNITY CENTRE, SECTOR-36 NOIDA PART 4",
+   "partId": 424637
+  },
+  {
+   "partNumber": 365,
+   "partName": "COMMUNITY CENTRE, SECTOR-36 NOIDA PART 5",
+   "partId": 424638
+  },
+  {
+   "partNumber": 366,
+   "partName": "COMPOSITE SCHOOL,AGAHPUR ROOM NO 1",
+   "partId": 424639
+  },
+  {
+   "partNumber": 367,
+   "partName": "COMPOSITE SCHOOL,AGAHPUR ROOM NO 2",
+   "partId": 424640
+  },
+  {
+   "partNumber": 368,
+   "partName": "COMPOSITE SCHOOL,AGAHPUR ROOM NO 3",
+   "partId": 424641
+  },
+  {
+   "partNumber": 369,
+   "partName": "COMPOSITE SCHOOL,AGAHPUR ROOM NO 4",
+   "partId": 424642
+  },
+  {
+   "partNumber": 370,
+   "partName": "COMPOSITE SCHOOL,AGAHPUR ROOM NO 5",
+   "partId": 424643
+  },
+  {
+   "partNumber": 371,
+   "partName": "COMMUNITY CENTRE, SECTOR-41 NOIDA PART 1",
+   "partId": 424644
+  },
+  {
+   "partNumber": 372,
+   "partName": "COMMUNITY CENTRE, SECTOR-41 NOIDA PART 2",
+   "partId": 424645
+  },
+  {
+   "partNumber": 373,
+   "partName": "THE MILLENNIUM PUBLIC SCHOOL, SECTOR -41 NOIDA ROOM NO 1",
+   "partId": 424646
+  },
+  {
+   "partNumber": 374,
+   "partName": "THE MILLENNIUM PUBLIC SCHOOL, SECTOR -41 NOIDA ROOM NO 2",
+   "partId": 424647
+  },
+  {
+   "partNumber": 375,
+   "partName": "THE MILLENNIUM PUBLIC SCHOOL, SECTOR -41 NOIDA ROOM NO 3",
+   "partId": 424648
+  },
+  {
+   "partNumber": 376,
+   "partName": "THE MILLENNIUM PUBLIC SCHOOL, SECTOR -41 NOIDA ROOM NO 4",
+   "partId": 424649
+  },
+  {
+   "partNumber": 377,
+   "partName": "THE MILLENNIUM PUBLIC SCHOOL, SECTOR -41 NOIDA ROOM NO 5",
+   "partId": 424650
+  },
+  {
+   "partNumber": 378,
+   "partName": "THE MILLENNIUM PUBLIC SCHOOL, SECTOR -41 NOIDA ROOM NO 6",
+   "partId": 424651
+  },
+  {
+   "partNumber": 379,
+   "partName": "COMMUNITY CENTRE, SECTOR-40 NOIDA PART 1",
+   "partId": 424652
+  },
+  {
+   "partNumber": 380,
+   "partName": "COMMUNITY CENTRE, SECTOR-40 NOIDA PART 2",
+   "partId": 424653
+  },
+  {
+   "partNumber": 381,
+   "partName": "COMMUNITY CENTRE, SECTOR-40 NOIDA PART 3",
+   "partId": 424654
+  },
+  {
+   "partNumber": 382,
+   "partName": "COMMUNITY CENTRE SECTOR-40 NOIDA PART NO 4",
+   "partId": 425059
+  },
+  {
+   "partNumber": 383,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 1",
+   "partId": 424655
+  },
+  {
+   "partNumber": 384,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 2",
+   "partId": 424656
+  },
+  {
+   "partNumber": 385,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 3",
+   "partId": 424657
+  },
+  {
+   "partNumber": 386,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 4",
+   "partId": 424658
+  },
+  {
+   "partNumber": 387,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 5",
+   "partId": 424659
+  },
+  {
+   "partNumber": 388,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 6",
+   "partId": 424660
+  },
+  {
+   "partNumber": 389,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 7",
+   "partId": 424661
+  },
+  {
+   "partNumber": 390,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 8",
+   "partId": 424662
+  },
+  {
+   "partNumber": 391,
+   "partName": "ADARSH PRIMARY SCHOOL, CHHALERA BANGAR FIRST ROOM NO 9",
+   "partId": 424663
+  },
+  {
+   "partNumber": 392,
+   "partName": "COMPOSITE SCHOOL, CHHALERA BANGAR ROOM NO 1",
+   "partId": 424664
+  },
+  {
+   "partNumber": 393,
+   "partName": "COMPOSITE SCHOOL, CHHALERA BANGAR ROOM NO 2",
+   "partId": 424665
+  },
+  {
+   "partNumber": 394,
+   "partName": "COMPOSITE SCHOOL, CHHALERA BANGAR ROOM NO 3",
+   "partId": 424666
+  },
+  {
+   "partNumber": 395,
+   "partName": "BARAT GHAR, SECTOR- 44 NOIDA NEAR SHIV MANDIR PART 1",
+   "partId": 424667
+  },
+  {
+   "partNumber": 396,
+   "partName": "BARAT GHAR, SECTOR- 44 NOIDA NEAR SHIV MANDIR PART 2",
+   "partId": 424668
+  },
+  {
+   "partNumber": 397,
+   "partName": "PRIMARY SCHOOL, ATTA-2 ROOM NO 1",
+   "partId": 424669
+  },
+  {
+   "partNumber": 398,
+   "partName": "PRIMARY SCHOOL, ATTA-2 ROOM NO 2",
+   "partId": 424670
+  },
+  {
+   "partNumber": 399,
+   "partName": "PRIMARY SCHOOL, ATTA-2 ROOM NO 3",
+   "partId": 424671
+  },
+  {
+   "partNumber": 400,
+   "partName": "PRIMARY SCHOOL, ATTA-1 ROOM NO 1",
+   "partId": 424672
+  },
+  {
+   "partNumber": 401,
+   "partName": "PRIMARY SCHOOL, ATTA-1 ROOM NO 2",
+   "partId": 424673
+  },
+  {
+   "partNumber": 402,
+   "partName": "PRIMARY SCHOOL, ATTA-1 ROOM NO 3",
+   "partId": 424674
+  },
+  {
+   "partNumber": 403,
+   "partName": "PRIMARY SCHOOL, ATTA-1 ROOM NO 4",
+   "partId": 424675
+  },
+  {
+   "partNumber": 404,
+   "partName": "CAMBRIDGE SCHOOL, SECTOR 27 NOIDA ROOM NO 1",
+   "partId": 424676
+  },
+  {
+   "partNumber": 405,
+   "partName": "CAMBRIDGE SCHOOL, SECTOR 27 NOIDA ROOM NO 2",
+   "partId": 424677
+  },
+  {
+   "partNumber": 406,
+   "partName": "CAMBRIDGE SCHOOL, SECTOR 27 NOIDA ROOM NO 3",
+   "partId": 424678
+  },
+  {
+   "partNumber": 407,
+   "partName": "CAMBRIDGE SCHOOL, SECTOR 27 NOIDA ROOM NO 4",
+   "partId": 424679
+  },
+  {
+   "partNumber": 408,
+   "partName": "CAMBRIDGE SCHOOL, SECTOR 27 NOIDA ROOM NO 5",
+   "partId": 424680
+  },
+  {
+   "partNumber": 409,
+   "partName": "CAMBRIDGE SCHOOL, SECTOR 27 NOIDA ROOM NO 6",
+   "partId": 424681
+  },
+  {
+   "partNumber": 410,
+   "partName": "COMMUNITY CENTRE, SECTOR- 44 NOIDA PART 1",
+   "partId": 424682
+  },
+  {
+   "partNumber": 411,
+   "partName": "COMMUNITY CENTRE, SECTOR- 44 NOIDA PART 2",
+   "partId": 424683
+  },
+  {
+   "partNumber": 412,
+   "partName": "COMMUNITY CENTRE, SECTOR- 44 NOIDA PART 3",
+   "partId": 424684
+  },
+  {
+   "partNumber": 413,
+   "partName": "COMMUNITY CENTRE SECTOR-44 NOIDA PART 4",
+   "partId": 425060
+  },
+  {
+   "partNumber": 414,
+   "partName": "DR. BHIM RAO AMBEDKAR BHAWAN AMBEDKAR VIHAR SECTOR- 37 NOIDA",
+   "partId": 424685
+  },
+  {
+   "partNumber": 415,
+   "partName": "ARMY PUBLIC SCHOOL, SECTOR-37 NOIDA ROOM NO 1",
+   "partId": 424686
+  },
+  {
+   "partNumber": 416,
+   "partName": "ARMY PUBLIC SCHOOL, SECTOR-37 NOIDA ROOM NO 2",
+   "partId": 424687
+  },
+  {
+   "partNumber": 417,
+   "partName": "ARMY PUBLIC SCHOOL, SECTOR-37 NOIDA ROOM NO 3",
+   "partId": 424688
+  },
+  {
+   "partNumber": 418,
+   "partName": "ARMY PUBLIC SCHOOL, SECTOR-37 NOIDA ROOM NO 4",
+   "partId": 424689
+  },
+  {
+   "partNumber": 419,
+   "partName": "ARMY PUBLIC SCHOOL, SECTOR-37 NOIDA ROOM NO 5",
+   "partId": 424690
+  },
+  {
+   "partNumber": 420,
+   "partName": "ARMY PUBLIC SCHOOL, SECTOR-37 NOIDA ROOM NO 6",
+   "partId": 424691
+  },
+  {
+   "partNumber": 421,
+   "partName": "MERRY ANGELS PUBLIC SCHOOL NOIDA, SECTOR-15 NOIDA ROOM NO 1",
+   "partId": 424692
+  },
+  {
+   "partNumber": 422,
+   "partName": "MERRY ANGELS PUBLIC SCHOOL NOIDA, SECTOR-15 NOIDA ROOM NO 2",
+   "partId": 424693
+  },
+  {
+   "partNumber": 423,
+   "partName": "MERRY ANGELS PUBLIC SCHOOL NOIDA, SECTOR-15 NOIDA ROOM NO 3",
+   "partId": 424694
+  },
+  {
+   "partNumber": 424,
+   "partName": "MERRY ANGELS PUBLIC SCHOOL NOIDA, SECTOR-15 NOIDA ROOM NO 4",
+   "partId": 424695
+  },
+  {
+   "partNumber": 425,
+   "partName": "MERRY ANGELS PUBLIC SCHOOL NOIDA, SECTOR-15 NOIDA ROOM NO 5",
+   "partId": 424696
+  },
+  {
+   "partNumber": 426,
+   "partName": "COMMUNITY CENTRE NAYA BANS, SECTOR-15 NOIDA",
+   "partId": 424697
+  },
+  {
+   "partNumber": 427,
+   "partName": "ASSISI CONVENT SCHOOL, B.H.E.L TOWNSHIP SECTOR-17 NOIDA ROOM NO 1",
+   "partId": 424698
+  },
+  {
+   "partNumber": 428,
+   "partName": "ASSISI CONVENT SCHOOL, B.H.E.L TOWNSHIP SECTOR-17 NOIDA ROOM NO 2",
+   "partId": 424699
+  },
+  {
+   "partNumber": 429,
+   "partName": "ASSISI CONVENT SCHOOL, B.H.E.L TOWNSHIP SECTOR-17 NOIDA ROOM NO 3",
+   "partId": 424700
+  },
+  {
+   "partNumber": 430,
+   "partName": "COMMUNITY CENTRE, SECTOR-14 NOIDA PART 1",
+   "partId": 424701
+  },
+  {
+   "partNumber": 431,
+   "partName": "COMMUNITY CENTRE, SECTOR-14 NOIDA PART 2",
+   "partId": 424702
+  },
+  {
+   "partNumber": 432,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 1",
+   "partId": 424703
+  },
+  {
+   "partNumber": 433,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 2",
+   "partId": 424704
+  },
+  {
+   "partNumber": 434,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 3",
+   "partId": 424705
+  },
+  {
+   "partNumber": 435,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 4",
+   "partId": 424706
+  },
+  {
+   "partNumber": 436,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 5",
+   "partId": 424707
+  },
+  {
+   "partNumber": 437,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 6",
+   "partId": 424708
+  },
+  {
+   "partNumber": 438,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 7",
+   "partId": 424709
+  },
+  {
+   "partNumber": 439,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 8",
+   "partId": 424710
+  },
+  {
+   "partNumber": 440,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 9",
+   "partId": 424711
+  },
+  {
+   "partNumber": 441,
+   "partName": "COMPOSITE SCHOOL, NAYABANS ROOM NO 10",
+   "partId": 424712
+  },
+  {
+   "partNumber": 442,
+   "partName": "CLUB, SECTOR 15A NOIDA PART 1",
+   "partId": 424713
+  },
+  {
+   "partNumber": 443,
+   "partName": "CLUB, SECTOR 15A NOIDA PART 2",
+   "partId": 424714
+  },
+  {
+   "partNumber": 444,
+   "partName": "CLUB, SECTOR 15A NOIDA PART 3",
+   "partId": 424715
+  },
+  {
+   "partNumber": 445,
+   "partName": "CLUB, SECTOR 15A NOIDA PART 4",
+   "partId": 424716
+  },
+  {
+   "partNumber": 446,
+   "partName": "COMMUNITY CENTRE, SECTOR 21 NOIDA PART 1",
+   "partId": 424717
+  },
+  {
+   "partNumber": 447,
+   "partName": "COMMUNITY CENTRE, SECTOR 21 NOIDA PART 2",
+   "partId": 424718
+  },
+  {
+   "partNumber": 448,
+   "partName": "COMMUNITY CENTRE, SECTOR 21 NOIDA PART 3",
+   "partId": 424719
+  },
+  {
+   "partNumber": 449,
+   "partName": "COMMUNITY CENTRE, SECTOR 21 NOIDA PART 4",
+   "partId": 424720
+  },
+  {
+   "partNumber": 450,
+   "partName": "COMMUNITY CENTRE, SECTOR 21 NOIDA PART 5",
+   "partId": 424721
+  },
+  {
+   "partNumber": 451,
+   "partName": "COMPOSITE SCHOOL,RAIPUR KHADAR ROOM NO 1",
+   "partId": 424722
+  },
+  {
+   "partNumber": 452,
+   "partName": "COMPOSITE SCHOOL,RAIPUR KHADAR ROOM NO 2",
+   "partId": 424723
+  },
+  {
+   "partNumber": 453,
+   "partName": "COMPOSITE SCHOOL RAIPUR KHADAR ROOM NO 3",
+   "partId": 425061
+  },
+  {
+   "partNumber": 454,
+   "partName": "PRIMARY SCHOOL, BAKHTAWARPUR ROOM NO 1",
+   "partId": 424724
+  },
+  {
+   "partNumber": 455,
+   "partName": "CHETRAM SHARMA COLLEGE OF EDUCATION, SECTOR 45 SADARPUR ROOM NO 1",
+   "partId": 424725
+  },
+  {
+   "partNumber": 456,
+   "partName": "CHETRAM SHARMA COLLEGE OF EDUCATION, SECTOR 45 SADARPUR ROOM NO 2",
+   "partId": 424726
+  },
+  {
+   "partNumber": 457,
+   "partName": "CHETRAM SHARMA COLLEGE OF EDUCATION SECTOR-45 SADARPUR ROOM NO 3",
+   "partId": 425062
+  },
+  {
+   "partNumber": 458,
+   "partName": "COMPOSITE SCHOOL SADARPUR ROOM NO 1",
+   "partId": 424727
+  },
+  {
+   "partNumber": 459,
+   "partName": "COMPOSITE SCHOOL SADARPUR ROOM NO 2",
+   "partId": 424728
+  },
+  {
+   "partNumber": 460,
+   "partName": "COMPOSITE SCHOOL SADARPUR ROOM NO 3",
+   "partId": 424729
+  },
+  {
+   "partNumber": 461,
+   "partName": "COMPOSITE SCHOOL SADARPUR ROOM NO 4",
+   "partId": 424730
+  },
+  {
+   "partNumber": 462,
+   "partName": "COMPOSITE SCHOOL SADARPUR ROOM NO 5",
+   "partId": 425063
+  },
+  {
+   "partNumber": 463,
+   "partName": "COMPOSITE SCHOOL SADARPUR ROOM NO 6",
+   "partId": 424731
+  },
+  {
+   "partNumber": 464,
+   "partName": "PRIMARY SCHOOL, SADARPUR -1 ROOM NO 1",
+   "partId": 424732
+  },
+  {
+   "partNumber": 465,
+   "partName": "PRIMARY SCHOOL, SADARPUR -1 ROOM NO 2",
+   "partId": 424733
+  },
+  {
+   "partNumber": 466,
+   "partName": "PRIMARY SCHOOL, SADARPUR -1 ROOM NO 3",
+   "partId": 424734
+  },
+  {
+   "partNumber": 467,
+   "partName": "PRIMARY SCHOOL SADARPUR-1 ROOM NO 4",
+   "partId": 425064
+  },
+  {
+   "partNumber": 468,
+   "partName": "R.S.S. INTERNATIONAL SCHOOL, SECTOR-45 SADARPUR ROOM NO 1",
+   "partId": 424735
+  },
+  {
+   "partNumber": 469,
+   "partName": "R.S.S. INTERNATIONAL SCHOOL, SECTOR-45 SADARPUR ROOM NO 2",
+   "partId": 424736
+  },
+  {
+   "partNumber": 470,
+   "partName": "R.S.S. INTERNATIONAL SCHOOL, SECTOR-45 SADARPUR ROOM NO 3",
+   "partId": 424737
+  },
+  {
+   "partNumber": 471,
+   "partName": "R.K. PUBLIC SCHOOL, SADARPUR COLONY ROOM NO 1",
+   "partId": 424738
+  },
+  {
+   "partNumber": 472,
+   "partName": "R.K. PUBLIC SCHOOL, SADARPUR COLONY ROOM NO 2",
+   "partId": 424739
+  },
+  {
+   "partNumber": 473,
+   "partName": "R.K. PUBLIC SCHOOL, SADARPUR COLONY ROOM NO 3",
+   "partId": 424740
+  },
+  {
+   "partNumber": 474,
+   "partName": "R.K. PUBLIC SCHOOL, SADARPUR COLONY ROOM NO 4",
+   "partId": 424741
+  },
+  {
+   "partNumber": 475,
+   "partName": "R.K. PUBLIC SCHOOL, SADARPUR COLONY ROOM NO 5",
+   "partId": 424742
+  },
+  {
+   "partNumber": 476,
+   "partName": "R.K. PUBLIC SCHOOL, SADARPUR COLONY ROOM NO 6",
+   "partId": 424743
+  },
+  {
+   "partNumber": 477,
+   "partName": "R.K. PUBLIC SCHOOL, SADARPUR COLONY ROOM NO 7",
+   "partId": 424744
+  },
+  {
+   "partNumber": 478,
+   "partName": "COMMUNITY CENTRE, SECTOR-45 NOIDA",
+   "partId": 424745
+  },
+  {
+   "partNumber": 479,
+   "partName": "CLUB HOUSE NRI RESIDENCY SECTOR-45 NOIDA",
+   "partId": 424746
+  },
+  {
+   "partNumber": 480,
+   "partName": "CLUB HOUSE AMRAPALI SAPPHIRE-I SECTOR 45 NOIDA PART 1",
+   "partId": 424747
+  },
+  {
+   "partNumber": 481,
+   "partName": "CLUB HOUSE AMRAPALI SAPPHIRE-I SECTOR 45 NOIDA PART 2",
+   "partId": 424748
+  },
+  {
+   "partNumber": 482,
+   "partName": "CLUB HOUSE AMRAPALI SAPPHIRE-I SECTOR 45 NOIDA PART 3",
+   "partId": 424749
+  },
+  {
+   "partNumber": 483,
+   "partName": "CLUB HOUSE PRATEEK STYLOME SECTOR 45 NOIDA",
+   "partId": 424750
+  },
+  {
+   "partNumber": 484,
+   "partName": "CHETRAM BALIKA INTER COLLEGE SADARPUR ROOM NO 1",
+   "partId": 424751
+  },
+  {
+   "partNumber": 485,
+   "partName": "CHETRAM BALIKA INTER COLLEGE SADARPUR ROOM NO 2",
+   "partId": 424752
+  },
+  {
+   "partNumber": 486,
+   "partName": "CHETRAM BALIKA INTER COLLEGE SADARPUR ROOM NO 3",
+   "partId": 424753
+  },
+  {
+   "partNumber": 487,
+   "partName": "CHETRAM BALIKA INTER COLLEGE SADARPUR ROOM NO 4",
+   "partId": 424754
+  },
+  {
+   "partNumber": 488,
+   "partName": "CHETRAM BALIKA INTER COLLEGE SADARPUR ROOM NO 5",
+   "partId": 424755
+  },
+  {
+   "partNumber": 489,
+   "partName": "CHETRAM BALIKA INTER COLLEGE SADARPUR ROOM NO 6",
+   "partId": 424756
+  },
+  {
+   "partNumber": 490,
+   "partName": "CHETRAM BALIKA INTER COLLEGE SADARPUR ROOM NO 7",
+   "partId": 424757
+  },
+  {
+   "partNumber": 491,
+   "partName": "PURWA MADHYAMIK VIDYALAY, SADARPUR ROOM NO 1",
+   "partId": 424758
+  },
+  {
+   "partNumber": 492,
+   "partName": "PURWA MADHYAMIK VIDYALAY, SADARPUR ROOM NO 2",
+   "partId": 424759
+  },
+  {
+   "partNumber": 493,
+   "partName": "PURWA MADHYAMIK VIDYALAY, SADARPUR ROOM NO 3",
+   "partId": 424760
+  },
+  {
+   "partNumber": 494,
+   "partName": "PURWA MADHYAMIK VIDYALAY, SADARPUR ROOM NO 4",
+   "partId": 424761
+  },
+  {
+   "partNumber": 495,
+   "partName": "PURWA MADHYAMIK VIDYALAY, SADARPUR ROOM NO 5",
+   "partId": 424762
+  },
+  {
+   "partNumber": 496,
+   "partName": "PURWA MADHYAMIK VIDYALAY, SADARPUR ROOM NO 6",
+   "partId": 424763
+  },
+  {
+   "partNumber": 497,
+   "partName": "PURWA MADHYAMIK VIDYALAY, SADARPUR ROOM NO 7",
+   "partId": 424764
+  },
+  {
+   "partNumber": 498,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 1",
+   "partId": 424765
+  },
+  {
+   "partNumber": 499,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 2",
+   "partId": 424766
+  },
+  {
+   "partNumber": 500,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 3",
+   "partId": 424767
+  },
+  {
+   "partNumber": 501,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 4",
+   "partId": 424768
+  },
+  {
+   "partNumber": 502,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 5",
+   "partId": 425065
+  },
+  {
+   "partNumber": 503,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 6",
+   "partId": 424769
+  },
+  {
+   "partNumber": 504,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 7",
+   "partId": 424770
+  },
+  {
+   "partNumber": 505,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 8",
+   "partId": 424771
+  },
+  {
+   "partNumber": 506,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 9",
+   "partId": 424772
+  },
+  {
+   "partNumber": 507,
+   "partName": "COMPOSITE SCHOOL SALARPUR KHADAR ROOM NO 10",
+   "partId": 425066
+  },
+  {
+   "partNumber": 508,
+   "partName": "I.J. PUBLIC SCHOOL SALARPUR KHADAR ROOM NO 1",
+   "partId": 424773
+  },
+  {
+   "partNumber": 509,
+   "partName": "I.J. PUBLIC SCHOOL SALARPUR KHADAR ROOM NO 2",
+   "partId": 424774
+  },
+  {
+   "partNumber": 510,
+   "partName": "I.J. PUBLIC SCHOOL SALARPUR KHADAR ROOM NO 3",
+   "partId": 424775
+  },
+  {
+   "partNumber": 511,
+   "partName": "I.J. PUBLIC SCHOOL SALARPUR KHADAR ROOM NO 4",
+   "partId": 424776
+  },
+  {
+   "partNumber": 512,
+   "partName": "I.J. PUBLIC SCHOOL SALARPUR KHADAR ROOM NO 5",
+   "partId": 424777
+  },
+  {
+   "partNumber": 513,
+   "partName": "I.J. PUBLIC SCHOOL SALARPUR KHADAR ROOM NO 6",
+   "partId": 424778
+  },
+  {
+   "partNumber": 514,
+   "partName": "BARAT GHAR, SALARPUR KHADAR PART 1",
+   "partId": 424779
+  },
+  {
+   "partNumber": 515,
+   "partName": "BARAT GHAR, SALARPUR KHADAR PART 2",
+   "partId": 424780
+  },
+  {
+   "partNumber": 516,
+   "partName": "BARAT GHAR, SALARPUR KHADAR PART 3",
+   "partId": 424781
+  },
+  {
+   "partNumber": 517,
+   "partName": "BARAT GHAR, SALARPUR KHADAR PART 4",
+   "partId": 424782
+  },
+  {
+   "partNumber": 518,
+   "partName": "CLUB HOUSE GREAT VALUE SHARANAM SECTOR 107 NOIDA",
+   "partId": 424783
+  },
+  {
+   "partNumber": 519,
+   "partName": "CLUB HOUSE, GREAT VALUE SHARANAM SECTOR-107 NOIDA ROOM NO 2",
+   "partId": 425067
+  },
+  {
+   "partNumber": 520,
+   "partName": "CLUB HOUSE PRATEEK EDIFICE SECTOR 107 NOIDA",
+   "partId": 424784
+  },
+  {
+   "partNumber": 521,
+   "partName": "CLUB HOUSE SUNWORLD VANALIKA SECTOR 107 NOIDA",
+   "partId": 424785
+  },
+  {
+   "partNumber": 522,
+   "partName": "PATHWAYS SCHOOL, SECTOR-100 NOIDA ROOM NO 1",
+   "partId": 424786
+  },
+  {
+   "partNumber": 523,
+   "partName": "CLUB HOUSE LOTUS BOULEVARD ESPACIA SECTOR-100 NOIDA",
+   "partId": 425068
+  },
+  {
+   "partNumber": 524,
+   "partName": "CLUB HOUSE LOTUS BOULEVARD SECTOR 100 NOIDA PART 1",
+   "partId": 424787
+  },
+  {
+   "partNumber": 525,
+   "partName": "CLUB HOUSE LOTUS BOULEVARD SECTOR 100 NOIDA PART 2",
+   "partId": 424788
+  },
+  {
+   "partNumber": 526,
+   "partName": "CLUB HOUSE LOTUS BOULEVARD SECTOR 100 NOIDA PART 3",
+   "partId": 424789
+  },
+  {
+   "partNumber": 527,
+   "partName": "MAHARISHI BAL VIDYA MANDIR, MAHARISHI NAGAR ROOM NO 1",
+   "partId": 424790
+  },
+  {
+   "partNumber": 528,
+   "partName": "MAHARISHI BAL VIDYA MANDIR, MAHARISHI NAGAR ROOM NO 2",
+   "partId": 424791
+  },
+  {
+   "partNumber": 529,
+   "partName": "MAHARISHI BAL VIDYA MANDIR, MAHARISHI NAGAR ROOM NO 3",
+   "partId": 424792
+  },
+  {
+   "partNumber": 530,
+   "partName": "MAHARISHI BAL VIDYA MANDIR, MAHARISHI NAGAR ROOM NO 4",
+   "partId": 424793
+  },
+  {
+   "partNumber": 531,
+   "partName": "MAHARISHI BAL VIDYA MANDIR, MAHARISHI NAGAR ROOM NO 5",
+   "partId": 424794
+  },
+  {
+   "partNumber": 532,
+   "partName": "BARAT GHAR, SECTOR- 110 NOIDA PART 1",
+   "partId": 424795
+  },
+  {
+   "partNumber": 533,
+   "partName": "BARAT GHAR, SECTOR- 110 NOIDA PART 2",
+   "partId": 424796
+  },
+  {
+   "partNumber": 534,
+   "partName": "BARAT GHAR, SECTOR- 110 NOIDA PART 3",
+   "partId": 424797
+  },
+  {
+   "partNumber": 535,
+   "partName": "CLUB HOUSE LOTUS PANACHE SECTOR-110 NOIDA PART 1",
+   "partId": 425027
+  },
+  {
+   "partNumber": 536,
+   "partName": "CLUB HOUSE, LOTUS PANACHE SECTOR-110 NOIDA PART 2",
+   "partId": 425069
+  },
+  {
+   "partNumber": 537,
+   "partName": "PRIMARY SCHOOL BHANGEL, BEGAMPUR ROOM NO 1",
+   "partId": 424798
+  },
+  {
+   "partNumber": 538,
+   "partName": "PRIMARY SCHOOL BHANGEL, BEGAMPUR ROOM NO 2",
+   "partId": 424799
+  },
+  {
+   "partNumber": 539,
+   "partName": "PRIMARY SCHOOL BHANGEL, BEGAMPUR ROOM NO 3",
+   "partId": 424800
+  },
+  {
+   "partNumber": 540,
+   "partName": "PRIMARY SCHOOL BHANGEL, BEGAMPUR ROOM NO 4",
+   "partId": 424801
+  },
+  {
+   "partNumber": 541,
+   "partName": "PRIMARY SCHOOL BHANGEL, BEGAMPUR ROOM NO 5",
+   "partId": 424802
+  },
+  {
+   "partNumber": 542,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 1",
+   "partId": 424803
+  },
+  {
+   "partNumber": 543,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 2",
+   "partId": 424804
+  },
+  {
+   "partNumber": 544,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 3",
+   "partId": 424805
+  },
+  {
+   "partNumber": 545,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 4",
+   "partId": 424806
+  },
+  {
+   "partNumber": 546,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 5",
+   "partId": 424807
+  },
+  {
+   "partNumber": 547,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 6",
+   "partId": 424808
+  },
+  {
+   "partNumber": 548,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 7",
+   "partId": 424809
+  },
+  {
+   "partNumber": 549,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 8",
+   "partId": 424810
+  },
+  {
+   "partNumber": 550,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 9",
+   "partId": 424811
+  },
+  {
+   "partNumber": 551,
+   "partName": "NOIDA KANYA INTER COLLEGE, BHANGEL BEGAMPUR ROOM NO 10",
+   "partId": 424812
+  },
+  {
+   "partNumber": 552,
+   "partName": "PRIMARY SCHOOL, NAGLA CHARANDAS ROOM NO 1",
+   "partId": 424813
+  },
+  {
+   "partNumber": 553,
+   "partName": "PRIMARY SCHOOL, NAGLA CHARANDAS ROOM NO 2",
+   "partId": 424814
+  },
+  {
+   "partNumber": 554,
+   "partName": "PRIMARY SCHOOL, NAGLA CHARANDAS ROOM NO 3",
+   "partId": 424815
+  },
+  {
+   "partNumber": 555,
+   "partName": "PRIMARY SCHOOL, NAGLA CHARANDAS ROOM NO 4",
+   "partId": 424816
+  },
+  {
+   "partNumber": 556,
+   "partName": "PRIMARY SCHOOL, SOHRKHA JAHIDABAD ROOM NO 1",
+   "partId": 424817
+  },
+  {
+   "partNumber": 557,
+   "partName": "PRIMARY SCHOOL, SOHRKHA JAHIDABAD ROOM NO 2",
+   "partId": 424818
+  },
+  {
+   "partNumber": 558,
+   "partName": "PRIMARY SCHOOL, SOHRKHA JAHIDABAD ROOM NO 3",
+   "partId": 424819
+  },
+  {
+   "partNumber": 559,
+   "partName": "PRIMARY SCHOOL SOHRAKHA ZAHIDABAD ROOM NO 4",
+   "partId": 425070
+  },
+  {
+   "partNumber": 560,
+   "partName": "B.R. PUBLIC SCHOOL, SOHRKHA JAHIDABAD ROOM NO 1",
+   "partId": 424820
+  },
+  {
+   "partNumber": 561,
+   "partName": "B.R. PUBLIC SCHOOL, SOHRKHA JAHIDABAD ROOM NO 2",
+   "partId": 424821
+  },
+  {
+   "partNumber": 562,
+   "partName": "B.R. PUBLIC SCHOOL, SOHRKHA JAHIDABAD ROOM NO 3",
+   "partId": 424822
+  },
+  {
+   "partNumber": 563,
+   "partName": "B.R. PUBLIC SCHOOL, SOHRKHA JAHIDABAD ROOM NO 4",
+   "partId": 424823
+  },
+  {
+   "partNumber": 564,
+   "partName": "B.R. PUBLIC SCHOOL, SOHRKHA JAHIDABAD ROOM NO 5",
+   "partId": 424824
+  },
+  {
+   "partNumber": 565,
+   "partName": "CLUB HOUSE ELITE GOLF GREENS SECTOR - 79 NOIDA",
+   "partId": 424825
+  },
+  {
+   "partNumber": 566,
+   "partName": "THE MANTHAN SCHOOL, SECTOR-78 NOIDA ROOM NO 1",
+   "partId": 424826
+  },
+  {
+   "partNumber": 567,
+   "partName": "THE MANTHAN SCHOOL, SECTOR-78 NOIDA ROOM NO 2",
+   "partId": 425104
+  },
+  {
+   "partNumber": 568,
+   "partName": "CLUB HOUSE MAHAGUN MAJORIA SECTOR-78 NOIDA PART NO 1",
+   "partId": 424827
+  },
+  {
+   "partNumber": 569,
+   "partName": "CLUB HOUSE MAHAGUN MEZZARIA SECTOR-78 NOIDA PART NO 2",
+   "partId": 425071
+  },
+  {
+   "partNumber": 570,
+   "partName": "CLUB HOUSE MAHAGUN MODERNE SECTOR-78 NOIDA",
+   "partId": 424828
+  },
+  {
+   "partNumber": 571,
+   "partName": "CLUB HOUSE ANTARIKSH FOREST SECTOR-77 NOIDA",
+   "partId": 424829
+  },
+  {
+   "partNumber": 572,
+   "partName": "CLUB HOUSE ANTRIKSH GOLF VIEW 1 SECTOR-78 PART 1",
+   "partId": 424830
+  },
+  {
+   "partNumber": 573,
+   "partName": "CLUB HOUSE ANTRIKSH GOLF VIEW 1 SECTOR-78 PART 2",
+   "partId": 425040
+  },
+  {
+   "partNumber": 574,
+   "partName": "CLUB HOUSE ANTRIKSH GOLF VIEW 2 SECTOR-78 PART 1",
+   "partId": 424831
+  },
+  {
+   "partNumber": 575,
+   "partName": "CLUB HOUSE ANTARIKSH GOLF VIEW-2 SECTOR-78 NOIDA PART 2",
+   "partId": 425072
+  },
+  {
+   "partNumber": 576,
+   "partName": "CLUB HOUSE CIVITECH SAMPRITI SECTOR-77 NOIDA",
+   "partId": 424832
+  },
+  {
+   "partNumber": 577,
+   "partName": "CLUB HOUSE ASSOTECH WINDSOR COURT SECTOR-78 NOIDA",
+   "partId": 425073
+  },
+  {
+   "partNumber": 578,
+   "partName": "LITTEL LEADERS THE BEST PLAY SCHOOL SECTOR 116 NOIDA ROOM NO 1",
+   "partId": 424833
+  },
+  {
+   "partNumber": 579,
+   "partName": "CLUB HOUSE GAUR SPORTSWOOD SECTOR-79 NOIDA",
+   "partId": 425041
+  },
+  {
+   "partNumber": 580,
+   "partName": "KIDZEE PRE-SCHOOL, S D 04 SECTOR -116 NOIDA ROOM NO 1",
+   "partId": 424834
+  },
+  {
+   "partNumber": 581,
+   "partName": "CLUB HOUSE AMRAPALI PRINCELY ESTATE SECTOR-76 NOIDA PART 1",
+   "partId": 425028
+  },
+  {
+   "partNumber": 582,
+   "partName": "CLUB HOUSE AMRAPALI PRINCELY ESTATE SECTOR-76 NOIDA PART 2",
+   "partId": 425074
+  },
+  {
+   "partNumber": 583,
+   "partName": "CLUB HOUSE GRIH PRAVESH APARTMENTS SECTOR-77 NOIDA",
+   "partId": 425103
+  },
+  {
+   "partNumber": 584,
+   "partName": "CLUB HOUSE SUPERTECH CAPETOWN SECTOR 74 NOIDA PART 1",
+   "partId": 424835
+  },
+  {
+   "partNumber": 585,
+   "partName": "CLUB HOUSE SUPERTECH CAPETOWN SECTOR 74 NOIDA PART 2",
+   "partId": 424836
+  },
+  {
+   "partNumber": 586,
+   "partName": "CLUB HOUSE SUPERTECH CAPETOWN SECTOR 74 NOIDA PART 3",
+   "partId": 424837
+  },
+  {
+   "partNumber": 587,
+   "partName": "CLUB HOUSE SUPERTECH CAPETOWN SECTOR-74 NOIDA PART 4",
+   "partId": 425075
+  },
+  {
+   "partNumber": 588,
+   "partName": "CLUB HOUSE SETHI MAX ROYAL SECTOR 76 NOIDA",
+   "partId": 424838
+  },
+  {
+   "partNumber": 589,
+   "partName": "CLUB HOUSE AMRAPALI SILICON CITY SECTOR-76 NOIDA PART 1",
+   "partId": 424839
+  },
+  {
+   "partNumber": 590,
+   "partName": "CLUB HOUSE AMRAPALI SILICON CITY SECTOR-76 NOIDA PART 2",
+   "partId": 425029
+  },
+  {
+   "partNumber": 591,
+   "partName": "CLUB HOUSE J.M ORCHID SECTOR-76 NOIDA",
+   "partId": 424840
+  },
+  {
+   "partNumber": 592,
+   "partName": "COMMUNITY CENTRE, SOHRKHA JAHIDABAD PART 1",
+   "partId": 424841
+  },
+  {
+   "partNumber": 593,
+   "partName": "COMMUNITY CENTRE, SOHRKHA JAHIDABAD PART 2",
+   "partId": 424842
+  },
+  {
+   "partNumber": 594,
+   "partName": "CLUB HOUSE PRATEEK WISTERIA SECTOR 77 NOIDA PART 1",
+   "partId": 424843
+  },
+  {
+   "partNumber": 595,
+   "partName": "CLUB HOUSE PRATEEK WISTERIA SECTOR 77 NOIDA PART 2",
+   "partId": 424844
+  },
+  {
+   "partNumber": 596,
+   "partName": "CLUB HOUSE PRATEEK WISTERIA SECTOR-77 NOIDA",
+   "partId": 425076
+  },
+  {
+   "partNumber": 597,
+   "partName": "CLUB HOUSE GRAND AJNARA HERITAGE SECTOR 74 NOIDA PART 1",
+   "partId": 424845
+  },
+  {
+   "partNumber": 598,
+   "partName": "CLUB HOUSE GRAND AJNARA HERITAGE SECTOR 74 NOIDA PART 2",
+   "partId": 424846
+  },
+  {
+   "partNumber": 599,
+   "partName": "COMPOSITE SCHOOL, KAKRALA KHWASPUR ROOM NO 1",
+   "partId": 424847
+  },
+  {
+   "partNumber": 600,
+   "partName": "COMPOSITE SCHOOL, KAKRALA KHWASPUR ROOM NO 2",
+   "partId": 424848
+  },
+  {
+   "partNumber": 601,
+   "partName": "COMPOSITE SCHOOL, KAKRALA KHWASPUR ROOM NO 3",
+   "partId": 424849
+  },
+  {
+   "partNumber": 602,
+   "partName": "COMPOSITE SCHOOL, KAKRALA KHWASPUR ROOM NO 4",
+   "partId": 424850
+  },
+  {
+   "partNumber": 603,
+   "partName": "COMMUNITY CENTRE, SECTOR-72 NOIDA PART 1",
+   "partId": 424851
+  },
+  {
+   "partNumber": 604,
+   "partName": "COMMUNITY CENTRE SECTOR-72 NOIDA PART 2",
+   "partId": 425077
+  },
+  {
+   "partNumber": 605,
+   "partName": "COMMUNITY CENTRE, SECTOR-72 NOIDA PART 3",
+   "partId": 424852
+  },
+  {
+   "partNumber": 606,
+   "partName": "CLUB HOUSE, THE JEWEL OF NOIDA, SECTOR-75, NOIDA",
+   "partId": 425078
+  },
+  {
+   "partNumber": 607,
+   "partName": "COMMUNITY CENTER SECTOR-72 NOIDA PART 4",
+   "partId": 425030
+  },
+  {
+   "partNumber": 608,
+   "partName": "CLUB HOUSE INDOSAM APARTMENTS SECTOR-75 NOIDA",
+   "partId": 424853
+  },
+  {
+   "partNumber": 609,
+   "partName": "CLUB HOUSE PANCHSHEEL PRATISHTHA SECTOR 75 NOIDA",
+   "partId": 425079
+  },
+  {
+   "partNumber": 610,
+   "partName": "CLUB HOUSE AIMS GOLF AVENUE-2 SECTOR 75 NOIDA",
+   "partId": 424854
+  },
+  {
+   "partNumber": 611,
+   "partName": "PRIMARY SCHOOL, SARFABAD ROOM NO 1",
+   "partId": 424855
+  },
+  {
+   "partNumber": 612,
+   "partName": "PRIMARY SCHOOL, SARFABAD ROOM NO 4",
+   "partId": 425031
+  },
+  {
+   "partNumber": 613,
+   "partName": "PRIMARY SCHOOL, SARFABAD ROOM NO 2",
+   "partId": 424856
+  },
+  {
+   "partNumber": 614,
+   "partName": "PRIMARY SCHOOL, SARFABAD ROOM NO 3",
+   "partId": 424857
+  },
+  {
+   "partNumber": 615,
+   "partName": "PRIMARY SCHOOL, SARFABAD ROOM NO 5",
+   "partId": 425032
+  },
+  {
+   "partNumber": 616,
+   "partName": "COMMUNITY HALL, SECTOR-117 NOIDA",
+   "partId": 424858
+  },
+  {
+   "partNumber": 617,
+   "partName": "RAMKRISHNA PARAMHANS PUBLIC SCHOOL, SARFABAD ROOM NO 1",
+   "partId": 424859
+  },
+  {
+   "partNumber": 618,
+   "partName": "RAMKRISHNA PARAMHANS PUBLIC SCHOOL, SARFABAD ROOM NO 2",
+   "partId": 424860
+  },
+  {
+   "partNumber": 619,
+   "partName": "RAMKRISHNA PARAMHANS PUBLIC SCHOOL, SARFABAD ROOM NO 3",
+   "partId": 424861
+  },
+  {
+   "partNumber": 620,
+   "partName": "CLUB HOUSE MAXBLIS GRAND KINGSTON SECTOR-75 NOIDA",
+   "partId": 425080
+  },
+  {
+   "partNumber": 621,
+   "partName": "MANAV RACHNA INTERNATIONAL SCHOOL, SECTOR -51 NOIDA ROOM NO 1",
+   "partId": 424862
+  },
+  {
+   "partNumber": 622,
+   "partName": "MANAV RACHNA INTERNATIONAL SCHOOL, SECTOR -51 NOIDA ROOM NO 2",
+   "partId": 424863
+  },
+  {
+   "partNumber": 623,
+   "partName": "MANAV RACHNA INTERNATIONAL SCHOOL, SECTOR -51 NOIDA ROOM NO 3",
+   "partId": 424864
+  },
+  {
+   "partNumber": 624,
+   "partName": "CLUB HOUSE SKYTECH MATROTT SECTOR-76 NOIDA",
+   "partId": 424865
+  },
+  {
+   "partNumber": 625,
+   "partName": "CLUB HOUSE ADITYA URBAN CASA SECTOR-78 NOIDA",
+   "partId": 424866
+  },
+  {
+   "partNumber": 626,
+   "partName": "CLUB HOUSE EXPRESS ZENITH SECTOR-77 NOIDA",
+   "partId": 425081
+  },
+  {
+   "partNumber": 627,
+   "partName": "CLUB HOUSE AIMS GOLF AVENUE-1 SECTOR 75 NOIDA",
+   "partId": 424867
+  },
+  {
+   "partNumber": 628,
+   "partName": "CLUB HOUSE ADITYA CELEBRITY HOMES SECTOR 76 NOIDA",
+   "partId": 424868
+  },
+  {
+   "partNumber": 629,
+   "partName": "CLUB HOUSE GOLF CITY SECTOR 75 NOIDA",
+   "partId": 424869
+  },
+  {
+   "partNumber": 630,
+   "partName": "CLUB HOUSE GOLF CITY SECTOR-75 NOIDA",
+   "partId": 425082
+  },
+  {
+   "partNumber": 631,
+   "partName": "CLUB HOUSE THE HYDE PARK SECTOR-78, NOIDA PART 1",
+   "partId": 424870
+  },
+  {
+   "partNumber": 632,
+   "partName": "CLUB HOUSE THE HYDE PARK SECTOR-78, NOIDA PART 2",
+   "partId": 424871
+  },
+  {
+   "partNumber": 633,
+   "partName": "SHRI KRISHNA INTER COLLEGE, GARHI CHAUKHANDI ROOM NO 1",
+   "partId": 424872
+  },
+  {
+   "partNumber": 634,
+   "partName": "SHRI KRISHNA INTER COLLEGE, GARHI CHAUKHANDI ROOM NO 2",
+   "partId": 424873
+  },
+  {
+   "partNumber": 635,
+   "partName": "SHRI KRISHNA INTER COLLEGE, GARHI CHAUKHANDI ROOM NO 3",
+   "partId": 424874
+  },
+  {
+   "partNumber": 636,
+   "partName": "SHRI KRISHNA INTER COLLEGE, GARHI CHAUKHANDI ROOM NO 4",
+   "partId": 424875
+  },
+  {
+   "partNumber": 637,
+   "partName": "SHRI KRISHNA INTER COLLEGE, GARHI CHAUKHANDI ROOM NO 5",
+   "partId": 424876
+  },
+  {
+   "partNumber": 638,
+   "partName": "SHRI KRISHNA INTER COLLEGE, GARHI CHAUKHANDI ROOM NO 6",
+   "partId": 424877
+  },
+  {
+   "partNumber": 639,
+   "partName": "SHRI KRISHNA INTER COLLEGE, GARHI CHAUKHANDI ROOM NO 7",
+   "partId": 424878
+  },
+  {
+   "partNumber": 640,
+   "partName": "SHRI KRISHNA INTER COLLEGE, GARHI CHAUKHANDI ROOM NO 8",
+   "partId": 424879
+  },
+  {
+   "partNumber": 641,
+   "partName": "CLUB HOUSE PAN OASIS APARTMENT SECTOR-70 NOIDA PART 1",
+   "partId": 424880
+  },
+  {
+   "partNumber": 642,
+   "partName": "CLUB HOUSE PAN OASIS APARTMENT SECTOR-70 NOIDA PART 2",
+   "partId": 424881
+  },
+  {
+   "partNumber": 643,
+   "partName": "CLUB HOUSE CLEO COUNTY SECTOR-121 NOIDA PART 1",
+   "partId": 424882
+  },
+  {
+   "partNumber": 644,
+   "partName": "CLUB HOUSE CLEO COUNTY SECTOR-121 NOIDA PART 2",
+   "partId": 424883
+  },
+  {
+   "partNumber": 645,
+   "partName": "CLUB HOUSE CLEO COUNTY SECTOR-121 NOIDA PART 3",
+   "partId": 424884
+  },
+  {
+   "partNumber": 646,
+   "partName": "SAPPHIRE INTERNATIONAL SCHOOL, SECTOR-70 NOIDA ROOM NO 4",
+   "partId": 424885
+  },
+  {
+   "partNumber": 647,
+   "partName": "SAPPHIRE INTERNATIONAL SCHOOL, SECTOR-70 NOIDA ROOM NO 5",
+   "partId": 424886
+  },
+  {
+   "partNumber": 648,
+   "partName": "SAPPHIRE INTERNATIONAL SCHOOL, SECTOR-70 NOIDA ROOM NO 6",
+   "partId": 424887
+  },
+  {
+   "partNumber": 649,
+   "partName": "CLUB HOUSE HOMES 121 SECTOR 121 NOIDA PART 1",
+   "partId": 424888
+  },
+  {
+   "partNumber": 650,
+   "partName": "CLUB HOUSE HOMES 121 SECTOR 121 NOIDA PART 2",
+   "partId": 425033
+  },
+  {
+   "partNumber": 651,
+   "partName": "COMPOSITE SCHOOL, PARTHLA KHANJARPUR ROOM NO 1",
+   "partId": 424889
+  },
+  {
+   "partNumber": 652,
+   "partName": "COMPOSITE SCHOOL, PARTHLA KHANJARPUR ROOM NO 2",
+   "partId": 424890
+  },
+  {
+   "partNumber": 653,
+   "partName": "COMPOSITE SCHOOL, PARTHLA KHANJARPUR ROOM NO 3",
+   "partId": 424891
+  },
+  {
+   "partNumber": 654,
+   "partName": "COMPOSITE SCHOOL, PARTHLA KHANJARPUR ROOM NO 4",
+   "partId": 424892
+  },
+  {
+   "partNumber": 655,
+   "partName": "COMPOSITE SCHOOL PARTHLA KHANJARPUR ROOM NO 5",
+   "partId": 425083
+  },
+  {
+   "partNumber": 656,
+   "partName": "BARAT GHAR EWS JANTA SECTOR 122 NOIDA PART 1",
+   "partId": 424893
+  },
+  {
+   "partNumber": 657,
+   "partName": "BARAT GHAR EWS JANTA SECTOR 122 NOIDA PART 2",
+   "partId": 424894
+  },
+  {
+   "partNumber": 658,
+   "partName": "COMMUNITY CENTRE, SECTOR-122 NOIDA PART 1",
+   "partId": 424895
+  },
+  {
+   "partNumber": 659,
+   "partName": "COMMUNITY CENTRE SECTOR-122 NOIDA PART 2",
+   "partId": 425034
+  },
+  {
+   "partNumber": 660,
+   "partName": "THE MILLENNIUM SCHOOL, SECTOR-119 NOIDA ROOM NO 1",
+   "partId": 424896
+  },
+  {
+   "partNumber": 661,
+   "partName": "THE MILLENNIUM SCHOOL, SECTOR-119 NOIDA ROOM NO 2",
+   "partId": 424897
+  },
+  {
+   "partNumber": 662,
+   "partName": "THE MILLENNIUM SCHOOL, SECTOR-119 NOIDA ROOM NO 3",
+   "partId": 424898
+  },
+  {
+   "partNumber": 663,
+   "partName": "THE MILLENNIUM SCHOOL, SECTOR-119 NOIDA ROOM NO 4",
+   "partId": 424899
+  },
+  {
+   "partNumber": 664,
+   "partName": "THE MILLENNIUM SCHOOL, SECTOR-119 NOIDA ROOM NO 5",
+   "partId": 424900
+  },
+  {
+   "partNumber": 665,
+   "partName": "THE MILLENNIUM SCHOOL, SECTOR-119 NOIDA ROOM NO 6",
+   "partId": 424901
+  },
+  {
+   "partNumber": 666,
+   "partName": "CLUB HOUSE RG RESIDENCY SECTOR-120 NOIDA",
+   "partId": 424902
+  },
+  {
+   "partNumber": 667,
+   "partName": "CLUB HOUSE AMRAPALI PLATINUM SECTOR 119 NOIDA PART 1",
+   "partId": 425042
+  },
+  {
+   "partNumber": 668,
+   "partName": "CLUB HOUSE ELDECO AMANTARAN SECTOR 119 NOIDA",
+   "partId": 424903
+  },
+  {
+   "partNumber": 669,
+   "partName": "CLUB HOUSE ELITE HOMZ SECTOR 77 NOIDA",
+   "partId": 424904
+  },
+  {
+   "partNumber": 670,
+   "partName": "CLUB HOUSE PRATEEK LAUREL SECTOR-120 NOIDA PART 1",
+   "partId": 424905
+  },
+  {
+   "partNumber": 671,
+   "partName": "CLUB HOUSE PRATEEK LAUREL SECTOR-120 NOIDA PART 2",
+   "partId": 425035
+  },
+  {
+   "partNumber": 672,
+   "partName": "CLUB HOUSE GAUR GRANDEUR SECTOR 119 NOIDA PART 1",
+   "partId": 424906
+  },
+  {
+   "partNumber": 673,
+   "partName": "CLUB HOUSE GAUR GRANDEUR SECTOR 119 NOIDA",
+   "partId": 425043
+  },
+  {
+   "partNumber": 674,
+   "partName": "COMPOSITE SCHOOL, BAHLOLPUR ROOM NO 1",
+   "partId": 424907
+  },
+  {
+   "partNumber": 675,
+   "partName": "COMPOSITE SCHOOL, BAHLOLPUR ROOM NO 2",
+   "partId": 424908
+  },
+  {
+   "partNumber": 676,
+   "partName": "COMPOSITE SCHOOL, BAHLOLPUR ROOM NO 3",
+   "partId": 424909
+  },
+  {
+   "partNumber": 677,
+   "partName": "COMPOSITE SCHOOL, BAHLOLPUR ROOM NO 4",
+   "partId": 424910
+  },
+  {
+   "partNumber": 678,
+   "partName": "COMPOSITE SCHOOL, BAHLOLPUR ROOM NO 5",
+   "partId": 424911
+  },
+  {
+   "partNumber": 679,
+   "partName": "COMPOSITE SCHOOL, BAHLOLPUR ROOM NO 6",
+   "partId": 424912
+  },
+  {
+   "partNumber": 680,
+   "partName": "COMPOSITE SCHOOL BAHLOLPUR ROOM NO 7",
+   "partId": 425084
+  },
+  {
+   "partNumber": 681,
+   "partName": "RISHAL SINGH MEMORIAL PUBLIC SCHOOL, BAHLOLPUR ROOM NO 1",
+   "partId": 424913
+  },
+  {
+   "partNumber": 682,
+   "partName": "RISHAL SINGH MEMORIAL PUBLIC SCHOOL, BAHLOLPUR ROOM NO 2",
+   "partId": 424914
+  },
+  {
+   "partNumber": 683,
+   "partName": "RISHAL SINGH MEMORIAL PUBLIC SCHOOL, BAHLOLPUR ROOM NO 3",
+   "partId": 424915
+  },
+  {
+   "partNumber": 684,
+   "partName": "RISHAL SINGH MEMORIAL PUBLIC SCHOOL, BAHLOLPUR ROOM NO 4",
+   "partId": 424916
+  },
+  {
+   "partNumber": 685,
+   "partName": "RISHAL SINGH MEMORIAL PUBLIC SCHOOL, BAHLOLPUR ROOM NO 5",
+   "partId": 424917
+  },
+  {
+   "partNumber": 686,
+   "partName": "RISHAL SINGH MEMORIAL PUBLIC SCHOOL, BAHLOLPUR ROOM NO 6",
+   "partId": 424918
+  },
+  {
+   "partNumber": 687,
+   "partName": "RISHAL SINGH MEMORIAL PUBLIC SCHOOL BAHLOLPUR ROOM NO 7",
+   "partId": 425085
+  },
+  {
+   "partNumber": 688,
+   "partName": "NEW SAINIK SCHOOL ,BUDH VIHAR CHOTPUR ROOM NO 1",
+   "partId": 424919
+  },
+  {
+   "partNumber": 689,
+   "partName": "NEW SAINIK SCHOOL ,BUDH VIHAR CHOTPUR ROOM NO 2",
+   "partId": 424920
+  },
+  {
+   "partNumber": 690,
+   "partName": "NEW SAINIK PUBLIC SCHOOL BUDDHA VIHAR CHOTPUR ROOM NO 3",
+   "partId": 425086
+  },
+  {
+   "partNumber": 691,
+   "partName": "NEW SAINIK SCHOOL ,BUDH VIHAR CHOTPUR ROOM NO 3",
+   "partId": 424921
+  },
+  {
+   "partNumber": 692,
+   "partName": "NEW SAINIK SCHOOL ,BUDH VIHAR CHOTPUR ROOM NO 4",
+   "partId": 424922
+  },
+  {
+   "partNumber": 693,
+   "partName": "NANDA PUBLIC SCHOOL, CHOTPUR ROOM NO 1",
+   "partId": 424923
+  },
+  {
+   "partNumber": 694,
+   "partName": "NANDA PUBLIC SCHOOL, CHOTPUR ROOM NO 2",
+   "partId": 424924
+  },
+  {
+   "partNumber": 695,
+   "partName": "NANDA PUBLIC SCHOOL, CHOTPUR ROOM NO 3",
+   "partId": 424925
+  },
+  {
+   "partNumber": 696,
+   "partName": "NANDA PUBLIC SCHOOL, CHOTPUR ROOM NO 4",
+   "partId": 424926
+  },
+  {
+   "partNumber": 697,
+   "partName": "NANDA PUBLIC SCHOOL, CHOTPUR ROOM NO 5",
+   "partId": 424927
+  },
+  {
+   "partNumber": 698,
+   "partName": "NANDA PUBLIC SCHOOL CHOTPUR ROOM NO 6",
+   "partId": 425087
+  },
+  {
+   "partNumber": 699,
+   "partName": "JAGRITI PUBLIC SCHOOL 30 FUTA ROAD CHOTPUR ROOM NO 1",
+   "partId": 424928
+  },
+  {
+   "partNumber": 700,
+   "partName": "JAGRITI PUBLIC SCHOOL 30 FUTA ROAD CHOTPUR ROOM NO 2",
+   "partId": 424929
+  },
+  {
+   "partNumber": 701,
+   "partName": "GYANDEEP PUBLIC SCHOOL CHOTPUR COLONY ROOM NO 1",
+   "partId": 424930
+  },
+  {
+   "partNumber": 702,
+   "partName": "GYANDEEP PUBLIC SCHOOL CHOTPUR COLONY ROOM NO 2",
+   "partId": 424931
+  },
+  {
+   "partNumber": 703,
+   "partName": "GYANDEEP PUBLIC SCHOOL CHOTPUR COLONY ROOM NO 3",
+   "partId": 425088
+  },
+  {
+   "partNumber": 704,
+   "partName": "PRIMARY SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 1",
+   "partId": 424932
+  },
+  {
+   "partNumber": 705,
+   "partName": "PRIMARY SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 2",
+   "partId": 424933
+  },
+  {
+   "partNumber": 706,
+   "partName": "PRIMARY SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 3",
+   "partId": 424934
+  },
+  {
+   "partNumber": 707,
+   "partName": "PRIMARY SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 4",
+   "partId": 424935
+  },
+  {
+   "partNumber": 708,
+   "partName": "PRIMARY SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 5",
+   "partId": 424936
+  },
+  {
+   "partNumber": 709,
+   "partName": "PRIMARY SCHOOL YUSUFPUR CHAK SHAHBERI ROOM NO 6",
+   "partId": 425089
+  },
+  {
+   "partNumber": 710,
+   "partName": "MOUNT VINSON SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 1",
+   "partId": 424937
+  },
+  {
+   "partNumber": 711,
+   "partName": "MOUNT VINSON SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 2",
+   "partId": 424938
+  },
+  {
+   "partNumber": 712,
+   "partName": "MOUNT VINSON SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 3",
+   "partId": 424939
+  },
+  {
+   "partNumber": 713,
+   "partName": "MOUNT VINSON SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 4",
+   "partId": 424940
+  },
+  {
+   "partNumber": 714,
+   "partName": "MOUNT VINSON SCHOOL, YUSUFPUR CHAKSHAHBERI ROOM NO 5",
+   "partId": 424941
+  },
+  {
+   "partNumber": 715,
+   "partName": "PRIMARY SCHOOL, RICHHPAL GARHI MAJRA CHIPYANA KHURD URF TIGRI ROOM NO 1",
+   "partId": 424942
+  },
+  {
+   "partNumber": 716,
+   "partName": "DEV VIDYAPEETH PUBLIC SCHOOL, CHIPYANA KHURD URF TIGRI ROOM NO 1",
+   "partId": 424943
+  },
+  {
+   "partNumber": 717,
+   "partName": "DEV VIDYAPEETH PUBLIC SCHOOL, CHIPYANA KHURD URF TIGRI ROOM NO 2",
+   "partId": 424944
+  },
+  {
+   "partNumber": 718,
+   "partName": "DEV VIDYAPEETH PUBLIC SCHOOL, CHIPYANA KHURD URF TIGRI ROOM NO 3",
+   "partId": 424945
+  },
+  {
+   "partNumber": 719,
+   "partName": "DEV VIDYAPEETH PUBLIC SCHOOL, CHIPYANA KHURD URF TIGRI ROOM NO 4",
+   "partId": 424946
+  },
+  {
+   "partNumber": 720,
+   "partName": "VISHAL INTERNATIONAL SCHOOL, SARASWATI KUNJ CHIPYANA KHURD URF TIGRI ROOM NO 1",
+   "partId": 424947
+  },
+  {
+   "partNumber": 721,
+   "partName": "VISHAL INTERNATIONAL SCHOOL, SARASWATI KUNJ CHIPYANA KHURD URF TIGRI ROOM NO 2",
+   "partId": 424948
+  },
+  {
+   "partNumber": 722,
+   "partName": "VISHAL INTERNATIONAL SCHOOL, SARASWATI KUNJ CHIPYANA KHURD URF TIGRI ROOM NO 3",
+   "partId": 424949
+  },
+  {
+   "partNumber": 723,
+   "partName": "VISHAL INTERNATIONAL SCHOOL, SARASWATI KUNJ CHIPYANA KHURD URF TIGRI ROOM NO 4",
+   "partId": 424950
+  },
+  {
+   "partNumber": 724,
+   "partName": "M R MEMORIAL PUBLIC SCHOOL , SOM BAZAR CHIPYANA KHURD URF TIGRI ROOM NO 1",
+   "partId": 424951
+  },
+  {
+   "partNumber": 725,
+   "partName": "M R MEMORIAL PUBLIC SCHOOL , SOM BAZAR CHIPYANA KHURD URF TIGRI ROOM NO 2",
+   "partId": 424952
+  },
+  {
+   "partNumber": 726,
+   "partName": "M R MEMORIAL PUBLIC SCHOOL , SOM BAZAR CHIPYANA KHURD URF TIGRI ROOM NO 3",
+   "partId": 424953
+  },
+  {
+   "partNumber": 727,
+   "partName": "PRIMARY SCHOOL JALPURA ROOM NO 1",
+   "partId": 424954
+  },
+  {
+   "partNumber": 728,
+   "partName": "PRIMARY SCHOOL JALPURA ROOM NO 2",
+   "partId": 424955
+  },
+  {
+   "partNumber": 729,
+   "partName": "PRIMARY SCHOOL JALPURA ROOM NO 3",
+   "partId": 424956
+  },
+  {
+   "partNumber": 730,
+   "partName": "PRIMARY SCHOOL JALPURA ROOM NO 4",
+   "partId": 424957
+  },
+  {
+   "partNumber": 731,
+   "partName": "PRIMARY SCHOOL JALPURA ROOM NO 5",
+   "partId": 424958
+  },
+  {
+   "partNumber": 732,
+   "partName": "PRIMARY SCHOOL JALPURA ROOM NO 6",
+   "partId": 424959
+  },
+  {
+   "partNumber": 733,
+   "partName": "BAL UDAY MODEL INTER COLLEGE, NEAR ZAFAR COMPLEX HALDONI ROOM NO 1",
+   "partId": 424960
+  },
+  {
+   "partNumber": 734,
+   "partName": "BAL UDAY MODEL INTER COLLEGE, NEAR ZAFAR COMPLEX HALDONI ROOM NO 2",
+   "partId": 424961
+  },
+  {
+   "partNumber": 735,
+   "partName": "BAL UDAY MODERN INTER COLLEGE NEAR JAFAR COMPLEX HALDAUNI ROOM NO 3",
+   "partId": 424962
+  },
+  {
+   "partNumber": 736,
+   "partName": "PURWA MADHYAMIK SCHOOL, HALDONI ROOM NO 1",
+   "partId": 424963
+  },
+  {
+   "partNumber": 737,
+   "partName": "PURWA MADHYAMIK SCHOOL, HALDONI ROOM NO 2",
+   "partId": 424964
+  },
+  {
+   "partNumber": 738,
+   "partName": "PURWA MADHYAMIK SCHOOL, HALDONI ROOM NO 3",
+   "partId": 424965
+  },
+  {
+   "partNumber": 739,
+   "partName": "PURVA MADHYAMIK SCHOOL HALDONI ROOM NO 4",
+   "partId": 425090
+  },
+  {
+   "partNumber": 740,
+   "partName": "R.C.S. MODERN SCHOOL HALDONI ROOM NO 1",
+   "partId": 424966
+  },
+  {
+   "partNumber": 741,
+   "partName": "R.C.S. MODERN SCHOOL HALDONI ROOM NO 2",
+   "partId": 424967
+  },
+  {
+   "partNumber": 742,
+   "partName": "R.C.S. MODERN SCHOOL HALDONI ROOM NO 3",
+   "partId": 424968
+  },
+  {
+   "partNumber": 743,
+   "partName": "AMAR JYOTI INTER COLLEGE, HALDONI ROOM NO 1",
+   "partId": 424969
+  },
+  {
+   "partNumber": 744,
+   "partName": "AMAR JYOTI INTER COLLEGE, HALDONI ROOM NO 2",
+   "partId": 424970
+  },
+  {
+   "partNumber": 745,
+   "partName": "AMAR JYOTI INTER COLLEGE, HALDONI ROOM NO 3",
+   "partId": 424971
+  },
+  {
+   "partNumber": 746,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 1",
+   "partId": 424972
+  },
+  {
+   "partNumber": 747,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 2",
+   "partId": 424973
+  },
+  {
+   "partNumber": 748,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 3",
+   "partId": 424974
+  },
+  {
+   "partNumber": 749,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 4",
+   "partId": 424975
+  },
+  {
+   "partNumber": 750,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 5",
+   "partId": 424976
+  },
+  {
+   "partNumber": 751,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 6",
+   "partId": 424977
+  },
+  {
+   "partNumber": 752,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 7",
+   "partId": 424978
+  },
+  {
+   "partNumber": 753,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 8",
+   "partId": 424979
+  },
+  {
+   "partNumber": 754,
+   "partName": "COMMUNITY CENTRE, SECTOR-82 NOIDA PART 9",
+   "partId": 424980
+  },
+  {
+   "partNumber": 755,
+   "partName": "COMMUNITY CENTRE SECTOR-82 NOIDA PART 10",
+   "partId": 425091
+  },
+  {
+   "partNumber": 756,
+   "partName": "COMMUNITY CENTRE VIVEK VIHAR, SECTOR-82 NOIDA PART 1",
+   "partId": 424981
+  },
+  {
+   "partNumber": 757,
+   "partName": "COMMUNITY CENTRE VIVEK VIHAR, SECTOR-82 NOIDA PART 2",
+   "partId": 424982
+  },
+  {
+   "partNumber": 758,
+   "partName": "COMMUNITY CENTRE VIVEK VIHAR, SECTOR-82 NOIDA PART 3",
+   "partId": 424983
+  },
+  {
+   "partNumber": 759,
+   "partName": "COMMUNITY CENTRE VIVEK VIHAR, SECTOR-82 NOIDA PART 4",
+   "partId": 424984
+  },
+  {
+   "partNumber": 760,
+   "partName": "COMMUNITY CENTRE VIVEK VIHAR, SECTOR-82 NOIDA PART 5",
+   "partId": 424985
+  },
+  {
+   "partNumber": 761,
+   "partName": "CLUB HOUSE PARSVNATH PRESTIGE SECTOR-93A NOIDA",
+   "partId": 424986
+  },
+  {
+   "partNumber": 762,
+   "partName": "CLUB HOUSE ELDECO UTOPIA SECTOR.93A NOIDA PART 1",
+   "partId": 424987
+  },
+  {
+   "partNumber": 763,
+   "partName": "CLUB HOUSE ELDECO UTOPIA SECTOR.93A NOIDA PART 2",
+   "partId": 424988
+  },
+  {
+   "partNumber": 764,
+   "partName": "CLUB HOUSE ELDECO UTOPIA SECTOR.93A NOIDA PART 3",
+   "partId": 424989
+  },
+  {
+   "partNumber": 765,
+   "partName": "COMMUNITY CENTRE KENDRIYA VIHAR, SECTOR-82 NOIDA",
+   "partId": 424990
+  },
+  {
+   "partNumber": 766,
+   "partName": "COMMUNITY CENTRE SUPER MIG, SECTOR-93 NOIDA PART 1",
+   "partId": 424991
+  },
+  {
+   "partNumber": 767,
+   "partName": "COMMUNITY CENTRE SUPER MIG, SECTOR-93 NOIDA PART 2",
+   "partId": 424992
+  },
+  {
+   "partNumber": 768,
+   "partName": "COMMUNITY CENTRE SUPER MIG, SECTOR-93 NOIDA PART 3",
+   "partId": 425036
+  },
+  {
+   "partNumber": 769,
+   "partName": "CLUB HOUSE PURVANCHAL SILVER CITY APARTMENT SECTOR.93A NOIDA",
+   "partId": 424993
+  },
+  {
+   "partNumber": 770,
+   "partName": "CLUB HOUSE PURVANCHAL SILVER CITY APARTMENTS SECTOR-93A NOIDA PART 2",
+   "partId": 425092
+  },
+  {
+   "partNumber": 771,
+   "partName": "COMMUNITY CENTRE, SECTOR -93 B NOIDA PART 1",
+   "partId": 424994
+  },
+  {
+   "partNumber": 772,
+   "partName": "COMMUNITY CENTRE, SECTOR -93 B NOIDA PART 2",
+   "partId": 424995
+  },
+  {
+   "partNumber": 773,
+   "partName": "COMMUNITY CENTRE, SECTOR -93 B NOIDA PART 3",
+   "partId": 425044
+  },
+  {
+   "partNumber": 774,
+   "partName": "PRIMARY SCHOOL, GEJHA TILPATABAD ROOM NO 1",
+   "partId": 424996
+  },
+  {
+   "partNumber": 775,
+   "partName": "PRIMARY SCHOOL, GEJHA TILPATABAD ROOM NO 2",
+   "partId": 424997
+  },
+  {
+   "partNumber": 776,
+   "partName": "PRIMARY SCHOOL, GEJHA TILPATABAD ROOM NO 3",
+   "partId": 424998
+  },
+  {
+   "partNumber": 777,
+   "partName": "PRIMARY SCHOOL, GEJHA TILPATABAD ROOM NO 4",
+   "partId": 424999
+  },
+  {
+   "partNumber": 778,
+   "partName": "PRIMARY SCHOOL GEJHA TILPATABAD ROOM NO 5",
+   "partId": 425093
+  },
+  {
+   "partNumber": 779,
+   "partName": "BARAT GHAR, SECTOR- 93 NOIDA PART 1",
+   "partId": 425000
+  },
+  {
+   "partNumber": 780,
+   "partName": "BARAT GHAR, SECTOR- 93 NOIDA PART 2",
+   "partId": 425001
+  },
+  {
+   "partNumber": 781,
+   "partName": "BARAT GHAR, SECTOR- 93 NOIDA PART 3",
+   "partId": 425002
+  },
+  {
+   "partNumber": 782,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, GEJHA TILPATABAD ROOM NO 1",
+   "partId": 425003
+  },
+  {
+   "partNumber": 783,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, GEJHA TILPATABAD ROOM NO 2",
+   "partId": 425004
+  },
+  {
+   "partNumber": 784,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, GEJHA TILPATABAD ROOM NO 3",
+   "partId": 425005
+  },
+  {
+   "partNumber": 785,
+   "partName": "PURVA MADHYAMIK VIDYALAYA, GEJHA TILPATABAD ROOM NO 4",
+   "partId": 425006
+  },
+  {
+   "partNumber": 786,
+   "partName": "CLUB HOUSE PARSHVANATH SRISHTI APARTMENTS SECTOR-93 NOIDA",
+   "partId": 425094
+  },
+  {
+   "partNumber": 787,
+   "partName": "COMPOSITE SCHOOL, YAKUBPUR ROOM NO 1",
+   "partId": 425007
+  },
+  {
+   "partNumber": 788,
+   "partName": "COMPOSITE SCHOOL, YAKUBPUR ROOM NO 2",
+   "partId": 425008
+  },
+  {
+   "partNumber": 789,
+   "partName": "COMMUNITY CENTRE, HAJIPUR PART 1",
+   "partId": 425009
+  },
+  {
+   "partNumber": 790,
+   "partName": "COMMUNITY CENTRE, HAJIPUR PART 2",
+   "partId": 425010
+  },
+  {
+   "partNumber": 791,
+   "partName": "COMMUNITY CENTRE,SECTOOR 105 NOIDA PART 1",
+   "partId": 425011
+  },
+  {
+   "partNumber": 792,
+   "partName": "COMMUNITY CENTRE, SECTOR-105 NOIDA PART 2",
+   "partId": 425037
+  },
+  {
+   "partNumber": 793,
+   "partName": "CLUB HOUSE PARX LAUREATE SECTOR-108 NOIDA",
+   "partId": 425095
+  },
+  {
+   "partNumber": 794,
+   "partName": "COMMUNITY CENTRE,SECTOR-99 NOIDA PART 1",
+   "partId": 425012
+  },
+  {
+   "partNumber": 795,
+   "partName": "COMMUNITY CENTRE,SECTOR-99 NOIDA PART 2",
+   "partId": 425013
+  },
+  {
+   "partNumber": 796,
+   "partName": "COMMUNITY CENTRE SECTOR-99 NOIDA PART 3",
+   "partId": 425038
+  },
+  {
+   "partNumber": 797,
+   "partName": "CLUB HOUSE ATS ONE HAMLET SECTOR 104 NOIDA PART 1",
+   "partId": 425014
+  },
+  {
+   "partNumber": 798,
+   "partName": "CLUB HOUSE ATS ONE HAMLET SECTOR-104 NOIDA PART 2",
+   "partId": 425096
+  },
+  {
+   "partNumber": 799,
+   "partName": "PRIMARY SCHOOL, ASGARPUR JAGIR ROOM NO 1",
+   "partId": 425015
+  },
+  {
+   "partNumber": 800,
+   "partName": "PRIMARY SCHOOL, ASGARPUR JAGIR ROOM NO 2",
+   "partId": 425016
+  },
+  {
+   "partNumber": 801,
+   "partName": "COMPOSITE SCHOOL, SULTANPUR ROOM NO 1",
+   "partId": 425017
+  },
+  {
+   "partNumber": 802,
+   "partName": "COMPOSITE SCHOOL, SULTANPUR ROOM NO 2",
+   "partId": 425018
+  },
+  {
+   "partNumber": 803,
+   "partName": "CLUB HOUSE J P WISH TOWN SECTOR 128 NOIDA PART 1",
+   "partId": 425019
+  },
+  {
+   "partNumber": 804,
+   "partName": "CLUB HOUSE J P WISH TOWN SECTOR 128 NOIDA PART 2",
+   "partId": 425039
+  },
+  {
+   "partNumber": 805,
+   "partName": "CLUB HOUSE JAYPEE WISH TOWN SECTOR-128 NOIDA PART 3",
+   "partId": 425097
+  },
+  {
+   "partNumber": 806,
+   "partName": "PRIMARY SCHOOL, ILLAHABAS NOIDA ROOM NO 1",
+   "partId": 425020
+  },
+  {
+   "partNumber": 807,
+   "partName": "PRIMARY SCHOOL, ILLAHABAS NOIDA ROOM NO 2",
+   "partId": 425021
+  },
+  {
+   "partNumber": 808,
+   "partName": "PRIMARY SCHOOL, ILLAHABAS NOIDA ROOM NO 3",
+   "partId": 425022
+  },
+  {
+   "partNumber": 809,
+   "partName": "PRIMARY SCHOOL, ILLAHABAS NOIDA ROOM NO 4",
+   "partId": 425023
+  },
+  {
+   "partNumber": 810,
+   "partName": "PRIMARY SCHOOL, NAYA GAON ROOM NO 1",
+   "partId": 425024
+  },
+  {
+   "partNumber": 811,
+   "partName": "PRIMARY SCHOOL, NAYA GAON ROOM NO 2",
+   "partId": 425025
+  }
+ ]
+}

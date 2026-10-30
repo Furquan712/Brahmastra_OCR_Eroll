@@ -11,6 +11,7 @@ import {
 import { cardRects, classifyHeader, localReadCards, readHeaderText, readPrintedPage, type FooterRead, type LocalCard, type Rect } from "./local.js";
 import type { Logger } from "./logger.js";
 import { cleanName, mapGender, mapRelation, normalizeCard } from "./normalize.js";
+import { applyOfficialPartName } from "./official-parts.js";
 import { pdfPageCount, removeQuiet, renderPage } from "./pdf.js";
 import { classifyPrompt, extractPrompt, systemPrompt } from "./prompts.js";
 import { CLASSIFY_JSON_SCHEMA, ClassifyZ, EXTRACT_JSON_SCHEMA, ExtractZ, type CardOut } from "./schemas.js";
@@ -664,6 +665,7 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
     log.info("pdf", `${base}: cached result (${cached.pages.reduce((n, p) => n + p.cards.length, 0)} cards, ${cached.model}) - skipping OCR`);
     refreshEnglish(cached.pages, ctx.translit, tpl);
     cached.cover = cached.pages.find((x) => x.cover)?.cover ?? null;
+    applyOfficialPartName(cached.cover, parseErollFilename(base)?.stateCode ?? "", log, base);
     return cached;
   }
 
@@ -724,6 +726,7 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
     }
 
     const cover = pages.find((x) => x.cover)?.cover ?? null;
+    applyOfficialPartName(cover, parseErollFilename(base)?.stateCode ?? "", log, base);
     const partCounts = new Map<string, number>();
     for (const pg of pages) if (pg.partNo) partCounts.set(pg.partNo, (partCounts.get(pg.partNo) ?? 0) + 1);
     const partNo = cover?.partNo || [...partCounts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || "";

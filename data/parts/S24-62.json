@@ -1,0 +1,3982 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2406",
+ "acNumber": 62,
+ "fetchedAt": "2026-10-30T05:40:33",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 794,
+ "maxPart": 794,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "COMPOSITE SCHOOL HAIVATPUR R.N. 01",
+   "partId": 423271
+  },
+  {
+   "partNumber": 2,
+   "partName": "COMPOSITE SCHOOL HAIVATPUR R.N. 02",
+   "partId": 423272
+  },
+  {
+   "partNumber": 3,
+   "partName": "COMPOSITE SCHOOL HAIVATPUR R.N. 03",
+   "partId": 423273
+  },
+  {
+   "partNumber": 4,
+   "partName": "KANHAIYA PUBLIC SCHOOL OLD HAIVATPUR R.N. 01",
+   "partId": 423274
+  },
+  {
+   "partNumber": 5,
+   "partName": "KANHAIYA PUBLIC SCHOOL OLD HAIVATPUR R.N. 02",
+   "partId": 423275
+  },
+  {
+   "partNumber": 6,
+   "partName": "KANHAIYA PUBLIC SCHOOL OLD HAIVATPUR R.N. 03",
+   "partId": 423276
+  },
+  {
+   "partNumber": 7,
+   "partName": "KANHAIYA PUBLIC SCHOOL OLD HAIVATPUR R.N. 04",
+   "partId": 423277
+  },
+  {
+   "partNumber": 8,
+   "partName": "MAHAGUN MYWOODS CLUBHOUSE R.N. 01",
+   "partId": 423278
+  },
+  {
+   "partNumber": 9,
+   "partName": "MAHAGUN MYWOODS CLUBHOUSE R.N. 02",
+   "partId": 423955
+  },
+  {
+   "partNumber": 10,
+   "partName": "MAHAGUN MYWOODS CLUBHOUSE R.N. 03",
+   "partId": 423279
+  },
+  {
+   "partNumber": 11,
+   "partName": "MAHAGUN MYWOODS CLUBHOUSE R.N. 04",
+   "partId": 423280
+  },
+  {
+   "partNumber": 12,
+   "partName": "GAGAN PUBLIC SCHOOL GAUR CITY R.N. 01",
+   "partId": 423281
+  },
+  {
+   "partNumber": 13,
+   "partName": "GAGAN PUBLIC SCHOOL GAUR CITY R.N. 02",
+   "partId": 423282
+  },
+  {
+   "partNumber": 14,
+   "partName": "GAGAN PUBLIC SCHOOL GAUR CITY R.N. 03",
+   "partId": 423283
+  },
+  {
+   "partNumber": 15,
+   "partName": "GAGAN PUBLIC SCHOOL GAUR CITY R.N. 04",
+   "partId": 423284
+  },
+  {
+   "partNumber": 16,
+   "partName": "MANTHAN PUBLIC SCHOOL GREATER NOIDA WEST R.N. 01",
+   "partId": 423285
+  },
+  {
+   "partNumber": 17,
+   "partName": "MANTHAN PUBLIC SCHOOL GREATER NOIDA WEST R.N. 02",
+   "partId": 423286
+  },
+  {
+   "partNumber": 18,
+   "partName": "CLUBHOUSE DIVYANSH FLORA GAUR CITY 2 R.N. 01",
+   "partId": 423957
+  },
+  {
+   "partNumber": 19,
+   "partName": "CLUBHOUSE GALAXY NORTH AVENUE 2 GAUR CITY 2 R.N. 01",
+   "partId": 424003
+  },
+  {
+   "partNumber": 20,
+   "partName": "KIDZEE PLAY SCHOOL, GAUR CITY R.N. 01",
+   "partId": 423287
+  },
+  {
+   "partNumber": 21,
+   "partName": "KIDZEE PLAY SCHOOL GAUR CITY R.N. 02",
+   "partId": 424004
+  },
+  {
+   "partNumber": 22,
+   "partName": "CLUBHOUSE SAYA ZION GAUR CITY 1 R.N. 01",
+   "partId": 423958
+  },
+  {
+   "partNumber": 23,
+   "partName": "PALM OLYMPIA CLUBHOUSE R.N. 01",
+   "partId": 423288
+  },
+  {
+   "partNumber": 24,
+   "partName": "PALM OLYMPIA CLUBHOUSE R.N. 02",
+   "partId": 423956
+  },
+  {
+   "partNumber": 25,
+   "partName": "CLUBHOUSE 7TH AVENUE GAUR CITY 1 R. N. 01",
+   "partId": 423289
+  },
+  {
+   "partNumber": 26,
+   "partName": "CLUBHOUSE 7TH AVENUE GAUR CITY 1 R.N. 02",
+   "partId": 423959
+  },
+  {
+   "partNumber": 27,
+   "partName": "SHRI CHAITANYA TECHNO SCHOOL GREATER NOIDA  R.N. 01",
+   "partId": 423290
+  },
+  {
+   "partNumber": 28,
+   "partName": "SHRI CHAITANYA TECHNO SCHOOL GREATER NOIDA R.N. 02",
+   "partId": 423291
+  },
+  {
+   "partNumber": 29,
+   "partName": "SHRI CHAITANYA TECHNO SCHOOL GREATER NOIDA R.N. 03",
+   "partId": 423292
+  },
+  {
+   "partNumber": 30,
+   "partName": "GAURS INTERNATIONAL SCHOOL GAUR CITY R.N. 01",
+   "partId": 423293
+  },
+  {
+   "partNumber": 31,
+   "partName": "GAURS INTERNATIONAL SCHOOL GAUR CITY R.N. 02",
+   "partId": 423974
+  },
+  {
+   "partNumber": 32,
+   "partName": "GAURS INTERNATIONAL SCHOOL GAUR CITY R.N. 03",
+   "partId": 423294
+  },
+  {
+   "partNumber": 33,
+   "partName": "GAURS INTERNATIONAL SCHOOL GAUR CITY R.N. 04",
+   "partId": 423295
+  },
+  {
+   "partNumber": 34,
+   "partName": "CLUBHOUSE 10TH AVENUE GAUR CITY-2 R.N. 01",
+   "partId": 423975
+  },
+  {
+   "partNumber": 35,
+   "partName": "CLUBHOUSE JKG PALM COURT SECTOR-16C R.N. 01",
+   "partId": 423296
+  },
+  {
+   "partNumber": 36,
+   "partName": "CLUBHOUSE 4TH AVENUE GAUR CITY-1 R.N. 01",
+   "partId": 423297
+  },
+  {
+   "partNumber": 37,
+   "partName": "CLUBHOUSE PRISTINE AVENUE GAUR CITY-2 R.N. 01",
+   "partId": 423298
+  },
+  {
+   "partNumber": 38,
+   "partName": "CLUBHOUSE AIG PARK AVENUE GAUR CITY-1 R.N. 01",
+   "partId": 423976
+  },
+  {
+   "partNumber": 39,
+   "partName": "CLUBHOUSE VVIP HOMES GAUR CITY-2 R.N. 01",
+   "partId": 423299
+  },
+  {
+   "partNumber": 40,
+   "partName": "EXOTICA DREAM VILLE CLUBHOUSE R.N. 01",
+   "partId": 423300
+  },
+  {
+   "partNumber": 41,
+   "partName": "EXOTICA DREAM VILLE CLUBHOUSE R.N. 02",
+   "partId": 423301
+  },
+  {
+   "partNumber": 42,
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.1",
+   "partId": 423302
+  },
+  {
+   "partNumber": 43,
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.2",
+   "partId": 423303
+  },
+  {
+   "partNumber": 44,
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.3",
+   "partId": 423304
+  },
+  {
+   "partNumber": 45,
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.4",
+   "partId": 423305
+  },
+  {
+   "partNumber": 46,
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.5",
+   "partId": 423306
+  },
+  {
+   "partNumber": 47,
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.6",
+   "partId": 423977
+  },
+  {
+   "partNumber": 48,
+   "partName": "CLUBHOUSE AISHWARYAM APARTMENT GAUR CITY 2 R.N. 01",
+   "partId": 424005
+  },
+  {
+   "partNumber": 49,
+   "partName": "UCHCH PRATHMIK SCHOOL ETAIRA R.N. 01",
+   "partId": 423307
+  },
+  {
+   "partNumber": 50,
+   "partName": "UCHCH PRATHMIK SCHOOL ETAIRA R.N. 02",
+   "partId": 423308
+  },
+  {
+   "partNumber": 51,
+   "partName": "UCHCH PRATHMIK SCHOOL ETAIRA R.N. 03",
+   "partId": 423960
+  },
+  {
+   "partNumber": 52,
+   "partName": "PRIMARY SCHOOL ETAIHARA R.NO. -1",
+   "partId": 423309
+  },
+  {
+   "partNumber": 53,
+   "partName": "PRIMARY SCHOOL ETAIHARA R.N. 02",
+   "partId": 424006
+  },
+  {
+   "partNumber": 54,
+   "partName": "CHERRY COUNTY CLUBHOUSE R.N. 01",
+   "partId": 423310
+  },
+  {
+   "partNumber": 55,
+   "partName": "CHERRY COUNTY CLUBHOUSE R.N. 02",
+   "partId": 423311
+  },
+  {
+   "partNumber": 56,
+   "partName": "CHERRY COUNTY CLUBHOUSE R.N. 03",
+   "partId": 424007
+  },
+  {
+   "partNumber": 57,
+   "partName": "CLUBHOUSE SAVIOUR GREENARCH TECHZONE 4 R.N. 1",
+   "partId": 423312
+  },
+  {
+   "partNumber": 58,
+   "partName": "CLUBHOUSE SAVIOUR GREENARCH TECHZONE 4 R.N. 2",
+   "partId": 424008
+  },
+  {
+   "partNumber": 59,
+   "partName": "RYAN INTERNATIONAL SCHOOL GREATER NOIDA R.N. 01",
+   "partId": 423313
+  },
+  {
+   "partNumber": 60,
+   "partName": "CLUBHOUSE JM FLORENCE TECHZONE 4 R.N. 1",
+   "partId": 423314
+  },
+  {
+   "partNumber": 61,
+   "partName": "CLUBHOUSE JM FLORENCE TECHZONE 4 R.N. 2",
+   "partId": 423961
+  },
+  {
+   "partNumber": 62,
+   "partName": "GULSHAN BELLINA CLUBHOUSE R.NO.01",
+   "partId": 423315
+  },
+  {
+   "partNumber": 63,
+   "partName": "EROS SAMPOORNAM CLUBHOUSE R.N. 01",
+   "partId": 423316
+  },
+  {
+   "partNumber": 64,
+   "partName": "EROS SAMPOORNAM CLUBHOUSE R.N. 02",
+   "partId": 423317
+  },
+  {
+   "partNumber": 65,
+   "partName": "CLUBHOUSE GALAXY VEGA TECHZONE 4 R.N. 1",
+   "partId": 423318
+  },
+  {
+   "partNumber": 66,
+   "partName": "CLUBHOUSE GALAXY VEGA TECHZONE 4 R.N. 2",
+   "partId": 424009
+  },
+  {
+   "partNumber": 67,
+   "partName": "CLUBHOUSE ROYAL NEST TECHZONE 4 R.N. 1",
+   "partId": 423319
+  },
+  {
+   "partNumber": 68,
+   "partName": "CLUBHOUSE HABITAT PANCHTATVA TECHZONE 4 R.N. 1",
+   "partId": 423978
+  },
+  {
+   "partNumber": 69,
+   "partName": "CLUBHOUSE SPRING MEADOWS TECHZONE 4 R.N. 1",
+   "partId": 423320
+  },
+  {
+   "partNumber": 70,
+   "partName": "CLUBHOUSE FUSION HOMES TECHZONE 4 R.N. 1",
+   "partId": 423979
+  },
+  {
+   "partNumber": 71,
+   "partName": "COMMUNITY HALL FUSION HOMES TECHZONE 4 R.N. 1",
+   "partId": 423321
+  },
+  {
+   "partNumber": 72,
+   "partName": "J M INTERNATIONAL SCHOOL GREATER NOIDA R. N. 1",
+   "partId": 423322
+  },
+  {
+   "partNumber": 73,
+   "partName": "J M INTERNATIONAL SCHOOL GREATER NOIDA R. N. 2",
+   "partId": 423980
+  },
+  {
+   "partNumber": 74,
+   "partName": "SAMRIDHI GRAND AVENUE CLUBHOUSE R.N. 01",
+   "partId": 423323
+  },
+  {
+   "partNumber": 75,
+   "partName": "HIMALYA PRIDE CLUBHOUSE R.N. 01",
+   "partId": 423324
+  },
+  {
+   "partNumber": 76,
+   "partName": "CLUBHOUSE NIRALA ESTATE TECHZONE 4 R. N. 1",
+   "partId": 423325
+  },
+  {
+   "partNumber": 77,
+   "partName": "CLUBHOUSE NIRALA ESTATE TECHZONE 4 R.N. 2",
+   "partId": 423326
+  },
+  {
+   "partNumber": 78,
+   "partName": "CLUBHOUSE NIRALA ESTATE TECHZONE 4 R.N. 3",
+   "partId": 424010
+  },
+  {
+   "partNumber": 79,
+   "partName": "SARVOTTAM INTERNATIONAL SCHOOL GREATER NOIDA R. N. 1",
+   "partId": 423327
+  },
+  {
+   "partNumber": 80,
+   "partName": "SARVOTTAM INTERNATIONAL SCHOOL GREATER NOIDA R.N. 2",
+   "partId": 423328
+  },
+  {
+   "partNumber": 81,
+   "partName": "LOTUS VALLEY INTERNATIONAL SCHOOL GREATER NOIDA WEST R. N. 1",
+   "partId": 423329
+  },
+  {
+   "partNumber": 82,
+   "partName": "LOTUS VALLEY INTERNATIONAL SCHOOL GREATER NOIDA WEST R. N. 2",
+   "partId": 423330
+  },
+  {
+   "partNumber": 83,
+   "partName": "CLUBHOUSE AMRAPALI LEISURE VALLEY TECHZONE 4 R.N. 1",
+   "partId": 423981
+  },
+  {
+   "partNumber": 84,
+   "partName": "CLUBHOUSE HAWELIA VALENOVA PARK TECHZONE 4 R.N. 1",
+   "partId": 424011
+  },
+  {
+   "partNumber": 85,
+   "partName": "S.K.S WORLD SCHOOL SECTOR 16 R. N. 1",
+   "partId": 423331
+  },
+  {
+   "partNumber": 86,
+   "partName": "SKS WORLD SCHOOL SECTOR 16 R. N. 2",
+   "partId": 423982
+  },
+  {
+   "partNumber": 87,
+   "partName": "S.K.S WORLD SCHOOL SECTOR 16 R. N. 3",
+   "partId": 423332
+  },
+  {
+   "partNumber": 88,
+   "partName": "SKS WORLD SCHOOL SECTOR 16 R. N. 4",
+   "partId": 423983
+  },
+  {
+   "partNumber": 89,
+   "partName": "S.K.S WORLD SCHOOL SECTOR 16 R. N. 5",
+   "partId": 423333
+  },
+  {
+   "partNumber": 90,
+   "partName": "SKS WORLD SCHOOL SECTOR 16 R. N. 6",
+   "partId": 423984
+  },
+  {
+   "partNumber": 91,
+   "partName": "CLUBHOUSE SHRI RADHA SKY GARDEN SECTOR 16B R.N. 01",
+   "partId": 423349
+  },
+  {
+   "partNumber": 92,
+   "partName": "CLUBHOUSE SKA GREENARCH SECTOR 16B R.N. 01",
+   "partId": 423985
+  },
+  {
+   "partNumber": 93,
+   "partName": "CLUBHOUSE AIMS GREEN AVENUE SECTOR-4 R.N. 01",
+   "partId": 424074
+  },
+  {
+   "partNumber": 94,
+   "partName": "CLUBHOUSE PANCHSHEEL GREENS-2 SECTOR 16 R. N. 01",
+   "partId": 423350
+  },
+  {
+   "partNumber": 95,
+   "partName": "CLUBHOUSE PANCHSHEEL GREENS-2 SECTOR 16 R. N. 02",
+   "partId": 424066
+  },
+  {
+   "partNumber": 96,
+   "partName": "CLUBHOUSE LA SOLARA SECTOR 16 R. N. 01",
+   "partId": 424067
+  },
+  {
+   "partNumber": 97,
+   "partName": "CLUBHOUSE CASA GREENS-1 SECTOR 16 R. N. 01",
+   "partId": 423986
+  },
+  {
+   "partNumber": 98,
+   "partName": "CLUBHOUSE SUPERTECH ECOVILLAGE-3 SECTOR 16B R.N. 01",
+   "partId": 423351
+  },
+  {
+   "partNumber": 99,
+   "partName": "BLS WORLD SCHOOL SECTOR 16 R. N. 01",
+   "partId": 423352
+  },
+  {
+   "partNumber": 100,
+   "partName": "FRENCH APPARTMENT CLUB SECTOR 16 R N 1",
+   "partId": 423988
+  },
+  {
+   "partNumber": 101,
+   "partName": "CLUBHOUSE AJNARA LE GARDEN SECTOR 16B R.N.01",
+   "partId": 423353
+  },
+  {
+   "partNumber": 102,
+   "partName": "CLUBHOUSE AJNARA LE GARDEN SECTOR 16B R.N.02",
+   "partId": 423987
+  },
+  {
+   "partNumber": 103,
+   "partName": "PANCHSHEEL GREENS-1 CLUBHOUSE R.N. 01",
+   "partId": 423354
+  },
+  {
+   "partNumber": 104,
+   "partName": "PANCHSHEEL GREENS-1 CLUBHOUSE R.N. 02",
+   "partId": 423355
+  },
+  {
+   "partNumber": 105,
+   "partName": "PRIMARY SCHOOL. SHAHBERI R.NO. 1",
+   "partId": 423356
+  },
+  {
+   "partNumber": 106,
+   "partName": "PRIMARY SCHOOL SHAHBERI R.NO. 2",
+   "partId": 423357
+  },
+  {
+   "partNumber": 107,
+   "partName": "PRIMARY SCHOOL SHAHBERI R.NO. 3",
+   "partId": 423358
+  },
+  {
+   "partNumber": 108,
+   "partName": "PRIMARY SCHOOL SHAHBERI R.NO. 4",
+   "partId": 423359
+  },
+  {
+   "partNumber": 109,
+   "partName": "BAL VIKAS JUNIOR HIGH SCHOOL CHIPIYANA BUJURG R NO-1",
+   "partId": 423360
+  },
+  {
+   "partNumber": 110,
+   "partName": "BAL VIKAS JUNIOR HIGH SCHOOL. CHIPIYANA BUJURG R NO- 2",
+   "partId": 423361
+  },
+  {
+   "partNumber": 111,
+   "partName": "BAL VIKAS JUNIOR HIGH SCHOOL. CHIPIYANA BUJURG R NO- 3",
+   "partId": 423362
+  },
+  {
+   "partNumber": 112,
+   "partName": "BAL VIKAS JUNIOR HIGH SCHOOL CHIPIYANA BUJURG R NO-4",
+   "partId": 423363
+  },
+  {
+   "partNumber": 113,
+   "partName": "BAL VIKAS JUNIOR HIGH SCHOOL CHIPIYANA BUJURG R NO- 5",
+   "partId": 423364
+  },
+  {
+   "partNumber": 114,
+   "partName": "BAL VIKAS JUNIOR HIGH SCHOOL CHIPIYANA BUJURG R.NO. 6",
+   "partId": 424012
+  },
+  {
+   "partNumber": 115,
+   "partName": "CAMBRIDGE PUBLIC SCHOOL CHIPIYANA BUJURG R NO- 1",
+   "partId": 423365
+  },
+  {
+   "partNumber": 116,
+   "partName": "CAMBRIDGE PUBLIC SCHOOL CHIPIYANA BUJURG R NO- 2",
+   "partId": 423366
+  },
+  {
+   "partNumber": 117,
+   "partName": "CAMBRIDGE PUBLIC SCHOOL CHIPIYANA BUJURG R NO- 3",
+   "partId": 423367
+  },
+  {
+   "partNumber": 118,
+   "partName": "CAMBRIDGE PUBLIC SCHOOL CHIPIYANA BUJURG R NO- 4",
+   "partId": 423368
+  },
+  {
+   "partNumber": 119,
+   "partName": "CAMBRIDGE PUBLIC SCHOOL CHIPIYANA BUJURG R NO- 5",
+   "partId": 423369
+  },
+  {
+   "partNumber": 120,
+   "partName": "CAMBRIDGE PUBLIC SCHOOL CHIPIYANA BUJURG R.N. 06",
+   "partId": 424013
+  },
+  {
+   "partNumber": 121,
+   "partName": "M.S. PUBLIC JUNIOR HIGH SCHOOL, CHIPIYANA BUJURG R. NO- 1",
+   "partId": 423370
+  },
+  {
+   "partNumber": 122,
+   "partName": "M.S. PUBLIC JUNIOR HIGH SCHOOL, CHIPIYANA BUJURG R. NO- 2",
+   "partId": 423371
+  },
+  {
+   "partNumber": 123,
+   "partName": "M.S. PUBLIC JUNIOR HIGH SCHOOL, CHIPIYANA BUJURG R. NO- 3",
+   "partId": 423372
+  },
+  {
+   "partNumber": 124,
+   "partName": "PRIMARY SCHOOL CHIPIYANA BUJURG K. NO-01",
+   "partId": 423373
+  },
+  {
+   "partNumber": 125,
+   "partName": "PRIMARY SCHOOL CHIPIYANA BUJURG K. NO-02",
+   "partId": 423374
+  },
+  {
+   "partNumber": 126,
+   "partName": "PRIMARY SCHOOL CHIPIYANA BUJURG K. NO-03",
+   "partId": 423375
+  },
+  {
+   "partNumber": 127,
+   "partName": "PRIMARY SCHOOL CHIPIYANA BUJURG K. NO-04",
+   "partId": 423376
+  },
+  {
+   "partNumber": 128,
+   "partName": "PRIMARY SCHOOL CHIPIYANA BUJURG K. NO-05",
+   "partId": 423377
+  },
+  {
+   "partNumber": 129,
+   "partName": "PRIMARY SCHOOL CHIPIYANA BUJURG K. NO-06",
+   "partId": 423378
+  },
+  {
+   "partNumber": 130,
+   "partName": "DOLPHIN PUBLIC SCHOOL CHIPIYANA BUJURG R NO-01",
+   "partId": 423379
+  },
+  {
+   "partNumber": 131,
+   "partName": "DOLPHIN PUBLIC SCHOOL CHIPIYANA BUJURG R NO-02",
+   "partId": 423380
+  },
+  {
+   "partNumber": 132,
+   "partName": "DOLPHIN PUBLIC SCHOOL CHIPIYANA BUJURG R NO-03",
+   "partId": 423381
+  },
+  {
+   "partNumber": 133,
+   "partName": "DOLPHIN PUBLIC SCHOOL CHIPIYANA BUJURG R NO-04",
+   "partId": 423382
+  },
+  {
+   "partNumber": 134,
+   "partName": "DOLPHIN PUBLIC SCHOOL CHIPIYANA BUJURG R NO-05",
+   "partId": 423383
+  },
+  {
+   "partNumber": 135,
+   "partName": "DOLPHIN PUBLIC SCHOOL CHIPIYANA BUJURG R NO-06",
+   "partId": 423384
+  },
+  {
+   "partNumber": 136,
+   "partName": "VIDYUT TRAINING CENTER RAILWAY FHATAK CHIPIYANA BUJURG R NO 1",
+   "partId": 423385
+  },
+  {
+   "partNumber": 137,
+   "partName": "VIDYUT TRAINING CENTER RAILWAY FHATAK CHIPIYANA BUJURG R NO 2",
+   "partId": 423386
+  },
+  {
+   "partNumber": 138,
+   "partName": "CLUBHOUSE AJNARA HOMES SECTOR 16B R.N. 01",
+   "partId": 423387
+  },
+  {
+   "partNumber": 139,
+   "partName": "CLUBHOUSE AJNARA HOMES SECTOR 16B  R.N. 02",
+   "partId": 423989
+  },
+  {
+   "partNumber": 140,
+   "partName": "JANTA INTER COLLEGE ROZA YAKUBPUR R.N. 01",
+   "partId": 423388
+  },
+  {
+   "partNumber": 141,
+   "partName": "JANTA INTER COLLEGE ROZA YAKUBPUR R.N. 02",
+   "partId": 423389
+  },
+  {
+   "partNumber": 142,
+   "partName": "JANTA INTER COLLEGE ROZA YAKUBPUR R.N. 03",
+   "partId": 423390
+  },
+  {
+   "partNumber": 143,
+   "partName": "JANTA INTER COLLEGE ROZA YAKUBPUR R.N. 04",
+   "partId": 423391
+  },
+  {
+   "partNumber": 144,
+   "partName": "JANTA INTER COLLEGE ROZA YAKUBPUR R.N. 05",
+   "partId": 424014
+  },
+  {
+   "partNumber": 145,
+   "partName": "PRIMARY SCHOOL ROZA JALALPUR R.NO. 1",
+   "partId": 423392
+  },
+  {
+   "partNumber": 146,
+   "partName": "PRIMARY SCHOOL ROZA JALALPUR R.NO.2",
+   "partId": 423393
+  },
+  {
+   "partNumber": 147,
+   "partName": "PRIMARY SCHOOL ROZA JALALPUR R.NO.3",
+   "partId": 423394
+  },
+  {
+   "partNumber": 148,
+   "partName": "PRIMARY SCHOOL ROZA JALALPUR R.NO.4",
+   "partId": 423395
+  },
+  {
+   "partNumber": 149,
+   "partName": "PRIMARY SCHOOL ROZA JALALPUR R.NO.5",
+   "partId": 423396
+  },
+  {
+   "partNumber": 150,
+   "partName": "PRIMARY SCHOOL ROZA JALALPUR R.NO.6",
+   "partId": 423397
+  },
+  {
+   "partNumber": 151,
+   "partName": "PRIMARY SCHOOL PATWARI R.N. 1",
+   "partId": 423398
+  },
+  {
+   "partNumber": 152,
+   "partName": "PRIMARY SCHOOL PATWARI R.N. 2",
+   "partId": 423399
+  },
+  {
+   "partNumber": 153,
+   "partName": "PRIMARY SCHOOL PATWARI R.N. 3",
+   "partId": 423400
+  },
+  {
+   "partNumber": 154,
+   "partName": "PRIMARY SCHOOL MILAK LACHCHHI R.N. 1",
+   "partId": 423401
+  },
+  {
+   "partNumber": 155,
+   "partName": "PRIMARY SCHOOL MILAK LACHCHHI R.N. 2",
+   "partId": 423402
+  },
+  {
+   "partNumber": 156,
+   "partName": "SUPERTECH ECOVILLAGE-1 CLUBHOUSE R.N. 01",
+   "partId": 423403
+  },
+  {
+   "partNumber": 157,
+   "partName": "SUPERTECH ECOVILLAGE-1 CLUBHOUSE R.N. 02",
+   "partId": 423962
+  },
+  {
+   "partNumber": 158,
+   "partName": "SUPERTECH ECOVILLAGE-1 CLUBHOUSE R.N. 03",
+   "partId": 423404
+  },
+  {
+   "partNumber": 159,
+   "partName": "SUPERTECH ECOVILLAGE-1 CLUBHOUSE R.N. 04",
+   "partId": 424015
+  },
+  {
+   "partNumber": 160,
+   "partName": "TRIDENT EMBASSY CLUBHOUSE R.N. 01",
+   "partId": 423405
+  },
+  {
+   "partNumber": 161,
+   "partName": "TRIDENT EMBASSY CLUBHOUSE R.N. 02",
+   "partId": 424016
+  },
+  {
+   "partNumber": 162,
+   "partName": "CLUBHOUSE DEVIKA GOLD HOMZ SECTOR 1  R.N. 01",
+   "partId": 423406
+  },
+  {
+   "partNumber": 163,
+   "partName": "CLUBHOUSE ARIHANT ARDEN SECTOR-1 R.N. 01",
+   "partId": 423407
+  },
+  {
+   "partNumber": 164,
+   "partName": "CLUBHOUSE ARIHANT ARDEN SECTOR 1 R.N. 02",
+   "partId": 423990
+  },
+  {
+   "partNumber": 165,
+   "partName": "APEX GOLF AVENUE CLUB SECTOR-1 R.NO. 1",
+   "partId": 423408
+  },
+  {
+   "partNumber": 166,
+   "partName": "CRC SUBLIMIS CLUB GREATER NOIDA R N 1",
+   "partId": 423991
+  },
+  {
+   "partNumber": 167,
+   "partName": "CLUBHOUSE PANCHSHEEL HYNISH SECTOR-1 R.N. 01",
+   "partId": 423409
+  },
+  {
+   "partNumber": 168,
+   "partName": "ST. JOHN'S SCHOOL H.S.1 SECTOR-2 R.NO. 1",
+   "partId": 423410
+  },
+  {
+   "partNumber": 169,
+   "partName": "ST. JOHN'S SCHOOL H.S.1 SECTOR-2 R.N.2",
+   "partId": 423411
+  },
+  {
+   "partNumber": 170,
+   "partName": "ST JOHNS SCHOOL H.S.1 SECTOR-2 R.N.03",
+   "partId": 424017
+  },
+  {
+   "partNumber": 171,
+   "partName": "ST JOHNS SCHOOL H.S.1 SECTOR-2 R.N.04",
+   "partId": 424018
+  },
+  {
+   "partNumber": 172,
+   "partName": "HAWELIA VALENCIA HOMES CLUBHOUSE R.N. 01",
+   "partId": 423412
+  },
+  {
+   "partNumber": 173,
+   "partName": "DELHI WORLD PUBLIC SCHOOL GREATER NOIDA WEST R.NO. 1",
+   "partId": 423413
+  },
+  {
+   "partNumber": 174,
+   "partName": "DELHI WORLD PUBLIC SCHOOL GREATER NOIDA WEST R.NO. 2",
+   "partId": 423992
+  },
+  {
+   "partNumber": 175,
+   "partName": "DELHI WORLD PUBLIC SCHOOL GREATER NOIDA WEST R.NO. 3",
+   "partId": 423414
+  },
+  {
+   "partNumber": 176,
+   "partName": "DELHI WORLD PUBLIC SCHOOL GREATER NOIDA WEST R.NO. 4",
+   "partId": 423415
+  },
+  {
+   "partNumber": 177,
+   "partName": "CLUBHOUSE ARIHANT AMBAR SECTOR-1 R.N. 1",
+   "partId": 424019
+  },
+  {
+   "partNumber": 178,
+   "partName": "THE LITTLE ENGINES PRE-SCHOOL ACE CITY  R.N. 01",
+   "partId": 423416
+  },
+  {
+   "partNumber": 179,
+   "partName": "THE LITTLE ENGINES PRE-SCHOOL ACE CITY R.N. 02",
+   "partId": 423963
+  },
+  {
+   "partNumber": 180,
+   "partName": "THE LITTLE ENGINES PRE-SCHOOL ACE CITY R.N. 03",
+   "partId": 423417
+  },
+  {
+   "partNumber": 181,
+   "partName": "PARAMOUNT EMOTIONS CLUBHOUSE R.N. 01",
+   "partId": 423418
+  },
+  {
+   "partNumber": 182,
+   "partName": "PARAMOUNT EMOTIONS CLUBHOUSE R.N. 02",
+   "partId": 423419
+  },
+  {
+   "partNumber": 183,
+   "partName": "JUNIOR HIGH SCHOOL, BISRAKH JALALPUR R.N. 1",
+   "partId": 423420
+  },
+  {
+   "partNumber": 184,
+   "partName": "JUNIOR HIGH SCHOOL, BISRAKH JALALPUR R.N. 2",
+   "partId": 423421
+  },
+  {
+   "partNumber": 185,
+   "partName": "JUNIOR HIGH SCHOOL, BISRAKH JALALPUR R.N. 3",
+   "partId": 423422
+  },
+  {
+   "partNumber": 186,
+   "partName": "JUNIOR HIGH SCHOOL, BISRAKH JALALPUR R.N. 4",
+   "partId": 423423
+  },
+  {
+   "partNumber": 187,
+   "partName": "JUNIOR HIGH SCHOOL, BISRAKH JALALPUR R.N. 5",
+   "partId": 423424
+  },
+  {
+   "partNumber": 188,
+   "partName": "PRIMARY SCHOOL KHAIRPUR GURJAR R.N. 1",
+   "partId": 423425
+  },
+  {
+   "partNumber": 189,
+   "partName": "PRIMARY SCHOOL KHAIRPUR GURJAR R.N. 2",
+   "partId": 423426
+  },
+  {
+   "partNumber": 190,
+   "partName": "PRIMARY SCHOOL KHAIRPUR GURJAR R.N. 3",
+   "partId": 423427
+  },
+  {
+   "partNumber": 191,
+   "partName": "PRIMARY SCHOOL AIMNABAD R.N. 1",
+   "partId": 423428
+  },
+  {
+   "partNumber": 192,
+   "partName": "CLUBHOUSE ACE DIVINO SECTOR-1 R.N. 1",
+   "partId": 424020
+  },
+  {
+   "partNumber": 193,
+   "partName": "PRIMARY SCHOOL KHERA CHAUGANPUR R.N. 1",
+   "partId": 423429
+  },
+  {
+   "partNumber": 194,
+   "partName": "PRIMARY SCHOOL KHERA CHAUGANPUR R.N. 2",
+   "partId": 423430
+  },
+  {
+   "partNumber": 195,
+   "partName": "PRIMARY SCHOOL TUSYANA K NO-1",
+   "partId": 423431
+  },
+  {
+   "partNumber": 196,
+   "partName": "PRIMARY SCHOOL TUSYANA K NO-2",
+   "partId": 423432
+  },
+  {
+   "partNumber": 197,
+   "partName": "PRIMARY SCHOOL KHODNA KALAN R.N.1",
+   "partId": 423433
+  },
+  {
+   "partNumber": 198,
+   "partName": "PRIMARY SCHOOL KHODNA KALAN R.N.2",
+   "partId": 423964
+  },
+  {
+   "partNumber": 199,
+   "partName": "PRIMARY SCHOOL SHYORAJPUR R.N. 1",
+   "partId": 423434
+  },
+  {
+   "partNumber": 200,
+   "partName": "PRIMARY SCHOOL SHYORAJPUR R.N. 2",
+   "partId": 423965
+  },
+  {
+   "partNumber": 201,
+   "partName": "PRIMARY SCHOOL KHODNA KHURD R.N. 1",
+   "partId": 423435
+  },
+  {
+   "partNumber": 202,
+   "partName": "PRIMARY SCHOOL KHODNA KHURD R.N. 2",
+   "partId": 423436
+  },
+  {
+   "partNumber": 203,
+   "partName": "PRIMARY SCHOOL KHODNA KHURD R.N. 3",
+   "partId": 423437
+  },
+  {
+   "partNumber": 204,
+   "partName": "PRIMARY SCHOOL KHODNA KHURD R N 4",
+   "partId": 423966
+  },
+  {
+   "partNumber": 205,
+   "partName": "PRIMARY SCHOOL KHODNA KHURD R.N. 5",
+   "partId": 423438
+  },
+  {
+   "partNumber": 206,
+   "partName": "SUBHASH CHANDRA BOSE INTER COLLEGE KHERI BHANAUTA R.N. 1",
+   "partId": 423439
+  },
+  {
+   "partNumber": 207,
+   "partName": "SUBHASH CHANDRA BOSE INTER COLLEGE KHERI BHANAUTA R.N. 2",
+   "partId": 423440
+  },
+  {
+   "partNumber": 208,
+   "partName": "SUBHASH CHANDRA BOSE INTER COLLEGE KHERI BHANAUTA R.N. 3",
+   "partId": 423441
+  },
+  {
+   "partNumber": 209,
+   "partName": "SUBHASH CHANDRA BOSE INTER COLLEGE KHERI BHANAUTA R.N. 4",
+   "partId": 423442
+  },
+  {
+   "partNumber": 210,
+   "partName": "SUBHASH CHANDRA BOSE INTER COLLEGE KHERI BHANAUTA R.N. 5",
+   "partId": 424021
+  },
+  {
+   "partNumber": 211,
+   "partName": "PRIMARY SCHOOL BHOLA RAWAL R.N. 1",
+   "partId": 423443
+  },
+  {
+   "partNumber": 212,
+   "partName": "PRIMARY SCHOOL BHOLA RAWAL R.N. 2",
+   "partId": 423444
+  },
+  {
+   "partNumber": 213,
+   "partName": "UCHCH PRATHMIK VIDYALYA SUNPURA R.N. 1",
+   "partId": 423445
+  },
+  {
+   "partNumber": 214,
+   "partName": "UCHCH PRATHMIK VIDYALYA SUNPURA R.N.2",
+   "partId": 424022
+  },
+  {
+   "partNumber": 215,
+   "partName": "PRIMARY SCHOOL SAINI R.N. 1",
+   "partId": 423446
+  },
+  {
+   "partNumber": 216,
+   "partName": "PRIMARY SCHOOL SAINI R.N. 2",
+   "partId": 423447
+  },
+  {
+   "partNumber": 217,
+   "partName": "PRIMARY SCHOOL SAINI R.N. 3",
+   "partId": 423448
+  },
+  {
+   "partNumber": 218,
+   "partName": "G D GOENKA INTERNATIONAL SCHOOL GREATER NOIDA R.N. 1",
+   "partId": 423449
+  },
+  {
+   "partNumber": 219,
+   "partName": "G D GOENKA INTERNATIONAL SCHOOL GREATER NOIDA R.N.2",
+   "partId": 423967
+  },
+  {
+   "partNumber": 220,
+   "partName": "CLUBHOUSE ATS HOMEKRAFT HAPPY TRAILS SECTOR-10 R.N.1",
+   "partId": 424023
+  },
+  {
+   "partNumber": 221,
+   "partName": "JUNIOR HIGH SCHOOL VAIDPURA R.N. 1",
+   "partId": 423450
+  },
+  {
+   "partNumber": 222,
+   "partName": "JUNIOR HIGH SCHOOL VAIDPURA R.N. 2",
+   "partId": 423451
+  },
+  {
+   "partNumber": 223,
+   "partName": "JUNIOR HIGH SCHOOL VAIDPURA R.N. 3",
+   "partId": 423452
+  },
+  {
+   "partNumber": 224,
+   "partName": "PRIMARY SCHOOL SADULLAPUR R.N. 1",
+   "partId": 423453
+  },
+  {
+   "partNumber": 225,
+   "partName": "PRIMARY SCHOOL SADULLAPUR R.N. 2",
+   "partId": 423454
+  },
+  {
+   "partNumber": 226,
+   "partName": "PRIMARY SCHOOL SADULLAPUR R.N. 3",
+   "partId": 423455
+  },
+  {
+   "partNumber": 227,
+   "partName": "PRIMARY SCHOOL SADULLAPUR R.N. 4",
+   "partId": 423456
+  },
+  {
+   "partNumber": 228,
+   "partName": "PRIMARY SCHOOL SADAUPUR R.N. 1",
+   "partId": 423457
+  },
+  {
+   "partNumber": 229,
+   "partName": "PRIMARY SCHOOL SADAUPUR R.N. 2",
+   "partId": 423458
+  },
+  {
+   "partNumber": 230,
+   "partName": "PRIMARY SCHOOL SADAUPUR R.N. 3",
+   "partId": 423459
+  },
+  {
+   "partNumber": 231,
+   "partName": "PRIMARY SCHOOL JONSAMANA R.N. 1",
+   "partId": 423460
+  },
+  {
+   "partNumber": 232,
+   "partName": "PRIMARY SCHOOL JONSAMANA R.N. 2",
+   "partId": 424024
+  },
+  {
+   "partNumber": 233,
+   "partName": "PRIMARY SCHOOL IBADULLAPUR URF BADALPUR R.N. 1",
+   "partId": 423461
+  },
+  {
+   "partNumber": 234,
+   "partName": "PRIMARY SCHOOL IBADULLAPUR URF BADALPUR R.N. 2",
+   "partId": 423462
+  },
+  {
+   "partNumber": 235,
+   "partName": "PRIMARY SCHOOL IBADULLAPUR URF BADALPUR R.N. 3",
+   "partId": 423463
+  },
+  {
+   "partNumber": 236,
+   "partName": "PRIMARY SCHOOL ACHCHHEJA R.N. 1",
+   "partId": 423464
+  },
+  {
+   "partNumber": 237,
+   "partName": "PRIMARY SCHOOL ACHCHHEJA R.N. 2",
+   "partId": 423465
+  },
+  {
+   "partNumber": 238,
+   "partName": "PRIMARY SCHOOL ACHCHHEJA R.N. 3",
+   "partId": 423993
+  },
+  {
+   "partNumber": 239,
+   "partName": "PRIMARY SCHOOL ACHCHHEJA R.N. 4",
+   "partId": 423466
+  },
+  {
+   "partNumber": 240,
+   "partName": "PRIMARY SCHOOL ACHCHHEJA R.N. 5",
+   "partId": 423467
+  },
+  {
+   "partNumber": 241,
+   "partName": "S. R. S. INTER COLLEGE KHERA DHARMPURA R.N. 01",
+   "partId": 423468
+  },
+  {
+   "partNumber": 242,
+   "partName": "S. R. S. INTER COLLEGE KHERA DHARMPURA R.N. 02",
+   "partId": 423469
+  },
+  {
+   "partNumber": 243,
+   "partName": "S.R.S INTER COLLEGE KHERA DHARAMPURA R.N.03",
+   "partId": 424025
+  },
+  {
+   "partNumber": 244,
+   "partName": "PRIMARY SCHOOL CHHAPRAULA R.N.01",
+   "partId": 423470
+  },
+  {
+   "partNumber": 245,
+   "partName": "PRIMARY SCHOOL CHHAPRAULA R.N. 02",
+   "partId": 423471
+  },
+  {
+   "partNumber": 246,
+   "partName": "PRIMARY SCHOOL CHHAPRAULA R.N. 03",
+   "partId": 423472
+  },
+  {
+   "partNumber": 247,
+   "partName": "PRIMARY SCHOOL CHHAPRAULA R.N. 04",
+   "partId": 423473
+  },
+  {
+   "partNumber": 248,
+   "partName": "PRIMARY SCHOOL CHHAPRAULA R.N. 5",
+   "partId": 424026
+  },
+  {
+   "partNumber": 249,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 1",
+   "partId": 423474
+  },
+  {
+   "partNumber": 250,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 2",
+   "partId": 423475
+  },
+  {
+   "partNumber": 251,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 3",
+   "partId": 423476
+  },
+  {
+   "partNumber": 252,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 4",
+   "partId": 423477
+  },
+  {
+   "partNumber": 253,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 5",
+   "partId": 423478
+  },
+  {
+   "partNumber": 254,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 6",
+   "partId": 423479
+  },
+  {
+   "partNumber": 255,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 7",
+   "partId": 423480
+  },
+  {
+   "partNumber": 256,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 8",
+   "partId": 423481
+  },
+  {
+   "partNumber": 257,
+   "partName": "ISHWAR CHAND INTER COLLEGE, CHAPRAULA R.N. 9",
+   "partId": 423482
+  },
+  {
+   "partNumber": 258,
+   "partName": "AMANDEEP INTERNATIONAL SCHOOL CHHAPRAULA R.N. 1",
+   "partId": 423483
+  },
+  {
+   "partNumber": 259,
+   "partName": "AMANDEEP INTERNATIONAL SCHOOL CHHAPRAULA R.N. 2",
+   "partId": 423484
+  },
+  {
+   "partNumber": 260,
+   "partName": "AMANDEEP INTERNATIONAL SCHOOL CHHAPRAULA R.N. 3",
+   "partId": 423485
+  },
+  {
+   "partNumber": 261,
+   "partName": "AMANDEEP INTERNATIONAL SCHOOL CHHAPRAULA R.N. 4",
+   "partId": 424027
+  },
+  {
+   "partNumber": 262,
+   "partName": "PARSANDI DEVI JUNIOR HIGH SCHOOL CHHAPRAULA R.N. 1",
+   "partId": 423486
+  },
+  {
+   "partNumber": 263,
+   "partName": "PARSANDI DEVI JUNIOR HIGH SCHOOL CHHAPRAULA R.N. 2",
+   "partId": 423487
+  },
+  {
+   "partNumber": 264,
+   "partName": "PARSANDI DEVI JUNIOR HIGH SCHOOL CHHAPRAULA R.N. 3",
+   "partId": 423488
+  },
+  {
+   "partNumber": 265,
+   "partName": "PARSANDI DEVI JUNIOR HIGH SCHOOL CHHAPRAULA R.N. 4",
+   "partId": 423489
+  },
+  {
+   "partNumber": 266,
+   "partName": "PARSANDI DEVI JUNIOR HIGH SCHOOL CHHAPRAULA R.N. 5",
+   "partId": 424028
+  },
+  {
+   "partNumber": 267,
+   "partName": "UCHCH PRATHMIK VIDYALAYA GIRDHARPUR SUNARSI R.N. 1",
+   "partId": 423490
+  },
+  {
+   "partNumber": 268,
+   "partName": "UCHCH PRATHMIK VIDYALAYA GIRDHARPUR SUNARSI R.N. 2",
+   "partId": 423491
+  },
+  {
+   "partNumber": 269,
+   "partName": "UCHCH PRATHMIK VIDYALAYA GIRDHARPUR SUNARSI R.N. 3",
+   "partId": 423492
+  },
+  {
+   "partNumber": 270,
+   "partName": "UCHCH PRATHMIK VIDYALAYA GIRDHARPUR SUNARSI R.N. 4",
+   "partId": 424029
+  },
+  {
+   "partNumber": 271,
+   "partName": "PRIMARY SCHOOL DURIYAI R.N. 1",
+   "partId": 423493
+  },
+  {
+   "partNumber": 272,
+   "partName": "PRIMARY SCHOOL DURIYAI R.N. 2",
+   "partId": 423494
+  },
+  {
+   "partNumber": 273,
+   "partName": "PRIMARY SCHOOL DURIYAI R.N. 3",
+   "partId": 424030
+  },
+  {
+   "partNumber": 274,
+   "partName": "PRIMARY SCHOOL TALABPUR URF HATHIPUR R.N. 1",
+   "partId": 423495
+  },
+  {
+   "partNumber": 275,
+   "partName": "PRIMARY SCHOOL KACHAIRA WARSABAD R.N. 1",
+   "partId": 423496
+  },
+  {
+   "partNumber": 276,
+   "partName": "PRIMARY SCHOOL KACHAIRA WARSABAD R.N. 2",
+   "partId": 423497
+  },
+  {
+   "partNumber": 277,
+   "partName": "PRIMARY SCHOOL KACHAIRA WARSABAD R.N. 3",
+   "partId": 423498
+  },
+  {
+   "partNumber": 278,
+   "partName": "PRIMARY SCHOOL KACHAIRA WARSABAD R.N. 4",
+   "partId": 423499
+  },
+  {
+   "partNumber": 279,
+   "partName": "PRIMARY SCHOOL SHADIPUR CHHIDOLI R.N. 1",
+   "partId": 423500
+  },
+  {
+   "partNumber": 280,
+   "partName": "PRIMARY SCHOOL SHADIPUR CHHIDOLI R.N. 2",
+   "partId": 423501
+  },
+  {
+   "partNumber": 281,
+   "partName": "PRIMARY SCHOOL ISLAMABAD KALDA R.N. 1",
+   "partId": 423502
+  },
+  {
+   "partNumber": 282,
+   "partName": "GANDHI SMARAK INTER COLLEGE, DUJANA R.N. 1",
+   "partId": 423503
+  },
+  {
+   "partNumber": 283,
+   "partName": "GANDHI SMARAK INTER COLLEGE. DUJANA R.N. 2",
+   "partId": 423504
+  },
+  {
+   "partNumber": 284,
+   "partName": "GANDHI SMARAK INTER COLLEGE DUJANA R.N. 3",
+   "partId": 423505
+  },
+  {
+   "partNumber": 285,
+   "partName": "GANDHI SMARAK INTER COLLEGE DUJANA R.N. 4",
+   "partId": 423506
+  },
+  {
+   "partNumber": 286,
+   "partName": "GANDHI SMARAK INTER COLLEGE DUJANA R.N. 5",
+   "partId": 423507
+  },
+  {
+   "partNumber": 287,
+   "partName": "GANDHI SMARAK INTER COLLEGE DUJANA R.N. 6",
+   "partId": 424031
+  },
+  {
+   "partNumber": 288,
+   "partName": "PRIMARY SCHOOL DUJANA R. NO. 1",
+   "partId": 423508
+  },
+  {
+   "partNumber": 289,
+   "partName": "PRIMARY SCHOOL DUJANA R. NO. 2",
+   "partId": 423509
+  },
+  {
+   "partNumber": 290,
+   "partName": "JUNIOR HIGH SCHOOL VISHNULI R.NO.1",
+   "partId": 423510
+  },
+  {
+   "partNumber": 291,
+   "partName": "JUNIOR HIGH SCHOOL VISHNULI R.N. 2",
+   "partId": 423511
+  },
+  {
+   "partNumber": 292,
+   "partName": "JUNIOR HIGH SCHOOL VISHNULI R.N. 3",
+   "partId": 423512
+  },
+  {
+   "partNumber": 293,
+   "partName": "PRIMARY SCHOOL MAHAWAR R. NO. 1",
+   "partId": 423513
+  },
+  {
+   "partNumber": 294,
+   "partName": "PRIMARY SCHOOL MAHAWAR R. NO. 2",
+   "partId": 423514
+  },
+  {
+   "partNumber": 295,
+   "partName": "SHRI DAYANAND INTER COLLEGE BAMBAWAR R.N. 1",
+   "partId": 423515
+  },
+  {
+   "partNumber": 296,
+   "partName": "SHRI DAYANAND INTER COLLEGE BAMBAWAR R.N. 2",
+   "partId": 423516
+  },
+  {
+   "partNumber": 297,
+   "partName": "SHRI DAYANAND INTER COLLEGE. BAMBAWAR R.N. 3",
+   "partId": 423517
+  },
+  {
+   "partNumber": 298,
+   "partName": "SHRI DAYANAND INTER COLLEGE BAMBAWAR R.N. 4",
+   "partId": 424032
+  },
+  {
+   "partNumber": 299,
+   "partName": "PRIMARY SCHOOL KURI KHERA R.N. 1",
+   "partId": 423518
+  },
+  {
+   "partNumber": 300,
+   "partName": "PRIMARY SCHOOL KURI KHERA R.N. 2",
+   "partId": 423519
+  },
+  {
+   "partNumber": 301,
+   "partName": "PRIMARY SCHOOL. JAITWARPUR R.N. 1",
+   "partId": 423520
+  },
+  {
+   "partNumber": 302,
+   "partName": "PRIMARY SCHOOL JAITWARPUR R.N. 2",
+   "partId": 423521
+  },
+  {
+   "partNumber": 303,
+   "partName": "PRIMARY SCHOOL AKILPUR JAGIR R.N. 1",
+   "partId": 423522
+  },
+  {
+   "partNumber": 304,
+   "partName": "PRIMARY SCHOOL AKILPUR JAGIR R.N. 2",
+   "partId": 424033
+  },
+  {
+   "partNumber": 305,
+   "partName": "KANYA PATHSHALA PYAWALI TAJPUR R.N. 1",
+   "partId": 423523
+  },
+  {
+   "partNumber": 306,
+   "partName": "KANYA PATHSHALA PYAWALI TAJPUR R.N. 2",
+   "partId": 423524
+  },
+  {
+   "partNumber": 307,
+   "partName": "KANYA PATHSHALA  PYAWALI TAJPUR R.N. 3",
+   "partId": 423525
+  },
+  {
+   "partNumber": 308,
+   "partName": "PRIMARY SCHOOL DHOKALPURA R.N. 1",
+   "partId": 423526
+  },
+  {
+   "partNumber": 309,
+   "partName": "PRIMARY SCHOOL RASULPUR DASNA R.N. 1",
+   "partId": 423527
+  },
+  {
+   "partNumber": 310,
+   "partName": "PRIMARY SCHOOL. RASULPUR DASNA R.N. 2",
+   "partId": 423528
+  },
+  {
+   "partNumber": 311,
+   "partName": "PRIMARY SCHOOL SIDIPUR R.N. 1",
+   "partId": 423529
+  },
+  {
+   "partNumber": 312,
+   "partName": "PRIMARY SCHOOL SIDIPUR R.N. 2",
+   "partId": 424034
+  },
+  {
+   "partNumber": 313,
+   "partName": "KENDRIYA VIDHYALAYA N. T. P. C. R.N. 1",
+   "partId": 423530
+  },
+  {
+   "partNumber": 314,
+   "partName": "KENDRIYA VIDHYALAYA N. T. P. C. R.N. 2",
+   "partId": 423531
+  },
+  {
+   "partNumber": 315,
+   "partName": "KENDRIYA VIDHYALAYA N. T. P. C. R.N. 3",
+   "partId": 423532
+  },
+  {
+   "partNumber": 316,
+   "partName": "KENDRIYA VIDHYALAYA N. T. P. C. R.N. 4",
+   "partId": 423533
+  },
+  {
+   "partNumber": 317,
+   "partName": "PRIMARY SCHOOL KHANGAURA R.N. 1",
+   "partId": 423534
+  },
+  {
+   "partNumber": 318,
+   "partName": "PRIMARY SCHOOL KHANGAURA R.N. 2",
+   "partId": 423535
+  },
+  {
+   "partNumber": 319,
+   "partName": "PRIMARY SCHOOL UNCHA AMIPUR R.N. 1",
+   "partId": 423536
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRIMARY SCHOOL UNCHA AMIPUR R.N. 2",
+   "partId": 423537
+  },
+  {
+   "partNumber": 321,
+   "partName": "PRIMARY SCHOOL TATARPUR R.N. 1",
+   "partId": 423538
+  },
+  {
+   "partNumber": 322,
+   "partName": "PRIMARY SCHOOL TATARPUR R.N. 2",
+   "partId": 424035
+  },
+  {
+   "partNumber": 323,
+   "partName": "UCHCH MADHYAMIK VIDYALAYA, CHAUNA R.N. 1",
+   "partId": 423539
+  },
+  {
+   "partNumber": 324,
+   "partName": "UCHCH MADHYAMIK VIDYALAYA, CHAUNA R.N. 2",
+   "partId": 423540
+  },
+  {
+   "partNumber": 325,
+   "partName": "PRIMARY SCHOOL . PATADI R.N. 1",
+   "partId": 423541
+  },
+  {
+   "partNumber": 326,
+   "partName": "PRIMARY SCHOOL PATADI R.N. 2",
+   "partId": 423542
+  },
+  {
+   "partNumber": 327,
+   "partName": "UCHCH MADHYAMIK VIDYALAYA, SALARPUR KALAN R.N. 1",
+   "partId": 423543
+  },
+  {
+   "partNumber": 328,
+   "partName": "UCHCH MADHYAMIK VIDYALAYA, SALARPUR KALAN R.N. 2",
+   "partId": 423544
+  },
+  {
+   "partNumber": 329,
+   "partName": "UCHCH MADHYMIK VIDYALAYA SALARPUR KALAN R.N. 3",
+   "partId": 424036
+  },
+  {
+   "partNumber": 330,
+   "partName": "RANA SANGRAM SINGH INTER COLLEGE BISAHARA R.N. 1",
+   "partId": 423545
+  },
+  {
+   "partNumber": 331,
+   "partName": "RANA SANGRAM SINGH INTER COLLEGE. BISAHARA R.N. 2",
+   "partId": 423546
+  },
+  {
+   "partNumber": 332,
+   "partName": "RANA SANGRAM SINGH INTER COLLEGE. BISAHARA R.N. 3",
+   "partId": 423547
+  },
+  {
+   "partNumber": 333,
+   "partName": "RANA SANGRAM SINGH INTER COLLEGE BISAHARA R.N. 4",
+   "partId": 423548
+  },
+  {
+   "partNumber": 334,
+   "partName": "RANA SANGRAM SINGH INTER COLLEGE. BISAHARA R.N. 5",
+   "partId": 423549
+  },
+  {
+   "partNumber": 335,
+   "partName": "PRIMARY SCHOOL IRADATPUR URF RAJATPUR R.N. 1",
+   "partId": 423550
+  },
+  {
+   "partNumber": 336,
+   "partName": "PRIMARY SCHOOL DHOOM MANIKPUR R. NO. 1",
+   "partId": 423551
+  },
+  {
+   "partNumber": 337,
+   "partName": "PRIMARY SCHOOL DHOOM MANIKPUR R. NO. 2",
+   "partId": 423552
+  },
+  {
+   "partNumber": 338,
+   "partName": "PRIMARY SCHOOL DHOOM MANIKPUR R. NO. 3",
+   "partId": 423553
+  },
+  {
+   "partNumber": 339,
+   "partName": "JUNIOR HIGH SCHOOL DHOOM MANIKPUR R. NO. 1",
+   "partId": 423554
+  },
+  {
+   "partNumber": 340,
+   "partName": "JUNIOR HIGH SCHOOL DHOOM MANIKPUR R. NO. 2",
+   "partId": 423555
+  },
+  {
+   "partNumber": 341,
+   "partName": "JUNIOR HIGH SCHOOL DHOOM MANIKPUR R. NO. 3",
+   "partId": 423556
+  },
+  {
+   "partNumber": 342,
+   "partName": "PRIMARY SCHOOL DERI MACHCHHA R.N. 1",
+   "partId": 423557
+  },
+  {
+   "partNumber": 343,
+   "partName": "PRIMARY SCHOOL DERI MACHCHHA R.N. 2",
+   "partId": 423558
+  },
+  {
+   "partNumber": 344,
+   "partName": "PRIMARY SCHOOL DERI SKENAR R.N. 1",
+   "partId": 423559
+  },
+  {
+   "partNumber": 345,
+   "partName": "PRIMARY SCHOOL AMKA R.N. 1",
+   "partId": 423560
+  },
+  {
+   "partNumber": 346,
+   "partName": "PRIMARY SCHOOL AMKA R.N. 2",
+   "partId": 424037
+  },
+  {
+   "partNumber": 347,
+   "partName": "PRIMARY SCHOOL ROOPVAS R.N. 1",
+   "partId": 423561
+  },
+  {
+   "partNumber": 348,
+   "partName": "PRIMARY SCHOOL ROOPVAS R.N. 2",
+   "partId": 423562
+  },
+  {
+   "partNumber": 349,
+   "partName": "PRIMARY SCHOOL. KIRANCHPUR URF KAILASHPUR R.N. 1",
+   "partId": 423563
+  },
+  {
+   "partNumber": 350,
+   "partName": "PRIMARY SCHOOL KIRANCHPUR URF KAILASHPUR R.N. 2",
+   "partId": 423564
+  },
+  {
+   "partNumber": 351,
+   "partName": "BHARTIYA ADARSH INTER COLLEGE TILPATA KARANWAS R.N. 1",
+   "partId": 423565
+  },
+  {
+   "partNumber": 352,
+   "partName": "BHARTIYA ADARSH INTER COLLEGE. TILPTA KARANWAS R.N. 2",
+   "partId": 423566
+  },
+  {
+   "partNumber": 353,
+   "partName": "BHARTIYA ADARSH INTER COLLEGE TILPATA KARANWAS R.N. 3",
+   "partId": 423567
+  },
+  {
+   "partNumber": 354,
+   "partName": "BHARTIYA ADARSH INTER COLLEGE TILPATA KARANWAS R.N. 4",
+   "partId": 423568
+  },
+  {
+   "partNumber": 355,
+   "partName": "BHARTIYA ADARSH INTER COLLEGE TILPATA KARANWAS R.N. 5",
+   "partId": 423569
+  },
+  {
+   "partNumber": 356,
+   "partName": "BHARTIYA ADARSH INTER COLLEGE TILPATA KARANWAS R.N. 6",
+   "partId": 423570
+  },
+  {
+   "partNumber": 357,
+   "partName": "BHARTIYA ADARSH INTER COLLEGE TILPATA KARANWAS R.N. 7",
+   "partId": 423571
+  },
+  {
+   "partNumber": 358,
+   "partName": "LOYAL PUBLIC SCHOOL SANTOSH NAGAR COLONY TILAPATA KARANVAS R.N. 1",
+   "partId": 424038
+  },
+  {
+   "partNumber": 359,
+   "partName": "AMBEDKAR SMARAK BHAWAN TILPATA KARANWAS R.N. 1",
+   "partId": 423572
+  },
+  {
+   "partNumber": 360,
+   "partName": "AMBEDKAR SMARAK BHAWAN TILPATA KARANWAS R.N. 2",
+   "partId": 423573
+  },
+  {
+   "partNumber": 361,
+   "partName": "CLUBHOUSE BGH-A PARAMOUNT GOLFFORESTE TILPATA KARANWAS R.N. 1",
+   "partId": 423574
+  },
+  {
+   "partNumber": 362,
+   "partName": "CLUBHOUSE BGH-A PARAMOUNT GOLFFORESTE TILPATA KARANWAS R.N. 2",
+   "partId": 423968
+  },
+  {
+   "partNumber": 363,
+   "partName": "UCHCH PRATHMIK VIDYALAYA BADHPURA R.N. 1",
+   "partId": 423575
+  },
+  {
+   "partNumber": 364,
+   "partName": "UCHCH PRATHMIK VIDYALAYA BADHPURA R.N. 2",
+   "partId": 423576
+  },
+  {
+   "partNumber": 365,
+   "partName": "UCHCH PRATHMIK VIDYALYA BADHPURA R.N. 3",
+   "partId": 423577
+  },
+  {
+   "partNumber": 366,
+   "partName": "UCHCH PRATHMIK VIDYALYA BADHPURA R.N.04",
+   "partId": 424039
+  },
+  {
+   "partNumber": 367,
+   "partName": "SHAIFALI PUBLIC SCHOOL RAILWAY ROAD DADRI R.N. 1",
+   "partId": 423578
+  },
+  {
+   "partNumber": 368,
+   "partName": "SHAIFALI PUBLIC SCHOOL RAILWAY ROAD DADRI R.N. 2",
+   "partId": 423579
+  },
+  {
+   "partNumber": 369,
+   "partName": "SHAIFALI PUBLIC SCHOOL RAILWAY ROAD DADRI R.N. 3",
+   "partId": 423580
+  },
+  {
+   "partNumber": 370,
+   "partName": "SHAIFALI PUBLIC SCHOOL RAILWAY ROAD DADRI R.N. 4",
+   "partId": 423581
+  },
+  {
+   "partNumber": 371,
+   "partName": "SHAIFALI PUBLIC SCHOOL RAILWAY ROAD DADRI R.N. 5",
+   "partId": 424040
+  },
+  {
+   "partNumber": 372,
+   "partName": "HOLI CHILD ACADEMY RAILWAY ROAD DADRI R.NO 1",
+   "partId": 423582
+  },
+  {
+   "partNumber": 373,
+   "partName": "HOLI CHILD ACADEMY RAILWAY ROAD DADRI R.NO 2",
+   "partId": 423583
+  },
+  {
+   "partNumber": 374,
+   "partName": "HOLI CHILD ACADEMY RAILWAY ROAD DADRI R.NO 3",
+   "partId": 423584
+  },
+  {
+   "partNumber": 375,
+   "partName": "SARSWATI SHISHU MANDIR RAILWAY ROAD DADRI R.N. 1",
+   "partId": 423585
+  },
+  {
+   "partNumber": 376,
+   "partName": "SARSWATI SHISHU MANDIR RAILWAY ROAD DADRI R.N. 2",
+   "partId": 423586
+  },
+  {
+   "partNumber": 377,
+   "partName": "SARSWATI SHISHU MANDIR RAILWAY ROAD DADRI R.N. 3",
+   "partId": 423587
+  },
+  {
+   "partNumber": 378,
+   "partName": "SARSWATI SHISHU MANDIR RAILWAY ROAD DADRI R.N. 4",
+   "partId": 423588
+  },
+  {
+   "partNumber": 379,
+   "partName": "AMBEDKAR BHAWAN GAUTAMPURI DADRI R.N.1",
+   "partId": 423589
+  },
+  {
+   "partNumber": 380,
+   "partName": "AMBEDKAR BHAWAN GAUTAMPURI DADRI R.N.2",
+   "partId": 423590
+  },
+  {
+   "partNumber": 381,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 1",
+   "partId": 423591
+  },
+  {
+   "partNumber": 382,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 2",
+   "partId": 423592
+  },
+  {
+   "partNumber": 383,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 3",
+   "partId": 423593
+  },
+  {
+   "partNumber": 384,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 4",
+   "partId": 423594
+  },
+  {
+   "partNumber": 385,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 5",
+   "partId": 423595
+  },
+  {
+   "partNumber": 386,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 6",
+   "partId": 423994
+  },
+  {
+   "partNumber": 387,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 7",
+   "partId": 423596
+  },
+  {
+   "partNumber": 388,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 8",
+   "partId": 423597
+  },
+  {
+   "partNumber": 389,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 9",
+   "partId": 423598
+  },
+  {
+   "partNumber": 390,
+   "partName": "MIHIR BHOJ INTER COLLEGE DADRI R.N. 10",
+   "partId": 424041
+  },
+  {
+   "partNumber": 391,
+   "partName": "DAYAWATI MEMORIAL INTER COLLEGE DADRI R.N. 1",
+   "partId": 423599
+  },
+  {
+   "partNumber": 392,
+   "partName": "DAYAWATI MEMORIAL INTER COLLEGE DADRI R.N. 2",
+   "partId": 423600
+  },
+  {
+   "partNumber": 393,
+   "partName": "DAYAWATI MEMORIAL INTER COLLEGE DADRI R.N. 3",
+   "partId": 423601
+  },
+  {
+   "partNumber": 394,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 1",
+   "partId": 423602
+  },
+  {
+   "partNumber": 395,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 2",
+   "partId": 423603
+  },
+  {
+   "partNumber": 396,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 3",
+   "partId": 423604
+  },
+  {
+   "partNumber": 397,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 4",
+   "partId": 423605
+  },
+  {
+   "partNumber": 398,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 5",
+   "partId": 423606
+  },
+  {
+   "partNumber": 399,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 6",
+   "partId": 423607
+  },
+  {
+   "partNumber": 400,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 7",
+   "partId": 423608
+  },
+  {
+   "partNumber": 401,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 8",
+   "partId": 423609
+  },
+  {
+   "partNumber": 402,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 9",
+   "partId": 423610
+  },
+  {
+   "partNumber": 403,
+   "partName": "AGRASEN ADARSH INTER COLLEGE DADRI R.N. 10",
+   "partId": 424042
+  },
+  {
+   "partNumber": 404,
+   "partName": "VAIDIK KANYA INTER COLLEGE DADRI R.N. 1",
+   "partId": 423611
+  },
+  {
+   "partNumber": 405,
+   "partName": "VAIDIK KANYA INTER COLLEGE. DADRI R.N. 2",
+   "partId": 423612
+  },
+  {
+   "partNumber": 406,
+   "partName": "VAIDIK KANYA INTER COLLEGE. DADRI R.N. 3",
+   "partId": 423613
+  },
+  {
+   "partNumber": 407,
+   "partName": "VAIDIK KANYA INTER COLLEGE. DADRI R.N. 4",
+   "partId": 423614
+  },
+  {
+   "partNumber": 408,
+   "partName": "VAIDIK KANYA INTER COLLEGE. DADRI R.N. 5",
+   "partId": 423615
+  },
+  {
+   "partNumber": 409,
+   "partName": "VAIDIK KANYA INTER COLLEGE. DADRI R.N. 6",
+   "partId": 423616
+  },
+  {
+   "partNumber": 410,
+   "partName": "VAIDIK KANYA INTER COLLEGE. DADRI R.N. 7",
+   "partId": 423617
+  },
+  {
+   "partNumber": 411,
+   "partName": "MIHIR BHOJ BALIKA INTER COLLEGE DADRI R.N. 1",
+   "partId": 423618
+  },
+  {
+   "partNumber": 412,
+   "partName": "MIHIR BHOJ BALIKA INTER COLLEGE DADRI R.N. 2",
+   "partId": 423619
+  },
+  {
+   "partNumber": 413,
+   "partName": "MIHIR BHOJ BALIKA INTER COLLEGE DADRI R.N. 3",
+   "partId": 423620
+  },
+  {
+   "partNumber": 414,
+   "partName": "MIHIR BHOJ BALIKA INTER COLLEGE DADRI R.N. 4",
+   "partId": 423621
+  },
+  {
+   "partNumber": 415,
+   "partName": "MIHIR BHOJ BALIKA INTER COLLEGE DADRI R.N. 5",
+   "partId": 423622
+  },
+  {
+   "partNumber": 416,
+   "partName": "MIHIR BHOJ BALIKA INTER COLLEGE. DADRI R.N. 6",
+   "partId": 423623
+  },
+  {
+   "partNumber": 417,
+   "partName": "MIHIR BHOJ BALIKA INTER COLLEGE. DADRI R.N. 7",
+   "partId": 423624
+  },
+  {
+   "partNumber": 418,
+   "partName": "MIHIR BHOJ BALIKA INTER COLLEGE. DADRI R.N. 8",
+   "partId": 423625
+  },
+  {
+   "partNumber": 419,
+   "partName": "DADRI PUBLIC SCHOOL DADRI R.N. 1",
+   "partId": 423626
+  },
+  {
+   "partNumber": 420,
+   "partName": "DADRI PUBLIC SCHOOL DADRI R.N. 2",
+   "partId": 423627
+  },
+  {
+   "partNumber": 421,
+   "partName": "DADRI PUBLIC SCHOOL DADRI R.N. 3",
+   "partId": 423628
+  },
+  {
+   "partNumber": 422,
+   "partName": "DADRI PUBLIC SCHOOL DADRI R.N. 4",
+   "partId": 423629
+  },
+  {
+   "partNumber": 423,
+   "partName": "DADRI PUBLIC SCHOOL DADRI R.N. 5",
+   "partId": 423630
+  },
+  {
+   "partNumber": 424,
+   "partName": "J. C. INTERNATIONAL SCHOOL PREET VIHAR COLONY DADRI R.N. 1",
+   "partId": 423631
+  },
+  {
+   "partNumber": 425,
+   "partName": "J. C. INTERNATIONAL SCHOOL PREET VIHAR COLONY DADRI R.N. 2",
+   "partId": 423632
+  },
+  {
+   "partNumber": 426,
+   "partName": "J. C. INTERNATIONAL SCHOOL PREET VIHAR COLONY DADRI R.N. 3",
+   "partId": 423633
+  },
+  {
+   "partNumber": 427,
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 1",
+   "partId": 423634
+  },
+  {
+   "partNumber": 428,
+   "partName": "MIHIR BHOJ DEGREE COLLEGE. DADRI R.N. 2",
+   "partId": 423635
+  },
+  {
+   "partNumber": 429,
+   "partName": "MIHIR BHOJ DEGREE COLLEGE. DADRI R.N. 3",
+   "partId": 423636
+  },
+  {
+   "partNumber": 430,
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 4",
+   "partId": 423637
+  },
+  {
+   "partNumber": 431,
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 5",
+   "partId": 423638
+  },
+  {
+   "partNumber": 432,
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 6",
+   "partId": 423639
+  },
+  {
+   "partNumber": 433,
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 7",
+   "partId": 423640
+  },
+  {
+   "partNumber": 434,
+   "partName": "JUNIOR HIGH SCHOOL NAGAR PALIKA PARISHAD DADRI R.N. 1",
+   "partId": 423641
+  },
+  {
+   "partNumber": 435,
+   "partName": "JUNIOR HIGH SCHOOL NAGAR PALIKA PARISHAD DADRI R.N. 2",
+   "partId": 423642
+  },
+  {
+   "partNumber": 436,
+   "partName": "JUNIOR HIGH SCHOOL NAGAR PALIKA PARISHAD DADRI R.N. 3",
+   "partId": 423643
+  },
+  {
+   "partNumber": 437,
+   "partName": "JUNIOR HIGH SCHOOL NAGAR PALIKA PARISHAD DADRI R.N. 4",
+   "partId": 423644
+  },
+  {
+   "partNumber": 438,
+   "partName": "PRIMARY SCHOOL DADRI R.N. 1",
+   "partId": 423645
+  },
+  {
+   "partNumber": 439,
+   "partName": "PRIMARY SCHOOL DADRI R.N. 2",
+   "partId": 423646
+  },
+  {
+   "partNumber": 440,
+   "partName": "PRIMARY SCHOOL DADRI R.N. 3",
+   "partId": 423647
+  },
+  {
+   "partNumber": 441,
+   "partName": "PRIMARY SCHOOL DADRI R.N. 4",
+   "partId": 423648
+  },
+  {
+   "partNumber": 442,
+   "partName": "PRIMARY SCHOOL DADRI R.N. 5",
+   "partId": 423649
+  },
+  {
+   "partNumber": 443,
+   "partName": "PRIMARY SCHOOL DADRI R.N. 6",
+   "partId": 423650
+  },
+  {
+   "partNumber": 444,
+   "partName": "PRIMARY SCHOOL DADRI R.N. 7",
+   "partId": 423651
+  },
+  {
+   "partNumber": 445,
+   "partName": "NAGAR PALIKA KANYA PATHASALA. DADRI R. NO. 1",
+   "partId": 423652
+  },
+  {
+   "partNumber": 446,
+   "partName": "NAGAR PALIKA KANYA PATHASALA. DADRI K. NO. 2",
+   "partId": 423653
+  },
+  {
+   "partNumber": 447,
+   "partName": "NAGAR PALIKA KANYA PATHASALA DADRI R. NO. 3",
+   "partId": 423654
+  },
+  {
+   "partNumber": 448,
+   "partName": "NAGAR PALIKA KANYA PATHASALA DADRI R. NO. 4",
+   "partId": 423655
+  },
+  {
+   "partNumber": 449,
+   "partName": "NAGAR PALIKA KANYA PATHASALA. DADRI R. NO. 5",
+   "partId": 423656
+  },
+  {
+   "partNumber": 450,
+   "partName": "NAGAR PALIKA KANYA PATHASALA. DADRI R. NO. 6",
+   "partId": 423657
+  },
+  {
+   "partNumber": 451,
+   "partName": "COMPOSITE SCHOOL RANAULI LATIFPUR R.NO. 1",
+   "partId": 423658
+  },
+  {
+   "partNumber": 452,
+   "partName": "COMPOSITE SCHOOL RANAULI LATIFPUR R.N. 2",
+   "partId": 423659
+  },
+  {
+   "partNumber": 453,
+   "partName": "PRIMARY SCHOOL DADUPUR KHATANA R.NO.1",
+   "partId": 423660
+  },
+  {
+   "partNumber": 454,
+   "partName": "PRIMARY SCHOOL SHAHPUR KHURD R.N. 1",
+   "partId": 423661
+  },
+  {
+   "partNumber": 455,
+   "partName": "ADARSH HIGHER SECONDRY SCHOOL KHATANA DHIRKHERA R.NO. 1",
+   "partId": 423662
+  },
+  {
+   "partNumber": 456,
+   "partName": "ADARSH HIGHER SECONDRY SCHOOL KHATANA DHIRKHERA RNO. 2",
+   "partId": 423663
+  },
+  {
+   "partNumber": 457,
+   "partName": "ADARSH HIGHER SECONDRY SCHOOL KHATANA DHIRKHERA RNO. 3",
+   "partId": 423664
+  },
+  {
+   "partNumber": 458,
+   "partName": "PRIMARY SCHOOL MILAK KHATANA R.N. 1",
+   "partId": 423665
+  },
+  {
+   "partNumber": 459,
+   "partName": "PRIMARY SCHOOL FOOLPUR R.NO. 1",
+   "partId": 423666
+  },
+  {
+   "partNumber": 460,
+   "partName": "PRIMARY SCHOOL MUTHIYANI R.NO. 1",
+   "partId": 423667
+  },
+  {
+   "partNumber": 461,
+   "partName": "PRIMARY SCHOOL. GULAWATHI KHURD R.NO. 1",
+   "partId": 423668
+  },
+  {
+   "partNumber": 462,
+   "partName": "PRIMARY SCHOOL GULAWATHI KHURD R.NO. 2",
+   "partId": 424043
+  },
+  {
+   "partNumber": 463,
+   "partName": "PRIMARY SCHOOL RAGHUVIR GARHI R.NO. 1",
+   "partId": 423669
+  },
+  {
+   "partNumber": 464,
+   "partName": "PRIMARY SCHOOL KHURSHEDPURA R.NO. 1",
+   "partId": 423670
+  },
+  {
+   "partNumber": 465,
+   "partName": "PRIMARY SCHOOL KHURSHEDPURA R.NO. 2",
+   "partId": 423671
+  },
+  {
+   "partNumber": 466,
+   "partName": "PRIMARY SCHOOL. JARCHA R.NO. 1",
+   "partId": 423672
+  },
+  {
+   "partNumber": 467,
+   "partName": "PRIMARY SCHOOL. JARCHA R.NO. 2",
+   "partId": 423673
+  },
+  {
+   "partNumber": 468,
+   "partName": "RAJKIYA PRIMARY SCHOOL. JARCHA R.NO. 1",
+   "partId": 423674
+  },
+  {
+   "partNumber": 469,
+   "partName": "RAJKIYA PRIMARY SCHOOL. JARCHA R.NO. 2",
+   "partId": 423675
+  },
+  {
+   "partNumber": 470,
+   "partName": "RAJKIYA PRIMARY SCHOOL. JARCHA R.NO. 3",
+   "partId": 423676
+  },
+  {
+   "partNumber": 471,
+   "partName": "RAJKIYA PRIMARY SCHOOL JARCHA R.NO. 4",
+   "partId": 423677
+  },
+  {
+   "partNumber": 472,
+   "partName": "COMPOSITE SCHOOL JAMSHEDPURA R.NO. 1",
+   "partId": 423678
+  },
+  {
+   "partNumber": 473,
+   "partName": "PRIMARY SCHOOL UPLARSI R.NO. 1",
+   "partId": 423679
+  },
+  {
+   "partNumber": 474,
+   "partName": "PRIMARY SCHOOL CHAKRASAINPUR URF DHANUWAS R.NO. 1",
+   "partId": 423680
+  },
+  {
+   "partNumber": 475,
+   "partName": "VATSRAJ SWATANTRA BHARAT INTER COLLEGE KALAUNDA R.N. 1",
+   "partId": 423681
+  },
+  {
+   "partNumber": 476,
+   "partName": "VATSRAJ SWATANTRA BHARAT INTER COLLEGE KALAUNDA R.N. 2",
+   "partId": 423682
+  },
+  {
+   "partNumber": 477,
+   "partName": "VATSRAJ SWATANTRA BHARAT INTER COLLEGE KALAUNDA R.N. 3",
+   "partId": 423683
+  },
+  {
+   "partNumber": 478,
+   "partName": "VATSRAJ SWATANTRA BHARAT INTER COLLEGE KALAUNDA R.N. 4",
+   "partId": 423684
+  },
+  {
+   "partNumber": 479,
+   "partName": "VATSRAJ SWATANTRA BHARAT INTER COLLEGE KALAUNDA R.N. 5",
+   "partId": 423685
+  },
+  {
+   "partNumber": 480,
+   "partName": "VATSRAJ SWATANTRA BHARAT INTER COLLEGE KALAUNDA R.N. 6",
+   "partId": 423686
+  },
+  {
+   "partNumber": 481,
+   "partName": "VATSRAJ SWATANTRA BHARAT INTER COLLEGE KALAUNDA R.N. 7",
+   "partId": 423687
+  },
+  {
+   "partNumber": 482,
+   "partName": "PRIMARY SCHOOL CHHAYANSA R.NO.1",
+   "partId": 423688
+  },
+  {
+   "partNumber": 483,
+   "partName": "PRIMARY SCHOOL CHHAYANSA R.NO.2",
+   "partId": 423689
+  },
+  {
+   "partNumber": 484,
+   "partName": "PRIMARY SCHOOL DAYANAGAR R.NO. 1",
+   "partId": 423690
+  },
+  {
+   "partNumber": 485,
+   "partName": "PRATHMIK VIDHYALAYA CHHAULAS KI MARHAIYA R.N. 1",
+   "partId": 423691
+  },
+  {
+   "partNumber": 486,
+   "partName": "PRIMARY SCHOOL CHHAULAS R.N. 1",
+   "partId": 423692
+  },
+  {
+   "partNumber": 487,
+   "partName": "PRIMARY SCHOOL CHHAULAS R.NO. 2",
+   "partId": 423693
+  },
+  {
+   "partNumber": 488,
+   "partName": "PRIMARY SCHOOL CHHAULAS R.NO. 3",
+   "partId": 423694
+  },
+  {
+   "partNumber": 489,
+   "partName": "PRIMARY SCHOOL CHHAULAS R NO. 4",
+   "partId": 423695
+  },
+  {
+   "partNumber": 490,
+   "partName": "PRIMARY SCHOOL NOORPUR R.NO. 1",
+   "partId": 423696
+  },
+  {
+   "partNumber": 491,
+   "partName": "PRIMARY SCHOOL NOORPUR R.NO. 2",
+   "partId": 423697
+  },
+  {
+   "partNumber": 492,
+   "partName": "PRIMARY SCHOOL VIRPURA R.N. 1",
+   "partId": 423698
+  },
+  {
+   "partNumber": 493,
+   "partName": "SHRI JAVAHAR INTER COLLEGE SAINTHALI R.NO. 1",
+   "partId": 423699
+  },
+  {
+   "partNumber": 494,
+   "partName": "SHRI JAVAHAR INTER COLLEGE SAINTHALI  R.NO. 2",
+   "partId": 423700
+  },
+  {
+   "partNumber": 495,
+   "partName": "SHRI JAVAHAR INTER COLLEGE SAINTHALI  R.NO. 3",
+   "partId": 423701
+  },
+  {
+   "partNumber": 496,
+   "partName": "PRIMARY SCHOOL NAGLA CHAMRU R.N. 1",
+   "partId": 423702
+  },
+  {
+   "partNumber": 497,
+   "partName": "PRIMARY SCHOOL NAGLA CHAMRU R.N. 2",
+   "partId": 424044
+  },
+  {
+   "partNumber": 498,
+   "partName": "PRIMARY SCHOOL KHANDERA R.NO. 1",
+   "partId": 423703
+  },
+  {
+   "partNumber": 499,
+   "partName": "PRIMARY SCHOOL KHANDERA R.NO. 2",
+   "partId": 423704
+  },
+  {
+   "partNumber": 500,
+   "partName": "PRIMARY SCHOOL KOT R NO. 1",
+   "partId": 423705
+  },
+  {
+   "partNumber": 501,
+   "partName": "PRIMARY SCHOOL KOT R.NO. 2",
+   "partId": 423706
+  },
+  {
+   "partNumber": 502,
+   "partName": "PRIMARY SCHOOL DERI KOT R NO. 1",
+   "partId": 423707
+  },
+  {
+   "partNumber": 503,
+   "partName": "PRIMARY SCHOOL NANGLA NAINSUKH R.NO. 1",
+   "partId": 423708
+  },
+  {
+   "partNumber": 504,
+   "partName": "PRIMARY SCHOOL ANANDPUR R.NO. 1",
+   "partId": 423709
+  },
+  {
+   "partNumber": 505,
+   "partName": "PRIMARY SCHOOL BAIRANGPUR URF NAI BASTI R.NO. 1",
+   "partId": 423710
+  },
+  {
+   "partNumber": 506,
+   "partName": "PRIMARY SCHOOL BAIRANGPUR URF NAI BASTI R.NO. 2",
+   "partId": 423711
+  },
+  {
+   "partNumber": 507,
+   "partName": "PRIMARY SCHOOL BEEL AKBARPUR R.NO. 1",
+   "partId": 423712
+  },
+  {
+   "partNumber": 508,
+   "partName": "PRIMARY SCHOOL BEEL AKBARPUR R.NO. 2",
+   "partId": 423713
+  },
+  {
+   "partNumber": 509,
+   "partName": "PRIMARY SCHOOL CHITHAIRA R.NO. 1",
+   "partId": 423714
+  },
+  {
+   "partNumber": 510,
+   "partName": "PRIMARY SCHOOL CHITHAIRA R.NO. 2",
+   "partId": 423715
+  },
+  {
+   "partNumber": 511,
+   "partName": "PRIMARY SCHOOL CHITHAIRA R.NO. 3",
+   "partId": 423716
+  },
+  {
+   "partNumber": 512,
+   "partName": "PRIMARY SCHOOL CHITHAIRA R.NO. 4",
+   "partId": 423717
+  },
+  {
+   "partNumber": 513,
+   "partName": "PRIMARY SCHOOL CHITHAIRA R.NO. 5",
+   "partId": 423718
+  },
+  {
+   "partNumber": 514,
+   "partName": "PRIMARY SCHOOL CHITHAIRA R.NO. 6",
+   "partId": 423719
+  },
+  {
+   "partNumber": 515,
+   "partName": "PRIMARY SCHOOL PALLA R.NO. 1",
+   "partId": 423720
+  },
+  {
+   "partNumber": 516,
+   "partName": "PRIMARY SCHOOL PALLA R.NO. 2",
+   "partId": 423721
+  },
+  {
+   "partNumber": 517,
+   "partName": "PRIMARY SCHOOL KATHAIRA R.NO. 1",
+   "partId": 423722
+  },
+  {
+   "partNumber": 518,
+   "partName": "PRIMARY SCHOOL KATHAIRA R.NO. 2",
+   "partId": 423723
+  },
+  {
+   "partNumber": 519,
+   "partName": "COMPOSITE SCHOOL PALI R.NO. 1",
+   "partId": 423724
+  },
+  {
+   "partNumber": 520,
+   "partName": "COMPOSITE SCHOOL PALI R.NO. 2",
+   "partId": 423725
+  },
+  {
+   "partNumber": 521,
+   "partName": "COMPOSITE SCHOOL PALI R.NO. 3",
+   "partId": 423726
+  },
+  {
+   "partNumber": 522,
+   "partName": "PRIMARY SCHOOL CHAMRAVALI BODAKI R.N. 1",
+   "partId": 423727
+  },
+  {
+   "partNumber": 523,
+   "partName": "PRIMARY SCHOOL CHAMRAVALI BODAKI R.N. 2",
+   "partId": 423728
+  },
+  {
+   "partNumber": 524,
+   "partName": "PRIMARY SCHOOL DATAWALI R.N. 01",
+   "partId": 423729
+  },
+  {
+   "partNumber": 525,
+   "partName": "PRIMARY SCHOOL DATAWALI R.N. 02",
+   "partId": 423730
+  },
+  {
+   "partNumber": 526,
+   "partName": "PRIMARY SCHOOL JUNPAT R.NO. 1",
+   "partId": 423731
+  },
+  {
+   "partNumber": 527,
+   "partName": "PRIMARY SCHOOL JUNPAT R.NO. 2",
+   "partId": 423732
+  },
+  {
+   "partNumber": 528,
+   "partName": "PRIMARY SCHOOL THAPKHERA R.NO. 1",
+   "partId": 423733
+  },
+  {
+   "partNumber": 529,
+   "partName": "PRIMARY SCHOOL THAPKHERA R.NO. 2",
+   "partId": 423734
+  },
+  {
+   "partNumber": 530,
+   "partName": "PRIMARY SCHOOL CHAMRAWALI RAMGARH R.NO. 1",
+   "partId": 423735
+  },
+  {
+   "partNumber": 531,
+   "partName": "PRIMARY SCHOOL CHAMRAWALI RAMGARH R.NO. 2",
+   "partId": 423736
+  },
+  {
+   "partNumber": 532,
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 1",
+   "partId": 423737
+  },
+  {
+   "partNumber": 533,
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 2",
+   "partId": 423738
+  },
+  {
+   "partNumber": 534,
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 3",
+   "partId": 423739
+  },
+  {
+   "partNumber": 535,
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 4",
+   "partId": 423740
+  },
+  {
+   "partNumber": 536,
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 5",
+   "partId": 423741
+  },
+  {
+   "partNumber": 537,
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 6",
+   "partId": 423742
+  },
+  {
+   "partNumber": 538,
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 7",
+   "partId": 423743
+  },
+  {
+   "partNumber": 539,
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 8",
+   "partId": 423744
+  },
+  {
+   "partNumber": 540,
+   "partName": "UCHCH PRATHMIK VIDYALAYA GHODI BACHHEDA R.N. 1",
+   "partId": 423745
+  },
+  {
+   "partNumber": 541,
+   "partName": "UCHCH PRATHMIK VIDYALAYA GHODI BACHHEDA R.N. 2",
+   "partId": 423746
+  },
+  {
+   "partNumber": 542,
+   "partName": "UCHCH PRATHMIK VIDYALAYA GHODI BACHHEDA R.N. 3",
+   "partId": 424045
+  },
+  {
+   "partNumber": 543,
+   "partName": "UCHCH PRATHMIK VIDYALAYA GHODI BACHHEDA R.N. 4",
+   "partId": 424046
+  },
+  {
+   "partNumber": 544,
+   "partName": "OMAXE PALM GREENS CLUBHOUSE SECTOR MU R.N. 01",
+   "partId": 423747
+  },
+  {
+   "partNumber": 545,
+   "partName": "PURVA MADHYMIK VIDHYALAY KAIMRALA CHAKRASAINPUR R.N. 1",
+   "partId": 423748
+  },
+  {
+   "partNumber": 546,
+   "partName": "PURVA MADHYMIK VIDHYALAY KAIMRALA CHAKRASAINPUR R.N. 2",
+   "partId": 423749
+  },
+  {
+   "partNumber": 547,
+   "partName": "PRIMARY SCHOOL BHOGPUR R.N. 1",
+   "partId": 423750
+  },
+  {
+   "partNumber": 548,
+   "partName": "PRIMARY SCHOOL SAMAUDDINPUR R.NO. 1",
+   "partId": 423751
+  },
+  {
+   "partNumber": 549,
+   "partName": "PRIMARY SCHOOL SAMAUDDINPUR R.NO. 2",
+   "partId": 423752
+  },
+  {
+   "partNumber": 550,
+   "partName": "KANYA PATHSHALA LUHARLI R.N. 1",
+   "partId": 423753
+  },
+  {
+   "partNumber": 551,
+   "partName": "KANYA PATHSHALA LUHARLI R.N. 2",
+   "partId": 423754
+  },
+  {
+   "partNumber": 552,
+   "partName": "KANYA PATHSHALA LUHARLI R.N. 3",
+   "partId": 423755
+  },
+  {
+   "partNumber": 553,
+   "partName": "PRIMARY SCHOOL BASANTPUR BANGAR URF NAYA GAON R.N. 1",
+   "partId": 423756
+  },
+  {
+   "partNumber": 554,
+   "partName": "KISAN MAZDOOR ADARSH INTER COLLEGE RITHAURI R.N. 1",
+   "partId": 423757
+  },
+  {
+   "partNumber": 555,
+   "partName": "KISAN MAZDOOR ADARSH INTER COLLEGE RITHAURI R.N. 2",
+   "partId": 423758
+  },
+  {
+   "partNumber": 556,
+   "partName": "KISAN MAZDOOR ADARSH INTER COLLEGE RITHAURI R.N. 3",
+   "partId": 424047
+  },
+  {
+   "partNumber": 557,
+   "partName": "PRIMARY SCHOOL RAIPUR BANGAR R.N. 1",
+   "partId": 423759
+  },
+  {
+   "partNumber": 558,
+   "partName": "PRIMARY SCHOOL RAIPUR BANGAR R.N. 2",
+   "partId": 423760
+  },
+  {
+   "partNumber": 559,
+   "partName": "KISAN JUNIOR HIGH SCHOOL DABRA R.N. 01",
+   "partId": 423761
+  },
+  {
+   "partNumber": 560,
+   "partName": "KISAN JUNIOR HIGH SCHOOL DABRA R.N. 02",
+   "partId": 423762
+  },
+  {
+   "partNumber": 561,
+   "partName": "JAWAHAR INTER COLLEGE MAYCHA K. NO. 1",
+   "partId": 423763
+  },
+  {
+   "partNumber": 562,
+   "partName": "JAWAHAR INTER COLLEGE MAYCHA K. NO. 2",
+   "partId": 423764
+  },
+  {
+   "partNumber": 563,
+   "partName": "JAWAHAR INTER COLLEGE MAYCHA K. NO. 3",
+   "partId": 423765
+  },
+  {
+   "partNumber": 564,
+   "partName": "JAWAHAR INTER COLLEGE MAYCHA K. NO. 4",
+   "partId": 423766
+  },
+  {
+   "partNumber": 565,
+   "partName": "PRIMARY SCHOOL MADHAIYA MAYCHA K. NO. 1",
+   "partId": 423767
+  },
+  {
+   "partNumber": 566,
+   "partName": "PRIMARY SCHOOL RAMPUR FATEHPUR R.NO. 1",
+   "partId": 423768
+  },
+  {
+   "partNumber": 567,
+   "partName": "PRIMARY SCHOOL RAMPUR FATEHPUR R.NO. 2",
+   "partId": 423769
+  },
+  {
+   "partNumber": 568,
+   "partName": "COMPOSITE PRIMARY & JUNIOR HIGH SCHOOL SHAHPUR GOVARDHANPUR R.N. 01",
+   "partId": 423770
+  },
+  {
+   "partNumber": 569,
+   "partName": "COMPOSITE PRIMARY & JUNIOR HIGH SCHOOL SHAHPUR GOVARDHANPUR R.N. 02",
+   "partId": 423771
+  },
+  {
+   "partNumber": 570,
+   "partName": "COMPOSITE PRIMARY & JUNIOR HIGH SCHOOL SHAHPUR GOVARDHANPUR R.N. 03",
+   "partId": 423772
+  },
+  {
+   "partNumber": 571,
+   "partName": "PRIMARY SCHOOL VAJIDPUR R.N. 01",
+   "partId": 423773
+  },
+  {
+   "partNumber": 572,
+   "partName": "PRIMARY SCHOOL VAJIDPUR R. N.2",
+   "partId": 423774
+  },
+  {
+   "partNumber": 573,
+   "partName": "PRIMARY SCHOOL VAJIDPUR R. N.3",
+   "partId": 424048
+  },
+  {
+   "partNumber": 574,
+   "partName": "CLUBHOUSE JAYPEE KOSMOS SECTOR-134 NOIDA R. N.1",
+   "partId": 423775
+  },
+  {
+   "partNumber": 575,
+   "partName": "CLUBHOUSE JAYPEE KOSMOS SECTOR-134 NOIDA R. N.2",
+   "partId": 423776
+  },
+  {
+   "partNumber": 576,
+   "partName": "CLUBHOUSE JAYPEE KLASSIC SECTOR-134 NOIDA R. N.1",
+   "partId": 424001
+  },
+  {
+   "partNumber": 577,
+   "partName": "SHRIRAM MILENNIUM SCHOOL135 NOIDA R. N. 1",
+   "partId": 423777
+  },
+  {
+   "partNumber": 578,
+   "partName": "PRIMARY SCHOOL NAGLI SAKPUR R.N. 01",
+   "partId": 423778
+  },
+  {
+   "partNumber": 579,
+   "partName": "PRIMARY SCHOOL NAGLI SAKPUR R.N. 02",
+   "partId": 424049
+  },
+  {
+   "partNumber": 580,
+   "partName": "PRIMARY SCHOOL CHHAPROLI BANGAR R.N. 01",
+   "partId": 423779
+  },
+  {
+   "partNumber": 581,
+   "partName": "PRIMARY SCHOOL CHHAPROLI BANGAR R.N. 02",
+   "partId": 423780
+  },
+  {
+   "partNumber": 582,
+   "partName": "PRIMARY SCHOOL CHHAPROLI BANGAR R.N. 03",
+   "partId": 424050
+  },
+  {
+   "partNumber": 583,
+   "partName": "SHIV NADAR PUBLIC SCHOOL SECTOR 168 NOIDA R.N. 01",
+   "partId": 423781
+  },
+  {
+   "partNumber": 584,
+   "partName": "SHIV NADAR PUBLIC SCHOOL SECTOR 168 NOIDA R.N. 02",
+   "partId": 423969
+  },
+  {
+   "partNumber": 585,
+   "partName": "CLUBHOUSE THE GOLDEN PALMS SECTOR-168 R.N. 1",
+   "partId": 424051
+  },
+  {
+   "partNumber": 586,
+   "partName": "UCHCH PRATHMIK VIDYALYA CHHAPROLI BANGAR R.N. 01",
+   "partId": 423782
+  },
+  {
+   "partNumber": 587,
+   "partName": "UCHCH PRATHMIK VIDYALYA CHHAPROLI BANGAR R.N. 02",
+   "partId": 423783
+  },
+  {
+   "partNumber": 588,
+   "partName": "S.K.S. WORLD SCHOOL SECTOR 137 R. N. 1",
+   "partId": 423784
+  },
+  {
+   "partNumber": 589,
+   "partName": "S.K.S. WORLD SCHOOL SECTOR 137  R. N. 2",
+   "partId": 423995
+  },
+  {
+   "partNumber": 590,
+   "partName": "S.K.S. WORLD SCHOOL SECTOR 137 R. N. 3",
+   "partId": 423785
+  },
+  {
+   "partNumber": 591,
+   "partName": "CLUBHOUSE PURVANCHAL ROYAL PARK SECTOR 137 NOIDA R. N. 1",
+   "partId": 423786
+  },
+  {
+   "partNumber": 592,
+   "partName": "CLUBHOUSE PURVANCHAL ROYAL PARK SECTOR 137 NOIDA R. N. 2",
+   "partId": 423787
+  },
+  {
+   "partNumber": 593,
+   "partName": "CLUBHOUSE AJNARA DAFFODIL SECTOR 137 NOIDA R. N. 1",
+   "partId": 423788
+  },
+  {
+   "partNumber": 594,
+   "partName": "CLUBHOUSE EXOTICA FRESCO SECTOR 137 NOIDA R. N. 1",
+   "partId": 423789
+  },
+  {
+   "partNumber": 595,
+   "partName": "CLUBHOUSE GULSHAN VIVANTE SECTOR 137 NOIDA R. N. 1",
+   "partId": 423790
+  },
+  {
+   "partNumber": 596,
+   "partName": "LOGIX BLOSSOM COUNTY CLUB SECTOR 137 NOIDA R. N. 1",
+   "partId": 423791
+  },
+  {
+   "partNumber": 597,
+   "partName": "LOGIX BLOSSOM COUNTY CLUB SECTOR 137 NOIDA R N 2",
+   "partId": 423996
+  },
+  {
+   "partNumber": 598,
+   "partName": "CLUBHOUSE SUPERTECH ECOCITI SECTOR 137 NOIDA R. N. 1",
+   "partId": 423792
+  },
+  {
+   "partNumber": 599,
+   "partName": "CLUBHOUSE SUPERTECH ECOCITI SECTOR 137 NOIDA R. N. 2",
+   "partId": 424065
+  },
+  {
+   "partNumber": 600,
+   "partName": "GULSHAN IKEBANA CLUBHOUSE SECTOR 143 NOIDA R.N. 01",
+   "partId": 423793
+  },
+  {
+   "partNumber": 601,
+   "partName": "GULSHAN IKEBANA CLUBHOUSE SECTOR 143 NOIDA R.N. 02",
+   "partId": 424075
+  },
+  {
+   "partNumber": 602,
+   "partName": "UCHCH PRATHMIK VIDYALAYA SHAHDRA R. N. 1",
+   "partId": 423794
+  },
+  {
+   "partNumber": 603,
+   "partName": "UCHCH PRATHMIK VIDYALAYA SHAHDRA R. N. 2",
+   "partId": 423795
+  },
+  {
+   "partNumber": 604,
+   "partName": "UCHCH PRATHMIK VIDYALAYA SHAHDRA R. N. 3",
+   "partId": 423796
+  },
+  {
+   "partNumber": 605,
+   "partName": "UCHCH PRATHMIK VIDYALAYA SHAHDRA R. N. 4",
+   "partId": 423797
+  },
+  {
+   "partNumber": 606,
+   "partName": "CLUBHOUSE GULSHAN BOTNIA SECTOR-144 NOIDA R.N. 1",
+   "partId": 424052
+  },
+  {
+   "partNumber": 607,
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE MOHIAPUR R.N. 01",
+   "partId": 423798
+  },
+  {
+   "partNumber": 608,
+   "partName": "COMPOSITE SCHOOL KULESARA R.N. 01",
+   "partId": 423799
+  },
+  {
+   "partNumber": 609,
+   "partName": "COMPOSITE SCHOOL KULESARA R.N. 02",
+   "partId": 423800
+  },
+  {
+   "partNumber": 610,
+   "partName": "COMPOSITE SCHOOL KULESARA R.N. 03",
+   "partId": 423801
+  },
+  {
+   "partNumber": 611,
+   "partName": "COMPOSITE SCHOOL KULESARA R.N. 04",
+   "partId": 423802
+  },
+  {
+   "partNumber": 612,
+   "partName": "COMPOSITE SCHOOL KULESARA R.N. 05",
+   "partId": 423803
+  },
+  {
+   "partNumber": 613,
+   "partName": "COMPOSITE SCHOOL KULESARA R.N. 06",
+   "partId": 423804
+  },
+  {
+   "partNumber": 614,
+   "partName": "COMPOSITE SCHOOL KULESARA R.N. 07",
+   "partId": 424053
+  },
+  {
+   "partNumber": 615,
+   "partName": "D.V.M. PUBLIC SCHOOL KULESRA R.N. 01",
+   "partId": 423805
+  },
+  {
+   "partNumber": 616,
+   "partName": "D.V.M. PUBLIC SCHOOL KULESRA R.N. 02",
+   "partId": 423806
+  },
+  {
+   "partNumber": 617,
+   "partName": "D.V.M. PUBLIC SCHOOL KULESRA R.N. 03",
+   "partId": 423807
+  },
+  {
+   "partNumber": 618,
+   "partName": "D.V.M. PUBLIC SCHOOL KULESRA R.N. 04",
+   "partId": 423808
+  },
+  {
+   "partNumber": 619,
+   "partName": "D.V.M. PUBLIC SCHOOL KULESRA R.N. 05",
+   "partId": 423809
+  },
+  {
+   "partNumber": 620,
+   "partName": "D.V.M. PUBLIC SCHOOL KULESRA R.N. 06",
+   "partId": 423810
+  },
+  {
+   "partNumber": 621,
+   "partName": "D.V.M. PUBLIC SCHOOL KULESRA R.N. 07",
+   "partId": 423811
+  },
+  {
+   "partNumber": 622,
+   "partName": "D.V.M. PUBLIC SCHOOL KULESRA R.N. 08",
+   "partId": 423812
+  },
+  {
+   "partNumber": 623,
+   "partName": "D. V.M. PUBLIC SCHOOL KULESRA R.N.09",
+   "partId": 424054
+  },
+  {
+   "partNumber": 624,
+   "partName": "CH. KESHRAM INTER COLLEGE HABIBPUR R.N. 01",
+   "partId": 423813
+  },
+  {
+   "partNumber": 625,
+   "partName": "CH. KESHRAM INTER COLLEGE HABIBPUR R.N. 02",
+   "partId": 423814
+  },
+  {
+   "partNumber": 626,
+   "partName": "PRIMARY SCHOOL SUTHIYANA R.N. 01",
+   "partId": 423815
+  },
+  {
+   "partNumber": 627,
+   "partName": "PRIMARY SCHOOL SUTHIYANA R.N. 02",
+   "partId": 423816
+  },
+  {
+   "partNumber": 628,
+   "partName": "PRIMARY SCHOOL SUTHIYANA R.N. 03",
+   "partId": 424076
+  },
+  {
+   "partNumber": 629,
+   "partName": "COMPOSITE SCHOOL LAKHNAWALI R. N. 1",
+   "partId": 423817
+  },
+  {
+   "partNumber": 630,
+   "partName": "COMPOSITE SCHOOL LAKHNAWALI R. N. 2",
+   "partId": 423818
+  },
+  {
+   "partNumber": 631,
+   "partName": "PRIMARY SCHOOL MALAKPUR R.N. 01",
+   "partId": 423819
+  },
+  {
+   "partNumber": 632,
+   "partName": "PRIMARY SCHOOL MALAKPUR R.N. 02",
+   "partId": 423820
+  },
+  {
+   "partNumber": 633,
+   "partName": "PRIMARY SCHOOL MUBARIKPUR R.N. 01",
+   "partId": 423821
+  },
+  {
+   "partNumber": 634,
+   "partName": "ARYADEEP PUBLIC SCHOOL SURAJPUR R. N. 1",
+   "partId": 423822
+  },
+  {
+   "partNumber": 635,
+   "partName": "ARYADEEP PUBLIC SCHOOL SURAJPUR R. N. 2",
+   "partId": 423823
+  },
+  {
+   "partNumber": 636,
+   "partName": "ARYADEEP PUBLIC SCHOOL SURAJPUR R. N. 3",
+   "partId": 423824
+  },
+  {
+   "partNumber": 637,
+   "partName": "ARYADEEP PUBLIC SCHOOL SURAJPUR R. N. 4",
+   "partId": 423825
+  },
+  {
+   "partNumber": 638,
+   "partName": "ARYADEEP PUBLIC SCHOOL SURAJPUR R. N. 5",
+   "partId": 424055
+  },
+  {
+   "partNumber": 639,
+   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 1",
+   "partId": 423826
+  },
+  {
+   "partNumber": 640,
+   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 2",
+   "partId": 423827
+  },
+  {
+   "partNumber": 641,
+   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 3",
+   "partId": 423828
+  },
+  {
+   "partNumber": 642,
+   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 4",
+   "partId": 423829
+  },
+  {
+   "partNumber": 643,
+   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 5",
+   "partId": 423830
+  },
+  {
+   "partNumber": 644,
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 01",
+   "partId": 423831
+  },
+  {
+   "partNumber": 645,
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 02",
+   "partId": 423832
+  },
+  {
+   "partNumber": 646,
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 03",
+   "partId": 423833
+  },
+  {
+   "partNumber": 647,
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 04",
+   "partId": 423834
+  },
+  {
+   "partNumber": 648,
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 05",
+   "partId": 423835
+  },
+  {
+   "partNumber": 649,
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 06",
+   "partId": 423836
+  },
+  {
+   "partNumber": 650,
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 07",
+   "partId": 423837
+  },
+  {
+   "partNumber": 651,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 1",
+   "partId": 423838
+  },
+  {
+   "partNumber": 652,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 2",
+   "partId": 423839
+  },
+  {
+   "partNumber": 653,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 3",
+   "partId": 423840
+  },
+  {
+   "partNumber": 654,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 4",
+   "partId": 423841
+  },
+  {
+   "partNumber": 655,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 5",
+   "partId": 423842
+  },
+  {
+   "partNumber": 656,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 6",
+   "partId": 423843
+  },
+  {
+   "partNumber": 657,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 7",
+   "partId": 423844
+  },
+  {
+   "partNumber": 658,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 8",
+   "partId": 423845
+  },
+  {
+   "partNumber": 659,
+   "partName": "SHAHID BHAGAT SINGH ADARSH JUNIOR HIGH SCHOOL SURAJPUR R. N. 9",
+   "partId": 424056
+  },
+  {
+   "partNumber": 660,
+   "partName": "PRIMARY SCHOOL GULISTANPUR R.N. 01",
+   "partId": 423846
+  },
+  {
+   "partNumber": 661,
+   "partName": "PRIMARY SCHOOL GULISTANPUR R.N. 02",
+   "partId": 423847
+  },
+  {
+   "partNumber": 662,
+   "partName": "PRIMARY SCHOOL GULISTANPUR R.N. 03",
+   "partId": 423848
+  },
+  {
+   "partNumber": 663,
+   "partName": "RYAN INTERNATIONAL SCHOOL BETA-1 R.N. 01",
+   "partId": 423849
+  },
+  {
+   "partNumber": 664,
+   "partName": "RYAN INTERNATIONAL SCHOOL BETA-1 R.N. 02",
+   "partId": 423850
+  },
+  {
+   "partNumber": 665,
+   "partName": "RYAN INTERNATIONAL SCHOOL BETA-1 R.N. 03",
+   "partId": 423851
+  },
+  {
+   "partNumber": 666,
+   "partName": "RYAN INTERNATIONAL SCHOOL BETA-1 R.N. 04",
+   "partId": 423852
+  },
+  {
+   "partNumber": 667,
+   "partName": "RYAN INTERNATIONAL SCHOOL BETA-1 R.N. 05",
+   "partId": 424057
+  },
+  {
+   "partNumber": 668,
+   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 01",
+   "partId": 423853
+  },
+  {
+   "partNumber": 669,
+   "partName": "FATHER. AGNEL SCHOOL BETA-2 R.N. 02",
+   "partId": 423854
+  },
+  {
+   "partNumber": 670,
+   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 03",
+   "partId": 423855
+  },
+  {
+   "partNumber": 671,
+   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 04",
+   "partId": 423856
+  },
+  {
+   "partNumber": 672,
+   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 05",
+   "partId": 423857
+  },
+  {
+   "partNumber": 673,
+   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 06",
+   "partId": 423858
+  },
+  {
+   "partNumber": 674,
+   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 07",
+   "partId": 423859
+  },
+  {
+   "partNumber": 675,
+   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 08",
+   "partId": 424058
+  },
+  {
+   "partNumber": 676,
+   "partName": "PRAGYAN SCHOOL GAMMA-1 R.N. 01",
+   "partId": 423860
+  },
+  {
+   "partNumber": 677,
+   "partName": "PRAGYAN SCHOOL GAMMA-1 R.N. 02",
+   "partId": 423861
+  },
+  {
+   "partNumber": 678,
+   "partName": "PRAGYAN SCHOOL GAMMA-1 R.N. 03",
+   "partId": 423862
+  },
+  {
+   "partNumber": 679,
+   "partName": "ARYADEEP PUBLIC SCHOOL GAMMA-2 R.N. 01",
+   "partId": 423863
+  },
+  {
+   "partNumber": 680,
+   "partName": "ARYADEEP PUBLIC SCHOOL GAMMA-2 R.N. 02",
+   "partId": 423864
+  },
+  {
+   "partNumber": 681,
+   "partName": "ARYADEEP PUBLIC SCHOOL GAMMA-2 R.N. 03",
+   "partId": 423865
+  },
+  {
+   "partNumber": 682,
+   "partName": "ARYADEEP PUBLIC SCHOOL GAMMA-2 R.N. 04",
+   "partId": 423866
+  },
+  {
+   "partNumber": 683,
+   "partName": "ASHIANA ORCHIDS CLUBHOUSE  GAMMA-2 R.N. 01",
+   "partId": 423867
+  },
+  {
+   "partNumber": 684,
+   "partName": "PRIMARY SCHOOL SAKIPUR R.N. 01",
+   "partId": 423868
+  },
+  {
+   "partNumber": 685,
+   "partName": "PRIMARY SCHOOL SAKIPUR R.N. 02",
+   "partId": 423869
+  },
+  {
+   "partNumber": 686,
+   "partName": "PRIMARY SCHOOL SAKIPUR R.N. 03",
+   "partId": 424059
+  },
+  {
+   "partNumber": 687,
+   "partName": "NEHRU SMARAK INTER COLLEGE SAKIPUR R.N. 01",
+   "partId": 423870
+  },
+  {
+   "partNumber": 688,
+   "partName": "NEHRU SMARAK INTER COLLEGE SAKIPUR R. N. 2",
+   "partId": 423871
+  },
+  {
+   "partNumber": 689,
+   "partName": "NEHRU SMARAK INTER COLLEGE SAKIPUR R.N. 03",
+   "partId": 423872
+  },
+  {
+   "partNumber": 690,
+   "partName": "NEHRU SMARAK INTER COLLEGE SAKIPUR R. N. 4",
+   "partId": 423873
+  },
+  {
+   "partNumber": 691,
+   "partName": "NEHRU SMARAK INTER COLLEGE SAKIPUR R. N. 5",
+   "partId": 423874
+  },
+  {
+   "partNumber": 692,
+   "partName": "NEHRU SMARAK INTER COLLEGE SAKIPUR R. N. 6",
+   "partId": 424002
+  },
+  {
+   "partNumber": 693,
+   "partName": "NEHRU SMARAK INTER COLLEGE SAKIPUR R. N. 7",
+   "partId": 423875
+  },
+  {
+   "partNumber": 694,
+   "partName": "CLUBHOUSE ATS DOLCE ZETA-1 GREATER NOIDA R.N.01",
+   "partId": 424073
+  },
+  {
+   "partNumber": 695,
+   "partName": "ACE PLATINUM CLUBHOUSE ZETA-1 R.N. 01",
+   "partId": 423876
+  },
+  {
+   "partNumber": 696,
+   "partName": "VANASTHALI PUBLIC SCHOOL ZETA-1 R.N 1",
+   "partId": 423877
+  },
+  {
+   "partNumber": 697,
+   "partName": "PRIMARY SCHOOL BIRAUNDI CHAKRASENPUR R.N. 01",
+   "partId": 423878
+  },
+  {
+   "partNumber": 698,
+   "partName": "PRIMARY SCHOOL BIRAUNDI CHAKRASENPUR R.N. 02",
+   "partId": 423879
+  },
+  {
+   "partNumber": 699,
+   "partName": "PRIMARY SCHOOL BIRAUNDI CHAKRASENPUR R.N. 03",
+   "partId": 423880
+  },
+  {
+   "partNumber": 700,
+   "partName": "KAUSHALYA WORLD SCHOOL PI-2 R.N. 01",
+   "partId": 423881
+  },
+  {
+   "partNumber": 701,
+   "partName": "KAUSHALYA WORLD SCHOOL PI-2 R.N. 02",
+   "partId": 424060
+  },
+  {
+   "partNumber": 702,
+   "partName": "UNITECH HORIZON CLUBHOUSE PI-2 R.N. 01",
+   "partId": 423882
+  },
+  {
+   "partNumber": 703,
+   "partName": "PRIMARY SCHOOL MATHURAPUR R. N. 1",
+   "partId": 423883
+  },
+  {
+   "partNumber": 704,
+   "partName": "PRIMARY SCHOOL MATHURAPUR R. N. 2",
+   "partId": 423997
+  },
+  {
+   "partNumber": 705,
+   "partName": "PRIMARY SCHOOL MATHURAPUR R. N. 3",
+   "partId": 423884
+  },
+  {
+   "partNumber": 706,
+   "partName": "STELLAR MI CITIHOMES CLUBHOUSE R.N.01",
+   "partId": 423885
+  },
+  {
+   "partNumber": 707,
+   "partName": "CLUBHOUSE PLUMERIA GARDEN ESTATE OMICRON-3 R. N. 1",
+   "partId": 423886
+  },
+  {
+   "partNumber": 708,
+   "partName": "SCHOLARS HOME INTERNATIONAL SCHOOL OMICRON-1 R. N. 1",
+   "partId": 424068
+  },
+  {
+   "partNumber": 709,
+   "partName": "SCHOLARS HOME INTERNATIONAL SCHOOL OMICRON-1 R. N. 2",
+   "partId": 423887
+  },
+  {
+   "partNumber": 710,
+   "partName": "SCHOLARS HOME INTERNATIONAL SCHOOL OMICRON-1 R. N. 3",
+   "partId": 423888
+  },
+  {
+   "partNumber": 711,
+   "partName": "CLUBHOUSE GAUR ATULYAM OMICRON-1 R. N.1",
+   "partId": 423889
+  },
+  {
+   "partNumber": 712,
+   "partName": "CLUBHOUSE SUPERTECH CZAR SUITS OMICRON-1 R. N. 1",
+   "partId": 423890
+  },
+  {
+   "partNumber": 713,
+   "partName": "CLUBHOUSE ELDECO MYSTIC GREENS OMICRON-1 R.N. 01",
+   "partId": 424069
+  },
+  {
+   "partNumber": 714,
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 1",
+   "partId": 423891
+  },
+  {
+   "partNumber": 715,
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 2",
+   "partId": 423892
+  },
+  {
+   "partNumber": 716,
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 3",
+   "partId": 423893
+  },
+  {
+   "partNumber": 717,
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 4",
+   "partId": 423894
+  },
+  {
+   "partNumber": 718,
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 5",
+   "partId": 424061
+  },
+  {
+   "partNumber": 719,
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 6",
+   "partId": 424062
+  },
+  {
+   "partNumber": 720,
+   "partName": "ASTER PUBLIC SCHOOL DELTA-2 R. N. 1",
+   "partId": 423895
+  },
+  {
+   "partNumber": 721,
+   "partName": "ASTER PUBLIC SCHOOL DELTA-2 R. N. 2",
+   "partId": 423896
+  },
+  {
+   "partNumber": 722,
+   "partName": "ASTER PUBLIC SCHOOL DELTA-2 R. N. 3",
+   "partId": 424063
+  },
+  {
+   "partNumber": 723,
+   "partName": "PRIMARY SCHOOL TUGALPUR R.N. 01",
+   "partId": 423897
+  },
+  {
+   "partNumber": 724,
+   "partName": "PRIMARY SCHOOL TUGALPUR R.N. 02",
+   "partId": 423898
+  },
+  {
+   "partNumber": 725,
+   "partName": "SHARDA UNIVERSITY KNOWLEDGE PARK-3 GREATER NOIDA R.N. 01",
+   "partId": 423899
+  },
+  {
+   "partNumber": 726,
+   "partName": "SHARDA UNIVERSITY KNOWLEDGE PARK-3 GREATER NOIDA R.N. 02",
+   "partId": 423900
+  },
+  {
+   "partNumber": 727,
+   "partName": "SHARDA UNIVERSITY KNOWLEDGE PARK-3 GREATER NOIDA R.N. 03",
+   "partId": 423901
+  },
+  {
+   "partNumber": 728,
+   "partName": "SHARDA UNIVERSITY KNOWLEDGE PARK-3 GREATER NOIDA R.N. 04",
+   "partId": 423902
+  },
+  {
+   "partNumber": 729,
+   "partName": "SHARDA UNIVERSITY KNOWLEDGE PARK-3 GREATER NOIDA R.N. 05",
+   "partId": 423998
+  },
+  {
+   "partNumber": 730,
+   "partName": "JAYPEE PUBLIC SCHOOL JAYPEE GREENS GREATER NOIDA R.N. 01",
+   "partId": 423903
+  },
+  {
+   "partNumber": 731,
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 01",
+   "partId": 423904
+  },
+  {
+   "partNumber": 732,
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 02",
+   "partId": 423905
+  },
+  {
+   "partNumber": 733,
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 03",
+   "partId": 423906
+  },
+  {
+   "partNumber": 734,
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 04",
+   "partId": 423907
+  },
+  {
+   "partNumber": 735,
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 05",
+   "partId": 423908
+  },
+  {
+   "partNumber": 736,
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 06",
+   "partId": 423909
+  },
+  {
+   "partNumber": 737,
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N.7",
+   "partId": 423910
+  },
+  {
+   "partNumber": 738,
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 08",
+   "partId": 423911
+  },
+  {
+   "partNumber": 739,
+   "partName": "CLUBHOUSE IRWO PALM COURT RAIL VIHAR ALPHA-1 R.N.-1",
+   "partId": 424077
+  },
+  {
+   "partNumber": 740,
+   "partName": "GRADUATE SCHOOL OF BUSINESS & ADMINISTRATION ALPHA-2 R.N. 01",
+   "partId": 423912
+  },
+  {
+   "partNumber": 741,
+   "partName": "GRADUATE SCHOOL OF BUSINESS & ADMINISTRATION ALPHA-2 R.N. 02",
+   "partId": 423913
+  },
+  {
+   "partNumber": 742,
+   "partName": "GRADUATE SCHOOL OF BUSINESS & ADMINISTRATION ALPHA-2 R.N. 03",
+   "partId": 423914
+  },
+  {
+   "partNumber": 743,
+   "partName": "GRADUATE SCHOOL OF BUSINESS & ADMINISTRATION ALPHA-2 R.N. 04",
+   "partId": 423915
+  },
+  {
+   "partNumber": 744,
+   "partName": "GRADUATE SCHOOL OF BUSINESS & ADMINISTRATION ALPHA-2 R.N. 05",
+   "partId": 423916
+  },
+  {
+   "partNumber": 745,
+   "partName": "GRADUATE SCHOOL OF BUSINESS & ADMINISTRATION ALPHA-2 R.N. 06",
+   "partId": 423917
+  },
+  {
+   "partNumber": 746,
+   "partName": "GRADUATE SCHOOL OF BUSINESS & ADMINISTRATION ALPHA-2 R.N.07",
+   "partId": 424064
+  },
+  {
+   "partNumber": 747,
+   "partName": "PURV MADHYAMIK VIDYALAYA CHUHARPUR KHADAR R.N. 01",
+   "partId": 423918
+  },
+  {
+   "partNumber": 748,
+   "partName": "PURV MADHYAMIK VIDYALAYA CHUHARPUR KHADAR R.N. 02",
+   "partId": 423919
+  },
+  {
+   "partNumber": 749,
+   "partName": "KIDS FOUNDATION SCHOOL PURVANCHAL ROYAL CITY CHI-5 R.N. 01",
+   "partId": 423920
+  },
+  {
+   "partNumber": 750,
+   "partName": "KIDS FOUNDATION SCHOOL PURVANCHAL ROYAL CITY CHI-5 R.N. 02",
+   "partId": 424078
+  },
+  {
+   "partNumber": 751,
+   "partName": "EXPRESS PARK VIEW-1 CLUBHOUSE R.N. 01",
+   "partId": 423921
+  },
+  {
+   "partNumber": 752,
+   "partName": "UCHCH PRATHMIK VIDYALYA MOMNATHAL R.N. 01",
+   "partId": 423922
+  },
+  {
+   "partNumber": 753,
+   "partName": "PRIMARY SCHOOL SHAFIPUR R.N. 01",
+   "partId": 423923
+  },
+  {
+   "partNumber": 754,
+   "partName": "JALWAYU VIHAR COMMUNITY HALL POCKET P 4 R.N. 01",
+   "partId": 423924
+  },
+  {
+   "partNumber": 755,
+   "partName": "JALWAYU VIHAR COMMUNITY HALL POCKET P 4 R.N. 02",
+   "partId": 423970
+  },
+  {
+   "partNumber": 756,
+   "partName": "ICON APARTMENT CLUBHOUSE CHI-3 R.N. 01",
+   "partId": 423925
+  },
+  {
+   "partNumber": 757,
+   "partName": "J. P. INTERNATIONAL SCHOOL OMEGA-1 R.N. 01",
+   "partId": 423926
+  },
+  {
+   "partNumber": 758,
+   "partName": "J P INTERNATIONAL SCHOOL OMEGA-1 R.N. 02",
+   "partId": 423999
+  },
+  {
+   "partNumber": 759,
+   "partName": "J. P. INTERNATIONAL SCHOOL OMEGA-1 R.N. 03",
+   "partId": 423927
+  },
+  {
+   "partNumber": 760,
+   "partName": "J. P. INTERNATIONAL SCHOOL OMEGA-1 R.N. 04",
+   "partId": 423928
+  },
+  {
+   "partNumber": 761,
+   "partName": "RWA OFFICE SENIOR CITIZEN SOCIETY GREATER NOIDA R.N. 01",
+   "partId": 423929
+  },
+  {
+   "partNumber": 762,
+   "partName": "RWA OFFICE SENIOR CITIZEN SOCIETY GREATER NOIDA R.N. 02",
+   "partId": 423930
+  },
+  {
+   "partNumber": 763,
+   "partName": "CLUBHOUSE ELDECO GOLF VIEW APARTMENT OMEGA-1 R.N.01",
+   "partId": 424070
+  },
+  {
+   "partNumber": 764,
+   "partName": "HIMSAGAR APARTMENT CLUBHOUSE P 4 R.N. 01",
+   "partId": 423931
+  },
+  {
+   "partNumber": 765,
+   "partName": "ANAND ASHRAY CLUBHOUSE P 4 R.N. 01",
+   "partId": 423932
+  },
+  {
+   "partNumber": 766,
+   "partName": "NURSERY SCHOOL BLOCK-F AWHO GURJINDER VIHAR R.N. 01",
+   "partId": 423933
+  },
+  {
+   "partNumber": 767,
+   "partName": "NURSERY SCHOOL BLOCK-F AWHO GURJINDER VIHAR R.N. 02",
+   "partId": 423934
+  },
+  {
+   "partNumber": 768,
+   "partName": "NURSERY SCHOOL BLOCK-F AWHO GURJINDER VIHAR R.N. 03",
+   "partId": 423935
+  },
+  {
+   "partNumber": 769,
+   "partName": "NURSERY SCHOOL BLOCK-F AWHO GURJINDER VIHAR R.N. 04",
+   "partId": 423936
+  },
+  {
+   "partNumber": 770,
+   "partName": "CLUBHOUSE SDS NRI RESIDENCY OMEGA-2 R.N. 01",
+   "partId": 423937
+  },
+  {
+   "partNumber": 771,
+   "partName": "CLUBHOUSE SDS NRI RESIDENCY OMEGA-2 R.N. 02",
+   "partId": 424071
+  },
+  {
+   "partNumber": 772,
+   "partName": "K.D.S. PUBLIC SCHOOL OMEGA-1 R.N. 01",
+   "partId": 423938
+  },
+  {
+   "partNumber": 773,
+   "partName": "K.D.S. PUBLIC SCHOOL OMEGA-1 R.N. 02",
+   "partId": 423939
+  },
+  {
+   "partNumber": 774,
+   "partName": "K.D.S. PUBLIC SCHOOL OMEGA-1 R.N. 03",
+   "partId": 423971
+  },
+  {
+   "partNumber": 775,
+   "partName": "NSG NURSERY SCHOOL POCKET-6 GREATER NOIDA R.N.01",
+   "partId": 424072
+  },
+  {
+   "partNumber": 776,
+   "partName": "CLUBHOUSE ATS GREEN PARADISO CHI-4 R.N. 01",
+   "partId": 423940
+  },
+  {
+   "partNumber": 777,
+   "partName": "CLUBHOUSE ATS GREEN PARADISO CHI-4 R.N. 02",
+   "partId": 423972
+  },
+  {
+   "partNumber": 778,
+   "partName": "UCHCH PRATHMIK VIDYALYA MAKAUDA R.N.1",
+   "partId": 423941
+  },
+  {
+   "partNumber": 779,
+   "partName": "UCHCH PRATHMIK VIDYALYA MAKAUDA R.N.2",
+   "partId": 423942
+  },
+  {
+   "partNumber": 780,
+   "partName": "PRIMARY SCHOOL JAITPUR VAISHPUR R.N. 01",
+   "partId": 423943
+  },
+  {
+   "partNumber": 781,
+   "partName": "PRIMARY SCHOOL JAITPUR VAISHPUR R.N. 02",
+   "partId": 423944
+  },
+  {
+   "partNumber": 782,
+   "partName": "PRIMARY SCHOOL JAITPUR VAISHPUR R.N. 03",
+   "partId": 423973
+  },
+  {
+   "partNumber": 783,
+   "partName": "UCHCH PRATHMIK VIDYALYA JHATTA R.N. 01",
+   "partId": 423945
+  },
+  {
+   "partNumber": 784,
+   "partName": "PRIMARY SCHOOL GULAWALI R.N. 01",
+   "partId": 423946
+  },
+  {
+   "partNumber": 785,
+   "partName": "PRIMARY SCHOOL GULAWALI R.N. 02",
+   "partId": 423947
+  },
+  {
+   "partNumber": 786,
+   "partName": "TEMPORARY STRUCTURE DALELPUR R N 1",
+   "partId": 424000
+  },
+  {
+   "partNumber": 787,
+   "partName": "UCHCH PRATHMIK VIDYALYA BADAULI BANGAR R. N. 1",
+   "partId": 423948
+  },
+  {
+   "partNumber": 788,
+   "partName": "UCHCH PRATHMIK VIDYALYA BADAULI BANGAR R. N. 2",
+   "partId": 423949
+  },
+  {
+   "partNumber": 789,
+   "partName": "UCHCH PRATHMIK VIDYALYA BADAULI BANGAR R. N. 3",
+   "partId": 424079
+  },
+  {
+   "partNumber": 790,
+   "partName": "MAHATMA GANDHI JUNIOR HIGH SCHOOL KAUNDALI BANGAR R.N. 01",
+   "partId": 423950
+  },
+  {
+   "partNumber": 791,
+   "partName": "MAHATMA GANDHI JUNIOR HIGH SCHOOL KAUNDALI BANGAR R.N. 02",
+   "partId": 423951
+  },
+  {
+   "partNumber": 792,
+   "partName": "ATS PRISTINE CLUBHOUSE SECTOR 150 NOIDA  R.N. 01",
+   "partId": 423952
+  },
+  {
+   "partNumber": 793,
+   "partName": "UCHCH PRATHMIK VIDYALYA DERI KAMBAKSHPUR R.N. 01",
+   "partId": 423953
+  },
+  {
+   "partNumber": 794,
+   "partName": "PRIMARY SCHOOL GARHI SAMASTPUR R.N. 01",
+   "partId": 423954
+  }
+ ]
+}
