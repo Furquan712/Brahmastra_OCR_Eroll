@@ -17,6 +17,9 @@ export interface Rect { left: number; top: number; width: number; height: number
 
 export interface LocalCard {
   rect: Rect;
+  /** DELETED-stamp features (see stampFromPixels); `deleted` is set when both pass their thresholds. */
+  stampBand?: number;
+  stampResidBand?: number;
   /** Index of `rect` in the rectangles given to localReadCards (cells that were not cards are skipped). */
   index: number;
   serial: number | null;
@@ -314,6 +317,78 @@ export function classifyHeader(headerText: string, hasBands: boolean, pageNo: nu
 
 /* ---------- image-level ---------- */
 
+// DELETED stamp: a diagonal grey "DELETED" watermark printed across the card of an elector removed
+// after the draft (the serial box then carries the reason letter: E expired, S shifted, R duplicate...).
+// Tesseract rarely reads the rotated word, and the overprint garbles the name and gender instead, so
+// the stamp is detected from the pixels: the grey ink is sheared so that a line rising at 30 degrees
+// becomes a row, and the densest window of rows is measured. Printed text lies horizontally and
+// spreads out under the shear; the stamp collapses into one dense band. The same measure on the grey
+// ink that is not next to black ink (text edges removed) separates stamped cards from clean cards
+// with long text. Calibrated at 200 dpi on 35 hand-checked Jewar cards; crops are rescaled to that.
+const STAMP_DPI = 200;
+const STAMP_TAN = 0.5774;       // tan 30°
+const STAMP_WINDOW = 0.12;      // band window as a fraction of the card height
+const STAMP_BLACK = 100;        // v < 100: black (text core)
+const STAMP_GREY_MAX = 235;     // 100 <= v < 235: grey ink
+const STAMP_DILATE = 2;         // text edges: within 2 px of black at 200 dpi
+export const STAMP_BAND_MIN = 0.15;       // all grey ink: stamped >= 0.168, clean <= 0.172 (overlap on text-heavy cards)
+export const STAMP_RESID_BAND_MIN = 0.04; // grey ink away from text: stamped >= 0.045, clean <= 0.035
+
+export interface StampScore { band: number; residBand: number; stamped: boolean }
+
+/** Densest 30° band of a binary mask (row-major, h × w), as a fraction of the card width. */
+export function shearBand(mask: Uint8Array, w: number, h: number): number {
+  const maxShift = Math.floor((w - 1) * STAMP_TAN);
+  const acc = new Float64Array(h + maxShift + 1);
+  for (let x = 0; x < w; x++) {
+    const shift = Math.floor(x * STAMP_TAN);
+    for (let y = 0; y < h; y++) if (mask[y * w + x]) acc[y + shift] += 1;
+  }
+  const win = Math.max(3, Math.floor(STAMP_WINDOW * h));
+  let sum = 0, best = 0;
+  for (let i = 0; i < acc.length; i++) {
+    sum += acc[i];
+    if (i >= win) sum -= acc[i - win];
+    if (i >= win - 1 && sum > best) best = sum;
+  }
+  return best / (win * w);
+}
+
+/** Stamp features of one greyscale card image (one byte per pixel) already at STAMP_DPI. */
+export function stampFromPixels(px: Uint8Array, w: number, h: number): StampScore {
+  const n = w * h;
+  const black = new Uint8Array(n), grey = new Uint8Array(n);
+  for (let i = 0; i < n; i++) {
+    const v = px[i];
+    if (v < STAMP_BLACK) black[i] = 1;
+    else if (v < STAMP_GREY_MAX) grey[i] = 1;
+  }
+  // dilate black by STAMP_DILATE (separable max filter), then grey minus the dilated black
+  const d = STAMP_DILATE, tmp = new Uint8Array(n), near = new Uint8Array(n);
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+    let v = 0;
+    for (let k = -d; k <= d && !v; k++) { const xx = x + k; if (xx >= 0 && xx < w && black[y * w + xx]) v = 1; }
+    tmp[y * w + x] = v;
+  }
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+    let v = 0;
+    for (let k = -d; k <= d && !v; k++) { const yy = y + k; if (yy >= 0 && yy < h && tmp[yy * w + x]) v = 1; }
+    near[y * w + x] = v;
+  }
+  const resid = new Uint8Array(n);
+  for (let i = 0; i < n; i++) resid[i] = grey[i] && !near[i] ? 1 : 0;
+  const band = shearBand(grey, w, h), residBand = shearBand(resid, w, h);
+  return { band, residBand, stamped: band >= STAMP_BAND_MIN && residBand >= STAMP_RESID_BAND_MIN };
+}
+
+/** Stamp score of the card at `r` on the page; the crop is rescaled from `density` dpi to STAMP_DPI. */
+async function stampScore(page: PageSource, r: Rect, density: number): Promise<StampScore> {
+  const scale = STAMP_DPI / (density || 300);
+  const w = Math.max(8, Math.round(r.width * scale));
+  const { data, info } = await pageSharp(page).extract(r).greyscale().resize({ width: w, kernel: "lanczos3" }).raw().toBuffer({ resolveWithObject: true });
+  return stampFromPixels(new Uint8Array(data.buffer, data.byteOffset, data.length), info.width, info.height);
+}
+
 function sub(r: Rect, box: { left: number; top: number; width: number; height: number }): Rect {
   return {
     left: Math.round(r.left + r.width * box.left),
@@ -489,8 +564,11 @@ export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Te
   const serialBoxFound: boolean[] = [];
   const bodyCrops: Buffer[] = [];
   const bodyCropsHi: Buffer[] = [];
+  const stampScores: StampScore[] = [];
+  const density = typeof pngPath === "string" ? (await sharp(pngPath).metadata()).density ?? 300 : pngPath.density ?? 300;
   const hindiOnly = L.langs.split("+").includes("hin") ? "hin" : L.langs;
   for (const r of rects) {
+    stampScores.push(await stampScore(pngPath, r, density));
     const e = sub(r, L.epicBox);
     epicCrops.push(await img.clone().extract(e).greyscale().png().toBuffer());
     epicCrops2x.push(await img.clone().extract(e).resize({ width: e.width * 2, kernel: "lanczos3" }).greyscale().normalise().png().toBuffer());
@@ -633,7 +711,8 @@ export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Te
       relationTypeHi: body.relationTypeHi, relationNameHi: body.relationNameHi, relationConf: body.relationConf,
       houseNo: body.houseNo, houseConf: body.houseConf,
       age: body.age, genderHi: body.genderHi, ageGenderConf: body.ageGenderConf,
-      deleted: body.deleted,
+      deleted: body.deleted || stampScores[i].stamped,
+      stampBand: stampScores[i].band, stampResidBand: stampScores[i].residBand,
       escalate,
       confidence: Math.max(0, Math.min(...key)),
     });
