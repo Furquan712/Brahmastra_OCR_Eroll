@@ -2,8 +2,8 @@
 # Controlled throughput benchmark: same 4 PDFs (first 12 pages each), local engine,
 # page-concurrency 1,2,4,8,10 on an otherwise idle Apple M4 (10 cores).
 set -u
-B=/private/tmp/claude-501/-Users-Shared-OCR/d2b5fd08-444f-4984-a4bf-57099a44023c/scratchpad/bench
-P=/Users/furquan/OCR/Brahmastra_OCR
+B="$(cd "$(dirname "$0")" && pwd)"            # this folder: put the sample PDFs in $B/pdfs/
+P="$(cd "$B/../../.." && pwd)"                # project root (dist/cli.js)
 AC="$B/raw/Uttar Pradesh/131-Katra-2026-Final"
 mkdir -p "$AC"
 # wait until all 4 PDFs are complete (pdfinfo succeeds)
