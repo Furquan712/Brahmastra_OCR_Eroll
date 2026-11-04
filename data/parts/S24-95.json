@@ -1,0 +1,2302 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2411",
+ "acNumber": 95,
+ "fetchedAt": "2026-11-01T08:34:40",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 458,
+ "maxPart": 458,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "P.V. GOTHUA R.N. 1",
+   "partId": 399377
+  },
+  {
+   "partNumber": 2,
+   "partName": "P.V. GOTHUA R.N. 2",
+   "partId": 399378
+  },
+  {
+   "partNumber": 3,
+   "partName": "P.V. MILIK",
+   "partId": 399379
+  },
+  {
+   "partNumber": 4,
+   "partName": "U.P.V. BAGHAI-2ND (1-8)",
+   "partId": 399380
+  },
+  {
+   "partNumber": 5,
+   "partName": "P.V. RAJAPUR",
+   "partId": 399381
+  },
+  {
+   "partNumber": 6,
+   "partName": "P.V. NAGLA PAAR R.N. 1",
+   "partId": 399382
+  },
+  {
+   "partNumber": 7,
+   "partName": "U.P.V. NAGLA PAAR",
+   "partId": 399383
+  },
+  {
+   "partNumber": 8,
+   "partName": "P.V. KAILASHPUR",
+   "partId": 399384
+  },
+  {
+   "partNumber": 9,
+   "partName": "U.P.V. RAJMAL (1-8) R.N. 1",
+   "partId": 399385
+  },
+  {
+   "partNumber": 10,
+   "partName": "U.P.V. RAJMAL (1-8) R.N. 2",
+   "partId": 399386
+  },
+  {
+   "partNumber": 11,
+   "partName": "U.P.V. DHAKAI (1-8)",
+   "partId": 399387
+  },
+  {
+   "partNumber": 12,
+   "partName": "P.V. RAMPUR 2ND",
+   "partId": 399388
+  },
+  {
+   "partNumber": 13,
+   "partName": "PANCHAYAT GHAR GARH",
+   "partId": 399389
+  },
+  {
+   "partNumber": 14,
+   "partName": "U.P.V. MANDANPUR",
+   "partId": 399390
+  },
+  {
+   "partNumber": 15,
+   "partName": "U.P.V. GARH SHEKHUPUR (1-8)",
+   "partId": 399391
+  },
+  {
+   "partNumber": 16,
+   "partName": "U.P.V. BHAUNDELA (1-8) (PAHADIPUR)",
+   "partId": 399392
+  },
+  {
+   "partNumber": 17,
+   "partName": "P.V. JARARA",
+   "partId": 399393
+  },
+  {
+   "partNumber": 18,
+   "partName": "P.V. MOHBALLI",
+   "partId": 399394
+  },
+  {
+   "partNumber": 19,
+   "partName": "P.V. NAGLA DHANVANT",
+   "partId": 399395
+  },
+  {
+   "partNumber": 20,
+   "partName": "U.P.V. RAJAVALI (1-8) R.N. 1",
+   "partId": 399396
+  },
+  {
+   "partNumber": 21,
+   "partName": "U.P.V. RAJAVALI (1-8) R.N. 2",
+   "partId": 399397
+  },
+  {
+   "partNumber": 22,
+   "partName": "U.P.V. BHAINSABRIJPUR (1-8)",
+   "partId": 399398
+  },
+  {
+   "partNumber": 23,
+   "partName": "U.P.V. KATIKI (1-8)",
+   "partId": 399399
+  },
+  {
+   "partNumber": 24,
+   "partName": "P.V. GARHI HATI",
+   "partId": 399400
+  },
+  {
+   "partNumber": 25,
+   "partName": "P.V. GARHI UTTAM",
+   "partId": 399401
+  },
+  {
+   "partNumber": 26,
+   "partName": "U.P.V. KUTUKPUR (1-8)",
+   "partId": 399402
+  },
+  {
+   "partNumber": 27,
+   "partName": "RAMBETI J.H.S. IMALIYA",
+   "partId": 399403
+  },
+  {
+   "partNumber": 28,
+   "partName": "J.I.C. TAJAPUR",
+   "partId": 399404
+  },
+  {
+   "partNumber": 29,
+   "partName": "P.V. LAKHNAI",
+   "partId": 399405
+  },
+  {
+   "partNumber": 30,
+   "partName": "P.V. RAMGHARH R.N. 1",
+   "partId": 399406
+  },
+  {
+   "partNumber": 31,
+   "partName": "P. V. RAMGARH R.N. 2",
+   "partId": 400434
+  },
+  {
+   "partNumber": 32,
+   "partName": "P.V. CHILASANI R.N. 1",
+   "partId": 399407
+  },
+  {
+   "partNumber": 33,
+   "partName": "P.V. CHILASANI R.N. 2",
+   "partId": 399408
+  },
+  {
+   "partNumber": 34,
+   "partName": "P.V. KESHORAI",
+   "partId": 399409
+  },
+  {
+   "partNumber": 35,
+   "partName": "P.V. RUDHAU MUSTKIL",
+   "partId": 399410
+  },
+  {
+   "partNumber": 36,
+   "partName": "P.V. GARHI VIJAY",
+   "partId": 399411
+  },
+  {
+   "partNumber": 37,
+   "partName": "U.P.V. GARHI BHAKTI (1-8) R.N. 1",
+   "partId": 399412
+  },
+  {
+   "partNumber": 38,
+   "partName": "U.P.V. GARHI BHAKTI (1-8) R.N. 2",
+   "partId": 399413
+  },
+  {
+   "partNumber": 39,
+   "partName": "U.P.V. GARHI BHAKTI (1-8) R.N. 3",
+   "partId": 399414
+  },
+  {
+   "partNumber": 40,
+   "partName": "P.V. NAGLA ISMAIL R.N. 1",
+   "partId": 399415
+  },
+  {
+   "partNumber": 41,
+   "partName": "P.V. NAGLA ISMAIL R.N. 2",
+   "partId": 399416
+  },
+  {
+   "partNumber": 42,
+   "partName": "VEER KANYA J.H.S. TUNDLA R.N. 1",
+   "partId": 399417
+  },
+  {
+   "partNumber": 43,
+   "partName": "VEER KANYA J.H.S. TUNDLA R.N. 2",
+   "partId": 399418
+  },
+  {
+   "partNumber": 44,
+   "partName": "PANCHAYAT BHAWAN, TUNDLA KHAAM",
+   "partId": 399419
+  },
+  {
+   "partNumber": 45,
+   "partName": "P.V. NAGLA RATIYA R.N. 1",
+   "partId": 399420
+  },
+  {
+   "partNumber": 46,
+   "partName": "P.V. NAGLA RATIYA R.N. 2",
+   "partId": 399421
+  },
+  {
+   "partNumber": 47,
+   "partName": "P.V. NAGLA RATIYA R.N. 3",
+   "partId": 399422
+  },
+  {
+   "partNumber": 48,
+   "partName": "P.V. NAGLA RATIYA (ANAGANWADI KENDRA)",
+   "partId": 399423
+  },
+  {
+   "partNumber": 49,
+   "partName": "BHARTIYA J.H.S. NAGLA LALLU R.N. 1",
+   "partId": 399424
+  },
+  {
+   "partNumber": 50,
+   "partName": "BHARTIYA J.H.S. NAGLA LALLU R.N. 2",
+   "partId": 399425
+  },
+  {
+   "partNumber": 51,
+   "partName": "BHARTIYA J.H.S. NAGLA LALLU R.N. 3",
+   "partId": 399426
+  },
+  {
+   "partNumber": 52,
+   "partName": "U.P.V. NAGLA BALIYA (1-8)",
+   "partId": 399427
+  },
+  {
+   "partNumber": 53,
+   "partName": "P.V. NAGLA SONA R.N. 1",
+   "partId": 399428
+  },
+  {
+   "partNumber": 54,
+   "partName": "U.P.V. MANI GARHI (1-8) R.N. 1",
+   "partId": 399429
+  },
+  {
+   "partNumber": 55,
+   "partName": "U.P.V. MANI GARHI (1-8) R.N. 2",
+   "partId": 399430
+  },
+  {
+   "partNumber": 56,
+   "partName": "P.V. GARHI USRA",
+   "partId": 399431
+  },
+  {
+   "partNumber": 57,
+   "partName": "P.V. NIWAJPUR",
+   "partId": 399432
+  },
+  {
+   "partNumber": 58,
+   "partName": "P.V. PAMARI R.N. 1",
+   "partId": 399433
+  },
+  {
+   "partNumber": 59,
+   "partName": "P.V. PAMARI R.N. 2",
+   "partId": 399434
+  },
+  {
+   "partNumber": 60,
+   "partName": "P.V. NAGLA JAAT",
+   "partId": 399435
+  },
+  {
+   "partNumber": 61,
+   "partName": "P.V. GARHI MOTI",
+   "partId": 399436
+  },
+  {
+   "partNumber": 62,
+   "partName": "U.P.V. HEMRAJPUR (1-8)",
+   "partId": 399437
+  },
+  {
+   "partNumber": 63,
+   "partName": "U.P.V. BURJ WALE (1-8)",
+   "partId": 399438
+  },
+  {
+   "partNumber": 64,
+   "partName": "U.P.V. GARHI HARRAI (1-8)",
+   "partId": 399439
+  },
+  {
+   "partNumber": 65,
+   "partName": "P.V. JOGPURA",
+   "partId": 399616
+  },
+  {
+   "partNumber": 66,
+   "partName": "P.V. ETA",
+   "partId": 399617
+  },
+  {
+   "partNumber": 67,
+   "partName": "P.V. SALEMPUR R.N. 1",
+   "partId": 399618
+  },
+  {
+   "partNumber": 68,
+   "partName": "P.V. SALEMPUR R.N. 2",
+   "partId": 399619
+  },
+  {
+   "partNumber": 69,
+   "partName": "P.V. NAGLA DHAAK",
+   "partId": 399620
+  },
+  {
+   "partNumber": 70,
+   "partName": "U.P.V. NAGLA AJAB (1-8)",
+   "partId": 399621
+  },
+  {
+   "partNumber": 71,
+   "partName": "P.V. BURJ NATTHU R.N. 1",
+   "partId": 399622
+  },
+  {
+   "partNumber": 72,
+   "partName": "P.V. BURJ NATTHU R.N. 2",
+   "partId": 399623
+  },
+  {
+   "partNumber": 73,
+   "partName": "P.V. GARHI BHUPAL",
+   "partId": 399624
+  },
+  {
+   "partNumber": 74,
+   "partName": "P.V. MARSENA R.N. 1",
+   "partId": 399625
+  },
+  {
+   "partNumber": 75,
+   "partName": "P.V. MARSENA R.N. 2",
+   "partId": 399626
+  },
+  {
+   "partNumber": 76,
+   "partName": "P.V. BURJ SATHI",
+   "partId": 399627
+  },
+  {
+   "partNumber": 77,
+   "partName": "U.P.V. IMALIYA",
+   "partId": 399628
+  },
+  {
+   "partNumber": 78,
+   "partName": "P.V. NAGLA DAL R.N. 1",
+   "partId": 399629
+  },
+  {
+   "partNumber": 79,
+   "partName": "P.V. NAGLA DAL R.N. 2",
+   "partId": 399630
+  },
+  {
+   "partNumber": 80,
+   "partName": "P.V. GHIRAULI",
+   "partId": 399631
+  },
+  {
+   "partNumber": 81,
+   "partName": "U.P.V. GHIRAULI",
+   "partId": 399632
+  },
+  {
+   "partNumber": 82,
+   "partName": "P.V. DEVKHEDA",
+   "partId": 399633
+  },
+  {
+   "partNumber": 83,
+   "partName": "U.P.V. DEVKHEDA",
+   "partId": 399634
+  },
+  {
+   "partNumber": 84,
+   "partName": "P.V. NAGLA MAHADEV (DEVKHEDA)",
+   "partId": 399635
+  },
+  {
+   "partNumber": 85,
+   "partName": "P.V. BURJ BHAJAN",
+   "partId": 399636
+  },
+  {
+   "partNumber": 86,
+   "partName": "U.P.V. NAGLA GANGARAM (1-8) R.N. 1",
+   "partId": 399637
+  },
+  {
+   "partNumber": 87,
+   "partName": "U.P.V. NAGLA GANGARAM (1-8) R.N. 2",
+   "partId": 399638
+  },
+  {
+   "partNumber": 88,
+   "partName": "KRISHAK U.M.V. PACHOKHARA R.N. 1",
+   "partId": 399639
+  },
+  {
+   "partNumber": 89,
+   "partName": "KRISHAK U.M.V. PACHOKHARA R.N. 2",
+   "partId": 399640
+  },
+  {
+   "partNumber": 90,
+   "partName": "KRISHAK U.M.V. PACHOKHARA R.N. 3",
+   "partId": 399641
+  },
+  {
+   "partNumber": 91,
+   "partName": "P.V. GALIB",
+   "partId": 399642
+  },
+  {
+   "partNumber": 92,
+   "partName": "P.V. GARHI JORI",
+   "partId": 399643
+  },
+  {
+   "partNumber": 93,
+   "partName": "P.V. BHOOTNAGRIYA",
+   "partId": 399644
+  },
+  {
+   "partNumber": 94,
+   "partName": "P.V. KOTAKI R.N. 1",
+   "partId": 399645
+  },
+  {
+   "partNumber": 95,
+   "partName": "P.V. KOTAKI R.N. 2",
+   "partId": 399646
+  },
+  {
+   "partNumber": 96,
+   "partName": "P.V. KOTAKI R.N. 3",
+   "partId": 399647
+  },
+  {
+   "partNumber": 97,
+   "partName": "P.V. KOTAKI R.N. 4",
+   "partId": 399648
+  },
+  {
+   "partNumber": 98,
+   "partName": "P.V. TOOLA R.N. 1",
+   "partId": 399649
+  },
+  {
+   "partNumber": 99,
+   "partName": "P.V. TOOLA R.N. 1",
+   "partId": 400435
+  },
+  {
+   "partNumber": 100,
+   "partName": "P.V. HIMMATPUR R.N. 1",
+   "partId": 399650
+  },
+  {
+   "partNumber": 101,
+   "partName": "P.V. HIMMATPUR R.N. 2",
+   "partId": 399651
+  },
+  {
+   "partNumber": 102,
+   "partName": "U.P.V. NAGLA SURAJ (1-8) R.N. 1",
+   "partId": 399652
+  },
+  {
+   "partNumber": 103,
+   "partName": "U.P.V. NAGLA SURAJ (1-8) R.N. 2",
+   "partId": 400436
+  },
+  {
+   "partNumber": 104,
+   "partName": "P.V. PAKHARPURA R.N. 1",
+   "partId": 399653
+  },
+  {
+   "partNumber": 105,
+   "partName": "P.V. PAKHARPURA R.N. 2",
+   "partId": 399654
+  },
+  {
+   "partNumber": 106,
+   "partName": "P.V. NAGLA MAWASI",
+   "partId": 399655
+  },
+  {
+   "partNumber": 107,
+   "partName": "P.V. GARHI MADARI",
+   "partId": 399656
+  },
+  {
+   "partNumber": 108,
+   "partName": "U.P.V. CHHIKAU",
+   "partId": 399657
+  },
+  {
+   "partNumber": 109,
+   "partName": "P.V. CHHIKAU",
+   "partId": 399658
+  },
+  {
+   "partNumber": 110,
+   "partName": "P.V. GARHI THAKUR",
+   "partId": 399659
+  },
+  {
+   "partNumber": 111,
+   "partName": "U.P.V. NAGLA SIKANDAR (1-8) R.N. 1",
+   "partId": 399660
+  },
+  {
+   "partNumber": 112,
+   "partName": "U.P.V. NAGLA SIKANDAR (1-8) R.N. 2",
+   "partId": 399661
+  },
+  {
+   "partNumber": 113,
+   "partName": "U.P.V. NAGLA SIKANDAR (1-8) R.N. 3",
+   "partId": 400437
+  },
+  {
+   "partNumber": 114,
+   "partName": "P.V. MOHAMMADI  R.N. 1",
+   "partId": 399662
+  },
+  {
+   "partNumber": 115,
+   "partName": "P.V. MOHAMMADI  R.N. 3",
+   "partId": 399663
+  },
+  {
+   "partNumber": 116,
+   "partName": "P.V. MOHAMMADI  R.N. 2",
+   "partId": 399664
+  },
+  {
+   "partNumber": 117,
+   "partName": "P.V. RUDHAU R.N. 1",
+   "partId": 399665
+  },
+  {
+   "partNumber": 118,
+   "partName": "U.P.V. NAGLA ISHWARI (1-8)",
+   "partId": 399666
+  },
+  {
+   "partNumber": 119,
+   "partName": "P.V. KHERA LANGAR",
+   "partId": 399667
+  },
+  {
+   "partNumber": 120,
+   "partName": "P.V. PAHADPUR",
+   "partId": 399668
+  },
+  {
+   "partNumber": 121,
+   "partName": "NEHRU VIDDYA MANDIR RATIGARHI R.N. 1",
+   "partId": 399669
+  },
+  {
+   "partNumber": 122,
+   "partName": "NEHRU VIDDYA MANDIR RATIGARHI R.N. 2",
+   "partId": 399670
+  },
+  {
+   "partNumber": 123,
+   "partName": "NEHRU VIDDYA MANDIR RATIGARHI R.N. 3",
+   "partId": 399671
+  },
+  {
+   "partNumber": 124,
+   "partName": "NEHRU VIDDYA MANDIR RATI GARHI R.N. 4",
+   "partId": 400438
+  },
+  {
+   "partNumber": 125,
+   "partName": "P.V. PIPRAULI R.N. 1",
+   "partId": 399672
+  },
+  {
+   "partNumber": 126,
+   "partName": "P.V. PIPRAULI R.N. 2",
+   "partId": 399673
+  },
+  {
+   "partNumber": 127,
+   "partName": "P.V. KHUSHALPUR",
+   "partId": 399674
+  },
+  {
+   "partNumber": 128,
+   "partName": "P.V. LALGARHI",
+   "partId": 399675
+  },
+  {
+   "partNumber": 129,
+   "partName": "R.R.M. INTER COLLEGE BACHHGAON R.N. 1",
+   "partId": 399676
+  },
+  {
+   "partNumber": 130,
+   "partName": "R.R.M. INTER COLLEGE BACHHGAON R.N. 2",
+   "partId": 399677
+  },
+  {
+   "partNumber": 131,
+   "partName": "R.R.M. INTER COLLEGE BACHHGAON R.N. 3",
+   "partId": 399678
+  },
+  {
+   "partNumber": 132,
+   "partName": "P.V. GARHI PURANI",
+   "partId": 399679
+  },
+  {
+   "partNumber": 133,
+   "partName": "P.V. SAKHAWATPUR",
+   "partId": 399744
+  },
+  {
+   "partNumber": 134,
+   "partName": "U.P.V. SARAI NOORMAHAL (1-8)",
+   "partId": 399745
+  },
+  {
+   "partNumber": 135,
+   "partName": "P.V. NAGLA RAIYA",
+   "partId": 399746
+  },
+  {
+   "partNumber": 136,
+   "partName": "P.V. SHIVSINGHPUR R.N. 1",
+   "partId": 399747
+  },
+  {
+   "partNumber": 137,
+   "partName": "P V SHIVSINGHPUR R.N. 2",
+   "partId": 400439
+  },
+  {
+   "partNumber": 138,
+   "partName": "P.V. GARHI NIRBHAY R.N. 1",
+   "partId": 399748
+  },
+  {
+   "partNumber": 139,
+   "partName": "P.V. GARHI NIRBHAY R.N. 2",
+   "partId": 399749
+  },
+  {
+   "partNumber": 140,
+   "partName": "P.V. RAMNAGAR",
+   "partId": 399750
+  },
+  {
+   "partNumber": 141,
+   "partName": "U.P.V. JAARKHI",
+   "partId": 399751
+  },
+  {
+   "partNumber": 142,
+   "partName": "P.V. SUJATNAGAR",
+   "partId": 399752
+  },
+  {
+   "partNumber": 143,
+   "partName": "P.V. DHARAMPUR",
+   "partId": 399753
+  },
+  {
+   "partNumber": 144,
+   "partName": "P.V. AANANDPUR",
+   "partId": 399754
+  },
+  {
+   "partNumber": 145,
+   "partName": "P.V. NAGLA KALUA R.N. 1",
+   "partId": 399755
+  },
+  {
+   "partNumber": 146,
+   "partName": "U.P.V. SIKRARI (1-8) R.N. 1",
+   "partId": 399756
+  },
+  {
+   "partNumber": 147,
+   "partName": "U.P.V. SIKRARI (1-8) R.N. 2",
+   "partId": 399757
+  },
+  {
+   "partNumber": 148,
+   "partName": "P.V. ALAWALPUR R.N. 1",
+   "partId": 399758
+  },
+  {
+   "partNumber": 149,
+   "partName": "P.V. ALAWALPUR R.N. 2",
+   "partId": 399759
+  },
+  {
+   "partNumber": 150,
+   "partName": "P.V. PARTAPPUR",
+   "partId": 399760
+  },
+  {
+   "partNumber": 151,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 1",
+   "partId": 399761
+  },
+  {
+   "partNumber": 152,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 2",
+   "partId": 399762
+  },
+  {
+   "partNumber": 153,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 3",
+   "partId": 399763
+  },
+  {
+   "partNumber": 154,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 4",
+   "partId": 399764
+  },
+  {
+   "partNumber": 155,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 5",
+   "partId": 399765
+  },
+  {
+   "partNumber": 156,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 6",
+   "partId": 399766
+  },
+  {
+   "partNumber": 157,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 7",
+   "partId": 399767
+  },
+  {
+   "partNumber": 158,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 8",
+   "partId": 399768
+  },
+  {
+   "partNumber": 159,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 9",
+   "partId": 399769
+  },
+  {
+   "partNumber": 160,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 10",
+   "partId": 399770
+  },
+  {
+   "partNumber": 161,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 11",
+   "partId": 399771
+  },
+  {
+   "partNumber": 162,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 12",
+   "partId": 400455
+  },
+  {
+   "partNumber": 163,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 13",
+   "partId": 400456
+  },
+  {
+   "partNumber": 164,
+   "partName": "THAKUR BIRI SINGH INTER COLLEGE TUNDLA R.N. 14",
+   "partId": 400457
+  },
+  {
+   "partNumber": 165,
+   "partName": "P.V. BASAI R.N. 1",
+   "partId": 399772
+  },
+  {
+   "partNumber": 166,
+   "partName": "P.V. BASAI R.N. 2",
+   "partId": 399773
+  },
+  {
+   "partNumber": 167,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 9",
+   "partId": 399774
+  },
+  {
+   "partNumber": 168,
+   "partName": "G.G.I.C. TUNDLA R.N. 9",
+   "partId": 399775
+  },
+  {
+   "partNumber": 169,
+   "partName": "G.G.I.C. TUNDLA R.N. 2",
+   "partId": 399776
+  },
+  {
+   "partNumber": 170,
+   "partName": "G.G.I.C. TUNDLA R.N. 3",
+   "partId": 399777
+  },
+  {
+   "partNumber": 171,
+   "partName": "G.G.I.C. TUNDLA R.N. 4",
+   "partId": 399778
+  },
+  {
+   "partNumber": 172,
+   "partName": "G.G.I.C. TUNDLA R.N. 5",
+   "partId": 399779
+  },
+  {
+   "partNumber": 173,
+   "partName": "G.G.I.C. TUNDLA R.N. 10",
+   "partId": 399780
+  },
+  {
+   "partNumber": 174,
+   "partName": "G.G.I.C. TUNDLA R.N. 6",
+   "partId": 399781
+  },
+  {
+   "partNumber": 175,
+   "partName": "G.G.I.C. TUNDLA R.N. 7",
+   "partId": 399782
+  },
+  {
+   "partNumber": 176,
+   "partName": "G.G.I.C. TUNDLA R.N. 8",
+   "partId": 399783
+  },
+  {
+   "partNumber": 177,
+   "partName": "U.P.V. BANNA (1-8) R.N. 1",
+   "partId": 399784
+  },
+  {
+   "partNumber": 178,
+   "partName": "U.P.V. BANNA (1-8) R.N. 2",
+   "partId": 399785
+  },
+  {
+   "partNumber": 179,
+   "partName": "U.P.V. BANNA (1-8) R.N. 3",
+   "partId": 399786
+  },
+  {
+   "partNumber": 180,
+   "partName": "P.V. CHHITRAI R.N. 1",
+   "partId": 399787
+  },
+  {
+   "partNumber": 181,
+   "partName": "P.V. CHHITRAI R.N. 2",
+   "partId": 399788
+  },
+  {
+   "partNumber": 182,
+   "partName": "U.P.V. NAGLA PUNNU (1-8) R.N. 1",
+   "partId": 399789
+  },
+  {
+   "partNumber": 183,
+   "partName": "U P V NAGLA PUNNU (1-8) R.N. 2",
+   "partId": 400440
+  },
+  {
+   "partNumber": 184,
+   "partName": "P.V. MOHAMMADABAD R.N. 1",
+   "partId": 399790
+  },
+  {
+   "partNumber": 185,
+   "partName": "P.V. MOHAMMADABAD R.N. 2",
+   "partId": 399791
+  },
+  {
+   "partNumber": 186,
+   "partName": "P.V. MOHAMMADABAD R.N. 3",
+   "partId": 399792
+  },
+  {
+   "partNumber": 187,
+   "partName": "P.V. MOHAMMADABAD R.N. 4 (ANGANWADI KENDRA)",
+   "partId": 399793
+  },
+  {
+   "partNumber": 188,
+   "partName": "GANDHI J.H.S. TUNDLI R.N. 1",
+   "partId": 399794
+  },
+  {
+   "partNumber": 189,
+   "partName": "GANDHI J.H.S. TUNDLI R.N. 2",
+   "partId": 399795
+  },
+  {
+   "partNumber": 190,
+   "partName": "GANDHI J.H.S. TUNDLI R.N. 3",
+   "partId": 399796
+  },
+  {
+   "partNumber": 191,
+   "partName": "P.V. TUNDLI R.N. 1",
+   "partId": 399797
+  },
+  {
+   "partNumber": 192,
+   "partName": "P.V. TUNDLI R.N. 2",
+   "partId": 399798
+  },
+  {
+   "partNumber": 193,
+   "partName": "N.C.R. INTER COLLEGE TUNDLA R.N. 1",
+   "partId": 399799
+  },
+  {
+   "partNumber": 194,
+   "partName": "N.C.R. INTER COLLEGE TUNDLA R.N. 2",
+   "partId": 399800
+  },
+  {
+   "partNumber": 195,
+   "partName": "N.C.R. INTER COLLEGE TUNDLA R.N. 3",
+   "partId": 399801
+  },
+  {
+   "partNumber": 196,
+   "partName": "N.C.R. INTER COLLEGE TUNDLA R.N. 4",
+   "partId": 399802
+  },
+  {
+   "partNumber": 197,
+   "partName": "N.C.R. INTER COLLEGE TUNDLA R.N. 5",
+   "partId": 399803
+  },
+  {
+   "partNumber": 198,
+   "partName": "P.V. KACHCHA TUNDLA R.N. 1",
+   "partId": 399804
+  },
+  {
+   "partNumber": 199,
+   "partName": "P.V. KACHCHA TUNDLA R.N. 2",
+   "partId": 399805
+  },
+  {
+   "partNumber": 200,
+   "partName": "N.C.R. MIXED P.V. TUNDLA",
+   "partId": 399806
+  },
+  {
+   "partNumber": 201,
+   "partName": "PRIMARY KANYA PATHSHALA TUNDLA",
+   "partId": 399807
+  },
+  {
+   "partNumber": 202,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 5",
+   "partId": 399808
+  },
+  {
+   "partNumber": 203,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 6",
+   "partId": 399809
+  },
+  {
+   "partNumber": 204,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 7",
+   "partId": 399810
+  },
+  {
+   "partNumber": 205,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 8",
+   "partId": 399811
+  },
+  {
+   "partNumber": 206,
+   "partName": "U P V TUNDLA (1-8) R.N. 10",
+   "partId": 400441
+  },
+  {
+   "partNumber": 207,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 1",
+   "partId": 399812
+  },
+  {
+   "partNumber": 208,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 2",
+   "partId": 399813
+  },
+  {
+   "partNumber": 209,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 3",
+   "partId": 399814
+  },
+  {
+   "partNumber": 210,
+   "partName": "U.P.V. TUNDLA (1-8) R.N. 4",
+   "partId": 399815
+  },
+  {
+   "partNumber": 211,
+   "partName": "P.V. MOHAMMADPUR",
+   "partId": 399816
+  },
+  {
+   "partNumber": 212,
+   "partName": "P.V. BADANPUR",
+   "partId": 399817
+  },
+  {
+   "partNumber": 213,
+   "partName": "U.P.V. JAJPUR",
+   "partId": 399818
+  },
+  {
+   "partNumber": 214,
+   "partName": "P.V. TRILOKPUR",
+   "partId": 399819
+  },
+  {
+   "partNumber": 215,
+   "partName": "U.P.V. MADAWALI (1-8) R.N.1",
+   "partId": 399820
+  },
+  {
+   "partNumber": 216,
+   "partName": "U.P.V. MADAWALI (1-8) R.N. 2",
+   "partId": 399821
+  },
+  {
+   "partNumber": 217,
+   "partName": "U.P.V. BAGHAI 1 (1-8) R.N.1",
+   "partId": 399822
+  },
+  {
+   "partNumber": 218,
+   "partName": "P.V. KHAIRARA",
+   "partId": 399823
+  },
+  {
+   "partNumber": 219,
+   "partName": "P.V. CHULAHAWALI 1 R.N.1",
+   "partId": 399824
+  },
+  {
+   "partNumber": 220,
+   "partName": "P.V. CHULAHAWALI 1 R.N.2",
+   "partId": 399825
+  },
+  {
+   "partNumber": 221,
+   "partName": "U.P.V. GARHI GOPAL (1-8)",
+   "partId": 399826
+  },
+  {
+   "partNumber": 222,
+   "partName": "GIRDHARILAL U.M.V. CHULHAWALI R.N.1",
+   "partId": 399827
+  },
+  {
+   "partNumber": 223,
+   "partName": "GIRDHARILAL U.M.V. CHULHAWALI R.N.2",
+   "partId": 399828
+  },
+  {
+   "partNumber": 224,
+   "partName": "GIRDHARILAL U.M.V. CHULHAWALI R.N.3",
+   "partId": 399829
+  },
+  {
+   "partNumber": 225,
+   "partName": "U.P.V. GARHI SINDHARI (1-8) R.N. 1",
+   "partId": 399830
+  },
+  {
+   "partNumber": 226,
+   "partName": "U P V GARHI SINDHARI (1-8) R.N. 2",
+   "partId": 400442
+  },
+  {
+   "partNumber": 227,
+   "partName": "U.P.V. JAUNDHARI (1-8) R.N.1",
+   "partId": 399831
+  },
+  {
+   "partNumber": 228,
+   "partName": "U.P.V. JAUNDHARI (1-8) R.N.2",
+   "partId": 399832
+  },
+  {
+   "partNumber": 229,
+   "partName": "P.V. GARHI RANCHHOR",
+   "partId": 399833
+  },
+  {
+   "partNumber": 230,
+   "partName": "U.P.V. MAHARAJPUR (1-8)",
+   "partId": 399834
+  },
+  {
+   "partNumber": 231,
+   "partName": "P.V. GARHI FATEH",
+   "partId": 399835
+  },
+  {
+   "partNumber": 232,
+   "partName": "U.P.V. DINHULI (1-8) R.N.1",
+   "partId": 399836
+  },
+  {
+   "partNumber": 233,
+   "partName": "U.P.V. DINHULI (1-8) R.N.2",
+   "partId": 399837
+  },
+  {
+   "partNumber": 234,
+   "partName": "U.P.V. HUSAINPUR (1-8)",
+   "partId": 399838
+  },
+  {
+   "partNumber": 235,
+   "partName": "P.V. RAMPUR KATELIYA",
+   "partId": 399839
+  },
+  {
+   "partNumber": 236,
+   "partName": "P.V. BHAUNDELA",
+   "partId": 399840
+  },
+  {
+   "partNumber": 237,
+   "partName": "U.P.V. USAINI (1-8) R.N.1",
+   "partId": 399841
+  },
+  {
+   "partNumber": 238,
+   "partName": "U P V USAINI (1-8) R.N. 2",
+   "partId": 400443
+  },
+  {
+   "partNumber": 239,
+   "partName": "U.P.V. USAINI (1-8) R.N.3",
+   "partId": 399842
+  },
+  {
+   "partNumber": 240,
+   "partName": "P.V. HABIPUR",
+   "partId": 399843
+  },
+  {
+   "partNumber": 241,
+   "partName": "P.V. SALEMPUR NAGLA KHAAR 1ST R.N.1",
+   "partId": 399844
+  },
+  {
+   "partNumber": 242,
+   "partName": "P.V. SALEMPUR NAGLA KHAAR 1ST R.N.2",
+   "partId": 399845
+  },
+  {
+   "partNumber": 243,
+   "partName": "P.V. KHERIYA JAARKHI",
+   "partId": 399846
+  },
+  {
+   "partNumber": 244,
+   "partName": "P.V. GARHI JAAFAR R.N.1",
+   "partId": 399847
+  },
+  {
+   "partNumber": 245,
+   "partName": "P.V. GARHI JAAFAR R.N.2",
+   "partId": 399848
+  },
+  {
+   "partNumber": 246,
+   "partName": "P.V. HAZRATPUR GRAMIN",
+   "partId": 399849
+  },
+  {
+   "partNumber": 247,
+   "partName": "P.V. OEF HAZRATPUR",
+   "partId": 399850
+  },
+  {
+   "partNumber": 248,
+   "partName": "P.V. KUTUKPUR JAARKHI",
+   "partId": 399851
+  },
+  {
+   "partNumber": 249,
+   "partName": "P.V SIROLIYA",
+   "partId": 399852
+  },
+  {
+   "partNumber": 250,
+   "partName": "P.V. ANWARA R.N.1",
+   "partId": 399853
+  },
+  {
+   "partNumber": 251,
+   "partName": "P.V. ANWARA R.N.2",
+   "partId": 399854
+  },
+  {
+   "partNumber": 252,
+   "partName": "U.P.V. NAGLA DATT (1-8)",
+   "partId": 399855
+  },
+  {
+   "partNumber": 253,
+   "partName": "P.V. JATPURA",
+   "partId": 399856
+  },
+  {
+   "partNumber": 254,
+   "partName": "P.V. GARHI BHAGWANT",
+   "partId": 399857
+  },
+  {
+   "partNumber": 255,
+   "partName": "P.V. GADALPURA",
+   "partId": 399858
+  },
+  {
+   "partNumber": 256,
+   "partName": "P.V. BALAMPUR",
+   "partId": 399859
+  },
+  {
+   "partNumber": 257,
+   "partName": "U.P.V. RASULABAD R.N. 1",
+   "partId": 399860
+  },
+  {
+   "partNumber": 258,
+   "partName": "P.V RASULABAD (THAR GOLA)",
+   "partId": 399861
+  },
+  {
+   "partNumber": 259,
+   "partName": "U.P.V. THAR BALDI",
+   "partId": 399862
+  },
+  {
+   "partNumber": 260,
+   "partName": "P.V. NAGLA KALE",
+   "partId": 399863
+  },
+  {
+   "partNumber": 261,
+   "partName": "P.V. BAJHERA",
+   "partId": 399864
+  },
+  {
+   "partNumber": 262,
+   "partName": "P.V. GARHI SAHAB",
+   "partId": 399865
+  },
+  {
+   "partNumber": 263,
+   "partName": "P.V. BHIKANPUR",
+   "partId": 399866
+  },
+  {
+   "partNumber": 264,
+   "partName": "P.V. NAGLA RAJPATI",
+   "partId": 399867
+  },
+  {
+   "partNumber": 265,
+   "partName": "P.V. PIPARIYA",
+   "partId": 399868
+  },
+  {
+   "partNumber": 266,
+   "partName": "P.V. GWARAI",
+   "partId": 399869
+  },
+  {
+   "partNumber": 267,
+   "partName": "P.V. NAGLA SINGHI R.N.1",
+   "partId": 399870
+  },
+  {
+   "partNumber": 268,
+   "partName": "P.V. NAGLA SINGHI R.N.2",
+   "partId": 399871
+  },
+  {
+   "partNumber": 269,
+   "partName": "P.V. NAGLA DHEERI",
+   "partId": 400256
+  },
+  {
+   "partNumber": 270,
+   "partName": "P.V. NAGLA KESHO (KURRA)",
+   "partId": 400257
+  },
+  {
+   "partNumber": 271,
+   "partName": "U.P.V. AJEETNAGAR",
+   "partId": 400258
+  },
+  {
+   "partNumber": 272,
+   "partName": "P.V. JATAI",
+   "partId": 400259
+  },
+  {
+   "partNumber": 273,
+   "partName": "P.V. ELAI",
+   "partId": 400260
+  },
+  {
+   "partNumber": 274,
+   "partName": "P.V. GARHI THANI R.N. 1",
+   "partId": 400261
+  },
+  {
+   "partNumber": 275,
+   "partName": "P V GARHI THANI R.N. 2",
+   "partId": 400458
+  },
+  {
+   "partNumber": 276,
+   "partName": "U.P.V. TEEKARI",
+   "partId": 400262
+  },
+  {
+   "partNumber": 277,
+   "partName": "P.V. TEEKARI",
+   "partId": 400263
+  },
+  {
+   "partNumber": 278,
+   "partName": "U.P.V. BANKAT",
+   "partId": 400264
+  },
+  {
+   "partNumber": 279,
+   "partName": "P.V. NAGLA SADA",
+   "partId": 400265
+  },
+  {
+   "partNumber": 280,
+   "partName": "P.V. GARHI BHAU",
+   "partId": 400266
+  },
+  {
+   "partNumber": 281,
+   "partName": "P.V. LATIFPUR",
+   "partId": 400267
+  },
+  {
+   "partNumber": 282,
+   "partName": "P.V. RAMPUR 1",
+   "partId": 400268
+  },
+  {
+   "partNumber": 283,
+   "partName": "P.V. GARHI DHARMI R.N.1",
+   "partId": 400269
+  },
+  {
+   "partNumber": 284,
+   "partName": "P.V. GARHI DHARMI R.N.2",
+   "partId": 400270
+  },
+  {
+   "partNumber": 285,
+   "partName": "P.V. KHEDA R.N. 1",
+   "partId": 400271
+  },
+  {
+   "partNumber": 286,
+   "partName": "P.V. KHEDA R.N. 2",
+   "partId": 400444
+  },
+  {
+   "partNumber": 287,
+   "partName": "P.V. JAROLI KHURD R.N.1",
+   "partId": 400272
+  },
+  {
+   "partNumber": 288,
+   "partName": "P.V. JAROLI KHURD R.N.2",
+   "partId": 400273
+  },
+  {
+   "partNumber": 289,
+   "partName": "P.V. NAGLA GUMAAN",
+   "partId": 400274
+  },
+  {
+   "partNumber": 290,
+   "partName": "U.P.V. ULAU R.N.1",
+   "partId": 400275
+  },
+  {
+   "partNumber": 291,
+   "partName": "U.P.V. ULAU R.N.2",
+   "partId": 400276
+  },
+  {
+   "partNumber": 292,
+   "partName": "U.P.V. NAGAU (1-8) R.N.1",
+   "partId": 400277
+  },
+  {
+   "partNumber": 293,
+   "partName": "U.P.V. NAGAU (1-8) R.N.2",
+   "partId": 400278
+  },
+  {
+   "partNumber": 294,
+   "partName": "P.V. AKABARPUR R.N. 1",
+   "partId": 400279
+  },
+  {
+   "partNumber": 295,
+   "partName": "U.P.V. JAROLI KALA (1-8) R.N.1",
+   "partId": 400280
+  },
+  {
+   "partNumber": 296,
+   "partName": "U.P.V. JAROLI KALA (1-8) R.N.2",
+   "partId": 400281
+  },
+  {
+   "partNumber": 297,
+   "partName": "P.V. SHANKARPUR",
+   "partId": 400282
+  },
+  {
+   "partNumber": 298,
+   "partName": "P.V. NAGLA HARISHCHAND R.N. 1",
+   "partId": 400283
+  },
+  {
+   "partNumber": 299,
+   "partName": "P.V. NAGLA HANSI",
+   "partId": 400284
+  },
+  {
+   "partNumber": 300,
+   "partName": "P.V. DARAPUR",
+   "partId": 400285
+  },
+  {
+   "partNumber": 301,
+   "partName": "P.V. BAANS JHARNA",
+   "partId": 400286
+  },
+  {
+   "partNumber": 302,
+   "partName": "P.V. NAGLA BALLU",
+   "partId": 400287
+  },
+  {
+   "partNumber": 303,
+   "partName": "P.V. LANGHI KHURD R.N. 1",
+   "partId": 400288
+  },
+  {
+   "partNumber": 304,
+   "partName": "P V LANGHI KHURD R.N. 2",
+   "partId": 400445
+  },
+  {
+   "partNumber": 305,
+   "partName": "P.V. DHEERPURA R.N.1",
+   "partId": 400289
+  },
+  {
+   "partNumber": 306,
+   "partName": "P.V. DHEERPURA R.N.2",
+   "partId": 400290
+  },
+  {
+   "partNumber": 307,
+   "partName": "P.V. BAANSDANI R.N. 1",
+   "partId": 400291
+  },
+  {
+   "partNumber": 308,
+   "partName": "P.V. BAANSDANI R.N. 2",
+   "partId": 400446
+  },
+  {
+   "partNumber": 309,
+   "partName": "U.P.V. GHURKUAA R.N.1",
+   "partId": 400292
+  },
+  {
+   "partNumber": 310,
+   "partName": "U.P.V. GHURKUAA R.N.2",
+   "partId": 400293
+  },
+  {
+   "partNumber": 311,
+   "partName": "U.P.V. NIYAMATPUR (1-8)",
+   "partId": 400294
+  },
+  {
+   "partNumber": 312,
+   "partName": "P.V. NAGLA NANDA",
+   "partId": 400295
+  },
+  {
+   "partNumber": 313,
+   "partName": "P.V. KAYATHA R.N.1",
+   "partId": 400296
+  },
+  {
+   "partNumber": 314,
+   "partName": "P.V. KAYATHA R.N.2",
+   "partId": 400297
+  },
+  {
+   "partNumber": 315,
+   "partName": "P.V. KAYATHA R.N.3",
+   "partId": 400298
+  },
+  {
+   "partNumber": 316,
+   "partName": "U.P.V. MILIK (1-8)",
+   "partId": 400299
+  },
+  {
+   "partNumber": 317,
+   "partName": "U.P.V. NAGLA BALU (1-8)",
+   "partId": 400300
+  },
+  {
+   "partNumber": 318,
+   "partName": "P.V. NAGLA NAUJI",
+   "partId": 400301
+  },
+  {
+   "partNumber": 319,
+   "partName": "P.V. GARHI GODI",
+   "partId": 400302
+  },
+  {
+   "partNumber": 320,
+   "partName": "P.V. DORSA MUHAMMADPUR",
+   "partId": 400303
+  },
+  {
+   "partNumber": 321,
+   "partName": "P.V. MUNIYA KHEDA",
+   "partId": 400304
+  },
+  {
+   "partNumber": 322,
+   "partName": "P.V. GANGANI R.N.1",
+   "partId": 400305
+  },
+  {
+   "partNumber": 323,
+   "partName": "P.V. GANGANI R.N.2",
+   "partId": 400306
+  },
+  {
+   "partNumber": 324,
+   "partName": "GITA VIDDHYALAY MARSALGANJ",
+   "partId": 400307
+  },
+  {
+   "partNumber": 325,
+   "partName": "U.P.V. RAJPUR KOTALA (1-8) R.N. 1",
+   "partId": 400308
+  },
+  {
+   "partNumber": 326,
+   "partName": "U.P.V. NAGLA KADHERU (1-8)",
+   "partId": 400309
+  },
+  {
+   "partNumber": 327,
+   "partName": "P.V. MUHAMMADPUR",
+   "partId": 400310
+  },
+  {
+   "partNumber": 328,
+   "partName": "P.V. NAGLA AKHAI",
+   "partId": 400311
+  },
+  {
+   "partNumber": 329,
+   "partName": "P.V. NAGLA VANSHI",
+   "partId": 400312
+  },
+  {
+   "partNumber": 330,
+   "partName": "P.V. RATOLI R.N.1",
+   "partId": 400313
+  },
+  {
+   "partNumber": 331,
+   "partName": "P.V. RATOLI R.N.2",
+   "partId": 400314
+  },
+  {
+   "partNumber": 332,
+   "partName": "P.V. GARHI LOKI R.N. 1",
+   "partId": 400315
+  },
+  {
+   "partNumber": 333,
+   "partName": "U.P.V. OKHARA R.N.1",
+   "partId": 400316
+  },
+  {
+   "partNumber": 334,
+   "partName": "U.P.V. OKHARA R.N.2",
+   "partId": 400317
+  },
+  {
+   "partNumber": 335,
+   "partName": "P.V. MADANPUR",
+   "partId": 400318
+  },
+  {
+   "partNumber": 336,
+   "partName": "P.V. SEWALA",
+   "partId": 400319
+  },
+  {
+   "partNumber": 337,
+   "partName": "P.V. RAMPUR",
+   "partId": 400320
+  },
+  {
+   "partNumber": 338,
+   "partName": "P.V. GARHI KUBER",
+   "partId": 400321
+  },
+  {
+   "partNumber": 339,
+   "partName": "P.V. GARHI KALIYAN R.N. 1",
+   "partId": 400322
+  },
+  {
+   "partNumber": 340,
+   "partName": "U.PV. RAMNAGAR (1-8)",
+   "partId": 400323
+  },
+  {
+   "partNumber": 341,
+   "partName": "U.P.V. PARIKSHATPUR (1-8)",
+   "partId": 400324
+  },
+  {
+   "partNumber": 342,
+   "partName": "P.V. WAJIDPUR OKHARA",
+   "partId": 400325
+  },
+  {
+   "partNumber": 343,
+   "partName": "U.P.V. NAARKHI DHAUNKAL (1-8) R.N.1",
+   "partId": 400326
+  },
+  {
+   "partNumber": 344,
+   "partName": "U P V NAARKHI DHAUNKAL (1-8) R.N. 2",
+   "partId": 400447
+  },
+  {
+   "partNumber": 345,
+   "partName": "U.P.V. NAARKHI DHAUNKAL (1-8) R.N.3",
+   "partId": 400327
+  },
+  {
+   "partNumber": 346,
+   "partName": "U.P.V. NAARKHI DHAUNKAL (1-8) R.N.4",
+   "partId": 400328
+  },
+  {
+   "partNumber": 347,
+   "partName": "P.V. NAARKHI TALLUKA R.N.1",
+   "partId": 400329
+  },
+  {
+   "partNumber": 348,
+   "partName": "P.V. NAARKHI TALLUKA R.N.2",
+   "partId": 400330
+  },
+  {
+   "partNumber": 349,
+   "partName": "U.P.V. GARHI EVARAN (1-8)",
+   "partId": 400331
+  },
+  {
+   "partNumber": 350,
+   "partName": "P.V. GARHI HANSRAM R.N.1",
+   "partId": 400332
+  },
+  {
+   "partNumber": 351,
+   "partName": "P.V. GARHI HANSRAM R.N.2",
+   "partId": 400333
+  },
+  {
+   "partNumber": 352,
+   "partName": "P.V. NAGLA RUNDH",
+   "partId": 400334
+  },
+  {
+   "partNumber": 353,
+   "partName": "U.P.V. NAGLA DUMAR (1-8) R.N. 1",
+   "partId": 400335
+  },
+  {
+   "partNumber": 354,
+   "partName": "U.P.V. NAGLA DUMAR (1-8) R.N. 2",
+   "partId": 400448
+  },
+  {
+   "partNumber": 355,
+   "partName": "P.V. KANWAR",
+   "partId": 400336
+  },
+  {
+   "partNumber": 356,
+   "partName": "P.V. RAIMAJA R.N. 1",
+   "partId": 400337
+  },
+  {
+   "partNumber": 357,
+   "partName": "P.V. NAGLA RADHEY",
+   "partId": 400338
+  },
+  {
+   "partNumber": 358,
+   "partName": "U.P.V. RAJARAMPUR (1-8)",
+   "partId": 400339
+  },
+  {
+   "partNumber": 359,
+   "partName": "P.V. AALAMPUR KOTALA R.N. 1",
+   "partId": 400340
+  },
+  {
+   "partNumber": 360,
+   "partName": "P.V. AALAMPUR KOTALA R.N. 2",
+   "partId": 400449
+  },
+  {
+   "partNumber": 361,
+   "partName": "P.V. DAURI",
+   "partId": 400341
+  },
+  {
+   "partNumber": 362,
+   "partName": "P.V. ASAN",
+   "partId": 400342
+  },
+  {
+   "partNumber": 363,
+   "partName": "U.P.V. NAGLA SAUNTH (1-8) R.N.1",
+   "partId": 400343
+  },
+  {
+   "partNumber": 364,
+   "partName": "U.P.V. NAGLA SAUNTH (1-8) R.N.2",
+   "partId": 400344
+  },
+  {
+   "partNumber": 365,
+   "partName": "P.V. GARHI UDI",
+   "partId": 400345
+  },
+  {
+   "partNumber": 366,
+   "partName": "U.P.V. GONDAI (1-8)",
+   "partId": 400346
+  },
+  {
+   "partNumber": 367,
+   "partName": "P.V. HARDASPUR",
+   "partId": 400347
+  },
+  {
+   "partNumber": 368,
+   "partName": "P.V. KHERIYA KHURD",
+   "partId": 400348
+  },
+  {
+   "partNumber": 369,
+   "partName": "P.V. AATIPUR",
+   "partId": 400349
+  },
+  {
+   "partNumber": 370,
+   "partName": "P.V. NAGLA KOOM",
+   "partId": 400350
+  },
+  {
+   "partNumber": 371,
+   "partName": "P.V. JAKHAI",
+   "partId": 400351
+  },
+  {
+   "partNumber": 372,
+   "partName": "U.P.V. SHAHPUR (1-8) R.N. 1",
+   "partId": 400352
+  },
+  {
+   "partNumber": 373,
+   "partName": "U.P.V. SHAHPUR (1-8) R.N. 2",
+   "partId": 400450
+  },
+  {
+   "partNumber": 374,
+   "partName": "P.V. NAYA BAANS",
+   "partId": 400353
+  },
+  {
+   "partNumber": 375,
+   "partName": "U.P.V. TRILOKPUR (1-8)",
+   "partId": 400354
+  },
+  {
+   "partNumber": 376,
+   "partName": "P.V. DERA BANJARA",
+   "partId": 400355
+  },
+  {
+   "partNumber": 377,
+   "partName": "U.P.V. SUNAWAI (1-8)",
+   "partId": 400356
+  },
+  {
+   "partNumber": 378,
+   "partName": "U.P.V. NAVEEN RUDHAU (1-8)",
+   "partId": 400357
+  },
+  {
+   "partNumber": 379,
+   "partName": "P.V. NAGLA SUNDAR",
+   "partId": 400358
+  },
+  {
+   "partNumber": 380,
+   "partName": "P.V. DOLATPUR R.N.1",
+   "partId": 400359
+  },
+  {
+   "partNumber": 381,
+   "partName": "P.V. DOLATPUR R.N.2",
+   "partId": 400360
+  },
+  {
+   "partNumber": 382,
+   "partName": "U.P.V. MUIUDDINPUR (1-8) R.N.1",
+   "partId": 400361
+  },
+  {
+   "partNumber": 383,
+   "partName": "U.P.V. MUIUDDINPUR (1-8) R.N.2",
+   "partId": 400362
+  },
+  {
+   "partNumber": 384,
+   "partName": "P.V. PANIGAON (JASRATHPUR)",
+   "partId": 400363
+  },
+  {
+   "partNumber": 385,
+   "partName": "P.V. NAGLA TOTARAM",
+   "partId": 400364
+  },
+  {
+   "partNumber": 386,
+   "partName": "U.P.V. PACHWAN (1-8) R.N.1",
+   "partId": 400365
+  },
+  {
+   "partNumber": 387,
+   "partName": "U.P.V. PACHWAN (1-8) R.N.2",
+   "partId": 400366
+  },
+  {
+   "partNumber": 388,
+   "partName": "P.V. NAGLA RADHE (PACHWAN)",
+   "partId": 400367
+  },
+  {
+   "partNumber": 389,
+   "partName": "P.V. MAN. KASHIRAM AA.SH.G.COLONY PACHWAN R.N.1",
+   "partId": 400368
+  },
+  {
+   "partNumber": 390,
+   "partName": "P.V. MAN. KASHIRAM AA.SH.G.COLONY PACHWAN R.N.2",
+   "partId": 400369
+  },
+  {
+   "partNumber": 391,
+   "partName": "P.V. GAUNCHH R.N.1",
+   "partId": 400370
+  },
+  {
+   "partNumber": 392,
+   "partName": "P.V. GAUNCHH R.N.3",
+   "partId": 400371
+  },
+  {
+   "partNumber": 393,
+   "partName": "P.V. NAGARIYA PANCHAM",
+   "partId": 400372
+  },
+  {
+   "partNumber": 394,
+   "partName": "U.P.V. NAGARIYA PADAM (1-8)",
+   "partId": 400373
+  },
+  {
+   "partNumber": 395,
+   "partName": "U.P.V. BHEETARI",
+   "partId": 400374
+  },
+  {
+   "partNumber": 396,
+   "partName": "P.V. JAITPUR",
+   "partId": 400375
+  },
+  {
+   "partNumber": 397,
+   "partName": "P.V. FATEHPUR KOTALA",
+   "partId": 400376
+  },
+  {
+   "partNumber": 398,
+   "partName": "P.V. MAHASINGHPUR",
+   "partId": 400377
+  },
+  {
+   "partNumber": 399,
+   "partName": "P.V. NAYA BAANS",
+   "partId": 400378
+  },
+  {
+   "partNumber": 400,
+   "partName": "P.V. GARHI SHRIRAM",
+   "partId": 400379
+  },
+  {
+   "partNumber": 401,
+   "partName": "P.V. LUKHARIYA",
+   "partId": 400380
+  },
+  {
+   "partNumber": 402,
+   "partName": "P.V. KACHHPURA",
+   "partId": 400381
+  },
+  {
+   "partNumber": 403,
+   "partName": "P.V. SIKANDARPUR KOTALA",
+   "partId": 400382
+  },
+  {
+   "partNumber": 404,
+   "partName": "S.R.K. INTER COLLEGE KOTALA R.N. 1",
+   "partId": 400383
+  },
+  {
+   "partNumber": 405,
+   "partName": "S.R.K. INTER COLLEGE KOTALA R.N. 2",
+   "partId": 400451
+  },
+  {
+   "partNumber": 406,
+   "partName": "P.V. KOTALA R.N.1",
+   "partId": 400384
+  },
+  {
+   "partNumber": 407,
+   "partName": "P.V. KOTALA R.N.2",
+   "partId": 400385
+  },
+  {
+   "partNumber": 408,
+   "partName": "P.V. BAHORANPUR R.N. 1",
+   "partId": 400386
+  },
+  {
+   "partNumber": 409,
+   "partName": "P.V. WAJEERPUR KOTALA",
+   "partId": 400387
+  },
+  {
+   "partNumber": 410,
+   "partName": "P.V. NAGLA DHEER",
+   "partId": 400388
+  },
+  {
+   "partNumber": 411,
+   "partName": "KANYA P.V. JATAU R.N.1",
+   "partId": 400389
+  },
+  {
+   "partNumber": 412,
+   "partName": "KANYA P.V. JATAU R.N.2",
+   "partId": 400390
+  },
+  {
+   "partNumber": 413,
+   "partName": "P.V. BENDIPUR BIDARAKHA",
+   "partId": 400391
+  },
+  {
+   "partNumber": 414,
+   "partName": "SHRI SARVANAND AADARSH J.H.S. NAGLA RAM KUNVARI R.N.1",
+   "partId": 400392
+  },
+  {
+   "partNumber": 415,
+   "partName": "SHRI SARVANAND AADARSH J.H.S. NAGLA RAM KUNVARI R.N.2",
+   "partId": 400393
+  },
+  {
+   "partNumber": 416,
+   "partName": "P.V. BADA GAON",
+   "partId": 400394
+  },
+  {
+   "partNumber": 417,
+   "partName": "P.V. BARTARA R.N. 1",
+   "partId": 400395
+  },
+  {
+   "partNumber": 418,
+   "partName": "U.P.V. KHERIYA KALAN (1-8)",
+   "partId": 400396
+  },
+  {
+   "partNumber": 419,
+   "partName": "U.P.V. AASALPUR R.N. 1",
+   "partId": 400397
+  },
+  {
+   "partNumber": 420,
+   "partName": "P.V. KHUSHALPUR",
+   "partId": 400398
+  },
+  {
+   "partNumber": 421,
+   "partName": "U.P.V. BADANPUR (1-8)",
+   "partId": 400399
+  },
+  {
+   "partNumber": 422,
+   "partName": "P.V. GARHI JANOO",
+   "partId": 400400
+  },
+  {
+   "partNumber": 423,
+   "partName": "U.P.V. TAPA KHURD (1-8) R.N.1",
+   "partId": 400401
+  },
+  {
+   "partNumber": 424,
+   "partName": "U.P.V. TAPA KHURD (1-8) R.N.2",
+   "partId": 400402
+  },
+  {
+   "partNumber": 425,
+   "partName": "U.P.V. TAPA KHURD (1-8) R.N.3",
+   "partId": 400403
+  },
+  {
+   "partNumber": 426,
+   "partName": "U.P.V. TAPA KHURD (1-8) R.N.4",
+   "partId": 400404
+  },
+  {
+   "partNumber": 427,
+   "partName": "U.P.V. NAGLA PAN SAHAY (1-8) R.N.1",
+   "partId": 400405
+  },
+  {
+   "partNumber": 428,
+   "partName": "U.P.V. NAGLA PAN SAHAY (1-8) R.N.2",
+   "partId": 400406
+  },
+  {
+   "partNumber": 429,
+   "partName": "GORISHANKAR INTER COLLEGE DWARIKAPURI TAPA KHURD R.N.1",
+   "partId": 400407
+  },
+  {
+   "partNumber": 430,
+   "partName": "GORISHANKAR INTER COLLEGE DWARIKAPURI TAPA KHURD R.N.2",
+   "partId": 400408
+  },
+  {
+   "partNumber": 431,
+   "partName": "GORISHANKAR INTER COLLEGE DWARIKAPURI TAPA KHURD R.N.6",
+   "partId": 400409
+  },
+  {
+   "partNumber": 432,
+   "partName": "GORISHANKAR INTER COLLEGE DWARIKAPURI TAPA KHURD R.N.3",
+   "partId": 400410
+  },
+  {
+   "partNumber": 433,
+   "partName": "GORISHANKAR INTER COLLEGE DWARIKAPURI TAPA KHURD R.N.4",
+   "partId": 400411
+  },
+  {
+   "partNumber": 434,
+   "partName": "GORISHANKAR INTER COLLEGE DWARIKAPURI TAPA KHURD R.N.5",
+   "partId": 400412
+  },
+  {
+   "partNumber": 435,
+   "partName": "P.V. REPURA R.N.1",
+   "partId": 400413
+  },
+  {
+   "partNumber": 436,
+   "partName": "P.V. REPURA R.N.4",
+   "partId": 400414
+  },
+  {
+   "partNumber": 437,
+   "partName": "P.V. REPURA R.N.2",
+   "partId": 400415
+  },
+  {
+   "partNumber": 438,
+   "partName": "P.V. BHIKANPUR MEGHPUR R.N.1",
+   "partId": 400416
+  },
+  {
+   "partNumber": 439,
+   "partName": "P.V. BHIKANPUR MEGHPUR R.N.2",
+   "partId": 400417
+  },
+  {
+   "partNumber": 440,
+   "partName": "U.P.V. MILIK BHIKANPUR",
+   "partId": 400418
+  },
+  {
+   "partNumber": 441,
+   "partName": "P.V. NEPAI R.N.1",
+   "partId": 400419
+  },
+  {
+   "partNumber": 442,
+   "partName": "P.V. NEPAI R.N.2",
+   "partId": 400420
+  },
+  {
+   "partNumber": 443,
+   "partName": "U.P.V. KAPAWALI (1-8) R.N. 1",
+   "partId": 400421
+  },
+  {
+   "partNumber": 444,
+   "partName": "U P V KAPAWALI (1-8) R.N. 2",
+   "partId": 400452
+  },
+  {
+   "partNumber": 445,
+   "partName": "U.P.V. MAHLAI (1-8) R.N. 1",
+   "partId": 400422
+  },
+  {
+   "partNumber": 446,
+   "partName": "U P V MAHLAI (1-8) R.N. 2",
+   "partId": 400453
+  },
+  {
+   "partNumber": 447,
+   "partName": "P.V. BHARATPURA R.N.1",
+   "partId": 400423
+  },
+  {
+   "partNumber": 448,
+   "partName": "P.V. BHARATPURA R.N.2",
+   "partId": 400424
+  },
+  {
+   "partNumber": 449,
+   "partName": "P.V. KUTUBPUR CHANORA R.N.1",
+   "partId": 400425
+  },
+  {
+   "partNumber": 450,
+   "partName": "P.V. KUTUBPUR CHANORA R.N.2",
+   "partId": 400426
+  },
+  {
+   "partNumber": 451,
+   "partName": "P.V. KUTUBPUR CHANORA R.N.3",
+   "partId": 400427
+  },
+  {
+   "partNumber": 452,
+   "partName": "U.P.V. SHEKHUPUR R.N.1",
+   "partId": 400428
+  },
+  {
+   "partNumber": 453,
+   "partName": "U.P.V. SHEKHUPUR R.N.2",
+   "partId": 400429
+  },
+  {
+   "partNumber": 454,
+   "partName": "U.P.V. AAKALABAD HASANPUR (1-8) R.N.1",
+   "partId": 400430
+  },
+  {
+   "partNumber": 455,
+   "partName": "U.P.V. AAKALABAD HASANPUR (1-8) R.N.2",
+   "partId": 400431
+  },
+  {
+   "partNumber": 456,
+   "partName": "P.V. HASANPUR",
+   "partId": 400432
+  },
+  {
+   "partNumber": 457,
+   "partName": "U.P.V. SATOLI NAGLA MAHADEV  (1-8) R.N. 1",
+   "partId": 400433
+  },
+  {
+   "partNumber": 458,
+   "partName": "U P V SATOLI NAGLA MAHADEV (1-8) R.N. 2",
+   "partId": 400454
+  }
+ ]
+}

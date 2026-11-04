@@ -1,0 +1,2142 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2421",
+ "acNumber": 22,
+ "fetchedAt": "2026-11-02T05:43:04",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 426,
+ "maxPart": 426,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "P.S. RAMSHAWALA ROOM 1",
+   "partId": 470818
+  },
+  {
+   "partNumber": 2,
+   "partName": "P.S.SHUKHAPUR MARKANDEYPURAM ROOM 1",
+   "partId": 470819
+  },
+  {
+   "partNumber": 3,
+   "partName": "P.S.KUNDANPUR ROOM 1",
+   "partId": 470820
+  },
+  {
+   "partNumber": 4,
+   "partName": "P.S.TEEP ROOM1",
+   "partId": 470821
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRE SEC.S... KHIRNI BHARKATPUR ROOM 1",
+   "partId": 470822
+  },
+  {
+   "partNumber": 6,
+   "partName": "P.S.KHALIULLAPUR ROOM1",
+   "partId": 470823
+  },
+  {
+   "partNumber": 7,
+   "partName": "P.S.KHALIULLAPUR ROOM 2",
+   "partId": 470824
+  },
+  {
+   "partNumber": 8,
+   "partName": "P.S.MIRGIPUR ROOM1",
+   "partId": 470825
+  },
+  {
+   "partNumber": 9,
+   "partName": "P.S.MIRGIPUR ROOM 2",
+   "partId": 470826
+  },
+  {
+   "partNumber": 10,
+   "partName": "PANCHYAT GHAR BHARUKA ROOM1",
+   "partId": 470827
+  },
+  {
+   "partNumber": 11,
+   "partName": "PANCHYAT GHAR BHARUKA ROOM 2",
+   "partId": 470828
+  },
+  {
+   "partNumber": 12,
+   "partName": "P.S.GOPALPUR ROOM1",
+   "partId": 470829
+  },
+  {
+   "partNumber": 13,
+   "partName": "P.S.CHHAKADA ROOM1",
+   "partId": 470830
+  },
+  {
+   "partNumber": 14,
+   "partName": "P.S.CHHAKADA ROOM2",
+   "partId": 470831
+  },
+  {
+   "partNumber": 15,
+   "partName": "P.S.RAMGIWALA ROOM1",
+   "partId": 470832
+  },
+  {
+   "partNumber": 16,
+   "partName": "P.S.GABELIPUR ROOM1",
+   "partId": 470833
+  },
+  {
+   "partNumber": 17,
+   "partName": "COMPOSITE SCHOOL NARYANPUR ROOM 1",
+   "partId": 470834
+  },
+  {
+   "partNumber": 18,
+   "partName": "COMPOSITE SCHOOL NARYANPUR  ROOM 2",
+   "partId": 470835
+  },
+  {
+   "partNumber": 19,
+   "partName": "COMPOSITE SCHOOL NARYANPUR ROOM3",
+   "partId": 470836
+  },
+  {
+   "partNumber": 20,
+   "partName": "P.S.SADADKPUR URF BILASHPUR ROOM 1",
+   "partId": 470837
+  },
+  {
+   "partNumber": 21,
+   "partName": "SAMAGARH VIDHALYA KISHANPUR ROOM 1",
+   "partId": 470838
+  },
+  {
+   "partNumber": 22,
+   "partName": "SAMAGARH VIDHALYA KISHANPUR ROOM 2",
+   "partId": 470839
+  },
+  {
+   "partNumber": 23,
+   "partName": "UCCH PRATHMIK VIDHALYA RAYPUR BERISAL ROOM 1",
+   "partId": 470840
+  },
+  {
+   "partNumber": 24,
+   "partName": "UCCH PRATHMIK VIDHALYA RAYPUR BERISAL ROOM 2",
+   "partId": 470841
+  },
+  {
+   "partNumber": 25,
+   "partName": "UCCH PRATHMIK VIDHALYA RAYPUR BERISAL ROOM 3",
+   "partId": 470842
+  },
+  {
+   "partNumber": 26,
+   "partName": "P.S.SAFEPUR BANGAR ROOM 1",
+   "partId": 470843
+  },
+  {
+   "partNumber": 27,
+   "partName": "PRATHMIK VIDHALYA KABULPUR ROOM 1",
+   "partId": 470844
+  },
+  {
+   "partNumber": 28,
+   "partName": "SAMAGARH VIDHALYA KHORAHERI ROOM 1",
+   "partId": 470845
+  },
+  {
+   "partNumber": 29,
+   "partName": "SAMAGARH VIDHALYA KHORAHERI ROOM 2",
+   "partId": 470846
+  },
+  {
+   "partNumber": 30,
+   "partName": "P.S.BHADHARPUT JATT ROOM1",
+   "partId": 470847
+  },
+  {
+   "partNumber": 31,
+   "partName": "P.S.KARIPUR BAMNOLI ROOM1",
+   "partId": 470848
+  },
+  {
+   "partNumber": 32,
+   "partName": "P.S.MIRZAPUR BANGAR URF GANZALPUR ROOM 1",
+   "partId": 470849
+  },
+  {
+   "partNumber": 33,
+   "partName": "UCCH PRATHMIK VIDHALYA BHOJPUR BHOPATPUR ROOM 1",
+   "partId": 470850
+  },
+  {
+   "partNumber": 34,
+   "partName": "P.S.ZAGHIPUR ROOM1",
+   "partId": 470851
+  },
+  {
+   "partNumber": 35,
+   "partName": "P.V. MOHIUDDINPUR ROOM 1",
+   "partId": 470852
+  },
+  {
+   "partNumber": 36,
+   "partName": "P.V. MOHIUDDINPUR ROOM 2",
+   "partId": 470853
+  },
+  {
+   "partNumber": 37,
+   "partName": "P.V. MOHIUDDINPUR ROOM 3",
+   "partId": 470854
+  },
+  {
+   "partNumber": 38,
+   "partName": "P.V. MOHIUDDINPUR ROOM 4",
+   "partId": 470855
+  },
+  {
+   "partNumber": 39,
+   "partName": "P.S.DAYALWALA ROOM1",
+   "partId": 470856
+  },
+  {
+   "partNumber": 40,
+   "partName": "P.S.DAYALWALA ROOM2",
+   "partId": 470857
+  },
+  {
+   "partNumber": 41,
+   "partName": "P.S.DAYALWALA ROOM3",
+   "partId": 470858
+  },
+  {
+   "partNumber": 42,
+   "partName": "UPPER  P.S. SHEKHUPURA ROOM 1",
+   "partId": 470859
+  },
+  {
+   "partNumber": 43,
+   "partName": "UPPER P.S. SHEKHUPURA ROOM 2",
+   "partId": 471220
+  },
+  {
+   "partNumber": 44,
+   "partName": "P.S.FAZALPUR ROOM1",
+   "partId": 470860
+  },
+  {
+   "partNumber": 45,
+   "partName": "P.S.FAZALPUR ROOM2",
+   "partId": 470861
+  },
+  {
+   "partNumber": 46,
+   "partName": "P.S.TITERWALA ROOM 1",
+   "partId": 470862
+  },
+  {
+   "partNumber": 47,
+   "partName": "P.S.WASIRUHASI ROOM 1",
+   "partId": 470863
+  },
+  {
+   "partNumber": 48,
+   "partName": "P.V. BHAWANIPUR CHANDAK ROOM 1",
+   "partId": 470864
+  },
+  {
+   "partNumber": 49,
+   "partName": "COMPOSITE V KHANPUR MADHO KAKSH 1",
+   "partId": 470865
+  },
+  {
+   "partNumber": 50,
+   "partName": "COMPOSITE V KHANPUR MADHO KAKSH 2",
+   "partId": 470866
+  },
+  {
+   "partNumber": 51,
+   "partName": "COMPOSITE V KHANPUR MADHO KAKSH 3",
+   "partId": 470867
+  },
+  {
+   "partNumber": 52,
+   "partName": "COMPOSITE V KHANPUR MADHO KAKSH 4",
+   "partId": 470868
+  },
+  {
+   "partNumber": 53,
+   "partName": "P.S.PADAMPUR ROOM 1",
+   "partId": 470869
+  },
+  {
+   "partNumber": 54,
+   "partName": "COMPOSITE .V. DEVIDASWALA KAKSH 1",
+   "partId": 470870
+  },
+  {
+   "partNumber": 55,
+   "partName": "P.S.RAJARAMPUR KHADAR ROOM  1",
+   "partId": 470871
+  },
+  {
+   "partNumber": 56,
+   "partName": "P.S.RAJARAMPUR KHADAR ROOM 2",
+   "partId": 470872
+  },
+  {
+   "partNumber": 57,
+   "partName": "P.S.AURANGABAD SHAKURPUR ROOM 1",
+   "partId": 470873
+  },
+  {
+   "partNumber": 58,
+   "partName": "P.S.AURANGABAD SHAKURPUR ROOM 2",
+   "partId": 470874
+  },
+  {
+   "partNumber": 59,
+   "partName": "P.S.TAIUYABPUR KAZI ROOM1",
+   "partId": 470875
+  },
+  {
+   "partNumber": 60,
+   "partName": "P.S.TAIUYABPUR KAZI ROOM 2",
+   "partId": 470876
+  },
+  {
+   "partNumber": 61,
+   "partName": "SAMVILYAN VIDHALYA BADSHAHPUR ROOM 1",
+   "partId": 470877
+  },
+  {
+   "partNumber": 62,
+   "partName": "P.S.KISHANWASH ROOM 1",
+   "partId": 470878
+  },
+  {
+   "partNumber": 63,
+   "partName": "AADARSH VIDHYA NIKETAN INTER COLLEGE SHAHBAZPUR ROOM 1",
+   "partId": 470879
+  },
+  {
+   "partNumber": 64,
+   "partName": "AADARSH VIDHYA NIKETAN INTER COLLEGE SHAHBAZPUR ROOM 2",
+   "partId": 470880
+  },
+  {
+   "partNumber": 65,
+   "partName": "P.S. RATANPUR RIYAYA ROOM1",
+   "partId": 470881
+  },
+  {
+   "partNumber": 66,
+   "partName": "P.S.RANIPUR ROOM1",
+   "partId": 470882
+  },
+  {
+   "partNumber": 67,
+   "partName": "P.S.SHADIPUR ROOM 1",
+   "partId": 470883
+  },
+  {
+   "partNumber": 68,
+   "partName": "UCCH PRATHMIK VIDHALYA AKBARPUR ANGAKHERI ROOM 1",
+   "partId": 470884
+  },
+  {
+   "partNumber": 69,
+   "partName": "P.S.MACHKEE ROOM 1",
+   "partId": 470885
+  },
+  {
+   "partNumber": 70,
+   "partName": "P.S.MACHKEE ROOM 2",
+   "partId": 470886
+  },
+  {
+   "partNumber": 71,
+   "partName": "P.S.DWARIKAPURI ROOM 1",
+   "partId": 470887
+  },
+  {
+   "partNumber": 72,
+   "partName": "P.S. ALIPUR NAGALA ROOM 1",
+   "partId": 470888
+  },
+  {
+   "partNumber": 73,
+   "partName": "P.S.MAHESHWARI ROOM 1",
+   "partId": 470889
+  },
+  {
+   "partNumber": 74,
+   "partName": "P.S.MAHESHWARI ROOM 2",
+   "partId": 470890
+  },
+  {
+   "partNumber": 75,
+   "partName": "P.S.MOHASANPUR CHAMRA ROOM 1",
+   "partId": 470891
+  },
+  {
+   "partNumber": 76,
+   "partName": "P.S.MONDHIA DHANSI FIRST ROOM 1",
+   "partId": 470892
+  },
+  {
+   "partNumber": 77,
+   "partName": "P.S.MONDHIA DHANSI FIRST ROOM 2",
+   "partId": 470893
+  },
+  {
+   "partNumber": 78,
+   "partName": "P.S.MONDHIA DHANSI SECOND ROOM 1",
+   "partId": 470894
+  },
+  {
+   "partNumber": 79,
+   "partName": "P.S.MANDAWAR FIRST ROOM 1",
+   "partId": 470895
+  },
+  {
+   "partNumber": 80,
+   "partName": "P.S.MANDAWAR FIRST ROOM 2",
+   "partId": 470896
+  },
+  {
+   "partNumber": 81,
+   "partName": "P.S.MANDAWAR FIRST ROOM 3",
+   "partId": 470897
+  },
+  {
+   "partNumber": 82,
+   "partName": "P.S.MANDAWAR FIRST ROOM 4",
+   "partId": 470898
+  },
+  {
+   "partNumber": 83,
+   "partName": "P.S.MANDAWAR FIRST ROOM 5",
+   "partId": 471195
+  },
+  {
+   "partNumber": 84,
+   "partName": "P.S.MANDAWAR FIRST ROOM 6",
+   "partId": 471196
+  },
+  {
+   "partNumber": 85,
+   "partName": "MAHATMA GANDHI INTER COLLEGE MANDAWAR ROOM 1",
+   "partId": 470899
+  },
+  {
+   "partNumber": 86,
+   "partName": "MAHATMA GANDHI INTER COLLEGE MANDAWAR ROOM 2",
+   "partId": 470900
+  },
+  {
+   "partNumber": 87,
+   "partName": "MAHATMA GANDHI INTER COLLEGE MANDAWAR ROOM 3",
+   "partId": 470901
+  },
+  {
+   "partNumber": 88,
+   "partName": "MAHATMA GANDHI INTER COLLEGE MANDAWAR ROOM 4",
+   "partId": 470902
+  },
+  {
+   "partNumber": 89,
+   "partName": "MAHATMA GANDHI INTER COLLEGE MANDAWAR ROOM 5",
+   "partId": 470903
+  },
+  {
+   "partNumber": 90,
+   "partName": "MAHATMA GANDHI INTER COLLEGE MANDAWAR ROOM 6",
+   "partId": 470904
+  },
+  {
+   "partNumber": 91,
+   "partName": "UPPER P.S.MANDAWAR ROOM 1",
+   "partId": 470905
+  },
+  {
+   "partNumber": 92,
+   "partName": "UPPER P.S.MANDAWAR ROOM 2",
+   "partId": 470906
+  },
+  {
+   "partNumber": 93,
+   "partName": "UPPER P.S.MANDAWAR ROOM 3",
+   "partId": 470907
+  },
+  {
+   "partNumber": 94,
+   "partName": "UPPER P.S.MANDAWAR ROOM 4",
+   "partId": 470908
+  },
+  {
+   "partNumber": 95,
+   "partName": "P.S.INAMPURA ROOM1",
+   "partId": 470909
+  },
+  {
+   "partNumber": 96,
+   "partName": "P.S.INAMPURA ROOM 2",
+   "partId": 470910
+  },
+  {
+   "partNumber": 97,
+   "partName": "P.S.INAMPURA ROOM 3",
+   "partId": 470911
+  },
+  {
+   "partNumber": 98,
+   "partName": "P.S.MOHMADPUR DEVMAL FIRST ROOM 1",
+   "partId": 470912
+  },
+  {
+   "partNumber": 99,
+   "partName": "P.S.MOHMADPUR DEVMAL FIRST ROOM 2",
+   "partId": 470913
+  },
+  {
+   "partNumber": 100,
+   "partName": "ABHINAV PRE SEC. S..MOHMADPUR DEVMAL ROOM  1",
+   "partId": 470914
+  },
+  {
+   "partNumber": 101,
+   "partName": "ABHINAV PRE SEC. S..MOHMADPUR DEVMAL ROOM 2",
+   "partId": 470915
+  },
+  {
+   "partNumber": 102,
+   "partName": "ABHINAVPRE SEC. S..MOHMADPUR DEVMAL ROOM  3",
+   "partId": 470916
+  },
+  {
+   "partNumber": 103,
+   "partName": "P.S.SHAHJADPUR ROOM 1",
+   "partId": 470917
+  },
+  {
+   "partNumber": 104,
+   "partName": "P.S.SHAHJADPUR ROOM 2",
+   "partId": 470918
+  },
+  {
+   "partNumber": 105,
+   "partName": "P.S.SHAHJADPUR ROOM 3",
+   "partId": 470919
+  },
+  {
+   "partNumber": 106,
+   "partName": "UCHCH P V  RAWALI KAKSH  1",
+   "partId": 470920
+  },
+  {
+   "partNumber": 107,
+   "partName": "UCHAH P V. RAWALI KAKSH   2",
+   "partId": 470921
+  },
+  {
+   "partNumber": 108,
+   "partName": "UCHCH P V  RAWALI KAKSH   3",
+   "partId": 470922
+  },
+  {
+   "partNumber": 109,
+   "partName": "UCHCH P V  RAWALI KAKSH  4",
+   "partId": 470923
+  },
+  {
+   "partNumber": 110,
+   "partName": "P.S.CHANDPUR NOABAD ROOM 1",
+   "partId": 470924
+  },
+  {
+   "partNumber": 111,
+   "partName": "P.S.CHANDPUR NOABAD ROOM 2",
+   "partId": 470925
+  },
+  {
+   "partNumber": 112,
+   "partName": "P.S.CHANDPUR NOABAD ROOM 3",
+   "partId": 471054
+  },
+  {
+   "partNumber": 113,
+   "partName": "P.S.MUZUFRPUR KASHO ROOM 1",
+   "partId": 471055
+  },
+  {
+   "partNumber": 114,
+   "partName": "P.S.MUZUFRPUR KASHO ROOM 2",
+   "partId": 471056
+  },
+  {
+   "partNumber": 115,
+   "partName": "SACHIVALAYA GRAM PANCHYAT BAKARPUR GARI KAKSH 1",
+   "partId": 471057
+  },
+  {
+   "partNumber": 116,
+   "partName": "SACHIVALAYA GRAM PANCHAYAT BAKARPUR GARI KAKSH 2",
+   "partId": 471058
+  },
+  {
+   "partNumber": 117,
+   "partName": "P.S.KHANJHAPUR BHADAR ROOM 1",
+   "partId": 471059
+  },
+  {
+   "partNumber": 118,
+   "partName": "P.S.YUSUFPUR HAMID ROOM 1",
+   "partId": 471060
+  },
+  {
+   "partNumber": 119,
+   "partName": "P.S.KHANA PATTI ROOM 1",
+   "partId": 471061
+  },
+  {
+   "partNumber": 120,
+   "partName": "P.S.ULAKPUR ROOM 1",
+   "partId": 471062
+  },
+  {
+   "partNumber": 121,
+   "partName": "P.S.ULAKPUR ROOM  2",
+   "partId": 471063
+  },
+  {
+   "partNumber": 122,
+   "partName": "UPPER P.S. MUNDALA ROOM1",
+   "partId": 471064
+  },
+  {
+   "partNumber": 123,
+   "partName": "UPPER P.S.MUNDALA ROOM 2",
+   "partId": 471065
+  },
+  {
+   "partNumber": 124,
+   "partName": "UPPER P.S. MUNDALA ROOM 3",
+   "partId": 471066
+  },
+  {
+   "partNumber": 125,
+   "partName": "P.S.SWAHADI KHURD ROOM 1",
+   "partId": 471067
+  },
+  {
+   "partNumber": 126,
+   "partName": "PRE.SEC.S. SWAHADI BHURUZ ROOM  1",
+   "partId": 471068
+  },
+  {
+   "partNumber": 127,
+   "partName": "PRE.SEC.S.SWAHADI BHURUZ ROOM  2",
+   "partId": 471069
+  },
+  {
+   "partNumber": 128,
+   "partName": "PRE.SEC.S.SWAHADI BHURUZ ROOM  3",
+   "partId": 471070
+  },
+  {
+   "partNumber": 129,
+   "partName": "P.S. ALIPUR MAKHAN ROOM 1",
+   "partId": 471071
+  },
+  {
+   "partNumber": 130,
+   "partName": "PANYACHANT GHAR MUKEEMPUR DHARMASHI ROOM  1",
+   "partId": 471072
+  },
+  {
+   "partNumber": 131,
+   "partName": "RAJKIYA KANYA INTER COLLEGE GAJROLA ACHPAL ROOM 1",
+   "partId": 471197
+  },
+  {
+   "partNumber": 132,
+   "partName": "RAJKIYA KANYA INTER COLLEGE GAJROLA ACHPAL ROOM 2",
+   "partId": 471198
+  },
+  {
+   "partNumber": 133,
+   "partName": "RAJKIYA KANYA INTER COLLEGE GAJROLA ACHPAL ROOM 3",
+   "partId": 471199
+  },
+  {
+   "partNumber": 134,
+   "partName": "RAJKIYA KANYA INTER COLLEGE GAJROLA ACHPAL ROOM 4",
+   "partId": 471200
+  },
+  {
+   "partNumber": 135,
+   "partName": "P.S.GAJRAULA ACHPAL ROOM 1",
+   "partId": 471073
+  },
+  {
+   "partNumber": 136,
+   "partName": "P.S.GAJRAULA ACHPAL ROOM 2",
+   "partId": 471074
+  },
+  {
+   "partNumber": 137,
+   "partName": "P.S.AHMADPUR MOHIDENPUR ROOM 1",
+   "partId": 471075
+  },
+  {
+   "partNumber": 138,
+   "partName": "P.S.AHMADPUR MOHIDENPUR ROOM 2",
+   "partId": 471076
+  },
+  {
+   "partNumber": 139,
+   "partName": "CCOMPOSITE.SCHOOL BHADSHAPUR TARIKAM ROOM 1",
+   "partId": 471077
+  },
+  {
+   "partNumber": 140,
+   "partName": "COMPOSITE.SCHOOL BHADSHAPUR TARIKAM ROOM 2",
+   "partId": 471078
+  },
+  {
+   "partNumber": 141,
+   "partName": "P.S.MUKEEMPUR DHARU ROOM 1",
+   "partId": 471079
+  },
+  {
+   "partNumber": 142,
+   "partName": "P.S.MUKSHADANPUR HAFIZ ROOM 1",
+   "partId": 471080
+  },
+  {
+   "partNumber": 143,
+   "partName": "P.S.MUKSHADANPUR HAFIZ ROOM2",
+   "partId": 471081
+  },
+  {
+   "partNumber": 144,
+   "partName": "KISAN INTER COLLEGE MANDAWALI ROOM 1",
+   "partId": 471082
+  },
+  {
+   "partNumber": 145,
+   "partName": "PRE SEC,S. QUZIWALA ROOM 1",
+   "partId": 471083
+  },
+  {
+   "partNumber": 146,
+   "partName": "PRE SEC,S. QUZIWALA ROOM 2",
+   "partId": 471084
+  },
+  {
+   "partNumber": 147,
+   "partName": "PRE SEC,S. QUZIWALA ROOM 3",
+   "partId": 471085
+  },
+  {
+   "partNumber": 148,
+   "partName": "PRE SEC,S. QUZIWALA ROOM 4",
+   "partId": 471086
+  },
+  {
+   "partNumber": 149,
+   "partName": "P.S.ITAVA ROOM 1",
+   "partId": 471087
+  },
+  {
+   "partNumber": 150,
+   "partName": "P.S.ITAVA ROOM 2",
+   "partId": 471088
+  },
+  {
+   "partNumber": 151,
+   "partName": "P.S.NAWALPUR ROOM 1",
+   "partId": 471089
+  },
+  {
+   "partNumber": 152,
+   "partName": "P.S.AMIRPURDASH URF DHARMNAGARI ROOM 1",
+   "partId": 471090
+  },
+  {
+   "partNumber": 153,
+   "partName": "P.S.AMIRPURDASH URF DHARMNAGARI ROOM 2",
+   "partId": 471091
+  },
+  {
+   "partNumber": 154,
+   "partName": "P.V. GHASIWALA ROOM 1",
+   "partId": 471092
+  },
+  {
+   "partNumber": 155,
+   "partName": "P.S.CHANDPUR FERU ROOM 1",
+   "partId": 471093
+  },
+  {
+   "partNumber": 156,
+   "partName": "MADERSHA ISLIMYA  AMIPUR BEGA ROOM  1",
+   "partId": 471094
+  },
+  {
+   "partNumber": 157,
+   "partName": "PRE SEC,S. SULTANPUR TAPPA NAGAL ROOM  1",
+   "partId": 471095
+  },
+  {
+   "partNumber": 158,
+   "partName": "PRE SEC,S. SULTANPUR TAPPA NAGAL ROOM  2",
+   "partId": 471096
+  },
+  {
+   "partNumber": 159,
+   "partName": "P.S.AMIPUR SHUDHA ROOM 1",
+   "partId": 471097
+  },
+  {
+   "partNumber": 160,
+   "partName": "P.S.AMIPUR SHUDHA ROOM 2",
+   "partId": 471098
+  },
+  {
+   "partNumber": 161,
+   "partName": "SAMAGARH VIDHALYA MADSUDANPUR NAND URF JHALRA ROOM 1",
+   "partId": 471099
+  },
+  {
+   "partNumber": 162,
+   "partName": "SAMAGARH VIDHALYA MADSUDANPUR NAND URF JHALRA ROOM 2",
+   "partId": 471100
+  },
+  {
+   "partNumber": 163,
+   "partName": "SAMAGARH VIDHALYA MADSUDANPUR NAND URF JHALRA ROOM 3",
+   "partId": 471101
+  },
+  {
+   "partNumber": 164,
+   "partName": "P.S.KACHPURA ROOM 1",
+   "partId": 471102
+  },
+  {
+   "partNumber": 165,
+   "partName": "P.S.FIROZPUR MUBARKPUR URF NAYA GAYO ROOM  1",
+   "partId": 471103
+  },
+  {
+   "partNumber": 166,
+   "partName": "P.S.JAMALPUR PATHANI ROOM 1",
+   "partId": 471104
+  },
+  {
+   "partNumber": 167,
+   "partName": "P.S.JAMALPUR PATHANI ROOM 2",
+   "partId": 471105
+  },
+  {
+   "partNumber": 168,
+   "partName": "SAMAGARH VIDHALYA TAREEKAMPUR ROOPCHAND ROOM 1",
+   "partId": 471106
+  },
+  {
+   "partNumber": 169,
+   "partName": "SAMAGARH VIDHALYA TAREEKAMPUR ROOPCHAND ROOM 2",
+   "partId": 471107
+  },
+  {
+   "partNumber": 170,
+   "partName": "SAMAGARH VIDHALYA TAREEKAMPUR ROOPCHAND ROOM 3",
+   "partId": 471108
+  },
+  {
+   "partNumber": 171,
+   "partName": "PANCHAYAT GHAR TARIKAMPUR ROOPCHAND ROOM  1",
+   "partId": 471109
+  },
+  {
+   "partNumber": 172,
+   "partName": "P.S.JHAKDI BANGAR KAKSH 1",
+   "partId": 471110
+  },
+  {
+   "partNumber": 173,
+   "partName": "P.V. KHEDKI HEMRAJ COLONY ROOM 1",
+   "partId": 471111
+  },
+  {
+   "partNumber": 174,
+   "partName": "P V KHEDKI HEMRAJ COLONY ROOM 2",
+   "partId": 471221
+  },
+  {
+   "partNumber": 175,
+   "partName": "SAMVILYAN VIDHALYA FAREEDPUR QAZI ROOM 1",
+   "partId": 471112
+  },
+  {
+   "partNumber": 176,
+   "partName": "SAMVILYAN VIDHALYA FAREEDPUR QAZI ROOM 2",
+   "partId": 471113
+  },
+  {
+   "partNumber": 177,
+   "partName": "SAMVILYAN VIDHALYA FAREEDPUR QAZI ROOM 3",
+   "partId": 471114
+  },
+  {
+   "partNumber": 178,
+   "partName": "SAMVILYAN VIDHALYA FAREEDPUR QAZI ROOM 4",
+   "partId": 471222
+  },
+  {
+   "partNumber": 179,
+   "partName": "KARYALYA BESIC SHIKSHA ADHIKARI BIJNOR ROOM 1",
+   "partId": 471115
+  },
+  {
+   "partNumber": 180,
+   "partName": "KARYALYA BESIC SHIKSHA ADHIKARI BIJNOR ROOM 2",
+   "partId": 471116
+  },
+  {
+   "partNumber": 181,
+   "partName": "P.V. NAI BASTI KASHIRAM AWAS COLONY BIJNOR ROOM 1",
+   "partId": 471117
+  },
+  {
+   "partNumber": 182,
+   "partName": "P.V. NAI BASTI KASHIRAM AWAS COLONY BIJNOR ROOM 2",
+   "partId": 471118
+  },
+  {
+   "partNumber": 183,
+   "partName": "P.V. NAI BASTI KASHIRAM AWAS COLONY BIJNOR ROOM 3",
+   "partId": 471119
+  },
+  {
+   "partNumber": 184,
+   "partName": "P.S. ISLAMPUR DASH ROOM 1",
+   "partId": 471120
+  },
+  {
+   "partNumber": 185,
+   "partName": "PANCHYAT GHAR TAMURPUR DEEPA ROOM  1",
+   "partId": 471121
+  },
+  {
+   "partNumber": 186,
+   "partName": "PANCHYAT GHAR TAMURPUR DEEPA ROOM  2",
+   "partId": 471122
+  },
+  {
+   "partNumber": 187,
+   "partName": "PANCHYAT GHAR TAMURPUR DEEPA ROOM 3",
+   "partId": 471123
+  },
+  {
+   "partNumber": 188,
+   "partName": "PRE SEC..S . TAMURPUR ROOM 1",
+   "partId": 471124
+  },
+  {
+   "partNumber": 189,
+   "partName": "PRE SEC..S . TAMURPUR ROOM 2",
+   "partId": 471125
+  },
+  {
+   "partNumber": 190,
+   "partName": "SENT JOSEPH SCHOOL TAMURPUR ROOM  1",
+   "partId": 471126
+  },
+  {
+   "partNumber": 191,
+   "partName": "DAYANAND J.H.S PRAGTI BIHAR ROOM 1",
+   "partId": 471127
+  },
+  {
+   "partNumber": 192,
+   "partName": "DAYANAND J.H.S PRAGTI BIHAR ROOM 2",
+   "partId": 471128
+  },
+  {
+   "partNumber": 193,
+   "partName": "P.S.FARIDPUR MEERA ROOM 1",
+   "partId": 471129
+  },
+  {
+   "partNumber": 194,
+   "partName": "PANCHAYAT GHAR UMARPUR MEERA ROOM 1",
+   "partId": 471130
+  },
+  {
+   "partNumber": 195,
+   "partName": "P.S.RASHULPUR PRATHIVI ROOM 1",
+   "partId": 471131
+  },
+  {
+   "partNumber": 196,
+   "partName": "P.S.RASHULPUR PRATHIVI ROOM 2",
+   "partId": 471132
+  },
+  {
+   "partNumber": 197,
+   "partName": "P.S.RASHULPUR PRATHIVI ROOM 3",
+   "partId": 471133
+  },
+  {
+   "partNumber": 198,
+   "partName": "PRE SEC. S. RASHULPUR PRATHIVI ROOM  1",
+   "partId": 471134
+  },
+  {
+   "partNumber": 199,
+   "partName": "PRE SEC. S. RASHULPUR PRATHIVI ROOM  2",
+   "partId": 471135
+  },
+  {
+   "partNumber": 200,
+   "partName": "COMPOSITE VIDHALYA AAURANGPUR TARA URF JHALRI ROOM 1",
+   "partId": 471136
+  },
+  {
+   "partNumber": 201,
+   "partName": "COMPOSITE VIDHALYA AAURANGPUR TARA URF JHALRI ROOM 2",
+   "partId": 471137
+  },
+  {
+   "partNumber": 202,
+   "partName": "P.S. BHAGAN ROOM 1",
+   "partId": 471138
+  },
+  {
+   "partNumber": 203,
+   "partName": "P.S. BHAGAN ROOM 2",
+   "partId": 471139
+  },
+  {
+   "partNumber": 204,
+   "partName": "PRATHMIK VIDHALYA MANGOLPURA ROOM 1",
+   "partId": 471140
+  },
+  {
+   "partNumber": 205,
+   "partName": "P.S.BANKPUR URF MIRZAPUR MAHESH ROOM  1",
+   "partId": 471141
+  },
+  {
+   "partNumber": 206,
+   "partName": "P.S.BANKPUR URF MIRZAPUR MAHESH ROOM  2",
+   "partId": 471142
+  },
+  {
+   "partNumber": 207,
+   "partName": "P.S.WASHPUR MAN ROOM 1",
+   "partId": 471143
+  },
+  {
+   "partNumber": 208,
+   "partName": "PRE SEC. S. NASHRI ROOM 1",
+   "partId": 471144
+  },
+  {
+   "partNumber": 209,
+   "partName": "SAMAGARH VIDHALYA PEDA ROOM 1",
+   "partId": 471145
+  },
+  {
+   "partNumber": 210,
+   "partName": "SAMAGARH VIDHALYA PEDA ROOM 2",
+   "partId": 471146
+  },
+  {
+   "partNumber": 211,
+   "partName": "P.S.GOKALPUR KASAM ROOM 1",
+   "partId": 471147
+  },
+  {
+   "partNumber": 212,
+   "partName": "P.S.FARIDPUR BHOGI ROOM 1",
+   "partId": 471148
+  },
+  {
+   "partNumber": 213,
+   "partName": "SACHIVALAY PANCHAYAT GHAR PEDI ROOM 1",
+   "partId": 471149
+  },
+  {
+   "partNumber": 214,
+   "partName": "SACHIVALAY PANCHAYAT GHAR PEDI ROOM  2",
+   "partId": 471150
+  },
+  {
+   "partNumber": 215,
+   "partName": "P.S.RASHIDPUR GHARI ROOM 1",
+   "partId": 471151
+  },
+  {
+   "partNumber": 216,
+   "partName": "P.S.RASHIDPUR GHARI ROOM 2",
+   "partId": 471152
+  },
+  {
+   "partNumber": 217,
+   "partName": "RAJKIYA AAUDHOGIK PRASHISHAN SANSTHAN BIJNOR ROOM 1",
+   "partId": 471153
+  },
+  {
+   "partNumber": 218,
+   "partName": "RAJKIYA AAUDHOGIK PRASHISHAN SANSTHAN BIJNOR ROOM 2",
+   "partId": 471154
+  },
+  {
+   "partNumber": 219,
+   "partName": "RAJKIYA AAUDHOGIK PRASHISHAN SANSTHAN PRASHASNIK BHAWAN BIJNOR ROOM 1",
+   "partId": 471155
+  },
+  {
+   "partNumber": 220,
+   "partName": "RAJKIYA AAUDHOGIK PRASHISHAN SANSTHAN PRASHASNIK BHAWAN BIJNOR ROOM 2",
+   "partId": 471156
+  },
+  {
+   "partNumber": 221,
+   "partName": "PRATHMIK VIDHALYA RAMPUR BAKLI ROOM 1",
+   "partId": 471157
+  },
+  {
+   "partNumber": 222,
+   "partName": "PRATHMIK VIDHALYA RAMPUR BAKLI ROOM 2",
+   "partId": 471158
+  },
+  {
+   "partNumber": 223,
+   "partName": "PRATHMIK VIDHALYA RAMPUR BAKLI ROOM 3",
+   "partId": 471159
+  },
+  {
+   "partNumber": 224,
+   "partName": "MOHIBULLA JUNIOR HIGH SCHOOL BAKSHIWAL ROAD BIJNOR ROOM 1",
+   "partId": 471160
+  },
+  {
+   "partNumber": 225,
+   "partName": "MOHIBULLA JUNIOR HIGH SCHOOL BAKSHIWAL ROAD BIJNOR ROOM 2",
+   "partId": 471161
+  },
+  {
+   "partNumber": 226,
+   "partName": "MOHIBULLA JUNIOR HIGH SCHOOL BAKSHIWAL ROAD BIJNOR ROOM 3",
+   "partId": 471162
+  },
+  {
+   "partNumber": 227,
+   "partName": "D.A.V.INTER COLLEGE BIJNOR KAKSH 1",
+   "partId": 471163
+  },
+  {
+   "partNumber": 228,
+   "partName": "D.A.V.INTER.COLLEGE BIJNOR KAKSH 2",
+   "partId": 471164
+  },
+  {
+   "partNumber": 229,
+   "partName": "D.A.V.INTER .COLLEGE  BIJNOR KAKSH 3",
+   "partId": 471165
+  },
+  {
+   "partNumber": 230,
+   "partName": "D.A.V.INTER.COLLEGE BIJNOR KAKSH 4",
+   "partId": 471166
+  },
+  {
+   "partNumber": 231,
+   "partName": "D.A.V.INTER .COLLEGE  BIJNOR KAKSH 5",
+   "partId": 471167
+  },
+  {
+   "partNumber": 232,
+   "partName": "GREEN FIELD PUBLIC SCHOOL BIJNOR KAKSH 1",
+   "partId": 471168
+  },
+  {
+   "partNumber": 233,
+   "partName": "GREEN FIELD PUBLIC SCHOOL  BIJNOR KAKSH 2",
+   "partId": 471169
+  },
+  {
+   "partNumber": 234,
+   "partName": "PRATHMIK VIDHALYA MUKARPUR KHEMA BIJNOR ROOM 1",
+   "partId": 471170
+  },
+  {
+   "partNumber": 235,
+   "partName": "SUSHILA DEVI SHISU MANDIR LADAPUR BIJNOR ROOM1",
+   "partId": 471171
+  },
+  {
+   "partNumber": 236,
+   "partName": "SUSHILA DEVI SHISU MANDIR LADAPUR BIJNOR ROOM2",
+   "partId": 471172
+  },
+  {
+   "partNumber": 237,
+   "partName": "SUSHILA DEVI SHISU MANDIR LADAPUR BIJNOR ROOM 3",
+   "partId": 471173
+  },
+  {
+   "partNumber": 238,
+   "partName": "SUSHILA DEVI SHISU MANDIR LADAPUR BIJNOR ROOM  4",
+   "partId": 471174
+  },
+  {
+   "partNumber": 239,
+   "partName": "BIJNOR INTER COLLEGE BIJNOR ROOM 1",
+   "partId": 471175
+  },
+  {
+   "partNumber": 240,
+   "partName": "BIJNOR INTER COLLEGE BIJNOR ROOM2",
+   "partId": 471176
+  },
+  {
+   "partNumber": 241,
+   "partName": "BIJNOR INTER COLLEGE BIJNOR ROOM3",
+   "partId": 471177
+  },
+  {
+   "partNumber": 242,
+   "partName": "BIJNOR INTER COLLEGE BIJNOR ROOM 4",
+   "partId": 471178
+  },
+  {
+   "partNumber": 243,
+   "partName": "BIJNOR INTER COLLEGE BIJNOR ROOM 5",
+   "partId": 471179
+  },
+  {
+   "partNumber": 244,
+   "partName": "ARYA VAIDIK KANYA INTER COLLEGE BIJNOR ROOM 1",
+   "partId": 471180
+  },
+  {
+   "partNumber": 245,
+   "partName": "ARYA VAIDIK KANYA INTER COLLEGE BIJNOR ROOM 2",
+   "partId": 471181
+  },
+  {
+   "partNumber": 246,
+   "partName": "ARYA VAIDIK KANYA INTER COLLEGE BIJNOR ROOM 3",
+   "partId": 471182
+  },
+  {
+   "partNumber": 247,
+   "partName": "ARYA VAIDIK KANYA INTER COLLEGE BIJNOR ROOM 4",
+   "partId": 471183
+  },
+  {
+   "partNumber": 248,
+   "partName": "ARYA VAIDIK KANYA INTER COLLEGE BIJNOR ROOM 5",
+   "partId": 471184
+  },
+  {
+   "partNumber": 249,
+   "partName": "ARYA VAIDIK KANYA INTER COLLEGE BIJNOR ROOM 6",
+   "partId": 471185
+  },
+  {
+   "partNumber": 250,
+   "partName": "ARYA VAIDIK KANYA INTER COLLEGE BIJNOR ROOM 7",
+   "partId": 471186
+  },
+  {
+   "partNumber": 251,
+   "partName": "DAYANANAD BALIKA VIDHYA MANDIR ARYA SAMAJ BIJNOR ROOM 1",
+   "partId": 471187
+  },
+  {
+   "partNumber": 252,
+   "partName": "DAYANANAD BALIKA VIDHYA MANDIR ARYA SAMAJ BIJNOR ROOM 2",
+   "partId": 471188
+  },
+  {
+   "partNumber": 253,
+   "partName": "DAYANANAD BALIKA VIDHYA MANDIR ARYA SAMAJ BIJNOR ROOM 3",
+   "partId": 471189
+  },
+  {
+   "partNumber": 254,
+   "partName": "DAYANANAD BALIKA VIDHYA MANDIR ARYA SAMAJ BIJNOR ROOM 4",
+   "partId": 471190
+  },
+  {
+   "partNumber": 255,
+   "partName": "DAYANANAD BALIKA VIDHYA MANDIR ARYA SAMAJ BIJNOR ROOM 5",
+   "partId": 471191
+  },
+  {
+   "partNumber": 256,
+   "partName": "OFFICE NAGAR PALIKA PARISHAD BIJNOR ROOM 1",
+   "partId": 471192
+  },
+  {
+   "partNumber": 257,
+   "partName": "P.S.NEW BASTI BIJNOR ROOM 1",
+   "partId": 471193
+  },
+  {
+   "partNumber": 258,
+   "partName": "P.S.NEW BASTI BIJNOR ROOM 2",
+   "partId": 471194
+  },
+  {
+   "partNumber": 259,
+   "partName": "MUSLIM GIRLS HIGHER SECONDARY SCHOOL CHAHSHIRAIN BIJNOR ROOM 1",
+   "partId": 470352
+  },
+  {
+   "partNumber": 260,
+   "partName": "MUSLIM GIRLS HIGHER SECONDARY SCHOOL CHAHSHIRAIN BIJNOR ROOM 2",
+   "partId": 470353
+  },
+  {
+   "partNumber": 261,
+   "partName": "MUSLIM GIRLS HIGHER SECONDARY SCHOOL CHAHSHIRAIN BIJNOR ROOM 3",
+   "partId": 470354
+  },
+  {
+   "partNumber": 262,
+   "partName": "MUSLIM GIRLS HIGHER SECONDARY SCHOOL CHAHSHIRAIN BIJNOR ROOM 4",
+   "partId": 470355
+  },
+  {
+   "partNumber": 263,
+   "partName": "ANJMAN KHADIMUL YATAMA WAL MADARISIL ISLAMIYA MOH CHAHSHIRAIN BIJNOR ROOM 1",
+   "partId": 471201
+  },
+  {
+   "partNumber": 264,
+   "partName": "ANJMAN KHADIMUL YATAMA WAL MADARISIL ISLAMIYA MOH CHAHSHIRAIN BIJNOR ROOM 2",
+   "partId": 471202
+  },
+  {
+   "partNumber": 265,
+   "partName": "ANJMAN KHADIMUL YATAMA WAL MADARISIL ISLAMIYA MOH CHAHSHIRAIN BIJNOR ROOM 3",
+   "partId": 471203
+  },
+  {
+   "partNumber": 266,
+   "partName": "P.V. CHAHSHIRAIN PRATHAM BIJNOR ROOM 1",
+   "partId": 470356
+  },
+  {
+   "partNumber": 267,
+   "partName": "P.V. CHAHSHIRAIN PRATHAM BIJNOR ROOM 2",
+   "partId": 470357
+  },
+  {
+   "partNumber": 268,
+   "partName": "P.V. CHAHSHIRAIN PRATHAM BIJNOR ROOM 3",
+   "partId": 470358
+  },
+  {
+   "partNumber": 269,
+   "partName": "RANVIJAYBHAN SINGH INTER COLLEGE BIJNOR ROOM 1",
+   "partId": 471204
+  },
+  {
+   "partNumber": 270,
+   "partName": "RANVIJAYBHAN SINGH INTER COLLEGE BIJNOR ROOM 2",
+   "partId": 471205
+  },
+  {
+   "partNumber": 271,
+   "partName": "RANVIJAYBHAN SINGH INTER COLLEGE BIJNOR ROOM 3",
+   "partId": 471206
+  },
+  {
+   "partNumber": 272,
+   "partName": "RANVIJAYBHAN SINGH INTER COLLEGE BIJNOR ROOM 4",
+   "partId": 471207
+  },
+  {
+   "partNumber": 273,
+   "partName": "RANVIJAYBHAN SINGH INTER COLLEGE BIJNOR ROOM 5",
+   "partId": 471208
+  },
+  {
+   "partNumber": 274,
+   "partName": "RANVIJAYBHAN SINGH INTER COLLEGE BIJNOR ROOM 6",
+   "partId": 471209
+  },
+  {
+   "partNumber": 275,
+   "partName": "RANVIJAYBHAN SINGH INTER COLLEGE BIJNOR ROOM 7",
+   "partId": 471210
+  },
+  {
+   "partNumber": 276,
+   "partName": "P.S.BAZAR SHAMBA FIRST KASHIRAM COLLONY BIJNOR ROOM 1",
+   "partId": 470359
+  },
+  {
+   "partNumber": 277,
+   "partName": "P.S.BAZAR SHAMBA FIRST KASHIRAM COLLONY BIJNOR ROOM 2",
+   "partId": 470360
+  },
+  {
+   "partNumber": 278,
+   "partName": "P.S.BAZAR SHAMBA FIRST KASHIRAM COLLONY BIJNOR ROOM 3",
+   "partId": 470361
+  },
+  {
+   "partNumber": 279,
+   "partName": "P V BAZAR SHAMBHA PRATHAM KASHIRAM COLONY BIJNOR ROOM 4",
+   "partId": 471211
+  },
+  {
+   "partNumber": 280,
+   "partName": "P.S.RAMLILA KASHIRAM COLLONY BIJNOR ROOM 1",
+   "partId": 470362
+  },
+  {
+   "partNumber": 281,
+   "partName": "P.S.RAMLILA KASHIRAM COLLONY BIJNOR ROOM 2",
+   "partId": 470363
+  },
+  {
+   "partNumber": 282,
+   "partName": "SAMAGARH VIDHALYA MIRDAGAN BIJNOR ROOM 1",
+   "partId": 470364
+  },
+  {
+   "partNumber": 283,
+   "partName": "SAMAGARH VIDHALYA MIRDAGAN BIJNOR ROOM 2",
+   "partId": 470365
+  },
+  {
+   "partNumber": 284,
+   "partName": "SAMAGARH VIDHALYA MIRDAGAN BIJNOR ROOM 3",
+   "partId": 470366
+  },
+  {
+   "partNumber": 285,
+   "partName": "SAMAGARH VIDHALYA MIRDAGAN BIJNOR ROOM 4",
+   "partId": 471212
+  },
+  {
+   "partNumber": 286,
+   "partName": "SAMAGARH VIDHALYA MIRDAGAN BIJNOR ROOM 5",
+   "partId": 471213
+  },
+  {
+   "partNumber": 287,
+   "partName": "SAMAGARH VIDHALYA MIRDAGAN BIJNOR ROOM 6",
+   "partId": 471214
+  },
+  {
+   "partNumber": 288,
+   "partName": "RAJKIYA INTER COLLEGE BIJNOR ROOM 1",
+   "partId": 470367
+  },
+  {
+   "partNumber": 289,
+   "partName": "RAJKIYA INTER COLLEGE BIJNOR ROOM 2",
+   "partId": 470368
+  },
+  {
+   "partNumber": 290,
+   "partName": "RAJKIYA INTER COLLEGE BIJNOR ROOM 3",
+   "partId": 470369
+  },
+  {
+   "partNumber": 291,
+   "partName": "RAJKIYA INTER COLLEGE BIJNOR ROOM 4",
+   "partId": 470370
+  },
+  {
+   "partNumber": 292,
+   "partName": "RAJKIYA INTER COLLEGE BIJNOR ROOM 5",
+   "partId": 470371
+  },
+  {
+   "partNumber": 293,
+   "partName": "RAJKIYA INTER COLLEGE BIJNOR ROOM 6",
+   "partId": 470372
+  },
+  {
+   "partNumber": 294,
+   "partName": "COMPOSITE VIDHALYA BHATAN NAGAR BIJNOR ROOM 1",
+   "partId": 470373
+  },
+  {
+   "partNumber": 295,
+   "partName": "COMPOSITE VIDHALYA BHATAN NAGAR BIJNOR ROOM 2",
+   "partId": 470374
+  },
+  {
+   "partNumber": 296,
+   "partName": "RAMYAHI PUBLIC SCHOOL BIJNOR ROOM 1",
+   "partId": 470375
+  },
+  {
+   "partNumber": 297,
+   "partName": "RAMYAHI PUBLIC SCHOOL BIJNOR ROOM2",
+   "partId": 470376
+  },
+  {
+   "partNumber": 298,
+   "partName": "RAMYAHI PUBLIC SCHOOL BIJNOR ROOM 3",
+   "partId": 470377
+  },
+  {
+   "partNumber": 299,
+   "partName": "RAMYAHI PUBLIC SCHOOL BIJNOR ROOM 4",
+   "partId": 470378
+  },
+  {
+   "partNumber": 300,
+   "partName": "RAMYAHI PUBLIC SCHOOL BIJNOR ROOM 5",
+   "partId": 470379
+  },
+  {
+   "partNumber": 301,
+   "partName": "RAMYAHI PUBLIC SCHOOL BIJNOR ROOM 6",
+   "partId": 470380
+  },
+  {
+   "partNumber": 302,
+   "partName": "RAMYAHI PUBLIC SCHOOL BIJNOR ROOM 7",
+   "partId": 470381
+  },
+  {
+   "partNumber": 303,
+   "partName": "RAMYAHI PUBLIC SCHOOL BIJNOR ROOM 8",
+   "partId": 470382
+  },
+  {
+   "partNumber": 304,
+   "partName": "RAJKIYA KANYA INTER COLLEGE BIJNOR ROOM 1",
+   "partId": 470454
+  },
+  {
+   "partNumber": 305,
+   "partName": "RAJKIYA KANYA INTER COLLEGE BIJNOR ROOM 2",
+   "partId": 470455
+  },
+  {
+   "partNumber": 306,
+   "partName": "RAJKIYA KANYA INTER COLLEGE BIJNOR ROOM 3",
+   "partId": 470456
+  },
+  {
+   "partNumber": 307,
+   "partName": "RAJKIYA KANYA INTER COLLEGE BIJNOR ROOM 4",
+   "partId": 470457
+  },
+  {
+   "partNumber": 308,
+   "partName": "RAJKIYA KANYA INTER COLLEGE BIJNOR ROOM 5",
+   "partId": 470458
+  },
+  {
+   "partNumber": 309,
+   "partName": "RAJKIYA KANYA INTER COLLEGE BIJNOR ROOM 6",
+   "partId": 470459
+  },
+  {
+   "partNumber": 310,
+   "partName": "LUISLY PARKAR P.S.BIJNOR ROOM 1",
+   "partId": 470460
+  },
+  {
+   "partNumber": 311,
+   "partName": "LUISLY PARKAR P.S.BIJNOR ROOM 2",
+   "partId": 470461
+  },
+  {
+   "partNumber": 312,
+   "partName": "LUISLY PARKAR GIRLS HIGH.SCHOOL.BIJNOR ROOM 1",
+   "partId": 470462
+  },
+  {
+   "partNumber": 313,
+   "partName": "LUISLY PARKAR GIRLS HIGH SCHOOL BIJNOR ROOM 2",
+   "partId": 470463
+  },
+  {
+   "partNumber": 314,
+   "partName": "P.S.POLICE LINE BIJNOR ROOM 1",
+   "partId": 470464
+  },
+  {
+   "partNumber": 315,
+   "partName": "P.S.POLICE LINE BIJNOR ROOM 2",
+   "partId": 470465
+  },
+  {
+   "partNumber": 316,
+   "partName": "P.S.POLICE LINE BIJNOR ROOM 3",
+   "partId": 470466
+  },
+  {
+   "partNumber": 317,
+   "partName": "PRATHMIK VIDHALYA QAZIPARA DITYA ROOM 1",
+   "partId": 470467
+  },
+  {
+   "partNumber": 318,
+   "partName": "PRATHMIK VIDHALYA QAZIPARA DITYA ROOM  2",
+   "partId": 470468
+  },
+  {
+   "partNumber": 319,
+   "partName": "PRATHMIK VIDHALYA QAZIPARA PRATHAM ROOM 1",
+   "partId": 470469
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRATHMIK VIDHALYA QAZIPARA PRATHAM ROOM 2",
+   "partId": 470470
+  },
+  {
+   "partNumber": 321,
+   "partName": "P.V. KADAPUR JASWANT ROOM 1",
+   "partId": 470471
+  },
+  {
+   "partNumber": 322,
+   "partName": "P.S.GOKALPUR ROOM1",
+   "partId": 470472
+  },
+  {
+   "partNumber": 323,
+   "partName": "P.S. PURANPUR ROOM1",
+   "partId": 470473
+  },
+  {
+   "partNumber": 324,
+   "partName": "UPPER P.S.SHADAPURA ROOM 1",
+   "partId": 470474
+  },
+  {
+   "partNumber": 325,
+   "partName": "UPPER P.S. SHADAPURA ROOM 2",
+   "partId": 470475
+  },
+  {
+   "partNumber": 326,
+   "partName": "PRATHMIK VIDHALYA JALALPUR QAZI ROOM 1",
+   "partId": 470476
+  },
+  {
+   "partNumber": 327,
+   "partName": "PRATHMIK VIDHALYA JALALPUR QAZI ROOM 2",
+   "partId": 470477
+  },
+  {
+   "partNumber": 328,
+   "partName": "P.S.SHABAZPUR KHANA ROOM1",
+   "partId": 470478
+  },
+  {
+   "partNumber": 329,
+   "partName": "P.S.SHABAZPUR KHANA ROOM2",
+   "partId": 470479
+  },
+  {
+   "partNumber": 330,
+   "partName": "P.S.FARIDPUR UDDA ROOM 1",
+   "partId": 470480
+  },
+  {
+   "partNumber": 331,
+   "partName": "P.S.FARIDPUR UDDA ROOM2",
+   "partId": 470481
+  },
+  {
+   "partNumber": 332,
+   "partName": "PRATHMIK VIDHALYA BAKSHIWALA ROOM 1",
+   "partId": 470482
+  },
+  {
+   "partNumber": 333,
+   "partName": "PRATHMIK VIDHALYA BAKSHIWALA ROOM 2",
+   "partId": 470483
+  },
+  {
+   "partNumber": 334,
+   "partName": "UCCH P V BHARERA ROOM 1",
+   "partId": 471215
+  },
+  {
+   "partNumber": 335,
+   "partName": "P.S.MOMINPUR DHARGO ROOM 1",
+   "partId": 470484
+  },
+  {
+   "partNumber": 336,
+   "partName": "P.S.SHALMABAD ROOM 1",
+   "partId": 470485
+  },
+  {
+   "partNumber": 337,
+   "partName": "P.S.SHALMABAD ROOM 2",
+   "partId": 470510
+  },
+  {
+   "partNumber": 338,
+   "partName": "P.S.ISLAMPUR NEEMDASH ROOM 1",
+   "partId": 470511
+  },
+  {
+   "partNumber": 339,
+   "partName": "P.S.SHIRDHANI BANGAR ROOM 1",
+   "partId": 470512
+  },
+  {
+   "partNumber": 340,
+   "partName": "P.S.SHIRDHANI BANGAR ROOM 2",
+   "partId": 470513
+  },
+  {
+   "partNumber": 341,
+   "partName": "SAMAGAR VIDHALYA MUBARAKPUR TALAN ROOM 1",
+   "partId": 470514
+  },
+  {
+   "partNumber": 342,
+   "partName": "SAMAGAR VIDHALYA MUBARAKPUR TALAN ROOM 2",
+   "partId": 470515
+  },
+  {
+   "partNumber": 343,
+   "partName": "P.S.RASHULPUR PITNKA ROOM 1",
+   "partId": 470516
+  },
+  {
+   "partNumber": 344,
+   "partName": "VIDUR GURU GRAH INTER COLLEGE DARANAGAR VIDUR KUTI BIJNOR ROOM 1",
+   "partId": 470517
+  },
+  {
+   "partNumber": 345,
+   "partName": "VIDUR GURU GRAH INTER COLLEGE DARANAGAR VIDUR KUTI BIJNOR ROOM 2",
+   "partId": 470518
+  },
+  {
+   "partNumber": 346,
+   "partName": "VIDUR GURU GRAH INTER COLLEGE DARANAGAR VIDUR KUTI BIJNOR ROOM 3",
+   "partId": 470519
+  },
+  {
+   "partNumber": 347,
+   "partName": "VIDUR GURU GRAH INTER COLLEGE DARANAGAR VIDUR KUTI BIJNOR ROOM 4",
+   "partId": 470520
+  },
+  {
+   "partNumber": 348,
+   "partName": "P.V. PRITHVIPUR ROOM 1",
+   "partId": 470521
+  },
+  {
+   "partNumber": 349,
+   "partName": "P.S.MOHALDPUR ROOM1",
+   "partId": 470522
+  },
+  {
+   "partNumber": 350,
+   "partName": "P.S.GANGDASPUR ROOM 1",
+   "partId": 470523
+  },
+  {
+   "partNumber": 351,
+   "partName": "SAMAGAR VIDHALYA KAMBHOR ROOM 1",
+   "partId": 470524
+  },
+  {
+   "partNumber": 352,
+   "partName": "SAMAGAR VIDHALYA KAMBHOR ROOM 2",
+   "partId": 470525
+  },
+  {
+   "partNumber": 353,
+   "partName": "SAMAGAR VIDHALYA AGARI ROOM 1",
+   "partId": 470526
+  },
+  {
+   "partNumber": 354,
+   "partName": "SAMAGAR VIDHALYA AGARI ROOM 2",
+   "partId": 470527
+  },
+  {
+   "partNumber": 355,
+   "partName": "P.S.AROGANPUR HAZI ROOM 1",
+   "partId": 470528
+  },
+  {
+   "partNumber": 356,
+   "partName": "P.S.GHOSPUR TOPERI ROOM 1",
+   "partId": 470529
+  },
+  {
+   "partNumber": 357,
+   "partName": "UCCH PRAIMARY SCHOOL KHARI ROOM 1",
+   "partId": 470530
+  },
+  {
+   "partNumber": 358,
+   "partName": "UCCH PRAIMARY SCHOOL KHARI ROOM 2",
+   "partId": 470531
+  },
+  {
+   "partNumber": 359,
+   "partName": "UCCH PRAIMARY SCHOOL KHARI ROOM 3",
+   "partId": 470532
+  },
+  {
+   "partNumber": 360,
+   "partName": "UCCH PRAIMARY SCHOOL KHARI ROOM 4",
+   "partId": 470533
+  },
+  {
+   "partNumber": 361,
+   "partName": "P.S.KHARI ROOM 1",
+   "partId": 470534
+  },
+  {
+   "partNumber": 362,
+   "partName": "P.S.KHARI ROOM 2",
+   "partId": 470535
+  },
+  {
+   "partNumber": 363,
+   "partName": "P.S.DHARAMPURA ROOM 1",
+   "partId": 470536
+  },
+  {
+   "partNumber": 364,
+   "partName": "P.S.ISLAMPUR LALA ROOM 1",
+   "partId": 470537
+  },
+  {
+   "partNumber": 365,
+   "partName": "PRATHMIK VIDHALYA FIROZPUR MANDU ROOM 1",
+   "partId": 470538
+  },
+  {
+   "partNumber": 366,
+   "partName": "UCCH P.V. NIZAMATPURA URF GANJ ROOM 1",
+   "partId": 470539
+  },
+  {
+   "partNumber": 367,
+   "partName": "UCCH P.V. NIZAMATPURA URF GANJ ROOM 2",
+   "partId": 470540
+  },
+  {
+   "partNumber": 368,
+   "partName": "P.S.NIJAMATPURA URF GANG ROOM 1",
+   "partId": 470541
+  },
+  {
+   "partNumber": 369,
+   "partName": "P.S.NIJAMATPURA URF GANG ROOM 2",
+   "partId": 470542
+  },
+  {
+   "partNumber": 370,
+   "partName": "P.S.NIJAMATPURA URF GANG ROOM 3",
+   "partId": 470543
+  },
+  {
+   "partNumber": 371,
+   "partName": "P.S.NIJAMATPURA URF GANG PURAHA ROOM 1",
+   "partId": 470544
+  },
+  {
+   "partNumber": 372,
+   "partName": "UCCH PRATHMIK VIDHALYA FAREEDPUR BHOGAN ROOM 1",
+   "partId": 470545
+  },
+  {
+   "partNumber": 373,
+   "partName": "UCCH PRATHMIK VIDHALYA FAREEDPUR BHOGAN ROOM 2",
+   "partId": 470546
+  },
+  {
+   "partNumber": 374,
+   "partName": "P.S.KHADAK ROOM1",
+   "partId": 470547
+  },
+  {
+   "partNumber": 375,
+   "partName": "P.S.DHAMONPUR ROOM 1",
+   "partId": 470548
+  },
+  {
+   "partNumber": 376,
+   "partName": "SAMAGARH VIDHALYA CHOKPURI ROOM 1",
+   "partId": 470549
+  },
+  {
+   "partNumber": 377,
+   "partName": "SAMAGARH VIDHALYA CHOKPURI ROOM 2",
+   "partId": 470550
+  },
+  {
+   "partNumber": 378,
+   "partName": "P.S.RASHULPUR ABAD ROOM 1",
+   "partId": 470551
+  },
+  {
+   "partNumber": 379,
+   "partName": "HIRDIYANANAD SARVAJANIK INTER COLLEGE JHALU ROOM 1",
+   "partId": 470552
+  },
+  {
+   "partNumber": 380,
+   "partName": "HIRDIYANANAD SARVAJANIK INTER COLLEGE JHALU ROOM 2",
+   "partId": 470553
+  },
+  {
+   "partNumber": 381,
+   "partName": "HIRDIYANANAD SARVAJANIK INTER COLLEGE JHALU ROOM 3",
+   "partId": 470554
+  },
+  {
+   "partNumber": 382,
+   "partName": "HIRDIYANANAD SARVAJANIK INTER COLLEGE JHALU ROOM 4",
+   "partId": 470555
+  },
+  {
+   "partNumber": 383,
+   "partName": "HIRDIYANANAD SARVAJANIK INTER COLLEGE JHALU ROOM 5",
+   "partId": 470556
+  },
+  {
+   "partNumber": 384,
+   "partName": "HIRDIYANANAD SARVAJANIK INTER COLLEGE JHALU ROOM 6",
+   "partId": 470557
+  },
+  {
+   "partNumber": 385,
+   "partName": "RAJKIYA BALIKA INTER COLLEGE JHALU ROOM 1",
+   "partId": 470558
+  },
+  {
+   "partNumber": 386,
+   "partName": "RAJKIYA BALIKA INTER COLLEGE JHALU ROOM 2",
+   "partId": 470559
+  },
+  {
+   "partNumber": 387,
+   "partName": "RAJKIYA BALIKA INTER COLLEGE JHALU ROOM 3",
+   "partId": 470560
+  },
+  {
+   "partNumber": 388,
+   "partName": "SAMAGAR VIDHALYA JHALU FIRST ROOM 1",
+   "partId": 470561
+  },
+  {
+   "partNumber": 389,
+   "partName": "SAMAGAR VIDHALYA JHALU FIRST ROOM 2",
+   "partId": 470562
+  },
+  {
+   "partNumber": 390,
+   "partName": "SAMAGAR VIDHALYA JHALU FIRST ROOM 3",
+   "partId": 470563
+  },
+  {
+   "partNumber": 391,
+   "partName": "SAMAGAR VIDHALYA JHALU FIRST ROOM 4",
+   "partId": 470564
+  },
+  {
+   "partNumber": 392,
+   "partName": "SAMAGAR VIDHALYA JHALU FIRST ROOM 5",
+   "partId": 470565
+  },
+  {
+   "partNumber": 393,
+   "partName": "SAMAGAR VIDHALYA JHALU FIRST ROOM 6",
+   "partId": 470566
+  },
+  {
+   "partNumber": 394,
+   "partName": "SAMAGAR VIDHALYA JHALU FIRST ROOM 7",
+   "partId": 471218
+  },
+  {
+   "partNumber": 395,
+   "partName": "SAMAGAR VIDHALYA JHALU FIRST ROOM 8",
+   "partId": 471219
+  },
+  {
+   "partNumber": 396,
+   "partName": "P.S.SHUMALKHADI ROOM 1",
+   "partId": 470567
+  },
+  {
+   "partNumber": 397,
+   "partName": "P.S.NAGILE ROOM 1",
+   "partId": 470568
+  },
+  {
+   "partNumber": 398,
+   "partName": "P.S.NAGILE ROOM 2",
+   "partId": 470569
+  },
+  {
+   "partNumber": 399,
+   "partName": "P.S.RADHAWA ROOM 1",
+   "partId": 470570
+  },
+  {
+   "partNumber": 400,
+   "partName": "UPPER.P.S. JEETPURA ROOM 1",
+   "partId": 470571
+  },
+  {
+   "partNumber": 401,
+   "partName": "P.S.GAVDI BHUGHARG ROOM 1",
+   "partId": 470572
+  },
+  {
+   "partNumber": 402,
+   "partName": "P.S.CHANDANPURA ROOM 1",
+   "partId": 470573
+  },
+  {
+   "partNumber": 403,
+   "partName": "P.S.SHIKANDRABAD ROOM 1",
+   "partId": 470798
+  },
+  {
+   "partNumber": 404,
+   "partName": "UCCH PRATHMIK VIDHALIYA JAHANABAD ROOM 1",
+   "partId": 471216
+  },
+  {
+   "partNumber": 405,
+   "partName": "UCCH PRATHMIK VIDHALIYA JAHANABAD ROOM 2",
+   "partId": 471217
+  },
+  {
+   "partNumber": 406,
+   "partName": "UCCH PRATHMIK VIDHALIYA JAHANABAD ROOM 3",
+   "partId": 470799
+  },
+  {
+   "partNumber": 407,
+   "partName": "UCCH PRATHMIK VIDHALIYA JAHANABAD ROOM 4",
+   "partId": 470800
+  },
+  {
+   "partNumber": 408,
+   "partName": "P.S.SHAPUR LAL ROOM 1",
+   "partId": 470801
+  },
+  {
+   "partNumber": 409,
+   "partName": "SAMAGARH VIDHALYA KUTUBPR GARHI ROOM 1",
+   "partId": 470802
+  },
+  {
+   "partNumber": 410,
+   "partName": "SAMAGARH VIDHALYA FAHEPUR KALA ROOM 1",
+   "partId": 470803
+  },
+  {
+   "partNumber": 411,
+   "partName": "SAMAGARH VIDHALYA FAHEPUR KALA ROOM 2",
+   "partId": 470804
+  },
+  {
+   "partNumber": 412,
+   "partName": "SAMAGAR VIDHALYA NAVADA ROOM 1",
+   "partId": 470805
+  },
+  {
+   "partNumber": 413,
+   "partName": "SAMAGAR VIDHALYA NAVADA ROOM 2",
+   "partId": 470806
+  },
+  {
+   "partNumber": 414,
+   "partName": "SAMAGAR VIDHALYA NAVADA ROOM 3",
+   "partId": 470807
+  },
+  {
+   "partNumber": 415,
+   "partName": "P.S.MUKRADPUR ROOM 1",
+   "partId": 470808
+  },
+  {
+   "partNumber": 416,
+   "partName": "P S MUKRADPUR ROOM 2",
+   "partId": 471223
+  },
+  {
+   "partNumber": 417,
+   "partName": "SAMAGARH VIDHALYA KADAPUR ROOM 1",
+   "partId": 470809
+  },
+  {
+   "partNumber": 418,
+   "partName": "SAMAGARH VIDHALYA KADAPUR ROOM 2",
+   "partId": 470810
+  },
+  {
+   "partNumber": 419,
+   "partName": "P.S.WAZIDPUR ROOM 1",
+   "partId": 470811
+  },
+  {
+   "partNumber": 420,
+   "partName": "SAMAGAR VIDHALYA NANUPURA ROOM 1",
+   "partId": 470812
+  },
+  {
+   "partNumber": 421,
+   "partName": "SARDAR BALLABH BHAI PATEL UCCH MADHYAMIK VIDHALYA JHAL ROOM 1",
+   "partId": 470813
+  },
+  {
+   "partNumber": 422,
+   "partName": "SAMAGARH VIDHALYA CHHACHHRI TEEP ROOM 1",
+   "partId": 470814
+  },
+  {
+   "partNumber": 423,
+   "partName": "P.S.MUKURPUR GUJAR ROOM 1",
+   "partId": 470815
+  },
+  {
+   "partNumber": 424,
+   "partName": "P S MUKURPUR GUJAR ROOM 2",
+   "partId": 471224
+  },
+  {
+   "partNumber": 425,
+   "partName": "SAMAGARH VIDHALYA KAREEMNAGAR URF ULEDA ROOM 1",
+   "partId": 470816
+  },
+  {
+   "partNumber": 426,
+   "partName": "GRAM PANCHAYAT SACHIVALAY MANDORA JAT ROOM 1",
+   "partId": 470817
+  }
+ ]
+}

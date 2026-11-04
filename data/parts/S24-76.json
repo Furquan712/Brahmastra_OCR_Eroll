@@ -1,0 +1,1982 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2409",
+ "acNumber": 76,
+ "fetchedAt": "2026-11-01T08:34:16",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 394,
+ "maxPart": 394,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "LOUISA SOULES GIRLS HIGH SCHOOL ROOM NO 1 G.T. ROAD",
+   "partId": 420268
+  },
+  {
+   "partNumber": 2,
+   "partName": "LOUISA SOULES GIRLS HIGH SCHOOL ROOM NO 2 G.T. ROAD",
+   "partId": 420269
+  },
+  {
+   "partNumber": 3,
+   "partName": "LOUISA SOULES GIRLS HIGH SCHOOL ROOM NO 3 G.T. ROAD",
+   "partId": 420270
+  },
+  {
+   "partNumber": 4,
+   "partName": "LOUISA SOULES GIRLS HIGH SCHOOL ROOM NO 4 G.T. ROAD",
+   "partId": 420271
+  },
+  {
+   "partNumber": 5,
+   "partName": "SHRI GURUNANAK DEV PUBLIC EVAM JUNIOR HIGH SCHOOL ROOM NO 1 NAI BASTI",
+   "partId": 420272
+  },
+  {
+   "partNumber": 6,
+   "partName": "SHRI GURUNANAK DEV PUBLIC EVAM JUNIOR HIGH SCHOOL ROOM NO 2 NAI BASTI",
+   "partId": 420273
+  },
+  {
+   "partNumber": 7,
+   "partName": "PRIMARY SCHOOL BALIKA VIDHYALAY R0. N0 1 REFUGEE QUARTER",
+   "partId": 420274
+  },
+  {
+   "partNumber": 8,
+   "partName": "PRIMARY SCHOOL BALIKA VIDHYALAY R0 N0 2 REFUGEE QUARTER",
+   "partId": 420339
+  },
+  {
+   "partNumber": 9,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 1 G T ROAD",
+   "partId": 420340
+  },
+  {
+   "partNumber": 10,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 2 G T ROAD",
+   "partId": 420341
+  },
+  {
+   "partNumber": 11,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 3 G T ROAD",
+   "partId": 420342
+  },
+  {
+   "partNumber": 12,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 4 G T ROAD",
+   "partId": 420343
+  },
+  {
+   "partNumber": 13,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 5 G T ROAD",
+   "partId": 420344
+  },
+  {
+   "partNumber": 14,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 6 G T ROAD",
+   "partId": 420345
+  },
+  {
+   "partNumber": 15,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 7 G T ROAD",
+   "partId": 420346
+  },
+  {
+   "partNumber": 16,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 8 G T ROAD",
+   "partId": 420347
+  },
+  {
+   "partNumber": 17,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 9 G T ROAD",
+   "partId": 420348
+  },
+  {
+   "partNumber": 18,
+   "partName": "CITY  SCHOOL MASUDABAD ROOM NO 10 G T ROAD",
+   "partId": 420349
+  },
+  {
+   "partNumber": 19,
+   "partName": "M M PRECIDENCI INTER COLLEGE ROOM NO 1 NAVEEN NAGAR KHAIR BY PASS ROAD",
+   "partId": 421080
+  },
+  {
+   "partNumber": 20,
+   "partName": "M M PRECIDENCI INTER COLLEGE ROOM NO 2 NAVEEN NAGAR KHAIR BYPASS ROAD",
+   "partId": 421081
+  },
+  {
+   "partNumber": 21,
+   "partName": "M M PRECIDENCI INTER COLLEGE ROOM NO 3 NAVEEN NAGAR KHAIR BYPASS ROAD",
+   "partId": 421082
+  },
+  {
+   "partNumber": 22,
+   "partName": "M M PRECIDENCI INTER COLLEGE ROOM NO 4 NAVEEN NAGAR KHAIR BYPASS ROAD",
+   "partId": 421083
+  },
+  {
+   "partNumber": 23,
+   "partName": "M M PRECIDENCI INTER COLLEGE ROOM NO 5 NAVEEN NAGAR KHAIR BYPASS ROAD",
+   "partId": 421084
+  },
+  {
+   "partNumber": 24,
+   "partName": "M M PRECIDENCI INTER COLLEGE ROOM NO 6 NAVEEN NAGAR KHAIR BYPASS ROAD",
+   "partId": 421085
+  },
+  {
+   "partNumber": 25,
+   "partName": "MANVI INTER NATIONAL Senior Secondary SCHOOL ROOM NO 1 LAXIM PUR",
+   "partId": 421086
+  },
+  {
+   "partNumber": 26,
+   "partName": "MANVI INTER NATIONAL Senior Secondary SCHOOL ROOM NO 2 LAXIM PUR",
+   "partId": 421087
+  },
+  {
+   "partNumber": 27,
+   "partName": "MANVI INTER NATIONAL Senior Secondary SCHOOL ROOM NO 3 LAXIM PUR",
+   "partId": 421088
+  },
+  {
+   "partNumber": 28,
+   "partName": "MANVI INTER NATIONAL Senior Secondary SCHOOL ROOM NO 4 LAXIM PUR",
+   "partId": 421089
+  },
+  {
+   "partNumber": 29,
+   "partName": "MANVI INTER NATIONAL Senior Secondary SCHOOL ROOM NO 5 LAXIM PUR",
+   "partId": 421090
+  },
+  {
+   "partNumber": 30,
+   "partName": "ASIAN PUBLIC SCHOOL ROOM NO 1 PREM NAGAR",
+   "partId": 421091
+  },
+  {
+   "partNumber": 31,
+   "partName": "ASIAN PUBLIC SCHOOL ROOM NO 2 PREM NAGAR",
+   "partId": 421092
+  },
+  {
+   "partNumber": 32,
+   "partName": "SHRIRAM PUBLIC SCHOOL MEL ROSE BY PASS ROOM NO 1 PRINS NAGAR",
+   "partId": 421093
+  },
+  {
+   "partNumber": 33,
+   "partName": "SHRIRAM PUBLIC SCHOOL MEL ROSE BY PASS ROOM NO 2 PRINS NAGAR",
+   "partId": 421094
+  },
+  {
+   "partNumber": 34,
+   "partName": "YUNICORN PUBLIC SCHOOL ROOM NO 2 PRINCE NAGAR MAILROSE BY PASS ROAD",
+   "partId": 421095
+  },
+  {
+   "partNumber": 35,
+   "partName": "YUNICORN PUBLIC SCHOOL ROOM NO 2 PRINCE NAGAR MAILROSE BY PASS ROAD",
+   "partId": 421096
+  },
+  {
+   "partNumber": 36,
+   "partName": "MADARS WORLD PUBLIC SCHOOL ROOM NO 1 BIHARI PURAM",
+   "partId": 421099
+  },
+  {
+   "partNumber": 37,
+   "partName": "INDIAN PUBLIC INTER COLLEGE ROOM NO 1 BIMA NAGAR",
+   "partId": 420350
+  },
+  {
+   "partNumber": 38,
+   "partName": "INDIAN PUBLIC INTER COLLEGE ROOM NO 2 BIMA NAGAR",
+   "partId": 420351
+  },
+  {
+   "partNumber": 39,
+   "partName": "INDIAN PUBLIC INTER COLLEGE ROOM NO 3 BIMA NAGAR",
+   "partId": 420352
+  },
+  {
+   "partNumber": 40,
+   "partName": "INDIAN PUBLIC INTER COLLEGE ROOM NO 4 BIMA NAGAR",
+   "partId": 420353
+  },
+  {
+   "partNumber": 41,
+   "partName": "SANT LORENCE PUBLIC SCHOOL ROOM NO 1 KANTI VIHAR",
+   "partId": 420354
+  },
+  {
+   "partNumber": 42,
+   "partName": "GOOD SHEPHERD  SCHOOL ROOM NO 1 G T ROAD BANNA DEVI",
+   "partId": 420355
+  },
+  {
+   "partNumber": 43,
+   "partName": "GOOD SHEPHERD  SCHOOL ROOM NO 2 G T ROAD BANNA DEVI",
+   "partId": 420356
+  },
+  {
+   "partNumber": 44,
+   "partName": "GOOD SHEPHERD  SCHOOL ROOM NO 3 G T ROAD BANNA DEVI",
+   "partId": 420357
+  },
+  {
+   "partNumber": 45,
+   "partName": "GOOD SHEPHERD SCHOOL ROOM NO 4 G T ROAD BANNA DEVI",
+   "partId": 421100
+  },
+  {
+   "partNumber": 46,
+   "partName": "KARYALAY SANYUKT AYUKT UDYOG KENDRA ROOM NO 1  INDUSTRIYAL AREA I T I ROAD",
+   "partId": 420358
+  },
+  {
+   "partNumber": 47,
+   "partName": "KARYALAY SANYUKT AYUKT UDYOG KENDRA ROOM NO 2  INDUSTRIYAL AREA I T I ROAD",
+   "partId": 420359
+  },
+  {
+   "partNumber": 48,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 1 I T I ROAD RASOOLPUR",
+   "partId": 420360
+  },
+  {
+   "partNumber": 49,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 2 I T I ROAD RASOOLPUR",
+   "partId": 420361
+  },
+  {
+   "partNumber": 50,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 3 I T I ROAD RASOOLPUR",
+   "partId": 420362
+  },
+  {
+   "partNumber": 51,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 4 I T I ROAD RASOOLPUR",
+   "partId": 420491
+  },
+  {
+   "partNumber": 52,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 5 I T I ROAD RASOOLPUR",
+   "partId": 420492
+  },
+  {
+   "partNumber": 53,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 6 I T I ROAD RASOOLPUR",
+   "partId": 420493
+  },
+  {
+   "partNumber": 54,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 7 I T I ROAD RASOOLPUR",
+   "partId": 420494
+  },
+  {
+   "partNumber": 55,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 8 I T I ROAD RASOOLPUR",
+   "partId": 420495
+  },
+  {
+   "partNumber": 56,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 9 I T I ROAD RASOOLPUR",
+   "partId": 420496
+  },
+  {
+   "partNumber": 57,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN CHHATRAWAS ROOM NO 10 I T I ROAD RASOOLPUR",
+   "partId": 420497
+  },
+  {
+   "partNumber": 58,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN (MAHILA) ROOM NO 1 I T I ROAD",
+   "partId": 420498
+  },
+  {
+   "partNumber": 59,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN (MAHILA) ROOM NO 2 I T I ROAD",
+   "partId": 420499
+  },
+  {
+   "partNumber": 60,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN (MAHILA) ROOM NO 3 I T I ROAD",
+   "partId": 420500
+  },
+  {
+   "partNumber": 61,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN (MAHILA) ROOM NO 4 I T I ROAD",
+   "partId": 420501
+  },
+  {
+   "partNumber": 62,
+   "partName": "RAJKIYA AUDYOGIK PRASHIKSHAN SANSTHAN (MAHILA) ROOM NO 5 I T I ROAD",
+   "partId": 420502
+  },
+  {
+   "partNumber": 63,
+   "partName": "BALAK PATHSHALA NO 17 ROOM NO 1 SARAI REHMAN",
+   "partId": 420503
+  },
+  {
+   "partNumber": 64,
+   "partName": "BALAK PATHSHALA NO 17 ROOM NO 2 SARAI REHMAN",
+   "partId": 420504
+  },
+  {
+   "partNumber": 65,
+   "partName": "BALAK PATHSHALA NO 17 ROOM NO 3 SARAI REHMAN",
+   "partId": 420505
+  },
+  {
+   "partNumber": 66,
+   "partName": "BALAK PATHSHALA NO 17 ROOM NO 4 SARAI REHMAN",
+   "partId": 420506
+  },
+  {
+   "partNumber": 67,
+   "partName": "BALAK PATHSHALA NO 17 ROOM NO 5 SARAI REHMAN",
+   "partId": 420507
+  },
+  {
+   "partNumber": 68,
+   "partName": "BALAK PATHSHALA NO 17 ROOM NO 6 SARAI REHMAN",
+   "partId": 420508
+  },
+  {
+   "partNumber": 69,
+   "partName": "SEWAGE PUMP SARAI REHMAN",
+   "partId": 420509
+  },
+  {
+   "partNumber": 70,
+   "partName": "MALVIYA PUSTKALAY ROOM NO. 1 G.T ROAD",
+   "partId": 420510
+  },
+  {
+   "partNumber": 71,
+   "partName": "MALVIYA PUSTKALAY ROOM NO. 2 G.T ROAD",
+   "partId": 420511
+  },
+  {
+   "partNumber": 72,
+   "partName": "MALVIYA PUSTKALAY ROOM NO. 3 G.T ROAD",
+   "partId": 420512
+  },
+  {
+   "partNumber": 73,
+   "partName": "MALVIYA PUSTKALAY ROOM NO. 4 G.T ROAD",
+   "partId": 420513
+  },
+  {
+   "partNumber": 74,
+   "partName": "MALVIYA PUSTKALAY ROOM NO. 5 G.T ROAD",
+   "partId": 420514
+  },
+  {
+   "partNumber": 75,
+   "partName": "SHRI JAGAT SINGH TYAGI HIGHER SECONDARY SCHOOL ROOM NO 1 RAGHUVIRPURI",
+   "partId": 420515
+  },
+  {
+   "partNumber": 76,
+   "partName": "SHRI JAGAT SINGH TYAGI HIGHER SECONDARY SCHOOL ROOM NO 2 RAGHUVIRPURI",
+   "partId": 420516
+  },
+  {
+   "partNumber": 77,
+   "partName": "SHRI JAGAT SINGH TYAGI HIGHER SECONDARY SCHOOL ROOM NO 3 RAGHUVIRPURI",
+   "partId": 420517
+  },
+  {
+   "partNumber": 78,
+   "partName": "SHRI JAGAT SINGH TYAGI HIGHER SECONDARY SCHOOL ROOM NO 4 RAGHUVIRPURI",
+   "partId": 420518
+  },
+  {
+   "partNumber": 79,
+   "partName": "SHRI JAGAT SINGH TYAGI HIGHER SECONDARY SCHOOL ROOM NO 5 RAGHUVIRPURI",
+   "partId": 420519
+  },
+  {
+   "partNumber": 80,
+   "partName": "SHRI JAGAT SINGH TYAGI HIGHER SECONDARY SCHOOL ROOM NO 6 RAGHUVIRPURI",
+   "partId": 420520
+  },
+  {
+   "partNumber": 81,
+   "partName": "NIKJAY MONTESSORI SCHOOL CHHATARI COMPOUND EAST  ROOM.NO  1 RASALGANJ",
+   "partId": 420521
+  },
+  {
+   "partNumber": 82,
+   "partName": "NIKJAY MONTESSORI SCHOOL CHHATARI COMPOUND EAST  ROOM.NO  2 RASALGANJ",
+   "partId": 420522
+  },
+  {
+   "partNumber": 83,
+   "partName": "NIKJAY MONTESSORI SCHOOL CHHATARI COMPOUND EAST  ROOM.NO  3 RASALGANJ",
+   "partId": 420523
+  },
+  {
+   "partNumber": 84,
+   "partName": "NIKJAY MONTESSORI SCHOOL CHHATARI COMPOUND EAST  ROOM.NO  4 RASALGANJ",
+   "partId": 420524
+  },
+  {
+   "partNumber": 85,
+   "partName": "DR AMBEDKAR SAMUDAIK BHAVAN ROOM NO 1 SARAI LABRIA",
+   "partId": 420525
+  },
+  {
+   "partNumber": 86,
+   "partName": "DR AMBEDKAR SAMUDAIK BHAVAN ROOM NO 2 SARAI LABRIA",
+   "partId": 420526
+  },
+  {
+   "partNumber": 87,
+   "partName": "SHRI UDAY SINGH JAIN KANYA INTER COLLEGE ROOM NO 1 UDAY SINGH JAIN ROAD",
+   "partId": 420527
+  },
+  {
+   "partNumber": 88,
+   "partName": "SHRI UDAY SINGH JAIN KANYA INTER COLLEGE ROOM NO 3 UDAY SINGH JAIN ROAD",
+   "partId": 420528
+  },
+  {
+   "partNumber": 89,
+   "partName": "UDAY SINGH JAIN GIRLS INTER COLLEGE  R.N. 3 UDAY SINGH JAIN ROAD",
+   "partId": 420529
+  },
+  {
+   "partNumber": 90,
+   "partName": "SHRI UDAY SINGH JAIN KANYA INTER COLLEGE ROOM NO 4 UDAY SINGH JAIN ROAD",
+   "partId": 420530
+  },
+  {
+   "partNumber": 91,
+   "partName": "SHRI UDAY SINGH JAIN KANYA INTER COLLEGE ROOM NO 5 UDAY SINGH JAIN ROAD",
+   "partId": 420531
+  },
+  {
+   "partNumber": 92,
+   "partName": "SHRI UDAY SINGH JAIN KANYA INTER COLLEGE ROOM NO 6 UDAY SINGH JAIN ROAD",
+   "partId": 420532
+  },
+  {
+   "partNumber": 93,
+   "partName": "SHRI UDAY SINGH JAIN KANYA INTER COLLEGE ROOM NO 7 UDAY SINGH JAIN ROAD",
+   "partId": 420533
+  },
+  {
+   "partNumber": 94,
+   "partName": "SHRI UDAY SINGH JAIN KANYA INTER COLLEGE ROOM NO 8 UDAY SINGH JAIN ROAD",
+   "partId": 420534
+  },
+  {
+   "partNumber": 95,
+   "partName": "JALKAR KARYALA NAGAR NIGAM ROAD ROOM NO.1 UDAY SINGH JAIN",
+   "partId": 420535
+  },
+  {
+   "partNumber": 96,
+   "partName": "JALKAR KARYALA NAGAR NIGAM ROAD ROOM NO. 2 UDAY SINGH JAIN",
+   "partId": 420536
+  },
+  {
+   "partNumber": 97,
+   "partName": "JALKAR KARYALA NAGAR NIGAM ROAD ROOM NO.3 UDAY SINGH JAIN",
+   "partId": 420537
+  },
+  {
+   "partNumber": 98,
+   "partName": "KASTURBA GANDHI AWASIYA  BALIKA VIDHYALAY ROOM NO 1 GHUDIYABAG",
+   "partId": 420538
+  },
+  {
+   "partNumber": 99,
+   "partName": "KASTURBA GANDHI AWASIYA  BALIKA VIDHYALAY ROOM NO 2 GHUDIYABAG",
+   "partId": 420539
+  },
+  {
+   "partNumber": 100,
+   "partName": "KASTURBA GANDHI AWASIYA  BALIKA VIDHYALAY ROOM NO 3 GHUDIYABAG",
+   "partId": 420540
+  },
+  {
+   "partNumber": 101,
+   "partName": "KASTURBA GANDHI AWASIYA  BALIKA VIDHYALAY ROOM NO 4 GHUDIYABAG",
+   "partId": 420541
+  },
+  {
+   "partNumber": 102,
+   "partName": "PRIMARY BALAK PATHSHALA NO.3 ROOM NO 1 GHUDIYABAG",
+   "partId": 420542
+  },
+  {
+   "partNumber": 103,
+   "partName": "PRIMARY BALAK PATHSHALA NO.3 ROOM NO 2 GHUDIYABAG",
+   "partId": 420543
+  },
+  {
+   "partNumber": 104,
+   "partName": "PRIMARY SCHOOL N0 3  ROOM NO 3 GHUDIYABAG",
+   "partId": 420544
+  },
+  {
+   "partNumber": 105,
+   "partName": "PRIMARY BALAK PATHSHALA NO.3 ROOM NO 4 GHUDIYABAG",
+   "partId": 420545
+  },
+  {
+   "partNumber": 106,
+   "partName": "PRIMARY BALAK PATHSHALA NO.3 ROOM NO 5 GHUDIYABAG",
+   "partId": 420546
+  },
+  {
+   "partNumber": 107,
+   "partName": "BAL VIKAS NIKETAN  R.N. 1 SUBHASH ROAD",
+   "partId": 420547
+  },
+  {
+   "partNumber": 108,
+   "partName": "BAL VIKAS NIKETAN  R.N. 2 SUBHASH ROAD",
+   "partId": 420548
+  },
+  {
+   "partNumber": 109,
+   "partName": "BAL VIKAS NIKETAN R.N. 3 SUBHASH ROAD",
+   "partId": 421101
+  },
+  {
+   "partNumber": 110,
+   "partName": "DHARM SAMAJ INTER COLLEGE ROOM NO 1 RAMGHAT ROAD PADAV DUVE",
+   "partId": 420549
+  },
+  {
+   "partNumber": 111,
+   "partName": "DHARM SAMAJ INTER COLLEGE ROOM NO 2 RAMGHAT ROAD PADAV DUVE",
+   "partId": 420550
+  },
+  {
+   "partNumber": 112,
+   "partName": "DHARM SAMAJ INTER COLLEGE ROOM NO 3 RAMGHAT ROAD PADAV DUVE",
+   "partId": 420551
+  },
+  {
+   "partNumber": 113,
+   "partName": "DHARM SAMAJ DIGREE COLLEGE ROOM NO 1 G T ROAD PADAV DUVE",
+   "partId": 420552
+  },
+  {
+   "partNumber": 114,
+   "partName": "DHARM SAMAJ DIGREE COLLEGE ROOM NO 2 G T ROAD PADAV DUVE",
+   "partId": 420553
+  },
+  {
+   "partNumber": 115,
+   "partName": "DHARM SAMAJ DEGREE COLLEGE R.N 3  G T ROAD PADAV DUBEY",
+   "partId": 420554
+  },
+  {
+   "partNumber": 116,
+   "partName": "DHARM SAMAJ DIGREE COLLEGE ROOM NO 4 G T ROAD PADAV DUVE",
+   "partId": 420555
+  },
+  {
+   "partNumber": 117,
+   "partName": "DHARM SAMAJ DIGREE COLLEGE ROOM NO 5 G T ROAD PADAV DUVE",
+   "partId": 420556
+  },
+  {
+   "partNumber": 118,
+   "partName": "ADARSH BAL MANDIR J H SCHOOL ROOM NO 1 GANDHI PARK",
+   "partId": 420557
+  },
+  {
+   "partNumber": 119,
+   "partName": "ADARSH BAL MANDIR J H SCHOOL ROOM NO 2 GANDHI PARK",
+   "partId": 420558
+  },
+  {
+   "partNumber": 120,
+   "partName": "ADARSH BAL MANDIR J H SCHOOL ROOM NO 3 GANDHI PARK",
+   "partId": 420559
+  },
+  {
+   "partNumber": 121,
+   "partName": "SHRI MAHESHWAR GIRLS  INTER COLLEGE ROOM NO 1 MADAR GATE",
+   "partId": 420560
+  },
+  {
+   "partNumber": 122,
+   "partName": "SHRI MAHESHWAR GIRLS  INTER COLLEGE ROOM NO 2 MADAR GATE",
+   "partId": 420561
+  },
+  {
+   "partNumber": 123,
+   "partName": "SHRI MAHESHWAR GIRLS  INTER COLLEGE ROOM NO 3 MADAR GATE",
+   "partId": 420562
+  },
+  {
+   "partNumber": 124,
+   "partName": "SHRI MAHESHWAR GIRLS  INTER COLLEGE ROOM NO 4 MADAR GATE",
+   "partId": 420563
+  },
+  {
+   "partNumber": 125,
+   "partName": "SHRI MAHESHWAR GIRLS  INTER COLLEGE ROOM NO 5 MADAR GATE",
+   "partId": 420564
+  },
+  {
+   "partNumber": 126,
+   "partName": "SHRI MAHESHWAR MONTESHARI BAL MANDIR ROOM NO 1  MADAR GATE",
+   "partId": 420565
+  },
+  {
+   "partNumber": 127,
+   "partName": "SHRI MAHESHWAR MONTESHARI BAL MANDIR ROOM NO 2  MADAR GATE",
+   "partId": 420566
+  },
+  {
+   "partNumber": 128,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 1 KHAIR ROAD",
+   "partId": 420567
+  },
+  {
+   "partNumber": 129,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 2 KHAIR ROAD",
+   "partId": 420568
+  },
+  {
+   "partNumber": 130,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 3 KHAIR ROAD",
+   "partId": 420569
+  },
+  {
+   "partNumber": 131,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 4 KHAIR ROAD",
+   "partId": 420570
+  },
+  {
+   "partNumber": 132,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 5 KHAIR ROAD",
+   "partId": 420571
+  },
+  {
+   "partNumber": 133,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 6 KHAIR ROAD",
+   "partId": 420572
+  },
+  {
+   "partNumber": 134,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 7 KHAIR ROAD",
+   "partId": 420573
+  },
+  {
+   "partNumber": 135,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 8 KHAIR ROAD",
+   "partId": 420574
+  },
+  {
+   "partNumber": 136,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 9 KHAIR ROAD",
+   "partId": 420575
+  },
+  {
+   "partNumber": 137,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 10 KHAIR ROAD",
+   "partId": 420576
+  },
+  {
+   "partNumber": 138,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 11 KHAIR ROAD",
+   "partId": 420577
+  },
+  {
+   "partNumber": 139,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 12 KHAIR ROAD",
+   "partId": 420578
+  },
+  {
+   "partNumber": 140,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 13 KHAIR ROAD",
+   "partId": 420579
+  },
+  {
+   "partNumber": 141,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 14 KHAIR ROAD",
+   "partId": 420580
+  },
+  {
+   "partNumber": 142,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 15 KHAIR ROAD",
+   "partId": 421097
+  },
+  {
+   "partNumber": 143,
+   "partName": "SUBHASH UCCHTAR MADHYAMIK VIDHYALAY ROOM NO 16 KHAIR ROAD",
+   "partId": 421098
+  },
+  {
+   "partNumber": 144,
+   "partName": "PASHU CHIKITSALAY R.N.1 NAGLA MASANI",
+   "partId": 420581
+  },
+  {
+   "partNumber": 145,
+   "partName": "PASHU CHIKITSALAY R.N.2 NAGLA MASANI",
+   "partId": 420582
+  },
+  {
+   "partNumber": 146,
+   "partName": "GLORIYAS PUBLIC INTER COLLEGE ROOM NO 1 A D A COLONY SHAHJMAAL",
+   "partId": 420583
+  },
+  {
+   "partNumber": 147,
+   "partName": "GLORIYAS PUBLIC INTER COLLEGE ROOM NO 2 A D A COLONY SHAHJMAAL",
+   "partId": 420584
+  },
+  {
+   "partNumber": 148,
+   "partName": "GLORIYAS PUBLIC INTER COLLEGE ROOM NO 3 A D A COLONY SHAHJMAAL",
+   "partId": 420585
+  },
+  {
+   "partNumber": 149,
+   "partName": "GLORIYAS PUBLIC INTER COLLEGE ROOM NO 4 A D A COLONY SHAHJMAAL",
+   "partId": 420586
+  },
+  {
+   "partNumber": 150,
+   "partName": "GLORIOUS PLAY SCHOOL  R.N 1 SHAHJAMAL",
+   "partId": 420587
+  },
+  {
+   "partNumber": 151,
+   "partName": "GLORIOUS PLAY SCHOOL  R.N 2 SHAHJAMAL",
+   "partId": 420588
+  },
+  {
+   "partNumber": 152,
+   "partName": "GLORIOUS PLAY SCHOOL R.N 3 SHAHJAMAL",
+   "partId": 421102
+  },
+  {
+   "partNumber": 153,
+   "partName": "REHMAT PUBLIC SCHOOL  R.N0 1 SHAHJAMAL",
+   "partId": 420589
+  },
+  {
+   "partNumber": 154,
+   "partName": "REHMAT PUBLIC SCHOOL  R.N0 2 SHAHJAMAL",
+   "partId": 420590
+  },
+  {
+   "partNumber": 155,
+   "partName": "REHMAT PUBLIC SCHOOL  R.N0 3 SHAHJAMAL",
+   "partId": 420591
+  },
+  {
+   "partNumber": 156,
+   "partName": "REHMAT PUBLIC SCHOOL R.N0 3 SHAHJAMAL",
+   "partId": 421103
+  },
+  {
+   "partNumber": 157,
+   "partName": "SARASWATI SHISHU MANDIR GAUSHALA ROOM NO 1 NIRANJANPURI KHAIR ROAD",
+   "partId": 420592
+  },
+  {
+   "partNumber": 158,
+   "partName": "SARASWATI SHISHU MANDIR GAUSHALA ROOM NO 2 NIRANJANPURI KHAIR ROAD",
+   "partId": 420593
+  },
+  {
+   "partNumber": 159,
+   "partName": "SARASWATI SHISHU MANDIR GAUSHALA ROOM NO 3 NIRANJANPURI KHAIR ROAD",
+   "partId": 420594
+  },
+  {
+   "partNumber": 160,
+   "partName": "SARASWATI SHISHU MANDIR GAUSHALA ROOM NO 4 NIRANJANPURI KHAIR ROAD",
+   "partId": 420595
+  },
+  {
+   "partNumber": 161,
+   "partName": "SARASWATI SHISHU MANDIR GAUSHALA ROOM NO 5 NIRANJANPURI KHAIR ROAD",
+   "partId": 420596
+  },
+  {
+   "partNumber": 162,
+   "partName": "S.S PUBLIC SCHOOL R.N. 1 NAGLA MASANI",
+   "partId": 420597
+  },
+  {
+   "partNumber": 163,
+   "partName": "S.S PUBLIC SCHOOL R.N. 2 NAGLA MASANI",
+   "partId": 420598
+  },
+  {
+   "partNumber": 164,
+   "partName": "B V M INTER COLLEGE ROOM NO 1 NAGLA MASANI",
+   "partId": 420599
+  },
+  {
+   "partNumber": 165,
+   "partName": "B V M INTER COLLEGE ROOM NO 2 NAGLA MASANI",
+   "partId": 420600
+  },
+  {
+   "partNumber": 166,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 1 KHAIR ROAD",
+   "partId": 420601
+  },
+  {
+   "partNumber": 167,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 2 KHAIR ROAD",
+   "partId": 420602
+  },
+  {
+   "partNumber": 168,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 3 KHAIR ROAD",
+   "partId": 420603
+  },
+  {
+   "partNumber": 169,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 4 KHAIR ROAD",
+   "partId": 420604
+  },
+  {
+   "partNumber": 170,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 5 KHAIR ROAD",
+   "partId": 420605
+  },
+  {
+   "partNumber": 171,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 6 KHAIR ROAD",
+   "partId": 420606
+  },
+  {
+   "partNumber": 172,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 7 KHAIR ROAD",
+   "partId": 420607
+  },
+  {
+   "partNumber": 173,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 8 KHAIR ROAD",
+   "partId": 420608
+  },
+  {
+   "partNumber": 174,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 9 KHAIR ROAD",
+   "partId": 420609
+  },
+  {
+   "partNumber": 175,
+   "partName": "G.D. PUBLIC Senior Secondary SCHOOL ROOM NO 10 KHAIR ROAD",
+   "partId": 420610
+  },
+  {
+   "partNumber": 176,
+   "partName": "G D PUBLIC Senior Secondary SCHOOL ROOM NO 11 KHAIR ROAD",
+   "partId": 421104
+  },
+  {
+   "partNumber": 177,
+   "partName": "GYANODAY JUNIOR HIGH SCHOOL ROOM NO 1 KHAIR ROAD",
+   "partId": 420611
+  },
+  {
+   "partNumber": 178,
+   "partName": "GYANODAY JUNIOR HIGH SCHOOL ROOM NO 1 KHAIR ROAD",
+   "partId": 420612
+  },
+  {
+   "partNumber": 179,
+   "partName": "GYANODAY JUNIOR HIGH SCHOOL ROOM NO 2 KHAIR ROAD",
+   "partId": 420613
+  },
+  {
+   "partNumber": 180,
+   "partName": "GYANODAY JUNIOR HIGH SCHOOL ROOM NO 4 KHAIR ROAD",
+   "partId": 420614
+  },
+  {
+   "partNumber": 181,
+   "partName": "GYANODAY JUNIOR HIGH SCHOOL ROOM NO 5 KHAIR ROAD",
+   "partId": 420615
+  },
+  {
+   "partNumber": 182,
+   "partName": "GYANODAY JUNIOR HIGH SCHOOL ROOM NO 6 KHAIR ROAD",
+   "partId": 421105
+  },
+  {
+   "partNumber": 183,
+   "partName": "SARVODAYA JUNIOR HIGH SCHOOL ROOM NO 1 KHAIR ROAD",
+   "partId": 420616
+  },
+  {
+   "partNumber": 184,
+   "partName": "SARVODAYA JUNIOR HIGH SCHOOL ROOM NO 2 KHAIR ROAD",
+   "partId": 420617
+  },
+  {
+   "partNumber": 185,
+   "partName": "M A I HIGH SCHOOL ROOM NO 1 A D A COLONY SHAHJAMAL",
+   "partId": 420618
+  },
+  {
+   "partNumber": 186,
+   "partName": "ALFIYA PUBLIC SCHOOL  R.N 2 A.D.A COLONY SHAHJAMAL",
+   "partId": 420619
+  },
+  {
+   "partNumber": 187,
+   "partName": "SHRIBARAHSAINI DHARAMSHALA ROOM NO 1 KANWARI GUNJ",
+   "partId": 420620
+  },
+  {
+   "partNumber": 188,
+   "partName": "SHRIBARAHSAINI DHARAMSHALA ROOM NO 2 KANWARI GUNJ",
+   "partId": 420621
+  },
+  {
+   "partNumber": 189,
+   "partName": "SHRIBARAHSAINI DHARAMSHALA ROOM NO 3 KANWARI GUNJ",
+   "partId": 420622
+  },
+  {
+   "partNumber": 190,
+   "partName": "SHRIBARAHSAINI DHARAMSHALA ROOM NO 4 KANWARI GUNJ",
+   "partId": 420623
+  },
+  {
+   "partNumber": 191,
+   "partName": "ANSAR GIRLS PUBLIC SCHOOL ROOM NO 1 ANSAR CWOCK MOHAMMAD ALI ROAD UPAR KOT",
+   "partId": 420624
+  },
+  {
+   "partNumber": 192,
+   "partName": "ANSAR GIRLS PUBLIC SCHOOL ROOM NO 2 ANSAR CWOCK MOHAMMAD ALI ROAD UPAR KOT",
+   "partId": 420625
+  },
+  {
+   "partNumber": 193,
+   "partName": "ANSAR GIRLS PUBLIC SCHOOL ROOM NO 3 ANSAR CWOCK MOHAMMAD ALI ROAD UPAR KOT",
+   "partId": 420626
+  },
+  {
+   "partNumber": 194,
+   "partName": "ANSAR GIRLS PUBLIC SCHOOL ROOM NO 4 ANSAR CWOCK MOHAMMAD ALI ROAD UPAR KOT",
+   "partId": 420627
+  },
+  {
+   "partNumber": 195,
+   "partName": "ANSAR GIRLS PUBLIC SCHOOL ROOM NO 5 ANSAR CWOCK MOHAMMAD ALI ROAD UPAR KOT",
+   "partId": 420628
+  },
+  {
+   "partNumber": 196,
+   "partName": "LUTFIYA INTER COLLEGE ROOM NO 1 UPAR KOT",
+   "partId": 420629
+  },
+  {
+   "partNumber": 197,
+   "partName": "LUTFIYA INTER COLLEGE ROOM NO 2 UPAR KOT",
+   "partId": 420630
+  },
+  {
+   "partNumber": 198,
+   "partName": "LUTFIYA INTER COLLEGE ROOM NO 3 UPAR KOT",
+   "partId": 420631
+  },
+  {
+   "partNumber": 199,
+   "partName": "LUTFIYA INTER COLLEGE ROOM NO 4 UPAR KOT",
+   "partId": 420632
+  },
+  {
+   "partNumber": 200,
+   "partName": "LUTFIYA INTER COLLEGE ROOM NO 5 UPAR KOT",
+   "partId": 420633
+  },
+  {
+   "partNumber": 201,
+   "partName": "ISLAMIQ NURSARY AND PRAIMARY SCHOOL ROOM NO 1 MOHALLA SHEKHAN UPAR KOT",
+   "partId": 420634
+  },
+  {
+   "partNumber": 202,
+   "partName": "ISLAMIQ NURSARY AND PRAIMARY SCHOOL ROOM NO 2 MOHALLA SHEKHAN UPAR KOT",
+   "partId": 420635
+  },
+  {
+   "partNumber": 203,
+   "partName": "ISLAMIQ NURSARY AND PRAIMARY SCHOOL ROOM NO 3 MOHALLA SHEKHAN UPAR KOT",
+   "partId": 420636
+  },
+  {
+   "partNumber": 204,
+   "partName": "ADARSH JUNIOR HIGH SCHOOL ROOM NO 1 RAMNAGAR GULAR ROAD",
+   "partId": 420637
+  },
+  {
+   "partNumber": 205,
+   "partName": "ADARSH JUNIOR HIGH SCHOOL ROOM NO 2 RAMNAGAR GULAR ROAD",
+   "partId": 420638
+  },
+  {
+   "partNumber": 206,
+   "partName": "ADARSH JUNIOR HIGH SCHOOL ROOM NO 3 RAMNAGAR GULAR ROAD",
+   "partId": 420639
+  },
+  {
+   "partNumber": 207,
+   "partName": "SHIV SHAKTI PUBLIC SCHOOL GULAR ROAD ROOM NO1",
+   "partId": 420640
+  },
+  {
+   "partNumber": 208,
+   "partName": "SHIV SHAKTI PUBLIC SCHOOL GULAR ROAD ROOM NO2",
+   "partId": 420641
+  },
+  {
+   "partNumber": 209,
+   "partName": "K. K. INDUSTRIAL TRAINING CENTER R.N 1 GOOLAR ROAD",
+   "partId": 420642
+  },
+  {
+   "partNumber": 210,
+   "partName": "K. K. INDUSTRIAL TRAINING CENTER R.N 2 GOOLAR ROAD",
+   "partId": 420643
+  },
+  {
+   "partNumber": 211,
+   "partName": "K. K. INDUSTRIAL TRAINING CENTER  R.N 3 GOOLAR ROAD",
+   "partId": 420644
+  },
+  {
+   "partNumber": 212,
+   "partName": "K. K. INDUSTRIAL TRAINING CENTER R.N 4 GOOLAR ROAD",
+   "partId": 420645
+  },
+  {
+   "partNumber": 213,
+   "partName": "ARYA SAMAJ PRACHAR KENDRA ARYA DHARAMSHALA KANWARIGANJ",
+   "partId": 420646
+  },
+  {
+   "partNumber": 214,
+   "partName": "KANYA JUNIOR HIGH SCHOOL GHUDIYABAGH",
+   "partId": 420647
+  },
+  {
+   "partNumber": 215,
+   "partName": "PRINCE PUBLIC SCHOOL  R.N 1 BHUJPURA BY PASS ROAD",
+   "partId": 420648
+  },
+  {
+   "partNumber": 216,
+   "partName": "PRINCE PUBLIC SCHOOL  R.N 2 BHUJPURA BY PASS ROAD",
+   "partId": 420649
+  },
+  {
+   "partNumber": 217,
+   "partName": "PRINCE PUBLIC SCHOOL  R.N 3 BHUJPURA BY PASS ROAD",
+   "partId": 420650
+  },
+  {
+   "partNumber": 218,
+   "partName": "PRINCE PUBLIC SCHOOL  R.N 4 BHUJPURA BY PASS ROAD",
+   "partId": 420651
+  },
+  {
+   "partNumber": 219,
+   "partName": "PRINCE PUBLIC SCHOOL  R.N 5 BHUJPURA BY PASS ROAD",
+   "partId": 420652
+  },
+  {
+   "partNumber": 220,
+   "partName": "PRINCE PUBLIC SCHOOL  R.N 6 BHUJPURA BY PASS ROAD",
+   "partId": 420653
+  },
+  {
+   "partNumber": 221,
+   "partName": "PRINCE PUBLIC SCHOOL R.N 7 BHUJPURA BY PASS ROAD",
+   "partId": 421106
+  },
+  {
+   "partNumber": 222,
+   "partName": "B.P.NO.38 ROOM NO 1  KHWAJA CHOWK TURKMAN GATE",
+   "partId": 420654
+  },
+  {
+   "partNumber": 223,
+   "partName": "B.P.NO.38 ROOM NO 2  KHWAJA CHOWK TURKMAN GATE",
+   "partId": 420655
+  },
+  {
+   "partNumber": 224,
+   "partName": "B.P.NO.38 ROOM NO 3  KHWAJA CHOWK TURKMAN GATE",
+   "partId": 420656
+  },
+  {
+   "partNumber": 225,
+   "partName": "B P NO38 ROOM NO 4 KHWAJA CHOWK TURKMAN GATE",
+   "partId": 421107
+  },
+  {
+   "partNumber": 226,
+   "partName": "TEHZEEB MODERN PUBLIC SCHOOL ROOM NO 1 TURKMAN GATE",
+   "partId": 420657
+  },
+  {
+   "partNumber": 227,
+   "partName": "TEHZEEB MODERN PUBLIC SCHOOL ROOM NO 2 TURKMAN GATE",
+   "partId": 420658
+  },
+  {
+   "partNumber": 228,
+   "partName": "TEHZEEB MODERN PUBLIC SCHOOL ROOM NO 3 TURKMAN GATE",
+   "partId": 420659
+  },
+  {
+   "partNumber": 229,
+   "partName": "TEHZEEB MODERN PUBLIC SCHOOL ROOM NO 4 TURKMAN GATE",
+   "partId": 420660
+  },
+  {
+   "partNumber": 230,
+   "partName": "HOLY ANGELS CONVENT SCHOOL ROOM NO 1 TURKMAN GATE",
+   "partId": 420661
+  },
+  {
+   "partNumber": 231,
+   "partName": "HOLY ANGEL PUBLIC SCHOOL  R.N 2 TURKMAN GATE",
+   "partId": 420662
+  },
+  {
+   "partNumber": 232,
+   "partName": "HOLY ANGELS CONVENT SCHOOL ROOM NO 3 TURKMAN GATE",
+   "partId": 420663
+  },
+  {
+   "partNumber": 233,
+   "partName": "HOLY ANGELS CONVENT SCHOOL ROOM NO 4 TURKMAN GATE",
+   "partId": 420664
+  },
+  {
+   "partNumber": 234,
+   "partName": "HOLY ANGELS CONVENT SCHOOL ROOM NO 5 TURKMAN GATE",
+   "partId": 420665
+  },
+  {
+   "partNumber": 235,
+   "partName": "ZIAUDDIN PUBLIC SCHOOL  R.N 1 KHWAJA CHOWK SARAY MIYAN",
+   "partId": 420666
+  },
+  {
+   "partNumber": 236,
+   "partName": "ZIAUDDIN PUBLIC SCHOOL  R.N 2 KHWAJA CHOWK SARAY MIYAN",
+   "partId": 420667
+  },
+  {
+   "partNumber": 237,
+   "partName": "ZIAUDDIN PUBLIC SCHOOL  R.N 3 KHWAJA CHOWK SARAY MIYAN",
+   "partId": 420668
+  },
+  {
+   "partNumber": 238,
+   "partName": "ZIAUDDIN PUBLIC SCHOOL  R.N 4 KHWAJA CHOWK SARAY MIYAN",
+   "partId": 420669
+  },
+  {
+   "partNumber": 239,
+   "partName": "APPLE PUBLIC SCHOOL A D A COLONY SHAHJAMAL R.N 1",
+   "partId": 420670
+  },
+  {
+   "partNumber": 240,
+   "partName": "APPLE PUBLIC SCHOOL A D A COLONY SHAHJAMAL R.N 2",
+   "partId": 420671
+  },
+  {
+   "partNumber": 241,
+   "partName": "APPLE PUBLIC SCHOOL A D A COLONY SHAHJAMAL R.N 3",
+   "partId": 420672
+  },
+  {
+   "partNumber": 242,
+   "partName": "APPLE PUBLIC SCHOOL A D A COLONY SHAHJAMAL R.N 4",
+   "partId": 420673
+  },
+  {
+   "partNumber": 243,
+   "partName": "SHRI KHATEEK PANCHYATI DHARMASHALA ROOM NO 1 DEHLI GATE",
+   "partId": 420674
+  },
+  {
+   "partNumber": 244,
+   "partName": "SHRI KHATEEK PANCHYATI DHARMASHALA ROOM NO 2 DEHLI GATE",
+   "partId": 420675
+  },
+  {
+   "partNumber": 245,
+   "partName": "BASIC PRIMARY BALAK PATHSHALA NO 20 ROOM NO 1  DEHLI GATE",
+   "partId": 420676
+  },
+  {
+   "partNumber": 246,
+   "partName": "BASIC PRIMARY BALAK PATHSHALA NO 20 ROOM NO 2  DEHLI GATE",
+   "partId": 420677
+  },
+  {
+   "partNumber": 247,
+   "partName": "BASIC PRIMARY PATHSHALA ROOM NO1 BALA-E-KILA",
+   "partId": 420678
+  },
+  {
+   "partNumber": 248,
+   "partName": "BASIC PRIMARY PATHSHALA ROOM NO2 BALA-E-KILA",
+   "partId": 420679
+  },
+  {
+   "partNumber": 249,
+   "partName": "BASIC PRIMARY PATHSHALA ROOM NO3 BALA-E-KILA",
+   "partId": 420680
+  },
+  {
+   "partNumber": 250,
+   "partName": "NISHWAN COLLEGE  R.N 1 UPAR KOT",
+   "partId": 420681
+  },
+  {
+   "partNumber": 251,
+   "partName": "NISHWAN COLLEGE  R.N 2 UPAR KOT",
+   "partId": 420682
+  },
+  {
+   "partNumber": 252,
+   "partName": "NISHWAN COLLEGE  R.N 3 UPAR KOT",
+   "partId": 420683
+  },
+  {
+   "partNumber": 253,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO1 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420684
+  },
+  {
+   "partNumber": 254,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO2 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420685
+  },
+  {
+   "partNumber": 255,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO3 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420686
+  },
+  {
+   "partNumber": 256,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO4 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420687
+  },
+  {
+   "partNumber": 257,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO5 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420688
+  },
+  {
+   "partNumber": 258,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO6 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420689
+  },
+  {
+   "partNumber": 259,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO7 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420690
+  },
+  {
+   "partNumber": 260,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO8 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420691
+  },
+  {
+   "partNumber": 261,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO9 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420692
+  },
+  {
+   "partNumber": 262,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO10 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420693
+  },
+  {
+   "partNumber": 263,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO11 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420694
+  },
+  {
+   "partNumber": 264,
+   "partName": "SH. BIHARILAL INTER COLLEGE ROOM NO12 NUNER GATE BHUJPURA CHAURAHA",
+   "partId": 420695
+  },
+  {
+   "partNumber": 265,
+   "partName": "SELTOR HOME ROOM NO 1 MULLAPADA BHUJPURA CHAURAHA POLICE CHOWKI KE PICHHE",
+   "partId": 420696
+  },
+  {
+   "partNumber": 266,
+   "partName": "SELTOR HOME ROOM NO 2 MULLAPADA BHUJPURA CHAURAHA POLICE CHOWKI KE PICHHE",
+   "partId": 420697
+  },
+  {
+   "partNumber": 267,
+   "partName": "SELTOR HOME ROOM NO 3 MULLAPADA BHUJPURA CHAURAHA POLICE CHOWKI KE PICHHE",
+   "partId": 420698
+  },
+  {
+   "partNumber": 268,
+   "partName": "SELTOR HOME ROOM NO 4 MULLAPADA BHUJPURA CHAURAHA POLICE CHOWKI KE PICHHE",
+   "partId": 420699
+  },
+  {
+   "partNumber": 269,
+   "partName": "SELTOR HOME ROOM NO 5 MULLAPADA BHUJPURA CHAURAHA POLICE CHOWKI KE PICHHE",
+   "partId": 420700
+  },
+  {
+   "partNumber": 270,
+   "partName": "NAAZ PUBLIC SCHOOL  R.N0 1 SIKSHA SAMITI BHUJPURA",
+   "partId": 420701
+  },
+  {
+   "partNumber": 271,
+   "partName": "NAAZ PUBLIC SCHOOL  R.N0 2 SIKSHA SAMITI BHUJPURA",
+   "partId": 420702
+  },
+  {
+   "partNumber": 272,
+   "partName": "NAAZ PUBLIC SCHOOL  R.N0 3 SIKSHA SAMITI BHUJPURA",
+   "partId": 420703
+  },
+  {
+   "partNumber": 273,
+   "partName": "NAAZ PUBLIC SCHOOL  R.N0 4 SIKSHA SAMITI BHUJPURA",
+   "partId": 420704
+  },
+  {
+   "partNumber": 274,
+   "partName": "NAAZ PUBLIC SCHOOL  R.N0 5 SIKSHA SAMITI BHUJPURA",
+   "partId": 420705
+  },
+  {
+   "partNumber": 275,
+   "partName": "NAAZ PUBLIC SCHOOL  R.N0 6 SIKSHA SAMITI BHUJPURA",
+   "partId": 420706
+  },
+  {
+   "partNumber": 276,
+   "partName": "SHAKUNTLA SHIKSHA SADAN JUNIOR HIGH SCHOOL R.N 1 BHUJPURA CHAURAHA",
+   "partId": 420707
+  },
+  {
+   "partNumber": 277,
+   "partName": "SHAKUNTLA SHIKSHA SADAN JUNIOR HIGH SCHOOL R.N 2 BHUJPURA CHAURAHA",
+   "partId": 420708
+  },
+  {
+   "partNumber": 278,
+   "partName": "SHAKUNTLA SHIKSHA SADAN JUNIOR HIGH SCHOOL R.N 3 BHUJPURA CHAURAHA",
+   "partId": 420709
+  },
+  {
+   "partNumber": 279,
+   "partName": "SHAKUNTLA SHIKSHA SADAN JUNIOR HIGH SCHOOL R.N 4 BHUJPURA CHAURAHA",
+   "partId": 420710
+  },
+  {
+   "partNumber": 280,
+   "partName": "S K INTER COLLEGE  R.N 1 JAIGANJ POST OFFICE",
+   "partId": 420711
+  },
+  {
+   "partNumber": 281,
+   "partName": "S K INTER COLLEGE   R.N 2 JAIGANJ POST OFFICE",
+   "partId": 420712
+  },
+  {
+   "partNumber": 282,
+   "partName": "A.M.U. GIRLS SCHOOL R.N 1  KAZIPARA",
+   "partId": 420713
+  },
+  {
+   "partNumber": 283,
+   "partName": "A.M.U. GIRLS SCHOOL R.N 2  KAZIPARA",
+   "partId": 420714
+  },
+  {
+   "partNumber": 284,
+   "partName": "A.M.U. GIRLS SCHOOL R.N 3  KAZIPARA",
+   "partId": 420971
+  },
+  {
+   "partNumber": 285,
+   "partName": "A.M.U. GIRLS SCHOOL R.N 4  KAZIPARA",
+   "partId": 420972
+  },
+  {
+   "partNumber": 286,
+   "partName": "A.M.U. GIRLS SCHOOL R.N 5  KAZIPARA",
+   "partId": 420973
+  },
+  {
+   "partNumber": 287,
+   "partName": "SANSKRIT  KANYA PATHSAHALA R.N 1  KANOON GOYAN",
+   "partId": 420974
+  },
+  {
+   "partNumber": 288,
+   "partName": "SANSKRIT KANYA PATHSAHALA R.N 2  KANOON GOYAN",
+   "partId": 420975
+  },
+  {
+   "partNumber": 289,
+   "partName": "SANSKRIT KANYA PATHSAHALA R.N 3  KANOON GOYAN",
+   "partId": 420976
+  },
+  {
+   "partNumber": 290,
+   "partName": "SANSKRIT KANYA PATHSAHALA R.N 4  KANOON GOYAN",
+   "partId": 420977
+  },
+  {
+   "partNumber": 291,
+   "partName": "CHAMPA AGRAWAL KANYA INTER COLLEGE R.N 1 ACHAL TALAB SARAI SULTANI",
+   "partId": 420978
+  },
+  {
+   "partNumber": 292,
+   "partName": "CHAMPA AGRAWAL KANYA INTER COLLEGE R.N 2 ACHAL TALAB SARAI SULTANI",
+   "partId": 420979
+  },
+  {
+   "partNumber": 293,
+   "partName": "CHAMPA AGRAWAL KANYA INTER COLLEGE R.N 3 ACHAL TALAB SARAI SULTANI",
+   "partId": 420980
+  },
+  {
+   "partNumber": 294,
+   "partName": "CHAMPA AGRAWAL KANYA INTER COLLEGE R.N 4 ACHAL TALAB SARAI SULTANI",
+   "partId": 420981
+  },
+  {
+   "partNumber": 295,
+   "partName": "SHRI KUNDANLAL JAIN BAL VIDYALAY R.N 1 KHIRNI GATE",
+   "partId": 420982
+  },
+  {
+   "partNumber": 296,
+   "partName": "SHRI KUNDANLAL JAIN BAL VIDYALAY R.N 2 KHIRNI GATE",
+   "partId": 420983
+  },
+  {
+   "partNumber": 297,
+   "partName": "SHRI KUNDANLAL JAIN BAL VIDYALAY R.N 3 KHIRNI GATE",
+   "partId": 420984
+  },
+  {
+   "partNumber": 298,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE   R.N 1 SARAI MAN SINGH",
+   "partId": 420985
+  },
+  {
+   "partNumber": 299,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE   R.N 2 SARAI MAN SINGH",
+   "partId": 420986
+  },
+  {
+   "partNumber": 300,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE   R.N 3 SARAI MAN SINGH",
+   "partId": 420987
+  },
+  {
+   "partNumber": 301,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE   R.N 4 SARAI MAN SINGH",
+   "partId": 420988
+  },
+  {
+   "partNumber": 302,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE   R.N 5 SARAI MAN SINGH",
+   "partId": 420989
+  },
+  {
+   "partNumber": 303,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE   R.N 6 SARAI MAN SINGH",
+   "partId": 420990
+  },
+  {
+   "partNumber": 304,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE   R.N 7 SARAI MAN SINGH",
+   "partId": 420991
+  },
+  {
+   "partNumber": 305,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE   R.N 8 SARAI MAN SINGH",
+   "partId": 420992
+  },
+  {
+   "partNumber": 306,
+   "partName": "G S PUBLIC SCHOOL ROOM NO 1 SARAI MAANSINGH",
+   "partId": 420993
+  },
+  {
+   "partNumber": 307,
+   "partName": "G S PUBLIC SCHOOL ROOM NO 2 SARAI MAANSINGH",
+   "partId": 420994
+  },
+  {
+   "partNumber": 308,
+   "partName": "VALMIKI DHARAMSHALA DURGAPURI SARAI MAAN SINGH",
+   "partId": 420995
+  },
+  {
+   "partNumber": 309,
+   "partName": "VALMIKI DHARAMSHALA DURGAPURI SARAI MAAN SINGH R.N.2",
+   "partId": 421108
+  },
+  {
+   "partNumber": 310,
+   "partName": "DAYANAND BAAL MANDIR JUNIOR HIGH SCHOOL LADIYA JAIGANJ",
+   "partId": 420996
+  },
+  {
+   "partNumber": 311,
+   "partName": "NAV JYOTI PUBLIC SCHOOL R.N 1 CHOKI LADIYA",
+   "partId": 420997
+  },
+  {
+   "partNumber": 312,
+   "partName": "NAV JYOTI PUBLIC SCHOOL R.N 2 CHOKI LADIYA",
+   "partId": 420998
+  },
+  {
+   "partNumber": 313,
+   "partName": "BASIC PRIMARY SCHOOL NO. 4 R.N 1 CHOKI LADIYA",
+   "partId": 420999
+  },
+  {
+   "partNumber": 314,
+   "partName": "BASIC PRIMARY SCHOOL NO. 4 R.N 2 CHOKI LADIYA",
+   "partId": 421000
+  },
+  {
+   "partNumber": 315,
+   "partName": "BASIC PRIMARY SCHOOL NO. 4 R.N 3 CHOKI LADIYA",
+   "partId": 421001
+  },
+  {
+   "partNumber": 316,
+   "partName": "GANESH DHARAMSHALA R.N 1 JAYGANJ",
+   "partId": 421002
+  },
+  {
+   "partNumber": 317,
+   "partName": "GANESH DHARAMSHALA R.N 2 JAYGANJ",
+   "partId": 421003
+  },
+  {
+   "partNumber": 318,
+   "partName": "BASIC PRIMARY SCHOOL NO. 35  R.N 1 SARAI BHOLANATH",
+   "partId": 421004
+  },
+  {
+   "partNumber": 319,
+   "partName": "BASIC PRIMARY SCHOOL NO. 35  R.N 2 SARAI BHOLANATH",
+   "partId": 421005
+  },
+  {
+   "partNumber": 320,
+   "partName": "WARD OFFICE NAGAR NIGAM SARAI BHOLANATH",
+   "partId": 421006
+  },
+  {
+   "partNumber": 321,
+   "partName": "MAHESHWARI INTER COLLEGE R.N 1  SASNI GATE",
+   "partId": 421007
+  },
+  {
+   "partNumber": 322,
+   "partName": "MAHESHWARI INTER COLLEGE R.N 2  SASNI GATE",
+   "partId": 421008
+  },
+  {
+   "partNumber": 323,
+   "partName": "MAHESHWARI INTER COLLEGE R.N 3  SASNI GATE",
+   "partId": 421009
+  },
+  {
+   "partNumber": 324,
+   "partName": "MAHESHWARI INTER COLLEGE R.N 4  SASNI GATE",
+   "partId": 421010
+  },
+  {
+   "partNumber": 325,
+   "partName": "MAHESHWARI INTER COLLEGE R.N 5  SASNI GATE",
+   "partId": 421011
+  },
+  {
+   "partNumber": 326,
+   "partName": "MAHESHWARI INTER COLLEGE R.N 6  SASNI GATE",
+   "partId": 421012
+  },
+  {
+   "partNumber": 327,
+   "partName": "MAHESHWARI INTER COLLEGE R.N 7  SASNI GATE",
+   "partId": 421013
+  },
+  {
+   "partNumber": 328,
+   "partName": "RAMKATORI KANYA HIGHER SECONDARY SCHOOL ROOM NO 1 SASNI GATE",
+   "partId": 421109
+  },
+  {
+   "partNumber": 329,
+   "partName": "RAMKATORI KANYA HIGHER SECONDARY SCHOOL ROOM NO 2 SASNI GATE",
+   "partId": 421014
+  },
+  {
+   "partNumber": 330,
+   "partName": "RAMKATORI KANYA HIGHER SECONDARY SCHOOL ROOM NO 3 SASNI GATE",
+   "partId": 421015
+  },
+  {
+   "partNumber": 331,
+   "partName": "RAMKATORI KANYA U. MADHYAMIK VIDHALAY ROOM NO 4 SASNI GATE",
+   "partId": 421016
+  },
+  {
+   "partNumber": 332,
+   "partName": "RAMKATORI KANYA U. MADHYAMIK VIDHALAY ROOM NO 5 SASNI GATE",
+   "partId": 421017
+  },
+  {
+   "partNumber": 333,
+   "partName": "RAMKATORI KANYA U. MADHYAMIK VIDHALAY ROOM NO 6 SASNI GATE",
+   "partId": 421018
+  },
+  {
+   "partNumber": 334,
+   "partName": "RAMKATORI KANYA U. MADHYAMIK VIDHALAY ROOM NO 7 SASNI GATE",
+   "partId": 421019
+  },
+  {
+   "partNumber": 335,
+   "partName": "RAMKATORI KANYA U. MADHYAMIK VIDHALAY ROOM NO 8 SASNI GATE",
+   "partId": 421020
+  },
+  {
+   "partNumber": 336,
+   "partName": "PALIWAAL INTER COLLEGE  R.N 1 ACHAL TALAB",
+   "partId": 421021
+  },
+  {
+   "partNumber": 337,
+   "partName": "PALIWAAL INTER COLLEGE  R.N 2 ACHAL TALAB",
+   "partId": 421022
+  },
+  {
+   "partNumber": 338,
+   "partName": "PALIWAAL INTER COLLEGE  R.N 3 ACHAL TALAB",
+   "partId": 421023
+  },
+  {
+   "partNumber": 339,
+   "partName": "PALIWAAL INTER COLLEGE  R.N 4 ACHAL TALAB",
+   "partId": 421024
+  },
+  {
+   "partNumber": 340,
+   "partName": "PALIWAAL INTER COLLEGE  R.N 5 ACHAL TALAB",
+   "partId": 421025
+  },
+  {
+   "partNumber": 341,
+   "partName": "PALIWAAL INTER COLLEGE  R.N 6 ACHAL TALAB",
+   "partId": 421026
+  },
+  {
+   "partNumber": 342,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 1 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421027
+  },
+  {
+   "partNumber": 343,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 2 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421028
+  },
+  {
+   "partNumber": 344,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 3 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421029
+  },
+  {
+   "partNumber": 345,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 4 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421030
+  },
+  {
+   "partNumber": 346,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 5 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421031
+  },
+  {
+   "partNumber": 347,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 6 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421032
+  },
+  {
+   "partNumber": 348,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 7 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421033
+  },
+  {
+   "partNumber": 349,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 8 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421034
+  },
+  {
+   "partNumber": 350,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 9 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421035
+  },
+  {
+   "partNumber": 351,
+   "partName": "BABULAL JAIN INTER COLLEGE R.N 10 KRISHANAPURI MATHIYA PALA ROAD",
+   "partId": 421036
+  },
+  {
+   "partNumber": 352,
+   "partName": "HERITEJ INTER NATIIONAL PUBLIC SCHOOL R.N 1 PRIMIYAR NAGAR",
+   "partId": 421037
+  },
+  {
+   "partNumber": 353,
+   "partName": "HERITEJ INTER NATIIONAL PUBLIC SCHOOL R.N 2 PRIMIYAR NAGAR",
+   "partId": 421038
+  },
+  {
+   "partNumber": 354,
+   "partName": "HERITEJ INTER NATIIONAL PUBLIC SCHOOL R.N 3 PRIMIYAR NAGAR",
+   "partId": 421039
+  },
+  {
+   "partNumber": 355,
+   "partName": "BASIC PRIMARY SCHOOL N0 6 R.N 1 GAMBHIRPURA",
+   "partId": 421040
+  },
+  {
+   "partNumber": 356,
+   "partName": "BASIC PRIMARY SCHOOL N0 6 R.N 2 GAMBHIRPURA",
+   "partId": 421041
+  },
+  {
+   "partNumber": 357,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 1 AGRA ROAD",
+   "partId": 421042
+  },
+  {
+   "partNumber": 358,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 2 AGRA ROAD",
+   "partId": 421043
+  },
+  {
+   "partNumber": 359,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 3 AGRA ROAD",
+   "partId": 421044
+  },
+  {
+   "partNumber": 360,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 4 AGRA ROAD",
+   "partId": 421045
+  },
+  {
+   "partNumber": 361,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 5 AGRA ROAD",
+   "partId": 421046
+  },
+  {
+   "partNumber": 362,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 6 AGRA ROAD",
+   "partId": 421047
+  },
+  {
+   "partNumber": 363,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 7 AGRA ROAD",
+   "partId": 421048
+  },
+  {
+   "partNumber": 364,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 8 AGRA ROAD",
+   "partId": 421049
+  },
+  {
+   "partNumber": 365,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 9 AGRA ROAD",
+   "partId": 421050
+  },
+  {
+   "partNumber": 366,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 10 AGRA ROAD",
+   "partId": 421051
+  },
+  {
+   "partNumber": 367,
+   "partName": "RAGHUVEER SAHAY INTER COLLEGE  ROOM.N0 11 AGRA ROAD",
+   "partId": 421052
+  },
+  {
+   "partNumber": 368,
+   "partName": "ANJANI BAL VIDYA MANDIR R.N 1 AGRA ROAD",
+   "partId": 421053
+  },
+  {
+   "partNumber": 369,
+   "partName": "ANJANI BAL VIDYA MANDIR R.N 2 AGRA ROAD",
+   "partId": 421054
+  },
+  {
+   "partNumber": 370,
+   "partName": "KANYA PRIMARY SCHOOL R.N 1 PALA SHAHIBABAD",
+   "partId": 421055
+  },
+  {
+   "partNumber": 371,
+   "partName": "KANYA PRIMARY SCHOOL  R.N 2  PALA SHAHIBABAD",
+   "partId": 421056
+  },
+  {
+   "partNumber": 372,
+   "partName": "KANYA PRIMARY SCHOOL  R.N 3 PALA SHAHIBABAD",
+   "partId": 421057
+  },
+  {
+   "partNumber": 373,
+   "partName": "KANYA PRIMARY SCHOOL  R.N 4 PALA SHAHIBABAD",
+   "partId": 421058
+  },
+  {
+   "partNumber": 374,
+   "partName": "ROSHAN SINGH MEMORIAL HIGHER SECONDARY SCHOOL R.N 1  PALA SAHIBABAD",
+   "partId": 421059
+  },
+  {
+   "partNumber": 375,
+   "partName": "ROSHAN SINGH MEMORIAL HIGHER SECONDARY SCHOOL R.N 2  PALA SAHIBABAD",
+   "partId": 421060
+  },
+  {
+   "partNumber": 376,
+   "partName": "SETILAL PUBLIC SCHOOL R.N 1 RATHAUR BAGICHI MAHENDRA NAGAR",
+   "partId": 421061
+  },
+  {
+   "partNumber": 377,
+   "partName": "SETILAL PUBLIC SCHOOL R.N 2 RATHAUR BAGICHI MAHENDRA NAGAR",
+   "partId": 421062
+  },
+  {
+   "partNumber": 378,
+   "partName": "SETILAL PUBLIC SCHOOL R.N 3 RATHAUR BAGICHI MAHENDRA NAGAR",
+   "partId": 421063
+  },
+  {
+   "partNumber": 379,
+   "partName": "SARASWATI SHISHU MANDIR  ROOM NO 1 AGRA ROAD",
+   "partId": 421064
+  },
+  {
+   "partNumber": 380,
+   "partName": "SARASWATI SHISHU MANDIR  ROOM NO 2 AGRA ROAD",
+   "partId": 421065
+  },
+  {
+   "partNumber": 381,
+   "partName": "SARASWATI SHISHU MANDIR  ROOM NO 3 AGRA ROAD",
+   "partId": 421066
+  },
+  {
+   "partNumber": 382,
+   "partName": "SARASWATI SHISHU MANDIR  ROOM NO 4 AGRA ROAD",
+   "partId": 421067
+  },
+  {
+   "partNumber": 383,
+   "partName": "SARASWATI SHISHU MANDIR  ROOM NO 5 AGRA ROAD",
+   "partId": 421068
+  },
+  {
+   "partNumber": 384,
+   "partName": "SARASWATI SHISHU MANDIR  ROOM NO 6 AGRA ROAD",
+   "partId": 421069
+  },
+  {
+   "partNumber": 385,
+   "partName": "S P S PUBLIC SCHOOL ROOM NO 1 NEW AVTAR NAGAR BABA COLONY",
+   "partId": 421070
+  },
+  {
+   "partNumber": 386,
+   "partName": "S P S PUBLIC SCHOOL ROOM NO 2 NEW AVTAR NAGAR BABA COLONY",
+   "partId": 421071
+  },
+  {
+   "partNumber": 387,
+   "partName": "CHIRANJILAL KANYA INTER COLLEGE R.N 1 PALA SAHIBABAD AGRA ROAD",
+   "partId": 421072
+  },
+  {
+   "partNumber": 388,
+   "partName": "CHIRANJILAL KANYA INTER COLLEGE R.N 2 PALA SAHIBABADAGRA ROAD",
+   "partId": 421073
+  },
+  {
+   "partNumber": 389,
+   "partName": "CHIRANJILAL KANYA INTER COLLEGE R.N 3 PALA SAHIBABAD AGRA ROAD",
+   "partId": 421074
+  },
+  {
+   "partNumber": 390,
+   "partName": "CHIRANJILAL KANYA INTER COLLEGE R.N 4 PALA SAHIBABAD AGRA ROAD",
+   "partId": 421075
+  },
+  {
+   "partNumber": 391,
+   "partName": "CHIRANJILAL KANYA INTER COLLEGE R.N 5 PALA SAHIBABAD AGRA ROAD",
+   "partId": 421076
+  },
+  {
+   "partNumber": 392,
+   "partName": "CHIRANJILAL KANYA INTER COLLEGE R.N 6 PALA SAHIBABAD AGRA ROAD",
+   "partId": 421077
+  },
+  {
+   "partNumber": 393,
+   "partName": "CHIRANJILAL KANYA INTER COLLEGE R.N 7 PALA SAHIBABAD AGRA ROAD",
+   "partId": 421078
+  },
+  {
+   "partNumber": 394,
+   "partName": "CHIRANJILAL KANYA INTER COLLEGE R.N 8 PALA SAHIBABAD 8 AGRA ROAD",
+   "partId": 421079
+  }
+ ]
+}

@@ -1,0 +1,2557 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2410",
+ "acNumber": 84,
+ "fetchedAt": "2026-11-01T08:34:25",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 509,
+ "maxPart": 509,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "U.P.S. SAKRAYA R.NO. 1",
+   "partId": 425828
+  },
+  {
+   "partNumber": 2,
+   "partName": "U.P.S. SAKARAYA R.NO. 2",
+   "partId": 426304
+  },
+  {
+   "partNumber": 3,
+   "partName": "PRIMARY SCHOOL NAGLA BIHARI R.NO.- 1",
+   "partId": 425829
+  },
+  {
+   "partNumber": 4,
+   "partName": "PRIMARY SCHOOL NAGLA SAKRAYA R.NO.-1",
+   "partId": 425830
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRIMARY SCHOOL BABUGARH R.NO.-1",
+   "partId": 425831
+  },
+  {
+   "partNumber": 6,
+   "partName": "PRIMARY SCHOOL BABUGARH R.NO.-2",
+   "partId": 425832
+  },
+  {
+   "partNumber": 7,
+   "partName": "GURU GANGESHWAR DEVKI BHOJRAJ KANYA VIDYALAYA SHROT MUNI NIWAS GANDHI MARG VRINDAVAN R.NO.-1",
+   "partId": 425833
+  },
+  {
+   "partNumber": 8,
+   "partName": "GURU GANGESHWAR DEVKI BHOJRAJ KANYA VIDYALAYA SHROT MUNI NIWAS GANDHI MARG VRINDAVAN R.NO.-2",
+   "partId": 425834
+  },
+  {
+   "partNumber": 9,
+   "partName": "GURU GANGESHWAR DEVKI BHOJRAJ KANYA VIDYALAYA SHROT MUNI NIWAS GANDHI MARG VRINDAVAN R.NO.-3",
+   "partId": 425835
+  },
+  {
+   "partNumber": 10,
+   "partName": "GURU GANGESHWAR DEVKI BHOJRAJ KANYA VIDYALAYA SHROT MUNI NIWAS GANDHI MARG VRINDAVAN R.NO.-4",
+   "partId": 425836
+  },
+  {
+   "partNumber": 11,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-1",
+   "partId": 425837
+  },
+  {
+   "partNumber": 12,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-2",
+   "partId": 425838
+  },
+  {
+   "partNumber": 13,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-3",
+   "partId": 425839
+  },
+  {
+   "partNumber": 14,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-4",
+   "partId": 425840
+  },
+  {
+   "partNumber": 15,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-5",
+   "partId": 425841
+  },
+  {
+   "partNumber": 16,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-6",
+   "partId": 425842
+  },
+  {
+   "partNumber": 17,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-7",
+   "partId": 425843
+  },
+  {
+   "partNumber": 18,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-8",
+   "partId": 425844
+  },
+  {
+   "partNumber": 19,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-9",
+   "partId": 425845
+  },
+  {
+   "partNumber": 20,
+   "partName": "SHRI VRINDAVAN VIDYAPEETH,INTER COLLEGE VRINDAVAN, MATHURA R.NO.-10",
+   "partId": 425846
+  },
+  {
+   "partNumber": 21,
+   "partName": "S.V.RISHI BALMIK PRIMARY SCHOOL NAGAR KSHETRA VRINDAVAN R.NO.-1",
+   "partId": 425847
+  },
+  {
+   "partNumber": 22,
+   "partName": "S.V.RISHI BALMIK PRIMARY SCHOOL NAGAR KSHETRA VRINDAVAN R.NO.-2",
+   "partId": 425848
+  },
+  {
+   "partNumber": 23,
+   "partName": "S.V.RISHI BALMIK PRIMARY SCHOOL NAGAR KSHETRA VRINDAVAN R.NO.-3",
+   "partId": 425849
+  },
+  {
+   "partNumber": 24,
+   "partName": "S.V.RISHI BALMIK PRIMARY SCHOOL NAGAR KSHETRA VRINDAVAN R.NO.-4",
+   "partId": 425850
+  },
+  {
+   "partNumber": 25,
+   "partName": "S.V.RISHI BALMIK PRIMARY SCHOOL NAGAR KSHETRA VRINDAVAN R.NO.-5",
+   "partId": 425851
+  },
+  {
+   "partNumber": 26,
+   "partName": "BASANTIBAI DHARMASHALA SABJI MANDI VRINDAVAN R.NO.-1",
+   "partId": 425852
+  },
+  {
+   "partNumber": 27,
+   "partName": "BASANTIBAI DHARMASHALA SABJI MANDI VRINDAVAN R.NO.-2",
+   "partId": 425853
+  },
+  {
+   "partNumber": 28,
+   "partName": "BASANTIBAI DHARMASHALA SABJI MANDI VRINDAVAN R.NO.-3",
+   "partId": 425854
+  },
+  {
+   "partNumber": 29,
+   "partName": "BASANTIBAI DHARMASHALA SABJI MANDI VRINDAVAN R.NO.-4",
+   "partId": 425855
+  },
+  {
+   "partNumber": 30,
+   "partName": "BASANTIBAI DHARMASHALA SABJI MANDI VRINDAVAN R.NO.-5",
+   "partId": 425856
+  },
+  {
+   "partNumber": 31,
+   "partName": "BASANTIBAI DHARMASHALA SABJI MANDI VRINDAVAN R.NO.-6",
+   "partId": 425857
+  },
+  {
+   "partNumber": 32,
+   "partName": "RAJA MAHENDRA PRATAP PUBLIC SCHOOL KESHIGHAT VRINDAVAN R.NO.-1",
+   "partId": 425858
+  },
+  {
+   "partNumber": 33,
+   "partName": "RAJA MAHENDRA PRATAP PUBLIC SCHOOL KESHIGHAT VRINDAVAN R.NO.-2",
+   "partId": 425859
+  },
+  {
+   "partNumber": 34,
+   "partName": "PUBLIC J.H.SCHOOL VRINDAVAN R.NO.-1",
+   "partId": 425860
+  },
+  {
+   "partNumber": 35,
+   "partName": "PUBLIC J.H.SCHOOL VRINDAVAN R.NO.-2",
+   "partId": 425861
+  },
+  {
+   "partNumber": 36,
+   "partName": "PUBLIC J.H.SCHOOL VRINDAVAN R.NO.-3",
+   "partId": 425862
+  },
+  {
+   "partNumber": 37,
+   "partName": "PARSHURAM COMMUNITY BUILDING, GADHELA BAG BRAHMAKUND, GOPESHWAR ROAD, VRINDAVAN R.NO.-1",
+   "partId": 425863
+  },
+  {
+   "partNumber": 38,
+   "partName": "PARSHURAM COMMUNITY BUILDING, GADHELA BAG BRAHMAKUND, GOPESHWAR ROAD, VRINDAVAN R.NO.-2",
+   "partId": 425864
+  },
+  {
+   "partNumber": 39,
+   "partName": "PARSHURAM COMMUNITY BUILDING, GADHELA BAG BRAHMAKUND, GOPESHWAR ROAD, VRINDAVAN R.NO.-3",
+   "partId": 425865
+  },
+  {
+   "partNumber": 40,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-1",
+   "partId": 425866
+  },
+  {
+   "partNumber": 41,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-2",
+   "partId": 425867
+  },
+  {
+   "partNumber": 42,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-3",
+   "partId": 425868
+  },
+  {
+   "partNumber": 43,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-4",
+   "partId": 425869
+  },
+  {
+   "partNumber": 44,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-5",
+   "partId": 425870
+  },
+  {
+   "partNumber": 45,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-6",
+   "partId": 425871
+  },
+  {
+   "partNumber": 46,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-7",
+   "partId": 425872
+  },
+  {
+   "partNumber": 47,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-8",
+   "partId": 425873
+  },
+  {
+   "partNumber": 48,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-9",
+   "partId": 425874
+  },
+  {
+   "partNumber": 49,
+   "partName": "HAJARIMAL SOMANI NAGAR NIGAM INTER COLLEGE VRINDAVAN R.NO.-10",
+   "partId": 425875
+  },
+  {
+   "partNumber": 50,
+   "partName": "NAGAR NIGAM BALIKA INTER COLLEGE VRINDAVAN R.NO.-1",
+   "partId": 425876
+  },
+  {
+   "partNumber": 51,
+   "partName": "NAGAR NIGAM BALIKA INTER COLLEGE VRINDAVAN R.NO.-2",
+   "partId": 425877
+  },
+  {
+   "partNumber": 52,
+   "partName": "NAGAR NIGAM BALIKA INTER COLLEGE VRINDAVAN R.NO.-3",
+   "partId": 425878
+  },
+  {
+   "partNumber": 53,
+   "partName": "NAGAR NIGAM BALIKA INTER COLLEGE VRINDAVAN R.NO.-4",
+   "partId": 425879
+  },
+  {
+   "partNumber": 54,
+   "partName": "NAGAR NIGAM BALIKA INTER COLLEGE VRINDAVAN R.NO.-5",
+   "partId": 425880
+  },
+  {
+   "partNumber": 55,
+   "partName": "NAGAR NIGAM BALIKA INTER COLLEGE VRINDAVAN R.NO.-6",
+   "partId": 425881
+  },
+  {
+   "partNumber": 56,
+   "partName": "NAGAR NIGAM BALIKA INTER COLLEGE VRINDAVAN R.NO.-7",
+   "partId": 425882
+  },
+  {
+   "partNumber": 57,
+   "partName": "NAGAR NIGAM BALIKA INTER COLLEGE VRINDAVAN R.NO.-8",
+   "partId": 426305
+  },
+  {
+   "partNumber": 58,
+   "partName": "PRIMARY SCHOOL RAJPUR R.NO.-1",
+   "partId": 425883
+  },
+  {
+   "partNumber": 59,
+   "partName": "PRIMARY SCHOOL RAJPUR R.NO.-2",
+   "partId": 425884
+  },
+  {
+   "partNumber": 60,
+   "partName": "PRIMARY SCHOOL RAJPUR R.NO.-3",
+   "partId": 425885
+  },
+  {
+   "partNumber": 61,
+   "partName": "PRIMARY SCHOOL RAJPUR R.NO.-4",
+   "partId": 425886
+  },
+  {
+   "partNumber": 62,
+   "partName": "GURUKUL VISHVA VIDYALAYA RAJPUR GAURANAGAR R.NO.-1",
+   "partId": 425887
+  },
+  {
+   "partNumber": 63,
+   "partName": "GURUKUL VISHVA VIDYALAYA RAJPUR GAURANAGAR R.NO.-2",
+   "partId": 425888
+  },
+  {
+   "partNumber": 64,
+   "partName": "GURUKUL VISHVA VIDYALAYA RAJPUR GAURANAGAR R.NO.-3",
+   "partId": 425889
+  },
+  {
+   "partNumber": 65,
+   "partName": "SATYADEVI GARG SARSWATI VIDYA MANDIR KAILASH NAGAR VRINDAVAN R.NO.-1",
+   "partId": 425890
+  },
+  {
+   "partNumber": 66,
+   "partName": "SATYADEVI GARG SARSWATI VIDYA MANDIR KAILASH NAGAR VRINDAVAN R.NO.-2",
+   "partId": 425891
+  },
+  {
+   "partNumber": 67,
+   "partName": "SATYADEVI GARG SARSWATI VIDYA MANDIR KAILASH NAGAR VRINDAVAN R.NO.-3",
+   "partId": 425892
+  },
+  {
+   "partNumber": 68,
+   "partName": "PRIMARY SCHOOL NAUBARAMAD RAJPUR R.NO.-1",
+   "partId": 425893
+  },
+  {
+   "partNumber": 69,
+   "partName": "P.M.V. POLYTECHNIC MATHURA R.NO.-1",
+   "partId": 425894
+  },
+  {
+   "partNumber": 70,
+   "partName": "P.M.V. POLYTECHNIC MATHURA R.NO.-2",
+   "partId": 425895
+  },
+  {
+   "partNumber": 71,
+   "partName": "P.M.V. POLYTECHNIC MATHURA R.NO.-3",
+   "partId": 425896
+  },
+  {
+   "partNumber": 72,
+   "partName": "P.M.V. POLYTECHNIC MATHURA R.NO.-4",
+   "partId": 425897
+  },
+  {
+   "partNumber": 73,
+   "partName": "P.M.V. POLYTECHNIC MATHURA R.NO.-5",
+   "partId": 425898
+  },
+  {
+   "partNumber": 74,
+   "partName": "P.M.V. POLYTECHNIC MATHURA R.NO.-6",
+   "partId": 425899
+  },
+  {
+   "partNumber": 75,
+   "partName": "P.M.V. POLYTECHNIC MATHURA R.NO.-7",
+   "partId": 425900
+  },
+  {
+   "partNumber": 76,
+   "partName": "P.M.V. POLYTECHNIC MATHURA R.NO.-8",
+   "partId": 425901
+  },
+  {
+   "partNumber": 77,
+   "partName": "PRIMARY SCHOOL JAYSINGH PURA FIRST,NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 425902
+  },
+  {
+   "partNumber": 78,
+   "partName": "PRIMARY SCHOOL JAYSINGH PURA FIRST,NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 425903
+  },
+  {
+   "partNumber": 79,
+   "partName": "SHRI CHANDRA VIDYA ASHARAM JAYSINGHPURA R.NO.-1",
+   "partId": 425904
+  },
+  {
+   "partNumber": 80,
+   "partName": "SHRI CHANDRA VIDYA ASHARAM JAYSINGHPURA R.NO.-2",
+   "partId": 425905
+  },
+  {
+   "partNumber": 81,
+   "partName": "SHRI CHANDRA VIDYA ASHARAM JAYSINGHPURA R.NO.-3",
+   "partId": 425906
+  },
+  {
+   "partNumber": 82,
+   "partName": "SHRI CHANDRA VIDYA ASHARAM JAYSINGHPURA R.NO.-4",
+   "partId": 425907
+  },
+  {
+   "partNumber": 83,
+   "partName": "SHRI CHANDRA VIDYA ASHARAM JAYSINGHPURA R.NO.-5",
+   "partId": 425908
+  },
+  {
+   "partNumber": 84,
+   "partName": "SHRI KRISHNA CHANDRA GANDHI SARASWATI INTER COLLEGE JAYSINGHPURA R.NO.-1",
+   "partId": 425909
+  },
+  {
+   "partNumber": 85,
+   "partName": "SHRI KRISHNA CHANDRA GANDHI SARASWATI INTER COLLEGE JAYSINGHPURA R.NO.-2",
+   "partId": 425910
+  },
+  {
+   "partNumber": 86,
+   "partName": "SHRI KRISHNA CHANDRA GANDHI SARASWATI INTER COLLEGE JAYSINGHPURA R.NO.-3",
+   "partId": 425911
+  },
+  {
+   "partNumber": 87,
+   "partName": "KRISHNA BAL VIDYA MANDIR J.H. SARAY AZAMABAD R.NO.-1",
+   "partId": 425912
+  },
+  {
+   "partNumber": 88,
+   "partName": "KRISHNA BAL VIDYA MANDIR J.H. SARAY AZAMABAD R.NO.-2",
+   "partId": 425913
+  },
+  {
+   "partNumber": 89,
+   "partName": "KRISHNA BAL VIDYA MANDIR J.H. SARAY AZAMABAD R.NO.-3",
+   "partId": 425914
+  },
+  {
+   "partNumber": 90,
+   "partName": "KRISHNA BAL VIDYA MANDIR J.H. SARAY AZAMABAD R.NO.-4",
+   "partId": 425915
+  },
+  {
+   "partNumber": 91,
+   "partName": "B.S.T.D. SCHOOL PUSHP BIHAR COLONY JAISINGHPURA R.NO.1",
+   "partId": 425916
+  },
+  {
+   "partNumber": 92,
+   "partName": "B.S.T.D. SCHOOL PUSHP BIHAR COLONY JAISINGHPURA R.NO.-2",
+   "partId": 426306
+  },
+  {
+   "partNumber": 93,
+   "partName": "B.S.T.D. SCHOOL PUSHP BIHAR COLONY JAISINGHPURA R.NO.3",
+   "partId": 425917
+  },
+  {
+   "partNumber": 94,
+   "partName": "B.S.T.D. SCHOOL PUSHP BIHAR COLONY JAISINGHPURA R.NO.-4",
+   "partId": 425918
+  },
+  {
+   "partNumber": 95,
+   "partName": "KANHA MAKHAN PUBLIC SCHOOL SARASWATI KUND MATHURA R.NO.-1",
+   "partId": 425919
+  },
+  {
+   "partNumber": 96,
+   "partName": "KANHA MAKHAN PUBLIC SCHOOL SARASWATI KUND MATHURA R.NO.-2",
+   "partId": 426307
+  },
+  {
+   "partNumber": 97,
+   "partName": "KANHA MAKHAN PUBLIC SCHOOL SARASWATI KUND MATHURA R.NO.-3",
+   "partId": 425920
+  },
+  {
+   "partNumber": 98,
+   "partName": "KANHA MAKHAN PUBLIC SCHOOL SARASWATI KUND MATHURA R.NO.-4",
+   "partId": 425921
+  },
+  {
+   "partNumber": 99,
+   "partName": "KANHA MAKHAN PUBLIC SCHOOL SARASWATI KUND MATHURA R.NO.-5",
+   "partId": 425922
+  },
+  {
+   "partNumber": 100,
+   "partName": "KANHA MAKHAN PUBLIC SCHOOL SARASWATI KUND MATHURA R.NO.-6",
+   "partId": 425923
+  },
+  {
+   "partNumber": 101,
+   "partName": "U.P.S. CHHARAURA R.NO.-1",
+   "partId": 425924
+  },
+  {
+   "partNumber": 102,
+   "partName": "U.P.S. CHHARAURA R.NO.-2",
+   "partId": 425925
+  },
+  {
+   "partNumber": 103,
+   "partName": "U.P.S. CHHARAURA R.NO.-3",
+   "partId": 426308
+  },
+  {
+   "partNumber": 104,
+   "partName": "P.S.ALHAIPUR R.NO.-1",
+   "partId": 425926
+  },
+  {
+   "partNumber": 105,
+   "partName": "U.P.S.COMPOSITE(1-8) GANESHARA R.NO.-1",
+   "partId": 425927
+  },
+  {
+   "partNumber": 106,
+   "partName": "U.P.S.COMPOSITE(1-8) GANESHARA R.NO.-2",
+   "partId": 425928
+  },
+  {
+   "partNumber": 107,
+   "partName": "U.P.S.COMPOSITE(1-8) GANESHARA R.NO.-3",
+   "partId": 425929
+  },
+  {
+   "partNumber": 108,
+   "partName": "M.P.S.M.GRACE CONVENT S.S. SCHOOL GANESHARA R.NO.-1",
+   "partId": 425930
+  },
+  {
+   "partNumber": 109,
+   "partName": "M.P.S.M.GRACE CONVENT S.S. SCHOOL GANESHARA R.NO.-2",
+   "partId": 425931
+  },
+  {
+   "partNumber": 110,
+   "partName": "PRIMARY SCHOOL DEVIPURA R.NO.-1",
+   "partId": 425932
+  },
+  {
+   "partNumber": 111,
+   "partName": "PRIMARY SCHOOL DEVIPURA R.NO.-2",
+   "partId": 425933
+  },
+  {
+   "partNumber": 112,
+   "partName": "U.P.S. (1 TO 8) BAKALPUR, MATHURA R.NO.-1",
+   "partId": 425934
+  },
+  {
+   "partNumber": 113,
+   "partName": "U.P.S. (1 TO 8) BAKALPUR, MATHURA R.NO.-2",
+   "partId": 425935
+  },
+  {
+   "partNumber": 114,
+   "partName": "U.P.S. (1 TO 8) BAKALPUR, MATHURA R.NO.-3",
+   "partId": 425936
+  },
+  {
+   "partNumber": 115,
+   "partName": "U.P.S. (1 TO 8) BAKALPUR, MATHURA R.NO.-4",
+   "partId": 425937
+  },
+  {
+   "partNumber": 116,
+   "partName": "U.P.S. (1 TO 8) BAKALPUR, MATHURA R.NO.-5",
+   "partId": 425938
+  },
+  {
+   "partNumber": 117,
+   "partName": "U.P.S. (1 TO 8) BAKALPUR, MATHURA R.NO.-6",
+   "partId": 425939
+  },
+  {
+   "partNumber": 118,
+   "partName": "U.P.S. (1 TO 8) BAKALPUR, MATHURA R.NO.-7",
+   "partId": 425940
+  },
+  {
+   "partNumber": 119,
+   "partName": "PRIMARY SCHOOL SURYA NAGAR INDRAPURI COLONY PART BAKALPUR R.NO.-1",
+   "partId": 425941
+  },
+  {
+   "partNumber": 120,
+   "partName": "PRIMARY SCHOOL SURYA NAGAR INDRAPURI COLONY PART BAKALPUR R.NO.-2",
+   "partId": 425942
+  },
+  {
+   "partNumber": 121,
+   "partName": "SHRIJI BABA SARASWATI VIDYA MANDIR MATHURA R.NO.-1",
+   "partId": 425943
+  },
+  {
+   "partNumber": 122,
+   "partName": "SHRIJI BABA SARASWATI VIDYA MANDIR MATHURA R.NO.-2",
+   "partId": 425944
+  },
+  {
+   "partNumber": 123,
+   "partName": "SHRIJI BABA SARASWATI VIDYA MANDIR MATHURA R.NO.-3",
+   "partId": 425945
+  },
+  {
+   "partNumber": 124,
+   "partName": "SHRIJI BABA SARASWATI VIDYA MANDIR MATHURA R.NO.-4",
+   "partId": 425946
+  },
+  {
+   "partNumber": 125,
+   "partName": "SHRIJI BABA SARASWATI VIDYA MANDIR MATHURA R.NO.-5",
+   "partId": 425947
+  },
+  {
+   "partNumber": 126,
+   "partName": "PRIMARY SCHOOL GOVINDPUR NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 425948
+  },
+  {
+   "partNumber": 127,
+   "partName": "PRIMARY SCHOOL GOVINDPUR NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 425949
+  },
+  {
+   "partNumber": 128,
+   "partName": "PRIMARY SCHOOL GOVINDPUR NAGAR KSHETRA MATHURA R.NO.-3",
+   "partId": 426311
+  },
+  {
+   "partNumber": 129,
+   "partName": "MAA RESHAM DEVI BHAGWANDAS ADARSH INTER COLLEGE SARAY AZAMABAD MATHURA R.NO.-1",
+   "partId": 426329
+  },
+  {
+   "partNumber": 130,
+   "partName": "MAA RESHAM DEVI BHAGWANDAS ADARSH INTER COLLEGE SARAY AZAMABAD MATHURA R.NO.-2",
+   "partId": 425950
+  },
+  {
+   "partNumber": 131,
+   "partName": "MAA RESHAM DEVI BHAGWANDAS ADARSH INTER COLLEGE SARAY AZAMABAD MATHURA R.NO.-3",
+   "partId": 425951
+  },
+  {
+   "partNumber": 132,
+   "partName": "THE MILLENNIUM SCHOOL GOVINDPUR MATHURA R.NO. 1",
+   "partId": 425952
+  },
+  {
+   "partNumber": 133,
+   "partName": "GYAN DEEP SHIKSHA BHARTI S.S. SCHOOL GOVARDHAN ROAD MATHURA R.NO. 1",
+   "partId": 426300
+  },
+  {
+   "partNumber": 134,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-1",
+   "partId": 425953
+  },
+  {
+   "partNumber": 135,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-2",
+   "partId": 425954
+  },
+  {
+   "partNumber": 136,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-3",
+   "partId": 425955
+  },
+  {
+   "partNumber": 137,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-4",
+   "partId": 425956
+  },
+  {
+   "partNumber": 138,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-5",
+   "partId": 425957
+  },
+  {
+   "partNumber": 139,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-6",
+   "partId": 425958
+  },
+  {
+   "partNumber": 140,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-7",
+   "partId": 425959
+  },
+  {
+   "partNumber": 141,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-8",
+   "partId": 425960
+  },
+  {
+   "partNumber": 142,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-9",
+   "partId": 425961
+  },
+  {
+   "partNumber": 143,
+   "partName": "JAIN INTER COLLEGE CHAURASI MATHURA R.NO.-10",
+   "partId": 425962
+  },
+  {
+   "partNumber": 144,
+   "partName": "SHRI SHRADDHA NAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-1",
+   "partId": 425963
+  },
+  {
+   "partNumber": 145,
+   "partName": "SHRI SHRADDHA NAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-2",
+   "partId": 425964
+  },
+  {
+   "partNumber": 146,
+   "partName": "SHRI SHRADDHA NAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-3",
+   "partId": 425965
+  },
+  {
+   "partNumber": 147,
+   "partName": "SHRI SHRADDHA NAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-4",
+   "partId": 425966
+  },
+  {
+   "partNumber": 148,
+   "partName": "SHRI SHRADDHA NAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-5",
+   "partId": 425967
+  },
+  {
+   "partNumber": 149,
+   "partName": "SHRI SHRADDHA NAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-6",
+   "partId": 425968
+  },
+  {
+   "partNumber": 150,
+   "partName": "SHRI SHRADDHANAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-7",
+   "partId": 425969
+  },
+  {
+   "partNumber": 151,
+   "partName": "SHRI SHRADDHA NAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-8",
+   "partId": 425970
+  },
+  {
+   "partNumber": 152,
+   "partName": "SHRI SHRADDHA NAND VIDYA ASHRAM KANYA UCCHATAR MADHAYAMIK VIDYALAY KRISHANA NAGAR MATHURA R.NO.-9",
+   "partId": 425971
+  },
+  {
+   "partNumber": 153,
+   "partName": "SMT. SARALA DEVI KANYA U.M.V. KRISHNA NAGAR MATHURA R.NO.-1",
+   "partId": 425972
+  },
+  {
+   "partNumber": 154,
+   "partName": "SMT. SARALA DEVI KANYA U.M.V. KRISHNA NAGAR MATHURA R.NO.-2",
+   "partId": 425973
+  },
+  {
+   "partNumber": 155,
+   "partName": "SMT. SARALA DEVI KANYA U.M.V. KRISHNA NAGAR MATHURA R.NO.-3",
+   "partId": 425974
+  },
+  {
+   "partNumber": 156,
+   "partName": "SMT. SARALA DEVI KANYA U.M.V. KRISHNA NAGAR MATHURA R.NO.-4",
+   "partId": 425975
+  },
+  {
+   "partNumber": 157,
+   "partName": "SMT. SARALA DEVI KANYA U.M.V. KRISHNA NAGAR MATHURA R.NO.-5",
+   "partId": 425976
+  },
+  {
+   "partNumber": 158,
+   "partName": "SMT. SARALA DEVI KANYA U.M.V. KRISHNA NAGAR MATHURA R.NO.-6",
+   "partId": 425977
+  },
+  {
+   "partNumber": 159,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-1",
+   "partId": 425978
+  },
+  {
+   "partNumber": 160,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-2",
+   "partId": 425979
+  },
+  {
+   "partNumber": 161,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-3",
+   "partId": 425980
+  },
+  {
+   "partNumber": 162,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-4",
+   "partId": 425981
+  },
+  {
+   "partNumber": 163,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-5",
+   "partId": 425982
+  },
+  {
+   "partNumber": 164,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-6",
+   "partId": 425983
+  },
+  {
+   "partNumber": 165,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-7",
+   "partId": 425984
+  },
+  {
+   "partNumber": 166,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-8",
+   "partId": 425985
+  },
+  {
+   "partNumber": 167,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-9",
+   "partId": 425986
+  },
+  {
+   "partNumber": 168,
+   "partName": "B.S.A DEGREE COLLEGE MATHURA R.NO.-10",
+   "partId": 425987
+  },
+  {
+   "partNumber": 169,
+   "partName": "A.S.M.POLYTECHNIC MATHURA R.NO.-1",
+   "partId": 425988
+  },
+  {
+   "partNumber": 170,
+   "partName": "A.S.M.POLYTECHNIC MATHURA R.NO.-2",
+   "partId": 425989
+  },
+  {
+   "partNumber": 171,
+   "partName": "A.S.M.POLYTECHNIC MATHURA R.NO.-3",
+   "partId": 425990
+  },
+  {
+   "partNumber": 172,
+   "partName": "A.S.M.POLYTECHNIC MATHURA R.NO.-4",
+   "partId": 425991
+  },
+  {
+   "partNumber": 173,
+   "partName": "B.S.A COLLEGE OF ENGINEERING AND TECHNOLOGY MATHURA R.NO.-1",
+   "partId": 425992
+  },
+  {
+   "partNumber": 174,
+   "partName": "B.S.A COLLEGE OF ENGINEERING AND TECHNOLOGY MATHURA R.NO.-2",
+   "partId": 425993
+  },
+  {
+   "partNumber": 175,
+   "partName": "B.S.A COLLEGE OF ENGINEERING AND TECHNOLOGY MATHURA R.NO.-3",
+   "partId": 425994
+  },
+  {
+   "partNumber": 176,
+   "partName": "B.S.A COLLEGE OF ENGINEERING AND TECHNOLOGY MATHURA R.NO.-4",
+   "partId": 425995
+  },
+  {
+   "partNumber": 177,
+   "partName": "B.S.A COLLEGE OF ENGINEERING AND TECHNOLOGY MATHURA R.NO.-5",
+   "partId": 425996
+  },
+  {
+   "partNumber": 178,
+   "partName": "B.S.A COLLEGE OF ENGINEERING AND TECHNOLOGY MATHURA R.NO.-6",
+   "partId": 425997
+  },
+  {
+   "partNumber": 179,
+   "partName": "B.S.A COLLEGE OF ENGINEERING AND TECHNOLOGY MATHURA R.NO.-7",
+   "partId": 425998
+  },
+  {
+   "partNumber": 180,
+   "partName": "SHRI JAMUNA PRASAD SARSWATI SHISHU MANDIR MADHAVPURI MAHOLI ROAD MATHURA R.N. 1",
+   "partId": 426301
+  },
+  {
+   "partNumber": 181,
+   "partName": "SHRI JAMUNA PRASAD SARSWATI SHISHU MANDIR MADHAVPURI MAHOLI ROAD MATHURA R.N. 2",
+   "partId": 426302
+  },
+  {
+   "partNumber": 182,
+   "partName": "SHRI JAMUNA PRASAD SARSWATI SHISHU MANDIR MADHAVPURI MAHOLI ROAD MATHURA R.N. 3",
+   "partId": 426303
+  },
+  {
+   "partNumber": 183,
+   "partName": "SANSKAR PUBLIC SCHOOL MATHURA R.NO.-1",
+   "partId": 425999
+  },
+  {
+   "partNumber": 184,
+   "partName": "SANSKAR PUBLIC SCHOOL MATHURA R.NO.-2",
+   "partId": 426000
+  },
+  {
+   "partNumber": 185,
+   "partName": "SANSKAR PUBLIC SCHOOL MATHURA R.NO.-3",
+   "partId": 426001
+  },
+  {
+   "partNumber": 186,
+   "partName": "SANSKAR PUBLIC SCHOOL MATHURA R.NO.-4",
+   "partId": 426002
+  },
+  {
+   "partNumber": 187,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-1",
+   "partId": 426003
+  },
+  {
+   "partNumber": 188,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-2",
+   "partId": 426004
+  },
+  {
+   "partNumber": 189,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-3",
+   "partId": 426005
+  },
+  {
+   "partNumber": 190,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-4",
+   "partId": 426006
+  },
+  {
+   "partNumber": 191,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-5",
+   "partId": 426007
+  },
+  {
+   "partNumber": 192,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-6",
+   "partId": 426008
+  },
+  {
+   "partNumber": 193,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-7",
+   "partId": 426009
+  },
+  {
+   "partNumber": 194,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-8",
+   "partId": 426010
+  },
+  {
+   "partNumber": 195,
+   "partName": "RAMAN LAL SHORAWALA PUBLIC SCHOOL MATHURA R.NO.-9",
+   "partId": 426309
+  },
+  {
+   "partNumber": 196,
+   "partName": "PRASAD PUBLIC SCHOOL S.S., INDUSTRIAL AREA MATHURA R.NO.-1",
+   "partId": 426011
+  },
+  {
+   "partNumber": 197,
+   "partName": "PRASAD PUBLIC SCHOOL S.S., INDUSTRIAL AREA MATHURA R.NO.-2",
+   "partId": 426012
+  },
+  {
+   "partNumber": 198,
+   "partName": "PRASAD PUBLIC SCHOOL S.S., INDUSTRIAL AREA MATHURA R.NO.-3",
+   "partId": 426013
+  },
+  {
+   "partNumber": 199,
+   "partName": "PRASAD PUBLIC SCHOOL S.S., INDUSTRIAL AREA MATHURA R.NO.-4",
+   "partId": 426014
+  },
+  {
+   "partNumber": 200,
+   "partName": "PRASAD PUBLIC SCHOOL S.S. INDUSTRIAL AREA MATHURA R.NO.-5",
+   "partId": 426310
+  },
+  {
+   "partNumber": 201,
+   "partName": "PRASAD PUBLIC SCHOOL S.S. INDUSTRIAL AREA MATHURA R.NO.-6",
+   "partId": 426015
+  },
+  {
+   "partNumber": 202,
+   "partName": "PRASAD PUBLIC SCHOOL S.S. INDUSTRIAL AREA MATHURA R.NO.-7",
+   "partId": 426016
+  },
+  {
+   "partNumber": 203,
+   "partName": "PRASAD PUBLIC SCHOOL S.S. INDUSTRIAL AREA MATHURA R.NO.-8",
+   "partId": 426017
+  },
+  {
+   "partNumber": 204,
+   "partName": "PRASAD PUBLIC SCHOOL S.S. INDUSTRIAL AREA MATHURA R.NO.-9",
+   "partId": 426018
+  },
+  {
+   "partNumber": 205,
+   "partName": "SANVILIYAT SHRI KRISHNA GIRLS-PRIMARY SCHOOL KRISHNA NAGAR,NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426019
+  },
+  {
+   "partNumber": 206,
+   "partName": "SANVILIYAT SHRI KRISHNA GIRLS-PRIMARY SCHOOL KRISHNA NAGAR,NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426020
+  },
+  {
+   "partNumber": 207,
+   "partName": "SANVILIYAT SHRI KRISHNA GIRLS-PRIMARY SCHOOL KRISHNA NAGAR,NAGAR KSHETRA MATHURA R.NO.-3",
+   "partId": 426021
+  },
+  {
+   "partNumber": 208,
+   "partName": "SANVILIYAT SHRI KRISHNA GIRLS-PRIMARY SCHOOL KRISHNA NAGAR,NAGAR KSHETRA MATHURA R.NO.-4",
+   "partId": 426022
+  },
+  {
+   "partNumber": 209,
+   "partName": "PREMDEVI AGARWAL GIRLS INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426023
+  },
+  {
+   "partNumber": 210,
+   "partName": "PREMDEVI AGARWAL GIRLS INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426312
+  },
+  {
+   "partNumber": 211,
+   "partName": "PREMDEVI AGARWAL GIRLS INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426024
+  },
+  {
+   "partNumber": 212,
+   "partName": "PREMDEVI AGARWAL GIRLS INTER COLLEGE MATHURA R.NO.-4",
+   "partId": 426025
+  },
+  {
+   "partNumber": 213,
+   "partName": "PREMDEVI AGARWAL GIRLS INTER COLLEGE MATHURA R.NO.-5",
+   "partId": 426026
+  },
+  {
+   "partNumber": 214,
+   "partName": "PREMDEVI AGARWAL GIRLS INTER COLLEGE MATHURA R.NO.-6",
+   "partId": 426027
+  },
+  {
+   "partNumber": 215,
+   "partName": "PREMDEVI AGARWAL GIRLS INTER COLLEGE MATHURA R.NO.-7",
+   "partId": 426028
+  },
+  {
+   "partNumber": 216,
+   "partName": "PREMDEVI AGARWAL GIRLS INTER COLLEGE MATHURA R.NO.-8",
+   "partId": 426029
+  },
+  {
+   "partNumber": 217,
+   "partName": "SHRI SHASTRI BAL NIKETAN J.H.S JANAKPURI MATHURA R.NO.-1",
+   "partId": 426030
+  },
+  {
+   "partNumber": 218,
+   "partName": "SHRI SHASTRI BAL NIKETAN J.H.S JANAKPURI MATHURA R.NO.-2",
+   "partId": 426031
+  },
+  {
+   "partNumber": 219,
+   "partName": "SHRI SHASTRI BAL NIKETAN J.H.S JANAKPURI MATHURA R.NO.-3",
+   "partId": 426032
+  },
+  {
+   "partNumber": 220,
+   "partName": "SANVILIT NARAYANPURI GIRLS PRIMARY SCHOOL DHAULIPYAU NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426033
+  },
+  {
+   "partNumber": 221,
+   "partName": "SANVILIT NARAYANPURI GIRLS PRIMARY SCHOOL DHAULIPYAU NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426313
+  },
+  {
+   "partNumber": 222,
+   "partName": "Office of Block Education Officer Urban Mathura R.N. 1",
+   "partId": 426034
+  },
+  {
+   "partNumber": 223,
+   "partName": "Office of Block Education Officer Urban Mathura R.N. 2",
+   "partId": 426035
+  },
+  {
+   "partNumber": 224,
+   "partName": "POORV M.V. DHAULIPYAU NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426036
+  },
+  {
+   "partNumber": 225,
+   "partName": "POORV M.V. DHAULIPYAU NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426037
+  },
+  {
+   "partNumber": 226,
+   "partName": "SHRI SHANTIDEVI GIRLS INTER COLLEGE DHAULIPYAU MATHURA R.NO.-1",
+   "partId": 426038
+  },
+  {
+   "partNumber": 227,
+   "partName": "SHRI SHANTIDEVI GIRLS INTER COLLEGE DHAULIPYAU MATHURA R.NO.-2",
+   "partId": 426039
+  },
+  {
+   "partNumber": 228,
+   "partName": "SHRI SHANTIDEVI GIRLS INTER COLLEGE DHAULIPYAU MATHURA R.NO.-3",
+   "partId": 426040
+  },
+  {
+   "partNumber": 229,
+   "partName": "SHRI SHANTIDEVI GIRLS INTER COLLEGE DHAULIPYAU MATHURA R.NO.-4",
+   "partId": 426041
+  },
+  {
+   "partNumber": 230,
+   "partName": "SHRI SHANTIDEVI GIRLS INTER COLLEGE DHAULIPYAU MATHURA R.NO.-5",
+   "partId": 426314
+  },
+  {
+   "partNumber": 231,
+   "partName": "SANVILIT SCHOOL KAMALA NEHRU NO. 2 DAMPIER NAGAR, NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426042
+  },
+  {
+   "partNumber": 232,
+   "partName": "SANVILIT SCHOOL KAMALA NEHRU NO. 2 DAMPIER NAGAR, NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426043
+  },
+  {
+   "partNumber": 233,
+   "partName": "SANVILIT PRIMARY SCHOOL RISHI SANTAN DAMPIER NAGAR, NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426044
+  },
+  {
+   "partNumber": 234,
+   "partName": "SANVILIT PRIMARY SCHOOL RISHI SANTAN DAMPIER NAGAR, NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426320
+  },
+  {
+   "partNumber": 235,
+   "partName": "KISHORI RAMAN GIRLS DEGREE COLLEGE MATHURA R.NO.-1",
+   "partId": 426045
+  },
+  {
+   "partNumber": 236,
+   "partName": "KISHORI RAMAN DEGREE COLLEGE MATHURA R.NO.-1",
+   "partId": 426046
+  },
+  {
+   "partNumber": 237,
+   "partName": "KISHORI RAMAN DEGREE COLLEGE MATHURA R.NO.-2",
+   "partId": 426047
+  },
+  {
+   "partNumber": 238,
+   "partName": "KISHORI RAMAN DEGREE COLLEGE MATHURA R.NO.-3",
+   "partId": 426048
+  },
+  {
+   "partNumber": 239,
+   "partName": "KISHORI RAMAN DEGREE COLLEGE MATHURA R.NO.-4",
+   "partId": 426049
+  },
+  {
+   "partNumber": 240,
+   "partName": "KISHORI RAMAN DEGREE COLLEGE MATHURA R.NO.-5",
+   "partId": 426050
+  },
+  {
+   "partNumber": 241,
+   "partName": "KISHORI RAMAN DEGREE COLLEGE MATHURA R.NO.-6",
+   "partId": 426051
+  },
+  {
+   "partNumber": 242,
+   "partName": "KISHORI RAMAN DEGREE COLLEGE MATHURA R.NO.-7",
+   "partId": 426052
+  },
+  {
+   "partNumber": 243,
+   "partName": "KISHORI RAMAN INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426053
+  },
+  {
+   "partNumber": 244,
+   "partName": "KISHORI RAMAN INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426054
+  },
+  {
+   "partNumber": 245,
+   "partName": "KISHORI RAMAN INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426055
+  },
+  {
+   "partNumber": 246,
+   "partName": "KISHORI RAMAN INTER COLLEGE MATHURA R.NO.-4",
+   "partId": 426056
+  },
+  {
+   "partNumber": 247,
+   "partName": "KISHORI RAMAN INTER COLLEGE MATHURA R.NO.-5",
+   "partId": 426057
+  },
+  {
+   "partNumber": 248,
+   "partName": "KISHORI RAMAN INTER COLLEGE MATHURA R.NO.-6",
+   "partId": 426058
+  },
+  {
+   "partNumber": 249,
+   "partName": "KISHORI RAMAN INTER COLLEGE MATHURA R.NO.-7",
+   "partId": 426059
+  },
+  {
+   "partNumber": 250,
+   "partName": "KISHORI RAMAN INTER COLLEGE MATHURA R.NO.-8",
+   "partId": 426060
+  },
+  {
+   "partNumber": 251,
+   "partName": "KISHORI RAMAN GIRLS INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426061
+  },
+  {
+   "partNumber": 252,
+   "partName": "KISHORI RAMAN GIRLS INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426062
+  },
+  {
+   "partNumber": 253,
+   "partName": "KISHORI RAMAN GIRLS INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426063
+  },
+  {
+   "partNumber": 254,
+   "partName": "SHRI CHAMPA AGRAWAL INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426064
+  },
+  {
+   "partNumber": 255,
+   "partName": "SHRI CHAMPA AGRAWAL INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426065
+  },
+  {
+   "partNumber": 256,
+   "partName": "SHRI CHAMPA AGRAWAL INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426066
+  },
+  {
+   "partNumber": 257,
+   "partName": "SHRI CHAMPA AGRAWAL INTER COLLEGE MATHURA R.NO.-4",
+   "partId": 426067
+  },
+  {
+   "partNumber": 258,
+   "partName": "SHRI CHAMPA AGRAWAL INTER COLLEGE MATHURA R.NO.-5",
+   "partId": 426068
+  },
+  {
+   "partNumber": 259,
+   "partName": "SHRI CHAMPA AGRAWAL INTER COLLEGE MATHURA R.NO.-6",
+   "partId": 426069
+  },
+  {
+   "partNumber": 260,
+   "partName": "ISLAMIYAN PRIMARY SCHOOL MATHURA R.NO.-1",
+   "partId": 426070
+  },
+  {
+   "partNumber": 261,
+   "partName": "ISLAMIYAN PRIMARY SCHOOL MATHURA R.NO.-2",
+   "partId": 426071
+  },
+  {
+   "partNumber": 262,
+   "partName": "ISLAMIYAN PRIMARY SCHOOL MATHURA R.NO.-3",
+   "partId": 426072
+  },
+  {
+   "partNumber": 263,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-1",
+   "partId": 426073
+  },
+  {
+   "partNumber": 264,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-2",
+   "partId": 426074
+  },
+  {
+   "partNumber": 265,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-3",
+   "partId": 426075
+  },
+  {
+   "partNumber": 266,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-4",
+   "partId": 426076
+  },
+  {
+   "partNumber": 267,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-5",
+   "partId": 426077
+  },
+  {
+   "partNumber": 268,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-6",
+   "partId": 426078
+  },
+  {
+   "partNumber": 269,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-7",
+   "partId": 426079
+  },
+  {
+   "partNumber": 270,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-8",
+   "partId": 426080
+  },
+  {
+   "partNumber": 271,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-9",
+   "partId": 426081
+  },
+  {
+   "partNumber": 272,
+   "partName": "ISLAMIYAN INTER COLLEGE, MATHURA R.NO.-10",
+   "partId": 426082
+  },
+  {
+   "partNumber": 273,
+   "partName": "AMARNATH GIRLS DEGREE COLLEGE MATHURA R.NO.-1",
+   "partId": 426083
+  },
+  {
+   "partNumber": 274,
+   "partName": "AMARNATH GIRLS DEGREE COLLEGE MATHURA R.NO.-2",
+   "partId": 426084
+  },
+  {
+   "partNumber": 275,
+   "partName": "AMARNATH GIRLS DEGREE COLLEGE MATHURA R.NO.-3",
+   "partId": 426085
+  },
+  {
+   "partNumber": 276,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-1",
+   "partId": 426086
+  },
+  {
+   "partNumber": 277,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-2",
+   "partId": 426087
+  },
+  {
+   "partNumber": 278,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-3",
+   "partId": 426088
+  },
+  {
+   "partNumber": 279,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-4",
+   "partId": 426089
+  },
+  {
+   "partNumber": 280,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-5",
+   "partId": 426090
+  },
+  {
+   "partNumber": 281,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-6",
+   "partId": 426091
+  },
+  {
+   "partNumber": 282,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-7",
+   "partId": 426092
+  },
+  {
+   "partNumber": 283,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-8",
+   "partId": 426093
+  },
+  {
+   "partNumber": 284,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-9",
+   "partId": 426094
+  },
+  {
+   "partNumber": 285,
+   "partName": "JAIN IDEAL J.H.SCHOOL DEEG GATE MATHURA R.NO.-10",
+   "partId": 426095
+  },
+  {
+   "partNumber": 286,
+   "partName": "NAVEEN KANYA PATHSHALA NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426096
+  },
+  {
+   "partNumber": 287,
+   "partName": "NAVEEN KANYA PATHSHALA NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426097
+  },
+  {
+   "partNumber": 288,
+   "partName": "NAVEEN KANYA PATHSHALA NAGAR KSHETRA MATHURA R.NO.-3",
+   "partId": 426098
+  },
+  {
+   "partNumber": 289,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426099
+  },
+  {
+   "partNumber": 290,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426100
+  },
+  {
+   "partNumber": 291,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-3",
+   "partId": 426101
+  },
+  {
+   "partNumber": 292,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-4",
+   "partId": 426102
+  },
+  {
+   "partNumber": 293,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-5",
+   "partId": 426103
+  },
+  {
+   "partNumber": 294,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-6",
+   "partId": 426104
+  },
+  {
+   "partNumber": 295,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-7",
+   "partId": 426105
+  },
+  {
+   "partNumber": 296,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-8",
+   "partId": 426106
+  },
+  {
+   "partNumber": 297,
+   "partName": "NARAYAN DAS PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-9",
+   "partId": 426107
+  },
+  {
+   "partNumber": 298,
+   "partName": "SHRI CHAMELI DEVI KHANDELWAL GIRLS INTER COLLEGE VRINDAVAN GATE MATHURA R.NO.-1",
+   "partId": 426108
+  },
+  {
+   "partNumber": 299,
+   "partName": "SHRI CHAMELI DEVI KHANDELWAL GIRLS INTER COLLEGE VRINDAVAN GATE MATHURA R.NO.-2",
+   "partId": 426109
+  },
+  {
+   "partNumber": 300,
+   "partName": "SHRI CHAMELI DEVI KHANDELWAL GIRLS INTER COLLEGE VRINDAVAN GATE MATHURA R.NO.-3",
+   "partId": 426110
+  },
+  {
+   "partNumber": 301,
+   "partName": "SHRI CHAMELI DEVI KHANDELWAL GIRLS INTER COLLEGE VRINDAVAN GATE MATHURA R.NO.-4",
+   "partId": 426315
+  },
+  {
+   "partNumber": 302,
+   "partName": "D.A.V.INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426111
+  },
+  {
+   "partNumber": 303,
+   "partName": "D.A.V.INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426112
+  },
+  {
+   "partNumber": 304,
+   "partName": "D.A.V.INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426113
+  },
+  {
+   "partNumber": 305,
+   "partName": "D.A.V.INTER COLLEGE MATHURA R.NO.-4",
+   "partId": 426114
+  },
+  {
+   "partNumber": 306,
+   "partName": "SHRI RATAN VIDYA NIKETAN PUBLIC SCHOOL GOVIND NAGAR MATHURA R.NO.-1",
+   "partId": 426115
+  },
+  {
+   "partNumber": 307,
+   "partName": "SHRI RATAN VIDYA NIKETAN PUBLIC SCHOOL GOVIND NAGAR MATHURA R.NO.-2",
+   "partId": 426316
+  },
+  {
+   "partNumber": 308,
+   "partName": "SHRI RATAN VIDYA NIKETAN PUBLIC SCHOOL GOVIND NAGAR MATHURA R.NO.-3",
+   "partId": 426116
+  },
+  {
+   "partNumber": 309,
+   "partName": "CITY JUNIOR HIGH SCHOOL,GOVINDNAGAR MATHURA R.No.-1",
+   "partId": 426330
+  },
+  {
+   "partNumber": 310,
+   "partName": "CITY JUNIOR HIGH SCHOOL,GOVINDNAGAR MATHURA R.No.-2",
+   "partId": 426331
+  },
+  {
+   "partNumber": 311,
+   "partName": "CITY JUNIOR HIGH SCHOOL,GOVINDNAGAR MATHURA R.No.-3",
+   "partId": 426332
+  },
+  {
+   "partNumber": 312,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426117
+  },
+  {
+   "partNumber": 313,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426118
+  },
+  {
+   "partNumber": 314,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426119
+  },
+  {
+   "partNumber": 315,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-4",
+   "partId": 426120
+  },
+  {
+   "partNumber": 316,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-5",
+   "partId": 426121
+  },
+  {
+   "partNumber": 317,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-6",
+   "partId": 426122
+  },
+  {
+   "partNumber": 318,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-7",
+   "partId": 426123
+  },
+  {
+   "partNumber": 319,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-8",
+   "partId": 426124
+  },
+  {
+   "partNumber": 320,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-9",
+   "partId": 426125
+  },
+  {
+   "partNumber": 321,
+   "partName": "JAWAHAR VIDYALAY INTER COLLEGE MATHURA R.NO.-10",
+   "partId": 426126
+  },
+  {
+   "partNumber": 322,
+   "partName": "SARASWATI SHISHU MANDIR KRISHNA GANGA MATHURA R.NO.-1",
+   "partId": 426127
+  },
+  {
+   "partNumber": 323,
+   "partName": "SARASWATI SHISHU MANDIR KRISHNA GANGA MATHURA R.NO.-2",
+   "partId": 426128
+  },
+  {
+   "partNumber": 324,
+   "partName": "MAHARAJA AGRASEN GIRLS INTER COLLEGE DORI BAZAR MATHURA R.NO.-1",
+   "partId": 426129
+  },
+  {
+   "partNumber": 325,
+   "partName": "MAHARAJA AGRASEN GIRLS INTER COLLEGE DORI BAZAR MATHURA R.NO.-2",
+   "partId": 426130
+  },
+  {
+   "partNumber": 326,
+   "partName": "MAHARAJA AGRASEN GIRLS INTER COLLEGE DORI BAZAR MATHURA R.NO.-3",
+   "partId": 426131
+  },
+  {
+   "partNumber": 327,
+   "partName": "MAHARAJA AGRASEN GIRLS INTER COLLEGE DORI BAZAR MATHURA R.NO.-4",
+   "partId": 426132
+  },
+  {
+   "partNumber": 328,
+   "partName": "MAHARAJA AGRASEN GIRLS INTER COLLEGE DORI BAZAR MATHURA R.NO.-5",
+   "partId": 426133
+  },
+  {
+   "partNumber": 329,
+   "partName": "MAHARAJA AGRASEN GIRLS INTER COLLEGE DORI BAZAR MATHURA R.NO.-6",
+   "partId": 426134
+  },
+  {
+   "partNumber": 330,
+   "partName": "JANAKI BAI BALIKA INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426135
+  },
+  {
+   "partNumber": 331,
+   "partName": "JANAKI BAI BALIKA INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426136
+  },
+  {
+   "partNumber": 332,
+   "partName": "JANAKI BAI BALIKA INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426137
+  },
+  {
+   "partNumber": 333,
+   "partName": "JANAKI BAI BALIKA INTER COLLEGE MATHURA R.NO.-4",
+   "partId": 426138
+  },
+  {
+   "partNumber": 334,
+   "partName": "SANVI.NAYABAS KANYA P.S.NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426139
+  },
+  {
+   "partNumber": 335,
+   "partName": "SANVI.NAYABAS KANYA P.S.NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426140
+  },
+  {
+   "partNumber": 336,
+   "partName": "BANKE LAL BAJAJ MAHARAJA AGRASEN PUBLIC SCHOOL ROSHANGANJ, MATHURA R.NO.-1",
+   "partId": 426141
+  },
+  {
+   "partNumber": 337,
+   "partName": "BANKE LAL BAJAJ MAHARAJA AGRASEN PUBLIC SCHOOL ROSHANGANJ, MATHURA R.NO.-2",
+   "partId": 426142
+  },
+  {
+   "partNumber": 338,
+   "partName": "BANKE LAL BAJAJ MAHARAJA AGRASEN PUBLIC SCHOOL ROSHANGANJ, MATHURA R.NO.-3",
+   "partId": 426143
+  },
+  {
+   "partNumber": 339,
+   "partName": "BANKE LAL BAJAJ MAHARAJA AGRASEN PUBLIC SCHOOL ROSHANGANJ, MATHURA R.NO.-4",
+   "partId": 426144
+  },
+  {
+   "partNumber": 340,
+   "partName": "P.S. KAMLA NEHRU NAGAR KSHETRA KAMPUGHAT, MATHURA R.NO.-1",
+   "partId": 426145
+  },
+  {
+   "partNumber": 341,
+   "partName": "P.S. KAMLA NEHRU NAGAR KSHETRA KAMPUGHAT, MATHURA R.NO.-2",
+   "partId": 426146
+  },
+  {
+   "partNumber": 342,
+   "partName": "P.S. KAMLA NEHRU NAGAR KSHETRA KAMPUGHAT, MATHURA R.NO.-3",
+   "partId": 426147
+  },
+  {
+   "partNumber": 343,
+   "partName": "P.S. KAMLA NEHRU NAGAR KSHETRA KAMPUGHAT, MATHURA R.NO.-4",
+   "partId": 426148
+  },
+  {
+   "partNumber": 344,
+   "partName": "SUBHASH INTER COLLEGE, MATHURA R.NO.-1",
+   "partId": 426149
+  },
+  {
+   "partNumber": 345,
+   "partName": "SUBHASH INTER COLLEGE, MATHURA R.NO.-2",
+   "partId": 426150
+  },
+  {
+   "partNumber": 346,
+   "partName": "SUBHASH INTER COLLEGE, MATHURA R.NO.-3",
+   "partId": 426151
+  },
+  {
+   "partNumber": 347,
+   "partName": "SHRI LAXMAN PRASAD CHATURVED ARYA GIRLS INTER COLLEGE, MATHURA R.NO.-1",
+   "partId": 426152
+  },
+  {
+   "partNumber": 348,
+   "partName": "SHRI LAXMAN PRASAD CHATURVED ARYA GIRLS INTER COLLEGE, MATHURA R.NO.-2",
+   "partId": 426153
+  },
+  {
+   "partNumber": 349,
+   "partName": "V.D.P. GOVERNMENT INTER COLLEGE, MATHURA R.NO.-1",
+   "partId": 426154
+  },
+  {
+   "partNumber": 350,
+   "partName": "V.D.P. GOVERNMENT INTER COLLEGE, MATHURA R.NO.-2",
+   "partId": 426155
+  },
+  {
+   "partNumber": 351,
+   "partName": "V.D.P. GOVERNMENT INTER COLLEGE, MATHURA R.NO.-3",
+   "partId": 426156
+  },
+  {
+   "partNumber": 352,
+   "partName": "V.D.P. GOVERNMENT INTER COLLEGE, MATHURA R.NO.-4",
+   "partId": 426157
+  },
+  {
+   "partNumber": 353,
+   "partName": "V.D.P. GOVERNMENT INTER COLLEGE, MATHURA R.NO.-5",
+   "partId": 426158
+  },
+  {
+   "partNumber": 354,
+   "partName": "V.D.P. GOVERNMENT INTER COLLEGE, MATHURA R.NO.-6",
+   "partId": 426159
+  },
+  {
+   "partNumber": 355,
+   "partName": "BLACK STONE GIRLS INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426160
+  },
+  {
+   "partNumber": 356,
+   "partName": "BLACK STONE GIRLS INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426317
+  },
+  {
+   "partNumber": 357,
+   "partName": "BLACK STONE GIRLS INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426161
+  },
+  {
+   "partNumber": 358,
+   "partName": "BLACK STONE GIRLS INTER COLLEGE MATHURA R.NO.-4",
+   "partId": 426162
+  },
+  {
+   "partNumber": 359,
+   "partName": "BLACK STONE GIRLS INTER COLLEGE MATHURA R.NO.-5",
+   "partId": 426163
+  },
+  {
+   "partNumber": 360,
+   "partName": "BLACK STONE GIRLS INTER COLLEGE MATHURA R.NO.-6",
+   "partId": 426164
+  },
+  {
+   "partNumber": 361,
+   "partName": "SETH B.N.PODDAR INTER COLLEGE MATHURA R.NO.-1",
+   "partId": 426165
+  },
+  {
+   "partNumber": 362,
+   "partName": "SETH B.N.PODDAR INTER COLLEGE MATHURA R.NO.-2",
+   "partId": 426166
+  },
+  {
+   "partNumber": 363,
+   "partName": "SETH B.N.PODDAR INTER COLLEGE MATHURA R.NO.-3",
+   "partId": 426167
+  },
+  {
+   "partNumber": 364,
+   "partName": "SETH B.N.PODDAR INTER COLLEGE MATHURA R.NO.-4",
+   "partId": 426168
+  },
+  {
+   "partNumber": 365,
+   "partName": "SETH B.N.PODDAR INTER COLLEGE MATHURA R.NO.-5",
+   "partId": 426169
+  },
+  {
+   "partNumber": 366,
+   "partName": "SETH B.N.PODDAR INTER COLLEGE MATHURA R.NO.-6",
+   "partId": 426170
+  },
+  {
+   "partNumber": 367,
+   "partName": "SETH B.N.PODDAR INTER COLLEGE MATHURA R.NO.-7",
+   "partId": 426171
+  },
+  {
+   "partNumber": 368,
+   "partName": "SETH B.N.PODDAR INTER COLLEGE MATHURA R.NO.-8",
+   "partId": 426172
+  },
+  {
+   "partNumber": 369,
+   "partName": "SANVILIT PRIMARY SCHOOL, SADAR BAZAR NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426173
+  },
+  {
+   "partNumber": 370,
+   "partName": "SANVILIT PRIMARY SCHOOL, SADAR BAZAR NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426174
+  },
+  {
+   "partNumber": 371,
+   "partName": "SANVILIT PRIMARY SCHOOL, SADAR BAZAR NAGAR KSHETRA MATHURA R.NO.-3",
+   "partId": 426175
+  },
+  {
+   "partNumber": 372,
+   "partName": "SANVILIT PRIMARY SCHOOL, SADAR BAZAR NAGAR KSHETRA MATHURA R.NO.-4",
+   "partId": 426176
+  },
+  {
+   "partNumber": 373,
+   "partName": "GYAN JYOTI J.H.SCHOOL JAMUNABAG ROAD MATHURA R.NO.-1",
+   "partId": 426177
+  },
+  {
+   "partNumber": 374,
+   "partName": "GYAN JYOTI J.H.SCHOOL JAMUNABAG ROAD MATHURA R.NO.-2",
+   "partId": 426178
+  },
+  {
+   "partNumber": 375,
+   "partName": "GYAN JYOTI J.H.SCHOOL JAMUNABAG ROAD MATHURA R.NO.-3",
+   "partId": 426179
+  },
+  {
+   "partNumber": 376,
+   "partName": "GYAN JYOTI J.H.SCHOOL JAMUNABAG ROAD MATHURA R.NO.-4",
+   "partId": 426180
+  },
+  {
+   "partNumber": 377,
+   "partName": "GYAN JYOTI J.H.SCHOOL JAMUNABAG ROAD MATHURA R.NO.-5",
+   "partId": 426181
+  },
+  {
+   "partNumber": 378,
+   "partName": "GULAB CHAND J.H.SCHOOL JAMUNA BAG ROAD MATHURA R.NO.-1",
+   "partId": 426182
+  },
+  {
+   "partNumber": 379,
+   "partName": "GULAB CHAND J.H.SCHOOL JAMUNA BAG ROAD MATHURA R.NO.-2",
+   "partId": 426183
+  },
+  {
+   "partNumber": 380,
+   "partName": "GULAB CHAND J.H.SCHOOL JAMUNA BAG ROAD MATHURA R.NO.-3",
+   "partId": 426184
+  },
+  {
+   "partNumber": 381,
+   "partName": "GULAB CHAND J.H.SCHOOL JAMUNA BAG ROAD MATHURA R.NO.-4",
+   "partId": 426185
+  },
+  {
+   "partNumber": 382,
+   "partName": "CANTONMENT BOARD J.H.SCHOOL CHURCH MARG, MATHURA R.NO.-1",
+   "partId": 426186
+  },
+  {
+   "partNumber": 383,
+   "partName": "CANTONMENT BOARD J.H.SCHOOL CHURCH MARG, MATHURA R.NO.-2",
+   "partId": 426187
+  },
+  {
+   "partNumber": 384,
+   "partName": "CANTONMENT BOARD J.H.SCHOOL CHURCH MARG, MATHURA R.NO.-3",
+   "partId": 426188
+  },
+  {
+   "partNumber": 385,
+   "partName": "SHRI BHAGAT SINGH P.S. POLICE LINE, MATHURA R.NO.-1",
+   "partId": 426189
+  },
+  {
+   "partNumber": 386,
+   "partName": "TEACHERS GUEST HOUSE VETERINARY COLLEGE MATHURA R.NO.-1",
+   "partId": 426190
+  },
+  {
+   "partNumber": 387,
+   "partName": "POLICE MODERN S. SECONDARY SCHOOL POLICE LINE MATHURA R.NO.-1",
+   "partId": 426191
+  },
+  {
+   "partNumber": 388,
+   "partName": "POLICE MODERN S. SECONDARY SCHOOL POLICE LINE MATHURA R.NO.-2",
+   "partId": 426192
+  },
+  {
+   "partNumber": 389,
+   "partName": "POLICE MODERN S. SECONDARY SCHOOL POLICE LINE MATHURA R.NO.-3",
+   "partId": 426193
+  },
+  {
+   "partNumber": 390,
+   "partName": "PRIMARY SCHOOL TANTURA MATHURA R.NO.-1",
+   "partId": 426194
+  },
+  {
+   "partNumber": 391,
+   "partName": "PRIMARY SCHOOL TANTURA MATHURA R.NO.-2",
+   "partId": 426195
+  },
+  {
+   "partNumber": 392,
+   "partName": "PRIMARY SCHOOL TANTURA MATHURA R.NO.-3",
+   "partId": 426196
+  },
+  {
+   "partNumber": 393,
+   "partName": "PRIMARY SCHOOL TANTURA MATHURA R.NO.-4",
+   "partId": 426197
+  },
+  {
+   "partNumber": 394,
+   "partName": "R.B.S.NATIONAL PUBLIC SCHOOL BALAJIPURAM MATHURA R.NO.-1",
+   "partId": 426198
+  },
+  {
+   "partNumber": 395,
+   "partName": "R.B.S.NATIONAL PUBLIC SCHOOL BALAJIPURAM MATHURA R.NO.-2",
+   "partId": 426199
+  },
+  {
+   "partNumber": 396,
+   "partName": "R.B.S.NATIONAL PUBLIC SCHOOL BALAJIPURAM MATHURA R.NO.-3",
+   "partId": 426200
+  },
+  {
+   "partNumber": 397,
+   "partName": "R.B.S.NATIONAL PUBLIC SCHOOL BALAJIPURAM MATHURA R.NO.-4",
+   "partId": 426201
+  },
+  {
+   "partNumber": 398,
+   "partName": "PRIMARY SCHOOL DAMODARPURA R.NO.-1",
+   "partId": 426202
+  },
+  {
+   "partNumber": 399,
+   "partName": "PRIMARY SCHOOL DAMODARPURA R.NO.-2",
+   "partId": 426318
+  },
+  {
+   "partNumber": 400,
+   "partName": "PRIMARY SCHOOL DAMODARPURA R.NO.-3",
+   "partId": 426203
+  },
+  {
+   "partNumber": 401,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE,DAMODARPURA MATHURA R.No.-1",
+   "partId": 426333
+  },
+  {
+   "partNumber": 402,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE,DAMODARPURA MATHURA R.No.-2",
+   "partId": 426334
+  },
+  {
+   "partNumber": 403,
+   "partName": "PRIMARY SCHOOL AURANGABAD FIRST R.NO.-1",
+   "partId": 426204
+  },
+  {
+   "partNumber": 404,
+   "partName": "PRIMARY SCHOOL AURANGABAD FIRST R.NO.-2",
+   "partId": 426319
+  },
+  {
+   "partNumber": 405,
+   "partName": "PRIMARY SCHOOL AURANGABAD FIRST R.NO.-3",
+   "partId": 426205
+  },
+  {
+   "partNumber": 406,
+   "partName": "PRIMARY SCHOOL AURANGABAD FIRST R.NO.-4",
+   "partId": 426206
+  },
+  {
+   "partNumber": 407,
+   "partName": "PRIMARY SCHOOL AURANGABAD FIRST R.NO.-5",
+   "partId": 426207
+  },
+  {
+   "partNumber": 408,
+   "partName": "PRIMARY SCHOOL AURANGABAD FIRST R.NO.-6",
+   "partId": 426208
+  },
+  {
+   "partNumber": 409,
+   "partName": "ACHARYA CHARANMAHAPRABHU SHRIMAD VALLABH U.M.V.CHAMPABAG AURANGABAD, MATHURA R.NO.-1",
+   "partId": 426209
+  },
+  {
+   "partNumber": 410,
+   "partName": "ACHARYA CHARANMAHAPRABHU SHRIMAD VALLABH U.M.V.CHAMPABAG AURANGABAD, MATHURA R.NO.-2",
+   "partId": 426210
+  },
+  {
+   "partNumber": 411,
+   "partName": "ACHARYA CHARANMAHAPRABHU SHRIMAD VALLABH U.M.V.CHAMPABAG AURANGABAD, MATHURA R.NO.-3",
+   "partId": 426211
+  },
+  {
+   "partNumber": 412,
+   "partName": "ACHARYA CHARANMAHAPRABHU SHRIMAD VALLABH U.M.V.CHAMPABAG AURANGABAD, MATHURA R.NO.-4",
+   "partId": 426212
+  },
+  {
+   "partNumber": 413,
+   "partName": "ACHARYA CHARANMAHAPRABHU SHRIMAD VALLABH U.M.V.CHAMPABAG AURANGABAD, MATHURA R.NO.-5",
+   "partId": 426213
+  },
+  {
+   "partNumber": 414,
+   "partName": "U.P.S. COMPOSITE (1-8) AURANGABAD R.NO.-1",
+   "partId": 426214
+  },
+  {
+   "partNumber": 415,
+   "partName": "U.P.S. COMPOSITE (1-8) AURANGABAD R.NO.-2",
+   "partId": 426215
+  },
+  {
+   "partNumber": 416,
+   "partName": "U.P.S. COMPOSITE (1-8) AURANGABAD R.NO.-3",
+   "partId": 426216
+  },
+  {
+   "partNumber": 417,
+   "partName": "PRIMARY SCHOOL AZAMPUR R.NO.-1",
+   "partId": 426217
+  },
+  {
+   "partNumber": 418,
+   "partName": "PRIMARY SCHOOL AZAMPUR R.NO.-2",
+   "partId": 426218
+  },
+  {
+   "partNumber": 419,
+   "partName": "PRIMARY SCHOOL GIRDHARPUR R.NO.-1",
+   "partId": 426219
+  },
+  {
+   "partNumber": 420,
+   "partName": "PRIMARY SCHOOL GIRDHARPUR R.NO.-2",
+   "partId": 426321
+  },
+  {
+   "partNumber": 421,
+   "partName": "M NT INTER COLLEGE,MUKUND VIHAR GIRDHARPUR R.No.1",
+   "partId": 426335
+  },
+  {
+   "partNumber": 422,
+   "partName": "U.P.S. COMPOSITE (1-8) BHOJPUR, GIRDHARPUR R.NO.-1",
+   "partId": 426220
+  },
+  {
+   "partNumber": 423,
+   "partName": "U.P.S. COMPOSITE (1-8) BHOJPUR, GIRDHARPUR R.NO.-2",
+   "partId": 426221
+  },
+  {
+   "partNumber": 424,
+   "partName": "U.P.S. COMPOSITE (1-8) BHOJPUR, GIRDHARPUR R.NO.-3",
+   "partId": 426222
+  },
+  {
+   "partNumber": 425,
+   "partName": "U.P.S. COMPOSITE (1-8) BHOJPUR, GIRDHARPUR R.NO.-4",
+   "partId": 426223
+  },
+  {
+   "partNumber": 426,
+   "partName": "U.P.S. COMPOSITE (1-8) BHOJPUR, GIRDHARPUR R.NO.-5",
+   "partId": 426224
+  },
+  {
+   "partNumber": 427,
+   "partName": "U.P.S. COMPOSITE(1-8) NAUGAON R.NO.-1",
+   "partId": 426225
+  },
+  {
+   "partNumber": 428,
+   "partName": "U.P.S. COMPOSITE(1-8) NAUGAON R.NO.-2",
+   "partId": 426226
+  },
+  {
+   "partNumber": 429,
+   "partName": "U.P.S. COMPOSITE(1-8) NAUGAON R.NO.-3",
+   "partId": 426322
+  },
+  {
+   "partNumber": 430,
+   "partName": "PRIMARY SCHOOL MAHOLI R.NO.-1",
+   "partId": 426227
+  },
+  {
+   "partNumber": 431,
+   "partName": "PRIMARY SCHOOL MAHOLI R.NO.-2",
+   "partId": 426228
+  },
+  {
+   "partNumber": 432,
+   "partName": "PRIMARY SCHOOL MAHOLI R.NO.-3",
+   "partId": 426229
+  },
+  {
+   "partNumber": 433,
+   "partName": "MADHUVAN INTER COLLEGE MAHOLI R.NO.-1",
+   "partId": 426230
+  },
+  {
+   "partNumber": 434,
+   "partName": "MADHUVAN INTER COLLEGE MAHOLI R.NO.-2",
+   "partId": 426231
+  },
+  {
+   "partNumber": 435,
+   "partName": "MADHUVAN INTER COLLEGE MAHOLI R.NO.-3",
+   "partId": 426232
+  },
+  {
+   "partNumber": 436,
+   "partName": "MADHUVAN INTER COLLEGE MAHOLI R.NO.-4",
+   "partId": 426233
+  },
+  {
+   "partNumber": 437,
+   "partName": "MADHUVAN INTER COLLEGE MAHOLI R.NO.-5",
+   "partId": 426234
+  },
+  {
+   "partNumber": 438,
+   "partName": "MADHUVAN INTER COLLEGE MAHOLI R.NO.-6",
+   "partId": 426235
+  },
+  {
+   "partNumber": 439,
+   "partName": "PRIMARY SCHOOL PALIKHEDA R.NO.-1",
+   "partId": 426236
+  },
+  {
+   "partNumber": 440,
+   "partName": "PRIMARY SCHOOL PALIKHEDA R.NO.-2",
+   "partId": 426237
+  },
+  {
+   "partNumber": 441,
+   "partName": "DR. CHARANLAL SARASWAT INTER COLLEGE SAUNKH ROAD MATHURA R.NO.-1",
+   "partId": 426238
+  },
+  {
+   "partNumber": 442,
+   "partName": "DR. CHARANLAL SARASWAT INTER COLLEGE SAUNKH ROAD MATHURA R.NO.-2",
+   "partId": 426239
+  },
+  {
+   "partNumber": 443,
+   "partName": "DR. CHARANLAL SARASWAT INTER COLLEGE SAUNKH ROAD MATHURA R.NO.-3",
+   "partId": 426240
+  },
+  {
+   "partNumber": 444,
+   "partName": "DR. CHARANLAL SARASWAT INTER COLLEGE SAUNKH ROAD MATHURA R.NO.-4",
+   "partId": 426241
+  },
+  {
+   "partNumber": 445,
+   "partName": "DR. CHARANLAL SARASWAT INTER COLLEGE SAUNKH ROAD MATHURA R.NO.-5",
+   "partId": 426242
+  },
+  {
+   "partNumber": 446,
+   "partName": "PRIMARY SCHOOL MANSHATILA, PALIKHEDA R.NO.-1",
+   "partId": 426243
+  },
+  {
+   "partNumber": 447,
+   "partName": "PRIMARY SCHOOL MANSHATILA, PALIKHEDA R.NO.-2",
+   "partId": 426244
+  },
+  {
+   "partNumber": 448,
+   "partName": "PRIMARY SCHOOL MANSHATILA, PALIKHEDA R.NO.-3",
+   "partId": 426245
+  },
+  {
+   "partNumber": 449,
+   "partName": "U.P.S COMPOSITE (1-8) NAVADA R.NO.-1",
+   "partId": 426246
+  },
+  {
+   "partNumber": 450,
+   "partName": "U.P.S COMPOSITE (1-8) NAVADA R.NO.-2",
+   "partId": 426247
+  },
+  {
+   "partNumber": 451,
+   "partName": "U.P.S COMPOSITE (1-8) NAVADA R.NO.-3",
+   "partId": 426248
+  },
+  {
+   "partNumber": 452,
+   "partName": "U.P.S COMPOSITE (1-8) NAVADA R.NO.-4",
+   "partId": 426249
+  },
+  {
+   "partNumber": 453,
+   "partName": "U.P.S COMPOSITE (1-8) NAVADA R.NO.-5",
+   "partId": 426250
+  },
+  {
+   "partNumber": 454,
+   "partName": "GREEN WILLOW PUBLIC SCHOOL TATVADARSHI VATIKA R.NO.-1",
+   "partId": 426251
+  },
+  {
+   "partNumber": 455,
+   "partName": "GREEN WILLOW PUBLIC SCHOOL TATVADARSHI VATIKA R.NO.-2",
+   "partId": 426324
+  },
+  {
+   "partNumber": 456,
+   "partName": "U.P.S. NARHOLI COMPOSITE (1-8) R.NO.-1",
+   "partId": 426252
+  },
+  {
+   "partNumber": 457,
+   "partName": "U.P.S. NARHOLI COMPOSITE (1-8) R.NO.-2",
+   "partId": 426253
+  },
+  {
+   "partNumber": 458,
+   "partName": "U.P.S. NARHOLI COMPOSITE (1-8) R.NO.-3",
+   "partId": 426254
+  },
+  {
+   "partNumber": 459,
+   "partName": "U.P.S. NARHOLI COMPOSITE (1-8) R.NO.-4",
+   "partId": 426323
+  },
+  {
+   "partNumber": 460,
+   "partName": "U.P.S. NARHOLI COMPOSITE (1-8) R.NO.-5",
+   "partId": 426255
+  },
+  {
+   "partNumber": 461,
+   "partName": "ST. PAUL S.S. SCHOOL CHANDRAPURI MATHURA R.NO.-1",
+   "partId": 426256
+  },
+  {
+   "partNumber": 462,
+   "partName": "ST. PAUL S.S. SCHOOL CHANDRAPURI MATHURA R.NO.-2",
+   "partId": 426257
+  },
+  {
+   "partNumber": 463,
+   "partName": "ST. PAUL S.S. SCHOOL CHANDRAPURI MATHURA R.NO.-3",
+   "partId": 426325
+  },
+  {
+   "partNumber": 464,
+   "partName": "ST. PAUL S.S. SCHOOL CHANDRAPURI MATHURA R.NO.-4",
+   "partId": 426258
+  },
+  {
+   "partNumber": 465,
+   "partName": "ST. PAUL S.S. SCHOOL CHANDRAPURI MATHURA R.NO.-5",
+   "partId": 426259
+  },
+  {
+   "partNumber": 466,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-1",
+   "partId": 426260
+  },
+  {
+   "partNumber": 467,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-2",
+   "partId": 426261
+  },
+  {
+   "partNumber": 468,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-3",
+   "partId": 426262
+  },
+  {
+   "partNumber": 469,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-4",
+   "partId": 426263
+  },
+  {
+   "partNumber": 470,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-5",
+   "partId": 426264
+  },
+  {
+   "partNumber": 471,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-6",
+   "partId": 426326
+  },
+  {
+   "partNumber": 472,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-7",
+   "partId": 426265
+  },
+  {
+   "partNumber": 473,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-8",
+   "partId": 426266
+  },
+  {
+   "partNumber": 474,
+   "partName": "SACRED HEART CONVENT H. SECONDARY SCHOOL MOTIKUNJ MATHURA R.NO.-9",
+   "partId": 426267
+  },
+  {
+   "partNumber": 475,
+   "partName": "SHANTIDEVI SHRINATH BHARGAV PUBLIC INTER COLLEGE, CHANDANVAN PHASE-2, MATHURA R.NO.-1",
+   "partId": 426268
+  },
+  {
+   "partNumber": 476,
+   "partName": "SHANTIDEVI SHRINATH BHARGAV PUBLIC INTER COLLEGE, CHANDANVAN PHASE-2, MATHURA R.NO.-2",
+   "partId": 426269
+  },
+  {
+   "partNumber": 477,
+   "partName": "SHANTIDEVI SHRINATH BHARGAV PUBLIC INTER COLLEGE, CHANDANVAN PHASE-2, MATHURA R.NO.-3",
+   "partId": 426270
+  },
+  {
+   "partNumber": 478,
+   "partName": "SHANTIDEVI SHRINATH BHARGAV PUBLIC INTER COLLEGE, CHANDANVAN PHASE-2, MATHURA R.NO.-4",
+   "partId": 426271
+  },
+  {
+   "partNumber": 479,
+   "partName": "SHANTIDEVI SHRINATH BHARGAV PUBLIC INTER COLLEGE, CHANDANVAN PHASE-2, MATHURA R.NO.-5",
+   "partId": 426272
+  },
+  {
+   "partNumber": 480,
+   "partName": "SHANTIDEVI SHRINATH BHARGAV PUBLIC INTER COLLEGE, CHANDANVAN PHASE-2, MATHURA R.NO.-6",
+   "partId": 426273
+  },
+  {
+   "partNumber": 481,
+   "partName": "PRIMARY SCHOOL BIRJAPUR R.NO.-1",
+   "partId": 426274
+  },
+  {
+   "partNumber": 482,
+   "partName": "PRIMARY SCHOOL BIRJAPUR R.NO.-2",
+   "partId": 426275
+  },
+  {
+   "partNumber": 483,
+   "partName": "U.P.S. BIRJAPUR R.NO.-1",
+   "partId": 426276
+  },
+  {
+   "partNumber": 484,
+   "partName": "U.P.S. BIRJAPUR R.NO.-2",
+   "partId": 426277
+  },
+  {
+   "partNumber": 485,
+   "partName": "U.P.S. BIRJAPUR R.NO.-3",
+   "partId": 426278
+  },
+  {
+   "partNumber": 486,
+   "partName": "U.P.S. BIRJAPUR R.NO.-4",
+   "partId": 426279
+  },
+  {
+   "partNumber": 487,
+   "partName": "PRIMARY SCHOOL ADUKI FIRST R.NO.-1",
+   "partId": 426280
+  },
+  {
+   "partNumber": 488,
+   "partName": "PRIMARY SCHOOL ADUKI FIRST R.NO.-2",
+   "partId": 426281
+  },
+  {
+   "partNumber": 489,
+   "partName": "PRIMARY SCHOOL ADUKI FIRST R.NO.-3",
+   "partId": 426327
+  },
+  {
+   "partNumber": 490,
+   "partName": "PRIMARY SCHOOL II ADUKI R.No. 1",
+   "partId": 426336
+  },
+  {
+   "partNumber": 491,
+   "partName": "U.P.S. ADUKI, MOHANPUR R.NO1",
+   "partId": 426282
+  },
+  {
+   "partNumber": 492,
+   "partName": "U.P.S. DHANGAON (1-8) R.NO.-1",
+   "partId": 426283
+  },
+  {
+   "partNumber": 493,
+   "partName": "U.P.S. DHANGAON (1-8) R.NO.-2",
+   "partId": 426284
+  },
+  {
+   "partNumber": 494,
+   "partName": "U.P.S. DHANGAON (1-8) R.NO.-3",
+   "partId": 426285
+  },
+  {
+   "partNumber": 495,
+   "partName": "PRIMARY SCHOOL MUDESI R.NO.-1",
+   "partId": 426286
+  },
+  {
+   "partNumber": 496,
+   "partName": "PRIMARY SCHOOL MUDESI R.NO.-2",
+   "partId": 426328
+  },
+  {
+   "partNumber": 497,
+   "partName": "U.P.S. LAXMINAGAR (1 -8) YAMUNAPAR, NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426287
+  },
+  {
+   "partNumber": 498,
+   "partName": "U.P.S. LAXMINAGAR (1 -8) YAMUNAPAR, NAGAR KSHETRA MATHURA R.NO.-2",
+   "partId": 426288
+  },
+  {
+   "partNumber": 499,
+   "partName": "DR. PANNILAL S.S. SCHOOL LAXMINAGAR MATHURA R.NO.-1",
+   "partId": 426289
+  },
+  {
+   "partNumber": 500,
+   "partName": "DR. PANNILAL S.S. SCHOOL LAXMINAGAR MATHURA R.NO.-2",
+   "partId": 426290
+  },
+  {
+   "partNumber": 501,
+   "partName": "DR. PANNILAL S.S. SCHOOL LAXMINAGAR MATHURA R.NO.-3",
+   "partId": 426291
+  },
+  {
+   "partNumber": 502,
+   "partName": "DR. PANNILAL S.S. SCHOOL LAXMINAGAR MATHURA R.NO.-4",
+   "partId": 426292
+  },
+  {
+   "partNumber": 503,
+   "partName": "DR. PANNILAL S.S. SCHOOL LAXMINAGAR MATHURA R.NO.-5",
+   "partId": 426293
+  },
+  {
+   "partNumber": 504,
+   "partName": "DON BOSCO SCHOOL KRISHNA VIDYALAY YAMUNA BRIDGE MATHURA R.NO.-1",
+   "partId": 426294
+  },
+  {
+   "partNumber": 505,
+   "partName": "DON BOSCO SCHOOL KRISHNA VIDYALAY YAMUNA BRIDGE MATHURA R.NO.-2",
+   "partId": 426295
+  },
+  {
+   "partNumber": 506,
+   "partName": "DON BOSCO SCHOOL KRISHNA VIDYALAY YAMUNA BRIDGE MATHURA R.NO.-3",
+   "partId": 426296
+  },
+  {
+   "partNumber": 507,
+   "partName": "DON BOSCO SCHOOL KRISHNA VIDYALAY YAMUNA BRIDGE MATHURA R.NO.-4",
+   "partId": 426297
+  },
+  {
+   "partNumber": 508,
+   "partName": "DON BOSCO SCHOOL KRISHNA VIDYALAY YAMUNA BRIDGE MATHURA R.NO.-5",
+   "partId": 426298
+  },
+  {
+   "partNumber": 509,
+   "partName": "SHRI YAMUNA PRIMARY SCHOOL NAGAR KSHETRA MATHURA R.NO.-1",
+   "partId": 426299
+  }
+ ]
+}

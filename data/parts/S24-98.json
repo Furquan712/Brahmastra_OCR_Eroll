@@ -1,0 +1,2082 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2411",
+ "acNumber": 98,
+ "fetchedAt": "2026-11-01T08:34:43",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 414,
+ "maxPart": 414,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "P.S. KAKRAU R.N.1",
+   "partId": 397702
+  },
+  {
+   "partNumber": 2,
+   "partName": "P.S KAKRAU R.N.2",
+   "partId": 397703
+  },
+  {
+   "partNumber": 3,
+   "partName": "SAMVILIYAN VIDHYALAYA LALAU  (1-8) R.N.1",
+   "partId": 397704
+  },
+  {
+   "partNumber": 4,
+   "partName": "SAMVILIYAN VIDHYALAYA LALAU  (1-8) R.N.2",
+   "partId": 397705
+  },
+  {
+   "partNumber": 5,
+   "partName": "U.P.S BAINDI (1-8)",
+   "partId": 397706
+  },
+  {
+   "partNumber": 6,
+   "partName": "P.S. KHANGARAI R.N.1",
+   "partId": 397707
+  },
+  {
+   "partNumber": 7,
+   "partName": "SAMVILIYAN VIDHYALAYA MULTI STOREY VIDHYALAYA GARHI CHATRAPATI R.N.1",
+   "partId": 397708
+  },
+  {
+   "partNumber": 8,
+   "partName": "SAMVILIYAN VIDHYALAYA MULTI STOREY VIDHYALAYA GARHI CHATRAPATI R.N.2",
+   "partId": 397709
+  },
+  {
+   "partNumber": 9,
+   "partName": "P.S.GARHI BHUPAL",
+   "partId": 397710
+  },
+  {
+   "partNumber": 10,
+   "partName": "P.S.BHIKANPUR SADHASUKH",
+   "partId": 397711
+  },
+  {
+   "partNumber": 11,
+   "partName": "U.P.S.JALOPURA R.N.1",
+   "partId": 397712
+  },
+  {
+   "partNumber": 12,
+   "partName": "U.P.S. JALOPURA R.N.2",
+   "partId": 397713
+  },
+  {
+   "partNumber": 13,
+   "partName": "COMPOSITE SCHOOL ALAMPUR JARKHI",
+   "partId": 397714
+  },
+  {
+   "partNumber": 14,
+   "partName": "P.S.DARAGPUR",
+   "partId": 397715
+  },
+  {
+   "partNumber": 15,
+   "partName": "COMPOSITE SCHOOL ALINAGAR KENJARA R.N.1",
+   "partId": 397716
+  },
+  {
+   "partNumber": 16,
+   "partName": "P.S.NAGLA SHALA R.N.1",
+   "partId": 397717
+  },
+  {
+   "partNumber": 17,
+   "partName": "COMPOSITE SCHOOL ALINAGAR KENJARA R.N.2",
+   "partId": 397718
+  },
+  {
+   "partNumber": 18,
+   "partName": "COMPOSITE SCHOOL ALINAGAR KENJARA R.N.3",
+   "partId": 397719
+  },
+  {
+   "partNumber": 19,
+   "partName": "SANT SHIVANAND G.L. UCCHATAR MADHYAMIK VIDHYALAY R.N.1",
+   "partId": 397720
+  },
+  {
+   "partNumber": 20,
+   "partName": "SANT SHIVANAND G.L. UCCHATAR MADHYAMIK VIDHYALAY R.N.2",
+   "partId": 397721
+  },
+  {
+   "partNumber": 21,
+   "partName": "SANT SHIVANAND G.L. UCCHATAR MADHYAMIK VIDHYALAY R.N.3",
+   "partId": 397722
+  },
+  {
+   "partNumber": 22,
+   "partName": "P.S. NAGLA GOLA",
+   "partId": 397723
+  },
+  {
+   "partNumber": 23,
+   "partName": "P.S. HIRAN GAON",
+   "partId": 397724
+  },
+  {
+   "partNumber": 24,
+   "partName": "M.S. INTER COLLEGE ULAU STHITH KHEMKARANPUR",
+   "partId": 397725
+  },
+  {
+   "partNumber": 25,
+   "partName": "COMPOSITE SCHOOL LATURRA",
+   "partId": 397726
+  },
+  {
+   "partNumber": 26,
+   "partName": "P.S. MEHARI",
+   "partId": 397727
+  },
+  {
+   "partNumber": 27,
+   "partName": "J.H.S.KURRIKUPA R.N 1",
+   "partId": 397728
+  },
+  {
+   "partNumber": 28,
+   "partName": "Junior highschool kurri kupa room no 2",
+   "partId": 398093
+  },
+  {
+   "partNumber": 29,
+   "partName": "PANCHAYATGHAR KUPA",
+   "partId": 397729
+  },
+  {
+   "partNumber": 30,
+   "partName": "COMPOSITE SCHOOL NAGLA GIRDHARI",
+   "partId": 397730
+  },
+  {
+   "partNumber": 31,
+   "partName": "BARAT GHAR NAGLA ASHA",
+   "partId": 397731
+  },
+  {
+   "partNumber": 32,
+   "partName": "COMPOSITE SCHOOL SUJATGARH R.N.1",
+   "partId": 397732
+  },
+  {
+   "partNumber": 33,
+   "partName": "Composite Vidhayalaya Sujatgarh room no 2",
+   "partId": 398094
+  },
+  {
+   "partNumber": 34,
+   "partName": "SAMVILIYAN (COMPOSITE) VIDHYALAYA VASDEVPUR (1-8)R.n.1",
+   "partId": 397733
+  },
+  {
+   "partNumber": 35,
+   "partName": "SAMVILIYAN (COMPOSITE) VIDHYALAYA VASUDEVPUR (1-8) ROOM NO 2",
+   "partId": 398095
+  },
+  {
+   "partNumber": 36,
+   "partName": "COMPOSITE SCHOOL RUPASPUR",
+   "partId": 397734
+  },
+  {
+   "partNumber": 37,
+   "partName": "P.S. VAJIDPUR KUTUKPUR R.N.1",
+   "partId": 397735
+  },
+  {
+   "partNumber": 38,
+   "partName": "P.S. GUDAU",
+   "partId": 397736
+  },
+  {
+   "partNumber": 39,
+   "partName": "P.S. NAGLA DANSAHAY",
+   "partId": 397737
+  },
+  {
+   "partNumber": 40,
+   "partName": "COMPOSITE SCHOOL NAGLA TIKAIT R.N.1",
+   "partId": 397738
+  },
+  {
+   "partNumber": 41,
+   "partName": "COMPOSITE SCHOOL NAGLA TIKAIT R.N.2",
+   "partId": 397739
+  },
+  {
+   "partNumber": 42,
+   "partName": "COMPOSITE SCHOOL NAGLA TIKAIT R.N.3",
+   "partId": 397740
+  },
+  {
+   "partNumber": 43,
+   "partName": "P.S. NAGLA SADASUKH",
+   "partId": 397741
+  },
+  {
+   "partNumber": 44,
+   "partName": "P.S. NAGLA BHAJAN",
+   "partId": 397742
+  },
+  {
+   "partNumber": 45,
+   "partName": "P.S. DATAUJI KHURDA R.N.1",
+   "partId": 397743
+  },
+  {
+   "partNumber": 46,
+   "partName": "P.S. DATAUJI KHURDA R.N.2",
+   "partId": 397744
+  },
+  {
+   "partNumber": 47,
+   "partName": "P.S. DATAUJI KALA",
+   "partId": 397745
+  },
+  {
+   "partNumber": 48,
+   "partName": "P.S. DHOLPURA R. NO. 1",
+   "partId": 397746
+  },
+  {
+   "partNumber": 49,
+   "partName": "P.S. DHOLPURA R. NO. 2",
+   "partId": 397747
+  },
+  {
+   "partNumber": 50,
+   "partName": "P S DHOLPURA ROOM NO 3",
+   "partId": 398096
+  },
+  {
+   "partNumber": 51,
+   "partName": "P.S. SHANKARPUR",
+   "partId": 397748
+  },
+  {
+   "partNumber": 52,
+   "partName": "P.S. ALADIPURA",
+   "partId": 397749
+  },
+  {
+   "partNumber": 53,
+   "partName": "P.S. RAMDASPURA",
+   "partId": 397750
+  },
+  {
+   "partNumber": 54,
+   "partName": "P.S. USMANPUR R.N.1",
+   "partId": 397751
+  },
+  {
+   "partNumber": 55,
+   "partName": "P S USMANPUR ROOM NO 2",
+   "partId": 398097
+  },
+  {
+   "partNumber": 56,
+   "partName": "P.S. NAGLA GOKUL",
+   "partId": 397752
+  },
+  {
+   "partNumber": 57,
+   "partName": "P.S. NAGLA SHEKH R. NO. 1",
+   "partId": 397753
+  },
+  {
+   "partNumber": 58,
+   "partName": "P.S. NAGLA SHEKH R. NO. 2",
+   "partId": 397754
+  },
+  {
+   "partNumber": 59,
+   "partName": "U.P.S. NAGLA CHURA (1-8)  R. N. 1",
+   "partId": 397755
+  },
+  {
+   "partNumber": 60,
+   "partName": "U.P.S. NAGLA CHURA (1-8)  R. NO. 2",
+   "partId": 397756
+  },
+  {
+   "partNumber": 61,
+   "partName": "P.S. GARHI TIWARI R. NO. 1",
+   "partId": 397757
+  },
+  {
+   "partNumber": 62,
+   "partName": "P.S. GARHI TIWARI R. NO. 2",
+   "partId": 397758
+  },
+  {
+   "partNumber": 63,
+   "partName": "P.S.MALIPATTI",
+   "partId": 397759
+  },
+  {
+   "partNumber": 64,
+   "partName": "P.S. CHANDRAVAR",
+   "partId": 397760
+  },
+  {
+   "partNumber": 65,
+   "partName": "INDRA MEMORIAL SCHOOL BASATH R. NO. 1",
+   "partId": 397761
+  },
+  {
+   "partNumber": 66,
+   "partName": "INDRA MEMORIAL SCHOOL BASATH R. NO. 2",
+   "partId": 397762
+  },
+  {
+   "partNumber": 67,
+   "partName": "INDRA MEMORIAL SCHOOL BASATH R. NO. 3",
+   "partId": 397763
+  },
+  {
+   "partNumber": 68,
+   "partName": "NAVYUG I.C.DURGESH NAGAR R.NO.1",
+   "partId": 397764
+  },
+  {
+   "partNumber": 69,
+   "partName": "NAVYUG I.C.DURGESH NAGAR R.NO.2",
+   "partId": 397765
+  },
+  {
+   "partNumber": 70,
+   "partName": "NAVYUG I.C.DURGESH NAGAR R.NO.3",
+   "partId": 397766
+  },
+  {
+   "partNumber": 71,
+   "partName": "P.S. MUSTABAD",
+   "partId": 397767
+  },
+  {
+   "partNumber": 72,
+   "partName": "P.S. PHULVADI",
+   "partId": 397768
+  },
+  {
+   "partNumber": 73,
+   "partName": "P.S. SOFIPUR R. NO.1",
+   "partId": 397769
+  },
+  {
+   "partNumber": 74,
+   "partName": "P.S. SOFIPUR R. NO.2",
+   "partId": 397770
+  },
+  {
+   "partNumber": 75,
+   "partName": "J.H.S. MAUDA R. NO. 1",
+   "partId": 397771
+  },
+  {
+   "partNumber": 76,
+   "partName": "J.H.S. MAUDA R. NO. 2",
+   "partId": 397772
+  },
+  {
+   "partNumber": 77,
+   "partName": "JUNIOR HIGH SCHOOL MAUDA ROOM NO 3",
+   "partId": 398098
+  },
+  {
+   "partNumber": 78,
+   "partName": "J.H.S.MUHAMMADPUR BIHARIPUR",
+   "partId": 397773
+  },
+  {
+   "partNumber": 79,
+   "partName": "PANCHAYATGHAR TOTALPUR",
+   "partId": 397774
+  },
+  {
+   "partNumber": 80,
+   "partName": "COMPOSITE SCHOOL KHEDA GANESHPUR R.N.1",
+   "partId": 397775
+  },
+  {
+   "partNumber": 81,
+   "partName": "COMPOSITE SCHOOL KHEDA GANESHPUR R.N.2",
+   "partId": 397776
+  },
+  {
+   "partNumber": 82,
+   "partName": "COMPOSITE SCHOOL BAJIRPUR JEHALPUR R.N.1",
+   "partId": 397777
+  },
+  {
+   "partNumber": 83,
+   "partName": "COMPOSITE SCHOOL BAJIRPUR JEHALPUR R.N.2",
+   "partId": 397778
+  },
+  {
+   "partNumber": 84,
+   "partName": "P.S. ALAMPUR KANAITA",
+   "partId": 397779
+  },
+  {
+   "partNumber": 85,
+   "partName": "P.S. AKALPUR DAMODARPUR",
+   "partId": 397780
+  },
+  {
+   "partNumber": 86,
+   "partName": "P.S. RASIDPUR KANAITA R.N.1",
+   "partId": 397781
+  },
+  {
+   "partNumber": 87,
+   "partName": "P.S. RASIDPUR KANAITA R.N.2",
+   "partId": 397782
+  },
+  {
+   "partNumber": 88,
+   "partName": "P.S. NAGLA SHROTI",
+   "partId": 397783
+  },
+  {
+   "partNumber": 89,
+   "partName": "P.S. DAUKELI R. NO. 1",
+   "partId": 397784
+  },
+  {
+   "partNumber": 90,
+   "partName": "P.S. DAUKELI R. NO. 2",
+   "partId": 397785
+  },
+  {
+   "partNumber": 91,
+   "partName": "P.S. DAUKELI R. NO. 3",
+   "partId": 397786
+  },
+  {
+   "partNumber": 92,
+   "partName": "JANTA VIDHYALAY DAUKELI R.N.1",
+   "partId": 397787
+  },
+  {
+   "partNumber": 93,
+   "partName": "JANTA VIDHYALAY DAUKELI R.N.2",
+   "partId": 397788
+  },
+  {
+   "partNumber": 94,
+   "partName": "COMPOSITE SCHOOL DABRAI",
+   "partId": 397789
+  },
+  {
+   "partNumber": 95,
+   "partName": "BALVANT SINGH I.C. JAMALPUR R. NO. 1",
+   "partId": 397790
+  },
+  {
+   "partNumber": 96,
+   "partName": "BALVANT SINGH I.C. JAMALPUR R. NO. 2",
+   "partId": 397791
+  },
+  {
+   "partNumber": 97,
+   "partName": "P.S. GAJIPUR",
+   "partId": 397792
+  },
+  {
+   "partNumber": 98,
+   "partName": "COMPOSITE SCHOOL BARKATPUR R.N.1",
+   "partId": 397793
+  },
+  {
+   "partNumber": 99,
+   "partName": "COMPOSITE SCHOOL BARKATPUR R.N.2",
+   "partId": 397794
+  },
+  {
+   "partNumber": 100,
+   "partName": "COMPOSITE SCHOOL BARKATPUR ROOM NO 3",
+   "partId": 398099
+  },
+  {
+   "partNumber": 101,
+   "partName": "P.S. KHANJAPUR R.N.1",
+   "partId": 397795
+  },
+  {
+   "partNumber": 102,
+   "partName": "P.S. KHANJAPUR R.N.2",
+   "partId": 397796
+  },
+  {
+   "partNumber": 103,
+   "partName": "P.S. KHANJAPUR R.N.3",
+   "partId": 397797
+  },
+  {
+   "partNumber": 104,
+   "partName": "COMPOSITE SCHOOL PAHADPUR R.N.1",
+   "partId": 397798
+  },
+  {
+   "partNumber": 105,
+   "partName": "COMPOSITE SCHOOL PAHADPUR R.N.2",
+   "partId": 397799
+  },
+  {
+   "partNumber": 106,
+   "partName": "P.S.NAGLA UDI",
+   "partId": 397800
+  },
+  {
+   "partNumber": 107,
+   "partName": "P.V. NASIRPUR",
+   "partId": 397801
+  },
+  {
+   "partNumber": 108,
+   "partName": "P.S. JAHANGIRPUR",
+   "partId": 397802
+  },
+  {
+   "partNumber": 109,
+   "partName": "P.S. BILHANA R.NO.1",
+   "partId": 397803
+  },
+  {
+   "partNumber": 110,
+   "partName": "P.S. BILHANA R.NO.2",
+   "partId": 397804
+  },
+  {
+   "partNumber": 111,
+   "partName": "P.S. NAI TOR",
+   "partId": 397805
+  },
+  {
+   "partNumber": 112,
+   "partName": "P.S. BASAI MUHAMMADPUR R. NO. 1",
+   "partId": 397806
+  },
+  {
+   "partNumber": 113,
+   "partName": "P.S. BASAI MUHAMMADPUR R. NO. 2",
+   "partId": 397807
+  },
+  {
+   "partNumber": 114,
+   "partName": "P.S. NAGLA BINA",
+   "partId": 397808
+  },
+  {
+   "partNumber": 115,
+   "partName": "P.S. ANTE KI MADAIYA",
+   "partId": 397809
+  },
+  {
+   "partNumber": 116,
+   "partName": "P.S. MADUA",
+   "partId": 397810
+  },
+  {
+   "partNumber": 117,
+   "partName": "J.H.S. ANANDIPUR KARKAULI R. NO. 1",
+   "partId": 397811
+  },
+  {
+   "partNumber": 118,
+   "partName": "P.S. AGARUPURA",
+   "partId": 397812
+  },
+  {
+   "partNumber": 119,
+   "partName": "P.S. PURA MISHRI",
+   "partId": 397813
+  },
+  {
+   "partNumber": 120,
+   "partName": "P.S. NOORPUR KUTUKPUR",
+   "partId": 397814
+  },
+  {
+   "partNumber": 121,
+   "partName": "P.S. FATEHPUR ANANDIPUR",
+   "partId": 397815
+  },
+  {
+   "partNumber": 122,
+   "partName": "P.S. VALCHANDPUR",
+   "partId": 397816
+  },
+  {
+   "partNumber": 123,
+   "partName": "P.S. NAGLA MULLA R. NO.1",
+   "partId": 397817
+  },
+  {
+   "partNumber": 124,
+   "partName": "P.S. NAGLA MULLA R. NO.2",
+   "partId": 397818
+  },
+  {
+   "partNumber": 125,
+   "partName": "P.V. LADUPUR CHAKARPUR",
+   "partId": 397819
+  },
+  {
+   "partNumber": 126,
+   "partName": "COMPOSITE SCHOOL GADIYA (CHAKARPUR)",
+   "partId": 397820
+  },
+  {
+   "partNumber": 127,
+   "partName": "P.S. KHARSULI",
+   "partId": 397821
+  },
+  {
+   "partNumber": 128,
+   "partName": "COMPOSITE VIDHYALAYA MATAMAI (1-8) R.N.1",
+   "partId": 397822
+  },
+  {
+   "partNumber": 129,
+   "partName": "COMPOSITE VIDHYALAYA MATAMAI (1-8) R.N.2",
+   "partId": 397823
+  },
+  {
+   "partNumber": 130,
+   "partName": "P.S. SARGANVA",
+   "partId": 397824
+  },
+  {
+   "partNumber": 131,
+   "partName": "P.S. NAGLA DARUA",
+   "partId": 397825
+  },
+  {
+   "partNumber": 132,
+   "partName": "P.S. NAGLA MAVASI",
+   "partId": 397826
+  },
+  {
+   "partNumber": 133,
+   "partName": "PANCHAYATGHAR VIJAYPUR",
+   "partId": 397827
+  },
+  {
+   "partNumber": 134,
+   "partName": "P.S. NAGLA BHAV SINGH R. NO. 1",
+   "partId": 397828
+  },
+  {
+   "partNumber": 135,
+   "partName": "P.S. NAGLA BHAV SINGH R. NO. 2",
+   "partId": 397829
+  },
+  {
+   "partNumber": 136,
+   "partName": "P.S. BARAMAI",
+   "partId": 397830
+  },
+  {
+   "partNumber": 137,
+   "partName": "SAMVILIYAN VIDHYALAYA SADAMAI (1-8)",
+   "partId": 397831
+  },
+  {
+   "partNumber": 138,
+   "partName": "P.S. HAMIRPURA",
+   "partId": 397832
+  },
+  {
+   "partNumber": 139,
+   "partName": "P.S. DERA BANJARA",
+   "partId": 397833
+  },
+  {
+   "partNumber": 140,
+   "partName": "P.S. UNDHANI",
+   "partId": 397834
+  },
+  {
+   "partNumber": 141,
+   "partName": "P.S. MATSAINA R. NO. 1",
+   "partId": 397835
+  },
+  {
+   "partNumber": 142,
+   "partName": "P.S. MATSAINA R. NO. 2",
+   "partId": 397836
+  },
+  {
+   "partNumber": 143,
+   "partName": "P.S. FULAYACHI",
+   "partId": 397837
+  },
+  {
+   "partNumber": 144,
+   "partName": "J.H.S. KINHARPUR",
+   "partId": 397838
+  },
+  {
+   "partNumber": 145,
+   "partName": "P.S. LUHARI",
+   "partId": 397839
+  },
+  {
+   "partNumber": 146,
+   "partName": "P.S. PREMPUR ANANDIPUR",
+   "partId": 397840
+  },
+  {
+   "partNumber": 147,
+   "partName": "P.S. PILUA",
+   "partId": 397841
+  },
+  {
+   "partNumber": 148,
+   "partName": "P.S. JALALPUR",
+   "partId": 397842
+  },
+  {
+   "partNumber": 149,
+   "partName": "U.P.S JALALPUR",
+   "partId": 397843
+  },
+  {
+   "partNumber": 150,
+   "partName": "P.V. GADI CHHIPI",
+   "partId": 397844
+  },
+  {
+   "partNumber": 151,
+   "partName": "J.H.S KISHANDASPURA R.N.1",
+   "partId": 397845
+  },
+  {
+   "partNumber": 152,
+   "partName": "P.S. DHAKPURA",
+   "partId": 397846
+  },
+  {
+   "partNumber": 153,
+   "partName": "P.S. SIKHARA HARDASPUR R. NO. 1",
+   "partId": 397847
+  },
+  {
+   "partNumber": 154,
+   "partName": "P.S. SIKHARA HARDASPUR R. NO. 2",
+   "partId": 397848
+  },
+  {
+   "partNumber": 155,
+   "partName": "P.S. HARDASPUR NISFI",
+   "partId": 397849
+  },
+  {
+   "partNumber": 156,
+   "partName": "PANCHAYATGHAR KHADERIYA",
+   "partId": 397850
+  },
+  {
+   "partNumber": 157,
+   "partName": "J.H.S. SAINGAI R. NO. 1",
+   "partId": 397851
+  },
+  {
+   "partNumber": 158,
+   "partName": "U.P.S. RUPBAANS",
+   "partId": 397852
+  },
+  {
+   "partNumber": 159,
+   "partName": "P.V. ITAURA R.N.1",
+   "partId": 397853
+  },
+  {
+   "partNumber": 160,
+   "partName": "P.V. ITAURA R.N.2",
+   "partId": 397854
+  },
+  {
+   "partNumber": 161,
+   "partName": "P.V. GIDHAURA",
+   "partId": 397855
+  },
+  {
+   "partNumber": 162,
+   "partName": "P.S. LEKHRAJPUR",
+   "partId": 397856
+  },
+  {
+   "partNumber": 163,
+   "partName": "COMPOSITE SCHOOL KAULAMAI",
+   "partId": 397857
+  },
+  {
+   "partNumber": 164,
+   "partName": "P.S. JENDAMAI",
+   "partId": 397858
+  },
+  {
+   "partNumber": 165,
+   "partName": "P.S. NANAPI PITHANI",
+   "partId": 397859
+  },
+  {
+   "partNumber": 166,
+   "partName": "P.S. NAGLA PRANSUKH",
+   "partId": 397860
+  },
+  {
+   "partNumber": 167,
+   "partName": "P.S. ALAMPUR ANANDIPUR",
+   "partId": 397861
+  },
+  {
+   "partNumber": 168,
+   "partName": "P.S. VIJAYPUR BHIKANPUR",
+   "partId": 397862
+  },
+  {
+   "partNumber": 169,
+   "partName": "COMPOSITE SCHOOL RANIPURA",
+   "partId": 397863
+  },
+  {
+   "partNumber": 170,
+   "partName": "COMPOSITE SCHOOL DATAWALI R.N.1",
+   "partId": 397864
+  },
+  {
+   "partNumber": 171,
+   "partName": "COMPOSITE SCHOOL DATAWALI R.N.2",
+   "partId": 397865
+  },
+  {
+   "partNumber": 172,
+   "partName": "COMPOSITE SCHOOL DATAWALI ROOM NO 3",
+   "partId": 398100
+  },
+  {
+   "partNumber": 173,
+   "partName": "PANCHAYATGHAR NARGAPUR R.N.1",
+   "partId": 397866
+  },
+  {
+   "partNumber": 174,
+   "partName": "PANCHAYATGHAR NARGAPUR R.N.2",
+   "partId": 398101
+  },
+  {
+   "partNumber": 175,
+   "partName": "P.S. ALHADADPUR R.N.1",
+   "partId": 397867
+  },
+  {
+   "partNumber": 176,
+   "partName": "P.S. ALHADADPUR R.N.2",
+   "partId": 397868
+  },
+  {
+   "partNumber": 177,
+   "partName": "P S ALHADADPUR ROOM NO 3",
+   "partId": 398102
+  },
+  {
+   "partNumber": 178,
+   "partName": "P.S. FARAUL NAGARIYA",
+   "partId": 397869
+  },
+  {
+   "partNumber": 179,
+   "partName": "P.S. NAI NAGARIYA",
+   "partId": 397870
+  },
+  {
+   "partNumber": 180,
+   "partName": "P.S. PRATAP NAGAR SAILAI R.N.1",
+   "partId": 397871
+  },
+  {
+   "partNumber": 181,
+   "partName": "P.S. PRATAP NAGAR SAILAI R.N.2",
+   "partId": 397872
+  },
+  {
+   "partNumber": 182,
+   "partName": "P.S. PRATAP NAGAR SAILAI R.N.3",
+   "partId": 397873
+  },
+  {
+   "partNumber": 183,
+   "partName": "P.S. PRATAP NAGAR SAILAI R.N.4",
+   "partId": 397874
+  },
+  {
+   "partNumber": 184,
+   "partName": "C.L.C.H.SCHOOL.SALAI R.N.1",
+   "partId": 397875
+  },
+  {
+   "partNumber": 185,
+   "partName": "C.L.C.H.SCHOOL.SALAI R.N.2",
+   "partId": 397876
+  },
+  {
+   "partNumber": 186,
+   "partName": "C.L.C.H.SCHOOL.SALAI R.N.3",
+   "partId": 397877
+  },
+  {
+   "partNumber": 187,
+   "partName": "C.L.C.H.SCHOOL.SALAI R.N.4",
+   "partId": 397878
+  },
+  {
+   "partNumber": 188,
+   "partName": "C.L.C.H.SCHOOL.SALAI R.N.5",
+   "partId": 397879
+  },
+  {
+   "partNumber": 189,
+   "partName": "P.S. THAR POOTHA R.N.1",
+   "partId": 397880
+  },
+  {
+   "partNumber": 190,
+   "partName": "P.S. THAR POOTHA R.N.2",
+   "partId": 397881
+  },
+  {
+   "partNumber": 191,
+   "partName": "P.S. THAR POOTHA R.N.3",
+   "partId": 397882
+  },
+  {
+   "partNumber": 192,
+   "partName": "G D CONVENT HIGH SCHOOL MAHADEVNAGAR FIROZABAD",
+   "partId": 398103
+  },
+  {
+   "partNumber": 193,
+   "partName": "P.S. THAR POOTHA R.N.4",
+   "partId": 397883
+  },
+  {
+   "partNumber": 194,
+   "partName": "P.S. NAGLA GOOLARIYA R.N.1",
+   "partId": 397884
+  },
+  {
+   "partNumber": 195,
+   "partName": "P.S. NAGLA GOOLARIYA R.N.2",
+   "partId": 397885
+  },
+  {
+   "partNumber": 196,
+   "partName": "P.S. NAGLA GOOLARIYA R.N.4",
+   "partId": 397886
+  },
+  {
+   "partNumber": 197,
+   "partName": "P.S. NAGLA GOOLARIYA R.N.3",
+   "partId": 397887
+  },
+  {
+   "partNumber": 198,
+   "partName": "ABU HURAIRA INTER COLLEGE BAMBA BYPASS ROAD FIROZABAD ROOM NO 1",
+   "partId": 398104
+  },
+  {
+   "partNumber": 199,
+   "partName": "SARSWATI GYAN NIKETAN J.H.S NAGLA PIPARIYA SANTHI ROAD FIROZABAD R.N.1",
+   "partId": 397888
+  },
+  {
+   "partNumber": 200,
+   "partName": "SARSWATI GYAN NIKETAN J.H.S NAGLA PIPARIYA SANTHI ROAD FIROZABAD R.N.2",
+   "partId": 397889
+  },
+  {
+   "partNumber": 201,
+   "partName": "SARSWATI GYAN NIKETAN J.H.S NAGLA PIPARIYA SANTHI ROAD FIROZABAD R.N.3",
+   "partId": 397890
+  },
+  {
+   "partNumber": 202,
+   "partName": "ABU HURAIRA INTER COLLEGE BAMBA BYPASS ROAD FIROZABAD ROOM NO 2",
+   "partId": 398105
+  },
+  {
+   "partNumber": 203,
+   "partName": "P.S. LALPUR",
+   "partId": 397891
+  },
+  {
+   "partNumber": 204,
+   "partName": "P.S. AASFABAD R.N.1",
+   "partId": 397892
+  },
+  {
+   "partNumber": 205,
+   "partName": "P.S. AASFABAD R.N.2",
+   "partId": 397893
+  },
+  {
+   "partNumber": 206,
+   "partName": "P.S. AASFABAD R.N.3",
+   "partId": 397894
+  },
+  {
+   "partNumber": 207,
+   "partName": "P.S. AASFABAD R.N.4",
+   "partId": 397895
+  },
+  {
+   "partNumber": 208,
+   "partName": "PANCHAYATGHAR AASFABAD R.N.1",
+   "partId": 397896
+  },
+  {
+   "partNumber": 209,
+   "partName": "PANCHAYATGHAR AASFABAD R.N.2",
+   "partId": 397897
+  },
+  {
+   "partNumber": 210,
+   "partName": "PANCHAYATGHAR AASFABAD ROOM NO 3",
+   "partId": 398106
+  },
+  {
+   "partNumber": 211,
+   "partName": "P.S. NAGLA PACHIYA R.N.1",
+   "partId": 397898
+  },
+  {
+   "partNumber": 212,
+   "partName": "P S NAGLA PACHIYA ROOM NO 2",
+   "partId": 398107
+  },
+  {
+   "partNumber": 213,
+   "partName": "U.P.S HIMAYUNPUR (N.PACHIYA) R.N.2",
+   "partId": 397899
+  },
+  {
+   "partNumber": 214,
+   "partName": "U.P.S HIMAYUNPUR (N.PACHIYA) R.N.1",
+   "partId": 397900
+  },
+  {
+   "partNumber": 215,
+   "partName": "U P S HIMAYUNPUR (NAGLA PACHIYA) ROOM NO 3",
+   "partId": 398108
+  },
+  {
+   "partNumber": 216,
+   "partName": "P.S. NAGLA MOTI",
+   "partId": 397901
+  },
+  {
+   "partNumber": 217,
+   "partName": "P S NAGLA MOTI ROOM NO 2",
+   "partId": 398109
+  },
+  {
+   "partNumber": 218,
+   "partName": "COMPOSITE SCHOOL RAHNA R.N.1",
+   "partId": 397902
+  },
+  {
+   "partNumber": 219,
+   "partName": "COMPOSITE SCHOOL RAHNA R.N.3",
+   "partId": 397903
+  },
+  {
+   "partNumber": 220,
+   "partName": "COMPOSITE SCHOOL RAHNA R.N.2",
+   "partId": 397904
+  },
+  {
+   "partNumber": 221,
+   "partName": "P.S. ITAULI",
+   "partId": 397905
+  },
+  {
+   "partNumber": 222,
+   "partName": "P.S. ASDEOMAI NOORPUR",
+   "partId": 397906
+  },
+  {
+   "partNumber": 223,
+   "partName": "P.S. DIVAYACHI R.N.1",
+   "partId": 397907
+  },
+  {
+   "partNumber": 224,
+   "partName": "P.S. DIVAYACHI R.N.2",
+   "partId": 397908
+  },
+  {
+   "partNumber": 225,
+   "partName": "U.P.S. DAKHINARA (1-8) R.N.1",
+   "partId": 397909
+  },
+  {
+   "partNumber": 226,
+   "partName": "U.P.S. DAKHINARA (1-8) R.N.2",
+   "partId": 397910
+  },
+  {
+   "partNumber": 227,
+   "partName": "U.P.S. DAKHINARA (1-8) R.N.3",
+   "partId": 397911
+  },
+  {
+   "partNumber": 228,
+   "partName": "P.S. MOHANIPUR",
+   "partId": 397912
+  },
+  {
+   "partNumber": 229,
+   "partName": "P.S. NAUKTA",
+   "partId": 397913
+  },
+  {
+   "partNumber": 230,
+   "partName": "COMPOSITE SCHOOL MUHAMMADPUR LABHAUA R.N.1",
+   "partId": 397914
+  },
+  {
+   "partNumber": 231,
+   "partName": "COMPOSITE SCHOOL MUHAMMADPUR LABHAUA R.N.2",
+   "partId": 397915
+  },
+  {
+   "partNumber": 232,
+   "partName": "P.S. LATUMAI",
+   "partId": 397916
+  },
+  {
+   "partNumber": 233,
+   "partName": "P.S. NAGLA BALUA",
+   "partId": 397917
+  },
+  {
+   "partNumber": 234,
+   "partName": "P.S. MAIYAMAI",
+   "partId": 397918
+  },
+  {
+   "partNumber": 235,
+   "partName": "P.S. NAGLA MAN SINGH R.N.1",
+   "partId": 397919
+  },
+  {
+   "partNumber": 236,
+   "partName": "P.S. NAGLA MAN SINGH R.N.2",
+   "partId": 397920
+  },
+  {
+   "partNumber": 237,
+   "partName": "P.S. RUPASPUR",
+   "partId": 397921
+  },
+  {
+   "partNumber": 238,
+   "partName": "P.S. JALALPUR MARGHATI",
+   "partId": 397922
+  },
+  {
+   "partNumber": 239,
+   "partName": "P.S. MOHANIPUR",
+   "partId": 397923
+  },
+  {
+   "partNumber": 240,
+   "partName": "P.S. FULRAI",
+   "partId": 397924
+  },
+  {
+   "partNumber": 241,
+   "partName": "SABILIYAN SCHOOL DARIGAPUR MOHINIPUR",
+   "partId": 397925
+  },
+  {
+   "partNumber": 242,
+   "partName": "P.S. NAGLA RAGHOL",
+   "partId": 397926
+  },
+  {
+   "partNumber": 243,
+   "partName": "PANCHAYATGHAR NAVALI",
+   "partId": 397927
+  },
+  {
+   "partNumber": 244,
+   "partName": "P.S. INDUMAI R.N.1",
+   "partId": 397928
+  },
+  {
+   "partNumber": 245,
+   "partName": "P.S. INDUMAI R.N.2",
+   "partId": 397929
+  },
+  {
+   "partNumber": 246,
+   "partName": "P.S. ADHAMPUR",
+   "partId": 397930
+  },
+  {
+   "partNumber": 247,
+   "partName": "P.S. GAGAI R.N.1",
+   "partId": 397931
+  },
+  {
+   "partNumber": 248,
+   "partName": "P S GAGAI ROOM NO 2",
+   "partId": 398110
+  },
+  {
+   "partNumber": 249,
+   "partName": "SAMVILIYAN VIDHYALAYA ANGADPUR",
+   "partId": 397932
+  },
+  {
+   "partNumber": 250,
+   "partName": "P.S. GOVINDPUR",
+   "partId": 397933
+  },
+  {
+   "partNumber": 251,
+   "partName": "GIRLS J.H.S. MAKKHANPUR R. NO.1",
+   "partId": 397934
+  },
+  {
+   "partNumber": 252,
+   "partName": "P.S MAKKHANPUR",
+   "partId": 397935
+  },
+  {
+   "partNumber": 253,
+   "partName": "GIRLS J.H.S. MAKKHANPUR R. NO.3",
+   "partId": 397936
+  },
+  {
+   "partNumber": 254,
+   "partName": "GIRLS J.H.S. MAKKHANPUR R. NO.2",
+   "partId": 397937
+  },
+  {
+   "partNumber": 255,
+   "partName": "PANCHAYATGHAR MAKKHANPUR R.N.1",
+   "partId": 397938
+  },
+  {
+   "partNumber": 256,
+   "partName": "PANCHAYATGHAR MAKKHANPUR R.N.2",
+   "partId": 397939
+  },
+  {
+   "partNumber": 257,
+   "partName": "CAMPOSITE VIDHYALAYA MAKKHANPUR R.N.1",
+   "partId": 397940
+  },
+  {
+   "partNumber": 258,
+   "partName": "CAMPOSITE VIDHYALAYA MAKKHANPUR R.N.2",
+   "partId": 397941
+  },
+  {
+   "partNumber": 259,
+   "partName": "CAMPOSITE VIDHYALAYA MAKKHANPUR R.N.3",
+   "partId": 397942
+  },
+  {
+   "partNumber": 260,
+   "partName": "P.S. MOHAMMADPUR NAVADA R. NO 1",
+   "partId": 397943
+  },
+  {
+   "partNumber": 261,
+   "partName": "P.S. MOHAMMADPUR NAVADA R. NO 2",
+   "partId": 397944
+  },
+  {
+   "partNumber": 262,
+   "partName": "P.S. MOHAMMADPUR NAVADA R. NO 3",
+   "partId": 397945
+  },
+  {
+   "partNumber": 263,
+   "partName": "PANCHYATGHAR MUHAMMADPUR NAVADA",
+   "partId": 397946
+  },
+  {
+   "partNumber": 264,
+   "partName": "P.S. RAJPUR VALAI R. NO. 1",
+   "partId": 397947
+  },
+  {
+   "partNumber": 265,
+   "partName": "P.S.RAJPUR BALAI R.N.2",
+   "partId": 397948
+  },
+  {
+   "partNumber": 266,
+   "partName": "P.S. KIRTHARA MUHAMMADPUR",
+   "partId": 397949
+  },
+  {
+   "partNumber": 267,
+   "partName": "P.S. KISHANPUR ARMARAJAT",
+   "partId": 397950
+  },
+  {
+   "partNumber": 268,
+   "partName": "P.S. JEVADA R. NO. 1",
+   "partId": 397951
+  },
+  {
+   "partNumber": 269,
+   "partName": "P.S. JEVADA R. NO. 2",
+   "partId": 397952
+  },
+  {
+   "partNumber": 270,
+   "partName": "P S JEVADA ROOM NO 4",
+   "partId": 398111
+  },
+  {
+   "partNumber": 271,
+   "partName": "P.S. JEVADA R. NO. 3",
+   "partId": 397953
+  },
+  {
+   "partNumber": 272,
+   "partName": "P.S. SADOOPUR R. NO. 1",
+   "partId": 397954
+  },
+  {
+   "partNumber": 273,
+   "partName": "P.S. SADOOPUR R. NO. 2",
+   "partId": 397955
+  },
+  {
+   "partNumber": 274,
+   "partName": "P.S. NIHALPUR",
+   "partId": 397956
+  },
+  {
+   "partNumber": 275,
+   "partName": "P.V. CHAMRAULI",
+   "partId": 397957
+  },
+  {
+   "partNumber": 276,
+   "partName": "P.V. JAFARABAD R. NO. 1",
+   "partId": 397958
+  },
+  {
+   "partNumber": 277,
+   "partName": "P.V. JAFARABAD R. NO. 2",
+   "partId": 397959
+  },
+  {
+   "partNumber": 278,
+   "partName": "P.S. ARMARAJATT R.N.1",
+   "partId": 397960
+  },
+  {
+   "partNumber": 279,
+   "partName": "P S ARMARAJATT ROOM NO 2",
+   "partId": 398112
+  },
+  {
+   "partNumber": 280,
+   "partName": "P.S. NAGLA VAJDAR",
+   "partId": 397961
+  },
+  {
+   "partNumber": 281,
+   "partName": "P.S. VAHORANPUR",
+   "partId": 397962
+  },
+  {
+   "partNumber": 282,
+   "partName": "P.S. GALAMAI R.N.1",
+   "partId": 397963
+  },
+  {
+   "partNumber": 283,
+   "partName": "P.S. GALAMAI R.N.2",
+   "partId": 397964
+  },
+  {
+   "partNumber": 284,
+   "partName": "J.H.S. ARONJ R. NO.1",
+   "partId": 397965
+  },
+  {
+   "partNumber": 285,
+   "partName": "JUNIOR HIGHSCHOOL ARONJ ROOM NO 3",
+   "partId": 398113
+  },
+  {
+   "partNumber": 286,
+   "partName": "J.H.S. ARONJ R. NO.2",
+   "partId": 397966
+  },
+  {
+   "partNumber": 287,
+   "partName": "P.S. NAGLA PRABHU",
+   "partId": 397967
+  },
+  {
+   "partNumber": 288,
+   "partName": "P.S. GADIYA",
+   "partId": 397968
+  },
+  {
+   "partNumber": 289,
+   "partName": "COMPOSITE VIDHYALAYA DIKHTAULI R.N.1",
+   "partId": 397969
+  },
+  {
+   "partNumber": 290,
+   "partName": "COMPOSITE VIDHYALAYA DIKHTAULI R.N.2",
+   "partId": 397970
+  },
+  {
+   "partNumber": 291,
+   "partName": "P.S. RAHACHATI R.NO.1",
+   "partId": 397971
+  },
+  {
+   "partNumber": 292,
+   "partName": "P.S. RAHACHATI R.NO.2",
+   "partId": 397972
+  },
+  {
+   "partNumber": 293,
+   "partName": "P.S. VIDARAKHA R.N.1",
+   "partId": 397973
+  },
+  {
+   "partNumber": 294,
+   "partName": "P.S. VIDARAKHA R.N.2",
+   "partId": 397974
+  },
+  {
+   "partNumber": 295,
+   "partName": "P.S. SHAHAJALPUR R.N.1",
+   "partId": 397975
+  },
+  {
+   "partNumber": 296,
+   "partName": "P.S. SHAHAJALPUR R.N.2",
+   "partId": 397976
+  },
+  {
+   "partNumber": 297,
+   "partName": "M.A.V. SHIKOHABAD R. NO. 1",
+   "partId": 397977
+  },
+  {
+   "partNumber": 298,
+   "partName": "M.A.V. SHIKOHABAD R. NO. 2",
+   "partId": 397978
+  },
+  {
+   "partNumber": 299,
+   "partName": "M.A.V. SHIKOHABAD R. NO. 3",
+   "partId": 397979
+  },
+  {
+   "partNumber": 300,
+   "partName": "M.A.V. SHIKOHABAD R. NO. 4",
+   "partId": 397980
+  },
+  {
+   "partNumber": 301,
+   "partName": "M.A.V. SHIKOHABAD R. NO. 5",
+   "partId": 397981
+  },
+  {
+   "partNumber": 302,
+   "partName": "P.S. KASHIRAM COLONY SHIKOHABAD R.N.1",
+   "partId": 397982
+  },
+  {
+   "partNumber": 303,
+   "partName": "P.S. KASHIRAM COLONY SHIKOHABAD R.N.2",
+   "partId": 397983
+  },
+  {
+   "partNumber": 304,
+   "partName": "P.S. KASHIRAM COLONY SHIKOHABAD R.N.3",
+   "partId": 397984
+  },
+  {
+   "partNumber": 305,
+   "partName": "AHMADIYA JHS RUKANPUR SHIKOHABAD R.N.1",
+   "partId": 397985
+  },
+  {
+   "partNumber": 306,
+   "partName": "AHMADIYA JHS RUKANPUR SHIKOHABAD R.N.2",
+   "partId": 397986
+  },
+  {
+   "partNumber": 307,
+   "partName": "AHMADIYA JHS RUKANPUR SHIKOHABAD R.N.3",
+   "partId": 397987
+  },
+  {
+   "partNumber": 308,
+   "partName": "AHMADIYA JHS RUKANPUR SHIKOHABAD R.N.5",
+   "partId": 397988
+  },
+  {
+   "partNumber": 309,
+   "partName": "AHMADIYA JHS RUKANPUR SHIKOHABAD R.N.4",
+   "partId": 397989
+  },
+  {
+   "partNumber": 310,
+   "partName": "VISHWA BHARTI INTERNATIONAL SCHOOL SHIKOHABAD R.N.1",
+   "partId": 397990
+  },
+  {
+   "partNumber": 311,
+   "partName": "H.L.J.D. EDUCATIONAL ACADEMY AMBEDKARPURAM CHITAWALI ROAD SHIKOHABAD",
+   "partId": 397991
+  },
+  {
+   "partNumber": 312,
+   "partName": "VISHWA BHARTI INTERNATIONAL SCHOOL SHIKOHABAD R.N.2",
+   "partId": 397992
+  },
+  {
+   "partNumber": 313,
+   "partName": "VISHWA BHARTI INTERNATIONAL SCHOOL SHIKOHABAD R.N.3",
+   "partId": 397993
+  },
+  {
+   "partNumber": 314,
+   "partName": "A.J.V. SHIKOHABAD R.NO.1",
+   "partId": 397994
+  },
+  {
+   "partNumber": 315,
+   "partName": "A.J.V. SHIKOHABAD R.NO.2",
+   "partId": 397995
+  },
+  {
+   "partNumber": 316,
+   "partName": "A.J.V. SHIKOHABAD R.NO.3",
+   "partId": 397996
+  },
+  {
+   "partNumber": 317,
+   "partName": "A.J.V. SHIKOHABAD R.NO.8",
+   "partId": 397997
+  },
+  {
+   "partNumber": 318,
+   "partName": "A.J.V. SHIKOHABAD R.NO.4",
+   "partId": 397998
+  },
+  {
+   "partNumber": 319,
+   "partName": "PRAHLADRAI TIKMANI SARSWATI I.C. SHIKOHABAD R.N.1",
+   "partId": 397999
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRAHLADRAI TIKMANI SARSWATI I.C. SHIKOHABAD R.N.2",
+   "partId": 398000
+  },
+  {
+   "partNumber": 321,
+   "partName": "PRAHLADRAI TIKMANI SARSWATI I.C. SHIKOHABAD R.N.3",
+   "partId": 398001
+  },
+  {
+   "partNumber": 322,
+   "partName": "R.V. BAI PASS ROAD, SHIKOHABAD R. NO. 1",
+   "partId": 398002
+  },
+  {
+   "partNumber": 323,
+   "partName": "R.V. BAI PASS ROAD, SHIKOHABAD R. NO. 2",
+   "partId": 398003
+  },
+  {
+   "partNumber": 324,
+   "partName": "SHRI SAHAB SINGH GIRLS I.C. MUSTHFABAD ROAD SHIKOHABAD R.N.1",
+   "partId": 398004
+  },
+  {
+   "partNumber": 325,
+   "partName": "SHRI SAHAB SINGH GIRLS I.C. MUSTHFABAD ROAD SHIKOHABAD R.N.2",
+   "partId": 398005
+  },
+  {
+   "partNumber": 326,
+   "partName": "SHRI SAHAB SINGH GIRLS I.C. MUSTHFABAD ROAD SHIKOHABAD R.N.3",
+   "partId": 398006
+  },
+  {
+   "partNumber": 327,
+   "partName": "RASTRIYA VIDHYALAY BAI PASS ROAD SHIKOHABAD R.N.6",
+   "partId": 398007
+  },
+  {
+   "partNumber": 328,
+   "partName": "RASTRIYA VIDHYALAY BAI PASS ROAD SHIKOHABAD R.N.7",
+   "partId": 398008
+  },
+  {
+   "partNumber": 329,
+   "partName": "RASTRIYA VIDHYALAY BAI PASS ROAD SHIKOHABAD R.N.9",
+   "partId": 398009
+  },
+  {
+   "partNumber": 330,
+   "partName": "SHRI SAHAB SINGH GIRLS I.C. MUSTHFABAD ROAD SHIKOHABAD R.N.4",
+   "partId": 398010
+  },
+  {
+   "partNumber": 331,
+   "partName": "BHAGWATI DEVI PALIWAL KANYA INTER COLLEGE SHIKOHABAD R.N.1",
+   "partId": 398011
+  },
+  {
+   "partNumber": 332,
+   "partName": "BHAGWATI DEVI PALIWAL KANYA INTER COLLEGE SHIKOHABAD R.N.2",
+   "partId": 398012
+  },
+  {
+   "partNumber": 333,
+   "partName": "BHAGWATI DEVI PALIWAL KANYA INTER COLLEGE SHIKOHABAD R.N.3",
+   "partId": 398013
+  },
+  {
+   "partNumber": 334,
+   "partName": "CAMPOSITE SCHOOL (1 TO 8) GARAIYA SHIKOHABAD R.N.1",
+   "partId": 398014
+  },
+  {
+   "partNumber": 335,
+   "partName": "CAMPOSITE SCHOOL (1 TO 8) GARAIYA SHIKOHABAD R.N.2",
+   "partId": 398015
+  },
+  {
+   "partNumber": 336,
+   "partName": "CAMPOSITE SCHOOL (1 TO 8) GARAIYA SHIKOHABAD R.N.3",
+   "partId": 398016
+  },
+  {
+   "partNumber": 337,
+   "partName": "B.D.M.INTER COLLEGE,SKB.R.N.1",
+   "partId": 398017
+  },
+  {
+   "partNumber": 338,
+   "partName": "B.D.M.INTER COLLEGE,SKB.R.N.2",
+   "partId": 398018
+  },
+  {
+   "partNumber": 339,
+   "partName": "B.D.M.INTER COLLEGE,SKB.R.N.3",
+   "partId": 398019
+  },
+  {
+   "partNumber": 340,
+   "partName": "B.D.M.INTER COLLEGE,SKB.R.N.4",
+   "partId": 398020
+  },
+  {
+   "partNumber": 341,
+   "partName": "PALI INTER COLLEGE,SKB.R.N.1",
+   "partId": 398021
+  },
+  {
+   "partNumber": 342,
+   "partName": "PALI INTER COLLEGE,SKB.R.N.2",
+   "partId": 398022
+  },
+  {
+   "partNumber": 343,
+   "partName": "PALI INTER COLLEGE,SKB.R.N.3",
+   "partId": 398023
+  },
+  {
+   "partNumber": 344,
+   "partName": "PALI INTER COLLEGE,SKB.R.N.4",
+   "partId": 398024
+  },
+  {
+   "partNumber": 345,
+   "partName": "PALI INTER COLLEGE,SKB.R.N.5",
+   "partId": 398025
+  },
+  {
+   "partNumber": 346,
+   "partName": "PALI INTER COLLEGE,SKB.R.N.6",
+   "partId": 398026
+  },
+  {
+   "partNumber": 347,
+   "partName": "P.S. JASLAI",
+   "partId": 398027
+  },
+  {
+   "partNumber": 348,
+   "partName": "NARAYAN INTER COLLEGE,SKB.R.N.1",
+   "partId": 398028
+  },
+  {
+   "partNumber": 349,
+   "partName": "NARAYAN INTER COLLEGE,SKB.R.N.2",
+   "partId": 398029
+  },
+  {
+   "partNumber": 350,
+   "partName": "NARAYAN INTER COLLEGE,SKB.R.N.3",
+   "partId": 398030
+  },
+  {
+   "partNumber": 351,
+   "partName": "NARAYAN INTER COLLEGE,SKB.R.N.4",
+   "partId": 398031
+  },
+  {
+   "partNumber": 352,
+   "partName": "NARAYAN INTER COLLEGE,SKB.R.N.5",
+   "partId": 398032
+  },
+  {
+   "partNumber": 353,
+   "partName": "NARAYAN INTER COLLEGE,SKB.R.N.6",
+   "partId": 398033
+  },
+  {
+   "partNumber": 354,
+   "partName": "NARAYAN INTER COLLEGE,SKB.R.N.7",
+   "partId": 398034
+  },
+  {
+   "partNumber": 355,
+   "partName": "B.D.M. GIRLS DEGREE COLLEGE SHIKOHABAD R.N.1",
+   "partId": 398035
+  },
+  {
+   "partNumber": 356,
+   "partName": "B.D.M. GIRLS DEGREE COLLEGE SHIKOHABAD R.N.2",
+   "partId": 398036
+  },
+  {
+   "partNumber": 357,
+   "partName": "B.D.M. GIRLS DEGREE COLLEGE SHIKOHABAD R.N.3",
+   "partId": 398037
+  },
+  {
+   "partNumber": 358,
+   "partName": "B.D.M. GIRLS DEGREE COLLEGE SHIKOHABAD R.N.4",
+   "partId": 398038
+  },
+  {
+   "partNumber": 359,
+   "partName": "B.D.M. GIRLS DEGREE COLLEGE SHIKOHABAD R.N.5",
+   "partId": 398039
+  },
+  {
+   "partNumber": 360,
+   "partName": "B.D.M. GIRLS DEGREE COLLEGE SHIKOHABAD R.N.6",
+   "partId": 398040
+  },
+  {
+   "partNumber": 361,
+   "partName": "B.D.M. GIRLS DEGREE COLLEGE SHIKOHABAD R.N.7",
+   "partId": 398041
+  },
+  {
+   "partNumber": 362,
+   "partName": "NARAYAN DEGREE COLLEGE,SKB.R.N.1",
+   "partId": 398042
+  },
+  {
+   "partNumber": 363,
+   "partName": "NARAYAN DEGREE COLLEGE,SKB.R.N.2",
+   "partId": 398043
+  },
+  {
+   "partNumber": 364,
+   "partName": "NARAYAN DEGREE COLLEGE,SKB.R.N.3",
+   "partId": 398044
+  },
+  {
+   "partNumber": 365,
+   "partName": "NARAYAN DEGREE COLLEGE,SKB.R.N.4",
+   "partId": 398045
+  },
+  {
+   "partNumber": 366,
+   "partName": "NARAYAN DEGREE COLLEGE,SKB.R.N.7",
+   "partId": 398046
+  },
+  {
+   "partNumber": 367,
+   "partName": "NARAYAN DEGREE COLLEGE,SKB.R.N.5",
+   "partId": 398047
+  },
+  {
+   "partNumber": 368,
+   "partName": "NARAYAN DEGREE COLLEGE,SKB.R.N.6",
+   "partId": 398048
+  },
+  {
+   "partNumber": 369,
+   "partName": "NARAYAN DEGREE COLLEGE SKB ROOM NO 8",
+   "partId": 398114
+  },
+  {
+   "partNumber": 370,
+   "partName": "ADARSH KRISHNA I.C.,SKB.R.N.1",
+   "partId": 398049
+  },
+  {
+   "partNumber": 371,
+   "partName": "ADARSH KRISHNA I.C.SKB.R.N.2",
+   "partId": 398050
+  },
+  {
+   "partNumber": 372,
+   "partName": "ADARSH KRISHNA I.C.SKB.R.N.3",
+   "partId": 398051
+  },
+  {
+   "partNumber": 373,
+   "partName": "ADARSH KRISHNA I.C.SKB.R.N.4",
+   "partId": 398052
+  },
+  {
+   "partNumber": 374,
+   "partName": "ADARSH KRISHNA I.C.SKB.R.N.5",
+   "partId": 398053
+  },
+  {
+   "partNumber": 375,
+   "partName": "P.S. MADHOGANJ R.N.1",
+   "partId": 398054
+  },
+  {
+   "partNumber": 376,
+   "partName": "INDIAN INTER COLLEGE NAGLA BANDH",
+   "partId": 398055
+  },
+  {
+   "partNumber": 377,
+   "partName": "P.S. MADHOGANJ R.N.2",
+   "partId": 398056
+  },
+  {
+   "partNumber": 378,
+   "partName": "P.S. MADHOGANJ R.N.3",
+   "partId": 398057
+  },
+  {
+   "partNumber": 379,
+   "partName": "P.S. MADHOGANJ R.N.3",
+   "partId": 398058
+  },
+  {
+   "partNumber": 380,
+   "partName": "P.S. NEEM KHERIYA (NAGLA KANHI)",
+   "partId": 398059
+  },
+  {
+   "partNumber": 381,
+   "partName": "U.P.S. NEEM KHERIYA",
+   "partId": 398060
+  },
+  {
+   "partNumber": 382,
+   "partName": "P.S. CHHICHHAMAI",
+   "partId": 398061
+  },
+  {
+   "partNumber": 383,
+   "partName": "P.V. MUHABBATPUR AHEER",
+   "partId": 398062
+  },
+  {
+   "partNumber": 384,
+   "partName": "P.S. UVATI",
+   "partId": 398063
+  },
+  {
+   "partNumber": 385,
+   "partName": "P.S. AAVARI R. NO. 1",
+   "partId": 398064
+  },
+  {
+   "partNumber": 386,
+   "partName": "P.S. AAVARI R. NO. 2",
+   "partId": 398065
+  },
+  {
+   "partNumber": 387,
+   "partName": "P.S. NAGLA JAWAHAR",
+   "partId": 398066
+  },
+  {
+   "partNumber": 388,
+   "partName": "P.S. NAGLA UMAR",
+   "partId": 398067
+  },
+  {
+   "partNumber": 389,
+   "partName": "P.S. JAHANGIRPUR GAILRAI",
+   "partId": 398068
+  },
+  {
+   "partNumber": 390,
+   "partName": "J.H.S. JAHANGIRPUR GAILRAI",
+   "partId": 398069
+  },
+  {
+   "partNumber": 391,
+   "partName": "P.S. DHAURAU HIMMATPUR",
+   "partId": 398070
+  },
+  {
+   "partNumber": 392,
+   "partName": "COMPOSITE VIDHYALAYA BADANPUR KARKHA R.N.1",
+   "partId": 398071
+  },
+  {
+   "partNumber": 393,
+   "partName": "COMPOSITE VIDHYALAYA BADANPUR KARKHA R.N.2",
+   "partId": 398072
+  },
+  {
+   "partNumber": 394,
+   "partName": "P.S. GHAGHAU R.N.1",
+   "partId": 398073
+  },
+  {
+   "partNumber": 395,
+   "partName": "P.S. GHAGHAU R.N.2",
+   "partId": 398074
+  },
+  {
+   "partNumber": 396,
+   "partName": "P.S. RASULPUR",
+   "partId": 398075
+  },
+  {
+   "partNumber": 397,
+   "partName": "P.S. VARIYARMAU KUTAKPUR",
+   "partId": 398076
+  },
+  {
+   "partNumber": 398,
+   "partName": "J.H.S. MEVALI",
+   "partId": 398077
+  },
+  {
+   "partNumber": 399,
+   "partName": "J.H.S. HARGANPUR R. NO.1",
+   "partId": 398078
+  },
+  {
+   "partNumber": 400,
+   "partName": "J.H.S. HARGANPUR R. NO.2",
+   "partId": 398079
+  },
+  {
+   "partNumber": 401,
+   "partName": "P.S. RAJOPURA",
+   "partId": 398080
+  },
+  {
+   "partNumber": 402,
+   "partName": "P.S. SIKANDARPUR",
+   "partId": 398081
+  },
+  {
+   "partNumber": 403,
+   "partName": "P.S. NAGLA SITARAM",
+   "partId": 398082
+  },
+  {
+   "partNumber": 404,
+   "partName": "P.S. ABBASPUR R. NO. 1",
+   "partId": 398083
+  },
+  {
+   "partNumber": 405,
+   "partName": "P.S. ABBASPUR R. NO. 2",
+   "partId": 398084
+  },
+  {
+   "partNumber": 406,
+   "partName": "J.H.S. HARIHA R.N.1",
+   "partId": 398085
+  },
+  {
+   "partNumber": 407,
+   "partName": "JUNIOR HIGH SCHOOL HARIHA ROOM NO 2",
+   "partId": 398115
+  },
+  {
+   "partNumber": 408,
+   "partName": "P.S.KADAMKHANDI HARIHA",
+   "partId": 398086
+  },
+  {
+   "partNumber": 409,
+   "partName": "COMPOSITE SCHOOL NAGLA PIPRANI",
+   "partId": 398087
+  },
+  {
+   "partNumber": 410,
+   "partName": "P.S. SAURARA",
+   "partId": 398088
+  },
+  {
+   "partNumber": 411,
+   "partName": "J.H.S. PURA SUNDAR",
+   "partId": 398089
+  },
+  {
+   "partNumber": 412,
+   "partName": "P.S. RAHAL",
+   "partId": 398090
+  },
+  {
+   "partNumber": 413,
+   "partName": "P.S. MUBARIKPUR KHAS",
+   "partId": 398091
+  },
+  {
+   "partNumber": 414,
+   "partName": "P.S. SAMUHAN NAGLA BARI",
+   "partId": 398092
+  }
+ ]
+}

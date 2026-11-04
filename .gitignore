@@ -10,3 +10,5 @@ output-*/
 cache-*/
 raw-data/
 data/pushed.json
+.DS_Store
+--list-langs.txt

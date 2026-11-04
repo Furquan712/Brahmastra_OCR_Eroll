@@ -1,0 +1,2062 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2408",
+ "acNumber": 93,
+ "fetchedAt": "2026-11-01T08:34:36",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 410,
+ "maxPart": 410,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "PRA. VI. MUBARIKPUR R.NO.1",
+   "partId": 387733
+  },
+  {
+   "partNumber": 2,
+   "partName": "PRA. VI. MUBARIKPUR R.NO.2",
+   "partId": 387734
+  },
+  {
+   "partNumber": 3,
+   "partName": "PRA. VI. GARHI NAUHVAR R.NO.1",
+   "partId": 387735
+  },
+  {
+   "partNumber": 4,
+   "partName": "PRA. VI. GARHI USRA R.NO.1",
+   "partId": 387736
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRA. VI. BAGIYA SYAMLAL R.NO.1",
+   "partId": 387737
+  },
+  {
+   "partNumber": 6,
+   "partName": "U. PRA. VI. SINGECHA COMPOSITE R.NO.1",
+   "partId": 387738
+  },
+  {
+   "partNumber": 7,
+   "partName": "PRA. VI. GARHI RAMBAL R.NO.1",
+   "partId": 387739
+  },
+  {
+   "partNumber": 8,
+   "partName": "PRA. VI. HAJJUPURA R.NO.1",
+   "partId": 387740
+  },
+  {
+   "partNumber": 9,
+   "partName": "PRA. VI. KURRACHITTARPUR–2 R.NO.1",
+   "partId": 387741
+  },
+  {
+   "partNumber": 10,
+   "partName": "PRA VI KURRACHITTARPUR 2 R.N. 2",
+   "partId": 388101
+  },
+  {
+   "partNumber": 11,
+   "partName": "ANOOP KANYA V.JR. HA. SCHOOL KURRACHITTARPUR R.NO.1",
+   "partId": 387742
+  },
+  {
+   "partNumber": 12,
+   "partName": "PRA. VI. GAUHARPUR R.NO.1",
+   "partId": 387743
+  },
+  {
+   "partNumber": 13,
+   "partName": "PU. MA. VI. TONDRA R.NO.1",
+   "partId": 387744
+  },
+  {
+   "partNumber": 14,
+   "partName": "PU. MA. VI. TONDRA R.NO.2",
+   "partId": 387745
+  },
+  {
+   "partNumber": 15,
+   "partName": "PU. MA. VI. GARHI GULABI R.NO.1",
+   "partId": 387746
+  },
+  {
+   "partNumber": 16,
+   "partName": "PRA. VI. SHALA R.NO.1",
+   "partId": 387747
+  },
+  {
+   "partNumber": 17,
+   "partName": "PRA. VI. KARAUDHNA KHURD R.NO.1",
+   "partId": 387748
+  },
+  {
+   "partNumber": 18,
+   "partName": "PRA. VI. KARAUDHNA KHURD R.NO.2",
+   "partId": 387749
+  },
+  {
+   "partNumber": 19,
+   "partName": "U. PRA.VI. KARODHANA KALAN COMPOSITE R.NO.1",
+   "partId": 387750
+  },
+  {
+   "partNumber": 20,
+   "partName": "U PRA VI KARODHANA KALAN COMPOSITE R N 2",
+   "partId": 388102
+  },
+  {
+   "partNumber": 21,
+   "partName": "U. PRA.VI. KARODHANA KALAN COMPOSITE R.NO.3",
+   "partId": 387751
+  },
+  {
+   "partNumber": 22,
+   "partName": "PRA. VI. VISAIRI GORVA R.NO.1",
+   "partId": 387752
+  },
+  {
+   "partNumber": 23,
+   "partName": "PRA. VI. GARHI JAHAN SINGH R.NO. 1",
+   "partId": 387753
+  },
+  {
+   "partNumber": 24,
+   "partName": "PRA. VI. GARHI JAHAN SINGH R.NO. 2",
+   "partId": 387754
+  },
+  {
+   "partNumber": 25,
+   "partName": "PRA. VI. GARHI MOHANLAL R.NO.1",
+   "partId": 387755
+  },
+  {
+   "partNumber": 26,
+   "partName": "PRA. VI. THERAI R.NO.1",
+   "partId": 387756
+  },
+  {
+   "partNumber": 27,
+   "partName": "PRA. VI. THERAI R.NO.2",
+   "partId": 387757
+  },
+  {
+   "partNumber": 28,
+   "partName": "U. PRA. VI. PHOOLPUR COMPOSITE R.NO.1",
+   "partId": 387758
+  },
+  {
+   "partNumber": 29,
+   "partName": "U. PRA. VI. PHOOLPUR COMPOSITE R.NO.2",
+   "partId": 387759
+  },
+  {
+   "partNumber": 30,
+   "partName": "U. PRA. VI. DHEEMAR PURA COMPOSITE R.NO.1",
+   "partId": 387760
+  },
+  {
+   "partNumber": 31,
+   "partName": "PRA. VI. GARHI GAJINDRA R.NO.1",
+   "partId": 387761
+  },
+  {
+   "partNumber": 32,
+   "partName": "PRA. VI. INAYATPUR R.NO.1",
+   "partId": 387762
+  },
+  {
+   "partNumber": 33,
+   "partName": "PRA. VI. INAYATPUR R.NO.2",
+   "partId": 387763
+  },
+  {
+   "partNumber": 34,
+   "partName": "PRA. VI. NAGLA PATAM–2 R.NO.1",
+   "partId": 387764
+  },
+  {
+   "partNumber": 35,
+   "partName": "PRA. VI. NAGLA PATAM–2 R.NO.2",
+   "partId": 387765
+  },
+  {
+   "partNumber": 36,
+   "partName": "PRA. VI. BANSBADA R.NO.1",
+   "partId": 387766
+  },
+  {
+   "partNumber": 37,
+   "partName": "PRA. VI. GODUPURA R.NO.1",
+   "partId": 387767
+  },
+  {
+   "partNumber": 38,
+   "partName": "PRA. VI. VAS DANSAHAY R.NO.1",
+   "partId": 387768
+  },
+  {
+   "partNumber": 39,
+   "partName": "PRA. VI. DABRAI R.NO.1",
+   "partId": 387769
+  },
+  {
+   "partNumber": 40,
+   "partName": "PRA. VI. DULIYA PURA R.NO.1",
+   "partId": 387770
+  },
+  {
+   "partNumber": 41,
+   "partName": "PRA. VI. LUHAITA R.NO.1",
+   "partId": 387771
+  },
+  {
+   "partNumber": 42,
+   "partName": "PRA. VI. THANAPURA R.NO.1",
+   "partId": 387772
+  },
+  {
+   "partNumber": 43,
+   "partName": "PRA. VI. GARHI GIRAND R NO 1",
+   "partId": 387773
+  },
+  {
+   "partNumber": 44,
+   "partName": "PRA. VI. TOR R.NO.1",
+   "partId": 387774
+  },
+  {
+   "partNumber": 45,
+   "partName": "PRA. VI. SEVLA AHEER R.NO. 1",
+   "partId": 387775
+  },
+  {
+   "partNumber": 46,
+   "partName": "PU. MA. VI. GADAULI KHURD R.NO.1",
+   "partId": 387776
+  },
+  {
+   "partNumber": 47,
+   "partName": "PU MA VI GADAULI KHURD R N 2",
+   "partId": 388103
+  },
+  {
+   "partNumber": 48,
+   "partName": "PRA. VI. LEHRA–1 R.NO.1",
+   "partId": 387777
+  },
+  {
+   "partNumber": 49,
+   "partName": "PRA. VI. LEHRA–1 R.NO.2",
+   "partId": 387778
+  },
+  {
+   "partNumber": 50,
+   "partName": "PRA. VI. NAGLA BHIKKI R.NO.1",
+   "partId": 387779
+  },
+  {
+   "partNumber": 51,
+   "partName": "PRA. VI. HIRNER ( COMPOSITE) R.NO.1",
+   "partId": 387780
+  },
+  {
+   "partNumber": 52,
+   "partName": "PRA. VI. HIRNER ( COMPOSITE) R.NO.2",
+   "partId": 387781
+  },
+  {
+   "partNumber": 53,
+   "partName": "PRA VI HIRNER COMPOSITE R N 3",
+   "partId": 388104
+  },
+  {
+   "partNumber": 54,
+   "partName": "PRA. VI. NAVADA R.NO.1",
+   "partId": 387782
+  },
+  {
+   "partNumber": 55,
+   "partName": "PRA. VI. NAVADAKHEDA R.NO.1",
+   "partId": 387783
+  },
+  {
+   "partNumber": 56,
+   "partName": "PRA VI NAVADAKHEDA R N 2",
+   "partId": 388105
+  },
+  {
+   "partNumber": 57,
+   "partName": "PRA.VI. GARHI HARCHAND R.NO.1",
+   "partId": 387784
+  },
+  {
+   "partNumber": 58,
+   "partName": "PRA. VI. BAKALPUR R.NO.1",
+   "partId": 387785
+  },
+  {
+   "partNumber": 59,
+   "partName": "U. PRA. VI. NAGLA SURAJBHAN COMPOSITE R.NO.1",
+   "partId": 387786
+  },
+  {
+   "partNumber": 60,
+   "partName": "U. PRA. VI. NAGLA SURAJBHAN COMPOSITE R.NO.2",
+   "partId": 387787
+  },
+  {
+   "partNumber": 61,
+   "partName": "U PRA VI NAGLA SURAJBHAN COMPOSITE R N 3",
+   "partId": 388106
+  },
+  {
+   "partNumber": 62,
+   "partName": "PRA. VI. IKLASPURA R.NO.1",
+   "partId": 387788
+  },
+  {
+   "partNumber": 63,
+   "partName": "PRA. VI. BADA GANV (SIKTARA) COMPOSITE R.NO.1",
+   "partId": 387789
+  },
+  {
+   "partNumber": 64,
+   "partName": "PRA. VI. BADA GANV (SIKTARA) COMPOSITE R.NO.2",
+   "partId": 387790
+  },
+  {
+   "partNumber": 65,
+   "partName": "PRA. VI. GARHI BALDEV R.NO.1",
+   "partId": 387791
+  },
+  {
+   "partNumber": 66,
+   "partName": "PRA. VI. GARHI LALKALAN R.NO.1",
+   "partId": 387792
+  },
+  {
+   "partNumber": 67,
+   "partName": "PRA. VI. GARHI SHREEPATI R.NO.1",
+   "partId": 387793
+  },
+  {
+   "partNumber": 68,
+   "partName": "PRA. VI. LAKHURANI R.NO.1",
+   "partId": 387794
+  },
+  {
+   "partNumber": 69,
+   "partName": "PRA. VI. LAKHURANI R.NO.2",
+   "partId": 387795
+  },
+  {
+   "partNumber": 70,
+   "partName": "PRA. VI. SHEKHUPUR DHAMENA R.NO.1",
+   "partId": 387796
+  },
+  {
+   "partNumber": 71,
+   "partName": "PRA. VI. JHARPURA R.NO.1",
+   "partId": 387797
+  },
+  {
+   "partNumber": 72,
+   "partName": "PRA. VI. NAGLA DHEEMARPURA SHEKHUPUR R.NO.1",
+   "partId": 387798
+  },
+  {
+   "partNumber": 73,
+   "partName": "PRA. VI. NAGLA BANJARA (HEERAPURA) R.NO.1",
+   "partId": 387799
+  },
+  {
+   "partNumber": 74,
+   "partName": "PU. MA. VI. MEERPUR R.NO.1",
+   "partId": 387800
+  },
+  {
+   "partNumber": 75,
+   "partName": "PU. MA. VI. MEERPUR R.NO.2",
+   "partId": 387801
+  },
+  {
+   "partNumber": 76,
+   "partName": "PRA. VI. LUHARI R.NO.1",
+   "partId": 387802
+  },
+  {
+   "partNumber": 77,
+   "partName": "PRA. VI. LUHARI R.NO.2",
+   "partId": 387803
+  },
+  {
+   "partNumber": 78,
+   "partName": "U. PRA. VI. BEEKAPUR COMPOSITE R.NO.1",
+   "partId": 387804
+  },
+  {
+   "partNumber": 79,
+   "partName": "PRA. VI. THAPKHARGA R.NO.1",
+   "partId": 387805
+  },
+  {
+   "partNumber": 80,
+   "partName": "PRA. VI. ISAULI R.NO.1",
+   "partId": 387806
+  },
+  {
+   "partNumber": 81,
+   "partName": "PRA. VI. ISAULI R.NO.2",
+   "partId": 387807
+  },
+  {
+   "partNumber": 82,
+   "partName": "PRA. VI. GULBA PURA R.NO.1",
+   "partId": 387808
+  },
+  {
+   "partNumber": 83,
+   "partName": "PRA. VI. SHANKARPUR (SHANKARDWARI) R.NO.1",
+   "partId": 387809
+  },
+  {
+   "partNumber": 84,
+   "partName": "PU. MA. VI. NAYAVANS R.NO.1",
+   "partId": 387810
+  },
+  {
+   "partNumber": 85,
+   "partName": "PU. MA. VI. NAYAVANS R.NO.2",
+   "partId": 387811
+  },
+  {
+   "partNumber": 86,
+   "partName": "PU. MA. VI. NAYAVANS R.NO.3",
+   "partId": 387812
+  },
+  {
+   "partNumber": 87,
+   "partName": "PRA. VI. CHANDORA R.NO.1",
+   "partId": 387813
+  },
+  {
+   "partNumber": 88,
+   "partName": "PRA. VI. CHARVISA R.NO. 1",
+   "partId": 387814
+  },
+  {
+   "partNumber": 89,
+   "partName": "PRA. VI. GARHI KHANDERAO R.NO.1",
+   "partId": 387815
+  },
+  {
+   "partNumber": 90,
+   "partName": "PRA. VI. PURA KATAILA R.NO.1",
+   "partId": 387816
+  },
+  {
+   "partNumber": 91,
+   "partName": "PRA Vi SHAHPUR R NO 1",
+   "partId": 388113
+  },
+  {
+   "partNumber": 92,
+   "partName": "PU. MA. VI. TULA SHAHPUR COMPOSITE R.NO.1",
+   "partId": 387817
+  },
+  {
+   "partNumber": 93,
+   "partName": "PU. MA. VI. GUBRARI R.NO.1",
+   "partId": 387818
+  },
+  {
+   "partNumber": 94,
+   "partName": "PU MA VI GUBRARI R N 2",
+   "partId": 388107
+  },
+  {
+   "partNumber": 95,
+   "partName": "PRA. VI. NAYAPURA R.NO.1",
+   "partId": 387819
+  },
+  {
+   "partNumber": 96,
+   "partName": "PRA VI PURA SURAJMAL R.N.1",
+   "partId": 388114
+  },
+  {
+   "partNumber": 97,
+   "partName": "PRA. VI. GARHI PARSA R.NO.1",
+   "partId": 387820
+  },
+  {
+   "partNumber": 98,
+   "partName": "PRA. VI. LEHAR PATTI LEHAR R.NO.1",
+   "partId": 387821
+  },
+  {
+   "partNumber": 99,
+   "partName": "PRA. VI. LEHAR PATTI LEHAR R.NO.2",
+   "partId": 387822
+  },
+  {
+   "partNumber": 100,
+   "partName": "PU. MA. VI. MAHRAMPUR COMPOSITE R.NO.1",
+   "partId": 387823
+  },
+  {
+   "partNumber": 101,
+   "partName": "PU. MA. VI. MAHRAMPUR COMPOSITE R.NO.2",
+   "partId": 387824
+  },
+  {
+   "partNumber": 102,
+   "partName": "PU. MA. VI. MAHRAMPUR COMPOSITE R.NO.3",
+   "partId": 387825
+  },
+  {
+   "partNumber": 103,
+   "partName": "PRA. VI. VANSMAHUA R.NO.1",
+   "partId": 387826
+  },
+  {
+   "partNumber": 104,
+   "partName": "PRA VI VANSMAHUA R NO 2",
+   "partId": 388108
+  },
+  {
+   "partNumber": 105,
+   "partName": "PRA. VI. KOTHI CHAR BIGHA R.NO.1",
+   "partId": 387827
+  },
+  {
+   "partNumber": 106,
+   "partName": "PRA. VI. NAGLA DHEER R.NO.1",
+   "partId": 387828
+  },
+  {
+   "partNumber": 107,
+   "partName": "PU. MA. VI. ATMADPUR AJNERA R.NO.1",
+   "partId": 387829
+  },
+  {
+   "partNumber": 108,
+   "partName": "PRA. VI. KANKARPURA R.NO.1",
+   "partId": 387830
+  },
+  {
+   "partNumber": 109,
+   "partName": "PRA. VI. BANS DAULATRAM R.NO.1",
+   "partId": 387831
+  },
+  {
+   "partNumber": 110,
+   "partName": "A.P. INTER COLLEGE SHAMSHABAD R.NO.1",
+   "partId": 387832
+  },
+  {
+   "partNumber": 111,
+   "partName": "A.P. INTER COLLEGE SHAMSHABAD R.NO.2",
+   "partId": 387833
+  },
+  {
+   "partNumber": 112,
+   "partName": "A P INTER COLLEGE SHAMSHABAD R NO 3",
+   "partId": 388109
+  },
+  {
+   "partNumber": 113,
+   "partName": "A.P. INTER COLLEGE SHAMSHABAD R.NO.4",
+   "partId": 387834
+  },
+  {
+   "partNumber": 114,
+   "partName": "A.P. INTER COLLEGE SHAMSHABAD R.NO.5",
+   "partId": 387835
+  },
+  {
+   "partNumber": 115,
+   "partName": "A.P. INTER COLLEGE SHAMSHABAD R.NO.6",
+   "partId": 387836
+  },
+  {
+   "partNumber": 116,
+   "partName": "D.A.D. INTER COLLEGE SHAMSHABAD R.NO.1",
+   "partId": 387837
+  },
+  {
+   "partNumber": 117,
+   "partName": "D.A.D. INTER COLLEGE SHAMSHABAD R.NO.2",
+   "partId": 387838
+  },
+  {
+   "partNumber": 118,
+   "partName": "D.A.D. INTER COLLEGE SHAMSHABAD R.NO.3",
+   "partId": 387839
+  },
+  {
+   "partNumber": 119,
+   "partName": "SMT. GULKANDI DEVI KANYA INTER COLLEGE SHAMSHABAD R.NO.1",
+   "partId": 387840
+  },
+  {
+   "partNumber": 120,
+   "partName": "SMT. GULKANDI DEVI KANYA INTER COLLEGE SHAMSHABAD R.NO.2",
+   "partId": 387841
+  },
+  {
+   "partNumber": 121,
+   "partName": "SMT. GULKANDI DEVI KANYA INTER COLLEGE SHAMSHABAD R.NO.3",
+   "partId": 387842
+  },
+  {
+   "partNumber": 122,
+   "partName": "SMT. GULKANDI DEVI KANYA INTER COLLEGE SHAMSHABAD R.NO.4",
+   "partId": 387843
+  },
+  {
+   "partNumber": 123,
+   "partName": "SMT GULKANDI DEVI KANYA INTER COLLAGE SHAMSHABAD R NO 5",
+   "partId": 388110
+  },
+  {
+   "partNumber": 124,
+   "partName": "SMT. GULKANDI DEVI KANYA INTER COLLEGE SHAMSHABAD R.NO.6",
+   "partId": 387844
+  },
+  {
+   "partNumber": 125,
+   "partName": "COMPOSITE KANYA PU. MA. VI. SHAMSHABAD R.NO.1",
+   "partId": 387845
+  },
+  {
+   "partNumber": 126,
+   "partName": "COMPOSITE KANYA PU. MA. VI. SHAMSHABAD R.NO.2",
+   "partId": 387846
+  },
+  {
+   "partNumber": 127,
+   "partName": "COMPOSITE KANYA PU MA VI SHAMSHABAD R NO 3",
+   "partId": 388111
+  },
+  {
+   "partNumber": 128,
+   "partName": "COMPOSITE KANYA PU. MA. VI. SHAMSHABAD R.NO.4",
+   "partId": 387847
+  },
+  {
+   "partNumber": 129,
+   "partName": "PRA. VI. SHAMSHABAD FIRST R.NO.1",
+   "partId": 387848
+  },
+  {
+   "partNumber": 130,
+   "partName": "PRA. VI. SHAMSHABAD SECOND R.NO.1",
+   "partId": 387849
+  },
+  {
+   "partNumber": 131,
+   "partName": "PRA. VI. SHAMSHABAD SECOND R.NO.2",
+   "partId": 387850
+  },
+  {
+   "partNumber": 132,
+   "partName": "PRA. VI. SHAMSHABAD SECOND R.NO.3",
+   "partId": 387851
+  },
+  {
+   "partNumber": 133,
+   "partName": "PRA. VI. BHANPURA R.NO.1",
+   "partId": 387852
+  },
+  {
+   "partNumber": 134,
+   "partName": "PRA. VI. MUZAFFAR PUR R.NO.1",
+   "partId": 387853
+  },
+  {
+   "partNumber": 135,
+   "partName": "PRA VI MUZAFFARPUR R NO 2",
+   "partId": 388112
+  },
+  {
+   "partNumber": 136,
+   "partName": "PRA. VI. GHARI SAKKAN PATTI SEKHUPUR R.NO.1",
+   "partId": 387854
+  },
+  {
+   "partNumber": 137,
+   "partName": "PRA. VI. GHARI SAKKAN PATTI SEKHUPUR R.NO.2",
+   "partId": 387855
+  },
+  {
+   "partNumber": 138,
+   "partName": "PRA. VI. JAROLI R.NO.1",
+   "partId": 387856
+  },
+  {
+   "partNumber": 139,
+   "partName": "PRA. VI. JAROLI R.NO.2",
+   "partId": 387857
+  },
+  {
+   "partNumber": 140,
+   "partName": "PRA. VI. GARHI THANA R.NO.1",
+   "partId": 387858
+  },
+  {
+   "partNumber": 141,
+   "partName": "U.PRA. VI. CHITORA COMPOSITE R.NO.1",
+   "partId": 387859
+  },
+  {
+   "partNumber": 142,
+   "partName": "U.PRA. VI. CHITORA COMPOSITE R.NO.2",
+   "partId": 387860
+  },
+  {
+   "partNumber": 143,
+   "partName": "U.PRA. VI. CHITORA COMPOSITE R.NO.3",
+   "partId": 387861
+  },
+  {
+   "partNumber": 144,
+   "partName": "PRA. VI. GARHI GUSAIN R.NO.1",
+   "partId": 387862
+  },
+  {
+   "partNumber": 145,
+   "partName": "PRA. VI. SUDRAI R.NO.1",
+   "partId": 387863
+  },
+  {
+   "partNumber": 146,
+   "partName": "PRA. VI. SHANKAR PUR R.NO.1",
+   "partId": 387864
+  },
+  {
+   "partNumber": 147,
+   "partName": "PRA. VI. MADI R.NO.1",
+   "partId": 387865
+  },
+  {
+   "partNumber": 148,
+   "partName": "PRA. VI. MADI R.NO.2",
+   "partId": 387866
+  },
+  {
+   "partNumber": 149,
+   "partName": "PRA. VI. KAULARI R.NO.1",
+   "partId": 387867
+  },
+  {
+   "partNumber": 150,
+   "partName": "PU. MA. VI. UNCHA R.NO.1",
+   "partId": 387868
+  },
+  {
+   "partNumber": 151,
+   "partName": "PU. MA. VI. UNCHA R.NO.2",
+   "partId": 387869
+  },
+  {
+   "partNumber": 152,
+   "partName": "PU. MA. VI. UNCHA R.NO.3",
+   "partId": 387870
+  },
+  {
+   "partNumber": 153,
+   "partName": "PRA. VI. BANGURI R.NO.1",
+   "partId": 387871
+  },
+  {
+   "partNumber": 154,
+   "partName": "PRA. VI. BANGURI R.NO.2",
+   "partId": 387872
+  },
+  {
+   "partNumber": 155,
+   "partName": "PRA. VI. LAKHAN PUR R.NO.1",
+   "partId": 387873
+  },
+  {
+   "partNumber": 156,
+   "partName": "PRA. VI. PAVSAR R.NO.1",
+   "partId": 387874
+  },
+  {
+   "partNumber": 157,
+   "partName": "PRA. VI. SEVLA GORVA R.NO.1",
+   "partId": 387875
+  },
+  {
+   "partNumber": 158,
+   "partName": "PRA VI SEVALA GORVA R NO 2",
+   "partId": 388115
+  },
+  {
+   "partNumber": 159,
+   "partName": "PRA. VI. KAULARA KALAN R.NO.1",
+   "partId": 387876
+  },
+  {
+   "partNumber": 160,
+   "partName": "PRA. VI. KAULARA KALAN R.NO.2",
+   "partId": 387877
+  },
+  {
+   "partNumber": 161,
+   "partName": "PU. MA. VI. KAULARA KALAN R.NO.1",
+   "partId": 387878
+  },
+  {
+   "partNumber": 162,
+   "partName": "PRA. VI. NAGHLA BHOLA R.NO.1",
+   "partId": 387879
+  },
+  {
+   "partNumber": 163,
+   "partName": "PRA. VI. NAGHLA BHOLA R.NO.2",
+   "partId": 387880
+  },
+  {
+   "partNumber": 164,
+   "partName": "PRA. VI. NAGRIYA R.NO.1",
+   "partId": 387881
+  },
+  {
+   "partNumber": 165,
+   "partName": "PRA VI NAGARIYA R NO 2",
+   "partId": 388116
+  },
+  {
+   "partNumber": 166,
+   "partName": "PRA. VI. PUTHA JHEEL NO.1",
+   "partId": 387882
+  },
+  {
+   "partNumber": 167,
+   "partName": "PRA. VI. GARHI SHISUPAL R.NO.1",
+   "partId": 387883
+  },
+  {
+   "partNumber": 168,
+   "partName": "PRA. VI. MUTNAI R.NO.1",
+   "partId": 387884
+  },
+  {
+   "partNumber": 169,
+   "partName": "PRA. VI. GUDA R.NO.1",
+   "partId": 387885
+  },
+  {
+   "partNumber": 170,
+   "partName": "PRA. VI. GARHI BHAJJE R.NO.1",
+   "partId": 387886
+  },
+  {
+   "partNumber": 171,
+   "partName": "PRA. VI. NARI KANKAR R.NO.1",
+   "partId": 387887
+  },
+  {
+   "partNumber": 172,
+   "partName": "PRA. VI. DAUKI R.NO.1",
+   "partId": 387888
+  },
+  {
+   "partNumber": 173,
+   "partName": "PRA. VI. DAUKI R.NO.2",
+   "partId": 387889
+  },
+  {
+   "partNumber": 174,
+   "partName": "PRA. VI. DAUKI R.NO.3",
+   "partId": 387890
+  },
+  {
+   "partNumber": 175,
+   "partName": "PRA. VI. CHAMARPURA R.NO.1",
+   "partId": 387891
+  },
+  {
+   "partNumber": 176,
+   "partName": "PRA. VI. NAGLA AMAN R.NO.1",
+   "partId": 387892
+  },
+  {
+   "partNumber": 177,
+   "partName": "PRA. VI. JAINAGAR R.NO.1",
+   "partId": 387893
+  },
+  {
+   "partNumber": 178,
+   "partName": "PRA VI JAYNAGAR R NO 2",
+   "partId": 388117
+  },
+  {
+   "partNumber": 179,
+   "partName": "PRA. VI. KAULARA KHURD R.NO.1",
+   "partId": 387894
+  },
+  {
+   "partNumber": 180,
+   "partName": "PRA. VI. KAULARA KHURD R.NO.2",
+   "partId": 387895
+  },
+  {
+   "partNumber": 181,
+   "partName": "PRA. VI. GARHI RAMPAL R.NO.1",
+   "partId": 387896
+  },
+  {
+   "partNumber": 182,
+   "partName": "PRA. VI. BADOVRA KHURD R.NO.1",
+   "partId": 387897
+  },
+  {
+   "partNumber": 183,
+   "partName": "PRA VI BADOVARA KHURD R NO 2",
+   "partId": 388118
+  },
+  {
+   "partNumber": 184,
+   "partName": "PRA. VI. BADOVRA KHURD R.NO.3",
+   "partId": 387898
+  },
+  {
+   "partNumber": 185,
+   "partName": "PRA. VI. BADOVRA KALAN R.NO.1",
+   "partId": 387899
+  },
+  {
+   "partNumber": 186,
+   "partName": "PRA. VI. BADOVRA KALAN R.NO.2",
+   "partId": 387900
+  },
+  {
+   "partNumber": 187,
+   "partName": "PRA. VI. NAGLA SHADI R.NO.1",
+   "partId": 387901
+  },
+  {
+   "partNumber": 188,
+   "partName": "U. PRA. VI. MAJHARA COMPOSITE R.NO.1",
+   "partId": 387902
+  },
+  {
+   "partNumber": 189,
+   "partName": "U. PRA. VI. KUTUK PUR ROHAI COMPOSITE R.NO.1",
+   "partId": 387903
+  },
+  {
+   "partNumber": 190,
+   "partName": "U. PRA. VI. KUTUK PUR ROHAI COMPOSITE R.NO.2",
+   "partId": 387904
+  },
+  {
+   "partNumber": 191,
+   "partName": "PRA. VI. MOHAN PUR R.NO.1",
+   "partId": 387905
+  },
+  {
+   "partNumber": 192,
+   "partName": "PRA. VI. HIMANYUPUR R.NO.1",
+   "partId": 387906
+  },
+  {
+   "partNumber": 193,
+   "partName": "PRA VI HIMANYUPUR R NO 2",
+   "partId": 388119
+  },
+  {
+   "partNumber": 194,
+   "partName": "PU. MA. VI. GARHI LONKAS (SAY KA PURA) COMPOSITE R.NO.1",
+   "partId": 387907
+  },
+  {
+   "partNumber": 195,
+   "partName": "PRA. VI. GARHI DHARAM JEET R.NO.1",
+   "partId": 387908
+  },
+  {
+   "partNumber": 196,
+   "partName": "PRA. VI. LOKAS R.NO.1",
+   "partId": 387909
+  },
+  {
+   "partNumber": 197,
+   "partName": "PRA. VI. KACHPURA PURA (VAKSHI) R.NO.1",
+   "partId": 387910
+  },
+  {
+   "partNumber": 198,
+   "partName": "U.PRA. VI. PURA PANCHAH COMPOSITE R.NO.1",
+   "partId": 387911
+  },
+  {
+   "partNumber": 199,
+   "partName": "U PRA VI PURA PANCHAH COMPOSITE R NO 2",
+   "partId": 388120
+  },
+  {
+   "partNumber": 200,
+   "partName": "U.PRA. VI. GARHI GANESH COMPOSITE R.NO.1",
+   "partId": 387912
+  },
+  {
+   "partNumber": 201,
+   "partName": "PRA. VI. ROHAIKHASH R.NO.1",
+   "partId": 387913
+  },
+  {
+   "partNumber": 202,
+   "partName": "PRA. VI. PALTUA PURA R.NO.1",
+   "partId": 387914
+  },
+  {
+   "partNumber": 203,
+   "partName": "PRA. VI. RAMPUR R.NO.1",
+   "partId": 387915
+  },
+  {
+   "partNumber": 204,
+   "partName": "PRA. VI. DHARIAI R.NO.1",
+   "partId": 387916
+  },
+  {
+   "partNumber": 205,
+   "partName": "PU. MA. VI. PURADANDANIYA R.NO.1",
+   "partId": 387917
+  },
+  {
+   "partNumber": 206,
+   "partName": "PU MA VI PURA DANDANIYA R NO 2",
+   "partId": 388121
+  },
+  {
+   "partNumber": 207,
+   "partName": "U.PRA. VI. NAGRIYA COMPOSITE R.NO.1",
+   "partId": 387918
+  },
+  {
+   "partNumber": 208,
+   "partName": "U PRA VI NAGRIYA COMPOSITE R NO 2",
+   "partId": 388122
+  },
+  {
+   "partNumber": 209,
+   "partName": "PRA. VI. GADARPURA R.NO.1",
+   "partId": 387919
+  },
+  {
+   "partNumber": 210,
+   "partName": "PRA. VI. HEERAPURA R.NO.1",
+   "partId": 387920
+  },
+  {
+   "partNumber": 211,
+   "partName": "PRA. VI. CHAMRAULI R.NO.1",
+   "partId": 387921
+  },
+  {
+   "partNumber": 212,
+   "partName": "PU. MA. VI. BILAIPURA R.NO.1",
+   "partId": 387922
+  },
+  {
+   "partNumber": 213,
+   "partName": "PRA. VI. GARHI GUSAIN R.NO.1",
+   "partId": 387923
+  },
+  {
+   "partNumber": 214,
+   "partName": "PRA. VI. JHILARA R.NO.1",
+   "partId": 387924
+  },
+  {
+   "partNumber": 215,
+   "partName": "D.A.V. INTER COLLEGE DHIMSHREE R.NO.1",
+   "partId": 387925
+  },
+  {
+   "partNumber": 216,
+   "partName": "D.A.V. INTER COLLEGE DHIMSHREE R.NO.2",
+   "partId": 387926
+  },
+  {
+   "partNumber": 217,
+   "partName": "D.A.V. INTER COLLEGE DHIMSHREE R.NO.3",
+   "partId": 387927
+  },
+  {
+   "partNumber": 218,
+   "partName": "PRA. VI. NAGLA JAMUNI BHAN R.NO.1",
+   "partId": 387928
+  },
+  {
+   "partNumber": 219,
+   "partName": "PRA. VI. NAGLA MUKTA R.NO.1",
+   "partId": 387929
+  },
+  {
+   "partNumber": 220,
+   "partName": "PRA. VI. PEETAPURA R.NO.1",
+   "partId": 387930
+  },
+  {
+   "partNumber": 221,
+   "partName": "PRA. VI. GHARI TURASHIYA R.NO.1",
+   "partId": 387931
+  },
+  {
+   "partNumber": 222,
+   "partName": "PRA. VI. VANSBALE R.NO.1",
+   "partId": 387932
+  },
+  {
+   "partNumber": 223,
+   "partName": "PRA. VI. VANSBALE R.NO.2",
+   "partId": 387933
+  },
+  {
+   "partNumber": 224,
+   "partName": "PU. MA. VI. PAINTIKHEDA R.NO.1",
+   "partId": 387934
+  },
+  {
+   "partNumber": 225,
+   "partName": "PU. MA. VI. PAINTIKHEDA R.NO.2",
+   "partId": 387935
+  },
+  {
+   "partNumber": 226,
+   "partName": "PU. MA. VI. PAINTIKHEDA R.NO.3",
+   "partId": 387936
+  },
+  {
+   "partNumber": 227,
+   "partName": "PRA. VI. GARHI PARAS RAM R.NO.1",
+   "partId": 387937
+  },
+  {
+   "partNumber": 228,
+   "partName": "PU. MA. VI. NEEVRI COMPOSITE R.NO.1",
+   "partId": 387938
+  },
+  {
+   "partNumber": 229,
+   "partName": "PU. MA. VI. NEEVRI COMPOSITE R.NO.2",
+   "partId": 387939
+  },
+  {
+   "partNumber": 230,
+   "partName": "PRA. VI. VIDRAI R.NO.1",
+   "partId": 387940
+  },
+  {
+   "partNumber": 231,
+   "partName": "PRA. VI. NETPURA R.NO.1",
+   "partId": 387941
+  },
+  {
+   "partNumber": 232,
+   "partName": "PRA. VI. MEVLIKALAN R.NO.1",
+   "partId": 387942
+  },
+  {
+   "partNumber": 233,
+   "partName": "PRA VI MEVLIKALAN R NO 2",
+   "partId": 388123
+  },
+  {
+   "partNumber": 234,
+   "partName": "U.PRA. VI. RABAR COMPOSITE R.NO.1",
+   "partId": 387943
+  },
+  {
+   "partNumber": 235,
+   "partName": "U.PRA. VI. RABAR COMPOSITE R.NO.2",
+   "partId": 387944
+  },
+  {
+   "partNumber": 236,
+   "partName": "PRA. VI. NAGLA BADA R.NO.1",
+   "partId": 387945
+  },
+  {
+   "partNumber": 237,
+   "partName": "PRA. VI. NAGLA BADA R.NO.2",
+   "partId": 387946
+  },
+  {
+   "partNumber": 238,
+   "partName": "PRA. VI. BAJID PUR R.NO.1",
+   "partId": 387947
+  },
+  {
+   "partNumber": 239,
+   "partName": "PRA. VI. BAJID PUR R.NO.2",
+   "partId": 387948
+  },
+  {
+   "partNumber": 240,
+   "partName": "U.PRA. VI. DURJIPURA COMPOSITE R.NO.1",
+   "partId": 387949
+  },
+  {
+   "partNumber": 241,
+   "partName": "PRA. VI. AASE KA PURA R.NO.1",
+   "partId": 387950
+  },
+  {
+   "partNumber": 242,
+   "partName": "PU. MA. VI. BAJID PUR.R.NO.1",
+   "partId": 387951
+  },
+  {
+   "partNumber": 243,
+   "partName": "PRA. VI. SHALA MANDIR R.NO.1",
+   "partId": 387952
+  },
+  {
+   "partNumber": 244,
+   "partName": "PRA VI SHALA MANDIR R NO 2",
+   "partId": 388124
+  },
+  {
+   "partNumber": 245,
+   "partName": "PRA. VI. KOTRE KA PURA R.NO.1",
+   "partId": 387953
+  },
+  {
+   "partNumber": 246,
+   "partName": "PRA. VI. MUTABAI R.NO.1",
+   "partId": 387954
+  },
+  {
+   "partNumber": 247,
+   "partName": "PRA. VI. BHATA KI PEEPRI R.NO.1",
+   "partId": 387955
+  },
+  {
+   "partNumber": 248,
+   "partName": "PRA. VI. NAGLA DEVHANS R.NO.1",
+   "partId": 387956
+  },
+  {
+   "partNumber": 249,
+   "partName": "PRA. VI. NAGLA DEVHANS R.NO.2",
+   "partId": 387957
+  },
+  {
+   "partNumber": 250,
+   "partName": "PU. MA. VI. GARHI KISHAN R.NO.1",
+   "partId": 387958
+  },
+  {
+   "partNumber": 251,
+   "partName": "PU. MA. VI. GARHI KISHAN R.NO.2",
+   "partId": 387959
+  },
+  {
+   "partNumber": 252,
+   "partName": "PRA. VI. SIKRARA R.NO.1",
+   "partId": 387960
+  },
+  {
+   "partNumber": 253,
+   "partName": "PRA. VI. SIKRARA R.NO.2",
+   "partId": 387961
+  },
+  {
+   "partNumber": 254,
+   "partName": "PRA. VI. VARIPURA R.NO.1",
+   "partId": 387962
+  },
+  {
+   "partNumber": 255,
+   "partName": "PRA. VI. NAGLA GADRIYA R.NO.1",
+   "partId": 387963
+  },
+  {
+   "partNumber": 256,
+   "partName": "PRA. VI. MADAYNA R.NO.1",
+   "partId": 387964
+  },
+  {
+   "partNumber": 257,
+   "partName": "PRA. VI. KALYANPUR R.NO.1",
+   "partId": 387965
+  },
+  {
+   "partNumber": 258,
+   "partName": "PRA. VI. PUTHPURA (KALYANPUR) R.NO.1",
+   "partId": 387966
+  },
+  {
+   "partNumber": 259,
+   "partName": "PRA. VI. JAGRAJPUR R.NO.1",
+   "partId": 387967
+  },
+  {
+   "partNumber": 260,
+   "partName": "PRA. VI. JAGRAJPUR R.NO.2",
+   "partId": 387968
+  },
+  {
+   "partNumber": 261,
+   "partName": "PRA. VI. RANPURA R.NO.1",
+   "partId": 387969
+  },
+  {
+   "partNumber": 262,
+   "partName": "PRA. VI. TANSHPURA R.NO.1",
+   "partId": 387970
+  },
+  {
+   "partNumber": 263,
+   "partName": "U.PRA. VI. GANGORA COMPOSITE R.NO.1",
+   "partId": 387971
+  },
+  {
+   "partNumber": 264,
+   "partName": "U.PRA. VI. SALEMPUR MUDIYA COMPOSITE R.NO.1",
+   "partId": 387972
+  },
+  {
+   "partNumber": 265,
+   "partName": "PRA. VI. GHAGHPURA R.NO.1",
+   "partId": 387973
+  },
+  {
+   "partNumber": 266,
+   "partName": "PRA. VI. MOHAMMAD PUR R.NO.1",
+   "partId": 387974
+  },
+  {
+   "partNumber": 267,
+   "partName": "PRA. VI. KOOMPURA R.NO.1",
+   "partId": 387975
+  },
+  {
+   "partNumber": 268,
+   "partName": "U.PRA. VI. KANHARPURA COMPOSITE R.NO.1",
+   "partId": 387976
+  },
+  {
+   "partNumber": 269,
+   "partName": "PRA. VI. PURA BANJARA R.NO.1",
+   "partId": 387977
+  },
+  {
+   "partNumber": 270,
+   "partName": "PU.MA. VI. MAHARAJPUR COMPOSITE R.NO.1",
+   "partId": 387978
+  },
+  {
+   "partNumber": 271,
+   "partName": "PU.MA. VI. MAHARAJPUR COMPOSITE R.NO.2",
+   "partId": 387979
+  },
+  {
+   "partNumber": 272,
+   "partName": "PRA. VI. MUSEPUR R.NO.1",
+   "partId": 387980
+  },
+  {
+   "partNumber": 273,
+   "partName": "PRA. VI. NEECHAKHEDA R.NO.1",
+   "partId": 387981
+  },
+  {
+   "partNumber": 274,
+   "partName": "PRA. VI. RAIPURA R.NO.1",
+   "partId": 387982
+  },
+  {
+   "partNumber": 275,
+   "partName": "U.PRA. VI. POKHARIYA COMPOSITE R.NO.1",
+   "partId": 387983
+  },
+  {
+   "partNumber": 276,
+   "partName": "PRA. VI. JATPURA R.NO.1",
+   "partId": 387984
+  },
+  {
+   "partNumber": 277,
+   "partName": "PRA. VI. LAYAKPURA R.NO.1",
+   "partId": 387985
+  },
+  {
+   "partNumber": 278,
+   "partName": "PRA. VI. BHOGPURA R.NO.1",
+   "partId": 387986
+  },
+  {
+   "partNumber": 279,
+   "partName": "PRA. VI. DAKTAR KA PURA R.NO.1",
+   "partId": 387987
+  },
+  {
+   "partNumber": 280,
+   "partName": "PRA. VI. GARHI JAHAN R.NO.1",
+   "partId": 387988
+  },
+  {
+   "partNumber": 281,
+   "partName": "PRA. VI. NIBOHRA R.NO.1",
+   "partId": 387989
+  },
+  {
+   "partNumber": 282,
+   "partName": "PRA. VI. NIBOHRA R.NO.2",
+   "partId": 387990
+  },
+  {
+   "partNumber": 283,
+   "partName": "PRA. VI. NEHRE KA PURA R.NO.1",
+   "partId": 387991
+  },
+  {
+   "partNumber": 284,
+   "partName": "PRA VI PURA CHARI R NO 1",
+   "partId": 388125
+  },
+  {
+   "partNumber": 285,
+   "partName": "PRA. VI. SHAHVED R.NO.1",
+   "partId": 387992
+  },
+  {
+   "partNumber": 286,
+   "partName": "PRA. VI. NANDAPURA R.NO.1",
+   "partId": 387993
+  },
+  {
+   "partNumber": 287,
+   "partName": "PRA. VI. PATHAR KOT R.NO.1",
+   "partId": 387994
+  },
+  {
+   "partNumber": 288,
+   "partName": "PRA. VI. KANKARPURA R.NO.1",
+   "partId": 387995
+  },
+  {
+   "partNumber": 289,
+   "partName": "U.PRA. VI. RAMGARH COMPOSITE R.NO.1",
+   "partId": 387996
+  },
+  {
+   "partNumber": 290,
+   "partName": "U.PRA. VI. RAMGARH COMPOSITE R.NO.2",
+   "partId": 387997
+  },
+  {
+   "partNumber": 291,
+   "partName": "PRA. VI. CHOTI BASAI R.NO.1",
+   "partId": 387998
+  },
+  {
+   "partNumber": 292,
+   "partName": "PRA VI CHOTI BASAI R NO 2",
+   "partId": 388126
+  },
+  {
+   "partNumber": 293,
+   "partName": "PRA. VI. SALEMPUR DHANKAR R.NO.1",
+   "partId": 387999
+  },
+  {
+   "partNumber": 294,
+   "partName": "PRA. VI. SALEMPUR DHANKAR R.NO.2",
+   "partId": 388000
+  },
+  {
+   "partNumber": 295,
+   "partName": "U.PRA. VI. PALIYA COMPOSITE R.NO.1",
+   "partId": 388001
+  },
+  {
+   "partNumber": 296,
+   "partName": "PRA. VI. GARHI GODANA R.NO.1",
+   "partId": 388002
+  },
+  {
+   "partNumber": 297,
+   "partName": "PRA. VI. PARTAPPURA R.NO.1",
+   "partId": 388003
+  },
+  {
+   "partNumber": 298,
+   "partName": "PRA. VI. PARTAPPURA R.NO.2",
+   "partId": 388004
+  },
+  {
+   "partNumber": 299,
+   "partName": "PRA VI GARHI BADE R NO 1",
+   "partId": 388127
+  },
+  {
+   "partNumber": 300,
+   "partName": "PRA. VI. BICHAULA R.NO.1",
+   "partId": 388005
+  },
+  {
+   "partNumber": 301,
+   "partName": "PRA. VI. PURACHHATARIYA (BEHDI) R.NO.1",
+   "partId": 388006
+  },
+  {
+   "partNumber": 302,
+   "partName": "COMPOSITE PU. MA. VI. NAGARCHAND R.NO.1",
+   "partId": 388007
+  },
+  {
+   "partNumber": 303,
+   "partName": "COMPOSITE PU. MA. VI. NAGARCHAND R.NO.2",
+   "partId": 388008
+  },
+  {
+   "partNumber": 304,
+   "partName": "PRA. VI. BEHDI R.NO.1",
+   "partId": 388009
+  },
+  {
+   "partNumber": 305,
+   "partName": "PRA. VI. BAMRAULI R.NO.1",
+   "partId": 388010
+  },
+  {
+   "partNumber": 306,
+   "partName": "PRA. VI. PARAULI SIKARWAR R.NO.1",
+   "partId": 388011
+  },
+  {
+   "partNumber": 307,
+   "partName": "PRA VI PARAULI SIKARWAR R NO 2",
+   "partId": 388128
+  },
+  {
+   "partNumber": 308,
+   "partName": "PRA. VI. PARAULI SIKARWAR R.NO.2",
+   "partId": 388012
+  },
+  {
+   "partNumber": 309,
+   "partName": "PRA VI PARAULI SIKARWAR R NO 4",
+   "partId": 388129
+  },
+  {
+   "partNumber": 310,
+   "partName": "PU. MA. VI. EDAUN R.NO.1",
+   "partId": 388013
+  },
+  {
+   "partNumber": 311,
+   "partName": "PU. MA. VI. EDAUN R.NO.2",
+   "partId": 388014
+  },
+  {
+   "partNumber": 312,
+   "partName": "PRA. VI. MEETHPURA R.NO.1",
+   "partId": 388015
+  },
+  {
+   "partNumber": 313,
+   "partName": "PRA. VI. MEETHPURA R.NO.2",
+   "partId": 388016
+  },
+  {
+   "partNumber": 314,
+   "partName": "PRA. VI. GIDHORRA R.NO.1",
+   "partId": 388017
+  },
+  {
+   "partNumber": 315,
+   "partName": "FATEHABAD MODEL INTER COLLAGE BAH ROAD FATEHABAD R.NO.1",
+   "partId": 388018
+  },
+  {
+   "partNumber": 316,
+   "partName": "PRA. VI. KRIPALPURA R.NO.1",
+   "partId": 388019
+  },
+  {
+   "partNumber": 317,
+   "partName": "PRA. VI. KRIPALPURA R.NO.2",
+   "partId": 388020
+  },
+  {
+   "partNumber": 318,
+   "partName": "PU.MA. VI. RASULPUR COMPOSITE R.NO.1",
+   "partId": 388021
+  },
+  {
+   "partNumber": 319,
+   "partName": "PU.MA. VI. RASULPUR COMPOSITE R.NO.2",
+   "partId": 388022
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRA. VI. MOHANPUR (BHARAPUR) R.NO.1",
+   "partId": 388023
+  },
+  {
+   "partNumber": 321,
+   "partName": "PRA. VI. MALLAPURA R.NO.1",
+   "partId": 388024
+  },
+  {
+   "partNumber": 322,
+   "partName": "PRA. VI. GARHI DARIYAB R.NO.1",
+   "partId": 388025
+  },
+  {
+   "partNumber": 323,
+   "partName": "JANTA INTER COLLEGE FATEHAHAB R.NO.1",
+   "partId": 388026
+  },
+  {
+   "partNumber": 324,
+   "partName": "JANTA INTER COLLEGE FATEHAHAB R.NO.2",
+   "partId": 388027
+  },
+  {
+   "partNumber": 325,
+   "partName": "PU.MA.VI FATEHABAD FIRST R.NO.1",
+   "partId": 388028
+  },
+  {
+   "partNumber": 326,
+   "partName": "PU.MA.VI FATEHABAD FIRST R.NO.2",
+   "partId": 388029
+  },
+  {
+   "partNumber": 327,
+   "partName": "KANYA PU. MA. VI. FATEHABAD DWITIYA  R.NO.1",
+   "partId": 388030
+  },
+  {
+   "partNumber": 328,
+   "partName": "KANYA PU. MA. VI. FATEHABAD DWITIYA R.NO.2",
+   "partId": 388031
+  },
+  {
+   "partNumber": 329,
+   "partName": "PRA. VI. FATEHABAD FIRST R.NO.1",
+   "partId": 388032
+  },
+  {
+   "partNumber": 330,
+   "partName": "PRA VI FATEHABAD FIRST R NO 2",
+   "partId": 388130
+  },
+  {
+   "partNumber": 331,
+   "partName": "PRA.VI. FATEHABAD FIRST R.NO.3",
+   "partId": 388033
+  },
+  {
+   "partNumber": 332,
+   "partName": "PRA VI FATEHABAD FIRST R NO 4",
+   "partId": 388131
+  },
+  {
+   "partNumber": 333,
+   "partName": "PRA. VI. FATEHABAD SECOND R.NO.1",
+   "partId": 388034
+  },
+  {
+   "partNumber": 334,
+   "partName": "SARASWATI GYAN MANDIR JAMUNAGALI FATEHABAD R.NO.1",
+   "partId": 388035
+  },
+  {
+   "partNumber": 335,
+   "partName": "SARASWATI GYAN MANDIR JAMUNAGALI FATEHABAD R NO 2",
+   "partId": 388132
+  },
+  {
+   "partNumber": 336,
+   "partName": "SARASWATI GYAN MANDIR JAMUNAGALI FATEHABAD R.NO.3",
+   "partId": 388036
+  },
+  {
+   "partNumber": 337,
+   "partName": "SARASWATI GYAN MANDIR JAMUNAGALI FATEHABAD R NO 4",
+   "partId": 388133
+  },
+  {
+   "partNumber": 338,
+   "partName": "BHAGVAN DEVI KANYA INTER COLLEGE FATEHABAD R.NO.1",
+   "partId": 388037
+  },
+  {
+   "partNumber": 339,
+   "partName": "BHAGVAN DEVI KANYA INTER COLLAGE FATEHABAD R NO 2",
+   "partId": 388134
+  },
+  {
+   "partNumber": 340,
+   "partName": "BHAGVAN DEVI KANYA INTER COLLEGE FATEHABAD R.NO.3",
+   "partId": 388038
+  },
+  {
+   "partNumber": 341,
+   "partName": "BHAGVAN DEVI KANYA INTER COLLEGE FATEHABAD R.NO.4",
+   "partId": 388039
+  },
+  {
+   "partNumber": 342,
+   "partName": "BHAGVAN DEVI KANYA INTER COLLEGE FATEHABAD R.NO.5",
+   "partId": 388040
+  },
+  {
+   "partNumber": 343,
+   "partName": "RATAN DEVI KANVENT SCHOOL FATEHABAD R.NO.1",
+   "partId": 388041
+  },
+  {
+   "partNumber": 344,
+   "partName": "RATAN DEVI KANVENT SCHOOL FATEHABAD R.NO.2",
+   "partId": 388042
+  },
+  {
+   "partNumber": 345,
+   "partName": "RATAN DEVI KANVENT SCHOOL FATEHABAD R.NO.3",
+   "partId": 388043
+  },
+  {
+   "partNumber": 346,
+   "partName": "RATAN DEVI KANVENT SCHOOL FATEHABAD R NO 4",
+   "partId": 388135
+  },
+  {
+   "partNumber": 347,
+   "partName": "PRA. VI. SARANGPUR R.NO.1",
+   "partId": 388044
+  },
+  {
+   "partNumber": 348,
+   "partName": "PRA. VI. SARANGPUR R.NO.2",
+   "partId": 388045
+  },
+  {
+   "partNumber": 349,
+   "partName": "AARYA VEDIK VI. KUTAKPUR GOLA R.NO.1",
+   "partId": 388046
+  },
+  {
+   "partNumber": 350,
+   "partName": "PRA. VI. GARHI UDAYRAJ R.NO.1",
+   "partId": 388047
+  },
+  {
+   "partNumber": 351,
+   "partName": "U.PRA. VI. LALPURA COMPOSITE R.NO.1",
+   "partId": 388048
+  },
+  {
+   "partNumber": 352,
+   "partName": "PRA. VI. SAIDPUR R.NO.1",
+   "partId": 388049
+  },
+  {
+   "partNumber": 353,
+   "partName": "PU. MA. VI. BIHARI R.NO.1",
+   "partId": 388050
+  },
+  {
+   "partNumber": 354,
+   "partName": "PRA. VI. NAGAR R.NO.1",
+   "partId": 388051
+  },
+  {
+   "partNumber": 355,
+   "partName": "PRA VI NAGAR R NO 2",
+   "partId": 388136
+  },
+  {
+   "partNumber": 356,
+   "partName": "PRA. VI. BHADAURA R.NO.1",
+   "partId": 388052
+  },
+  {
+   "partNumber": 357,
+   "partName": "PRA. VI. BHEEKAN PUR R.NO.1",
+   "partId": 388053
+  },
+  {
+   "partNumber": 358,
+   "partName": "PRA. VI. JAWAHARPUR R.NO.1",
+   "partId": 388054
+  },
+  {
+   "partNumber": 359,
+   "partName": "PRA. VI. KHANDER TEEKATPURA R.NO.1",
+   "partId": 388055
+  },
+  {
+   "partNumber": 360,
+   "partName": "PRA. VI. KHANDER TEEKATPURA R.NO.2",
+   "partId": 388056
+  },
+  {
+   "partNumber": 361,
+   "partName": "PRA. VI. TUSSIPURA R.NO.1",
+   "partId": 388057
+  },
+  {
+   "partNumber": 362,
+   "partName": "PRA. VI. SALUBAI R.NO.1",
+   "partId": 388058
+  },
+  {
+   "partNumber": 363,
+   "partName": "PRA. VI. NAYAPURA R NO 1",
+   "partId": 388137
+  },
+  {
+   "partNumber": 364,
+   "partName": "PRA. VI. BIJAUL KA PURA R.NO.1",
+   "partId": 388059
+  },
+  {
+   "partNumber": 365,
+   "partName": "PRA VI BIJAUL KA PURA R NO 2",
+   "partId": 388138
+  },
+  {
+   "partNumber": 366,
+   "partName": "PRA. VI. CHACHIPURA KHANDER R.NO.1",
+   "partId": 388060
+  },
+  {
+   "partNumber": 367,
+   "partName": "PRA. VI. GARHI MOHANLAL R.NO.1",
+   "partId": 388061
+  },
+  {
+   "partNumber": 368,
+   "partName": "PRA. VI. NAGLA BHOGLI R.NO.1",
+   "partId": 388062
+  },
+  {
+   "partNumber": 369,
+   "partName": "PU. MA. VI. JARARI R.NO.1",
+   "partId": 388063
+  },
+  {
+   "partNumber": 370,
+   "partName": "U.PRA. VI. GUBRAUTH COMPOSITE R.NO.1",
+   "partId": 388064
+  },
+  {
+   "partNumber": 371,
+   "partName": "PRA. VI. NAUGAVAN R.NO.1",
+   "partId": 388065
+  },
+  {
+   "partNumber": 372,
+   "partName": "PRA. VI. KHEDA JAWAHAR R.NO.1",
+   "partId": 388066
+  },
+  {
+   "partNumber": 373,
+   "partName": "U.PRA. VI. HIMANYUPUR GUJAR COMPOSITE R.NO.1",
+   "partId": 388067
+  },
+  {
+   "partNumber": 374,
+   "partName": "PRA. VI. KACHHPURA R.NO.1",
+   "partId": 388068
+  },
+  {
+   "partNumber": 375,
+   "partName": "PRA. VI.PURA JATAV R.NO.1",
+   "partId": 388069
+  },
+  {
+   "partNumber": 376,
+   "partName": "PU.MA. VI. BHALOKHRA COMPOSITE R.NO.1",
+   "partId": 388070
+  },
+  {
+   "partNumber": 377,
+   "partName": "PRA. VI. NAGLA LOHIYA R.NO.1",
+   "partId": 388071
+  },
+  {
+   "partNumber": 378,
+   "partName": "PRA. VI. UJHAVALI R.NO.1",
+   "partId": 388072
+  },
+  {
+   "partNumber": 379,
+   "partName": "PRA. VI. AEE R.NO.1",
+   "partId": 388073
+  },
+  {
+   "partNumber": 380,
+   "partName": "PRA. VI. PINNAPURA R.NO.1",
+   "partId": 388074
+  },
+  {
+   "partNumber": 381,
+   "partName": "PRA VI PINNAPURA R NO 2",
+   "partId": 388139
+  },
+  {
+   "partNumber": 382,
+   "partName": "PU.MA. VI. NAGLA HAJI COMPOSITE R.NO.1",
+   "partId": 388075
+  },
+  {
+   "partNumber": 383,
+   "partName": "PRA. VI. CHARRPURA R.NO.1",
+   "partId": 388076
+  },
+  {
+   "partNumber": 384,
+   "partName": "PU. MA. VI. MURAVAL R.NO.1",
+   "partId": 388077
+  },
+  {
+   "partNumber": 385,
+   "partName": "PRA. VI. DHARAPURA R.NO.1",
+   "partId": 388078
+  },
+  {
+   "partNumber": 386,
+   "partName": "PRA. VI. MEHRA CHOUDHARY R.NO.1",
+   "partId": 388079
+  },
+  {
+   "partNumber": 387,
+   "partName": "PRA. VI. JALALPUR R.NO.1",
+   "partId": 388080
+  },
+  {
+   "partNumber": 388,
+   "partName": "PU. MA. VI. PAKKAPURA R.NO.1",
+   "partId": 388081
+  },
+  {
+   "partNumber": 389,
+   "partName": "PU MA VI PAKKAPURA R NO 2",
+   "partId": 388140
+  },
+  {
+   "partNumber": 390,
+   "partName": "PRA. VI. CHHE VISVA R.NO.1",
+   "partId": 388082
+  },
+  {
+   "partNumber": 391,
+   "partName": "PRA. VI. ROOPPUR R.NO.1",
+   "partId": 388083
+  },
+  {
+   "partNumber": 392,
+   "partName": "PRA. VI. GATTPURA R.NO.1",
+   "partId": 388084
+  },
+  {
+   "partNumber": 393,
+   "partName": "PRA. VI. TIBAHA R.NO.1",
+   "partId": 388085
+  },
+  {
+   "partNumber": 394,
+   "partName": "PRA VI TIBAHA R NO 2",
+   "partId": 388141
+  },
+  {
+   "partNumber": 395,
+   "partName": "PRA. VI. TADAWALI R.NO.1",
+   "partId": 388086
+  },
+  {
+   "partNumber": 396,
+   "partName": "PRA. VI. SANKURI KHURD R.NO.1",
+   "partId": 388087
+  },
+  {
+   "partNumber": 397,
+   "partName": "PRA. VI. SANKURI KHURD R.NO.2",
+   "partId": 388088
+  },
+  {
+   "partNumber": 398,
+   "partName": "U.PRA. VI. BILAUNI COMPOSITE R.NO.1",
+   "partId": 388089
+  },
+  {
+   "partNumber": 399,
+   "partName": "PRA. VI. SANKURI KALAN R.NO.1",
+   "partId": 388090
+  },
+  {
+   "partNumber": 400,
+   "partName": "PRA. VI. SILAWALI R.NO.1",
+   "partId": 388091
+  },
+  {
+   "partNumber": 401,
+   "partName": "PRA. VI. DHANAULAKHURD R.NO.1",
+   "partId": 388092
+  },
+  {
+   "partNumber": 402,
+   "partName": "PRA. VI. BEGUMPUR R.NO.1",
+   "partId": 388093
+  },
+  {
+   "partNumber": 403,
+   "partName": "PRA. VI. NAGLA MAWAI R.NO.1",
+   "partId": 388094
+  },
+  {
+   "partNumber": 404,
+   "partName": "PRA. VI. TARAULI GUJAR R.NO.1",
+   "partId": 388095
+  },
+  {
+   "partNumber": 405,
+   "partName": "PRA. VI. GURJA NANDAN R.NO.1",
+   "partId": 388096
+  },
+  {
+   "partNumber": 406,
+   "partName": "PRA. VI. RIHAWALI R.NO.1",
+   "partId": 388097
+  },
+  {
+   "partNumber": 407,
+   "partName": "PRA VI RIHAWALI R NO 2",
+   "partId": 388142
+  },
+  {
+   "partNumber": 408,
+   "partName": "PU. MA. VI. VARNA R.NO.1",
+   "partId": 388098
+  },
+  {
+   "partNumber": 409,
+   "partName": "PU. MA. VI. VARNA R.NO.2",
+   "partId": 388099
+  },
+  {
+   "partNumber": 410,
+   "partName": "PRA. VI. PEERDANDA R.NO.1",
+   "partId": 388100
+  }
+ ]
+}

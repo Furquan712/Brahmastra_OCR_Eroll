@@ -2,7 +2,7 @@
  "stateCd": "S24",
  "districtCd": "S2406",
  "acNumber": 63,
- "fetchedAt": "2026-10-30T05:40:33",
+ "fetchedAt": "2026-11-01T08:34:14",
  "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
  "count": 419,
  "maxPart": 419,

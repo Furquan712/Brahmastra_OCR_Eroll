@@ -1,0 +1,2412 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2408",
+ "acNumber": 87,
+ "fetchedAt": "2026-11-01T08:34:28",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 480,
+ "maxPart": 480,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "COLLECTRATE KACHERI NAI IMARAT R. N. 1",
+   "partId": 422248
+  },
+  {
+   "partNumber": 2,
+   "partName": "COLLECTRATE KACHERI NAI IMARAT R. N. 2",
+   "partId": 422249
+  },
+  {
+   "partNumber": 3,
+   "partName": "COLLECTRATE KACHERI NAI IMARAT R. N. 3",
+   "partId": 422250
+  },
+  {
+   "partNumber": 4,
+   "partName": "COLLECTRATE KACHERI NAI IMARAT R. N. 4",
+   "partId": 423229
+  },
+  {
+   "partNumber": 5,
+   "partName": "HOLLMEN INSTITUTE M.G ROAD R. N. 1",
+   "partId": 422251
+  },
+  {
+   "partNumber": 6,
+   "partName": "HOLLMEN INSTITUTE M.G ROAD R. N. 2",
+   "partId": 422252
+  },
+  {
+   "partNumber": 7,
+   "partName": "HOLLMEN INSTITUTE M.G ROAD R. N. 3",
+   "partId": 422253
+  },
+  {
+   "partNumber": 8,
+   "partName": "HOLLMEN INSTITUTE M.G ROAD R. N. 4",
+   "partId": 422254
+  },
+  {
+   "partNumber": 9,
+   "partName": "HOLLMEN INSTITUTE M.G ROAD R. N. 5",
+   "partId": 422255
+  },
+  {
+   "partNumber": 10,
+   "partName": "POLICE LINE MODERN SCHOOL POLICE LINE R.N-1",
+   "partId": 422256
+  },
+  {
+   "partNumber": 11,
+   "partName": "POLICE LINE MODERN SCHOOL POLICE LINE R.N-2",
+   "partId": 422257
+  },
+  {
+   "partNumber": 12,
+   "partName": "SIDDARTH VIDHYAPEEDH CHAKKI PAAT R.N-1",
+   "partId": 422258
+  },
+  {
+   "partNumber": 13,
+   "partName": "SIDDARTH VIDHYAPEEDH CHAKKI PAAT R.N-2",
+   "partId": 422259
+  },
+  {
+   "partNumber": 14,
+   "partName": "SIDDARTH VIDHYAPEEDH CHAKKI PAAT R.N-3",
+   "partId": 422260
+  },
+  {
+   "partNumber": 15,
+   "partName": "SIDDARTH U0 M0 VIDHYALAY CHAKKI PAAT R.N-4",
+   "partId": 423230
+  },
+  {
+   "partNumber": 16,
+   "partName": "NAVYUG KANYA J.H KAAZI PAADA R.N.-1",
+   "partId": 422261
+  },
+  {
+   "partNumber": 17,
+   "partName": "NAVYUG KANYA J.H KAAZI PAADA R.N.-2",
+   "partId": 422262
+  },
+  {
+   "partNumber": 18,
+   "partName": "NAVYUG KANYA J.H KAAZI PAADA R.N.-3",
+   "partId": 422263
+  },
+  {
+   "partNumber": 19,
+   "partName": "NAVYUG KANYA J.H KAAZI PAADA R.N.-4",
+   "partId": 422264
+  },
+  {
+   "partNumber": 20,
+   "partName": "HUBBLAL I.C BALUGANJ R.N.-1",
+   "partId": 422265
+  },
+  {
+   "partNumber": 21,
+   "partName": "HUBBLAL I.C BALUGANJ R.N.-2",
+   "partId": 422266
+  },
+  {
+   "partNumber": 22,
+   "partName": "HUBBLAL I.C BALUGANJ R.N.-3",
+   "partId": 422267
+  },
+  {
+   "partNumber": 23,
+   "partName": "HUBBLAL I.C BALUGANJ R.N.-4",
+   "partId": 422268
+  },
+  {
+   "partNumber": 24,
+   "partName": "HUBBLAL I.C BALUGANJ R.N.-5",
+   "partId": 422269
+  },
+  {
+   "partNumber": 25,
+   "partName": "SINGARI BAI KANYA I.C BALUGANJ R.N.-1",
+   "partId": 422270
+  },
+  {
+   "partNumber": 26,
+   "partName": "SINGARI BAI KANYA I.C BALUGANJ R.N.-2",
+   "partId": 422271
+  },
+  {
+   "partNumber": 27,
+   "partName": "GOPICHAND SHIVHARE SANATAN DHARM I.C SHEHJAADI MANDI R.N.-1",
+   "partId": 422272
+  },
+  {
+   "partNumber": 28,
+   "partName": "GOPICHAND SHIVHARE SANATAN DHARM I.C SHEHJAADI MANDI R.N.-2",
+   "partId": 422273
+  },
+  {
+   "partNumber": 29,
+   "partName": "GOPICHAND SHIVHARE SANATAN DHARM I.C SHEHJAADI MANDI R.N.-3",
+   "partId": 422274
+  },
+  {
+   "partNumber": 30,
+   "partName": "GOPICHAND SHIVHARE SANATAN DHARM I.C SHEHJAADI MANDI R.N.-4",
+   "partId": 422275
+  },
+  {
+   "partNumber": 31,
+   "partName": "ANGLO BANGALI KANYA I.C BALUGANJ R.N.-1",
+   "partId": 422276
+  },
+  {
+   "partNumber": 32,
+   "partName": "ANGLO BANGALI KANYA I.C BALUGANJ R.N.-2",
+   "partId": 422277
+  },
+  {
+   "partNumber": 33,
+   "partName": "ANGLO BANGALI KANYA I.C BALUGANJ R.N.-3",
+   "partId": 422278
+  },
+  {
+   "partNumber": 34,
+   "partName": "ANGLO BANGALI KANYA I.C BALUGANJ R.N.-4",
+   "partId": 422279
+  },
+  {
+   "partNumber": 35,
+   "partName": "ANGLO BANGALI KANYA I.C BALUGANJ R.N.-5",
+   "partId": 422280
+  },
+  {
+   "partNumber": 36,
+   "partName": "ANGLO BANGALI KANYA I.C BALUGANJ R.N.-6",
+   "partId": 422281
+  },
+  {
+   "partNumber": 37,
+   "partName": "ANGLO BANGALI KANYA I.C BALUGANJ R.N.-7",
+   "partId": 422282
+  },
+  {
+   "partNumber": 38,
+   "partName": "ANGLO BANGALI KANYA I.C BALUGANJ R.N.-8",
+   "partId": 422283
+  },
+  {
+   "partNumber": 39,
+   "partName": "PARI BE PRA PA RAKABGANJ R.N.-1",
+   "partId": 422284
+  },
+  {
+   "partNumber": 40,
+   "partName": "PARI BE PRA PA RAKABGANJ R.N.-2",
+   "partId": 422285
+  },
+  {
+   "partNumber": 41,
+   "partName": "PARI BE PRA PA RAKABGANJ R.N.-3",
+   "partId": 422286
+  },
+  {
+   "partNumber": 42,
+   "partName": "BE PARI VIDHYALAY CHHIPITOLA R.N.-1",
+   "partId": 422287
+  },
+  {
+   "partNumber": 43,
+   "partName": "BE PARI VIDHYALAY CHHIPITOLA R.N.-2",
+   "partId": 422288
+  },
+  {
+   "partNumber": 44,
+   "partName": "BE PARI VIDHYALAY CHHIPITOLA R.N.-3",
+   "partId": 422289
+  },
+  {
+   "partNumber": 45,
+   "partName": "BAPTIST HR SEC M.G ROAD R.N.-1",
+   "partId": 422290
+  },
+  {
+   "partNumber": 46,
+   "partName": "BAPTIST HR SEC M.G ROAD R.N.-2",
+   "partId": 422291
+  },
+  {
+   "partNumber": 47,
+   "partName": "BAPTIST HR SEC M.G ROAD R.N.-3",
+   "partId": 422292
+  },
+  {
+   "partNumber": 48,
+   "partName": "BAPTIST HR SEC M.G ROAD R.N.-4",
+   "partId": 422293
+  },
+  {
+   "partNumber": 49,
+   "partName": "BAPTIST HR SEC M.G ROAD R.N.-5",
+   "partId": 422294
+  },
+  {
+   "partNumber": 50,
+   "partName": "BAPTIST HR SEC M.G ROAD R.N.-6",
+   "partId": 422295
+  },
+  {
+   "partNumber": 51,
+   "partName": "BEPTIST PRIMARI SCHOOL R.N-1",
+   "partId": 422296
+  },
+  {
+   "partNumber": 52,
+   "partName": "BEPTIST PRIMARI SCHOOL R.N-2",
+   "partId": 422297
+  },
+  {
+   "partNumber": 53,
+   "partName": "BEPTIST PRIMARI SCHOOL R.N-3",
+   "partId": 422298
+  },
+  {
+   "partNumber": 54,
+   "partName": "BE PARI PU MA VI KANYA NAMNER R.N-1",
+   "partId": 422299
+  },
+  {
+   "partNumber": 55,
+   "partName": "BE PARI PU MA VI KANYA NAMNER R.N-2",
+   "partId": 422300
+  },
+  {
+   "partNumber": 56,
+   "partName": "BE PARI PU MA VI KANYA NAMNER R.N-3",
+   "partId": 422301
+  },
+  {
+   "partNumber": 57,
+   "partName": "BE PARI PU MA VI KANYA NAMNER R.N-4",
+   "partId": 422302
+  },
+  {
+   "partNumber": 58,
+   "partName": "BE PARI PU MA VI KANYA NAMNER R.N-5",
+   "partId": 422303
+  },
+  {
+   "partNumber": 59,
+   "partName": "COMPOSITE VI RAJENDRA NAGAR IDGAH COLONY R.N-1",
+   "partId": 422304
+  },
+  {
+   "partNumber": 60,
+   "partName": "COMPOSITE VI RAJENDRA NAGAR IDGAH COLONY R.N-2",
+   "partId": 422305
+  },
+  {
+   "partNumber": 61,
+   "partName": "COMPOSITE VI RAJENDRA NAGAR IDGAH COLONY R.N-3",
+   "partId": 422306
+  },
+  {
+   "partNumber": 62,
+   "partName": "COMPOSITE VI RAJENDRA NAGAR IDGAH COLONY R.N-4",
+   "partId": 422307
+  },
+  {
+   "partNumber": 63,
+   "partName": "COMPOSITE VI RAJENDRA NAGAR IDGAH COLONY R.N-5",
+   "partId": 422308
+  },
+  {
+   "partNumber": 64,
+   "partName": "COMPOSITE VI RAJENDRA NAGAR IDGAH COLONY R.N-6",
+   "partId": 422309
+  },
+  {
+   "partNumber": 65,
+   "partName": "COMPOSITE VI RAJENDRA NAGAR IDGAH COLONY R.N-7",
+   "partId": 422310
+  },
+  {
+   "partNumber": 66,
+   "partName": "VASMATI JU H NAGLA CHAHUA R.N-1",
+   "partId": 422567
+  },
+  {
+   "partNumber": 67,
+   "partName": "VASMATI JU H NAGLA CHAHUA R.N-2",
+   "partId": 422568
+  },
+  {
+   "partNumber": 68,
+   "partName": "VASMATI JU H NAGLA CHAHUA R.N-3",
+   "partId": 422569
+  },
+  {
+   "partNumber": 69,
+   "partName": "VASMATI JU H NAGLA CHAHUA R.N-4",
+   "partId": 422570
+  },
+  {
+   "partNumber": 70,
+   "partName": "VASMATI JU H NAGLA CHAHUA R.N-5",
+   "partId": 422571
+  },
+  {
+   "partNumber": 71,
+   "partName": "VASMATI JU H NAGLA CHAHUA R.N-6",
+   "partId": 422572
+  },
+  {
+   "partNumber": 72,
+   "partName": "SENT MERI I C VEST ARJUN NAGAR R.N-1",
+   "partId": 422573
+  },
+  {
+   "partNumber": 73,
+   "partName": "SENT MERI I C WEST ARJUN NAGAR R.N-2",
+   "partId": 422574
+  },
+  {
+   "partNumber": 74,
+   "partName": "SENT MERI I C WEST ARJUN NAGAR R.N-3",
+   "partId": 422575
+  },
+  {
+   "partNumber": 75,
+   "partName": "SENT MERI I C WEST ARJUN NAGAR R.N-4",
+   "partId": 422576
+  },
+  {
+   "partNumber": 76,
+   "partName": "RAJ VIDHYA MANDIR WEST ARJUN NAGAR R.N-1",
+   "partId": 422577
+  },
+  {
+   "partNumber": 77,
+   "partName": "RAJ VIDHYA MANDIR WEST ARJUN NAGAR R.N-2",
+   "partId": 422578
+  },
+  {
+   "partNumber": 78,
+   "partName": "RAJ VIDHYA MANDIR WEST ARJUN NAGAR R.N-3",
+   "partId": 422579
+  },
+  {
+   "partNumber": 79,
+   "partName": "D.C VADIC I C SHIBD SAHNI NAGAR R.N-1",
+   "partId": 422580
+  },
+  {
+   "partNumber": 80,
+   "partName": "D.C VADIC I C SHIBD SAHNI NAGAR R.N-2",
+   "partId": 422581
+  },
+  {
+   "partNumber": 81,
+   "partName": "D.C VADIC I C SHIBD SAHNI NAGAR R.N-3",
+   "partId": 422582
+  },
+  {
+   "partNumber": 82,
+   "partName": "D.C VADIC I C SHIBD SAHNI NAGAR R.N-4",
+   "partId": 422583
+  },
+  {
+   "partNumber": 83,
+   "partName": "D.C VADIC I C SHIBD SAHNI NAGAR R.N-5",
+   "partId": 422584
+  },
+  {
+   "partNumber": 84,
+   "partName": "DAYANAND BAL MANDIR SULTANPURA R.N-1",
+   "partId": 422585
+  },
+  {
+   "partNumber": 85,
+   "partName": "DAYANAND BAL MANDIR SULTANPURA R.N-2",
+   "partId": 422586
+  },
+  {
+   "partNumber": 86,
+   "partName": "DAYANAND BAL MANDIR SULTANPURA R.N-3",
+   "partId": 422587
+  },
+  {
+   "partNumber": 87,
+   "partName": "DAYANAND BAL MANDIR SULTANPURA R.N-4",
+   "partId": 422588
+  },
+  {
+   "partNumber": 88,
+   "partName": "CHAVNI PARISHAD PRA VI SULTANPURA R.N-1",
+   "partId": 422589
+  },
+  {
+   "partNumber": 89,
+   "partName": "CHAVNI PARISHAD PRA VI SULTANPURA R.N-2",
+   "partId": 422590
+  },
+  {
+   "partNumber": 90,
+   "partName": "CHAVNI PARISHAD PRA VI SULTANPURA R.N-3",
+   "partId": 422591
+  },
+  {
+   "partNumber": 91,
+   "partName": "CHAVNI PARISHAD PRA VI SULTANPURA R.N-4",
+   "partId": 422592
+  },
+  {
+   "partNumber": 92,
+   "partName": "MAYA RANI I C WEST ARJUN NAGAR KHERIA MOD R.N-1",
+   "partId": 422593
+  },
+  {
+   "partNumber": 93,
+   "partName": "MAYA RANI I C WEST ARJUN NAGAR KHERIA MOD R.N-2",
+   "partId": 422594
+  },
+  {
+   "partNumber": 94,
+   "partName": "MAYA RANI I C WEST ARJUN NAGAR KHERIA MOD R.N-3",
+   "partId": 422595
+  },
+  {
+   "partNumber": 95,
+   "partName": "MAYA RANI I C WEST ARJUN NAGAR KHERIA MOD R.N-4",
+   "partId": 422596
+  },
+  {
+   "partNumber": 96,
+   "partName": "MAYA RANI I C WEST ARJUN NAGAR KHERIA MOD R.N-5",
+   "partId": 422597
+  },
+  {
+   "partNumber": 97,
+   "partName": "ANAND I.C. ARJUN NAGAR R.N-1",
+   "partId": 422598
+  },
+  {
+   "partNumber": 98,
+   "partName": "ANAND I.C. ARJUN NAGAR R.N-2",
+   "partId": 422599
+  },
+  {
+   "partNumber": 99,
+   "partName": "ANAND I.C. ARJUN NAGAR R.N-3",
+   "partId": 422600
+  },
+  {
+   "partNumber": 100,
+   "partName": "ANAND I.C. ARJUN NAGAR R.N-4",
+   "partId": 422601
+  },
+  {
+   "partNumber": 101,
+   "partName": "ANAND I.C. ARJUN NAGAR R.N-5",
+   "partId": 422602
+  },
+  {
+   "partNumber": 102,
+   "partName": "ANAND I.C. ARJUN NAGAR R.N-6",
+   "partId": 422603
+  },
+  {
+   "partNumber": 103,
+   "partName": "ANAND I.C. ARJUN NAGAR R.N-7",
+   "partId": 422604
+  },
+  {
+   "partNumber": 104,
+   "partName": "SHELLY HR SEC SCHOOL P.N.T COLONY CANTT FATAK AGRA R.N-1",
+   "partId": 422605
+  },
+  {
+   "partNumber": 105,
+   "partName": "SHELLY HR SEC SCHOOL P.N.T COLONY CANTT FATAK AGRA R.N-2",
+   "partId": 422606
+  },
+  {
+   "partNumber": 106,
+   "partName": "PANCHAYTI BHAVAN NAGLA FAKIR CHAND BEECH KI /BASTI AGRA R.N-1",
+   "partId": 422607
+  },
+  {
+   "partNumber": 107,
+   "partName": "PANCHAYTI BHAVAN NAGLA FAKIR CHAND BEECH KI /BASTI AGRA R.N-2",
+   "partId": 422608
+  },
+  {
+   "partNumber": 108,
+   "partName": "PANCHAYAT BHAVAN NAGLA FAKIR CHAND R.N-1",
+   "partId": 422609
+  },
+  {
+   "partNumber": 109,
+   "partName": "PANCHAYAT BHAVAN NAGLA FAKIR CHAND R.N-2",
+   "partId": 422610
+  },
+  {
+   "partNumber": 110,
+   "partName": "GYAN BHARTI SCHOOL AYODHYA R.N-1",
+   "partId": 422611
+  },
+  {
+   "partNumber": 111,
+   "partName": "GYAN BHARTI SCHOOL AYODHYA R.N-2",
+   "partId": 422612
+  },
+  {
+   "partNumber": 112,
+   "partName": "SHIV BAL MANDIR JU H AYODHYAKUNG R.N-1",
+   "partId": 422613
+  },
+  {
+   "partNumber": 113,
+   "partName": "SHIV BAL MANDIR JU H AYODHYAKUNG R.N-2",
+   "partId": 422614
+  },
+  {
+   "partNumber": 114,
+   "partName": "SHIV BAL MANDIR JU H AYODHYAKUNG R.N-3",
+   "partId": 422615
+  },
+  {
+   "partNumber": 115,
+   "partName": "SHIV BAL MANDIR JU H AYODHYAKUNG R.N-4",
+   "partId": 422616
+  },
+  {
+   "partNumber": 116,
+   "partName": "SHIV BAL MANDIR JU H AYODHYAKUNG R.N-5",
+   "partId": 422617
+  },
+  {
+   "partNumber": 117,
+   "partName": "SHIV BAL MANDIR JU H AYODHYAKUNG R.N-6",
+   "partId": 422618
+  },
+  {
+   "partNumber": 118,
+   "partName": "SANT VINOVA BHAVE JU H SARAY KHWAJA R.N-1",
+   "partId": 422619
+  },
+  {
+   "partNumber": 119,
+   "partName": "SANT VINOVA BHAVE JU H SARAY KHWAJA R.N-2",
+   "partId": 422620
+  },
+  {
+   "partNumber": 120,
+   "partName": "DR PRATAP SINGH GIRLS I.C KHERIA MOD R.N-1",
+   "partId": 422621
+  },
+  {
+   "partNumber": 121,
+   "partName": "DR PRATAP SINGH GIRLS I.C KHERIA MOD R.N-2",
+   "partId": 422622
+  },
+  {
+   "partNumber": 122,
+   "partName": "DR PRATAP SINGH GIRLS I.C KHERIA MOD R.N-3",
+   "partId": 422623
+  },
+  {
+   "partNumber": 123,
+   "partName": "DR PRATAP SINGH GIRLS I.C KHERIA MOD R.N-4",
+   "partId": 422624
+  },
+  {
+   "partNumber": 124,
+   "partName": "DR PRATAP SINGH GIRLS I.C KHERIA MOD R.N-5",
+   "partId": 422625
+  },
+  {
+   "partNumber": 125,
+   "partName": "DR PRATAP SINGH GIRLS I.C KHERIA MOD R.N-6",
+   "partId": 422626
+  },
+  {
+   "partNumber": 126,
+   "partName": "SANT KABIR I.C KHWASPURA R.N-1",
+   "partId": 422627
+  },
+  {
+   "partNumber": 127,
+   "partName": "SANT KABIR I.C KHWASPURA R.N-2",
+   "partId": 422628
+  },
+  {
+   "partNumber": 128,
+   "partName": "SANT KABIR I.C KHWASPURA R.N-3",
+   "partId": 422629
+  },
+  {
+   "partNumber": 129,
+   "partName": "SANT KABIR I.C KHWASPURA R.N-4",
+   "partId": 422630
+  },
+  {
+   "partNumber": 130,
+   "partName": "SANT KABIR I.C KHWASPURA R.N-5",
+   "partId": 422887
+  },
+  {
+   "partNumber": 131,
+   "partName": "BHAWNA RANI KANYA INTER COLLEGE KHWASPURA R.N.-1",
+   "partId": 422888
+  },
+  {
+   "partNumber": 132,
+   "partName": "BHAWNA RANI KANYA INTER COLLEGE KHWASPURA R.N.-2",
+   "partId": 422889
+  },
+  {
+   "partNumber": 133,
+   "partName": "ST. G.S. P.I.C KHWASPURA R.N-1",
+   "partId": 422890
+  },
+  {
+   "partNumber": 134,
+   "partName": "ST. G.S. P.I.C KHWASPURA R.N-2",
+   "partId": 422891
+  },
+  {
+   "partNumber": 135,
+   "partName": "ST. G.S. P.I.C KHWASPURA R.N-3",
+   "partId": 422892
+  },
+  {
+   "partNumber": 136,
+   "partName": "ST. G.S. P.I.C KHWASPURA R.N-4",
+   "partId": 422893
+  },
+  {
+   "partNumber": 137,
+   "partName": "ST. G.S. P.I.C KHWASPURA R.N-5",
+   "partId": 422894
+  },
+  {
+   "partNumber": 138,
+   "partName": "SENT G.S. P.I.C KHWASPURA R.N-6",
+   "partId": 423231
+  },
+  {
+   "partNumber": 139,
+   "partName": "SAMUDAYIC KENDRA AKBARPUR KHWASPURA R.N-1",
+   "partId": 422895
+  },
+  {
+   "partNumber": 140,
+   "partName": "SAMUDAYIC KENDRA KHWASPURA R.N-1",
+   "partId": 422896
+  },
+  {
+   "partNumber": 141,
+   "partName": "CHHOTELAL I.C RADHE WALI GALI SHAIVNAGAR R.N-1",
+   "partId": 422897
+  },
+  {
+   "partNumber": 142,
+   "partName": "CHHOTELAL I.C RADHE WALI GALI SHAIVNAGAR R.N-2",
+   "partId": 422898
+  },
+  {
+   "partNumber": 143,
+   "partName": "CHHOTELAL I.C RADHE WALI GALI SHAIVNAGAR R.N-3",
+   "partId": 422899
+  },
+  {
+   "partNumber": 144,
+   "partName": "CHHOTELAL I.C RADHE WALI GALI SHAIVNAGAR R.N-4",
+   "partId": 422900
+  },
+  {
+   "partNumber": 145,
+   "partName": "CHHOTELAL I.C RADHE WALI GALI SHAIVNAGAR R.N-5",
+   "partId": 422901
+  },
+  {
+   "partNumber": 146,
+   "partName": "SHEHZADI BEGUM I.C MAHAVIR NAGAR SHIVNAGAR R.N-1",
+   "partId": 422902
+  },
+  {
+   "partNumber": 147,
+   "partName": "SHEHZADI BEGUM I.C MAHAVIR NAGAR SHIVNAGAR R.N-2",
+   "partId": 422903
+  },
+  {
+   "partNumber": 148,
+   "partName": "SANT BUDDARAM I.C SHIVNAGAR R.N-1",
+   "partId": 422904
+  },
+  {
+   "partNumber": 149,
+   "partName": "SANT BUDDARAM I.C SHIVNAGAR R.N-2",
+   "partId": 422905
+  },
+  {
+   "partNumber": 150,
+   "partName": "SANT BUDDARAM I.C SHIVNAGAR R.N-3",
+   "partId": 422906
+  },
+  {
+   "partNumber": 151,
+   "partName": "SANT BUDDARAM I.C SHIVNAGAR R.N-4",
+   "partId": 422907
+  },
+  {
+   "partNumber": 152,
+   "partName": "ABDUL HAMID P SCHOOL KHWASPURA R.N-1",
+   "partId": 422908
+  },
+  {
+   "partNumber": 153,
+   "partName": "ABDUL HAMID P SCHOOL KHWASPURA R.N-2",
+   "partId": 422909
+  },
+  {
+   "partNumber": 154,
+   "partName": "ABDUL HAMID P SCHOOL KHWASPURA R.N-3",
+   "partId": 422910
+  },
+  {
+   "partNumber": 155,
+   "partName": "ABDUL HAMID P SCHOOL KHWASPURA R.N-4",
+   "partId": 423232
+  },
+  {
+   "partNumber": 156,
+   "partName": "ST. S.B. PUBLIC SCHOOL WAR WALI GALI NARIPURA R.N.-1",
+   "partId": 422911
+  },
+  {
+   "partNumber": 157,
+   "partName": "ST.S.B PUBLIC SCHOOL WAR WALI GALI NARIPURA R.N.-2",
+   "partId": 422912
+  },
+  {
+   "partNumber": 158,
+   "partName": "MORDERN ACEDEMY KIDWAI NAGAR R.N-1",
+   "partId": 422913
+  },
+  {
+   "partNumber": 159,
+   "partName": "MORDERN ACEDEMY KIDWAI NAGAR R.N-2",
+   "partId": 422914
+  },
+  {
+   "partNumber": 160,
+   "partName": "S.B.M JU.H. SARAY KHWAJA KIDWAI NAGAR R.N-1",
+   "partId": 422915
+  },
+  {
+   "partNumber": 161,
+   "partName": "S.B.M JU.H. SARAY KHWAJA KIDWAI NAGAR R.N-2",
+   "partId": 422916
+  },
+  {
+   "partNumber": 162,
+   "partName": "S.B.M JU.H. SARAY KHWAJA KIDWAI NAGAR R.N-3",
+   "partId": 422917
+  },
+  {
+   "partNumber": 163,
+   "partName": "CHHAVNI PARISHAD VIDHYALAY KACHHIPURA R.N.-1",
+   "partId": 422918
+  },
+  {
+   "partNumber": 164,
+   "partName": "CHHAVNI PARISHAD VIDHYALAY KACHHIPURA R.N.-2",
+   "partId": 422919
+  },
+  {
+   "partNumber": 165,
+   "partName": "CHHAVNI PARISHAD VIDHYALAY KACHHIPURA R.N.-3",
+   "partId": 422920
+  },
+  {
+   "partNumber": 166,
+   "partName": "AKHIL BRIJVASI U.M. VIDHYALAY MAHAVIR NAGAR AGRA R.N.-1",
+   "partId": 422921
+  },
+  {
+   "partNumber": 167,
+   "partName": "AKHIL BRIJVASI U.M. VIDHYALAY MAHAVIR NAGAR AGRA R.N.-2",
+   "partId": 422922
+  },
+  {
+   "partNumber": 168,
+   "partName": "S.D.M SCHOOL MUSTAFA KWARTER R.N-1",
+   "partId": 422923
+  },
+  {
+   "partNumber": 169,
+   "partName": "S.D.M SCHOOL MUSTAFA KWARTER R.N-2",
+   "partId": 422924
+  },
+  {
+   "partNumber": 170,
+   "partName": "S.D.M SCHOOL MUSTAFA KWARTER R.N-3",
+   "partId": 422925
+  },
+  {
+   "partNumber": 171,
+   "partName": "S.D.M SCHOOL MUSTAFA KWARTER R.N-4",
+   "partId": 422926
+  },
+  {
+   "partNumber": 172,
+   "partName": "S.D.M SCHOOL MUSTAFA KWARTER R.N-5",
+   "partId": 422927
+  },
+  {
+   "partNumber": 173,
+   "partName": "S.P.S. I.C.NEW JANTA COLONY R.N-1",
+   "partId": 422928
+  },
+  {
+   "partNumber": 174,
+   "partName": "S.P.S. I.C.NEW JANTA COLONY R.N-2",
+   "partId": 422929
+  },
+  {
+   "partNumber": 175,
+   "partName": "GEETA GYAN GIRLS I.C DIFFENCE COLONY CHAWLI R.N-1",
+   "partId": 422930
+  },
+  {
+   "partNumber": 176,
+   "partName": "GEETA GYAN GIRLS I.C DIFFENCE COLONY CHAWLI R.N-2",
+   "partId": 422931
+  },
+  {
+   "partNumber": 177,
+   "partName": "GEETA GYAN GIRLS I.C DIFFENCE COLONY CHAWLI R.N-3",
+   "partId": 422932
+  },
+  {
+   "partNumber": 178,
+   "partName": "GEETA GYAN GIRLS I.C DIFFENCE COLONY CHAWLI R.N-4",
+   "partId": 422933
+  },
+  {
+   "partNumber": 179,
+   "partName": "RAJEEV GANDHI H.SEC SCHOOL DIFFENCE COLONY R.N-1",
+   "partId": 422934
+  },
+  {
+   "partNumber": 180,
+   "partName": "RAJEEV GANDHI H.SEC SCHOOL DIFFENCE COLONY R.N-2",
+   "partId": 422935
+  },
+  {
+   "partNumber": 181,
+   "partName": "RAJEEV GANDHI H.SEC SCHOOL DIFFENCE COLONY R.N-3",
+   "partId": 422936
+  },
+  {
+   "partNumber": 182,
+   "partName": "RAJEEV GANDHI H.SEC SCHOOL DIFFENCE COLONY R.N-4",
+   "partId": 422937
+  },
+  {
+   "partNumber": 183,
+   "partName": "PRA.KA.VI TAAL FIROZ KHAN R.N-1",
+   "partId": 422938
+  },
+  {
+   "partNumber": 184,
+   "partName": "PRA.KA.VI TAAL FIROZ KHAN R.N-2",
+   "partId": 422939
+  },
+  {
+   "partNumber": 185,
+   "partName": "PRA.KA.VI TAAL FIROZ KHAN R.N-3",
+   "partId": 422940
+  },
+  {
+   "partNumber": 186,
+   "partName": "PRA.KA.VI TAAL FIROZ KHAN R.N-4",
+   "partId": 422941
+  },
+  {
+   "partNumber": 187,
+   "partName": "GOUTAM BUDD VACHNALAY TAAL FIROZ KHAN R.N-1",
+   "partId": 422942
+  },
+  {
+   "partNumber": 188,
+   "partName": "LAL BAHADUR SHASTRI I.C. MADHUNAGAR R.N-1",
+   "partId": 422943
+  },
+  {
+   "partNumber": 189,
+   "partName": "LAL BAHADUR SHASTRI I.C. MADHUNAGAR R.N-2",
+   "partId": 422944
+  },
+  {
+   "partNumber": 190,
+   "partName": "LAL BAHADUR SHASTRI I.C. MADHUNAGAR R.N-3",
+   "partId": 422945
+  },
+  {
+   "partNumber": 191,
+   "partName": "LAL BAHADUR SHASTRI I.C. MADHUNAGAR R.N-4",
+   "partId": 422946
+  },
+  {
+   "partNumber": 192,
+   "partName": "LAL BAHADUR SHASTRI I.C. MADHUNAGAR R.N-5",
+   "partId": 422947
+  },
+  {
+   "partNumber": 193,
+   "partName": "LAL BAHADUR SHASTRI I.C. MADHUNAGAR R.N-6",
+   "partId": 422948
+  },
+  {
+   "partNumber": 194,
+   "partName": "TELENT TEMPAL J.H.S FES-1, 98 DIFFENCE STATE GWAROAD R.N-2",
+   "partId": 422949
+  },
+  {
+   "partNumber": 195,
+   "partName": "TELENT TEMPAL J.H.S FES-1, 98 DIFFENCE STATE GWAROAD R.N-2",
+   "partId": 422950
+  },
+  {
+   "partNumber": 196,
+   "partName": "TELENT TEMPAL J.H.S FES-1, 98 DIFFENCE STATE GWAROAD R.N-3",
+   "partId": 422951
+  },
+  {
+   "partNumber": 197,
+   "partName": "NETAJI SUBHASH CHAND KANYA I.C.MADHUNAGAR R.N-1",
+   "partId": 422952
+  },
+  {
+   "partNumber": 198,
+   "partName": "NETAJI SUBHASH CHAND KANYA I.C.MADHUNAGAR R.N-2",
+   "partId": 422953
+  },
+  {
+   "partNumber": 199,
+   "partName": "NETAJI SUBHASH CHAND KANYA I.C.MADHUNAGAR R.N-3",
+   "partId": 422954
+  },
+  {
+   "partNumber": 200,
+   "partName": "NETAJI SUBHASH CHAND KANYA I.C.MADHUNAGAR R.N-4",
+   "partId": 422955
+  },
+  {
+   "partNumber": 201,
+   "partName": "NETAJI SUBHASH CHAND KANYA I.C.MADHUNAGAR R.N-5",
+   "partId": 422956
+  },
+  {
+   "partNumber": 202,
+   "partName": "ST G.D.PT I.C. CHANDAN NAGAR GUMMAT TAKHT PEHALWAN R.N-1",
+   "partId": 422957
+  },
+  {
+   "partNumber": 203,
+   "partName": "ST G.D.PT I.C. CHANDAN NAGAR GUMMAT TAKHT PEHALWAN R.N-2",
+   "partId": 422958
+  },
+  {
+   "partNumber": 204,
+   "partName": "ST G.D.PT I.C. CHANDAN NAGAR GUMMAT TAKHT PEHALWAN R.N-3",
+   "partId": 422959
+  },
+  {
+   "partNumber": 205,
+   "partName": "ST G.D.PT I.C. CHANDAN NAGAR GUMMAT TAKHT PEHALWAN R.N-4",
+   "partId": 422960
+  },
+  {
+   "partNumber": 206,
+   "partName": "ST G.D.PT I.C. CHANDAN NAGAR GUMMAT TAKHT PEHALWAN R.N-5",
+   "partId": 422961
+  },
+  {
+   "partNumber": 207,
+   "partName": "ST G.D.PT I.C. CHANDAN NAGAR GUMMAT TAKHT PEHALWAN R.N-6",
+   "partId": 422962
+  },
+  {
+   "partNumber": 208,
+   "partName": "ST G.D.PT I.C. CHANDAN NAGAR GUMMAT TAKHT PEHALWAN R.N-7",
+   "partId": 422963
+  },
+  {
+   "partNumber": 209,
+   "partName": "ST G.D.PT I.C. CHANDAN NAGAR GUMMAT TAKHT PEHALWAN R.N-8",
+   "partId": 422964
+  },
+  {
+   "partNumber": 210,
+   "partName": "PERAMOUNT HR.SEC SCHOOL RAMVIHAR COLONY FES-3 DEVRI ROAD R.N-1",
+   "partId": 422965
+  },
+  {
+   "partNumber": 211,
+   "partName": "PERAMOUNT HR.SEC SCHOOL RAMVIHAR COLONY FES-3 DEVRI ROAD R.N-2",
+   "partId": 422966
+  },
+  {
+   "partNumber": 212,
+   "partName": "PERAMOUNT HR.SEC SCHOOL RAMVIHAR COLONY FES-3 DEVRI ROAD R.N-3",
+   "partId": 422967
+  },
+  {
+   "partNumber": 213,
+   "partName": "PERAMOUNT HR.SEC SCHOOL RAMVIHAR COLONY FES-3 DEVRI ROAD R.N-4",
+   "partId": 422968
+  },
+  {
+   "partNumber": 214,
+   "partName": "PERAMOUNT HR.SEC SCHOOL RAMVIHAR COLONY FES-3 DEVRI ROAD R.N-5",
+   "partId": 422969
+  },
+  {
+   "partNumber": 215,
+   "partName": "PERAMOUNT HR.SEC SCHOOL RAMVIHAR COLONY FES-3 DEVRI ROAD R.N-6",
+   "partId": 422970
+  },
+  {
+   "partNumber": 216,
+   "partName": "SARVODAY I.C HEERAKUNJ DEVRI ROAD AGRA R.N-1",
+   "partId": 422971
+  },
+  {
+   "partNumber": 217,
+   "partName": "SARVODAY I.C HEERAKUNJ DEVRI ROAD AGRA R.N-2",
+   "partId": 422972
+  },
+  {
+   "partNumber": 218,
+   "partName": "SARVODAY I.C HEERAKUNJ DEVRI ROAD AGRA R.N-3",
+   "partId": 422973
+  },
+  {
+   "partNumber": 219,
+   "partName": "SARVODAY I.C HEERAKUNJ DEVRI ROAD AGRA R.N-4",
+   "partId": 422974
+  },
+  {
+   "partNumber": 220,
+   "partName": "SARVODAY I.C HEERAKUNJ DEVRI ROAD AGRA R.N-5",
+   "partId": 422975
+  },
+  {
+   "partNumber": 221,
+   "partName": "ST. QUEEN MERRY HR. SEC BUNDUKATRA R.N-1",
+   "partId": 422976
+  },
+  {
+   "partNumber": 222,
+   "partName": "ST. QUEEN MERRY HR. SEC BUNDUKATRA R.N-2",
+   "partId": 422977
+  },
+  {
+   "partNumber": 223,
+   "partName": "ST. QUEEN MERRY HR. SEC BUNDUKATRA R.N-3",
+   "partId": 422978
+  },
+  {
+   "partNumber": 224,
+   "partName": "TEGORE BAL NIKETAN DIFFENCE STATE R.N-1",
+   "partId": 422979
+  },
+  {
+   "partNumber": 225,
+   "partName": "TEGORE BAL NIKETAN DIFFENCE STATE R.N-2",
+   "partId": 422980
+  },
+  {
+   "partNumber": 226,
+   "partName": "TEGORE BAL NIKETAN DIFFENCE STATE R.N-3",
+   "partId": 422981
+  },
+  {
+   "partNumber": 227,
+   "partName": "N.C. VEDIK I.C. KACHIPURA R.N-1",
+   "partId": 422982
+  },
+  {
+   "partNumber": 228,
+   "partName": "N.C. VEDIK I.C. KACHIPURA R.N-2",
+   "partId": 422983
+  },
+  {
+   "partNumber": 229,
+   "partName": "N.C. VEDIK I.C. KACHIPURA R.N-3",
+   "partId": 422984
+  },
+  {
+   "partNumber": 230,
+   "partName": "N.C. VEDIK I.C. KACHIPURA R.N-4",
+   "partId": 422985
+  },
+  {
+   "partNumber": 231,
+   "partName": "N.C. VEDIK I.C. KACHIPURA R.N-5",
+   "partId": 422986
+  },
+  {
+   "partNumber": 232,
+   "partName": "N.C. VEDIK I.C. KACHIPURA R.N-6",
+   "partId": 422987
+  },
+  {
+   "partNumber": 233,
+   "partName": "CHAVNI PARISHAD PRA VI NO-2 GOPICHAND SHIVHARE MARG SADAR BAZAR R.N-1",
+   "partId": 422988
+  },
+  {
+   "partNumber": 234,
+   "partName": "CHAVNI PARISHAD PRA VI NO-2 GOPICHAND SHIVHARE MARG SADAR BAZAR R.N-2",
+   "partId": 422989
+  },
+  {
+   "partNumber": 235,
+   "partName": "CHAVNI PARISHAD PRA VI NO-2 GOPICHAND SHIVHARE MARG SADAR BAZAR R.N-3",
+   "partId": 422990
+  },
+  {
+   "partNumber": 236,
+   "partName": "CHAVNI PARISHAD PRA VI NO-2 GOPICHAND SHIVHARE MARG SADAR BAZAR R.N-4",
+   "partId": 422991
+  },
+  {
+   "partNumber": 237,
+   "partName": "RAINBOW CANTONMENT PUBLIC SCHOOL TAJ ROAD R.N-1",
+   "partId": 422992
+  },
+  {
+   "partNumber": 238,
+   "partName": "RAINBOW CANTONMENT PUBLIC SCHOOL TAJ ROAD R.N-2",
+   "partId": 422993
+  },
+  {
+   "partNumber": 239,
+   "partName": "RAINBOW CANTONMENT PUBLIC SCHOOL TAJ ROAD R.N-3",
+   "partId": 422994
+  },
+  {
+   "partNumber": 240,
+   "partName": "RAINBOW CANTONMENT PUBLIC SCHOOL TAJ ROAD R.N-4",
+   "partId": 422995
+  },
+  {
+   "partNumber": 241,
+   "partName": "RAINBOW CANTONMENT PUBLIC SCHOOL TAJ ROAD R.N-5",
+   "partId": 422996
+  },
+  {
+   "partNumber": 242,
+   "partName": "PANCHSHEEL I,C DEVRI ROAD R.N-1",
+   "partId": 422997
+  },
+  {
+   "partNumber": 243,
+   "partName": "PANCHSHEEL I,C DEVRI ROAD R.N-2",
+   "partId": 422998
+  },
+  {
+   "partNumber": 244,
+   "partName": "PANCHSHEEL I,C DEVRI ROAD R.N-3",
+   "partId": 422999
+  },
+  {
+   "partNumber": 245,
+   "partName": "PANCHSHEEL I,C DEVRI ROAD R.N-4",
+   "partId": 423000
+  },
+  {
+   "partNumber": 246,
+   "partName": "PANCHSHEEL I,C DEVRI ROAD R.N-5",
+   "partId": 423001
+  },
+  {
+   "partNumber": 247,
+   "partName": "PANCHSHEEL I,C DEVRI ROAD R.N-6",
+   "partId": 423002
+  },
+  {
+   "partNumber": 248,
+   "partName": "PANCHSHEEL I,C DEVRI ROAD R.N-7",
+   "partId": 423003
+  },
+  {
+   "partNumber": 249,
+   "partName": "CHANDA DEVI U.M.V UKHARRA ROAD R.N-1",
+   "partId": 423004
+  },
+  {
+   "partNumber": 250,
+   "partName": "CHANDA DEVI U.M.V UKHARRA ROAD R.N-2",
+   "partId": 423005
+  },
+  {
+   "partNumber": 251,
+   "partName": "CHANDA DEVI U.M.V UKHARRA ROAD R.N-3",
+   "partId": 423006
+  },
+  {
+   "partNumber": 252,
+   "partName": "CHANDA DEVI U.M.V UKHARRA ROAD R.N-4",
+   "partId": 423007
+  },
+  {
+   "partNumber": 253,
+   "partName": "CHANDA DEVI U.M.V UKHARRA ROAD R.N-5",
+   "partId": 423008
+  },
+  {
+   "partNumber": 254,
+   "partName": "HARIPYARI DEVI GIRLS DIGRI COLLEGE JANGJEET NAGAR RAJPUR CHUNGI R.N-1",
+   "partId": 423009
+  },
+  {
+   "partNumber": 255,
+   "partName": "HARIPYARI DEVI GIRLS DIGRI COLLEGE JANGJEET NAGAR RAJPUR CHUNGI R.N-2",
+   "partId": 423010
+  },
+  {
+   "partNumber": 256,
+   "partName": "HARIPYARI DEVI GIRLS DIGRI COLLEGE JANGJEET NAGAR RAJPUR CHUNGI R.N-3",
+   "partId": 423011
+  },
+  {
+   "partNumber": 257,
+   "partName": "HARIPYARI DEVI GIRLS DIGRI COLLEGE JANGJEET NAGAR RAJPUR CHUNGI R.N-4",
+   "partId": 423012
+  },
+  {
+   "partNumber": 258,
+   "partName": "HARIPYARI DEVI GIRLS DIGRI COLLEGE JANGJEET NAGAR RAJPUR CHUNGI R.N-5",
+   "partId": 423013
+  },
+  {
+   "partNumber": 259,
+   "partName": "HARIPYARI DEVI GIRLS DIGRI COLLEGE JANGJEET NAGAR RAJPUR CHUNGI R.N-6",
+   "partId": 423014
+  },
+  {
+   "partNumber": 260,
+   "partName": "GYAN BHARTI I.C. JANGJEET NAGAR RAJPUR CHUNGI R.N-1",
+   "partId": 423015
+  },
+  {
+   "partNumber": 261,
+   "partName": "GYAN BHARTI I.C. JANGJEET NAGAR RAJPUR CHUNGI R.N-2",
+   "partId": 423016
+  },
+  {
+   "partNumber": 262,
+   "partName": "GYAN BHARTI I.C. SHAMSHABAD ROAD R.N-1",
+   "partId": 423017
+  },
+  {
+   "partNumber": 263,
+   "partName": "GYAN BHARTI I.C. SHAMSHABAD ROAD R.N-2",
+   "partId": 423018
+  },
+  {
+   "partNumber": 264,
+   "partName": "GYAN BHARTI I.C. SHAMSHABAD ROAD R.N-3",
+   "partId": 423019
+  },
+  {
+   "partNumber": 265,
+   "partName": "GYAN BHARTI I.C. SHAMSHABAD ROAD R.N-4",
+   "partId": 423020
+  },
+  {
+   "partNumber": 266,
+   "partName": "GYAN BHARTI I.C. SHAMSHABAD ROAD R.N-5",
+   "partId": 423021
+  },
+  {
+   "partNumber": 267,
+   "partName": "GYAN BHARTI I.C. SHAMSHABAD ROAD R.N-6",
+   "partId": 423022
+  },
+  {
+   "partNumber": 268,
+   "partName": "DR.RAJENDRA PRASAD I.C. RAJPUR R.N-1",
+   "partId": 423023
+  },
+  {
+   "partNumber": 269,
+   "partName": "DR.RAJENDRA PRASAD I.C. RAJPUR R.N-2",
+   "partId": 423024
+  },
+  {
+   "partNumber": 270,
+   "partName": "DR.RAJENDRA PRASAD I.C. RAJPUR R.N-3",
+   "partId": 423025
+  },
+  {
+   "partNumber": 271,
+   "partName": "DR.RAJENDRA PRASAD I.C. RAJPUR R.N-4",
+   "partId": 423026
+  },
+  {
+   "partNumber": 272,
+   "partName": "DR.RAJENDRA PRASAD I.C. RAJPUR R.N-5",
+   "partId": 423027
+  },
+  {
+   "partNumber": 273,
+   "partName": "DR.RAJENDRA PRASAD I.C. RAJPUR R.N-6",
+   "partId": 423028
+  },
+  {
+   "partNumber": 274,
+   "partName": "GYAN BHARTI GIRL,S I.C LAXMIPURAM UKHARRA ROAD R.N-1",
+   "partId": 423029
+  },
+  {
+   "partNumber": 275,
+   "partName": "GYAN BHARTI GIRL,S I.C LAXMINAGAR UKHARRA ROAD R.N-2",
+   "partId": 423030
+  },
+  {
+   "partNumber": 276,
+   "partName": "GYAN BHARTI GIRL,S I.C LAXMIPURAM UKHARRA ROAD R.N-3",
+   "partId": 423031
+  },
+  {
+   "partNumber": 277,
+   "partName": "GYAN BHARTI GIRL,S I.C LAXMIPURAM UKHARRA ROAD R.N-4",
+   "partId": 423032
+  },
+  {
+   "partNumber": 278,
+   "partName": "GYAN BHARTI GIRL,S I.C LAXMIPURAM UKHARRA ROAD R.N-5",
+   "partId": 423033
+  },
+  {
+   "partNumber": 279,
+   "partName": "GYAN BHARTI GIRL,S I.C LAXMIPURAM UKHARRA ROAD R.N-6",
+   "partId": 423034
+  },
+  {
+   "partNumber": 280,
+   "partName": "PRA PAATHSHALA KANYA SCHOOL BAGH RAJPUR R.N-1",
+   "partId": 423035
+  },
+  {
+   "partNumber": 281,
+   "partName": "PRA PAATHSHALA KANYA SCHOOL BAGH RAJPUR R.N-2",
+   "partId": 423036
+  },
+  {
+   "partNumber": 282,
+   "partName": "S.R. PUBLIC SCHOOL BAGH RAJPUR R.N-1",
+   "partId": 423037
+  },
+  {
+   "partNumber": 283,
+   "partName": "NEW SHARBUD I.C. NEHRU ENCLAVE R.N-1",
+   "partId": 423038
+  },
+  {
+   "partNumber": 284,
+   "partName": "NEW SHARBUD I.C. NEHRU ENCLAVE R.N-2",
+   "partId": 423039
+  },
+  {
+   "partNumber": 285,
+   "partName": "NEW SHARBUD I.C. NEHRU ENCLAVE R.N-3",
+   "partId": 423040
+  },
+  {
+   "partNumber": 286,
+   "partName": "NEW SHARBUD I.C. NEHRU ENCLAVE R.N-4",
+   "partId": 423041
+  },
+  {
+   "partNumber": 287,
+   "partName": "NEW SHARBUD I.C. NEHRU ENCLAVE R.N-5",
+   "partId": 423042
+  },
+  {
+   "partNumber": 288,
+   "partName": "NEW SHARBUD I.C. NEHRU ENCLAVE R.N-6",
+   "partId": 423043
+  },
+  {
+   "partNumber": 289,
+   "partName": "BELUM GRADEN PUBLIC SCHOOL NEHRU ENCLAVE R.N-1",
+   "partId": 423044
+  },
+  {
+   "partNumber": 290,
+   "partName": "BELUM GRADEN PUBLIC SCHOOL NEHRU ENCLAVE R.N-2",
+   "partId": 423045
+  },
+  {
+   "partNumber": 291,
+   "partName": "BELUM GRADEN PUBLIC SCHOOL NEHRU ENCLAVE R.N-3",
+   "partId": 423046
+  },
+  {
+   "partNumber": 292,
+   "partName": "GYAN BHARTI KANYA I.C. SHAHEED NAGAR R.N-1",
+   "partId": 423047
+  },
+  {
+   "partNumber": 293,
+   "partName": "GYAN BHARTI KANYA I.C. SHAHEED NAGAR R.N-2",
+   "partId": 423048
+  },
+  {
+   "partNumber": 294,
+   "partName": "GYAN BHARTI KANYA I.C. SHAHEED NAGA-R.N-3",
+   "partId": 423049
+  },
+  {
+   "partNumber": 295,
+   "partName": "GYAN BHARTI KANYA I.C. SHAHEED NAGAR R.N-4",
+   "partId": 423050
+  },
+  {
+   "partNumber": 296,
+   "partName": "GYAN BHARTI KANYA I.C. SHAHEED NAGAR R.N-5",
+   "partId": 423051
+  },
+  {
+   "partNumber": 297,
+   "partName": "GYAN BHARTI KANYA I.C. SHAHEED NAGAR R.N-6",
+   "partId": 423052
+  },
+  {
+   "partNumber": 298,
+   "partName": "LORD BUDDA PARI SCHOOL KACCHI SARAI TAJGANJ R.N-1",
+   "partId": 423053
+  },
+  {
+   "partNumber": 299,
+   "partName": "LORD BUDDA PARI SCHOOL KACCHI SARAI TAJGANJ R.N-2",
+   "partId": 423054
+  },
+  {
+   "partNumber": 300,
+   "partName": "S.R. PUBLIC SCHOOL AMITA NAGAR GOBAR CHOWKI R.N-1",
+   "partId": 423055
+  },
+  {
+   "partNumber": 301,
+   "partName": "S.R. PUBLIC SCHOOL AMITA NAGAR GOBAR CHOWKI R.N-2",
+   "partId": 423056
+  },
+  {
+   "partNumber": 302,
+   "partName": "S.R. PUBLIC SCHOOL AMITA NAGAR GOBAR CHOWKI R.N-3",
+   "partId": 423057
+  },
+  {
+   "partNumber": 303,
+   "partName": "S.R. PUBLIC SCHOOL AMITA NAGAR GOBAR CHOWKI R.N-4",
+   "partId": 423058
+  },
+  {
+   "partNumber": 304,
+   "partName": "ST. G.M PUBLIC JU.H. NAI ABADI GOBAR CHOWKI R.N-1",
+   "partId": 423059
+  },
+  {
+   "partNumber": 305,
+   "partName": "SISHU RADHA PUBLIC SCHOOL NEETI BAGH AMITA NAGAR TAJGANJ R.N-1",
+   "partId": 423060
+  },
+  {
+   "partNumber": 306,
+   "partName": "SISHU RADHA PUBLIC SCHOOL NEETI BAGH AMITA NAGAR TAJGANJ R.N-2",
+   "partId": 423061
+  },
+  {
+   "partNumber": 307,
+   "partName": "SISHU RADHA PUBLIC SCHOOL NEETI BAGH AMITA NAGAR TAJGANJ R.N-3",
+   "partId": 423233
+  },
+  {
+   "partNumber": 308,
+   "partName": "BODD SATYA VIDHYAPEEDH GOBAR CHOWKI R.N-1",
+   "partId": 423062
+  },
+  {
+   "partNumber": 309,
+   "partName": "BODD SATYA VIDHYAPEEDH GOBAR CHOWKI R.N-2",
+   "partId": 423063
+  },
+  {
+   "partNumber": 310,
+   "partName": "BODD SATYA VIDHYAPEEDH GOBAR CHOWKI R.N-3",
+   "partId": 423064
+  },
+  {
+   "partNumber": 311,
+   "partName": "BODD SATYA VIDHYAPEEDH GOBAR CHOWKI R.N-4",
+   "partId": 423065
+  },
+  {
+   "partNumber": 312,
+   "partName": "BODD SATYA VIDHYAPEEDH GOBAR CHOWKI R.N-5",
+   "partId": 423066
+  },
+  {
+   "partNumber": 313,
+   "partName": "BODD SATYA VIDHYAPEEDH GOBAR CHOWKI R.N-6",
+   "partId": 423067
+  },
+  {
+   "partNumber": 314,
+   "partName": "NAGAR MAHA. KANYA PRA PATHSHALA M.P.PURA R.N-1",
+   "partId": 423068
+  },
+  {
+   "partNumber": 315,
+   "partName": "NAGAR MAHA. KANYA PRA PATHSHALA M.P.PURA R.N-2",
+   "partId": 423069
+  },
+  {
+   "partNumber": 316,
+   "partName": "NAGAR MAHA. KANYA PRA PATHSHALA M.P.PURA R.N-2",
+   "partId": 423070
+  },
+  {
+   "partNumber": 317,
+   "partName": "THA GULAB SINGHU.M.V. NAGLA MAHADEV R.N-1",
+   "partId": 423071
+  },
+  {
+   "partNumber": 318,
+   "partName": "THA GULAB SINGHU.M.V. NAGLA MAHADEV R.N-2",
+   "partId": 423072
+  },
+  {
+   "partNumber": 319,
+   "partName": "NAGAR MAHA PA. I.C. PURANI MANDI R.N-1",
+   "partId": 423073
+  },
+  {
+   "partNumber": 320,
+   "partName": "NAGAR MAHA PA. I.C. PURANI MANDI R.N-2",
+   "partId": 423074
+  },
+  {
+   "partNumber": 321,
+   "partName": "NAGAR MAHA PA. I.C. PURANI MANDI R.N-3",
+   "partId": 423075
+  },
+  {
+   "partNumber": 322,
+   "partName": "NAGAR MAHA PA. I.C. PURANI MANDI R.N-4",
+   "partId": 423076
+  },
+  {
+   "partNumber": 323,
+   "partName": "NAGAR MAHA PA. I.C. PURANI MANDI R.N-5",
+   "partId": 423077
+  },
+  {
+   "partNumber": 324,
+   "partName": "NAGAR MAHA PA. I.C. PURANI MANDI R.N-6",
+   "partId": 423078
+  },
+  {
+   "partNumber": 325,
+   "partName": "NAGAR MAHA PA. I.C. PURANI MANDI R.N-7",
+   "partId": 423079
+  },
+  {
+   "partNumber": 326,
+   "partName": "NAGAR MAHA PA. I.C. PURANI MANDI R.N-8",
+   "partId": 423080
+  },
+  {
+   "partNumber": 327,
+   "partName": "K.D.PUBLIC JU.H. CHOWK INDARA R.N-1",
+   "partId": 423081
+  },
+  {
+   "partNumber": 328,
+   "partName": "K.D.PUBLIC JU.H. CHOWK INDARA R.N-2",
+   "partId": 423082
+  },
+  {
+   "partNumber": 329,
+   "partName": "K.D.PUBLIC JU.H. CHOWK INDARA R.N-3",
+   "partId": 423083
+  },
+  {
+   "partNumber": 330,
+   "partName": "K.D.PUBLIC JU.H. CHOWK INDARA R.N-4",
+   "partId": 423084
+  },
+  {
+   "partNumber": 331,
+   "partName": "K.D.PUBLIC JU.H. CHOWK INDARA R.N-5",
+   "partId": 423085
+  },
+  {
+   "partNumber": 332,
+   "partName": "K.D.PUBLIC JU.H. CHOWK INDARA R.N-6",
+   "partId": 423086
+  },
+  {
+   "partNumber": 333,
+   "partName": "BHARTIYA VIDHYA HR.S. SCHOOL VIBHAV NAGAR R.N-1",
+   "partId": 423087
+  },
+  {
+   "partNumber": 334,
+   "partName": "BHARTIYA VIDHYA HR.S. SCHOOL VIBHAV NAGAR R.N-2",
+   "partId": 423088
+  },
+  {
+   "partNumber": 335,
+   "partName": "BHARTIYA VIDHYA HR.S. SCHOOL VIBHAV NAGAR R.N-3",
+   "partId": 423089
+  },
+  {
+   "partNumber": 336,
+   "partName": "BHARTIYA VIDHYA HR.S. SCHOOL VIBHAV NAGAR R.N-4",
+   "partId": 423090
+  },
+  {
+   "partNumber": 337,
+   "partName": "BHARTIYA VIDHYA HR.S. SCHOOL VIBHAV NAGAR R.N-5",
+   "partId": 423091
+  },
+  {
+   "partNumber": 338,
+   "partName": "BHARTIYA VIDHYA HR.S. SCHOOL VIBHAV NAGAR R.N-6",
+   "partId": 423092
+  },
+  {
+   "partNumber": 339,
+   "partName": "BHARTIYA VIDHYA HR.S. SCHOOL VIBHAV NAGAR R.N-7",
+   "partId": 423093
+  },
+  {
+   "partNumber": 340,
+   "partName": "BHARTIYA VIDHYA HR.S. SCHOOL VIBHAV NAGAR R.N-8",
+   "partId": 423094
+  },
+  {
+   "partNumber": 341,
+   "partName": "M.R MORDERN P. SCHOOL SHAHEED NAGAR R.N-1",
+   "partId": 423095
+  },
+  {
+   "partNumber": 342,
+   "partName": "M.R MORDERN P. SCHOOL SHAHEED NAGAR R.N-2",
+   "partId": 423096
+  },
+  {
+   "partNumber": 343,
+   "partName": "VIVEKANAND PARI SCHOOL SHAHEED NAGAR GURUDWARA KE PAAS GOBAR CHOWKI R.N-1",
+   "partId": 423097
+  },
+  {
+   "partNumber": 344,
+   "partName": "VIVEKANAND PARI SCHOOL SHAHEED NAGAR GURUDWARA KE PAAS GOBAR CHOWKI R.N-2",
+   "partId": 423098
+  },
+  {
+   "partNumber": 345,
+   "partName": "VIVEKANAND PARI SCHOOL SHAHEED NAGAR GURUDWARA KE PAAS GOBAR CHOWKI R.N-3",
+   "partId": 423099
+  },
+  {
+   "partNumber": 346,
+   "partName": "TEGORE PARI SCHOOL SHAHEED NAGAR R.N-1",
+   "partId": 423100
+  },
+  {
+   "partNumber": 347,
+   "partName": "RAJ FOUNDATION SCHOOL SHAHEED NAGAR POLICE CHOWKI KE PAAS R.N-1",
+   "partId": 423101
+  },
+  {
+   "partNumber": 348,
+   "partName": "RAJ FOUNDATION SCHOOL SHAHEED NAGAR POLICE CHOWKI KE PAAS R.N-2",
+   "partId": 423102
+  },
+  {
+   "partNumber": 349,
+   "partName": "RAJ FOUNDATION SCHOOL SHAHEED NAGAR POLICE CHOWKI KE PAAS R.N-3",
+   "partId": 423103
+  },
+  {
+   "partNumber": 350,
+   "partName": "SUNFLOWER JU.H. SHAHEED NAGAR TANKI KE PAAS R.N-1",
+   "partId": 423104
+  },
+  {
+   "partNumber": 351,
+   "partName": "MAHAPALIKA GIRLS HR.SEC CHOWK THANA R.N-1",
+   "partId": 423105
+  },
+  {
+   "partNumber": 352,
+   "partName": "MAHAPALIKA GIRLS HR.SEC CHOWK THANA R.N-2",
+   "partId": 423106
+  },
+  {
+   "partNumber": 353,
+   "partName": "MAHAPALIKA GIRLS HR.SEC CHOWK THANA R.N-3",
+   "partId": 423107
+  },
+  {
+   "partNumber": 354,
+   "partName": "MAHAPALIKA GIRLS HR.SEC CHOWK THANA R.N-4",
+   "partId": 423108
+  },
+  {
+   "partNumber": 355,
+   "partName": "MAHAPALIKA GIRLS HR.SEC CHOWK THANA R.N-5",
+   "partId": 423109
+  },
+  {
+   "partNumber": 356,
+   "partName": "MAHAPALIKA GIRLS HR.SEC CHOWK THANA R.N-6",
+   "partId": 423110
+  },
+  {
+   "partNumber": 357,
+   "partName": "MILTON P. SCHOOL GHEEAAI. MANDI TAJGANJ R.N-1",
+   "partId": 423111
+  },
+  {
+   "partNumber": 358,
+   "partName": "MILTON P. SCHOOL GHEEAAI. MANDI TAJGANJ R.N-2",
+   "partId": 423112
+  },
+  {
+   "partNumber": 359,
+   "partName": "MILTON P. SCHOOL GHEEAAI. MANDI TAJGANJ R.N-3",
+   "partId": 423113
+  },
+  {
+   "partNumber": 360,
+   "partName": "MADANMOHAN PU.MA.VI. DALIHAI R.N-1",
+   "partId": 423114
+  },
+  {
+   "partNumber": 361,
+   "partName": "MADANMOHAN PU.MA.VI. DALIHAI R.N-2",
+   "partId": 423115
+  },
+  {
+   "partNumber": 362,
+   "partName": "MADANMOHAN PU.MA.VI. DALIHAI R.N-3",
+   "partId": 423116
+  },
+  {
+   "partNumber": 363,
+   "partName": "ST.MERRY HR.SEC.SCHOOL NEAR GALLA MANDI TAJGANJ R.N-1",
+   "partId": 423117
+  },
+  {
+   "partNumber": 364,
+   "partName": "ST.MERRY HR.SEC.SCHOOL NEAR GALLA MANDI TAJGANJ R.N-2",
+   "partId": 423118
+  },
+  {
+   "partNumber": 365,
+   "partName": "SAMUDAYIK.BHAVAN NIKAT K.D.PUBLIC SCHOOL NAALA SHEKH BULAKHI CHAYAN TAARA TAJGANJ R.N-1",
+   "partId": 423119
+  },
+  {
+   "partNumber": 366,
+   "partName": "SAMUDAYIK.BHAVAN NIKAT K.D.PUBLIC SCHOOL NAALA SHEKH BULAKHI CHAYAN TAARA TAJGANJ R.N-2",
+   "partId": 423120
+  },
+  {
+   "partNumber": 367,
+   "partName": "K.B. GUPT I.C. TAJMAHAL PURVI GATE R.N-1",
+   "partId": 423121
+  },
+  {
+   "partNumber": 368,
+   "partName": "K.B. GUPT I.C. TAJMAHAL PURVI GATE R.N-2",
+   "partId": 423122
+  },
+  {
+   "partNumber": 369,
+   "partName": "K.B. GUPT I.C. TAJMAHAL PURVI GATE R.N-3",
+   "partId": 423123
+  },
+  {
+   "partNumber": 370,
+   "partName": "K.B. GUPT I.C. TAJMAHAL PURVI GATE R.N-4",
+   "partId": 423124
+  },
+  {
+   "partNumber": 371,
+   "partName": "ST. B.M INTER COLLEGE KAKSH N0 1",
+   "partId": 423125
+  },
+  {
+   "partNumber": 372,
+   "partName": "ST. B.M INTER COLLEGE NATTHA NAGAR TAJGANJ TAJNAGARI R.N-2",
+   "partId": 423126
+  },
+  {
+   "partNumber": 373,
+   "partName": "ST. B.M INTER COLLEGE NATTHA NAGAR TAJGANJ TAJNAGARI R.N-3",
+   "partId": 423127
+  },
+  {
+   "partNumber": 374,
+   "partName": "ST. B.M INTER COLLEGE NATTHA NAGAR TAJGANJ TAJNAGARI R.N-4",
+   "partId": 423128
+  },
+  {
+   "partNumber": 375,
+   "partName": "ST. B.M INTER COLLEGE NATTHA NAGAR TAJGANJ TAJNAGARI R.N-5",
+   "partId": 423129
+  },
+  {
+   "partNumber": 376,
+   "partName": "R.S. I.C. NAGLA PYARELAL R.N-1",
+   "partId": 423130
+  },
+  {
+   "partNumber": 377,
+   "partName": "R.S. I.C. NAGLA PYARELAL R.N-2",
+   "partId": 423131
+  },
+  {
+   "partNumber": 378,
+   "partName": "BHAGIRATHI ADARSH JU.H. NAGLA PYARE TAJGANJ R.N-1",
+   "partId": 423132
+  },
+  {
+   "partNumber": 379,
+   "partName": "BHAGIRATHI ADARSH JU.H. NAGLA PYARE TAJGANJ R.N-2",
+   "partId": 423133
+  },
+  {
+   "partNumber": 380,
+   "partName": "BHAGIRATHI ADARSH JU.H. NAGLA PYARE TAJGANJ R.N-3",
+   "partId": 423134
+  },
+  {
+   "partNumber": 381,
+   "partName": "SHRI LADDU GOPAL BA.VE.M. GADI BANGAS TAJGANJ R.N-1",
+   "partId": 423135
+  },
+  {
+   "partNumber": 382,
+   "partName": "SHRI LADDU GOPAL BA.VE.M. GADI BANGAS TAJGANJ R.N-2",
+   "partId": 423136
+  },
+  {
+   "partNumber": 383,
+   "partName": "JILA PARISHAD PRA.PAATHSHALA DHANDUPURA R.N-1",
+   "partId": 423137
+  },
+  {
+   "partNumber": 384,
+   "partName": "JILA PARISHAD PRA.PAATHSHALA DHANDUPURA R.N-2",
+   "partId": 423138
+  },
+  {
+   "partNumber": 385,
+   "partName": "NAGAR MAHAPALIKA PRA. PAATHSHALA KHADI BHANDAR KE PICHE DALIHAI TAJGANJ R.N-1",
+   "partId": 423139
+  },
+  {
+   "partNumber": 386,
+   "partName": "NAGAR MAHAPALIKA PRA. PAATHSHALA KHADI BHANDAR KE PICHE DALIHAI TAJGANJ R.N-2",
+   "partId": 423140
+  },
+  {
+   "partNumber": 387,
+   "partName": "SHANTI ADARSH JU.H.SHAKTI MANDIR NEAR DEEWAN JI KA MOHALLA R.N-1",
+   "partId": 423141
+  },
+  {
+   "partNumber": 388,
+   "partName": "SHANTI ADARSH JU.H.SHAKTI MANDIR NEAR DEEWAN JI KA MOHALLA R.N-2",
+   "partId": 423142
+  },
+  {
+   "partNumber": 389,
+   "partName": "RAMA DEVI JU.H. TANGA STEND DALIHAI R.N-1",
+   "partId": 423143
+  },
+  {
+   "partNumber": 390,
+   "partName": "RAMA DEVI JU.H. TANGA STEND DALIHAI R.N-2",
+   "partId": 423144
+  },
+  {
+   "partNumber": 391,
+   "partName": "RAMA DEVI JU.H. TANGA STEND DALIHAI R.N-3",
+   "partId": 423145
+  },
+  {
+   "partNumber": 392,
+   "partName": "KUSHWAH PANCHAYATI BHAWAN HARJUPURA TAJGANJ R.N-1",
+   "partId": 423146
+  },
+  {
+   "partNumber": 393,
+   "partName": "KUSHWAH PANCHAYATI BHAWAN HARJUPURA TAJGANJ R.N-2",
+   "partId": 423147
+  },
+  {
+   "partNumber": 394,
+   "partName": "MAA BHAGWATI CONVENT SCHOOL HARJUPURA TAJGANJ R.N. 1",
+   "partId": 423148
+  },
+  {
+   "partNumber": 395,
+   "partName": "KANYA PRA. SCHOOL BASAI KHARD R.N-1",
+   "partId": 423149
+  },
+  {
+   "partNumber": 396,
+   "partName": "KANYA PRA. SCHOOL BASAI KHARD R.N-2",
+   "partId": 423150
+  },
+  {
+   "partNumber": 397,
+   "partName": "KARYALAY KHAND SHIKSHA ADHIKARI NAGAR CHETRA TAJGANJ R.N-1",
+   "partId": 423151
+  },
+  {
+   "partNumber": 398,
+   "partName": "SHREE K.L. SHASHTRI GIRL,S I.C. BASAI KHURD R.N-1",
+   "partId": 423152
+  },
+  {
+   "partNumber": 399,
+   "partName": "SHREE K.L. SHASHTRI GIRL,S I.C. BASAI KHURD R.N-2",
+   "partId": 423153
+  },
+  {
+   "partNumber": 400,
+   "partName": "SANT S.R. P.I.C TAJNAGARI R.N-1",
+   "partId": 423154
+  },
+  {
+   "partNumber": 401,
+   "partName": "SANT S.R. P.I.C TAJNAGARI R.N-2",
+   "partId": 423155
+  },
+  {
+   "partNumber": 402,
+   "partName": "SANT S.R. P.I.C TAJNAGARI R.N-3",
+   "partId": 423156
+  },
+  {
+   "partNumber": 403,
+   "partName": "SANT S.R. P.I.C TAJNAGARI R.N-4",
+   "partId": 423157
+  },
+  {
+   "partNumber": 404,
+   "partName": "SANT S.R. P.I.C TAJNAGARI R.N-5",
+   "partId": 423158
+  },
+  {
+   "partNumber": 405,
+   "partName": "SANT S.R. P.I.C TAJNAGARI R.N-6",
+   "partId": 423159
+  },
+  {
+   "partNumber": 406,
+   "partName": "SANT S.R. P.I.C TAJNAGARI R.N-7",
+   "partId": 423160
+  },
+  {
+   "partNumber": 407,
+   "partName": "SANT S.R. P.I.C TAJNAGARI R.N-8",
+   "partId": 423161
+  },
+  {
+   "partNumber": 408,
+   "partName": "R B S KIDS PARADISE SCHOOL A-BLOCK TAJNAGARI PHASE-2 R.N.-1",
+   "partId": 423226
+  },
+  {
+   "partNumber": 409,
+   "partName": "R B S KIDS PARADISE SCHOOL A-BLOCK TAJNAGARI PHASE-2 R.N.-2",
+   "partId": 423228
+  },
+  {
+   "partNumber": 410,
+   "partName": "PARI.PRA.PA. BASAI KALA R.N-1",
+   "partId": 423162
+  },
+  {
+   "partNumber": 411,
+   "partName": "SHRIMATI UMA U.M SCHOOL BASAI KALA R.N-1",
+   "partId": 423163
+  },
+  {
+   "partNumber": 412,
+   "partName": "SHRIMATI UMA U.M SCHOOL BASAI KALA R.N-2",
+   "partId": 423164
+  },
+  {
+   "partNumber": 413,
+   "partName": "SHRIMATI UMA U.M SCHOOL BASAI KALA R.N-3",
+   "partId": 423165
+  },
+  {
+   "partNumber": 414,
+   "partName": "FAIZ A AAM I.C. NAGLA MEWATI TAJGANJ R.N-1",
+   "partId": 423166
+  },
+  {
+   "partNumber": 415,
+   "partName": "FAIZ A AAM I.C. NAGLA MEWATI TAJGANJ R.N-2",
+   "partId": 423167
+  },
+  {
+   "partNumber": 416,
+   "partName": "FAIZ A AAM I.C. NAGLA MEWATI TAJGANJ R.N-3",
+   "partId": 423168
+  },
+  {
+   "partNumber": 417,
+   "partName": "FAIZ A AAM I.C. NAGLA MEWATI TAJGANJ R.N-4",
+   "partId": 423169
+  },
+  {
+   "partNumber": 418,
+   "partName": "FAIZ A AAM I.C. NAGLA MEWATI TAJGANJ R.N-5",
+   "partId": 423227
+  },
+  {
+   "partNumber": 419,
+   "partName": "PRA.PA.NAUPURA R.N-1",
+   "partId": 423170
+  },
+  {
+   "partNumber": 420,
+   "partName": "PT. HOTILAL I.C. DIFFENCE COLONY SOHALLA R.N-1",
+   "partId": 423171
+  },
+  {
+   "partNumber": 421,
+   "partName": "PT. HOTILAL I.C. DIFFENCE COLONY SOHALLA R.N-2",
+   "partId": 423172
+  },
+  {
+   "partNumber": 422,
+   "partName": "PT. HOTILAL I.C. DIFFENCE COLONY SOHALLA R.N-3",
+   "partId": 423173
+  },
+  {
+   "partNumber": 423,
+   "partName": "PT HOTILAL I.C. DIFFENCE COLONY SOHALLA R.N-4",
+   "partId": 423234
+  },
+  {
+   "partNumber": 424,
+   "partName": "PRA.PA. SOHALLA R.N-1",
+   "partId": 423174
+  },
+  {
+   "partNumber": 425,
+   "partName": "PRA.PA. SOHALLA R.N-2",
+   "partId": 423175
+  },
+  {
+   "partNumber": 426,
+   "partName": "PRA.PA. SOHALLA R.N-3",
+   "partId": 423176
+  },
+  {
+   "partNumber": 427,
+   "partName": "JILA PARISHAD PRA.PAATHSHALA NARIPURA R.N-1",
+   "partId": 423177
+  },
+  {
+   "partNumber": 428,
+   "partName": "JILA PARISHAD PRA.PAATHSHALA NARIPURA R.N-2",
+   "partId": 423178
+  },
+  {
+   "partNumber": 429,
+   "partName": "JILA PARISHAD PRA.PAATHSHALA NARIPURA R.N-3",
+   "partId": 423179
+  },
+  {
+   "partNumber": 430,
+   "partName": "JILA PARISHAD PRA.PAATHSHALA NARIPURA R.N-4",
+   "partId": 423180
+  },
+  {
+   "partNumber": 431,
+   "partName": "JILA PARISHAD PRA.PAATHSHALA NARIPURA R.N-5",
+   "partId": 423181
+  },
+  {
+   "partNumber": 432,
+   "partName": "JILA PARISHAD PRA.PAATHSHALA NARIPURA R.N-6",
+   "partId": 423182
+  },
+  {
+   "partNumber": 433,
+   "partName": "GYAN SINGH I.C. NARIPURA R.N-1",
+   "partId": 423183
+  },
+  {
+   "partNumber": 434,
+   "partName": "GYAN SINGH I.C. NARIPURA R.N-2",
+   "partId": 423184
+  },
+  {
+   "partNumber": 435,
+   "partName": "GYAN SINGH I.C. NARIPURA R.N-3",
+   "partId": 423185
+  },
+  {
+   "partNumber": 436,
+   "partName": "GYAN SINGH I.C. NARIPURA R.N-4",
+   "partId": 423186
+  },
+  {
+   "partNumber": 437,
+   "partName": "GYAN SINGH I.C. NARIPURA R.N-5",
+   "partId": 423187
+  },
+  {
+   "partNumber": 438,
+   "partName": "GYAN SINGH I.C. NARIPURA R.N-6",
+   "partId": 423188
+  },
+  {
+   "partNumber": 439,
+   "partName": "GYAN SINGH I.C. NARIPURA R.N-7",
+   "partId": 423235
+  },
+  {
+   "partNumber": 440,
+   "partName": "ANAND P.I.C. DOULAT NAGAR DHANOLI ROAD R.N-1",
+   "partId": 423189
+  },
+  {
+   "partNumber": 441,
+   "partName": "ANAND P.I.C. DOULAT NAGAR DHANOLI ROAD R.N-2",
+   "partId": 423190
+  },
+  {
+   "partNumber": 442,
+   "partName": "VYAS I.C.SEWLA JAAT R.N-1",
+   "partId": 423191
+  },
+  {
+   "partNumber": 443,
+   "partName": "VYAS I.C.SEWLA JAAT R.N-2",
+   "partId": 423192
+  },
+  {
+   "partNumber": 444,
+   "partName": "VYAS I.C.SEWLA JAAT R.N-3",
+   "partId": 423193
+  },
+  {
+   "partNumber": 445,
+   "partName": "VYAS I.C.SEWLA JAAT R.N-4",
+   "partId": 423194
+  },
+  {
+   "partNumber": 446,
+   "partName": "VYAS I.C.SEWLA JAAT R.N-5",
+   "partId": 423195
+  },
+  {
+   "partNumber": 447,
+   "partName": "VYAS I.C.SEWLA JAAT R.N-6",
+   "partId": 423196
+  },
+  {
+   "partNumber": 448,
+   "partName": "VYAS I.C.SEWLA JAAT R.N-7",
+   "partId": 423197
+  },
+  {
+   "partNumber": 449,
+   "partName": "VYAS I.C.SEWLA JAAT R.N-8",
+   "partId": 423198
+  },
+  {
+   "partNumber": 450,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-1",
+   "partId": 423199
+  },
+  {
+   "partNumber": 451,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-2",
+   "partId": 423200
+  },
+  {
+   "partNumber": 452,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-3",
+   "partId": 423201
+  },
+  {
+   "partNumber": 453,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-4",
+   "partId": 423202
+  },
+  {
+   "partNumber": 454,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-5",
+   "partId": 423203
+  },
+  {
+   "partNumber": 455,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-6",
+   "partId": 423204
+  },
+  {
+   "partNumber": 456,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-7",
+   "partId": 423205
+  },
+  {
+   "partNumber": 457,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-8",
+   "partId": 423206
+  },
+  {
+   "partNumber": 458,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-9",
+   "partId": 423236
+  },
+  {
+   "partNumber": 459,
+   "partName": "TEGORE PUBLIC SCHOOL SEWLA SARAI R.N-10",
+   "partId": 423237
+  },
+  {
+   "partNumber": 460,
+   "partName": "S.S PUBLIC SCHOOL SEWLA SARAI R.N-1",
+   "partId": 423207
+  },
+  {
+   "partNumber": 461,
+   "partName": "S.S PUBLIC SCHOOL SEWLA SARAI R.N-2",
+   "partId": 423208
+  },
+  {
+   "partNumber": 462,
+   "partName": "MA.KASHIRAM U.M.VI. KOTLI BAGHICHI CHAK SOYAM R.N-1",
+   "partId": 423209
+  },
+  {
+   "partNumber": 463,
+   "partName": "MA.KASHIRAM U.M.VI. KOTLI BAGHICHI CHAK SOYAM R.N-2",
+   "partId": 423210
+  },
+  {
+   "partNumber": 464,
+   "partName": "MA.KASHIRAM U.M.VI. KOTLI BAGHICHI CHAK SOYAM R.N-3",
+   "partId": 423211
+  },
+  {
+   "partNumber": 465,
+   "partName": "MA.KASHIRAM U.M.VI. KOTLI BAGHICHI CHAK SOYAM R.N-4",
+   "partId": 423212
+  },
+  {
+   "partNumber": 466,
+   "partName": "MA.KASHIRAM U.M.VI. KOTLI BAGHICHI CHAK SOYAM R.N-5",
+   "partId": 423213
+  },
+  {
+   "partNumber": 467,
+   "partName": "MA.KASHIRAM U.M.VI. KOTLI BAGHICHI CHAK SOYAM R.N-6",
+   "partId": 423214
+  },
+  {
+   "partNumber": 468,
+   "partName": "MA KASHIRAM U.M.VI. KOTLI BAGHICHI CHAK SOYAM R.N-7",
+   "partId": 423238
+  },
+  {
+   "partNumber": 469,
+   "partName": "TOTARAM VYAS I.C. KOTLI BAGHICHI CHAK SOYAM R.N-1",
+   "partId": 423215
+  },
+  {
+   "partNumber": 470,
+   "partName": "TOTARAM VYAS I.C. KOTLI BAGHICHI CHAK SOYAM R.N-2",
+   "partId": 423216
+  },
+  {
+   "partNumber": 471,
+   "partName": "TOTARAM VYAS I.C. KOTLI BAGHICHI CHAK SOYAM R.N-3",
+   "partId": 423217
+  },
+  {
+   "partNumber": 472,
+   "partName": "TOTARAM VYAS I.C. KOTLI BAGHICHI CHAK SOYAM R.N-4",
+   "partId": 423218
+  },
+  {
+   "partNumber": 473,
+   "partName": "TOTARAM VYAS I.C. KOTLI BAGHICHI CHAK SOYAM R.N-5",
+   "partId": 423219
+  },
+  {
+   "partNumber": 474,
+   "partName": "TOTARAM VYAS I.C. KOTLI BAGHICHI CHAK SOYAM R.N-6",
+   "partId": 423239
+  },
+  {
+   "partNumber": 475,
+   "partName": "SHIKSHA BALIKA I.C. UKHARRA R.N-1",
+   "partId": 423220
+  },
+  {
+   "partNumber": 476,
+   "partName": "SHIKSHA BALIKA I.C. UKHARRA R.N-2",
+   "partId": 423221
+  },
+  {
+   "partNumber": 477,
+   "partName": "SHIKSHA BALIKA I.C. UKHARRA R.N-3",
+   "partId": 423222
+  },
+  {
+   "partNumber": 478,
+   "partName": "SHIKSHA BALIKA I.C. UKHARRA R.N-4",
+   "partId": 423223
+  },
+  {
+   "partNumber": 479,
+   "partName": "SHIKSHA BALIKA I.C. UKHARRA R.N-5",
+   "partId": 423224
+  },
+  {
+   "partNumber": 480,
+   "partName": "SHIKSHA BALIKA I.C. UKHARRA R.N-6",
+   "partId": 423225
+  }
+ ]
+}

@@ -1,0 +1,1937 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2408",
+ "acNumber": 94,
+ "fetchedAt": "2026-11-01T08:34:37",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 385,
+ "maxPart": 385,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "POO.MA.VID. PURA ANIRUDDH COMPOSITE ROOM NO.-1",
+   "partId": 390802
+  },
+  {
+   "partNumber": 2,
+   "partName": "POO.MAD.VID. PURA MAN SUKH ROOM NO.1",
+   "partId": 390803
+  },
+  {
+   "partNumber": 3,
+   "partName": "PRA.VID.RENU KA PURA ROOM NO.1",
+   "partId": 390804
+  },
+  {
+   "partNumber": 4,
+   "partName": "PRA.VID.JAGTUPURAROOMNO.1",
+   "partId": 390805
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRA.VID.JAGTUPURAROOMNO.2",
+   "partId": 390806
+  },
+  {
+   "partNumber": 6,
+   "partName": "PRA.VID.KAYEDHI EXTRA ROOM NO.1",
+   "partId": 390807
+  },
+  {
+   "partNumber": 7,
+   "partName": "PANCHYAT GHAR SUKHBHANPURA ROOM NO1",
+   "partId": 390808
+  },
+  {
+   "partNumber": 8,
+   "partName": "POO.MAD.VID.VARENDA (I) ROOM NO.1 (SEVARIYA)",
+   "partId": 390809
+  },
+  {
+   "partNumber": 9,
+   "partName": "POO.MAD.VID.VARENDA (I)ROOM NO.2 (SEVARIYA)",
+   "partId": 390810
+  },
+  {
+   "partNumber": 10,
+   "partName": "POO.MAD.VID.VARENDA (II)ROOM NO.1",
+   "partId": 390811
+  },
+  {
+   "partNumber": 11,
+   "partName": "PRA.VID.TEEKETPURA ATIRIKT KAKSH SANKHYA-2",
+   "partId": 390812
+  },
+  {
+   "partNumber": 12,
+   "partName": "POO.MA.VID.PAPRINAGAR COMPOSITE ROOM NO.1",
+   "partId": 390813
+  },
+  {
+   "partNumber": 13,
+   "partName": "POO.MA.VID.PAPRINAGAR COMPOSITE ROOM NO.2",
+   "partId": 390814
+  },
+  {
+   "partNumber": 14,
+   "partName": "PRA.VID.PALOKHARA ROOM NO.1",
+   "partId": 390815
+  },
+  {
+   "partNumber": 15,
+   "partName": "PRA.VID.PALOKHARA ROOM NO.2",
+   "partId": 390816
+  },
+  {
+   "partNumber": 16,
+   "partName": "SWAMI SHATANAND VIDYAPITH KARKOLI EAST ROOM NO.1",
+   "partId": 390817
+  },
+  {
+   "partNumber": 17,
+   "partName": "SWAMI SHATANAND VIDYAPITH KARKOLI EAST ROOM NO.2",
+   "partId": 390818
+  },
+  {
+   "partNumber": 18,
+   "partName": "SWAMI SHATANAND VIDYAPITH KARKOLI SOUTH ROOM NO.1",
+   "partId": 390819
+  },
+  {
+   "partNumber": 19,
+   "partName": "SWAMI SHATANAND VIDYAPITH KARKOLI SOUTH ROOM NO.2",
+   "partId": 390820
+  },
+  {
+   "partNumber": 20,
+   "partName": "PRA.VID.MAHGAULI ROOM NO.1",
+   "partId": 390821
+  },
+  {
+   "partNumber": 21,
+   "partName": "POO.MAD.VID.MANONA ROOM NO.1",
+   "partId": 390822
+  },
+  {
+   "partNumber": 22,
+   "partName": "PRA.VID.MANONA.ROOM.NO.2",
+   "partId": 391163
+  },
+  {
+   "partNumber": 23,
+   "partName": "PRA.VID.SEHA ROOM NO.1",
+   "partId": 390823
+  },
+  {
+   "partNumber": 24,
+   "partName": "PRA.VID.SEHA",
+   "partId": 391164
+  },
+  {
+   "partNumber": 25,
+   "partName": "PRA.VID.SEEHPURA ROOM NO.1",
+   "partId": 390824
+  },
+  {
+   "partNumber": 26,
+   "partName": "PRA.VID.SEEHPURA",
+   "partId": 391165
+  },
+  {
+   "partNumber": 27,
+   "partName": "POO.MA.VID.ONDH COMPOSITE ROOM NO.1",
+   "partId": 390825
+  },
+  {
+   "partNumber": 28,
+   "partName": "POO.MAD.VID.KHERDANDA ROOM NO.1",
+   "partId": 390826
+  },
+  {
+   "partNumber": 29,
+   "partName": "POO.MAD.VID.KHERDANDA ROOM NO.2",
+   "partId": 390827
+  },
+  {
+   "partNumber": 30,
+   "partName": "PRA.VID.GURJA VASDEV ROOM NO.1",
+   "partId": 390828
+  },
+  {
+   "partNumber": 31,
+   "partName": "PRA.VID.PURA SAWALDAS ROOM NO.1",
+   "partId": 390829
+  },
+  {
+   "partNumber": 32,
+   "partName": "PRA.VID.PURA SAWALDAS ROOM NO.2",
+   "partId": 390830
+  },
+  {
+   "partNumber": 33,
+   "partName": "PRA.VID.VIPRAWAL-I COMPOSITE ROOM NO.1",
+   "partId": 390831
+  },
+  {
+   "partNumber": 34,
+   "partName": "PRA.VID.VIPRAWAL-I COMPOSITE ROOM NO.2",
+   "partId": 390832
+  },
+  {
+   "partNumber": 35,
+   "partName": "KA. KRAMOTTAR POO.MAD.VID.VIPRAWALI ROOM NO.1",
+   "partId": 390833
+  },
+  {
+   "partNumber": 36,
+   "partName": "KA. KRAMOTTAR POO.MAD.VID.VIPRAWALI ROOM NO.2",
+   "partId": 390834
+  },
+  {
+   "partNumber": 37,
+   "partName": "PRA.VID.PURA AMAR SINGH ROOM NO.1",
+   "partId": 390835
+  },
+  {
+   "partNumber": 38,
+   "partName": "POO.MAD.VID.NAYAWAS COMPOSITE ROOM NO.1",
+   "partId": 390836
+  },
+  {
+   "partNumber": 39,
+   "partName": "PRA.VID.PURA SUBEDAR ROOM NO.1",
+   "partId": 390837
+  },
+  {
+   "partNumber": 40,
+   "partName": "POO.MAD.VID PADUAPURA COMPOSITE ROOM NO.1",
+   "partId": 390838
+  },
+  {
+   "partNumber": 41,
+   "partName": "POO.MAD.VID.PADUAPURA COMPOSITE ROOM NO.2",
+   "partId": 390839
+  },
+  {
+   "partNumber": 42,
+   "partName": "PRA.VID.DEVGADH ROOM NO.1",
+   "partId": 390840
+  },
+  {
+   "partNumber": 43,
+   "partName": "NAVEEN RAJKIY HIGHSCHOOL SABORA ROOM NO.1",
+   "partId": 390841
+  },
+  {
+   "partNumber": 44,
+   "partName": "NAVEEN RAJKIY HIGHSCHOOL SABORA ROOM NO.2",
+   "partId": 390842
+  },
+  {
+   "partNumber": 45,
+   "partName": "PRA.VID.DHANNAPURA ROOM NO.1",
+   "partId": 390843
+  },
+  {
+   "partNumber": 46,
+   "partName": "PRA.VID.DHANNAPURA ROOM NO.2",
+   "partId": 390844
+  },
+  {
+   "partNumber": 47,
+   "partName": "POO.MAD.VID.ARNOTA ROOM NO.1",
+   "partId": 390845
+  },
+  {
+   "partNumber": 48,
+   "partName": "POO.MAD.VID.ARNOTA",
+   "partId": 391166
+  },
+  {
+   "partNumber": 49,
+   "partName": "PRA.VID.BASAI ARELA ROOM NO.1",
+   "partId": 390846
+  },
+  {
+   "partNumber": 50,
+   "partName": "PRA.VID.BASAI ARELA ROOM NO.2",
+   "partId": 390847
+  },
+  {
+   "partNumber": 51,
+   "partName": "PRA.VID.PURA CHATOLI ROOM NO.1",
+   "partId": 390848
+  },
+  {
+   "partNumber": 52,
+   "partName": "PRA.VID.PURA BIDHA ROOM NO.1",
+   "partId": 390849
+  },
+  {
+   "partNumber": 53,
+   "partName": "PRA.VID.LADAUAPURA ROOM NO.1",
+   "partId": 390850
+  },
+  {
+   "partNumber": 54,
+   "partName": "PRA.VID.LADAUAPURA",
+   "partId": 391167
+  },
+  {
+   "partNumber": 55,
+   "partName": "SARVODAYVIDYAMANDIR INTER PINAHAT UT‍TRI BHAG ROOMNO-1",
+   "partId": 390851
+  },
+  {
+   "partNumber": 56,
+   "partName": "SARVODAYVIDYAMANDIR INTER PINAHAT UT‍TRI BHAG ROOMNO-2",
+   "partId": 390852
+  },
+  {
+   "partNumber": 57,
+   "partName": "SARVODAYVIDYAMANDIR INTER PINAHAT UT‍TRI BHAG ROOMNO-3",
+   "partId": 390853
+  },
+  {
+   "partNumber": 58,
+   "partName": "SARVODAYVIDYAMANDIR INTER PINAHAT DAKSHINI BHAG ROOMNO-1",
+   "partId": 390854
+  },
+  {
+   "partNumber": 59,
+   "partName": "SARVODAYVIDYAMANDIR INTER PINAHAT DAKSHINI BHAG ROOMNO-2",
+   "partId": 390855
+  },
+  {
+   "partNumber": 60,
+   "partName": "SARVODAYVIDYAMANDIR INTER PINAHAT DAKSHINI BHAG ROOMNO-3",
+   "partId": 390856
+  },
+  {
+   "partNumber": 61,
+   "partName": "SARVODAYVIDYAMANDIR INTER PINAHAT DAKSHINI BHAG ROOMNO-4",
+   "partId": 390857
+  },
+  {
+   "partNumber": 62,
+   "partName": "SHRI HARANARAYAN KANYA COLLEGE U.MA.VID.ROOM NO.-1",
+   "partId": 390858
+  },
+  {
+   "partNumber": 63,
+   "partName": "SHRI HARANARAYAN KANYA COLLEGE U.MA.VID.ROOM NO.-2",
+   "partId": 390859
+  },
+  {
+   "partNumber": 64,
+   "partName": "SHRI HARANARAYAN KANYA COLLEGE U.MA.VID.ROOM NO.-3",
+   "partId": 390860
+  },
+  {
+   "partNumber": 65,
+   "partName": "SHRI HARANARAYAN KANYA COLLEGE U.MA.VID.ROOM NO.-4",
+   "partId": 390861
+  },
+  {
+   "partNumber": 66,
+   "partName": "UCHCH PRA.VID.PINAHAT ROOM NO.1",
+   "partId": 390862
+  },
+  {
+   "partNumber": 67,
+   "partName": "UCHCH PRA.VID.PINAHAT ROOM NO.2",
+   "partId": 390863
+  },
+  {
+   "partNumber": 68,
+   "partName": "UCHCH PRA.VID.PINAHAT ROOM NO.3",
+   "partId": 390864
+  },
+  {
+   "partNumber": 69,
+   "partName": "PRA.VID.PINAHAT(CHACHIHA) ROOM NO.1",
+   "partId": 390865
+  },
+  {
+   "partNumber": 70,
+   "partName": "PRA.VID.CHHADAMIPURA ROOM NO.1",
+   "partId": 390866
+  },
+  {
+   "partNumber": 71,
+   "partName": "PRA.VID.CHHADAMIPURA ROOM NO.2",
+   "partId": 390867
+  },
+  {
+   "partNumber": 72,
+   "partName": "PRA.VID.KYORI-II(PUNDARIKPURA) ROOM NO.1",
+   "partId": 390868
+  },
+  {
+   "partNumber": 73,
+   "partName": "ANGANBADI KENDRA PURA UPAR MAJRA KYORI ROOM NO -1",
+   "partId": 390869
+  },
+  {
+   "partNumber": 74,
+   "partName": "PRA.VID.BEECHKAPURA",
+   "partId": 391168
+  },
+  {
+   "partNumber": 75,
+   "partName": "POO.MA.VID.UMARETHA COMPOSITE ROOM NO.1",
+   "partId": 390870
+  },
+  {
+   "partNumber": 76,
+   "partName": "POO.MA.VID.UMARETHA COMPOSITE ROOM NO.2",
+   "partId": 390871
+  },
+  {
+   "partNumber": 77,
+   "partName": "POO.MA.VID.UMARETHA COMPOSITE ROOM NO.3",
+   "partId": 390872
+  },
+  {
+   "partNumber": 78,
+   "partName": "PRA.VID.PURA MALLAH(PURA UMRAITHA) ROOM NO.1",
+   "partId": 390873
+  },
+  {
+   "partNumber": 79,
+   "partName": "PRA.VID. MITAILI ROOM NO.1",
+   "partId": 390874
+  },
+  {
+   "partNumber": 80,
+   "partName": "POO.MA.VID.KUKATHARI COMPOSITE ROOM NO.1",
+   "partId": 390875
+  },
+  {
+   "partNumber": 81,
+   "partName": "POO.MA.VID.KUKATHARI COMPOSITE ROOM NO.2",
+   "partId": 390876
+  },
+  {
+   "partNumber": 82,
+   "partName": "PRA.VID. PURA GANGARAMROOM NO.1",
+   "partId": 390877
+  },
+  {
+   "partNumber": 83,
+   "partName": "POO.MAD.VID.SIKATARA COMPOSITE ROOM NO.1",
+   "partId": 390878
+  },
+  {
+   "partNumber": 84,
+   "partName": "PRA.VID. ARJUNPURA ROOM NO.1",
+   "partId": 390879
+  },
+  {
+   "partNumber": 85,
+   "partName": "PRA.VID.ARJUNPURA",
+   "partId": 391169
+  },
+  {
+   "partNumber": 86,
+   "partName": "PRA.VID.UTSANA ROOM NO.1",
+   "partId": 390880
+  },
+  {
+   "partNumber": 87,
+   "partName": "PRA.VID.UTSANA ROOM NO.2",
+   "partId": 390881
+  },
+  {
+   "partNumber": 88,
+   "partName": "PRA.VID. SUTAHARI ROOM NO.1",
+   "partId": 390882
+  },
+  {
+   "partNumber": 89,
+   "partName": "PRA.VID. SUTAHARI ROOM NO.2",
+   "partId": 390883
+  },
+  {
+   "partNumber": 90,
+   "partName": "PRA.VID.LALPURA ROOM NO.1",
+   "partId": 390884
+  },
+  {
+   "partNumber": 91,
+   "partName": "PRA.VID.HUSAINPURA ROOM NO.1",
+   "partId": 390885
+  },
+  {
+   "partNumber": 92,
+   "partName": "PRA.VID.HUSAINPURA",
+   "partId": 391170
+  },
+  {
+   "partNumber": 93,
+   "partName": "PRA.VID.PURA LODHI RAJPUT ROOM NO.1",
+   "partId": 390886
+  },
+  {
+   "partNumber": 94,
+   "partName": "PRA.VID.GURJABAGH ROOM NO.1",
+   "partId": 390887
+  },
+  {
+   "partNumber": 95,
+   "partName": "PRA.VID.GAJORA ROOM NO.1",
+   "partId": 390888
+  },
+  {
+   "partNumber": 96,
+   "partName": "POO.MAD.VID.NAGALA DALEL ROOM NO.1",
+   "partId": 390889
+  },
+  {
+   "partNumber": 97,
+   "partName": "POO.MAD.VID.NAGALA DALEL ROOM NO.2",
+   "partId": 390890
+  },
+  {
+   "partNumber": 98,
+   "partName": "PRA.VID.MANIKPURA ROOM NO.1",
+   "partId": 390891
+  },
+  {
+   "partNumber": 99,
+   "partName": "PRA.VID.MANIKPURA ROOM NO.2",
+   "partId": 390892
+  },
+  {
+   "partNumber": 100,
+   "partName": "PRA.VID.MANIKPURA",
+   "partId": 391171
+  },
+  {
+   "partNumber": 101,
+   "partName": "POO.MA.VID. NAGALA BHARI COMPOSITE ROOM NO.1",
+   "partId": 390893
+  },
+  {
+   "partNumber": 102,
+   "partName": "POO.MA.VID. NAGALA BHARI COMPOSITE ROOM NO.2",
+   "partId": 390894
+  },
+  {
+   "partNumber": 103,
+   "partName": "POO.MAD.VID..BASAI BHADORIYA COMPOSITE ROOM NO.1",
+   "partId": 390895
+  },
+  {
+   "partNumber": 104,
+   "partName": "PRA.VID.KANKARKHERA ROOM NO.1",
+   "partId": 390896
+  },
+  {
+   "partNumber": 105,
+   "partName": "PRA.VID.KANKARKERA",
+   "partId": 391172
+  },
+  {
+   "partNumber": 106,
+   "partName": "POO.MA.VID.RATOTI COMPOSITE ROOM NO.1",
+   "partId": 390897
+  },
+  {
+   "partNumber": 107,
+   "partName": "POO.MA.VID.RATOTI COMPOSITE ROOM NO.2",
+   "partId": 390898
+  },
+  {
+   "partNumber": 108,
+   "partName": "PRA.VID.SYAHIPURA ROOM NO.1",
+   "partId": 390899
+  },
+  {
+   "partNumber": 109,
+   "partName": "POO.MA.VID. DALAI KA PURA COMPOSITE ROOM NO.1",
+   "partId": 390900
+  },
+  {
+   "partNumber": 110,
+   "partName": "PRA.VID.PURA GANJAN ROOM NO.1",
+   "partId": 390901
+  },
+  {
+   "partNumber": 111,
+   "partName": "PRA.VID.PURA GANJAN ROOM NO.2",
+   "partId": 390902
+  },
+  {
+   "partNumber": 112,
+   "partName": "ADARSH POO.MA.VID.GURJA SHIVLAL ROOM NO.1",
+   "partId": 390903
+  },
+  {
+   "partNumber": 113,
+   "partName": "POO.MA.VID. PIRHORA COMPOSITE ROOM NO.1",
+   "partId": 390904
+  },
+  {
+   "partNumber": 114,
+   "partName": "POO.MA.VID. PIRHORA COMPOSITE ROOM NO.2",
+   "partId": 390905
+  },
+  {
+   "partNumber": 115,
+   "partName": "UCHCH PRA.VID.REETHAI KAMPOJIT ROOM NO.1",
+   "partId": 390906
+  },
+  {
+   "partNumber": 116,
+   "partName": "POO.MA.VID. PIRHORA COMPOSITE ROOM NO.4",
+   "partId": 390907
+  },
+  {
+   "partNumber": 117,
+   "partName": "POO.MA.VID. GARKATOO COMPOSITE ROOM NO.1",
+   "partId": 390908
+  },
+  {
+   "partNumber": 118,
+   "partName": "PRA.VID.GARHI ISWARI ROOM NO.1",
+   "partId": 390909
+  },
+  {
+   "partNumber": 119,
+   "partName": "PRA.VID.RAMNARI ROOM NO.1",
+   "partId": 390910
+  },
+  {
+   "partNumber": 120,
+   "partName": "POO.MA.VID. GADHI VIJAY COMPOSITE ROOM NO.1",
+   "partId": 390911
+  },
+  {
+   "partNumber": 121,
+   "partName": "POO.MA.VID.GADHI VIJAY COMPOSITE ROOM NO. 2",
+   "partId": 390912
+  },
+  {
+   "partNumber": 122,
+   "partName": "POO.MA.VID..GOPALPURA COMPOSITE ROOM NO.1",
+   "partId": 390913
+  },
+  {
+   "partNumber": 123,
+   "partName": "POO.MA.VID.GOPALPURA COMPOSITE ROOM NO.2",
+   "partId": 390914
+  },
+  {
+   "partNumber": 124,
+   "partName": "POO.MAD.VID RAIPURA BHADORIYA COMPOSITE ROOM NO.1",
+   "partId": 390915
+  },
+  {
+   "partNumber": 125,
+   "partName": "POO.MAD.VID.RAIPURABHADORIYACOMPOJIT",
+   "partId": 391173
+  },
+  {
+   "partNumber": 126,
+   "partName": "PRA.VID.KALIYANPURA ROOM NO.1",
+   "partId": 390916
+  },
+  {
+   "partNumber": 127,
+   "partName": "PRA.VID. UDAYPUR KHALASA ROOM NO.1",
+   "partId": 390917
+  },
+  {
+   "partNumber": 128,
+   "partName": "PRA.VID.UDAYPURKHLSHA",
+   "partId": 391174
+  },
+  {
+   "partNumber": 129,
+   "partName": "PRA.VID.BADOS ROOM NO.1",
+   "partId": 390918
+  },
+  {
+   "partNumber": 130,
+   "partName": "PRA.VID.BADOS ROOM NO.2",
+   "partId": 390919
+  },
+  {
+   "partNumber": 131,
+   "partName": "POO.MA.VID.KHARAGPURA COMPOSITE ROOM NO.1",
+   "partId": 390920
+  },
+  {
+   "partNumber": 132,
+   "partName": "PRA.VID.BAIRI ROOM NO.1",
+   "partId": 390921
+  },
+  {
+   "partNumber": 133,
+   "partName": "PRA.VID.BHADAROLI ROOM NO.1",
+   "partId": 390922
+  },
+  {
+   "partNumber": 134,
+   "partName": "PRA.VID.BHADAROLI ROOM NO.2",
+   "partId": 390923
+  },
+  {
+   "partNumber": 135,
+   "partName": "PRA.VID.BHADAROLI ROOM NO.3",
+   "partId": 390924
+  },
+  {
+   "partNumber": 136,
+   "partName": "PRA.VID.BHADAROLI ROOM NO.4",
+   "partId": 390925
+  },
+  {
+   "partNumber": 137,
+   "partName": "PRA.VID.KINDARPURA ROOM NO.1",
+   "partId": 390926
+  },
+  {
+   "partNumber": 138,
+   "partName": "PRA.VID.KINDARPURA ROOM NO.2",
+   "partId": 390927
+  },
+  {
+   "partNumber": 139,
+   "partName": "POO.MAD.VID.KINDARPURA",
+   "partId": 391175
+  },
+  {
+   "partNumber": 140,
+   "partName": "POO.MAD.VID.RAMPURCHANDRA SENI (GARHI GORELAL) COMPOSITE ROOM NO.1",
+   "partId": 390928
+  },
+  {
+   "partNumber": 141,
+   "partName": "POO.MAD.VID.RAMPURCHANDRA SENI (GARHI GORELAL) COMPOSITE ROOM NO.2",
+   "partId": 390929
+  },
+  {
+   "partNumber": 142,
+   "partName": "POO.MAD.VID.RAMPURCHANDRA SENI (GARHI GORELAL) COMPOSITE ROOM NO.3",
+   "partId": 390930
+  },
+  {
+   "partNumber": 143,
+   "partName": "POO.MAD.VID. VITHOLI COMPOSITE ROOM NO.1",
+   "partId": 390931
+  },
+  {
+   "partNumber": 144,
+   "partName": "DAMODAR INTER COLLEGE HOLIPURA ROOM NO.1",
+   "partId": 390932
+  },
+  {
+   "partNumber": 145,
+   "partName": "PRA.VID.FARAIRI ROOM NO.1",
+   "partId": 390933
+  },
+  {
+   "partNumber": 146,
+   "partName": "PRA.VID.FARAIRI ROOM NO.2",
+   "partId": 390934
+  },
+  {
+   "partNumber": 147,
+   "partName": "POO.MAD.VID.RAJPURA ROOM NO.1",
+   "partId": 390935
+  },
+  {
+   "partNumber": 148,
+   "partName": "PRA.VID.CHOSINGI ROOM NO.1",
+   "partId": 390936
+  },
+  {
+   "partNumber": 149,
+   "partName": "PRA.VID.CHOSINGI ROOM NO.2",
+   "partId": 390937
+  },
+  {
+   "partNumber": 150,
+   "partName": "POO.MA.VID.SILPOLI COMPOSITE ROOM NO.1",
+   "partId": 390938
+  },
+  {
+   "partNumber": 151,
+   "partName": "PRA.VID.INDAINI ROOM NO.1",
+   "partId": 390939
+  },
+  {
+   "partNumber": 152,
+   "partName": "PRA.VID.LAKHANPURA KHALSA ROOM NO.1",
+   "partId": 390940
+  },
+  {
+   "partNumber": 153,
+   "partName": "PRA.VID.LAKHANPURA KHALSA ROOM NO.2",
+   "partId": 390941
+  },
+  {
+   "partNumber": 154,
+   "partName": "PRA.VID.DAGAROOPURA ROOM NO.1",
+   "partId": 390942
+  },
+  {
+   "partNumber": 155,
+   "partName": "PRA.VID. KANERA ROOM NO.1",
+   "partId": 390943
+  },
+  {
+   "partNumber": 156,
+   "partName": "POO.MA.VID. VASONI ROOM NO.1",
+   "partId": 390944
+  },
+  {
+   "partNumber": 157,
+   "partName": "POO.MA.VID. VASONI ROOM NO.2",
+   "partId": 390945
+  },
+  {
+   "partNumber": 158,
+   "partName": "PRA.VID.GURJA VASONI ROOM NO.1",
+   "partId": 390946
+  },
+  {
+   "partNumber": 159,
+   "partName": "UCHCH.PRA.VID.(KAMPOJIT)BAGHARENA ROOM NO.1",
+   "partId": 390947
+  },
+  {
+   "partNumber": 160,
+   "partName": "PRA.VID.BAGHARENA ROOM NO.2",
+   "partId": 390948
+  },
+  {
+   "partNumber": 161,
+   "partName": "POO.MA.VID.KHILLI COMPOSITE ROOM NO.1",
+   "partId": 390949
+  },
+  {
+   "partNumber": 162,
+   "partName": "POO.MA.VID.KHILLI COMPOSITE ROOM NO.2",
+   "partId": 390950
+  },
+  {
+   "partNumber": 163,
+   "partName": "PRA.VID.PARWATPURA ROOM NO.1",
+   "partId": 390951
+  },
+  {
+   "partNumber": 164,
+   "partName": "AANGANWADI KENDRA POO.MA.VID.FARAIRA ROOM NO.1",
+   "partId": 390952
+  },
+  {
+   "partNumber": 165,
+   "partName": "POO.MA.VID.FARAIRA ROOM NO.2",
+   "partId": 390953
+  },
+  {
+   "partNumber": 166,
+   "partName": "POO.MA.VID.FARAIRA ROOM NO.3",
+   "partId": 390954
+  },
+  {
+   "partNumber": 167,
+   "partName": "PRA.VID.MUDIAPURA ROOM NO.1",
+   "partId": 390955
+  },
+  {
+   "partNumber": 168,
+   "partName": "PRA.VID.JHARHE KI GARHI ROOM NO.1",
+   "partId": 390956
+  },
+  {
+   "partNumber": 169,
+   "partName": "PRA.VID.TARASON ROOM NO.1",
+   "partId": 390957
+  },
+  {
+   "partNumber": 170,
+   "partName": "PRA.VID.SITAPUR ROOM NO.1",
+   "partId": 390958
+  },
+  {
+   "partNumber": 171,
+   "partName": "PRA.VID.MIDHKAULI ROOM NO.1",
+   "partId": 390959
+  },
+  {
+   "partNumber": 172,
+   "partName": "POO.MAD.VID.PADKOLI COMPOSITE ROOM NO.1",
+   "partId": 390960
+  },
+  {
+   "partNumber": 173,
+   "partName": "PRA.VID.GUNGAWALI ROOM NO.1",
+   "partId": 390961
+  },
+  {
+   "partNumber": 174,
+   "partName": "PRA.VID.GUNGAWALI ROOM NO.2",
+   "partId": 390962
+  },
+  {
+   "partNumber": 175,
+   "partName": "PRA.VID.VICHOLA ROOM NO.1",
+   "partId": 390963
+  },
+  {
+   "partNumber": 176,
+   "partName": "PRA.VID.VICHOLA ROOM NO.2",
+   "partId": 390964
+  },
+  {
+   "partNumber": 177,
+   "partName": "PRA.VID.NAVEENKHILLI ROOM NO.1",
+   "partId": 390965
+  },
+  {
+   "partNumber": 178,
+   "partName": "PRA.VID.NARHAULI (NAVEEN BHAVAN) ROOM NO.1",
+   "partId": 390966
+  },
+  {
+   "partNumber": 179,
+   "partName": "PRA.VID.NARHAULI (NAVEEN BHAVAN) ROOM NO.2",
+   "partId": 390967
+  },
+  {
+   "partNumber": 180,
+   "partName": "PRA.VID.BHAUPURA ROOM NO.1",
+   "partId": 390968
+  },
+  {
+   "partNumber": 181,
+   "partName": "POO.MAD.VID.PURA NARHAULI COMPOSITE ROOM NO.1",
+   "partId": 390969
+  },
+  {
+   "partNumber": 182,
+   "partName": "POO.MAD.VID.KWARI COMPOSITE ROOM NO.1",
+   "partId": 390970
+  },
+  {
+   "partNumber": 183,
+   "partName": "POO.MAD.VID.KWARI COMPOSITE ROOM NO.2",
+   "partId": 390971
+  },
+  {
+   "partNumber": 184,
+   "partName": "PRA.VID. CHANGOLI ROOM NO.1",
+   "partId": 390972
+  },
+  {
+   "partNumber": 185,
+   "partName": "PRA.VID. CHANGOLI ROOM NO.2",
+   "partId": 390973
+  },
+  {
+   "partNumber": 186,
+   "partName": "PRA.VID.PURA JAULAL ROOM NO.1",
+   "partId": 390974
+  },
+  {
+   "partNumber": 187,
+   "partName": "PRA.VID. PURAMUKANDI ROOM NO.1",
+   "partId": 390975
+  },
+  {
+   "partNumber": 188,
+   "partName": "PRA.VID.PURA CHAKRPAN ROOM NO.1",
+   "partId": 390976
+  },
+  {
+   "partNumber": 189,
+   "partName": "PRA.VID.PURA BARUA ROOM NO.1",
+   "partId": 390977
+  },
+  {
+   "partNumber": 190,
+   "partName": "PRA.VID.PURA HARLAL ROOM NO.1",
+   "partId": 390978
+  },
+  {
+   "partNumber": 191,
+   "partName": "PRA.VID.PURA HARLAL ROOM NO.2",
+   "partId": 390979
+  },
+  {
+   "partNumber": 192,
+   "partName": "PRA.VID.PURA BHADORIA ROOM NO.1",
+   "partId": 390980
+  },
+  {
+   "partNumber": 193,
+   "partName": "PRA.VID.GAUSILI ROOM NO.1",
+   "partId": 390981
+  },
+  {
+   "partNumber": 194,
+   "partName": "PRA.VID.PURA TAL ROOM NO.1",
+   "partId": 390982
+  },
+  {
+   "partNumber": 195,
+   "partName": "POO.MA.VID.PURA BAGHRAJ COMPOSITE ROOM NO.1",
+   "partId": 390983
+  },
+  {
+   "partNumber": 196,
+   "partName": "POO.MAD.VID.PURABAGHRAJ",
+   "partId": 391176
+  },
+  {
+   "partNumber": 197,
+   "partName": "PRA.VID.PURA BEECH ROOM NO.1",
+   "partId": 390984
+  },
+  {
+   "partNumber": 198,
+   "partName": "POO.MAD.VID.PURA BHAGWAN COMPOSITE ROOM NO.1",
+   "partId": 390985
+  },
+  {
+   "partNumber": 199,
+   "partName": "PRA.VID.ABHAYPURA ROOM NO.1",
+   "partId": 390986
+  },
+  {
+   "partNumber": 200,
+   "partName": "PRA.VID.ABHAYPURA ROOM NO.2",
+   "partId": 390987
+  },
+  {
+   "partNumber": 201,
+   "partName": "POO.MAD.VID. SANNPURA COMPOSITE ROOM NO.1",
+   "partId": 390988
+  },
+  {
+   "partNumber": 202,
+   "partName": "PRA.VID.SHANTINAGAR ROOM NO.1",
+   "partId": 390989
+  },
+  {
+   "partNumber": 203,
+   "partName": "POO.MA.VID.CHAMRAUA ROOM NO.1",
+   "partId": 390990
+  },
+  {
+   "partNumber": 204,
+   "partName": "POO.MA.VID.CHAMRAUA ROOM NO.2",
+   "partId": 390991
+  },
+  {
+   "partNumber": 205,
+   "partName": "PRA.VID.KHAJUAPURA ROOM NO.1",
+   "partId": 390992
+  },
+  {
+   "partNumber": 206,
+   "partName": "POO.MAD.VID.VRASHANGPURA COMPOSITE ROOM NO.1",
+   "partId": 390993
+  },
+  {
+   "partNumber": 207,
+   "partName": "UCHCH PRA.VID.PRATAPPURA ROOM NO.1",
+   "partId": 390994
+  },
+  {
+   "partNumber": 208,
+   "partName": "PRA.VID.PARTAPPURA",
+   "partId": 391177
+  },
+  {
+   "partNumber": 209,
+   "partName": "POO.MAD.VID.DERAK COMPOSITE ROOM NO.1",
+   "partId": 390995
+  },
+  {
+   "partNumber": 210,
+   "partName": "KANYA POO.MA.VID.JARAR ROOM NO.1",
+   "partId": 390996
+  },
+  {
+   "partNumber": 211,
+   "partName": "KANYA POO.MA.VID.JARAR ROOM NO.2",
+   "partId": 390997
+  },
+  {
+   "partNumber": 212,
+   "partName": "SAMUDAYIK MILAN KENDRA JARAR ROOM NO.1",
+   "partId": 390998
+  },
+  {
+   "partNumber": 213,
+   "partName": "POO.MA.VID.JARAR COMPOSITE ROOM NO.1",
+   "partId": 390999
+  },
+  {
+   "partNumber": 214,
+   "partName": "POO.MA.VID.JARAR COMPOSITE ROOM NO.2",
+   "partId": 391000
+  },
+  {
+   "partNumber": 215,
+   "partName": "POO.MA.VID.JARAR COMPOSITE ROOM NO. 3",
+   "partId": 391001
+  },
+  {
+   "partNumber": 216,
+   "partName": "POO.MA.VID.JARAR COMPOSITE ROOM NO.4",
+   "partId": 391002
+  },
+  {
+   "partNumber": 217,
+   "partName": "POO.MA.VID.JARAR COMPOSITE ROOM NO.5",
+   "partId": 391003
+  },
+  {
+   "partNumber": 218,
+   "partName": "PRA.VID.PURA TODI ROOM NO.1",
+   "partId": 391004
+  },
+  {
+   "partNumber": 219,
+   "partName": "PRA.VID.HINGOTKHERA ROOM NO.1",
+   "partId": 391005
+  },
+  {
+   "partNumber": 220,
+   "partName": "PRA.VID.PARWATIPURA ROOM NO.1",
+   "partId": 391006
+  },
+  {
+   "partNumber": 221,
+   "partName": "PRA.VID.PARWATIPURA ROOM NO.2",
+   "partId": 391007
+  },
+  {
+   "partNumber": 222,
+   "partName": "PRA.VID.BATESWAR ROOM NO.1",
+   "partId": 391008
+  },
+  {
+   "partNumber": 223,
+   "partName": "PRA.VID.BATESWAR ROOM NO.2",
+   "partId": 391009
+  },
+  {
+   "partNumber": 224,
+   "partName": "POO.MA.VID.BATESWAR ROOM NO.1",
+   "partId": 391010
+  },
+  {
+   "partNumber": 225,
+   "partName": "PRA.VID.KALIYANPUR MANFI ROOM NO.1",
+   "partId": 391011
+  },
+  {
+   "partNumber": 226,
+   "partName": "POO.MAD.VID.BHARATAR COMPOSITE ROOM NO.1",
+   "partId": 391012
+  },
+  {
+   "partNumber": 227,
+   "partName": "POO.MA.VIIJKOLI COMPOSITE ROOM NO.1",
+   "partId": 391013
+  },
+  {
+   "partNumber": 228,
+   "partName": "POO.MA.VID.VIJKOLI COMPOSITE ROOM NO.2",
+   "partId": 391014
+  },
+  {
+   "partNumber": 229,
+   "partName": "POO.MA.VID.KALIJAR COMPOSITE ROOM NO. 1",
+   "partId": 391015
+  },
+  {
+   "partNumber": 230,
+   "partName": "PRA.VID. MORARI ROOM NO. 1",
+   "partId": 391016
+  },
+  {
+   "partNumber": 231,
+   "partName": "PRA.VID.SYAICH ROOM NO.1",
+   "partId": 391017
+  },
+  {
+   "partNumber": 232,
+   "partName": "PRA.VID.MAI ROOM NO.1",
+   "partId": 391018
+  },
+  {
+   "partNumber": 233,
+   "partName": "PRA.VID.MAI ROOM NO.2",
+   "partId": 391019
+  },
+  {
+   "partNumber": 234,
+   "partName": "PRA.VID.SIDHAWALI ROOM NO.1",
+   "partId": 391020
+  },
+  {
+   "partNumber": 235,
+   "partName": "POO.MA.VID.JATAVPURA ROOM NO. 1",
+   "partId": 391021
+  },
+  {
+   "partNumber": 236,
+   "partName": "PRA.VID.RUDMULI ROOM NO.1",
+   "partId": 391022
+  },
+  {
+   "partNumber": 237,
+   "partName": "PRA.VID.RUDMULI ROOM NO. 2",
+   "partId": 391023
+  },
+  {
+   "partNumber": 238,
+   "partName": "POO.MAD.VID.SUNSAR COMPOSITE ROOM NO.1",
+   "partId": 391024
+  },
+  {
+   "partNumber": 239,
+   "partName": "PRA.VID.VIKRAMPUR ROOM NO.1",
+   "partId": 391025
+  },
+  {
+   "partNumber": 240,
+   "partName": "PRA.VID.VIKRAMPUR ROOM NO.2",
+   "partId": 391026
+  },
+  {
+   "partNumber": 241,
+   "partName": "PRA.VID.VIKRAMPUR ROOM NO.3",
+   "partId": 391027
+  },
+  {
+   "partNumber": 242,
+   "partName": "PRA.VID.CHAURANGA BEHAD ROOM NO.1",
+   "partId": 391028
+  },
+  {
+   "partNumber": 243,
+   "partName": "PRA.VID.MANGADPUR ROOM NO.1",
+   "partId": 391029
+  },
+  {
+   "partNumber": 244,
+   "partName": "PRA.VID.PURA MANSUKH ROOM NO.1",
+   "partId": 391030
+  },
+  {
+   "partNumber": 245,
+   "partName": "PRA.VID.EMANPURA ROOM NO.1",
+   "partId": 391031
+  },
+  {
+   "partNumber": 246,
+   "partName": "PRA.VID.KHERA DEVIDAS ROOM NO.1",
+   "partId": 391032
+  },
+  {
+   "partNumber": 247,
+   "partName": "POO.MA.VID.BAH COMPOSITE ROOM NO.1",
+   "partId": 391033
+  },
+  {
+   "partNumber": 248,
+   "partName": "POO.MA.VID.BAH COMPOSITE ROOM NO.2",
+   "partId": 391034
+  },
+  {
+   "partNumber": 249,
+   "partName": "POO.MA.VID.BAH COMPOSITE ROOM NO.3",
+   "partId": 391035
+  },
+  {
+   "partNumber": 250,
+   "partName": "POO.MA.VID.BAH COMPOSITE ROOM NO.4",
+   "partId": 391036
+  },
+  {
+   "partNumber": 251,
+   "partName": "POO.MA.VID.BAH COMPOSITE ROOM NO.5",
+   "partId": 391037
+  },
+  {
+   "partNumber": 252,
+   "partName": "POO.MA.VID.BAH COMPOSITE ROOM NO.6",
+   "partId": 391038
+  },
+  {
+   "partNumber": 253,
+   "partName": "POO.MA.VID.BAH COMPOSITE ROOM NO.7",
+   "partId": 391039
+  },
+  {
+   "partNumber": 254,
+   "partName": "POO.MA.VID.BAH COMPOSITE ROOM NO.8",
+   "partId": 391040
+  },
+  {
+   "partNumber": 255,
+   "partName": "PRA.VID.DHOBAI ROOM NO.1",
+   "partId": 391041
+  },
+  {
+   "partNumber": 256,
+   "partName": "SAN‍T SHRI BRIJKISHORDAS KAN‍YA INTER COLLEGE BIJAULI ROOM NO.1",
+   "partId": 391042
+  },
+  {
+   "partNumber": 257,
+   "partName": "SAN‍T SHRI BRIJKISHORDAS KAN‍YA INTER COLLEGE BIJAULI ROOM NO.2",
+   "partId": 391043
+  },
+  {
+   "partNumber": 258,
+   "partName": "PRA.VID.BAH DEHAT ROOM NO.1",
+   "partId": 391044
+  },
+  {
+   "partNumber": 259,
+   "partName": "BHADAWAR DIGREE COLLEGE BAH ROOM NO.1",
+   "partId": 391045
+  },
+  {
+   "partNumber": 260,
+   "partName": "BHADAWAR DIGREE COLLEGE BAH ROOM NO.2",
+   "partId": 391046
+  },
+  {
+   "partNumber": 261,
+   "partName": "BHADAWAR DIGREE COLLEGE BAH ROOM NO.3",
+   "partId": 391047
+  },
+  {
+   "partNumber": 262,
+   "partName": "BHADAWAR DIGREE COLLEGE BAH ROOM NO.4",
+   "partId": 391048
+  },
+  {
+   "partNumber": 263,
+   "partName": "BHADAWAR DIGREE COLLEGE BAH ROOM NO.5",
+   "partId": 391049
+  },
+  {
+   "partNumber": 264,
+   "partName": "ASHARAM RAMNIWAS ADARSH INTER COLLEGE BAH ROOM NO.1",
+   "partId": 391050
+  },
+  {
+   "partNumber": 265,
+   "partName": "ASHARAM RAMNIWAS ADARSH INTER COLLEGE BAH ROOM NO.2",
+   "partId": 391051
+  },
+  {
+   "partNumber": 266,
+   "partName": "ASHARAM RAMNIWAS ADARSH INTER COLLEGE BAH ROOM NO.3",
+   "partId": 391052
+  },
+  {
+   "partNumber": 267,
+   "partName": "KANYA POO.MA.VID.GANJ COMPOSITE ROOM NO.1",
+   "partId": 391053
+  },
+  {
+   "partNumber": 268,
+   "partName": "KANYA POO.MA.VID.GANJ COMPOSITE ROOM NO.2",
+   "partId": 391054
+  },
+  {
+   "partNumber": 269,
+   "partName": "KANYA POO.MA.VID.GANJ COMPOSITE ROOM NO.3",
+   "partId": 391055
+  },
+  {
+   "partNumber": 270,
+   "partName": "BHADAWAR VIDYAMANDIR INTER COLLEGE BAH ROOM NO.1",
+   "partId": 391056
+  },
+  {
+   "partNumber": 271,
+   "partName": "BHADAWAR VIDYAMANDIR INTER COLLEGE BAH ROOM NO.2",
+   "partId": 391057
+  },
+  {
+   "partNumber": 272,
+   "partName": "PRA.VID.CHAURANGAHAR ROOM NO.1",
+   "partId": 391058
+  },
+  {
+   "partNumber": 273,
+   "partName": "PRA.VID.CHAURANGAHAR ROOM NO.2",
+   "partId": 391059
+  },
+  {
+   "partNumber": 274,
+   "partName": "POO.MAD.VID. SAMARMAU COMPOSITE ROOM NO.1",
+   "partId": 391060
+  },
+  {
+   "partNumber": 275,
+   "partName": "POO.MAD.VID.MADHEPURA COMPOSITE ROOM NO.1",
+   "partId": 391061
+  },
+  {
+   "partNumber": 276,
+   "partName": "POO.MAD.VID.MADHEPURA COMPOSITE ROOM NO.2",
+   "partId": 391062
+  },
+  {
+   "partNumber": 277,
+   "partName": "PRA.VID.DHANIYAPURA ROOM NO.1",
+   "partId": 391063
+  },
+  {
+   "partNumber": 278,
+   "partName": "POO.MA.VID.PURA GUMANSINGH ROOM NO.1",
+   "partId": 391064
+  },
+  {
+   "partNumber": 279,
+   "partName": "POO.MA.VID.PURA GUMANSINGH ROOM NO.2",
+   "partId": 391065
+  },
+  {
+   "partNumber": 280,
+   "partName": "POO.MAD.VID.KHOHARI -I COMPOSITE ROOM NO.1",
+   "partId": 391066
+  },
+  {
+   "partNumber": 281,
+   "partName": "PRA.VID.PURA MALAUNI (PURA SUBEDAR) ROOM NO.1",
+   "partId": 391067
+  },
+  {
+   "partNumber": 282,
+   "partName": "PRA.VID.MALAUNI",
+   "partId": 391178
+  },
+  {
+   "partNumber": 283,
+   "partName": "P00.MA.VID. MAJHATILA ROOM NO.1",
+   "partId": 391068
+  },
+  {
+   "partNumber": 284,
+   "partName": "PRA.VID.PURA KHAJURIYAN ROOM NO.1",
+   "partId": 391069
+  },
+  {
+   "partNumber": 285,
+   "partName": "KANYAPOO.MA.VID. KHEDARATHOR COMPOSITE ROOM NO.1",
+   "partId": 391070
+  },
+  {
+   "partNumber": 286,
+   "partName": "KANYAPOO.MA.VID. KHEDARATHOR COMPOSITE ROOM NO.2",
+   "partId": 391071
+  },
+  {
+   "partNumber": 287,
+   "partName": "PRA.VID.RANI KA BAG ROOM NO.1",
+   "partId": 391072
+  },
+  {
+   "partNumber": 288,
+   "partName": "PRA.VID.SIMRAHI ROOM NO.1",
+   "partId": 391073
+  },
+  {
+   "partNumber": 289,
+   "partName": "POO.MAD.VID.GOHARA COMPOSITE ROOM NO.1",
+   "partId": 391074
+  },
+  {
+   "partNumber": 290,
+   "partName": "POO.MAD.VID.GOHARA",
+   "partId": 391179
+  },
+  {
+   "partNumber": 291,
+   "partName": "PRA.VID.DEVPURA ROOM NO.1",
+   "partId": 391075
+  },
+  {
+   "partNumber": 292,
+   "partName": "POO.MA.VID. MAHUA COMPOSITE ROOM NO.1",
+   "partId": 391076
+  },
+  {
+   "partNumber": 293,
+   "partName": "POO.MA.VID. MAHUA COMPOSITE ROOM NO.2",
+   "partId": 391077
+  },
+  {
+   "partNumber": 294,
+   "partName": "P00.MA.VID. NANDGAWA ROOM NO.1",
+   "partId": 391078
+  },
+  {
+   "partNumber": 295,
+   "partName": "PRA.VID. NANDGAWA ROOM NO.1",
+   "partId": 391079
+  },
+  {
+   "partNumber": 296,
+   "partName": "PRA.VID. NANDGAWA ROOM NO.2",
+   "partId": 391080
+  },
+  {
+   "partNumber": 297,
+   "partName": "PRA.VID.KARANPURA ROOM NO.1",
+   "partId": 391081
+  },
+  {
+   "partNumber": 298,
+   "partName": "PRA.VID.KARANPURI ROOM NO.1",
+   "partId": 391082
+  },
+  {
+   "partNumber": 299,
+   "partName": "KANYA PRA.VID.KEELPURA ROOM NO.1",
+   "partId": 391083
+  },
+  {
+   "partNumber": 300,
+   "partName": "POO.MA.VID.UDAYPURKALA COMPOSITE ROOM NO.1",
+   "partId": 391084
+  },
+  {
+   "partNumber": 301,
+   "partName": "POO.MA.VID. UDAYPURKALA COMPOSITE ROO. NO.-2",
+   "partId": 391085
+  },
+  {
+   "partNumber": 302,
+   "partName": "PRA.VID. VEDPURA ROOM NO.1",
+   "partId": 391086
+  },
+  {
+   "partNumber": 303,
+   "partName": "PRA.VID.BADAGAON ROOM NO.1",
+   "partId": 391087
+  },
+  {
+   "partNumber": 304,
+   "partName": "PRA.VID.BADAGAON ROOM NO.2",
+   "partId": 391088
+  },
+  {
+   "partNumber": 305,
+   "partName": "POO.MA.VID.NAHTAULI COMPOSITE ROOM NO.1",
+   "partId": 391089
+  },
+  {
+   "partNumber": 306,
+   "partName": "POO.MA.VID.NAHTAULI COMPOSITE ROOM NO.2",
+   "partId": 391090
+  },
+  {
+   "partNumber": 307,
+   "partName": "POO.MAD.VID.RAIPURA DIXIT COMPOSITE ROOM NO.1",
+   "partId": 391091
+  },
+  {
+   "partNumber": 308,
+   "partName": "POO.MA.VID. RAMPURAGARHI COMPOSITE ROOM NO.1",
+   "partId": 391092
+  },
+  {
+   "partNumber": 309,
+   "partName": "PRA.VID.VITHTHONA ROOM NO.1",
+   "partId": 391093
+  },
+  {
+   "partNumber": 310,
+   "partName": "JANATA INTER COLLEGE JAITPURKALAN ROOM NO.1",
+   "partId": 391094
+  },
+  {
+   "partNumber": 311,
+   "partName": "JANATA INTER COLLEGE JAITPURKALAN ROOM NO.2",
+   "partId": 391095
+  },
+  {
+   "partNumber": 312,
+   "partName": "JANATA INTER COLLEGE JAITPURKALAN ROOM NO.3",
+   "partId": 391096
+  },
+  {
+   "partNumber": 313,
+   "partName": "POO.MA.VID. JAITPURKALAN COMPOSITE ROOM NO.1",
+   "partId": 391097
+  },
+  {
+   "partNumber": 314,
+   "partName": "POO.MA.VID. JAITPURKALAN COMPOSITE ROOM NO.2",
+   "partId": 391098
+  },
+  {
+   "partNumber": 315,
+   "partName": "POO.MA.VID. JAITPURKALAN COMPOSITE ROOM NO.3",
+   "partId": 391099
+  },
+  {
+   "partNumber": 316,
+   "partName": "POO.MA.VID. JAITPURKALAN COMPOSITE ROOM NO.4",
+   "partId": 391100
+  },
+  {
+   "partNumber": 317,
+   "partName": "PRA.VID.DHAYPURA ROOM NO.1",
+   "partId": 391101
+  },
+  {
+   "partNumber": 318,
+   "partName": "PRA.VID.MADAIYA JAI SINGH ROOM NO.1",
+   "partId": 391102
+  },
+  {
+   "partNumber": 319,
+   "partName": "PRA.VID.MADAIYAJAISINGH",
+   "partId": 391180
+  },
+  {
+   "partNumber": 320,
+   "partName": "POO.MAD.VID.KYARI COMPOSITE ROOM NO.1",
+   "partId": 391103
+  },
+  {
+   "partNumber": 321,
+   "partName": "POO.MAD.VID.KYARI",
+   "partId": 391181
+  },
+  {
+   "partNumber": 322,
+   "partName": "PRA.VID.AMAHI ROOM NO.1",
+   "partId": 391104
+  },
+  {
+   "partNumber": 323,
+   "partName": "PRA.VID.AMAHI",
+   "partId": 391182
+  },
+  {
+   "partNumber": 324,
+   "partName": "PRA.VID.PAHARHPURA ROOM NO.1",
+   "partId": 391105
+  },
+  {
+   "partNumber": 325,
+   "partName": "PRA.VID.PAHARHPURA ROOM NO.2",
+   "partId": 391106
+  },
+  {
+   "partNumber": 326,
+   "partName": "PRA.VID.ROOPPURA ROOM NO.1",
+   "partId": 391107
+  },
+  {
+   "partNumber": 327,
+   "partName": "PRA.VID.RICHHAPURA ROOM NO.1",
+   "partId": 391108
+  },
+  {
+   "partNumber": 328,
+   "partName": "PRA.VID.CHAUBE KA PURA ROOM NO.1",
+   "partId": 391109
+  },
+  {
+   "partNumber": 329,
+   "partName": "PRA.VID.GOPALPURA ROOM NO.1",
+   "partId": 391110
+  },
+  {
+   "partNumber": 330,
+   "partName": "PRA.VID.NONERA ROOM NO.1",
+   "partId": 391111
+  },
+  {
+   "partNumber": 331,
+   "partName": "PRA.VID.SANJAITI ROOM NO.1",
+   "partId": 391112
+  },
+  {
+   "partNumber": 332,
+   "partName": "PRA.VID.GARHWAR (NAWEEN BHAWAN} ROOM NO.1",
+   "partId": 391113
+  },
+  {
+   "partNumber": 333,
+   "partName": "PRA.VID.GARHWAR (NAWEEN BHAWAN} ROOM NO.2",
+   "partId": 391114
+  },
+  {
+   "partNumber": 334,
+   "partName": "PRA.VID.PURA MUKAND ROOM NO.1",
+   "partId": 391115
+  },
+  {
+   "partNumber": 335,
+   "partName": "POO.MAD.VID.GARHI BAROLI COMPOSITE ROOM NO.1",
+   "partId": 391116
+  },
+  {
+   "partNumber": 336,
+   "partName": "PRA.VID.POOTHA ROOM NO.1",
+   "partId": 391117
+  },
+  {
+   "partNumber": 337,
+   "partName": "P00.MA.VID. PARANA ROOM NO.1",
+   "partId": 391118
+  },
+  {
+   "partNumber": 338,
+   "partName": "P00.MA.VID. PARANA ROOM NO.2",
+   "partId": 391119
+  },
+  {
+   "partNumber": 339,
+   "partName": "PRA.VID.NAGALA SURAI ROOM NO.1",
+   "partId": 391120
+  },
+  {
+   "partNumber": 340,
+   "partName": "PRA.VID.NAGLA IMLI ROOM NO.1",
+   "partId": 391121
+  },
+  {
+   "partNumber": 341,
+   "partName": "POO.MA.VID.NAGALA BRIJ COMPOSITE ROOM NO.1",
+   "partId": 391122
+  },
+  {
+   "partNumber": 342,
+   "partName": "POO.MA.VIS.PURACHATURBHUJ COMPOSIT ROOM NO.1",
+   "partId": 391123
+  },
+  {
+   "partNumber": 343,
+   "partName": "PRA.VID.FATEHPURA ROOM NO.1",
+   "partId": 391124
+  },
+  {
+   "partNumber": 344,
+   "partName": "PRA.VID.TILUPURA ROOM NO.1",
+   "partId": 391125
+  },
+  {
+   "partNumber": 345,
+   "partName": "PRA.VID.LAKHANPURA JAGIR ROOM NO.1",
+   "partId": 391126
+  },
+  {
+   "partNumber": 346,
+   "partName": "PRA.VID.PRYAMPURA ROOM NO.1",
+   "partId": 391127
+  },
+  {
+   "partNumber": 347,
+   "partName": "PRA.VID.VAKATI ROOM NO.1",
+   "partId": 391128
+  },
+  {
+   "partNumber": 348,
+   "partName": "POO.MA.VID.SAROKHEEPURA COMPOSITE ROOM NO.1",
+   "partId": 391129
+  },
+  {
+   "partNumber": 349,
+   "partName": "PRA.VID. MUKATPURA ROOM NO.1",
+   "partId": 391130
+  },
+  {
+   "partNumber": 350,
+   "partName": "PRA.VID.NAYEPURA ROOM NO.1",
+   "partId": 391131
+  },
+  {
+   "partNumber": 351,
+   "partName": "PRA.VID.NAYEPURA",
+   "partId": 391183
+  },
+  {
+   "partNumber": 352,
+   "partName": "PRA.VID.MAU ROOM NO.1",
+   "partId": 391132
+  },
+  {
+   "partNumber": 353,
+   "partName": "PRA.VID.MAU ROOM NO.2",
+   "partId": 391133
+  },
+  {
+   "partNumber": 354,
+   "partName": "PRA.VID.GADDIPALPURA ROOM NO.1",
+   "partId": 391134
+  },
+  {
+   "partNumber": 355,
+   "partName": "POO.MAD.VID. SYAUPURA COMPOSITE ROOM NO.1",
+   "partId": 391135
+  },
+  {
+   "partNumber": 356,
+   "partName": "POO.MAD.VID.SYAUPURA",
+   "partId": 391184
+  },
+  {
+   "partNumber": 357,
+   "partName": "P00.MA.VID. PATHAKPURA ROOM NO.1",
+   "partId": 391136
+  },
+  {
+   "partNumber": 358,
+   "partName": "PRA.VID.SHAHPUR BRAHMAN ROOM NO.1",
+   "partId": 391137
+  },
+  {
+   "partNumber": 359,
+   "partName": "POO.MAD.VID. KANHARPURA COMPOSITE ROOM NO.1",
+   "partId": 391138
+  },
+  {
+   "partNumber": 360,
+   "partName": "POO.MA.VID.UDHANNAPURA COMPOSITE ROOM NO.1",
+   "partId": 391139
+  },
+  {
+   "partNumber": 361,
+   "partName": "P00.MA.VID. CHITAHAT ROOM NO.1",
+   "partId": 391140
+  },
+  {
+   "partNumber": 362,
+   "partName": "PRA.VID.SOORAJNAGAR ROOM NO.1",
+   "partId": 391141
+  },
+  {
+   "partNumber": 363,
+   "partName": "PRA.VID.SOORAJNAGAR ROOM NO.2",
+   "partId": 391142
+  },
+  {
+   "partNumber": 364,
+   "partName": "PRA.VID.PAI ROOM NO.1",
+   "partId": 391143
+  },
+  {
+   "partNumber": 365,
+   "partName": "P00.MA.VID. NAUGAWAN ROOM NO.1",
+   "partId": 391144
+  },
+  {
+   "partNumber": 366,
+   "partName": "P00.MA.VID. NAUGAWAN ROOM NO.2",
+   "partId": 391145
+  },
+  {
+   "partNumber": 367,
+   "partName": "POO.MAD.VID.NAUGAWAN",
+   "partId": 391185
+  },
+  {
+   "partNumber": 368,
+   "partName": "PRA.VID. LAL KA PURA ROOM NO.1",
+   "partId": 391146
+  },
+  {
+   "partNumber": 369,
+   "partName": "POO.MA.VID. KACHAURA GHAT COMPOSITE ROOM NO.1",
+   "partId": 391147
+  },
+  {
+   "partNumber": 370,
+   "partName": "POO.MA.VID. KACHAURA GHAT COMPOSITE ROOM NO.2",
+   "partId": 391148
+  },
+  {
+   "partNumber": 371,
+   "partName": "POO.MAD.VID.KACHORA",
+   "partId": 391186
+  },
+  {
+   "partNumber": 372,
+   "partName": "P00.MA.VID. KHICHCHARPURA ROOM NO.1",
+   "partId": 391149
+  },
+  {
+   "partNumber": 373,
+   "partName": "PRA.VID.KOOKAPUR ROOM NO.1",
+   "partId": 391150
+  },
+  {
+   "partNumber": 374,
+   "partName": "PRA.VID.KOOKAPUR ROOM NO.2",
+   "partId": 391151
+  },
+  {
+   "partNumber": 375,
+   "partName": "PRA.VID.RAMKUAN ROOM NO.1",
+   "partId": 391152
+  },
+  {
+   "partNumber": 376,
+   "partName": "POO.MAD.VID.NAHI KA PURA COMPOSITE ROOM NO.1",
+   "partId": 391153
+  },
+  {
+   "partNumber": 377,
+   "partName": "POO.MAD.VID. GARHIYA PARTAPPURA COMPOSITE ROOM NO.1",
+   "partId": 391154
+  },
+  {
+   "partNumber": 378,
+   "partName": "POO.MAD.VID. GARHIYA PARTAPPURA COMPOSITE ROOM NO.2",
+   "partId": 391155
+  },
+  {
+   "partNumber": 379,
+   "partName": "PRA.VI.KHILAWALI ROOM NO.1",
+   "partId": 391156
+  },
+  {
+   "partNumber": 380,
+   "partName": "ANGANVADI KENDRA MALIYAKHERA ROOM NO.1",
+   "partId": 391157
+  },
+  {
+   "partNumber": 381,
+   "partName": "PRA.VID.VIJAY NAGAR ROOM NO.1",
+   "partId": 391158
+  },
+  {
+   "partNumber": 382,
+   "partName": "PRA.VID.SHAHPURGUJAR ROOM NO.1",
+   "partId": 391159
+  },
+  {
+   "partNumber": 383,
+   "partName": "POO.MA.VID.KORATH COMPOSITE ROOM NO.1",
+   "partId": 391160
+  },
+  {
+   "partNumber": 384,
+   "partName": "POO.MA.VID.KORATH COMPOSITE ROOM NO.2",
+   "partId": 391161
+  },
+  {
+   "partNumber": 385,
+   "partName": "PRA.VID.KAMAUNI ROOM NO.1",
+   "partId": 391162
+  }
+ ]
+}

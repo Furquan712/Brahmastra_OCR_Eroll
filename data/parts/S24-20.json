@@ -1,0 +1,1677 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2421",
+ "acNumber": 20,
+ "fetchedAt": "2026-11-02T05:42:38",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 333,
+ "maxPart": 333,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "COMPOSITE SCHOOL TIBRI ROOM-1",
+   "partId": 409982
+  },
+  {
+   "partNumber": 2,
+   "partName": "COMPOSITE SCHOOL TIBRI ROOM-2",
+   "partId": 409983
+  },
+  {
+   "partNumber": 3,
+   "partName": "COMPOSITE SCHOOL TIBRI ROOM-3",
+   "partId": 409984
+  },
+  {
+   "partNumber": 4,
+   "partName": "P.S.BURHAN NAGAR ROOM NO-1",
+   "partId": 409985
+  },
+  {
+   "partNumber": 5,
+   "partName": "P.S.AURANGSHAHPUR BANWARI ROOM NO-1",
+   "partId": 409986
+  },
+  {
+   "partNumber": 6,
+   "partName": "J.H.S.HABIBWALA ROOM-1",
+   "partId": 409987
+  },
+  {
+   "partNumber": 7,
+   "partName": "J.H.S.HABIBWALA ROOM-2",
+   "partId": 409988
+  },
+  {
+   "partNumber": 8,
+   "partName": "P.S.DHURARA ROOM NO-1",
+   "partId": 409989
+  },
+  {
+   "partNumber": 9,
+   "partName": "P S DHURARA ROOM NO-2",
+   "partId": 410303
+  },
+  {
+   "partNumber": 10,
+   "partName": "P.S.KOPA ROOM NO-1",
+   "partId": 409990
+  },
+  {
+   "partNumber": 11,
+   "partName": "P.S.SHAHALIPUR NICHAL ROOM-1",
+   "partId": 409991
+  },
+  {
+   "partNumber": 12,
+   "partName": "P.S.SHAHALIPUR NICHAL ROOM-2",
+   "partId": 409992
+  },
+  {
+   "partNumber": 13,
+   "partName": "PANCHAYAT GHAR NATHADOI ROOM-1",
+   "partId": 409993
+  },
+  {
+   "partNumber": 14,
+   "partName": "J.H.S. NAYA GANAV ROOM-1",
+   "partId": 409994
+  },
+  {
+   "partNumber": 15,
+   "partName": "P.S.KODIPURA ROOM NO-1",
+   "partId": 409995
+  },
+  {
+   "partNumber": 16,
+   "partName": "P.S. NOORPUR CHHIPRI ROOM NO-1",
+   "partId": 409996
+  },
+  {
+   "partNumber": 17,
+   "partName": "ADARSH JANTA JU.HIGHSCHOOL CHHIPRI ROOM NO-1",
+   "partId": 409997
+  },
+  {
+   "partNumber": 18,
+   "partName": "ADARSH JANTA JU. HIGHSCHOOL CHHIPRI ROOM NO-2",
+   "partId": 409998
+  },
+  {
+   "partNumber": 19,
+   "partName": "P.S.BHIKKAWALA URF BADSHAHPUR LAXMISAIN ROOM-1",
+   "partId": 409999
+  },
+  {
+   "partNumber": 20,
+   "partName": "P.S.MOHD.ALIPUR LALMAN ROOM NO-1",
+   "partId": 410000
+  },
+  {
+   "partNumber": 21,
+   "partName": "P.S.MOHD.ALIPUR LALMAN ROOM NO-2",
+   "partId": 410001
+  },
+  {
+   "partNumber": 22,
+   "partName": "P.S. BHANAUTI URF AZAMPUR JAMNIBHAN  ROOM NO-1",
+   "partId": 410002
+  },
+  {
+   "partNumber": 23,
+   "partName": "P.S.BHANAUTI URF AZAMPUR JAMNIBHAN  ROOM NO-2",
+   "partId": 410003
+  },
+  {
+   "partNumber": 24,
+   "partName": "P.S.BHANAUTI URF AZAMPUR JAMNIBHAN  ROOM NO-3",
+   "partId": 410004
+  },
+  {
+   "partNumber": 25,
+   "partName": "P.S.SADTABAD SAADNAGAR ROOM NO-1",
+   "partId": 410005
+  },
+  {
+   "partNumber": 26,
+   "partName": "P.S.BHOOTPURI URF NWADA SAIDPUR JALAL ROOM NO-1",
+   "partId": 410006
+  },
+  {
+   "partNumber": 27,
+   "partName": "P.S.BHOOTPURI URF NWADA SAIDPUR JALAL ROOM NO-2",
+   "partId": 410007
+  },
+  {
+   "partNumber": 28,
+   "partName": "COMPOSITE SCHOOL MANOHARWALI URF FATEHPUR JAMAL ROOM NO-1",
+   "partId": 410008
+  },
+  {
+   "partNumber": 29,
+   "partName": "COMPOSITE SCHOOL MANOHARWALI URF FATEHPUR JAMAL ROOM NO-2",
+   "partId": 410009
+  },
+  {
+   "partNumber": 30,
+   "partName": "P.S.JAMALPUR ALAM URF MOHD.PUR JAMAL ROOM NO-1",
+   "partId": 410010
+  },
+  {
+   "partNumber": 31,
+   "partName": "COMPOSITE SCHOOL HAFIZABAD ROOM-1",
+   "partId": 410011
+  },
+  {
+   "partNumber": 32,
+   "partName": "COMPOSITE SCHOOL HAFIZABAD ROOM-2",
+   "partId": 410012
+  },
+  {
+   "partNumber": 33,
+   "partName": "COMPOSITE SCHOOL HAFIZABAD ROOM-3",
+   "partId": 410013
+  },
+  {
+   "partNumber": 34,
+   "partName": "P.S. MUBARAKPUR TAPPA BHARTI ROOM-1",
+   "partId": 410014
+  },
+  {
+   "partNumber": 35,
+   "partName": "P.S. MUBARAKPUR TAPPA BHARTI ROOM-2",
+   "partId": 410015
+  },
+  {
+   "partNumber": 36,
+   "partName": "P.S. GHOSIYOWALA GANVADI URF ASPHABAD BHAWAN ROOM NO-1",
+   "partId": 410016
+  },
+  {
+   "partNumber": 37,
+   "partName": "P.S. UMARPUR BANGAR ROOM NO-1",
+   "partId": 410017
+  },
+  {
+   "partNumber": 38,
+   "partName": "PANCHYAT SECRETARIAT MOHAMMADPUR SADA ROOM-1",
+   "partId": 410018
+  },
+  {
+   "partNumber": 39,
+   "partName": "P.S.GAJRAULA ROOM NO-1",
+   "partId": 410019
+  },
+  {
+   "partNumber": 40,
+   "partName": "P.S.PHATEHPUR LAL ROOM NO-1",
+   "partId": 410020
+  },
+  {
+   "partNumber": 41,
+   "partName": "P.S.MADAIYO, SHEKHPUR BHABRA ROOM-1",
+   "partId": 410021
+  },
+  {
+   "partNumber": 42,
+   "partName": "P.S.CHAK SHAHJANI ROOM NO-1",
+   "partId": 410022
+  },
+  {
+   "partNumber": 43,
+   "partName": "AAGANWARI KENDRA CHAKSHAHJANI ROOM-1",
+   "partId": 410304
+  },
+  {
+   "partNumber": 44,
+   "partName": "P.S.MOHD.PUR SULTAN ROOM NO-1",
+   "partId": 410023
+  },
+  {
+   "partNumber": 45,
+   "partName": "COMPOSITE SCHOOL HAKEEMPUR SHAKARGANJ ROOM-1",
+   "partId": 410024
+  },
+  {
+   "partNumber": 46,
+   "partName": "COMPOSITE SCHOOL HAKEEMPUR SHAKARGANJ ROOM-2",
+   "partId": 410025
+  },
+  {
+   "partNumber": 47,
+   "partName": "P.S.NANGLI LADAN ROOM NO-1",
+   "partId": 410026
+  },
+  {
+   "partNumber": 48,
+   "partName": "COMPOSITE SCHOOL BAGDAD ANSAR ROOM-1",
+   "partId": 410027
+  },
+  {
+   "partNumber": 49,
+   "partName": "COMPOSITE SCHOOL BAGDAD ANSAR ROOM-2",
+   "partId": 410028
+  },
+  {
+   "partNumber": 50,
+   "partName": "P.S.NANGLA GANNA ROOM - 1",
+   "partId": 410029
+  },
+  {
+   "partNumber": 51,
+   "partName": "P.S.NANGLA GANNA ROOM- 2",
+   "partId": 410030
+  },
+  {
+   "partNumber": 52,
+   "partName": "P.S.NANGLA NANSI ROOM-1",
+   "partId": 410031
+  },
+  {
+   "partNumber": 53,
+   "partName": "P S NANGLA NANSI ROOM-2",
+   "partId": 410305
+  },
+  {
+   "partNumber": 54,
+   "partName": "COMPOSITE SCHOOL RAMTHERA ROOM NO-1",
+   "partId": 410032
+  },
+  {
+   "partNumber": 55,
+   "partName": "P.S.WAJIRPUR BHAGWAN ROOM NO-1",
+   "partId": 410033
+  },
+  {
+   "partNumber": 56,
+   "partName": "P.S.PURANA DHAMPUR (DHAMPUR HUSAINPUR) ROOM-1",
+   "partId": 410034
+  },
+  {
+   "partNumber": 57,
+   "partName": "P.S.PURANA DHAMPUR (DHAMPUR HUSAINPUR) ROOM-2",
+   "partId": 410035
+  },
+  {
+   "partNumber": 58,
+   "partName": "P S DHAMPUR HUSAINPUR ROOM-3",
+   "partId": 410310
+  },
+  {
+   "partNumber": 59,
+   "partName": "J.H.S.DHAMPUR HUSAINPUR ROOM-1",
+   "partId": 410036
+  },
+  {
+   "partNumber": 60,
+   "partName": "J.H.S.DHAMPUR HUSAINPUR ROOM NO-2",
+   "partId": 410037
+  },
+  {
+   "partNumber": 61,
+   "partName": "J.H.S.DHAMPUR HUSAINPUR ROOM NO-3",
+   "partId": 410038
+  },
+  {
+   "partNumber": 62,
+   "partName": "P.S.RASULPUR IMMA ROOM NO-1",
+   "partId": 410039
+  },
+  {
+   "partNumber": 63,
+   "partName": "P.S.GAJUPURA ROOM NO-1",
+   "partId": 410040
+  },
+  {
+   "partNumber": 64,
+   "partName": "P.S.ALADINPUR BHATPURA ROOM NO-1",
+   "partId": 410041
+  },
+  {
+   "partNumber": 65,
+   "partName": "P S ALADINPUR BHATPURA ROOM-2",
+   "partId": 410306
+  },
+  {
+   "partNumber": 66,
+   "partName": "R.S.M.INTER COLLEGE RAMPUR BHOLA ROOM NO-1",
+   "partId": 410042
+  },
+  {
+   "partNumber": 67,
+   "partName": "R.S.M.INTER COLLEGE RAMPUR BHOLA ROOM NO-2",
+   "partId": 410043
+  },
+  {
+   "partNumber": 68,
+   "partName": "R.S.M.INTER COLLEGE RAMPUR BHOLA ROOM NO-3",
+   "partId": 410044
+  },
+  {
+   "partNumber": 69,
+   "partName": "R.S.M.INTER COLLEGE RAMPUR BHOLA ROOM NO-4",
+   "partId": 410045
+  },
+  {
+   "partNumber": 70,
+   "partName": "SARASWATI P.S.NAGAR.KSHETRA.DHAMPUR ROOM NO-1",
+   "partId": 410046
+  },
+  {
+   "partNumber": 71,
+   "partName": "SARASWATI P.S.NAGAR.KSHETRA.DHAMPUR ROOM NO-2",
+   "partId": 410047
+  },
+  {
+   "partNumber": 72,
+   "partName": "SARASWATI P.S.NAGAR.KSHETRA.DHAMPUR ROOM NO-3",
+   "partId": 410048
+  },
+  {
+   "partNumber": 73,
+   "partName": "K.M.INTER COLLEGE DHAMPUR ROOM NO-1",
+   "partId": 410049
+  },
+  {
+   "partNumber": 74,
+   "partName": "K.M.INTER COLLEGE DHAMPUR ROOM NO-2",
+   "partId": 410050
+  },
+  {
+   "partNumber": 75,
+   "partName": "K.M.INTER COLLEGE DHAMPUR ROOM NO-3",
+   "partId": 410051
+  },
+  {
+   "partNumber": 76,
+   "partName": "K.M.INTER COLLEGE DHAMPUR ROOM NO-4",
+   "partId": 410052
+  },
+  {
+   "partNumber": 77,
+   "partName": "K.M.INTER COLLEGE DHAMPUR ROOM NO-5",
+   "partId": 410053
+  },
+  {
+   "partNumber": 78,
+   "partName": "K.M.INTER COLLEGE DHAMPUR ROOM NO-6",
+   "partId": 410054
+  },
+  {
+   "partNumber": 79,
+   "partName": "COMPOSITE SCHOOL GIRLS NAGAR KSHETRA DHAMPUR ROOM NO-1",
+   "partId": 410055
+  },
+  {
+   "partNumber": 80,
+   "partName": "COMPOSITE SCHOOL GIRLS NAGAR KSHETRA DHAMPUR ROOM NO-2",
+   "partId": 410056
+  },
+  {
+   "partNumber": 81,
+   "partName": "COMPOSITE SCHOOL GIRLS NAGAR KSHETRA DHAMPUR ROOM NO-3",
+   "partId": 410057
+  },
+  {
+   "partNumber": 82,
+   "partName": "COMPOSITE SCHOOL GIRLS NAGAR KSHETRA DHAMPUR ROOM-4",
+   "partId": 410058
+  },
+  {
+   "partNumber": 83,
+   "partName": "COMPOSITE SCHOOL GIRLS NAGAR KSHETRA DHAMPUR ROOM NO-5",
+   "partId": 410059
+  },
+  {
+   "partNumber": 84,
+   "partName": "COMPOSITE SCHOOL GIRLS NAGAR KSHETRA DHAMPUR ROOM-6",
+   "partId": 410060
+  },
+  {
+   "partNumber": 85,
+   "partName": "COMPOSITE SCHOOL GIRLS NAGAR KSHETRA DHAMPUR ROOM-7",
+   "partId": 410061
+  },
+  {
+   "partNumber": 86,
+   "partName": "COMPOSITE SCHOOL GIRLS NAGAR KSHETRA DHAMPUR ROOM-8",
+   "partId": 410062
+  },
+  {
+   "partNumber": 87,
+   "partName": "SHIWAJI P.S.NAGAR KSHETRA DHAMPUR ROOM-1",
+   "partId": 410063
+  },
+  {
+   "partNumber": 88,
+   "partName": "SHIWAJI P.S.NAGAR KSHETRA DHAMPUR ROOM-2",
+   "partId": 410064
+  },
+  {
+   "partNumber": 89,
+   "partName": "SHIWAJI P.S.NAGAR KSHETRA DHAMPUR ROOM-3",
+   "partId": 410065
+  },
+  {
+   "partNumber": 90,
+   "partName": "SHIWAJI P.S.NAGAR KSHETRA DHAMPUR ROOM-4",
+   "partId": 410066
+  },
+  {
+   "partNumber": 91,
+   "partName": "SHIWAJI P.S.NAGAR KSHETRA DHAMPUR ROOM-5",
+   "partId": 410067
+  },
+  {
+   "partNumber": 92,
+   "partName": "DAYANAND VAIDIK SCHOOL ARYA SAMAJ ROOM-1",
+   "partId": 410068
+  },
+  {
+   "partNumber": 93,
+   "partName": "DAYANAND VAIDIK SCHOOL ARYA SAMAJ ROOM-2",
+   "partId": 410069
+  },
+  {
+   "partNumber": 94,
+   "partName": "DAYANAND VAIDIK SCHOOL ARYA SAMAJ ROOM-3",
+   "partId": 410070
+  },
+  {
+   "partNumber": 95,
+   "partName": "DAYANAND VAIDIK SCHOOL ARYA SAMAJ ROOM-4",
+   "partId": 410311
+  },
+  {
+   "partNumber": 96,
+   "partName": "BAALAK J.H.S. NAGAR KSHETRA DHAMPUR ROOM-1",
+   "partId": 410071
+  },
+  {
+   "partNumber": 97,
+   "partName": "BAALAK J.H.S. NAGAR KSHETRA DHAMPUR ROOM-2",
+   "partId": 410307
+  },
+  {
+   "partNumber": 98,
+   "partName": "GIRL INTER COLLEGE DHAMPUR ROOM-1",
+   "partId": 410072
+  },
+  {
+   "partNumber": 99,
+   "partName": "GIRL INTER COLLEGE DHAMPUR ROOM-2",
+   "partId": 410073
+  },
+  {
+   "partNumber": 100,
+   "partName": "MUNI VIDYANAND JAIN GIRLS SCHOOL DHAMPUR ROOM-1",
+   "partId": 410074
+  },
+  {
+   "partNumber": 101,
+   "partName": "MUNI VIDYANAND JAIN GIRLS SCHOOL DHAMPUR ROOM-2",
+   "partId": 410075
+  },
+  {
+   "partNumber": 102,
+   "partName": "MUNI VIDYANAND JAIN GIRLS SCHOOL DHAMPUR ROOM-3",
+   "partId": 410076
+  },
+  {
+   "partNumber": 103,
+   "partName": "MUNI VIDYANAND JAIN GIRLS SCHOOL DHAMPUR ROOM-4",
+   "partId": 410077
+  },
+  {
+   "partNumber": 104,
+   "partName": "MUNI VIDYANAND JAIN GIRLS SCHOOL DHAMPUR ROOM-5",
+   "partId": 410078
+  },
+  {
+   "partNumber": 105,
+   "partName": "GIRLS J.H.S. LAKHPATRAY DHAMPUR ROOM-1",
+   "partId": 410079
+  },
+  {
+   "partNumber": 106,
+   "partName": "GIRLS J.H.S. LAKHPATRAY DHAMPUR ROOM-2",
+   "partId": 410080
+  },
+  {
+   "partNumber": 107,
+   "partName": "GIRLS J.H.S. LAKHPATRAY DHAMPUR ROOM-3",
+   "partId": 410081
+  },
+  {
+   "partNumber": 108,
+   "partName": "GIRLS J.H.S. LAKHPATRAY DHAMPUR ROOM-4",
+   "partId": 410082
+  },
+  {
+   "partNumber": 109,
+   "partName": "GIRLS J.H.S. LAKHPATRAY DHAMPUR ROOM-5",
+   "partId": 410302
+  },
+  {
+   "partNumber": 110,
+   "partName": "MADARSA INTER EAST DHAMPUR ROOM-1",
+   "partId": 410083
+  },
+  {
+   "partNumber": 111,
+   "partName": "MADARSA INTER EAST DHAMPUR ROOM-2",
+   "partId": 410084
+  },
+  {
+   "partNumber": 112,
+   "partName": "J.H.SCHOOL ARBIYA MADARSA DHAMPUR ROOM NO-1",
+   "partId": 410085
+  },
+  {
+   "partNumber": 113,
+   "partName": "P.S.ALAWALPUR ROOM NO-1",
+   "partId": 410086
+  },
+  {
+   "partNumber": 114,
+   "partName": "P.S.DEETTANPUR ROOM-1",
+   "partId": 410087
+  },
+  {
+   "partNumber": 115,
+   "partName": "PS.DEETTANPUR ROOM-2",
+   "partId": 410088
+  },
+  {
+   "partNumber": 116,
+   "partName": "RANI PHUL KUMARI GIRL INTER COLLEGE SHERKOT ROOM-1",
+   "partId": 410089
+  },
+  {
+   "partNumber": 117,
+   "partName": "RANI PHUL KUMARI GIRL INTER COLLEGE SHERKOT ROOM-2",
+   "partId": 410090
+  },
+  {
+   "partNumber": 118,
+   "partName": "RANI PHUL KUMARI GIRL INTER COLLEGE SHERKOT ROOM-3",
+   "partId": 410091
+  },
+  {
+   "partNumber": 119,
+   "partName": "RANI PHUL KUMARI GIRL INTER COLLEGE SHERKOT ROOM-4",
+   "partId": 410092
+  },
+  {
+   "partNumber": 120,
+   "partName": "RANI PHUL KUMARI GIRL INTER COLLEGE SHERKOT ROOM-5",
+   "partId": 410093
+  },
+  {
+   "partNumber": 121,
+   "partName": "RANI PHUL KUMARI GIRL INTER COLLEGE SHERKOT ROOM-6",
+   "partId": 410094
+  },
+  {
+   "partNumber": 122,
+   "partName": "P.J.M.INTER.COLLEGE. SHERKOT ROOM-1",
+   "partId": 410095
+  },
+  {
+   "partNumber": 123,
+   "partName": "P.J.M.INTER.COLLEGE. SHERKOT ROOM-2",
+   "partId": 410096
+  },
+  {
+   "partNumber": 124,
+   "partName": "P.J.M.INTER.COLLEGE. SHERKOT ROOM-3",
+   "partId": 410097
+  },
+  {
+   "partNumber": 125,
+   "partName": "P.J.M.INTER.COLLEGE. SHERKOT ROOM-4",
+   "partId": 410098
+  },
+  {
+   "partNumber": 126,
+   "partName": "P.J.M.INTER.COLLEGE. SHERKOT ROOM-5",
+   "partId": 410099
+  },
+  {
+   "partNumber": 127,
+   "partName": "P.J.M.INTER.COLLEGE. SHERKOT ROOM-6",
+   "partId": 410100
+  },
+  {
+   "partNumber": 128,
+   "partName": "P.J.M.INTER.COLLEGE. SHERKOT ROOM-7",
+   "partId": 410101
+  },
+  {
+   "partNumber": 129,
+   "partName": "P.J.M.INTER.COLLEGE. SHERKOT ROOM-8",
+   "partId": 410102
+  },
+  {
+   "partNumber": 130,
+   "partName": "P.S.KAYASTHAN FIRST SHERKOT ROOM-1",
+   "partId": 410103
+  },
+  {
+   "partNumber": 131,
+   "partName": "P.S. KAYASTHAN FIRST SHERKOT ROOM-2",
+   "partId": 410104
+  },
+  {
+   "partNumber": 132,
+   "partName": "P.S.KAYASTHAN SECOND SHERKOT ROOM-1",
+   "partId": 410105
+  },
+  {
+   "partNumber": 133,
+   "partName": "P.S.KAYASTHAN SECOND SHERKOT ROOM-2",
+   "partId": 410106
+  },
+  {
+   "partNumber": 134,
+   "partName": "MUNICIPALITY OFFICE SHERKOT ROOM-1",
+   "partId": 410107
+  },
+  {
+   "partNumber": 135,
+   "partName": "MUNICIPALITY OFFICE SHERKOT ROOM-2",
+   "partId": 410108
+  },
+  {
+   "partNumber": 136,
+   "partName": "DAKSH VAIDIK INTER COLLEGE SHERKOT ROOM-1",
+   "partId": 410109
+  },
+  {
+   "partNumber": 137,
+   "partName": "DAKSH VAIDIK INTER COLLEGE SHERKOT ROOM-2",
+   "partId": 410110
+  },
+  {
+   "partNumber": 138,
+   "partName": "DAKSH VAIDIK INTER COLLEGE SHERKOT ROOM-3",
+   "partId": 410111
+  },
+  {
+   "partNumber": 139,
+   "partName": "DAKSH VAIDIK INTER COLLEGE SHERKOT ROOM-4",
+   "partId": 410112
+  },
+  {
+   "partNumber": 140,
+   "partName": "DAKSH VAIDIK INTER COLLEGE SHERKOT ROOM-5",
+   "partId": 410113
+  },
+  {
+   "partNumber": 141,
+   "partName": "DAKSH VAIDIK INTER COLLEGE SHERKOT ROOM-6",
+   "partId": 410114
+  },
+  {
+   "partNumber": 142,
+   "partName": "ZILA.P.GIRL.J.H.S. SHERKOT ROOM-1",
+   "partId": 410115
+  },
+  {
+   "partNumber": 143,
+   "partName": "ZILA.P.GIRL.J.H.S. SHERKOT ROOM-2",
+   "partId": 410116
+  },
+  {
+   "partNumber": 144,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT ROOM-1",
+   "partId": 410117
+  },
+  {
+   "partNumber": 145,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT ROOM-2",
+   "partId": 410118
+  },
+  {
+   "partNumber": 146,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT ROOM-3",
+   "partId": 410119
+  },
+  {
+   "partNumber": 147,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT ROOM-4",
+   "partId": 410120
+  },
+  {
+   "partNumber": 148,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT ROOM-5",
+   "partId": 410121
+  },
+  {
+   "partNumber": 149,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT ROOM-6",
+   "partId": 410122
+  },
+  {
+   "partNumber": 150,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT KAKSH-7",
+   "partId": 410123
+  },
+  {
+   "partNumber": 151,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT KAKSH-8",
+   "partId": 410124
+  },
+  {
+   "partNumber": 152,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT KAKSH-9",
+   "partId": 410125
+  },
+  {
+   "partNumber": 153,
+   "partName": "R.U.M.INTER COLLEGE SHERKOT ROOM-10",
+   "partId": 410126
+  },
+  {
+   "partNumber": 154,
+   "partName": "ISLAMIYA SCHOOL PURANA THANA SHERKOT ROOM-1",
+   "partId": 410127
+  },
+  {
+   "partNumber": 155,
+   "partName": "ISLAMIYA SCHOOL PURANA THANA SHERKOT ROOM-2",
+   "partId": 410128
+  },
+  {
+   "partNumber": 156,
+   "partName": "ISLAMIYA SCHOOL PURANA THANA SHERKOT ROOM-3",
+   "partId": 410129
+  },
+  {
+   "partNumber": 157,
+   "partName": "ISLAMIYA SCHOOL PURANA THANA SHERKOT  ROOM-4",
+   "partId": 410130
+  },
+  {
+   "partNumber": 158,
+   "partName": "ISLAMIYA SCHOOL PURANA THANA SHERKOT ROOM-5",
+   "partId": 410131
+  },
+  {
+   "partNumber": 159,
+   "partName": "R.U.M.P.S. SHERKOT ROOM-1",
+   "partId": 410132
+  },
+  {
+   "partNumber": 160,
+   "partName": "R.U.M.P.S. SHERKOT ROOM-2",
+   "partId": 410133
+  },
+  {
+   "partNumber": 161,
+   "partName": "P.S.MIRZAPUR HADAK (JAMALPUR UDAYCHAND) ROOM-1",
+   "partId": 410134
+  },
+  {
+   "partNumber": 162,
+   "partName": "P.S.MIRZAPUR HADAK (JAMALPUR UDAYCHAND) ROOM-2",
+   "partId": 410135
+  },
+  {
+   "partNumber": 163,
+   "partName": "P.S.HADAKPUR (SHAHALIPUR UTTAMCHAND) ROOM-1",
+   "partId": 410136
+  },
+  {
+   "partNumber": 164,
+   "partName": "J.H.S.LATIFPUR URF SIPAHIWALA ROOM -1",
+   "partId": 410137
+  },
+  {
+   "partNumber": 165,
+   "partName": "J.H.S.LATIFPUR URF SIPAHIWALA ROOM-2",
+   "partId": 410138
+  },
+  {
+   "partNumber": 166,
+   "partName": "P.S.BERKHERA TANDA ROOM-1",
+   "partId": 410139
+  },
+  {
+   "partNumber": 167,
+   "partName": "P.S.BERKHERA TANDA ROOM-2",
+   "partId": 410140
+  },
+  {
+   "partNumber": 168,
+   "partName": "P.S.WAZIRPUR JAGIR ROOM-1",
+   "partId": 410141
+  },
+  {
+   "partNumber": 169,
+   "partName": "P.S.WAZIRPUR JAGIR ROOM-2",
+   "partId": 410142
+  },
+  {
+   "partNumber": 170,
+   "partName": "P.S. JAMAPUR ROOM-1",
+   "partId": 410143
+  },
+  {
+   "partNumber": 171,
+   "partName": "P.S JAMAPUR ROOM-2",
+   "partId": 410144
+  },
+  {
+   "partNumber": 172,
+   "partName": "JANTA INTER COLLEGE MUKARPURI ROOM-1",
+   "partId": 410145
+  },
+  {
+   "partNumber": 173,
+   "partName": "JANTA INTER COLLEGE MUKARPURI ROOM-2",
+   "partId": 410146
+  },
+  {
+   "partNumber": 174,
+   "partName": "JANTA INTER COLLEGE MUKARPURI ROOM-3",
+   "partId": 410147
+  },
+  {
+   "partNumber": 175,
+   "partName": "P.S.PALKI AMAN ROOM N0-1",
+   "partId": 410148
+  },
+  {
+   "partNumber": 176,
+   "partName": "P.S.BALKISHANPUR ROOM-1",
+   "partId": 410149
+  },
+  {
+   "partNumber": 177,
+   "partName": "P.S.BALKISHANPUR ROOM-2",
+   "partId": 410150
+  },
+  {
+   "partNumber": 178,
+   "partName": "P.S.NASEERDIWALA (NANGLA BUDHWA) ROOM NO-1",
+   "partId": 410151
+  },
+  {
+   "partNumber": 179,
+   "partName": "P.S. TIPARJOT ROOM NO-1",
+   "partId": 410152
+  },
+  {
+   "partNumber": 180,
+   "partName": "P.S. UMARPUR AASHA ROOM NO-1",
+   "partId": 410153
+  },
+  {
+   "partNumber": 181,
+   "partName": "P.S.MUSTPHAPUR TAIYB ROOM-1",
+   "partId": 410154
+  },
+  {
+   "partNumber": 182,
+   "partName": "P.S.MUSTPHAPUR TAIYB ROOM-2",
+   "partId": 410155
+  },
+  {
+   "partNumber": 183,
+   "partName": "P.S.SAIDPUR VIRU ROOM NO-1",
+   "partId": 410156
+  },
+  {
+   "partNumber": 184,
+   "partName": "P.S.ALHAIPUR ROOM-1",
+   "partId": 410157
+  },
+  {
+   "partNumber": 185,
+   "partName": "P.S.ALHAIPUR ROOM-2",
+   "partId": 410158
+  },
+  {
+   "partNumber": 186,
+   "partName": "P.S.ALHAIPUR ROOM-3",
+   "partId": 410159
+  },
+  {
+   "partNumber": 187,
+   "partName": "GANNA SAHAKARI SAMITI DHAMPUR ALHAIPUR ROOM NO-1",
+   "partId": 410160
+  },
+  {
+   "partNumber": 188,
+   "partName": "GANNA SAHAKARI SAMITI DHAMPUR ALHAIPUR ROOM NO-2",
+   "partId": 410161
+  },
+  {
+   "partNumber": 189,
+   "partName": "GRAM PANCHAYAT SECRETARIAT DEVELOPMENT BLOCK ALHAIPUR ROOM NO-1",
+   "partId": 410162
+  },
+  {
+   "partNumber": 190,
+   "partName": "GRAM PANCHAYAT SECRETARIAT DEVELOPMENT BLOCK ALHAIPUR ROOM NO-2",
+   "partId": 410163
+  },
+  {
+   "partNumber": 191,
+   "partName": "P.S.KUNADIPURA FIRST ROOM-1",
+   "partId": 410164
+  },
+  {
+   "partNumber": 192,
+   "partName": "P.S.KUNADIPURA FIRST ROOM-2",
+   "partId": 410165
+  },
+  {
+   "partNumber": 193,
+   "partName": "COMPOSITE SCHOOL MAUHRA ROOM NO-1",
+   "partId": 410166
+  },
+  {
+   "partNumber": 194,
+   "partName": "COMPOSITE SCHOOL MAUHRA ROOM NO-2",
+   "partId": 410167
+  },
+  {
+   "partNumber": 195,
+   "partName": "P.S.MIRZAPUR PALLA ROOM-1",
+   "partId": 410168
+  },
+  {
+   "partNumber": 196,
+   "partName": "P.S.MIRZAPUR PALLA ROOM-2",
+   "partId": 410169
+  },
+  {
+   "partNumber": 197,
+   "partName": "GARM SECRETARIAT MOZAMPUR JAITRA ROOM NO-1",
+   "partId": 410170
+  },
+  {
+   "partNumber": 198,
+   "partName": "P.S.MOJAMPUR JAITRA ROOM-1",
+   "partId": 410171
+  },
+  {
+   "partNumber": 199,
+   "partName": "P.S.MOJAMPUR JAITRA ROOM-2",
+   "partId": 410172
+  },
+  {
+   "partNumber": 200,
+   "partName": "P.S.MOJAMPUR JAITRA ROOM-3",
+   "partId": 410173
+  },
+  {
+   "partNumber": 201,
+   "partName": "P.S.MOJAMPUR JAITRA ROOM-4",
+   "partId": 410174
+  },
+  {
+   "partNumber": 202,
+   "partName": "J.H.S. JAITRA (COMPOSITE) ROOM NO-1",
+   "partId": 410175
+  },
+  {
+   "partNumber": 203,
+   "partName": "PUBLIC.INTER COLLEGE MOJAMPUR JAITRA ROOM-1",
+   "partId": 410176
+  },
+  {
+   "partNumber": 204,
+   "partName": "PUBLIC.INTER COLLEGE MOJAMPUR JAITRA ROOM-2",
+   "partId": 410177
+  },
+  {
+   "partNumber": 205,
+   "partName": "P.S.BAMNAULI ROOM NO-1",
+   "partId": 410178
+  },
+  {
+   "partNumber": 206,
+   "partName": "P.S.HARRA AHAMADPUR JALAL ROOM NO-1",
+   "partId": 410179
+  },
+  {
+   "partNumber": 207,
+   "partName": "P.S.WAJIRPUR HARWANS ROOM NO-1",
+   "partId": 410180
+  },
+  {
+   "partNumber": 208,
+   "partName": "COMPOSITE SCHOOL AMKHERA ROOM NO-1",
+   "partId": 410181
+  },
+  {
+   "partNumber": 209,
+   "partName": "COMPOSITE SCHOOL AMKHERA ROOM NO-2",
+   "partId": 410182
+  },
+  {
+   "partNumber": 210,
+   "partName": "COMPOSITE SCHOOL AMKHERA ROOM NO-3",
+   "partId": 410183
+  },
+  {
+   "partNumber": 211,
+   "partName": "P.S.MADHI URF SADULLAKHANPUR ROOM- 1",
+   "partId": 410184
+  },
+  {
+   "partNumber": 212,
+   "partName": "P.S.MADHI URF SADULLAKHANPUR ROOM- 2",
+   "partId": 410185
+  },
+  {
+   "partNumber": 213,
+   "partName": "J.H.S. WAZIDPUR VEERU ROOM NO-1",
+   "partId": 410186
+  },
+  {
+   "partNumber": 214,
+   "partName": "J H S WAZIDPUR VEERU ROOM NO-2",
+   "partId": 410308
+  },
+  {
+   "partNumber": 215,
+   "partName": "P.S.MOHDPUR.VEERU ROOM NO-1",
+   "partId": 410187
+  },
+  {
+   "partNumber": 216,
+   "partName": "P.S.MOHD.ALIPUR BHIKKAN ROOM -1",
+   "partId": 410188
+  },
+  {
+   "partNumber": 217,
+   "partName": "P.S.MOHD.ALIPUR BHIKKAN ROOM- 2",
+   "partId": 410189
+  },
+  {
+   "partNumber": 218,
+   "partName": "PANCHAYAT GHAR MOJAMPUR SURAJ ROOM NO-1",
+   "partId": 410190
+  },
+  {
+   "partNumber": 219,
+   "partName": "P.S.SARKTHAL MADHO ROOM NO-1",
+   "partId": 410191
+  },
+  {
+   "partNumber": 220,
+   "partName": "P.S.NIDRU KHAS FIRST ROOM-1",
+   "partId": 410192
+  },
+  {
+   "partNumber": 221,
+   "partName": "P.S.NIDRU KHAS FIRST ROOM-2",
+   "partId": 410193
+  },
+  {
+   "partNumber": 222,
+   "partName": "P.S.NIDRU KHAS FIRST ROOM-3",
+   "partId": 410194
+  },
+  {
+   "partNumber": 223,
+   "partName": "P.S.NIDRU KHAS SECOND EXTRA ROOM- 1",
+   "partId": 410195
+  },
+  {
+   "partNumber": 224,
+   "partName": "P.S.NIDRU KHAS SECOND EXTRA ROOM- 2",
+   "partId": 410196
+  },
+  {
+   "partNumber": 225,
+   "partName": "P.S.NIDRU KHAS SECOND EXTRA ROOM- 3",
+   "partId": 410197
+  },
+  {
+   "partNumber": 226,
+   "partName": "P.S.NIDRU KHAS SECOND EXTRA ROOM- 4",
+   "partId": 410198
+  },
+  {
+   "partNumber": 227,
+   "partName": "J.H.S. COMPOSITE SALAWA ROOM- 1",
+   "partId": 410199
+  },
+  {
+   "partNumber": 228,
+   "partName": "P.S.KHUZISTANAGAR ROOM NO-1",
+   "partId": 410200
+  },
+  {
+   "partNumber": 229,
+   "partName": "COMPOSITE SCHOOL SALEM SARAY ROOM-1",
+   "partId": 410201
+  },
+  {
+   "partNumber": 230,
+   "partName": "COMPOSITE SCHOOL SALEM SARAY ROOM-2",
+   "partId": 410202
+  },
+  {
+   "partNumber": 231,
+   "partName": "P.S.HAIJARI URF NURULLAPUR CHEEMA ROOM NO-1",
+   "partId": 410203
+  },
+  {
+   "partNumber": 232,
+   "partName": "BABA LUXMAN DAS INTER COLLEGE CHAKRAJMAL ROOM-1",
+   "partId": 410204
+  },
+  {
+   "partNumber": 233,
+   "partName": "BABA LUXMAN DAS INTER COLLEGE CHAKRAJMAL ROOM-2",
+   "partId": 410205
+  },
+  {
+   "partNumber": 234,
+   "partName": "BABA LUXMAN DAS INTER COLLEGE CHAKRAJMAL ROOM-3",
+   "partId": 410206
+  },
+  {
+   "partNumber": 235,
+   "partName": "BABA LUXMAN DAS INTER COLLEGE CHAKRAJMAL ROOM-4",
+   "partId": 410207
+  },
+  {
+   "partNumber": 236,
+   "partName": "BABA LUXMAN DAS INTER COLLEGE CHAKRAJMAL ROOM-5",
+   "partId": 410208
+  },
+  {
+   "partNumber": 237,
+   "partName": "BABA LUXMAN DAS INTER COLLEGE CHAKRAJMAL ROOM-6",
+   "partId": 410209
+  },
+  {
+   "partNumber": 238,
+   "partName": "P.S.NASIRPUR BANWARI ROOM-1",
+   "partId": 410210
+  },
+  {
+   "partNumber": 239,
+   "partName": "P.S.NASIRPUR BANWARI ROOM-2",
+   "partId": 410211
+  },
+  {
+   "partNumber": 240,
+   "partName": "P.S.AJITPUR DASI ROOM NO-1",
+   "partId": 410212
+  },
+  {
+   "partNumber": 241,
+   "partName": "COMPOSITE SCHOOL BAKSHANPUR ROOM-1",
+   "partId": 410213
+  },
+  {
+   "partNumber": 242,
+   "partName": "COMPOSITE SCHOOL BAKSHANPUR ROOM-2",
+   "partId": 410214
+  },
+  {
+   "partNumber": 243,
+   "partName": "COMPOSITE SCHOOL BAKSHANPUR ROOM-3",
+   "partId": 410215
+  },
+  {
+   "partNumber": 244,
+   "partName": "P.S. MANPUR SHIVPURI ROOM NO-1",
+   "partId": 410216
+  },
+  {
+   "partNumber": 245,
+   "partName": "P.S.JAGUPURA ROOM NO-1",
+   "partId": 410217
+  },
+  {
+   "partNumber": 246,
+   "partName": "J.H.S. SALARABAD ROOM NO-1",
+   "partId": 410218
+  },
+  {
+   "partNumber": 247,
+   "partName": "J H S SALARABAD ROOM NO-2",
+   "partId": 410312
+  },
+  {
+   "partNumber": 248,
+   "partName": "P.S.THATHJAT ROOM-1",
+   "partId": 410219
+  },
+  {
+   "partNumber": 249,
+   "partName": "P.S.THATHJAT ROOM-2",
+   "partId": 410220
+  },
+  {
+   "partNumber": 250,
+   "partName": "P.S.SHEKHPUR THAT ROOM-1",
+   "partId": 410221
+  },
+  {
+   "partNumber": 251,
+   "partName": "P.S.BUAPUR NATHU ROOM-1",
+   "partId": 410222
+  },
+  {
+   "partNumber": 252,
+   "partName": "P.S.BUAPUR NATHU ROOM-2",
+   "partId": 410223
+  },
+  {
+   "partNumber": 253,
+   "partName": "P.S.HARIYANA ROOM NO-1",
+   "partId": 410224
+  },
+  {
+   "partNumber": 254,
+   "partName": "P.S.KESHOPUR ROOM NO-1",
+   "partId": 410225
+  },
+  {
+   "partNumber": 255,
+   "partName": "AAGANWARI KENDRA MITTHEPUR ROOM-1",
+   "partId": 410309
+  },
+  {
+   "partNumber": 256,
+   "partName": "P.S.JAMALPUR MAHIPAT ROOM NO-1",
+   "partId": 410226
+  },
+  {
+   "partNumber": 257,
+   "partName": "P.S.RAMPUR DULLI ROOM NO-1",
+   "partId": 410227
+  },
+  {
+   "partNumber": 258,
+   "partName": "P.S.HASANPUR PALKI ROOM NO-1",
+   "partId": 410228
+  },
+  {
+   "partNumber": 259,
+   "partName": "P.S.SARKTHAL SANI ROOM-1",
+   "partId": 410229
+  },
+  {
+   "partNumber": 260,
+   "partName": "P.S.SARKTHAL SANI ROOM-2",
+   "partId": 410230
+  },
+  {
+   "partNumber": 261,
+   "partName": "P.S.MILAK PURANPUR ROOM-1",
+   "partId": 410231
+  },
+  {
+   "partNumber": 262,
+   "partName": "P.S.MILAK PURANPUR ROOM-2",
+   "partId": 410232
+  },
+  {
+   "partNumber": 263,
+   "partName": "P.S.NANGLA BHAJJA KAKSH- 1",
+   "partId": 410233
+  },
+  {
+   "partNumber": 264,
+   "partName": "P.S.NANGLA BHAJJA KAKSH- 2",
+   "partId": 410234
+  },
+  {
+   "partNumber": 265,
+   "partName": "P.S.IBRAHIMPUR NARAYAN ROOM NO-1",
+   "partId": 410235
+  },
+  {
+   "partNumber": 266,
+   "partName": "P.S.JOTHIMMA ROOM-1",
+   "partId": 410236
+  },
+  {
+   "partNumber": 267,
+   "partName": "P.S.JOTHIMMA ROOM-2",
+   "partId": 410237
+  },
+  {
+   "partNumber": 268,
+   "partName": "P.S.UMARPUR KHADAR ROOM NO-1",
+   "partId": 410238
+  },
+  {
+   "partNumber": 269,
+   "partName": "P.S.NAWADA KESHO ROOM-1",
+   "partId": 410239
+  },
+  {
+   "partNumber": 270,
+   "partName": "P.S.NAWADA KESHO ROOM-2",
+   "partId": 410240
+  },
+  {
+   "partNumber": 271,
+   "partName": "J.H.S. SADDOBER ROOM-1",
+   "partId": 410241
+  },
+  {
+   "partNumber": 272,
+   "partName": "J.H.S. SADDOBER ROOM-2",
+   "partId": 410242
+  },
+  {
+   "partNumber": 273,
+   "partName": "J.H.S.RASULPUR MOHD.KULI (COMPOSITE) ROOM-1",
+   "partId": 410243
+  },
+  {
+   "partNumber": 274,
+   "partName": "J.H.S. RASULPUR MOHD.KULI (COMPOSITE) ROOM-2",
+   "partId": 410244
+  },
+  {
+   "partNumber": 275,
+   "partName": "P.S.RASULPUR MOHD.KULI ROOM-1",
+   "partId": 410245
+  },
+  {
+   "partNumber": 276,
+   "partName": "P.S.RASULPUR MOHD.KULI ROOM-2",
+   "partId": 410246
+  },
+  {
+   "partNumber": 277,
+   "partName": "P.S. KADRABAD KHURD ROOM NO-1",
+   "partId": 410247
+  },
+  {
+   "partNumber": 278,
+   "partName": "J.H.S.  AMIRPUR ROOM-1",
+   "partId": 410248
+  },
+  {
+   "partNumber": 279,
+   "partName": "P.S.BAMNAULI ROOM NO-1",
+   "partId": 410249
+  },
+  {
+   "partNumber": 280,
+   "partName": "P.S.JASMOR ROOM NO-1",
+   "partId": 410250
+  },
+  {
+   "partNumber": 281,
+   "partName": "BASIC GIRLS SCHOOL KHALILPUR ROOM-1",
+   "partId": 410251
+  },
+  {
+   "partNumber": 282,
+   "partName": "BASIC GIRLS SCHOOL KHALILPUR ROOM-2",
+   "partId": 410252
+  },
+  {
+   "partNumber": 283,
+   "partName": "BASIC GIRLS SCHOOL KHALILPUR ROOM-3",
+   "partId": 410253
+  },
+  {
+   "partNumber": 284,
+   "partName": "P.S.SEOHARA ROOM-1",
+   "partId": 410254
+  },
+  {
+   "partNumber": 285,
+   "partName": "P.S.SEOHARA ROOM-2",
+   "partId": 410255
+  },
+  {
+   "partNumber": 286,
+   "partName": "P.S.SEOHARA ROOM-4",
+   "partId": 410256
+  },
+  {
+   "partNumber": 287,
+   "partName": "P.S.SEOHARA ROOM-5",
+   "partId": 410257
+  },
+  {
+   "partNumber": 288,
+   "partName": "M.Q.INTER COLLEGE SEOHARA ROOM-1",
+   "partId": 410258
+  },
+  {
+   "partNumber": 289,
+   "partName": "M.Q.INTER COLLEGE SEOHARA ROOM-2",
+   "partId": 410259
+  },
+  {
+   "partNumber": 290,
+   "partName": "M.Q.INTER COLLEGE SEOHARA ROOM-3",
+   "partId": 410260
+  },
+  {
+   "partNumber": 291,
+   "partName": "M.Q.INTER COLLEGE SEOHARA ROOM-4",
+   "partId": 410261
+  },
+  {
+   "partNumber": 292,
+   "partName": "M.Q.INTER COLLEGE SEOHARA ROOM-5",
+   "partId": 410262
+  },
+  {
+   "partNumber": 293,
+   "partName": "M.Q.INTER COLLEGE SEOHARA ROOM-6",
+   "partId": 410263
+  },
+  {
+   "partNumber": 294,
+   "partName": "M.Q.INTER COLLEGE SEOHARA ROOM-7",
+   "partId": 410264
+  },
+  {
+   "partNumber": 295,
+   "partName": "M Q INTER COLLEGE SEOHARA ROOM-8",
+   "partId": 410313
+  },
+  {
+   "partNumber": 296,
+   "partName": "M Q INTER COLLEGE SEOHARA ROOM-9",
+   "partId": 410314
+  },
+  {
+   "partNumber": 297,
+   "partName": "F.S.C.SOOCIETY LTD.SEOHARA ROOM-1",
+   "partId": 410265
+  },
+  {
+   "partNumber": 298,
+   "partName": "B.D.O BUDHANPUR SEOHARA ROOM-1",
+   "partId": 410266
+  },
+  {
+   "partNumber": 299,
+   "partName": "B.D.O BUDHANPUR SEOHARA ROOM-2",
+   "partId": 410267
+  },
+  {
+   "partNumber": 300,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-1",
+   "partId": 410268
+  },
+  {
+   "partNumber": 301,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-2",
+   "partId": 410269
+  },
+  {
+   "partNumber": 302,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-3",
+   "partId": 410270
+  },
+  {
+   "partNumber": 303,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-4",
+   "partId": 410271
+  },
+  {
+   "partNumber": 304,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-5",
+   "partId": 410272
+  },
+  {
+   "partNumber": 305,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-6",
+   "partId": 410273
+  },
+  {
+   "partNumber": 306,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-7",
+   "partId": 410274
+  },
+  {
+   "partNumber": 307,
+   "partName": "R.S.P.I.C.SEOHARA ROOM-8",
+   "partId": 410275
+  },
+  {
+   "partNumber": 308,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-9",
+   "partId": 410276
+  },
+  {
+   "partNumber": 309,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-10",
+   "partId": 410277
+  },
+  {
+   "partNumber": 310,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-11",
+   "partId": 410278
+  },
+  {
+   "partNumber": 311,
+   "partName": "R.S.P.INTER COLLEGE SEOHARA ROOM-12",
+   "partId": 410279
+  },
+  {
+   "partNumber": 312,
+   "partName": "BIDLA INTER COLLEGE SEOHARA ROOM-1",
+   "partId": 410280
+  },
+  {
+   "partNumber": 313,
+   "partName": "BIDLA INTER COLLEGE SEOHARA ROOM-2",
+   "partId": 410281
+  },
+  {
+   "partNumber": 314,
+   "partName": "BIDLA INTER COLLEGE SEOHARA ROOM-3",
+   "partId": 410282
+  },
+  {
+   "partNumber": 315,
+   "partName": "DIGMBER JAIN TEMPLE COMITTEE I.C. SEOHARA ROOM- 1",
+   "partId": 410283
+  },
+  {
+   "partNumber": 316,
+   "partName": "DIGMBER JAIN TEMPLE COMITTEE I.C. SEOHARA ROOM- 2",
+   "partId": 410284
+  },
+  {
+   "partNumber": 317,
+   "partName": "DIGMBER JAIN TEMPLE COMITTEE I.C. SEOHARA ROOM- 3",
+   "partId": 410285
+  },
+  {
+   "partNumber": 318,
+   "partName": "DIGMBER JAIN TEMPLE COMITTEE I.C. SEOHARA ROOM- 4",
+   "partId": 410286
+  },
+  {
+   "partNumber": 319,
+   "partName": "DIGMBER JAIN TEMPLE COMITTEE I.C. SEOHARA ROOM-5",
+   "partId": 410287
+  },
+  {
+   "partNumber": 320,
+   "partName": "M.Q.GIRLS INTER COLLEGE SEOHARA ROOM-1",
+   "partId": 410288
+  },
+  {
+   "partNumber": 321,
+   "partName": "M.Q.GIRLS INTER COLLEGE SEOHARA ROOM-2",
+   "partId": 410289
+  },
+  {
+   "partNumber": 322,
+   "partName": "M.Q.GIRLS INTER COLLEGE SEOHARA ROOM-3",
+   "partId": 410290
+  },
+  {
+   "partNumber": 323,
+   "partName": "M.Q.GIRLS INTER COLLEGE SEOHARA ROOM-4",
+   "partId": 410291
+  },
+  {
+   "partNumber": 324,
+   "partName": "M.Q.GIRLS INTER COLLEGE SEOHARA ROOM-5",
+   "partId": 410292
+  },
+  {
+   "partNumber": 325,
+   "partName": "P.S.DINDARPUR ROOM-1",
+   "partId": 410293
+  },
+  {
+   "partNumber": 326,
+   "partName": "P.S.MILAK BENIRAM ROOM NO-1",
+   "partId": 410294
+  },
+  {
+   "partNumber": 327,
+   "partName": "P.S.MANDORI ROOM-1",
+   "partId": 410295
+  },
+  {
+   "partNumber": 328,
+   "partName": "P.S.MANDORI ROOM-2",
+   "partId": 410296
+  },
+  {
+   "partNumber": 329,
+   "partName": "P.S.PALANPUR ROOM NO-1",
+   "partId": 410297
+  },
+  {
+   "partNumber": 330,
+   "partName": "DR. AMBEDKAR COMMUNITY CENTER SHERPUR RAINI ROOM NO-1",
+   "partId": 410298
+  },
+  {
+   "partNumber": 331,
+   "partName": "P.S.RANAWLI ROOM NO-1",
+   "partId": 410299
+  },
+  {
+   "partNumber": 332,
+   "partName": "ADRASH J.H.SCHOOL SABDALPUR ROOM-1",
+   "partId": 410300
+  },
+  {
+   "partNumber": 333,
+   "partName": "ADRASH J.H.SCHOOL SABDALPUR ROOM-2",
+   "partId": 410301
+  }
+ ]
+}

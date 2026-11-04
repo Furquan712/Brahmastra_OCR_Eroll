@@ -2,7 +2,7 @@
  "stateCd": "S24",
  "districtCd": "S2406",
  "acNumber": 62,
- "fetchedAt": "2026-10-30T05:40:33",
+ "fetchedAt": "2026-11-01T08:34:14",
  "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
  "count": 794,
  "maxPart": 794,
@@ -80,7 +80,7 @@
   },
   {
    "partNumber": 15,
-   "partName": "GAGAN PUBLIC SCHOOL GAUR CITY R.N. 04",
+   "partName": "CLUBHOUSE GELEXY ROYAL SECTOR 16C ,GREATER NOIDA R.N. 01",
    "partId": 423284
   },
   {
@@ -175,17 +175,17 @@
   },
   {
    "partNumber": 34,
-   "partName": "CLUBHOUSE 10TH AVENUE GAUR CITY-2 R.N. 01",
+   "partName": "GAUR INTERNATIONAL SCHOOL GAUR CITY-2 R.N. 06",
    "partId": 423975
   },
   {
    "partNumber": 35,
-   "partName": "CLUBHOUSE JKG PALM COURT SECTOR-16C R.N. 01",
+   "partName": "GAUR INTERNATIONAL SCHOOL GAUR CITY-2 R.N. 07",
    "partId": 423296
   },
   {
    "partNumber": 36,
-   "partName": "CLUBHOUSE 4TH AVENUE GAUR CITY-1 R.N. 01",
+   "partName": "CLUBHOUSE JKG PALM COURT SECTOR-16C R.N. 01",
    "partId": 423297
   },
   {
@@ -220,27 +220,27 @@
   },
   {
    "partNumber": 43,
-   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.2",
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.1",
    "partId": 423303
   },
   {
    "partNumber": 44,
-   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.3",
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.2",
    "partId": 423304
   },
   {
    "partNumber": 45,
-   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.4",
+   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.3",
    "partId": 423305
   },
   {
    "partNumber": 46,
-   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.5",
+   "partName": "CLUBHOUSE 14th AVENUE GAUR CITY 2,GREATER NOIDA R.N.1",
    "partId": 423306
   },
   {
    "partNumber": 47,
-   "partName": "GAURS INTERNATIONAL SCHOOL - JUNIOR WING GAUR CITY R.N.6",
+   "partName": "CLUBHOUSE 14th AVENUE GAUR CITY 2,GREATER NOIDA R.N.2",
    "partId": 423977
   },
   {
@@ -320,12 +320,12 @@
   },
   {
    "partNumber": 63,
-   "partName": "EROS SAMPOORNAM CLUBHOUSE R.N. 01",
+   "partName": "COMMUNITY CENTRE EROS SAMPOORNAM GREATER NOIDA R.N. 01",
    "partId": 423316
   },
   {
    "partNumber": 64,
-   "partName": "EROS SAMPOORNAM CLUBHOUSE R.N. 02",
+   "partName": "COMMUNITY CENTRE EROS SAMPOORNAM GREATER NOIDA R.N. 02",
    "partId": 423317
   },
   {
@@ -370,7 +370,7 @@
   },
   {
    "partNumber": 73,
-   "partName": "J M INTERNATIONAL SCHOOL GREATER NOIDA R. N. 2",
+   "partName": "ASTER PUBLIC SCHOOL SECTOR 3 ,GREATER NOIDA R. N. 1",
    "partId": 423980
   },
   {
@@ -430,27 +430,27 @@
   },
   {
    "partNumber": 85,
-   "partName": "S.K.S WORLD SCHOOL SECTOR 16 R. N. 1",
+   "partName": "SUPERTECH ECOVILLAGE 2 SECTOR 16B GREATER NOIDA R. N. 1",
    "partId": 423331
   },
   {
    "partNumber": 86,
-   "partName": "SKS WORLD SCHOOL SECTOR 16 R. N. 2",
+   "partName": "SUPERTECH ECOVILLAGE 2 SECTOR 16B GREATER NOIDA R. N. 2",
    "partId": 423982
   },
   {
    "partNumber": 87,
-   "partName": "S.K.S WORLD SCHOOL SECTOR 16 R. N. 3",
+   "partName": "SUPERTECH ECOVILLAGE 2 SECTOR 16B GREATER NOIDA R. N. 3",
    "partId": 423332
   },
   {
    "partNumber": 88,
-   "partName": "SKS WORLD SCHOOL SECTOR 16 R. N. 4",
+   "partName": "MODERN PUBLIC SCHOOL SHAHBERI R. N. 1",
    "partId": 423983
   },
   {
    "partNumber": 89,
-   "partName": "S.K.S WORLD SCHOOL SECTOR 16 R. N. 5",
+   "partName": "CLUBHOUSE NIRALA ASPIRE SECTOR 16 GREATER NOIDA R. N. 1",
    "partId": 423333
   },
   {
@@ -855,7 +855,7 @@
   },
   {
    "partNumber": 170,
-   "partName": "ST JOHNS SCHOOL H.S.1 SECTOR-2 R.N.03",
+   "partName": "CLUBHOUSE NIRALA GREENSHIRE SECTOR 2 GREATER NOIDA R.N.01",
    "partId": 424017
   },
   {
@@ -880,12 +880,12 @@
   },
   {
    "partNumber": 175,
-   "partName": "DELHI WORLD PUBLIC SCHOOL GREATER NOIDA WEST R.NO. 3",
+   "partName": "CLM PUBLIC SCHOOL AIMNABAD,GREATER NOIDA R.NO. 1",
    "partId": 423414
   },
   {
    "partNumber": 176,
-   "partName": "DELHI WORLD PUBLIC SCHOOL GREATER NOIDA WEST R.NO. 4",
+   "partName": "CLM PUBLIC SCHOOL AIMNABAD,GREATER NOIDA R.NO. 2",
    "partId": 423415
   },
   {
@@ -1015,22 +1015,22 @@
   },
   {
    "partNumber": 202,
-   "partName": "PRIMARY SCHOOL KHODNA KHURD R.N. 2",
+   "partName": "PRIMARY SCHOOL DEVLA  R.N. 1",
    "partId": 423436
   },
   {
    "partNumber": 203,
-   "partName": "PRIMARY SCHOOL KHODNA KHURD R.N. 3",
+   "partName": "PRIMARY SCHOOL KHODNA KHURD R.N. 2",
    "partId": 423437
   },
   {
    "partNumber": 204,
-   "partName": "PRIMARY SCHOOL KHODNA KHURD R N 4",
+   "partName": "PRIMARY SCHOOL DEVLA R N 1",
    "partId": 423966
   },
   {
    "partNumber": 205,
-   "partName": "PRIMARY SCHOOL KHODNA KHURD R.N. 5",
+   "partName": "PRIMARY SCHOOL DEVLA  R.N. 2",
    "partId": 423438
   },
   {
@@ -1220,7 +1220,7 @@
   },
   {
    "partNumber": 243,
-   "partName": "S.R.S INTER COLLEGE KHERA DHARAMPURA R.N.03",
+   "partName": "SRS INTER COLLEGE KHERA DHARAMPURA R.N.02",
    "partId": 424025
   },
   {
@@ -1710,7 +1710,7 @@
   },
   {
    "partNumber": 341,
-   "partName": "JUNIOR HIGH SCHOOL DHOOM MANIKPUR R. NO. 3",
+   "partName": "PRIMARY SCHOOL DHOOMKHEDA R. NO. 3",
    "partId": 423556
   },
   {
@@ -1895,7 +1895,7 @@
   },
   {
    "partNumber": 378,
-   "partName": "SARSWATI SHISHU MANDIR RAILWAY ROAD DADRI R.N. 4",
+   "partName": "SARSWATI SHISHU MANDIR RAILWAY ROAD DADRI R.NO. 3",
    "partId": 423588
   },
   {
@@ -2150,27 +2150,27 @@
   },
   {
    "partNumber": 429,
-   "partName": "MIHIR BHOJ DEGREE COLLEGE. DADRI R.N. 3",
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 2",
    "partId": 423636
   },
   {
    "partNumber": 430,
-   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 4",
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 3",
    "partId": 423637
   },
   {
    "partNumber": 431,
-   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 5",
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 4",
    "partId": 423638
   },
   {
    "partNumber": 432,
-   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 6",
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N.5",
    "partId": 423639
   },
   {
    "partNumber": 433,
-   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 7",
+   "partName": "MIHIR BHOJ DEGREE COLLEGE DADRI R.N. 6",
    "partId": 423640
   },
   {
@@ -2675,32 +2675,32 @@
   },
   {
    "partNumber": 534,
-   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 3",
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 2",
    "partId": 423739
   },
   {
    "partNumber": 535,
-   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 4",
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 3",
    "partId": 423740
   },
   {
    "partNumber": 536,
-   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 5",
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 4",
    "partId": 423741
   },
   {
    "partNumber": 537,
-   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 6",
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 5",
    "partId": 423742
   },
   {
    "partNumber": 538,
-   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 7",
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 6",
    "partId": 423743
   },
   {
    "partNumber": 539,
-   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 8",
+   "partName": "SHRI GANDHI INTER COLLEGE GHODI BACHHEDA R.N. 7",
    "partId": 423744
   },
   {
@@ -2735,7 +2735,7 @@
   },
   {
    "partNumber": 546,
-   "partName": "PURVA MADHYMIK VIDHYALAY KAIMRALA CHAKRASAINPUR R.N. 2",
+   "partName": "PRIMARY SCHOOL CHAKRASENPUR R.N. 1",
    "partId": 423749
   },
   {
@@ -2925,7 +2925,7 @@
   },
   {
    "partNumber": 584,
-   "partName": "SHIV NADAR PUBLIC SCHOOL SECTOR 168 NOIDA R.N. 02",
+   "partName": "CLUBHOUSE PARAS SEASONS SECTOR 168 NOIDA R.N. 01",
    "partId": 423969
   },
   {
@@ -2945,17 +2945,17 @@
   },
   {
    "partNumber": 588,
-   "partName": "S.K.S. WORLD SCHOOL SECTOR 137 R. N. 1",
+   "partName": "CLUBHOUSE PARAS TIEREA SECTOR 137 NOIDA R. N. 1",
    "partId": 423784
   },
   {
    "partNumber": 589,
-   "partName": "S.K.S. WORLD SCHOOL SECTOR 137  R. N. 2",
+   "partName": "CLUBHOUSE PARAS TIEREA SECTOR 137 NOIDA  R. N. 2",
    "partId": 423995
   },
   {
    "partNumber": 590,
-   "partName": "S.K.S. WORLD SCHOOL SECTOR 137 R. N. 3",
+   "partName": "CLUBHOUSE PARAMOUNT FLORAVILLE SECTOR 137 NOIDA R. N. 1",
    "partId": 423785
   },
   {
@@ -3165,7 +3165,7 @@
   },
   {
    "partNumber": 632,
-   "partName": "PRIMARY SCHOOL MALAKPUR R.N. 02",
+   "partName": "PRIMARY SCHOOL BEGAMPUR R.N. 01",
    "partId": 423820
   },
   {
@@ -3215,12 +3215,12 @@
   },
   {
    "partNumber": 642,
-   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 4",
+   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 3",
    "partId": 423829
   },
   {
    "partNumber": 643,
-   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 5",
+   "partName": "UMA PUBLIC SCHOOL MAIN DADRI ROAD SURAJPUR R. N. 4",
    "partId": 423830
   },
   {
@@ -3245,17 +3245,17 @@
   },
   {
    "partNumber": 648,
-   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 05",
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 04",
    "partId": 423835
   },
   {
    "partNumber": 649,
-   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 06",
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 05",
    "partId": 423836
   },
   {
    "partNumber": 650,
-   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 07",
+   "partName": "SHAHID BHAGAT SINGH INTER COLLEGE SURAJPUR R.N. 06",
    "partId": 423837
   },
   {
@@ -3370,7 +3370,7 @@
   },
   {
    "partNumber": 673,
-   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 06",
+   "partName": "FATHER AGNEL SCHOOL BETA-2 R.N. 05",
    "partId": 423858
   },
   {
@@ -3470,7 +3470,7 @@
   },
   {
    "partNumber": 693,
-   "partName": "NEHRU SMARAK INTER COLLEGE SAKIPUR R. N. 7",
+   "partName": "COMMUNITY CENTRE ETA 1 ,GREATER NOIDA R. N. 1",
    "partId": 423875
   },
   {
@@ -3500,7 +3500,7 @@
   },
   {
    "partNumber": 699,
-   "partName": "PRIMARY SCHOOL BIRAUNDI CHAKRASENPUR R.N. 03",
+   "partName": "PRIMARY SCHOOL GAJRAULA NAWADA GREATER NOIDA R.N. 01",
    "partId": 423880
   },
   {
@@ -3520,17 +3520,17 @@
   },
   {
    "partNumber": 703,
-   "partName": "PRIMARY SCHOOL MATHURAPUR R. N. 1",
+   "partName": "BRIGHT FUTURE SCHOOL OMICRON 1,GREATER NOIDA R. N. 1",
    "partId": 423883
   },
   {
    "partNumber": 704,
-   "partName": "PRIMARY SCHOOL MATHURAPUR R. N. 2",
+   "partName": "PRIMARY SCHOOL MATHURAPUR R. N. 1",
    "partId": 423997
   },
   {
    "partNumber": 705,
-   "partName": "PRIMARY SCHOOL MATHURAPUR R. N. 3",
+   "partName": "ADORE SCHOOL OMICRON 2,GREATER NOIDA R. N. 1",
    "partId": 423884
   },
   {
@@ -3545,17 +3545,17 @@
   },
   {
    "partNumber": 708,
-   "partName": "SCHOLARS HOME INTERNATIONAL SCHOOL OMICRON-1 R. N. 1",
+   "partName": "CLUBHOUSE MIGSUN ULTIMO OMICRON 3 GREATER NOIDA R. N. 1",
    "partId": 424068
   },
   {
    "partNumber": 709,
-   "partName": "SCHOLARS HOME INTERNATIONAL SCHOOL OMICRON-1 R. N. 2",
+   "partName": "VANASTHALI PUBLIC SCHOOL OMICRON 3 GREATER NOIDA R. N. 1",
    "partId": 423887
   },
   {
    "partNumber": 710,
-   "partName": "SCHOLARS HOME INTERNATIONAL SCHOOL OMICRON-1 R. N. 3",
+   "partName": "MILENIUM INTERNATIONAL SCHOOL SECTOR OMICRON 1A GREATER NOIDA R. N. 1",
    "partId": 423888
   },
   {
@@ -3585,17 +3585,17 @@
   },
   {
    "partNumber": 716,
-   "partName": "MODERN SCHOOL DELTA-1 R. N. 3",
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 2",
    "partId": 423893
   },
   {
    "partNumber": 717,
-   "partName": "MODERN SCHOOL DELTA-1 R. N. 4",
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 3",
    "partId": 423894
   },
   {
    "partNumber": 718,
-   "partName": "MODERN SCHOOL DELTA-1 R. N. 5",
+   "partName": "MODERN SCHOOL DELTA-1 R. N. 4",
    "partId": 424061
   },
   {
@@ -3695,7 +3695,7 @@
   },
   {
    "partNumber": 738,
-   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 08",
+   "partName": "ST. JOSEPH'S PUBLIC SCHOOL ALPHA-1 R.N. 06",
    "partId": 423911
   },
   {
@@ -3790,22 +3790,22 @@
   },
   {
    "partNumber": 757,
-   "partName": "J. P. INTERNATIONAL SCHOOL OMEGA-1 R.N. 01",
+   "partName": "SPARSH INTERNATIONAL SCHOOL SECTOR OMEGA-1,GREATER NOIDA R.N. 01",
    "partId": 423926
   },
   {
    "partNumber": 758,
-   "partName": "J P INTERNATIONAL SCHOOL OMEGA-1 R.N. 02",
+   "partName": "SPARSH INTERNATIONAL SCHOOL SECTOR OMEGA-1,GREATER NOIDA R.N. 02",
    "partId": 423999
   },
   {
    "partNumber": 759,
-   "partName": "J. P. INTERNATIONAL SCHOOL OMEGA-1 R.N. 03",
+   "partName": "SPARSH INTERNATIONAL SCHOOL SECTOR OMEGA-1,GREATER NOIDA R.N. 03",
    "partId": 423927
   },
   {
    "partNumber": 760,
-   "partName": "J. P. INTERNATIONAL SCHOOL OMEGA-1 R.N. 04",
+   "partName": "COMMUNITY CENTRE CGEWHO KENDRIYA VIHAR P 4,GREATER NOIDA R.N. 01",
    "partId": 423928
   },
   {
@@ -3865,7 +3865,7 @@
   },
   {
    "partNumber": 772,
-   "partName": "K.D.S. PUBLIC SCHOOL OMEGA-1 R.N. 01",
+   "partName": "CLUBHOUSE NRI CITY OMEGA 2 ,GREATER NOIDA R.N. 01",
    "partId": 423938
   },
   {
@@ -3915,7 +3915,7 @@
   },
   {
    "partNumber": 782,
-   "partName": "PRIMARY SCHOOL JAITPUR VAISHPUR R.N. 03",
+   "partName": "GREDS INTERNATIONAL SCHOOL ETA 2,GREATER NOIDA R.N. 01",
    "partId": 423973
   },
   {
