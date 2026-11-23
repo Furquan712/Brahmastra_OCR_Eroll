@@ -1,0 +1,2243 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2457",
+ "acNumber": 171,
+ "acName": "Lucknow West",
+ "fetchedAt": "2026-11-07T06:22:17",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 446,
+ "maxPart": 446,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "JUNIOR HIGH SCHOOL BARAWAN KALA ROOM NO-1",
+   "partId": 369719
+  },
+  {
+   "partNumber": 2,
+   "partName": "JUNIOR HIGH SCHOOL BARAWAN KALA ROOM NO-2",
+   "partId": 370775
+  },
+  {
+   "partNumber": 3,
+   "partName": "JUNIOR HIGH SCHOOL BARAWAN KALA ROOM NO-3",
+   "partId": 369728
+  },
+  {
+   "partNumber": 4,
+   "partName": "AGANBARI KENDRA PEERNAGAR STHIT BARAWANKHURD ROOM NO-1",
+   "partId": 369729
+  },
+  {
+   "partNumber": 5,
+   "partName": "AGANBARI KENDRA PEERNAGAR STHIT BARAWANKHURD ROOM NO-2",
+   "partId": 369732
+  },
+  {
+   "partNumber": 6,
+   "partName": "LUCKNOW PUBLIC SCHOOL AMRAPALI YOJNA HARDOI ROAD ROOM NO-1",
+   "partId": 369733
+  },
+  {
+   "partNumber": 7,
+   "partName": "LUCKNOW PUBLIC SCHOOL AMRAPALI YOJNA HARDOI ROAD ROOM NO-2",
+   "partId": 369862
+  },
+  {
+   "partNumber": 8,
+   "partName": "LUCKNOW PUBLIC SCHOOL AMRAPALI YOJNA HARDOI ROAD ROOM NO-3",
+   "partId": 369863
+  },
+  {
+   "partNumber": 9,
+   "partName": "LUCKNOW PUBLIC SCHOOL AMRAPALI YOJNA HARDOI ROAD ROOM NO-4",
+   "partId": 369864
+  },
+  {
+   "partNumber": 10,
+   "partName": "LUCKNOW PUBLIC SCHOOL AMRAPALI YOJNA HARDOI ROAD ROOM NO-6",
+   "partId": 370773
+  },
+  {
+   "partNumber": 11,
+   "partName": "Primary School, Barikala room number 1",
+   "partId": 369866
+  },
+  {
+   "partNumber": 12,
+   "partName": "Primary School, Barikala room number 2",
+   "partId": 370774
+  },
+  {
+   "partNumber": 13,
+   "partName": "CITY PUBLIC SCHOOL PANDARIBA CHHANDOIYA ROOM NO-1",
+   "partId": 369867
+  },
+  {
+   "partNumber": 14,
+   "partName": "CITY PUBLIC SCHOOL PANDARIBA CHHANDOIYA ROOM NO-2",
+   "partId": 369868
+  },
+  {
+   "partNumber": 15,
+   "partName": "PURWA MADHAYAMIK MADHOPUR ROOM NO-1",
+   "partId": 369871
+  },
+  {
+   "partNumber": 16,
+   "partName": "PURWA MADHAYAMIK MADHOPUR ROOM NO-2",
+   "partId": 369873
+  },
+  {
+   "partNumber": 17,
+   "partName": "PURWA MADHAYAMIK MADHOPUR ROOM NO-3",
+   "partId": 369720
+  },
+  {
+   "partNumber": 18,
+   "partName": "PURWA MADHAYAMIK MADHOPUR ROOM NO-4",
+   "partId": 369721
+  },
+  {
+   "partNumber": 19,
+   "partName": "NAINITAL MODAL SCHOOL MADHOPUR ROOM NO-1",
+   "partId": 369722
+  },
+  {
+   "partNumber": 20,
+   "partName": "NAINITAL MODAL SCHOOL MADHOPUR ROOM NO-2",
+   "partId": 369723
+  },
+  {
+   "partNumber": 21,
+   "partName": "NAINITAL MODAL SCHOOL MADHOPUR ROOM NO-3",
+   "partId": 369724
+  },
+  {
+   "partNumber": 22,
+   "partName": "NAINITAL MODAL SCHOOL MADHOPUR ROOM NO",
+   "partId": 370776
+  },
+  {
+   "partNumber": 23,
+   "partName": "PRIMARY SCHOOL MADHOPUR ROOM NO-1",
+   "partId": 369725
+  },
+  {
+   "partNumber": 24,
+   "partName": "PRIMARY SCHOOL MADHOPUR ROOM NO-2",
+   "partId": 369726
+  },
+  {
+   "partNumber": 25,
+   "partName": "BESIC BAHUMANJALI VIDHYALAYA FAREEDIPUR ROOM NO-1 ZONE -4 NAGAR CHETRA LUCKNOW",
+   "partId": 369727
+  },
+  {
+   "partNumber": 26,
+   "partName": "BESIC BAHUMANJALI VIDHYALAYA FAREEDIPUR ROOM NO-2 ZONE -4 NAGAR CHETRA LUCKNOW",
+   "partId": 369730
+  },
+  {
+   "partNumber": 27,
+   "partName": "BESIC BAHUMANJALI VIDHYALAYA FAREEDIPUR ROOM NO-3 ZONE -4 NAGAR CHETRA LUCKNOW",
+   "partId": 369731
+  },
+  {
+   "partNumber": 28,
+   "partName": "BESIC BAHUMANJALI VIDHYALAYA FAREEDIPUR ROOM NO-4 ZONE -4 NAGAR CHETRA LUCKNOW",
+   "partId": 370777
+  },
+  {
+   "partNumber": 29,
+   "partName": "PURWA MADHYAMIK SCHOOL BHOOHAR ROOM NO-01",
+   "partId": 369865
+  },
+  {
+   "partNumber": 30,
+   "partName": "PURWA MADHYAMIK SCHOOL BHOOHAR ROOM NO-02",
+   "partId": 369869
+  },
+  {
+   "partNumber": 31,
+   "partName": "PRIMARY SCHOOL BHAMRAULI SHAHPUR ROOM NO-01",
+   "partId": 369870
+  },
+  {
+   "partNumber": 32,
+   "partName": "PRIMARY SCHOOL BHAMRAULI SHAHPUR ROOM NO-02",
+   "partId": 369872
+  },
+  {
+   "partNumber": 33,
+   "partName": "SIDDHARTHA PUBLIC SCHOOL AADARSH VIHAR ROOM NO 1",
+   "partId": 369874
+  },
+  {
+   "partNumber": 34,
+   "partName": "SIDDHARTHA PUBLIC SCHOOL AADARSH VIHARROOM NO 2",
+   "partId": 369875
+  },
+  {
+   "partNumber": 35,
+   "partName": "SIDDHARTHA PUBLIC SCHOOL AADARSH VIHARROOM NO 3",
+   "partId": 369876
+  },
+  {
+   "partNumber": 36,
+   "partName": "R.D.MEMORIAL PUBLIC INTER COLLEGE MOHAN ROAD ALAMNAGAR LUCKNOW ROOM NO-01",
+   "partId": 369879
+  },
+  {
+   "partNumber": 37,
+   "partName": "R.D.MEMORIAL PUBLIC INTER COLLEGE MOHAN ROAD ALAMNAGAR LUCKNOW ROOM NO-2",
+   "partId": 369877
+  },
+  {
+   "partNumber": 38,
+   "partName": "R D MEMORIAL PUBLIC INTER COLLEGE ROOM 3",
+   "partId": 370778
+  },
+  {
+   "partNumber": 39,
+   "partName": "R.D.MEMORIAL PUBLIC INTER COLLEGE MOHAN ROAD ALAMNAGAR LUCKNOW ROOM NO-04",
+   "partId": 369878
+  },
+  {
+   "partNumber": 40,
+   "partName": "D. K Public School Part No-1",
+   "partId": 369880
+  },
+  {
+   "partNumber": 41,
+   "partName": "D. K Public School Part No-2",
+   "partId": 369881
+  },
+  {
+   "partNumber": 42,
+   "partName": "A.L.Y MAINPURIYA INTER COLLEGE, HARSH NAGAR , ALAMNAGAR ROAD,LUCKNOW  ROOM NO-01",
+   "partId": 369882
+  },
+  {
+   "partNumber": 43,
+   "partName": "A.L.Y MAINPURIYA INTER COLLEGE, HARSH NAGAR, ALAMNAGAR ROAD, LUCKNOW ROOM NO-02",
+   "partId": 369883
+  },
+  {
+   "partNumber": 44,
+   "partName": "A.L.Y MAINPURIYA INTER COLLEGE, HARSH NAGAR, ALAMNAGAR ROAD, LUCKNOW ROOM NO-03",
+   "partId": 369884
+  },
+  {
+   "partNumber": 45,
+   "partName": "ALY MAINPURIYA INTER COLLEGE HANS NAGAR ALAMNAGAR ROAD LUCKNOW ROOM 4",
+   "partId": 370779
+  },
+  {
+   "partNumber": 46,
+   "partName": "BRAINS ACADEMY MALHPUR NEAR INDIAN OIL PETROL PUMP ROOM NO-1",
+   "partId": 369885
+  },
+  {
+   "partNumber": 47,
+   "partName": "BRAINS ACADEMY MALHPUR NEAR INDIAN OIL PETROL PUMP ROOM NO-2",
+   "partId": 369886
+  },
+  {
+   "partNumber": 48,
+   "partName": "BRAINS ACADEMY MALHPUR NEAR INDIAN OIL PETROL PUMP ROOM NO-3",
+   "partId": 369887
+  },
+  {
+   "partNumber": 49,
+   "partName": "BRAINS ACADEMY MALHPUR NEAR INDIAN OIL PETROL PUMP ROOM NO",
+   "partId": 370780
+  },
+  {
+   "partNumber": 50,
+   "partName": "BRAINS ACADEMY  MALHPUR NEAR INDIAN OIL PETROL PUMP ROOM NO-4",
+   "partId": 369888
+  },
+  {
+   "partNumber": 51,
+   "partName": "BRAINS ACADEMY MALHPUR NEAR INDIAN OIL PETROL PUMP ROOM NO-5",
+   "partId": 369889
+  },
+  {
+   "partNumber": 52,
+   "partName": "MAA BHAGWATI VIDHYA MANDIR PUBLIC SCHOOL PARA ROOM NO-1",
+   "partId": 369890
+  },
+  {
+   "partNumber": 53,
+   "partName": "MAA BHAGWATI VIDHYA MANDIR PUBLIC SCHOOL PARA ROOM NO-2",
+   "partId": 369891
+  },
+  {
+   "partNumber": 54,
+   "partName": "MAA BHAGWATI VIDHYA MANDIR PUBLIC SCHOOL PARA ROOM NO-3",
+   "partId": 369892
+  },
+  {
+   "partNumber": 55,
+   "partName": "MAA BHAGWATI VIDHYA MANDIR PUBLIC SCHOOL PARA ROOM NO-4",
+   "partId": 369893
+  },
+  {
+   "partNumber": 56,
+   "partName": "MAA BHAGWATI VIDHYA MANDIR PUBLIC SCHOOL PARA ROOM NO-5",
+   "partId": 369894
+  },
+  {
+   "partNumber": 57,
+   "partName": "MAA BHAGWATI VIDHYA MANDIR PUBLIC SCHOOL PARA ROOM NO",
+   "partId": 370781
+  },
+  {
+   "partNumber": 58,
+   "partName": "SHANTI SIKSHA MANDIR PUBLIC COLLEGE PARA ROOM NO-1",
+   "partId": 369895
+  },
+  {
+   "partNumber": 59,
+   "partName": "SHANTI SIKSHA MANDIR PUBLIC COLLEGE PARA ROOM NO-2",
+   "partId": 369896
+  },
+  {
+   "partNumber": 60,
+   "partName": "SENT MARY PUBLIC SCHOOL PARA ROOM NO 1",
+   "partId": 369897
+  },
+  {
+   "partNumber": 61,
+   "partName": "SENT MARY PUBLIC SCHOOL PARA ROOM NO. 2",
+   "partId": 369898
+  },
+  {
+   "partNumber": 62,
+   "partName": "SENT MERRY PUBLIC SCHOOL PARA ROOM NO-3",
+   "partId": 369899
+  },
+  {
+   "partNumber": 63,
+   "partName": "SENT MERRY PUBLIC SCHOOL PARA ROOM NO-4",
+   "partId": 369900
+  },
+  {
+   "partNumber": 64,
+   "partName": "SENT MERRY PUBLIC SCHOOL PARA ROOM NO-5",
+   "partId": 369901
+  },
+  {
+   "partNumber": 65,
+   "partName": "SENT MERRY PUBLIC SCHOOL PARA ROOM NO-6",
+   "partId": 369902
+  },
+  {
+   "partNumber": 66,
+   "partName": "SENT MERRY PUBLIC SCHOOL PARA ROOM NO-7",
+   "partId": 369903
+  },
+  {
+   "partNumber": 67,
+   "partName": "The Hamilton Academy room no",
+   "partId": 370782
+  },
+  {
+   "partNumber": 68,
+   "partName": "The Hamilton Academy room no-1",
+   "partId": 369904
+  },
+  {
+   "partNumber": 69,
+   "partName": "The Hamilton Academy room no-2",
+   "partId": 369905
+  },
+  {
+   "partNumber": 70,
+   "partName": "The Hamilton Academy room no-3",
+   "partId": 369906
+  },
+  {
+   "partNumber": 71,
+   "partName": "S.B.N. INTER COLLEGE NARPAT KHERA ROOM NO-1",
+   "partId": 369907
+  },
+  {
+   "partNumber": 72,
+   "partName": "S.B.N. INTER COLLEGE NARPAT KHERA ROOM NO-2",
+   "partId": 369908
+  },
+  {
+   "partNumber": 73,
+   "partName": "S.B.N. INTER COLLEGE NARPAT KHERA ROOM NO-3",
+   "partId": 369909
+  },
+  {
+   "partNumber": 74,
+   "partName": "S.B.N. INTER COLLEGE NARPAT KHERA ROOM NO-4",
+   "partId": 369910
+  },
+  {
+   "partNumber": 75,
+   "partName": "SBN INTER COLLEGE NARPAT KHEDA ROOM NO-5",
+   "partId": 370783
+  },
+  {
+   "partNumber": 76,
+   "partName": "SBN INTER COLLEGE NARPAT KHEDA ROOM NO-6",
+   "partId": 369911
+  },
+  {
+   "partNumber": 77,
+   "partName": "SENT ANTHONI PUBLIC SCHOOL DR. KHEDA PARA ROOM NO-1",
+   "partId": 369912
+  },
+  {
+   "partNumber": 78,
+   "partName": "SENT ANTHONI PUBLIC SCHOOL DR. KHEDA PARA ROOM NO-2",
+   "partId": 369913
+  },
+  {
+   "partNumber": 79,
+   "partName": "SENT ANTHONI PUBLIC SCHOOL DR. KHEDA PARA ROOM NO-3",
+   "partId": 369914
+  },
+  {
+   "partNumber": 80,
+   "partName": "SENT ANTHONI PUBLIC SCHOOL DR. KHEDA PARA ROOM NO-4",
+   "partId": 369915
+  },
+  {
+   "partNumber": 81,
+   "partName": "PRATHIMIK VIDHAYALYA HANS KHERA ROOM NO-1",
+   "partId": 369916
+  },
+  {
+   "partNumber": 82,
+   "partName": "PRATHIMIK VIDHAYALYA HANS KHERA ROOM NO-2",
+   "partId": 369917
+  },
+  {
+   "partNumber": 83,
+   "partName": "PURWA MADHYAMIK SCHOOL MALTI STORY PARA LKO/PRIMARY SCHOOL ROOM NO-1",
+   "partId": 369918
+  },
+  {
+   "partNumber": 84,
+   "partName": "PURWA MADHYAMIK SCHOOL MALTI STORY PARA LKO/PRIMARY SCHOOL ROOM NO-2",
+   "partId": 369919
+  },
+  {
+   "partNumber": 85,
+   "partName": "PURWA MADHYAMIK SCHOOL MALTI STORY PARA LKO/PRIMARY SCHOOL ROOM NO-3",
+   "partId": 369930
+  },
+  {
+   "partNumber": 86,
+   "partName": "S M I G, M I G Tower, Kabir Nagar Yojana room number 1",
+   "partId": 369931
+  },
+  {
+   "partNumber": 87,
+   "partName": "PRIMARY SCHOOL RAMLEELA GROUND PARA ROOM NO-1",
+   "partId": 369944
+  },
+  {
+   "partNumber": 88,
+   "partName": "PRIMARY SCHOOL RAMLEELA GROUND PARA ROOM NO-2",
+   "partId": 369945
+  },
+  {
+   "partNumber": 89,
+   "partName": "PRIMARY KANYA SCHOOL MARDAN KHERA ROOM NO-1",
+   "partId": 369946
+  },
+  {
+   "partNumber": 90,
+   "partName": "SUNRISE PUBLIC SCHOOL MARDAN KHERA RAJAJIPURAM ROOM NO-1",
+   "partId": 369961
+  },
+  {
+   "partNumber": 91,
+   "partName": "SUNRISE PUBLIC SCHOOL MARDAN KHERA RAJAJIPURAM ROOM NO-2",
+   "partId": 369962
+  },
+  {
+   "partNumber": 92,
+   "partName": "SUNRISE PUBLIC SCHOOL MARDAN KHERA RAJAJIPURAM ROOM NO-3",
+   "partId": 369963
+  },
+  {
+   "partNumber": 93,
+   "partName": "SUNRISE PUBLIC SCHOOL MARDAN KHERA RAJAJIPURAM ROOM NO-4",
+   "partId": 369964
+  },
+  {
+   "partNumber": 94,
+   "partName": "SUNRISE PUBLIC SCHOOL MARDAN KHERA RAJAJIPURAM ROOM NO-5",
+   "partId": 369965
+  },
+  {
+   "partNumber": 95,
+   "partName": "SUNRISE PUBLIC SCHOOL MARDAN KHERA RAJAJIPURAM ROOM NO-6",
+   "partId": 369966
+  },
+  {
+   "partNumber": 96,
+   "partName": "RAMESHWAR SCHOOL JALALPUR ROOM NO-1",
+   "partId": 369967
+  },
+  {
+   "partNumber": 97,
+   "partName": "RAMESHWAR SCHOOL JALALPUR ROOM NO-2",
+   "partId": 369968
+  },
+  {
+   "partNumber": 98,
+   "partName": "RAMESHWAR SCHOOL JALALPUR ROOM NO",
+   "partId": 370784
+  },
+  {
+   "partNumber": 99,
+   "partName": "RAJKUMAR INTER COLLEGE LUCKNOW ROOM NO-1",
+   "partId": 369981
+  },
+  {
+   "partNumber": 100,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-2",
+   "partId": 369982
+  },
+  {
+   "partNumber": 101,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-3",
+   "partId": 369983
+  },
+  {
+   "partNumber": 102,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO- SIDHART",
+   "partId": 369984
+  },
+  {
+   "partNumber": 103,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-5",
+   "partId": 369985
+  },
+  {
+   "partNumber": 104,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-6",
+   "partId": 369995
+  },
+  {
+   "partNumber": 105,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-7",
+   "partId": 369996
+  },
+  {
+   "partNumber": 106,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-8",
+   "partId": 369997
+  },
+  {
+   "partNumber": 107,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-9",
+   "partId": 369998
+  },
+  {
+   "partNumber": 108,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-10",
+   "partId": 370785
+  },
+  {
+   "partNumber": 109,
+   "partName": "RAJKUMAR INTER COLLEGE ALAMNAGAR LUCKNOW ROOM NO-10",
+   "partId": 370010
+  },
+  {
+   "partNumber": 110,
+   "partName": "DESH BHARTI PUBLIC INTER COLLEGE SECTOR-1, F-BLOCK PANI KI TANKI THADI-ROOM NO 2",
+   "partId": 370011
+  },
+  {
+   "partNumber": 111,
+   "partName": "DESH BHARTI PUBLIC INTER COLLEGE SECTOR-1, F-BLOCK PANI KI TANKI THADI-ROOM NO 3",
+   "partId": 370012
+  },
+  {
+   "partNumber": 112,
+   "partName": "DESH BHARTI PUBLIC INTER COLLEGE SECTOR-1, F-BLOCK PANI KI TANKI THADI-ROOM NO 4",
+   "partId": 370025
+  },
+  {
+   "partNumber": 113,
+   "partName": "DESH BHARTI PUBLIC INTER COLLEGE SECTOR-1, F-BLOCK PANI KI TANKI THADI-ROOM NO 5",
+   "partId": 370026
+  },
+  {
+   "partNumber": 114,
+   "partName": "DESH BHARTI PUBLIC INTER COLLEGE SECTOR-1, F-BLOCK PANI KI TANKI THADI-ROOM NO 6",
+   "partId": 370786
+  },
+  {
+   "partNumber": 115,
+   "partName": "PRIMARY SCHOOL ALAMNAGAR ROOM NO-1",
+   "partId": 370069
+  },
+  {
+   "partNumber": 116,
+   "partName": "PRIMARY SCHOOL ALAMNAGAR ROOM NO-2",
+   "partId": 370070
+  },
+  {
+   "partNumber": 117,
+   "partName": "SIDDHARTH GLOBAL SENIOR SECEONDRY SCHOOL , ALAMNAGAR ROAD LUCKNOW ROOM NO-01",
+   "partId": 370071
+  },
+  {
+   "partNumber": 118,
+   "partName": "SIDDHARTH GLOBAL SENIOR SECEONDRY SCHOOL , ALAMNAGAR ROAD LUCKNOW ROOM NO-02",
+   "partId": 370098
+  },
+  {
+   "partNumber": 119,
+   "partName": "SIDDHARTH GLOBAL SENIOR SECEONDRY SCHOOL , ALAMNAGAR ROAD LUCKNOW ROOM NO-03",
+   "partId": 370099
+  },
+  {
+   "partNumber": 120,
+   "partName": "Chitransh Vidyapeeth Inter College, ROOM NO-01",
+   "partId": 370100
+  },
+  {
+   "partNumber": 121,
+   "partName": "Chitransh Vidyapeeth Inter College, ROOM NO-2",
+   "partId": 370101
+  },
+  {
+   "partNumber": 122,
+   "partName": "Chitransh Vidyapeeth Inter College, ROOM NO",
+   "partId": 370787
+  },
+  {
+   "partNumber": 123,
+   "partName": "ERAM GIRLS DIGREE COLLEGE ROOM NO-1",
+   "partId": 370614
+  },
+  {
+   "partNumber": 124,
+   "partName": "ERAM GIRLS DIGREE COLLEGE ROOM NO-2",
+   "partId": 370615
+  },
+  {
+   "partNumber": 125,
+   "partName": "ERAM GIRLS DIGREE COLLEGE ROOM NO-3",
+   "partId": 370616
+  },
+  {
+   "partNumber": 126,
+   "partName": "ERAM GIRLS DIGREE COLLEGE ROOM NO-4",
+   "partId": 370617
+  },
+  {
+   "partNumber": 127,
+   "partName": "ERAM GIRLS DIGREE COLLEGE ROOM NO-5",
+   "partId": 370618
+  },
+  {
+   "partNumber": 128,
+   "partName": "ERAM GIRLS DIGREE COLLEGE ROOM NO-6",
+   "partId": 370619
+  },
+  {
+   "partNumber": 129,
+   "partName": "ERAM GIRLS DIGREE COLLEGE ROOM NO",
+   "partId": 370788
+  },
+  {
+   "partNumber": 130,
+   "partName": "AXON MONTESSORY SCHOOL CAMPWELL ROAD HABIBPUR ROOM NO-1",
+   "partId": 370620
+  },
+  {
+   "partNumber": 131,
+   "partName": "AXON MONTESSORY SCHOOL CAMPWELL ROAD HABIBPUR ROOM NO-2",
+   "partId": 370621
+  },
+  {
+   "partNumber": 132,
+   "partName": "AXON MONTESSORY SCHOOL CAMPWELL ROAD HABIBPUR ROOM NO-3",
+   "partId": 370622
+  },
+  {
+   "partNumber": 133,
+   "partName": "AXON MONTESSORY SCHOOL CAMPWELL ROAD HABIBPUR ROOM NO-4",
+   "partId": 370623
+  },
+  {
+   "partNumber": 134,
+   "partName": "AXON MONTESSORY SCHOOL CAMPWELL ROAD HABIBPUR ROOM NO-5",
+   "partId": 370641
+  },
+  {
+   "partNumber": 135,
+   "partName": "AXON MONTESSORY SCHOOL CAMPWELL ROAD HABIBPUR ROOM NO-6",
+   "partId": 370642
+  },
+  {
+   "partNumber": 136,
+   "partName": "BRIGHT CAREER SCHOOL MALHPUR ROOM NO-1",
+   "partId": 370643
+  },
+  {
+   "partNumber": 137,
+   "partName": "BRIGHT CAREER SCHOOL MALHPUR ROOM NO-2",
+   "partId": 370644
+  },
+  {
+   "partNumber": 138,
+   "partName": "BRIGHT CAREER SCHOOL MALHPUR ROOM NO-3",
+   "partId": 370645
+  },
+  {
+   "partNumber": 139,
+   "partName": "BRIGHT CAREER SCHOOL MALHPUR ROOM NO-4",
+   "partId": 370646
+  },
+  {
+   "partNumber": 140,
+   "partName": "BRIGHT CAREER SCHOOL MALHPUR ROOM NO-5",
+   "partId": 370647
+  },
+  {
+   "partNumber": 141,
+   "partName": "BRIGHT CAREER SCHOOL MALHPUR ROOM NO-6",
+   "partId": 370648
+  },
+  {
+   "partNumber": 142,
+   "partName": "BRIGHT CAREER SCHOOL MALHPUR ROOM NO-7",
+   "partId": 370789
+  },
+  {
+   "partNumber": 143,
+   "partName": "S.B.PUBLIC HIGH SCHOOL CAMPWELL ROAD NEAR YASEENGANJ LUCKNOW ROOM NO-1",
+   "partId": 370649
+  },
+  {
+   "partNumber": 144,
+   "partName": "S.B.PUBLIC HIGH SCHOOL CAMPWELL ROAD NEAR YASEENGANJ LUCKNOW ROOM NO-2",
+   "partId": 370650
+  },
+  {
+   "partNumber": 145,
+   "partName": "S.B.PUBLIC HIGH SCHOOL CAMPWELL ROAD NEAR YASEENGANJ LUCKNOW ROOM NO-3",
+   "partId": 370651
+  },
+  {
+   "partNumber": 146,
+   "partName": "S.B.PUBLIC HIGH SCHOOL CAMPWELL ROAD NEAR YASEENGANJ LUCKNOW ROOM NO-4",
+   "partId": 370652
+  },
+  {
+   "partNumber": 147,
+   "partName": "S.B.PUBLIC HIGH SCHOOL CAMPWELL ROAD NEAR YASEENGANJ LUCKNOW ROOM NO-5",
+   "partId": 370653
+  },
+  {
+   "partNumber": 148,
+   "partName": "LUCKNOW MODEL PUBLIC SCHOOL AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-1",
+   "partId": 369920
+  },
+  {
+   "partNumber": 149,
+   "partName": "LUCKNOW MODEL PUBLIC SCHOOL AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-2",
+   "partId": 369921
+  },
+  {
+   "partNumber": 150,
+   "partName": "LUCKNOW MODEL PUBLIC SCHOOL AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-3",
+   "partId": 369922
+  },
+  {
+   "partNumber": 151,
+   "partName": "LUCKNOW MODEL PUBLIC SCHOOL AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-4",
+   "partId": 369923
+  },
+  {
+   "partNumber": 152,
+   "partName": "LUCKNOW MODEL PUBLIC SCHOOL AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-5",
+   "partId": 370790
+  },
+  {
+   "partNumber": 153,
+   "partName": "CAMPWELL CONVENT SCHOOL B-BLOCK AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-1",
+   "partId": 369924
+  },
+  {
+   "partNumber": 154,
+   "partName": "CAMPWELL CONVENT SCHOOL B-BLOCK AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-2",
+   "partId": 369925
+  },
+  {
+   "partNumber": 155,
+   "partName": "CAMPWELL CONVENT SCHOOL B-BLOCK AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-3",
+   "partId": 369926
+  },
+  {
+   "partNumber": 156,
+   "partName": "CAMPWELL CONVENT SCHOOL B-BLOCK AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-4",
+   "partId": 369927
+  },
+  {
+   "partNumber": 157,
+   "partName": "CAMPWELL CONVENT SCHOOL B-BLOCK AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-5",
+   "partId": 369928
+  },
+  {
+   "partNumber": 158,
+   "partName": "CAMPWELL CONVENT SCHOOL B-BLOCK AJADNAGAR CAMPWELL ROAD LUCKNOW ROOM NO-6",
+   "partId": 369929
+  },
+  {
+   "partNumber": 159,
+   "partName": "NAV JAGRATI MONTESSORY JUNIOR HIGH SCHOOL YASEENGANJ LUCKNOW ROOM NO-1",
+   "partId": 369932
+  },
+  {
+   "partNumber": 160,
+   "partName": "NAV JAGRATI MONTESSORY JUNIOR HIGH SCHOOL YASEENGANJ LUCKNOW ROOM NO-2",
+   "partId": 369933
+  },
+  {
+   "partNumber": 161,
+   "partName": "NAV JAGRATI MONTESSORY JUNIOR HIGH SCHOOL YASEENGANJ LUCKNOW ROOM NO-3",
+   "partId": 370791
+  },
+  {
+   "partNumber": 162,
+   "partName": "ALFIYA PUBLIC SCHOOL SAMNAN GARDEN CAMPWELL ROAD LUCKNOW ROOM NO-1",
+   "partId": 369934
+  },
+  {
+   "partNumber": 163,
+   "partName": "ALFIYA PUBLIC SCHOOL SAMNAN GARDEN CAMPWELL ROAD LUCKNOW ROOM NO-2",
+   "partId": 369935
+  },
+  {
+   "partNumber": 164,
+   "partName": "ALFIYA PUBLIC SCHOOL SAMNAN GARDEN CAMPWELL ROAD LUCKNOW ROOM NO-3",
+   "partId": 369936
+  },
+  {
+   "partNumber": 165,
+   "partName": "ALFIYA PUBLIC SCHOOL SAMNAN GARDEN CAMPWELL ROAD LUCKNOW ROOM NO-4",
+   "partId": 369937
+  },
+  {
+   "partNumber": 166,
+   "partName": "ALFIYA PUBLIC SCHOOL SAMNAN GARDEN CAMPWELL ROAD LUCKNOW ROOM NO-5",
+   "partId": 369938
+  },
+  {
+   "partNumber": 167,
+   "partName": "VALANCIYA INTERNATIONAL COLLEGE ROOM NO-1",
+   "partId": 370792
+  },
+  {
+   "partNumber": 168,
+   "partName": "PRIMARY SCHOOL BARORA HUSAIN BARI ROOM NO-1",
+   "partId": 369939
+  },
+  {
+   "partNumber": 169,
+   "partName": "PRIMARY SCHOOL BARORA HUSAIN BARI ROOM NO-2",
+   "partId": 369940
+  },
+  {
+   "partNumber": 170,
+   "partName": "B.S D ACADEMY BARORA HUSAIN BARI ROOM NO-1",
+   "partId": 369941
+  },
+  {
+   "partNumber": 171,
+   "partName": "B.S D ACADEMY BARORA HUSAIN BARI ROOM NO-2",
+   "partId": 369942
+  },
+  {
+   "partNumber": 172,
+   "partName": "CHETNA PUBLIC INTER COLLEGE EKTA NAGAR ROOM NO-1",
+   "partId": 369943
+  },
+  {
+   "partNumber": 173,
+   "partName": "CHETNA PUBLIC INTER COLLEGE EKTA NAGAR ROOM NO-2",
+   "partId": 369947
+  },
+  {
+   "partNumber": 174,
+   "partName": "CHETNA PUBLIC INTER COLLEGE EKTANAGAR ROOM NO-3",
+   "partId": 369948
+  },
+  {
+   "partNumber": 175,
+   "partName": "Learn and Grow Public School room number 1",
+   "partId": 369949
+  },
+  {
+   "partNumber": 176,
+   "partName": "Learn and Grow Public School room number 2",
+   "partId": 369950
+  },
+  {
+   "partNumber": 177,
+   "partName": "LUCKNOW CITY COLLEGE EKTA NAGAR BARORA HUSAIN BARI ROOM NO-1",
+   "partId": 369951
+  },
+  {
+   "partNumber": 178,
+   "partName": "LUCKNOW CITY COLLEGE EKTA NAGAR BARORA HUSAIN BARI ROOM NO-2",
+   "partId": 369952
+  },
+  {
+   "partNumber": 179,
+   "partName": "LUCKNOW CITY COLLEGE EKTA NAGAR BARORA HUSAIN BARI ROOM NO-3",
+   "partId": 369953
+  },
+  {
+   "partNumber": 180,
+   "partName": "LUCKNOW CITY COLLEGE EKTA NAGAR BARORA HUSAIN BARI ROOM NO-4",
+   "partId": 369954
+  },
+  {
+   "partNumber": 181,
+   "partName": "LUCKNOW CITY COLLEGE EKTA NAGAR BARORA HUSAIN BARI ROOM NO-5",
+   "partId": 369955
+  },
+  {
+   "partNumber": 182,
+   "partName": "LUCKNOW CITY COLLEGE EKTA NAGAR BARORA HUSAIN BARI ROOM NO",
+   "partId": 370793
+  },
+  {
+   "partNumber": 183,
+   "partName": "R.B.PUBLIC SCHOOL BARORA HUSAIN BADI ROOM NO-1",
+   "partId": 369956
+  },
+  {
+   "partNumber": 184,
+   "partName": "R.B.PUBLIC SCHOOL BARORA HUSAIN BADI ROOM NO-2",
+   "partId": 369957
+  },
+  {
+   "partNumber": 185,
+   "partName": "R.B.PUBLIC SCHOOL BARORA HUSAIN BADI ROOM NO-3",
+   "partId": 369958
+  },
+  {
+   "partNumber": 186,
+   "partName": "PRAGATI ASHRAM HIGH SCHOOL BALAGANJ ROOM NO-1",
+   "partId": 369959
+  },
+  {
+   "partNumber": 187,
+   "partName": "PRAGATI ASHRAM HIGH SCHOOL BALAGANJ ROOM NO-2",
+   "partId": 369960
+  },
+  {
+   "partNumber": 188,
+   "partName": "PRAGATI ASHRAM HIGH SCHOOL BALAGANJ ROOM NO-3",
+   "partId": 369969
+  },
+  {
+   "partNumber": 189,
+   "partName": "PRAGATI ASHRAM HIGH SCHOOL BALAGANJ ROOM NO-4",
+   "partId": 369970
+  },
+  {
+   "partNumber": 190,
+   "partName": "PRAGATI ASHRAM HIGH SCHOOL BALAGANJ ROOM NO-5",
+   "partId": 369971
+  },
+  {
+   "partNumber": 191,
+   "partName": "CITY CONVENT SCHOOL BALAGANJ LUCKNOW ROOM NO-1",
+   "partId": 369972
+  },
+  {
+   "partNumber": 192,
+   "partName": "CITY CONVENT SCHOOL BALAGANJ LUCKNOW ROOM NO-2",
+   "partId": 369973
+  },
+  {
+   "partNumber": 193,
+   "partName": "CITY CONVENT SCHOOL BALAGANJ LUCKNOW ROOM NO-3",
+   "partId": 369974
+  },
+  {
+   "partNumber": 194,
+   "partName": "CITY CONVENT SCHOOL BALAGANJ LUCKNOW ROOM NO-4",
+   "partId": 369975
+  },
+  {
+   "partNumber": 195,
+   "partName": "CITY CONVENT SCHOOL BALAGANJ LUCKNOW ROOM NO",
+   "partId": 370794
+  },
+  {
+   "partNumber": 196,
+   "partName": "INDIAN ACADEMY, NEAR LAL MASJID BALAGANJ LUCKNOW ROOM NO-01",
+   "partId": 369976
+  },
+  {
+   "partNumber": 197,
+   "partName": "INDIAN ACADEMY, NEAR LAL MASJID BALAGANJ LUCKNOW ROOM NO-02",
+   "partId": 369977
+  },
+  {
+   "partNumber": 198,
+   "partName": "INDIAN ACADEMY, NEAR LAL MASJID BALAGANJ LUCKNOW ROOM NO",
+   "partId": 370795
+  },
+  {
+   "partNumber": 199,
+   "partName": "MISS HILL CONVENT HARI NAGAR BALAGANJ ROOM NO-1",
+   "partId": 369978
+  },
+  {
+   "partNumber": 200,
+   "partName": "MISS HILL CONVENT HARI NAGAR BALAGANJ ROOM NO-2",
+   "partId": 369979
+  },
+  {
+   "partNumber": 201,
+   "partName": "LIGHTS ACADEMY SARFARAJGANJ ERA MEDICAL COLLEGE ROAD ROOM NO",
+   "partId": 369980
+  },
+  {
+   "partNumber": 202,
+   "partName": "LIGHTS ACADEMY SARFARAJGANJ ERA MEDICAL COLLEGE ROAD ROOM NO-1",
+   "partId": 369986
+  },
+  {
+   "partNumber": 203,
+   "partName": "LIGHTS ACADEMY SARFARAJGANJ ERA MEDICAL COLLEGE ROAD ROOM NO-2",
+   "partId": 369987
+  },
+  {
+   "partNumber": 204,
+   "partName": "KALICHARAN INTER COLLEGE HARDOI ROAD CHOWK LUCKNOW ROOM NO-1",
+   "partId": 369988
+  },
+  {
+   "partNumber": 205,
+   "partName": "KALICHARAN INTER COLLEGE HARDOI ROAD CHOWK LUCKNOW ROOM NO-2",
+   "partId": 369989
+  },
+  {
+   "partNumber": 206,
+   "partName": "KALICHARAN INTER COLLEGE HARDOI ROAD CHOWK LUCKNOW ROOM NO-3",
+   "partId": 369990
+  },
+  {
+   "partNumber": 207,
+   "partName": "KALICHARAN INTER COLLEGE HARDOI ROAD CHOWK LUCKNOW ROOM NO-4",
+   "partId": 369991
+  },
+  {
+   "partNumber": 208,
+   "partName": "KALICHARAN INTER COLLEGE HARDOI ROAD CHOWK LUCKNOW ROOM NO-5",
+   "partId": 369992
+  },
+  {
+   "partNumber": 209,
+   "partName": "KALICHARAN INTER COLLEGE HARDOI ROAD CHOWK LUCKNOW ROOM NO-6",
+   "partId": 369993
+  },
+  {
+   "partNumber": 210,
+   "partName": "KALICHARAN DIGREE COLLEGE HARDOI ROAD ROOM NO-1",
+   "partId": 369994
+  },
+  {
+   "partNumber": 211,
+   "partName": "KALICHARAN DIGREE COLLEGE HARDOI ROAD ROOM NO-2",
+   "partId": 369999
+  },
+  {
+   "partNumber": 212,
+   "partName": "KALICHARAN DIGREE COLLEGE HARDOI ROAD ROOM NO",
+   "partId": 370000
+  },
+  {
+   "partNumber": 213,
+   "partName": "KALICHARAN DIGREE COLLEGE HARDOI ROAD ROOM NO-3",
+   "partId": 370001
+  },
+  {
+   "partNumber": 214,
+   "partName": "KALICHARAN DIGREE COLLEGE HARDOI ROAD ROOM NO-4",
+   "partId": 370002
+  },
+  {
+   "partNumber": 215,
+   "partName": "KALICHARAN DIGREE COLLEGE HARDOI ROAD ROOM NO-5",
+   "partId": 370003
+  },
+  {
+   "partNumber": 216,
+   "partName": "THE MORNING STAR SCHOOL RANI KATRA CHAUPATIYA ROOM NO-1",
+   "partId": 370004
+  },
+  {
+   "partNumber": 217,
+   "partName": "THE MORNING STAR SCHOOL RANI KATRA CHAUPATIYA ROOM NO-2",
+   "partId": 370005
+  },
+  {
+   "partNumber": 218,
+   "partName": "THE MORNING STAR SCHOOL RANI KATRA CHAUPATIYA ROOM NO-3",
+   "partId": 370006
+  },
+  {
+   "partNumber": 219,
+   "partName": "THE MORNING STAR SCHOOL RANI KATRA CHAUPATIYA ROOM NO-4",
+   "partId": 370007
+  },
+  {
+   "partNumber": 220,
+   "partName": "IRAM CONVENT SCHOOL BHOLANATH PARK KE PASS CHAUPATIYA ROOM NO-1",
+   "partId": 370008
+  },
+  {
+   "partNumber": 221,
+   "partName": "IRAM CONVENT SCHOOL BHOLANATH PARK KE PASS CHAUPATIYA ROOM NO-2",
+   "partId": 370009
+  },
+  {
+   "partNumber": 222,
+   "partName": "IRAM CONVENT SCHOOL BHOLANATH PARK KE PASS CHAUPATIYA ROOM NO-3",
+   "partId": 370013
+  },
+  {
+   "partNumber": 223,
+   "partName": "CHILD CARE INTER COLLEGE AMBERGANJ LUCKNOW ROOM NUMBER 1",
+   "partId": 370014
+  },
+  {
+   "partNumber": 224,
+   "partName": "CHILD CARE INTER COLLEGE AMBERGANJ LUCKNOW ROOM NUMBER 2",
+   "partId": 370015
+  },
+  {
+   "partNumber": 225,
+   "partName": "CHILD CARE INTER COLLEGE AMBERGANJ LUCKNOW ROOM NUMBER 3",
+   "partId": 370016
+  },
+  {
+   "partNumber": 226,
+   "partName": "ADARSH AMBERGANJ ROOM NO-4 D",
+   "partId": 370796
+  },
+  {
+   "partNumber": 227,
+   "partName": "SENT MERRY PUBLIC SCHOOL AMBERGANJ ROOM NO-1",
+   "partId": 370017
+  },
+  {
+   "partNumber": 228,
+   "partName": "SENT MERRY PUBLIC SCHOOL AMBERGANJ ROOM NO-2",
+   "partId": 370018
+  },
+  {
+   "partNumber": 229,
+   "partName": "SENT MERRY PUBLIC SCHOOL AMBERGANJ ROOM NO-3",
+   "partId": 370019
+  },
+  {
+   "partNumber": 230,
+   "partName": "SENT MERRY PUBLIC SCHOOL AMBERGANJ ROOM NO-4",
+   "partId": 370797
+  },
+  {
+   "partNumber": 231,
+   "partName": "SENT MERRY INTER COLLEGE AMBERGANJ LUCKNOW ROOM NO-1",
+   "partId": 370020
+  },
+  {
+   "partNumber": 232,
+   "partName": "SENT MERRY INTER COLLEGE AMBERGANJ LUCKNOW ROOM NO-2",
+   "partId": 370021
+  },
+  {
+   "partNumber": 233,
+   "partName": "SENT MERRY INTER COLLEGE AMBERGANJ LUCKNOW ROOM NO-3",
+   "partId": 370022
+  },
+  {
+   "partNumber": 234,
+   "partName": "SENT MERRY INTER COLLEGE AMBERGANJ LUCKNOW ROOM NO-4",
+   "partId": 370798
+  },
+  {
+   "partNumber": 235,
+   "partName": "SENT MERRY INTER COLLEGE AMBERGANJ LUCKNOW ROOM NO-5",
+   "partId": 370023
+  },
+  {
+   "partNumber": 236,
+   "partName": "AVEEZ CONVENT SCHOOL GARI PEER KHAN ROOM NO-1",
+   "partId": 370024
+  },
+  {
+   "partNumber": 237,
+   "partName": "AVEEZ CONVENT SCHOOL GARI PEER KHAN ROOM NO-2",
+   "partId": 370027
+  },
+  {
+   "partNumber": 238,
+   "partName": "AVEEZ CONVENT SCHOOL GARI PEER KHAN ROOM NO-3",
+   "partId": 370028
+  },
+  {
+   "partNumber": 239,
+   "partName": "AVEEZ CONVENT SCHOOL GARI PEER KHAN ROOM NO-4",
+   "partId": 370029
+  },
+  {
+   "partNumber": 240,
+   "partName": "SENT ROSE JUNIOR HIGH SCHOOL GARI PEER KHAN ROOM NO-1",
+   "partId": 370030
+  },
+  {
+   "partNumber": 241,
+   "partName": "SENT ROSE JUNIOR HIGH SCHOOL GARI PEER KHAN ROOM NO-2",
+   "partId": 370031
+  },
+  {
+   "partNumber": 242,
+   "partName": "SENT ROSE JUNIOR HIGH SCHOOL GARI PEER KHAN ROOM NO-3",
+   "partId": 370032
+  },
+  {
+   "partNumber": 243,
+   "partName": "SENT ROSE JUNIOR HIGH SCHOOL GARI PEER KHAN ROOM NO-4",
+   "partId": 370033
+  },
+  {
+   "partNumber": 244,
+   "partName": "SENT ROSE JUNIOR HIGH SCHOOL GARI PEER KHAN ROOM NO-5",
+   "partId": 370034
+  },
+  {
+   "partNumber": 245,
+   "partName": "SENT ROSE JUNIOR HIGH SCHOOL GARI PEER KHAN ROOM NO-6",
+   "partId": 370035
+  },
+  {
+   "partNumber": 246,
+   "partName": "S.B.MORDEN EDUCATION INTER COLLEGE LUCKNOW ROOM NO-1",
+   "partId": 370036
+  },
+  {
+   "partNumber": 247,
+   "partName": "S.B.MORDEN EDUCATION INTER COLLEGE LUCKNOW ROOM NO-3",
+   "partId": 370037
+  },
+  {
+   "partNumber": 248,
+   "partName": "S.B.MORDEN EDUCATION INTER COLLEGE LUCKNOW ROOM NO-4",
+   "partId": 370038
+  },
+  {
+   "partNumber": 249,
+   "partName": "S.B.MORDEN EDUCATION INTER COLLEGE LUCKNOW ROOM NO-5",
+   "partId": 370039
+  },
+  {
+   "partNumber": 250,
+   "partName": "S.B.MORDEN EDUCATION INTER COLLEGE LUCKNOW ROOM NO-6",
+   "partId": 370040
+  },
+  {
+   "partNumber": 251,
+   "partName": "S.B.MORDEN EDUCATION INTER COLLEGE LUCKNOW ROOM NO-7",
+   "partId": 370041
+  },
+  {
+   "partNumber": 252,
+   "partName": "DISTRICT MONTESSORI SCHOOL WAZEERBAGH ROOM NO 1",
+   "partId": 370042
+  },
+  {
+   "partNumber": 253,
+   "partName": "DISTRICT MONTESSORI SCHOOL WAZEERBAGH ROOM NO 2",
+   "partId": 370043
+  },
+  {
+   "partNumber": 254,
+   "partName": "DISTRICT MONTESSORI SCHOOL WAZEERBAGH ROOM NO 3",
+   "partId": 370044
+  },
+  {
+   "partNumber": 255,
+   "partName": "Children Paradise Montessori School ROOM NUMBER 1",
+   "partId": 370045
+  },
+  {
+   "partNumber": 256,
+   "partName": "Children Paradise Montessori School ROOM NUMBER 2",
+   "partId": 370046
+  },
+  {
+   "partNumber": 257,
+   "partName": "DAYAWATI MEMORIAL SCHOOL NEWAJGANJ ROOM NO-1",
+   "partId": 370047
+  },
+  {
+   "partNumber": 258,
+   "partName": "DAYAWATI MEMORIAL SCHOOL NEWAJGANJ ROOM NO-2",
+   "partId": 370048
+  },
+  {
+   "partNumber": 259,
+   "partName": "DAYAWATI MEMORIAL SCHOOL NEWAJGANJ ROOM NO-3",
+   "partId": 370049
+  },
+  {
+   "partNumber": 260,
+   "partName": "PRIMARY SCHOOL NAIPEAR ROAD NIWAJGANJ ROOM NO-1",
+   "partId": 370050
+  },
+  {
+   "partNumber": 261,
+   "partName": "PRIMARY SCHOOL NAIPEAR ROAD NIWAJGANJ ROOM NO-2",
+   "partId": 370051
+  },
+  {
+   "partNumber": 262,
+   "partName": "PRIMARY SCHOOL NAIPEAR ROAD NIWAJGANJ ROOM NO-3",
+   "partId": 370052
+  },
+  {
+   "partNumber": 263,
+   "partName": "PRIMARY SCHOOL NAIPEAR ROAD NIWAJGANJ ROOM NO-4",
+   "partId": 370053
+  },
+  {
+   "partNumber": 264,
+   "partName": "PRIMARY SCHOOL NAIPEAR ROAD NIWAJGANJ ROOM NO-5",
+   "partId": 370054
+  },
+  {
+   "partNumber": 265,
+   "partName": "St. Teresa Convent School, Katara Mohd. Ali Khan, Tambaku Mandi Road, Lucknow ROOM NO-1",
+   "partId": 370055
+  },
+  {
+   "partNumber": 266,
+   "partName": "St. Teresa Convent School, Katara Mohd. Ali Khan, Tambaku Mandi Road, Lucknow ROOM NO-2",
+   "partId": 370056
+  },
+  {
+   "partNumber": 267,
+   "partName": "St. Teresa Convent School, Katara Mohd. Ali Khan, Tambaku Mandi Road, Lucknow ROOM NO-3",
+   "partId": 370057
+  },
+  {
+   "partNumber": 268,
+   "partName": "St. Teresa Convent School, Katara Mohd. Ali Khan, Tambaku Mandi Road, Lucknow ROOM NO-4",
+   "partId": 370058
+  },
+  {
+   "partNumber": 269,
+   "partName": "PRIMARY KANYA SCHOOL TOOP DARWAZA CHAUPATIYA ROOM NO-1",
+   "partId": 370059
+  },
+  {
+   "partNumber": 270,
+   "partName": "PRIMARY KANYA SCHOOL TOOP DARWAZA CHAUPATIYA ROOM NO-2",
+   "partId": 370060
+  },
+  {
+   "partNumber": 271,
+   "partName": "PRIMARY KANYA SCHOOL TOOP DARWAZA CHAUPATIYA ROOM NO-3",
+   "partId": 370061
+  },
+  {
+   "partNumber": 272,
+   "partName": "PRIMARY KANYA SCHOOL TOOP DARWAZA CHAUPATIYA ROOM NO-4",
+   "partId": 370062
+  },
+  {
+   "partNumber": 273,
+   "partName": "PRIMARY KANYA SCHOOL TOOP DARWAZA CHAUPATIYA ROOM NO",
+   "partId": 370799
+  },
+  {
+   "partNumber": 274,
+   "partName": "KAZMAIN SCHOOL CHAUPATIYA ROOM NO-1",
+   "partId": 370063
+  },
+  {
+   "partNumber": 275,
+   "partName": "KAZMAIN SCHOOL CHAUPATIYA ROOM NO-2",
+   "partId": 370064
+  },
+  {
+   "partNumber": 276,
+   "partName": "KAZMAIN SCHOOL CHAUPATIYA ROOM NO-3",
+   "partId": 370065
+  },
+  {
+   "partNumber": 277,
+   "partName": "KAZMAIN SCHOOL CHAUPATIYA ROOM NO",
+   "partId": 370800
+  },
+  {
+   "partNumber": 278,
+   "partName": "PRIMARY SCHOOL BAGH MIRZA JUMMA ROOM NO-1",
+   "partId": 370066
+  },
+  {
+   "partNumber": 279,
+   "partName": "PRIMARY SCHOOL BAGH MIRZA JUMMA ROOM NO-2",
+   "partId": 370067
+  },
+  {
+   "partNumber": 280,
+   "partName": "PRIMARY SCHOOL BAGH MIRZA JUMMA ROOM NO-3",
+   "partId": 370068
+  },
+  {
+   "partNumber": 281,
+   "partName": "CITY MONTESSORI SCHOOL MANSOOR NAGAR LUCKNOW ROOM NO-1",
+   "partId": 370072
+  },
+  {
+   "partNumber": 282,
+   "partName": "CITY MONTESSORI SCHOOL MANSOOR NAGAR LUCKNOW ROOM NO-2",
+   "partId": 370073
+  },
+  {
+   "partNumber": 283,
+   "partName": "MIUNCIPAL GIRLS INTER COLLEGE KASHMIRI MOHALLA ROOM NO-1",
+   "partId": 370074
+  },
+  {
+   "partNumber": 284,
+   "partName": "MIUNCIPAL GIRLS INTER COLLEGE KASHMIRI MOHALLA ROOM NO-2",
+   "partId": 370075
+  },
+  {
+   "partNumber": 285,
+   "partName": "MIUNCIPAL GIRLS INTER COLLEGE KASHMIRI MOHALLA ROOM NO-3",
+   "partId": 370076
+  },
+  {
+   "partNumber": 286,
+   "partName": "MIUNCIPAL GIRLS INTER COLLEGE KASHMIRI MOHALLA ROOM NO-4",
+   "partId": 370077
+  },
+  {
+   "partNumber": 287,
+   "partName": "MIUNCIPAL GIRLS INTER COLLEGE KASHMIRI MOHALLA ROOM NO-5",
+   "partId": 370078
+  },
+  {
+   "partNumber": 288,
+   "partName": "MIUNCIPAL GIRLS INTER COLLEGE KASHMIRI MOHALLA ROOM NO-6",
+   "partId": 370079
+  },
+  {
+   "partNumber": 289,
+   "partName": "RADIANT PUBLIC SCHOOL LUCKNOW ROOM NO-1",
+   "partId": 370080
+  },
+  {
+   "partNumber": 290,
+   "partName": "RADIANT PUBLIC SCHOOL LUCKNOW ROOM NO-2",
+   "partId": 370081
+  },
+  {
+   "partNumber": 291,
+   "partName": "RADIANT PUBLIC SCHOOL LUCKNOW ROOM NO-3",
+   "partId": 370082
+  },
+  {
+   "partNumber": 292,
+   "partName": "AXILENT PUBLIC SCHOOL BUNIYAD BAGH LUCKNOW ROOM NO-1",
+   "partId": 370083
+  },
+  {
+   "partNumber": 293,
+   "partName": "AXILENT PUBLIC SCHOOL BUNIYAD BAGH LUCKNOW ROOM NO-2",
+   "partId": 370084
+  },
+  {
+   "partNumber": 294,
+   "partName": "AXILENT PUBLIC SCHOOL BUNIYAD BAGH LUCKNOW ROOM NO-3",
+   "partId": 370085
+  },
+  {
+   "partNumber": 295,
+   "partName": "ALL INDIA SHIYA YATIEM KHANA KAJMAN ROAD MANSHOURNAGAR ROOM NO. 1",
+   "partId": 370086
+  },
+  {
+   "partNumber": 296,
+   "partName": "ALL INDIA SHIYA YATIEM KHANA KAJMAN ROAD MANSHOURNAGAR ROOM NO. 2",
+   "partId": 370087
+  },
+  {
+   "partNumber": 297,
+   "partName": "ALL INDIASHIYA YATIEM KHANA KAJMAN ROAD MANSHOURNAGAR ROOM NO. 3",
+   "partId": 370088
+  },
+  {
+   "partNumber": 298,
+   "partName": "ALL INDIASHIYA YATIEM KHANA KAJMAN ROAD MANSHOURNAGAR ROOM NO. 4",
+   "partId": 370089
+  },
+  {
+   "partNumber": 299,
+   "partName": "ALL INDIA SHIYA YATIEM KHANA KAJMAN ROAD MANSHOURNAGAR ROOM NO. 5",
+   "partId": 370090
+  },
+  {
+   "partNumber": 300,
+   "partName": "IRAM MODEL SCHOOL, RUSTAM NAGAR, DARGAH ROAD, LUCKNOW ROOM NO-1",
+   "partId": 370091
+  },
+  {
+   "partNumber": 301,
+   "partName": "IRAM MODEL SCHOOL, RUSTAM NAGAR, DARGAH ROAD, LUCKNOW ROOM NO-2",
+   "partId": 370092
+  },
+  {
+   "partNumber": 302,
+   "partName": "IRAM MODEL SCHOOL, RUSTAM NAGAR, DARGAH ROAD, LUCKNOW ROOM NO-3",
+   "partId": 370093
+  },
+  {
+   "partNumber": 303,
+   "partName": "LADY FATMA CHILDREN ACADMY SULTAN BAHADUR ROAD KAZMAIN FAZILNAGAR ROOM NO-1",
+   "partId": 370094
+  },
+  {
+   "partNumber": 304,
+   "partName": "LADY FATMA CHILDREN ACADMY SULTAN BAHADUR ROAD KAZMAIN FAZILNAGAR ROOM NO-2",
+   "partId": 370095
+  },
+  {
+   "partNumber": 305,
+   "partName": "LADY FATMA CHILDREN ACADMY SULTAN BAHADUR ROAD KAZMAIN FAZILNAGAR ROOM NO-3",
+   "partId": 370096
+  },
+  {
+   "partNumber": 306,
+   "partName": "YASHODA RASTOGI INTER COLLEGE TURIYAGANJ ROOM NO-1",
+   "partId": 370097
+  },
+  {
+   "partNumber": 307,
+   "partName": "YASHODA RASTOGI INTER COLLEGE TURIYAGANJ ROOM NO-2",
+   "partId": 370624
+  },
+  {
+   "partNumber": 308,
+   "partName": "YASHODA RASTOGI INTER COLLEGE TURIYAGANJ ROOM NO-3",
+   "partId": 370625
+  },
+  {
+   "partNumber": 309,
+   "partName": "YASHODA RASTOGI INTER COLLEGE TURIYAGANJ ROOM NO-4",
+   "partId": 370626
+  },
+  {
+   "partNumber": 310,
+   "partName": "YASHODA DEVI BAL SHIKSHA NIKETAN TURIYAGANJ LUCKNOW ROOM NO-1",
+   "partId": 370627
+  },
+  {
+   "partNumber": 311,
+   "partName": "YASHODA DEVI BAL SHIKSHA NIKETAN TURIYAGANJ LUCKNOW ROOM NO-2",
+   "partId": 370628
+  },
+  {
+   "partNumber": 312,
+   "partName": "YASHODA DEVI BAL SHIKSHA NIKETAN TURIYAGANJ LUCKNOW ROOM NO-3",
+   "partId": 370629
+  },
+  {
+   "partNumber": 313,
+   "partName": "YASHODA DEVI BAL SHIKSHA NIKETAN TURIYAGANJ LUCKNOW ROOM NO-4",
+   "partId": 370630
+  },
+  {
+   "partNumber": 314,
+   "partName": "YASHODA DEVI BAAL SIKSHA NIKETAN KIDS ZONE ROOM NO-1",
+   "partId": 370631
+  },
+  {
+   "partNumber": 315,
+   "partName": "YASHODA DEVI BAAL SIKSHA NIKETAN KIDS ZONE ROOM NO-2",
+   "partId": 370632
+  },
+  {
+   "partNumber": 316,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO-1",
+   "partId": 370633
+  },
+  {
+   "partNumber": 317,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO-2",
+   "partId": 370634
+  },
+  {
+   "partNumber": 318,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO-3",
+   "partId": 370635
+  },
+  {
+   "partNumber": 319,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO",
+   "partId": 370636
+  },
+  {
+   "partNumber": 320,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO-4",
+   "partId": 370637
+  },
+  {
+   "partNumber": 321,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO-5",
+   "partId": 370638
+  },
+  {
+   "partNumber": 322,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO-6",
+   "partId": 370639
+  },
+  {
+   "partNumber": 323,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO-7",
+   "partId": 370640
+  },
+  {
+   "partNumber": 324,
+   "partName": "KUNWAR GIRDHARI SINGH INTER COLLEGE ASHARFABAD LUCKNOW ROOM NO-8",
+   "partId": 370654
+  },
+  {
+   "partNumber": 325,
+   "partName": "MAIPLE MONTESSORY SCHOOL SHIA YATEEM KHANA KAZMAIN ROAD LUCKNOW ROOM NO-1",
+   "partId": 370655
+  },
+  {
+   "partNumber": 326,
+   "partName": "MAIPLE MONTESSORY SCHOOL SHIA YATEEM KHANA KAZMAIN ROAD LUCKNOW ROOM NO-2",
+   "partId": 370656
+  },
+  {
+   "partNumber": 327,
+   "partName": "PARA MOUNT JUNIOR HIGH SCHOOL PURANA CHABUTRA SAADATGANJ ROOM NO-1",
+   "partId": 370657
+  },
+  {
+   "partNumber": 328,
+   "partName": "PARA MOUNT JUNIOR HIGH SCHOOL PURANA CHABUTRA SAADATGANJ ROOM NO-2",
+   "partId": 370658
+  },
+  {
+   "partNumber": 329,
+   "partName": "PARA MOUNT JUNIOR HIGH SCHOOL PURANA CHABUTRA SAADATGANJ ROOM NO-3",
+   "partId": 370659
+  },
+  {
+   "partNumber": 330,
+   "partName": "PARA MOUNT JUNIOR HIGH SCHOOL PURANA CHABUTRA SAADATGANJ ROOM NO-4",
+   "partId": 370801
+  },
+  {
+   "partNumber": 331,
+   "partName": "S.M PUBLIC SCHOOL, MOZZAM NAGAR NEAR KHANNA KA TAKIYA ROOM NO-1",
+   "partId": 370660
+  },
+  {
+   "partNumber": 332,
+   "partName": "S.M PUBLIC SCHOOL, MOZZAM NAGAR NEAR KHANNA KA TAKIYA ROOM NO-2",
+   "partId": 370661
+  },
+  {
+   "partNumber": 333,
+   "partName": "S.M PUBLIC SCHOOL, MOZZAM NAGAR NEAR KHANNA KA TAKIYA ROOM NO-3",
+   "partId": 370662
+  },
+  {
+   "partNumber": 334,
+   "partName": "S M PUBLIC SCHOOL, MOZZAM NAGAR NEAR KHANNA KA TAKIYA ROOM NO",
+   "partId": 370802
+  },
+  {
+   "partNumber": 335,
+   "partName": "ALTRA MORDEN MONTESSORY SCHOOL LAKADMANDI SAADATGANJ ROOM NO-1",
+   "partId": 370663
+  },
+  {
+   "partNumber": 336,
+   "partName": "ALTRA MORDEN MONTESSORY SCHOOL LAKADMANDI SAADATGANJ ROOM NO-2",
+   "partId": 370664
+  },
+  {
+   "partNumber": 337,
+   "partName": "LOKMANYA VIDHYA MANDIR LAKADMANDI SAADATGANJ ROOM NO-1",
+   "partId": 370665
+  },
+  {
+   "partNumber": 338,
+   "partName": "LOKMANYA VIDHYA MANDIR LAKADMANDI SAADATGANJ ROOM NO-2",
+   "partId": 370666
+  },
+  {
+   "partNumber": 339,
+   "partName": "LOKMANYA VIDHYA MANDIR LAKADMANDI SAADATGANJ ROOM NO",
+   "partId": 370803
+  },
+  {
+   "partNumber": 340,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-1",
+   "partId": 370667
+  },
+  {
+   "partNumber": 341,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-2",
+   "partId": 370668
+  },
+  {
+   "partNumber": 342,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-3",
+   "partId": 370669
+  },
+  {
+   "partNumber": 343,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-4",
+   "partId": 370674
+  },
+  {
+   "partNumber": 344,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-5",
+   "partId": 370675
+  },
+  {
+   "partNumber": 345,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-6",
+   "partId": 370676
+  },
+  {
+   "partNumber": 346,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-7",
+   "partId": 370677
+  },
+  {
+   "partNumber": 347,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO",
+   "partId": 370678
+  },
+  {
+   "partNumber": 348,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-8",
+   "partId": 370679
+  },
+  {
+   "partNumber": 349,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-9",
+   "partId": 370680
+  },
+  {
+   "partNumber": 350,
+   "partName": "KASTURBA KANYA HIGH SCHOOL MATADEEN ROAD SAADATGANJ ROOM NO-10",
+   "partId": 370681
+  },
+  {
+   "partNumber": 351,
+   "partName": "PRIMARY SCHOOL NAUBASTA ROOM NO-1",
+   "partId": 370682
+  },
+  {
+   "partNumber": 352,
+   "partName": "PRIMARY SCHOOL NAUBASTA ROOM NO-2",
+   "partId": 370683
+  },
+  {
+   "partNumber": 353,
+   "partName": "PRIMARY SCHOOL NAUBASTA ROOM NO-3",
+   "partId": 370684
+  },
+  {
+   "partNumber": 354,
+   "partName": "SINIOR BASIC SCHOOL NAUBASTA ROOM NO-1",
+   "partId": 370685
+  },
+  {
+   "partNumber": 355,
+   "partName": "SINIOR BASIC SCHOOL NAUBASTA ROOM NO-2",
+   "partId": 370686
+  },
+  {
+   "partNumber": 356,
+   "partName": "SINIOR BASIC SCHOOL NAUBASTA ROOM NO-3",
+   "partId": 370687
+  },
+  {
+   "partNumber": 357,
+   "partName": "SINIOR BASIC SCHOOL NAUBASTA ROOM NO-4",
+   "partId": 370688
+  },
+  {
+   "partNumber": 358,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-1",
+   "partId": 370689
+  },
+  {
+   "partNumber": 359,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-2",
+   "partId": 370690
+  },
+  {
+   "partNumber": 360,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-3",
+   "partId": 370691
+  },
+  {
+   "partNumber": 361,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-4",
+   "partId": 370692
+  },
+  {
+   "partNumber": 362,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-5",
+   "partId": 370693
+  },
+  {
+   "partNumber": 363,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-6",
+   "partId": 370694
+  },
+  {
+   "partNumber": 364,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-7",
+   "partId": 370695
+  },
+  {
+   "partNumber": 365,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-8",
+   "partId": 370696
+  },
+  {
+   "partNumber": 366,
+   "partName": "JAGANNATH PRASAD SAHU INTER COLLEGE MENHADIGANJ ROOM NO-9",
+   "partId": 370697
+  },
+  {
+   "partNumber": 367,
+   "partName": "JAGANNATH PRASAD BHAGWAN DEI SAHU KANYA MAHAVIDHAYALAY MEHDIGANJ ROOM NO-1",
+   "partId": 370698
+  },
+  {
+   "partNumber": 368,
+   "partName": "JAGANNATH PRASAD BHAGWAN DEI SAHU KANYA MAHAVIDHAYALAY MEHDIGANJ ROOM NO-2",
+   "partId": 370699
+  },
+  {
+   "partNumber": 369,
+   "partName": "JAGANNATH PRASAD BHAGWAN DEI SAHU KANYA MAHAVIDHAYALAY MEHDIGANJ ROOM NO-3",
+   "partId": 370700
+  },
+  {
+   "partNumber": 370,
+   "partName": "BHARTIYA ADARSH SHISHU SHIKSHA MANDIR NANDA KHERA ROOM NO-1",
+   "partId": 370701
+  },
+  {
+   "partNumber": 371,
+   "partName": "BHARTIYA ADARSH SHISHU SHIKSHA MANDIR NANDA KHERA ROOM NO-2",
+   "partId": 370702
+  },
+  {
+   "partNumber": 372,
+   "partName": "BHARTIYA ADARSH SHISHU SHIKSHA MANDIR NANDA KHERA ROOM NO-3",
+   "partId": 370703
+  },
+  {
+   "partNumber": 373,
+   "partName": "BHARTIYA ADARSH SHISHU SHIKSHA MANDIR NANDA KHERA ROOM NO-4",
+   "partId": 370704
+  },
+  {
+   "partNumber": 374,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO",
+   "partId": 370705
+  },
+  {
+   "partNumber": 375,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO-1",
+   "partId": 370706
+  },
+  {
+   "partNumber": 376,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO-2",
+   "partId": 370707
+  },
+  {
+   "partNumber": 377,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO",
+   "partId": 370708
+  },
+  {
+   "partNumber": 378,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO-3",
+   "partId": 370709
+  },
+  {
+   "partNumber": 379,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO-4",
+   "partId": 370710
+  },
+  {
+   "partNumber": 380,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO",
+   "partId": 370711
+  },
+  {
+   "partNumber": 381,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO",
+   "partId": 370712
+  },
+  {
+   "partNumber": 382,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO-5",
+   "partId": 370715
+  },
+  {
+   "partNumber": 383,
+   "partName": "YOGANAND BALIKA INTER COLLEGE MOHAN ROAD ROOM NO-6",
+   "partId": 370716
+  },
+  {
+   "partNumber": 384,
+   "partName": "INDIRA GANDHI S.P. SANSTHAN B-BLOCK RAJAJIPURAM ROOM NO-1",
+   "partId": 370717
+  },
+  {
+   "partNumber": 385,
+   "partName": "INDIRA GANDHI S.P. SANSTHAN B-BLOCK RAJAJIPURAM ROOM NO-2",
+   "partId": 370718
+  },
+  {
+   "partNumber": 386,
+   "partName": "INDIRA GANDHI S.P. SANSTHAN B-BLOCK RAJAJIPURAM ROOM NO-3",
+   "partId": 370719
+  },
+  {
+   "partNumber": 387,
+   "partName": "INDIRA GANDHI S.P. SANSTHAN B-BLOCK RAJAJIPURAM ROOM NO-4",
+   "partId": 370720
+  },
+  {
+   "partNumber": 388,
+   "partName": "INDIRA GANDHI S.P. SANSTHAN B-BLOCK RAJAJIPURAM ROOM NO-5",
+   "partId": 370670
+  },
+  {
+   "partNumber": 389,
+   "partName": "INDIRA GANDHI S.P. SANSTHAN B-BLOCK RAJAJIPURAM ROOM NO-6",
+   "partId": 370671
+  },
+  {
+   "partNumber": 390,
+   "partName": "INDIRA GANDHI S.P. SANSTHAN B-BLOCK RAJAJIPURAM ROOM NO",
+   "partId": 370672
+  },
+  {
+   "partNumber": 391,
+   "partName": "SENT JOSEPH GIRLS INTER COLLEGE NEW BUILDING SAPNA COLONY SECTOR-6 RAJAJIPURAM LUCKNOW ROOM NO-1",
+   "partId": 370673
+  },
+  {
+   "partNumber": 392,
+   "partName": "SENT JOSEPH GIRLS INTER COLLEGE NEW BUILDING SAPNA COLONY SECTOR-6 RAJAJIPURAM LUCKNOW ROOM NO-2",
+   "partId": 370713
+  },
+  {
+   "partNumber": 393,
+   "partName": "SENT JOSEPH GIRLS INTER COLLEGE NEW BUILDING SAPNA COLONY SECTOR-6 RAJAJIPURAM LUCKNOW ROOM NO-3",
+   "partId": 370714
+  },
+  {
+   "partNumber": 394,
+   "partName": "SENT JOSEPH GIRLS INTER COLLEGE NEW BUILDING SAPNA COLONY SECTOR-6 RAJAJIPURAM LUCKNOW ROOM NO-4",
+   "partId": 370721
+  },
+  {
+   "partNumber": 395,
+   "partName": "PANDIT .DEEN DAYAL UPADHAYAY RAJKIYA MAHILA SNAKOTTAR MAHA VIDHYALAY RAJAJIPURAM ROOM NO-1",
+   "partId": 370722
+  },
+  {
+   "partNumber": 396,
+   "partName": "PANDIT .DEEN DAYAL UPADHAYAY RAJKIYA MAHILA SNAKOTTAR MAHA VIDHYALAY RAJAJIPURAM ROOM NO-2",
+   "partId": 370723
+  },
+  {
+   "partNumber": 397,
+   "partName": "SENT JOSEPH GIRLS INTER COLLEGE NEW BUILDING SAPNA COLONY SECTOR-6 RAJAJIPURAM LUCKNOW ROOM NO",
+   "partId": 370724
+  },
+  {
+   "partNumber": 398,
+   "partName": "PANDIT .DEEN DAYAL UPADHAYAY RAJKIYA MAHILA SNAKOTTAR MAHA VIDHYALAY RAJAJIPURAM ROOM NO-3",
+   "partId": 370725
+  },
+  {
+   "partNumber": 399,
+   "partName": "PANDIT .DEEN DAYAL UPADHAYAY RAJKIYA MAHILA SNAKOTTAR MAHA VIDHYALAY RAJAJIPURAM ROOM NO-4",
+   "partId": 370733
+  },
+  {
+   "partNumber": 400,
+   "partName": "PANDIT .DEEN DAYAL UPADHAYAY RAJKIYA MAHILA SNAKOTTAR MAHA VIDHYALAY RAJAJIPURAM ROOM NO-5",
+   "partId": 370734
+  },
+  {
+   "partNumber": 401,
+   "partName": "PANDIT .DEEN DAYAL UPADHAYAY RAJKIYA MAHILA SNAKOTTAR MAHA VIDHYALAY RAJAJIPURAM ROOM NO-6",
+   "partId": 370735
+  },
+  {
+   "partNumber": 402,
+   "partName": "PANDIT .DEEN DAYAL UPADHAYAY RAJKIYA MAHILA SNAKOTTAR MAHA VIDHYALAY RAJAJIPURAM ROOM NO",
+   "partId": 370736
+  },
+  {
+   "partNumber": 403,
+   "partName": "PANDIT .DEEN DAYAL UPADHAYAY RAJKIYA MAHILA SNAKOTTAR MAHA VIDHYALAY RAJAJIPURAM ROOM NO 7",
+   "partId": 370737
+  },
+  {
+   "partNumber": 404,
+   "partName": "SARSWATI SHISHU MANDIR C-4230 RAJAPURAM ROOM NO-1",
+   "partId": 370738
+  },
+  {
+   "partNumber": 405,
+   "partName": "SARSWATI SHISHU MANDIR C-4230 RAJAPURAM ROOM NO-2",
+   "partId": 370739
+  },
+  {
+   "partNumber": 406,
+   "partName": "SARSWATI SHISHU MANDIR C-4230 RAJAPURAM ROOM NO-3",
+   "partId": 370740
+  },
+  {
+   "partNumber": 407,
+   "partName": "RED ROSE SCHOOL D-BLOCK RAJAJIPURAM ROOM NO",
+   "partId": 370748
+  },
+  {
+   "partNumber": 408,
+   "partName": "RED ROSE SCHOOL D-BLOCK RAJAJIPURAM ROOM NO",
+   "partId": 370749
+  },
+  {
+   "partNumber": 409,
+   "partName": "RED ROSE SCHOOL D-BLOCK RAJAJIPURAM ROOM NO 1",
+   "partId": 370750
+  },
+  {
+   "partNumber": 410,
+   "partName": "RED ROSE SCHOOL D-BLOCK RAJAJIPURAM ROOM NO",
+   "partId": 370804
+  },
+  {
+   "partNumber": 411,
+   "partName": "SENT JAMES MISSON SCHOOL RAJAJIPURAM ROOM NO-1",
+   "partId": 370751
+  },
+  {
+   "partNumber": 412,
+   "partName": "SENT JAMES MISSON SCHOOL RAJAJIPURAM ROOM NO-2",
+   "partId": 370752
+  },
+  {
+   "partNumber": 413,
+   "partName": "SENT JAMES MISSON SCHOOL RAJAJIPURAM ROOM NO-3",
+   "partId": 370753
+  },
+  {
+   "partNumber": 414,
+   "partName": "SENT JAMES MISSION SCHOOL RAJAJIPURAM ROOM NO",
+   "partId": 370754
+  },
+  {
+   "partNumber": 415,
+   "partName": "SENT JAMES MISSON SCHOOL RAJAJIPURAM ROOM NO",
+   "partId": 370755
+  },
+  {
+   "partNumber": 416,
+   "partName": "SENT JAMES MISSON SCHOOL RAJAJIPURAM ROOM NO",
+   "partId": 370756
+  },
+  {
+   "partNumber": 417,
+   "partName": "SENT JAMES MISSON SCHOOL RAJAJIPURAM ROOM NO 4",
+   "partId": 370757
+  },
+  {
+   "partNumber": 418,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO-1",
+   "partId": 370758
+  },
+  {
+   "partNumber": 419,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO-2",
+   "partId": 370759
+  },
+  {
+   "partNumber": 420,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO-3",
+   "partId": 370760
+  },
+  {
+   "partNumber": 421,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO-4",
+   "partId": 370761
+  },
+  {
+   "partNumber": 422,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO-5",
+   "partId": 370762
+  },
+  {
+   "partNumber": 423,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO  6",
+   "partId": 370763
+  },
+  {
+   "partNumber": 424,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO-7",
+   "partId": 370764
+  },
+  {
+   "partNumber": 425,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO-8",
+   "partId": 370765
+  },
+  {
+   "partNumber": 426,
+   "partName": "SENT ANGNIES SCHOOL F-BLOCK RAJAJIPURAM ROOM NO-9",
+   "partId": 370766
+  },
+  {
+   "partNumber": 427,
+   "partName": "PIONEER MONTESSORY SCHOOL C-4746 RAJAJIPURAM ROOM NO",
+   "partId": 370767
+  },
+  {
+   "partNumber": 428,
+   "partName": "PIONEER MONTESSORY SCHOOL C-4746 RAJAJIPURAM ROOM NO-1",
+   "partId": 370768
+  },
+  {
+   "partNumber": 429,
+   "partName": "PIONEER MONTESSORY SCHOOL C-4746 RAJAJIPURAM ROOM NO-2",
+   "partId": 370769
+  },
+  {
+   "partNumber": 430,
+   "partName": "Green Field Public School Campus 2 Room 1",
+   "partId": 370770
+  },
+  {
+   "partNumber": 431,
+   "partName": "Green Field Public School Campus 2 Room 2",
+   "partId": 370771
+  },
+  {
+   "partNumber": 432,
+   "partName": "MORDEN INDIAN SCHOOL RAJAJIPURAM ROOM NO-1",
+   "partId": 370772
+  },
+  {
+   "partNumber": 433,
+   "partName": "MORDEN INDIAN SCHOOL RAJAJIPURAM ROOM NO-2",
+   "partId": 370726
+  },
+  {
+   "partNumber": 434,
+   "partName": "MORDEN INDIAN SCHOOL RAJAJIPURAM ROOM NO-3",
+   "partId": 370727
+  },
+  {
+   "partNumber": 435,
+   "partName": "R.P.S INTER COLLEGE RAJAJI PURAM ROOM NO-1",
+   "partId": 370728
+  },
+  {
+   "partNumber": 436,
+   "partName": "R.P.S INTER COLLEGE RAJAJI PURAM ROOM NO-2",
+   "partId": 370729
+  },
+  {
+   "partNumber": 437,
+   "partName": "SENT JEVIOURS PUBLIC SCHOOL E-BLOCK RAJAJIPURAM ROOM NO-1",
+   "partId": 370730
+  },
+  {
+   "partNumber": 438,
+   "partName": "SENT JEVIOURS PUBLIC SCHOOL E-BLOCK RAJAJIPURAM ROOM NO-2",
+   "partId": 370731
+  },
+  {
+   "partNumber": 439,
+   "partName": "SENT JEVIOURS PUBLIC SCHOOL E-BLOCK RAJAJIPURAM ROOM NO-3",
+   "partId": 370732
+  },
+  {
+   "partNumber": 440,
+   "partName": "SENT JEVIOURS PUBLIC SCHOOL E-BLOCK RAJAJIPURAM ROOM NO",
+   "partId": 370741
+  },
+  {
+   "partNumber": 441,
+   "partName": "SENT JEVIOURS PUBLIC SCHOOL E-BLOCK RAJAJIPURAM ROOM NO-4",
+   "partId": 370742
+  },
+  {
+   "partNumber": 442,
+   "partName": "SENT JEVIOURS PUBLIC SCHOOL E-BLOCK RAJAJIPURAM ROOM NO-5",
+   "partId": 370743
+  },
+  {
+   "partNumber": 443,
+   "partName": "LITTLE SCOLLER SCHOOL SARKATA NALA AKBARI GATE LUCKNOW ROOM NO-1",
+   "partId": 370744
+  },
+  {
+   "partNumber": 444,
+   "partName": "LITTLE SCOLLER SCHOOL SARKATA NALA AKBARI GATE LUCKNOW ROOM NO-2",
+   "partId": 370745
+  },
+  {
+   "partNumber": 445,
+   "partName": "OXFORD INTER COLLEGE LUCKNOW CHOWK KOTWALI KE PASS ROOM NO-1",
+   "partId": 370746
+  },
+  {
+   "partNumber": 446,
+   "partName": "OXFORD INTER COLLEGE LUCKNOW CHOWK KOTWALI KE PASS ROOM NO-2",
+   "partId": 370747
+  }
+ ]
+}

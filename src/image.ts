@@ -15,7 +15,16 @@ export type PageSource = string | PageImage;
 export async function loadPage(file: string): Promise<PageImage> {
   const { density } = await sharp(file).metadata();
   const { data, info } = await sharp(file).raw().toBuffer({ resolveWithObject: true });
-  return { data, width: info.width, height: info.height, channels: info.channels as PageImage["channels"], density };
+  return { data, width: info.width, height: info.height, channels: info.channels as PageImage["channels"], density: effectiveDensity(density, info.width) };
+}
+
+/**
+ * The resolution to treat a page as having. An oversized page is rendered at a low DPI to reach A4
+ * pixel size (see renderDpi), so its tag says about 90; tesseract and the stamp check use this value
+ * to size the text, and what they need is what the pixels amount to on an A4 sheet.
+ */
+export function effectiveDensity(density: number | undefined, width: number): number | undefined {
+  return density && density < 150 ? Math.round(width / (595 / 72)) : density;
 }
 
 /**

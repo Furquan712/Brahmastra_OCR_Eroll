@@ -11,6 +11,7 @@ import {
 import { cardRects, classifyHeader, localReadCards, readHeaderText, readPrintedPage, type FooterRead, type LocalCard, type Rect } from "./local.js";
 import type { Logger } from "./logger.js";
 import { cleanName, mapGender, mapRelation, normalizeCard } from "./normalize.js";
+import { applyOfficialPartName } from "./official-parts.js";
 import { pdfPageCount, removeQuiet, renderPage } from "./pdf.js";
 import { classifyPrompt, extractPrompt, systemPrompt } from "./prompts.js";
 import { CLASSIFY_JSON_SCHEMA, ClassifyZ, EXTRACT_JSON_SCHEMA, ExtractZ, type CardOut } from "./schemas.js";
@@ -39,7 +40,7 @@ export interface PdfContext {
 
 /** Tokens name consensus may repair towards: transliteration lexicon + overrides + learned names. */
 function knownNames(ctx: PdfContext): Set<string> {
-  const known = ctx.translit.knownDevanagari();
+  const known = process.env.OCR_NAME_LEXICON === "false" ? new Set<string>() : ctx.translit.knownDevanagari(); // OCR_NAME_LEXICON=false: page/document tokens only (ablation)
   if (ctx.names) for (const t of ctx.names.learned()) known.add(t);
   return known;
 }
@@ -631,7 +632,7 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   // 4. Page-level name consensus (a confident read elsewhere on the page repairs a 1-char
   //    Devanagari variant), then English names: local transliteration for every card, whichever
   //    engine read it (an English roll's names are taken as read).
-  const fixed = tpl.script === "latin" ? 0 : correctNames(cards, { known: knownNames(ctx) });
+  const fixed = tpl.script === "latin" || process.env.OCR_CONSENSUS === "false" ? 0 : correctNames(cards, { known: knownNames(ctx) });
   if (fixed) log.debug("page", `${label}: ${fixed} name token(s) repaired by page consensus`);
   fillEnglish(cards, translit, tpl.script);
   if (!result.supplementNo) result.supplementNo = cards.map((c) => c.markerSupplementNo ?? "").find(Boolean) ?? "";
@@ -664,6 +665,7 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
     log.info("pdf", `${base}: cached result (${cached.pages.reduce((n, p) => n + p.cards.length, 0)} cards, ${cached.model}) - skipping OCR`);
     refreshEnglish(cached.pages, ctx.translit, tpl);
     cached.cover = cached.pages.find((x) => x.cover)?.cover ?? null;
+    applyOfficialPartName(cached.cover, parseErollFilename(base)?.stateCode ?? "", log, base);
     return cached;
   }
 
@@ -717,13 +719,14 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
     // Document-level consensus: names repeat across a part (families), so a token read
     // confidently on one page repairs a one-character variant on another.
     const allCards = pages.flatMap((p) => p.cards);
-    const fixed = tpl.script === "latin" ? 0 : correctNames(allCards, { known: knownNames(ctx) });
+    const fixed = tpl.script === "latin" || process.env.OCR_CONSENSUS === "false" ? 0 : correctNames(allCards, { known: knownNames(ctx) });
     if (fixed) {
       log.info("pdf", `${base}: ${fixed} name token(s) repaired by document consensus`);
       fillEnglish(allCards, ctx.translit, tpl.script);
     }
 
     const cover = pages.find((x) => x.cover)?.cover ?? null;
+    applyOfficialPartName(cover, parseErollFilename(base)?.stateCode ?? "", log, base);
     const partCounts = new Map<string, number>();
     for (const pg of pages) if (pg.partNo) partCounts.set(pg.partNo, (partCounts.get(pg.partNo) ?? 0) + 1);
     const partNo = cover?.partNo || [...partCounts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || "";

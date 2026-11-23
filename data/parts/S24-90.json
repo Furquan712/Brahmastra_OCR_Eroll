@@ -1,0 +1,2422 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2408",
+ "acNumber": 90,
+ "fetchedAt": "2026-11-01T08:34:32",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 482,
+ "maxPart": 482,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "CHAHARWATI INTER COLLEGE AKOLA R.N.-1",
+   "partId": 362180
+  },
+  {
+   "partNumber": 2,
+   "partName": "CHAHARWATI INTER COLLEGE AKOLA R.N.-2",
+   "partId": 362181
+  },
+  {
+   "partNumber": 3,
+   "partName": "CHAHARWATI INTER COLLEGE AKOLA R.N.-3",
+   "partId": 362182
+  },
+  {
+   "partNumber": 4,
+   "partName": "CHAHARWATI INTER COLLEGE AKOLA R.N.-4",
+   "partId": 362183
+  },
+  {
+   "partNumber": 5,
+   "partName": "CHAHARWATI INTER COLLEGE AKOLA R.N.-5",
+   "partId": 362184
+  },
+  {
+   "partNumber": 6,
+   "partName": "CHAHARWATI INTER COLLEGE AKOLA R.N.-6",
+   "partId": 362185
+  },
+  {
+   "partNumber": 7,
+   "partName": "PRA VID SHANKARPUR (MAJRA AKOLA) RN-1",
+   "partId": 362186
+  },
+  {
+   "partNumber": 8,
+   "partName": "COMPOSITE VIDHYALAY  NAGLA JAYRAM R.N.-1",
+   "partId": 362187
+  },
+  {
+   "partNumber": 9,
+   "partName": "COMPOSITE VIDHYALAY NAGLA JAYRAM R.NO-2",
+   "partId": 362628
+  },
+  {
+   "partNumber": 10,
+   "partName": "PRA.VID.RAM NAGAR R.NO.-1",
+   "partId": 362188
+  },
+  {
+   "partNumber": 11,
+   "partName": "PRA.VID.PINANI R.N.-1",
+   "partId": 362189
+  },
+  {
+   "partNumber": 12,
+   "partName": "PRA.VID.LADAM R.N.-1",
+   "partId": 362190
+  },
+  {
+   "partNumber": 13,
+   "partName": "PRA.VID.NAGLA SAWALA R.N.-1",
+   "partId": 362191
+  },
+  {
+   "partNumber": 14,
+   "partName": "PUR.MAD.VID.MANKEDA R.N.-1",
+   "partId": 362192
+  },
+  {
+   "partNumber": 15,
+   "partName": "PUR.MAD.VID.MANKEDA R.N.-2",
+   "partId": 362193
+  },
+  {
+   "partNumber": 16,
+   "partName": "PUR.MAD.VID.MANKEDA R.N.-3",
+   "partId": 362194
+  },
+  {
+   "partNumber": 17,
+   "partName": "PRA.VID.NAGLA KAREY R.N.-1",
+   "partId": 362195
+  },
+  {
+   "partNumber": 18,
+   "partName": "PRA.VID.NAGLA KAREY R.N.-2",
+   "partId": 362196
+  },
+  {
+   "partNumber": 19,
+   "partName": "PRA. VID. LALAU R.N.-1",
+   "partId": 362197
+  },
+  {
+   "partNumber": 20,
+   "partName": "PRA. VID. LALAU R.N.-2",
+   "partId": 362198
+  },
+  {
+   "partNumber": 21,
+   "partName": "KASTURBA GANDHI VID. JARUA KATRA R.N.-1",
+   "partId": 362199
+  },
+  {
+   "partNumber": 22,
+   "partName": "KASTURBA GANDHI VID. JARUA KATRA R.N.-2",
+   "partId": 362200
+  },
+  {
+   "partNumber": 23,
+   "partName": "KASTURBA GANDHI VID. JARUA KATRA R.N.-3",
+   "partId": 362201
+  },
+  {
+   "partNumber": 24,
+   "partName": "KANYA PRA.VID.JARUA KATRA R.N.-1",
+   "partId": 362202
+  },
+  {
+   "partNumber": 25,
+   "partName": "KASTURBA GANDHI VID. JARUA KATRA R.N.-4",
+   "partId": 362203
+  },
+  {
+   "partNumber": 26,
+   "partName": "KASTURBA GANDHI VID. JARUA KATRA R.N.-5",
+   "partId": 362204
+  },
+  {
+   "partNumber": 27,
+   "partName": "PRA.VID.MUDHERA R.N.-1",
+   "partId": 362205
+  },
+  {
+   "partNumber": 28,
+   "partName": "PRA.VID.BAIKHEDA R.N.-1",
+   "partId": 362206
+  },
+  {
+   "partNumber": 29,
+   "partName": "PRA.VID.BAIKHEDA R.NO-2",
+   "partId": 362629
+  },
+  {
+   "partNumber": 30,
+   "partName": "PRA. VID.KHEDA BHAGOR R.N.-1",
+   "partId": 362207
+  },
+  {
+   "partNumber": 31,
+   "partName": "PRA. VID.KHEDA BHAGOR R.N.-2",
+   "partId": 362208
+  },
+  {
+   "partNumber": 32,
+   "partName": "P.M. SHRI VIDHYALAY GAMRI R.N.-1",
+   "partId": 362209
+  },
+  {
+   "partNumber": 33,
+   "partName": "P.M. SHRI VIDHYALAY GAMRI R.N.-2",
+   "partId": 362210
+  },
+  {
+   "partNumber": 34,
+   "partName": "PRA.VID. KHALUA R.N.-1",
+   "partId": 362211
+  },
+  {
+   "partNumber": 35,
+   "partName": "PRA.VID. KHALUA R.N.-2",
+   "partId": 362212
+  },
+  {
+   "partNumber": 36,
+   "partName": "PUR MAD VID KHALUA R.N.-1",
+   "partId": 362213
+  },
+  {
+   "partNumber": 37,
+   "partName": "PUR.MAD.VID.GADSANI R.N.-1",
+   "partId": 362214
+  },
+  {
+   "partNumber": 38,
+   "partName": "PUR.MAD.VID.GADSANI R.N.-2",
+   "partId": 362215
+  },
+  {
+   "partNumber": 39,
+   "partName": "PRA. VID. SUTADI R.N.-1",
+   "partId": 362216
+  },
+  {
+   "partNumber": 40,
+   "partName": "PRA VID NAGLA HATTI R N-1",
+   "partId": 362217
+  },
+  {
+   "partNumber": 41,
+   "partName": "PRA VID NAGLA BHURIYA R N-1",
+   "partId": 362218
+  },
+  {
+   "partNumber": 42,
+   "partName": "PUR MD VID BARARA R.N.-1",
+   "partId": 362219
+  },
+  {
+   "partNumber": 43,
+   "partName": "PUR MD VID BARARA R.N.-2",
+   "partId": 362220
+  },
+  {
+   "partNumber": 44,
+   "partName": "PUR MD VID BARARA R.N.-3",
+   "partId": 362221
+  },
+  {
+   "partNumber": 45,
+   "partName": "PRA VID BARARA R N-1",
+   "partId": 362222
+  },
+  {
+   "partNumber": 46,
+   "partName": "PRA VID BARARA R N-2",
+   "partId": 362223
+  },
+  {
+   "partNumber": 47,
+   "partName": "PRA VID MIRZAPUR R N-1",
+   "partId": 362224
+  },
+  {
+   "partNumber": 48,
+   "partName": "PRA VID GADI GULJARI R N-1",
+   "partId": 362225
+  },
+  {
+   "partNumber": 49,
+   "partName": "PRA. VI. NAGLA GUJRA R.N.-1",
+   "partId": 362226
+  },
+  {
+   "partNumber": 50,
+   "partName": "UCHCH PRATHMIK VIDHYALAY MIDHAKUR PRATHAM (COMPOSITE)   R.N.-1",
+   "partId": 362227
+  },
+  {
+   "partNumber": 51,
+   "partName": "UCHCH PRATHMIK VIDHYALAY MIDHAKUR PRATHAM (COMPOSITE)   R.N.-2",
+   "partId": 362228
+  },
+  {
+   "partNumber": 52,
+   "partName": "PRATHMIK VIDHYALAY GADI DAULTA R.N.-1",
+   "partId": 362613
+  },
+  {
+   "partNumber": 53,
+   "partName": "JANTA INTER COLLEGE R N-1",
+   "partId": 362229
+  },
+  {
+   "partNumber": 54,
+   "partName": "JANTA INTER COLLEGE R N-2",
+   "partId": 362230
+  },
+  {
+   "partNumber": 55,
+   "partName": "JANTA INTER COLLEGE R N-3",
+   "partId": 362231
+  },
+  {
+   "partNumber": 56,
+   "partName": "JANTA INTER COLLEGE R N-4",
+   "partId": 362232
+  },
+  {
+   "partNumber": 57,
+   "partName": "PRA VID NANPUR R N-1",
+   "partId": 362233
+  },
+  {
+   "partNumber": 58,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE SAHARA R.NO.-1",
+   "partId": 362234
+  },
+  {
+   "partNumber": 59,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE SAHARA R.NO.-2",
+   "partId": 362235
+  },
+  {
+   "partNumber": 60,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE SAHARA R.NO.-3",
+   "partId": 362236
+  },
+  {
+   "partNumber": 61,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE SAHARA R.NO.-4",
+   "partId": 362237
+  },
+  {
+   "partNumber": 62,
+   "partName": "COMPOSITE VIDHYALAY ANGUTHI R.NO.-1",
+   "partId": 362238
+  },
+  {
+   "partNumber": 63,
+   "partName": "COMPOSITE VIDHYALAY ANGUTHI R.NO.-2",
+   "partId": 362239
+  },
+  {
+   "partNumber": 64,
+   "partName": "COMPOSITE VIDHYALAY ANGUTHI R.NO.-3",
+   "partId": 362630
+  },
+  {
+   "partNumber": 65,
+   "partName": "PRA VID LADADHA RN-1",
+   "partId": 362240
+  },
+  {
+   "partNumber": 66,
+   "partName": "PRA VID LADADHA RN-2",
+   "partId": 362241
+  },
+  {
+   "partNumber": 67,
+   "partName": "PRA VID LADADHA RN-3",
+   "partId": 362242
+  },
+  {
+   "partNumber": 68,
+   "partName": "PRA VID BICHPURI NO-2 RN-1",
+   "partId": 362243
+  },
+  {
+   "partNumber": 69,
+   "partName": "PRA VID BICHPURI NO-2 RN-2",
+   "partId": 362244
+  },
+  {
+   "partNumber": 70,
+   "partName": "PRA VID BICHPURI NO-2 RN-3",
+   "partId": 362245
+  },
+  {
+   "partNumber": 71,
+   "partName": "PRA.VID.BICHPURI NO-2 R.NO-4",
+   "partId": 362631
+  },
+  {
+   "partNumber": 72,
+   "partName": "PRA VID CHOTHANA RN-1",
+   "partId": 362246
+  },
+  {
+   "partNumber": 73,
+   "partName": "PRA VID CHOTHANA RN-2",
+   "partId": 362247
+  },
+  {
+   "partNumber": 74,
+   "partName": "PRA VID CHOTHANA RN-3",
+   "partId": 362248
+  },
+  {
+   "partNumber": 75,
+   "partName": "PRA VID SADARWAN RN-1",
+   "partId": 362249
+  },
+  {
+   "partNumber": 76,
+   "partName": "PRA VID SADARVAN R.NO-2",
+   "partId": 362632
+  },
+  {
+   "partNumber": 77,
+   "partName": "PRA VID SUNARI RN-1",
+   "partId": 362250
+  },
+  {
+   "partNumber": 78,
+   "partName": "PRA VID SUNARI RN-2",
+   "partId": 362251
+  },
+  {
+   "partNumber": 79,
+   "partName": "PRA VID MAGTAI RN-1",
+   "partId": 362252
+  },
+  {
+   "partNumber": 80,
+   "partName": "PRA VID MAGHTAI RN-2",
+   "partId": 362253
+  },
+  {
+   "partNumber": 81,
+   "partName": "PRA VID JAUPURA RN-1",
+   "partId": 362254
+  },
+  {
+   "partNumber": 82,
+   "partName": "PRA VID JAUPURA RN-2",
+   "partId": 362255
+  },
+  {
+   "partNumber": 83,
+   "partName": "PRA VID JAUPURA RN-3",
+   "partId": 362256
+  },
+  {
+   "partNumber": 84,
+   "partName": "PRA VID NAGLA JAUPURA RN-1",
+   "partId": 362257
+  },
+  {
+   "partNumber": 85,
+   "partName": "UCH PRA VID COMPOSITE MOHAMADPUR RN-1",
+   "partId": 362258
+  },
+  {
+   "partNumber": 86,
+   "partName": "UCH PRA VID COMPOSITE MOHAMADPUR RN-2",
+   "partId": 362259
+  },
+  {
+   "partNumber": 87,
+   "partName": "UCH PRA VID COMPOSITE  MOHAMADPUR RN-3",
+   "partId": 362260
+  },
+  {
+   "partNumber": 88,
+   "partName": "UCH PRA VID COMPOSITE MOHAMADPUR RN-4",
+   "partId": 362261
+  },
+  {
+   "partNumber": 89,
+   "partName": "UCCHTAR PRA VID NAGLA THUIRAM RN-1",
+   "partId": 362262
+  },
+  {
+   "partNumber": 90,
+   "partName": "UCCHTAR PRA VID NAGLA THUIRAM RN-2",
+   "partId": 362263
+  },
+  {
+   "partNumber": 91,
+   "partName": "PRA VID LAKHANPUR RN-1",
+   "partId": 362264
+  },
+  {
+   "partNumber": 92,
+   "partName": "PRA VID LAKHANPUR RN-2",
+   "partId": 362265
+  },
+  {
+   "partNumber": 93,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSTIE ARTONI R.N.-1",
+   "partId": 362266
+  },
+  {
+   "partNumber": 94,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE ARTONI R.N.-2",
+   "partId": 362267
+  },
+  {
+   "partNumber": 95,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSTIE ARTONI R.N.-3",
+   "partId": 362268
+  },
+  {
+   "partNumber": 96,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSTIE ARTONI R.N.-4",
+   "partId": 362269
+  },
+  {
+   "partNumber": 97,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSTIE ARTONI R.N.-5",
+   "partId": 362270
+  },
+  {
+   "partNumber": 98,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NAGLA SOHANLAL R.N.-1",
+   "partId": 362271
+  },
+  {
+   "partNumber": 99,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE BABARPUR R.N.-1",
+   "partId": 362272
+  },
+  {
+   "partNumber": 100,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE BABARPUR R.N.-2",
+   "partId": 362273
+  },
+  {
+   "partNumber": 101,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE BABARPUR R.N.-3",
+   "partId": 362274
+  },
+  {
+   "partNumber": 102,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE BABARPUR R.N.-4",
+   "partId": 362275
+  },
+  {
+   "partNumber": 103,
+   "partName": "PRA VID SWAMI NAGLA NATHU RN-1",
+   "partId": 362276
+  },
+  {
+   "partNumber": 104,
+   "partName": "UCH PRA VID KAILESH(SWAMI) RN-1",
+   "partId": 362277
+  },
+  {
+   "partNumber": 105,
+   "partName": "PRA VID GADI BAIPUR RN-1",
+   "partId": 362278
+  },
+  {
+   "partNumber": 106,
+   "partName": "PRA VID GADI BAIPUR RN-2",
+   "partId": 362279
+  },
+  {
+   "partNumber": 107,
+   "partName": "PRA VID BAIPUR RN-1",
+   "partId": 362280
+  },
+  {
+   "partNumber": 108,
+   "partName": "PRA VID BAIPUR RN-2",
+   "partId": 362281
+  },
+  {
+   "partNumber": 109,
+   "partName": "UCH PRA. VID. BAIPUR RN-1",
+   "partId": 362282
+  },
+  {
+   "partNumber": 110,
+   "partName": "UCH PRA. VID. BAIPUR RN-2",
+   "partId": 362283
+  },
+  {
+   "partNumber": 111,
+   "partName": "UCH PRA VID BAIPUR RN-3",
+   "partId": 362284
+  },
+  {
+   "partNumber": 112,
+   "partName": "UCH PRA VID NAGLA TALFI RN-1",
+   "partId": 362285
+  },
+  {
+   "partNumber": 113,
+   "partName": "PRA VID SIKENDARPUR RN-1",
+   "partId": 362286
+  },
+  {
+   "partNumber": 114,
+   "partName": "PRA VID SIKANDARPUR R.NO-2",
+   "partId": 362633
+  },
+  {
+   "partNumber": 115,
+   "partName": "PRA VID KHASPUR RN-1",
+   "partId": 362287
+  },
+  {
+   "partNumber": 116,
+   "partName": "PRA VID KHASPUR RN-2",
+   "partId": 362288
+  },
+  {
+   "partNumber": 117,
+   "partName": "SARVHITKARI PUR MAD VID DAHTORA RN-1",
+   "partId": 362289
+  },
+  {
+   "partNumber": 118,
+   "partName": "SARVHITKARI PUR MAD VID DAHTORA RN-2",
+   "partId": 362290
+  },
+  {
+   "partNumber": 119,
+   "partName": "SARVHITKARI PUR MAD VID DAHTORA RN-3",
+   "partId": 362291
+  },
+  {
+   "partNumber": 120,
+   "partName": "SARVHITKARI PUR MAD VID DAHTORA RN-4",
+   "partId": 362292
+  },
+  {
+   "partNumber": 121,
+   "partName": "SARVHITKARI PUR MAD VID DAHTORA RN-5",
+   "partId": 362293
+  },
+  {
+   "partNumber": 122,
+   "partName": "SARVHITKARI PUR MAD VID DAHTORA RN-6",
+   "partId": 362294
+  },
+  {
+   "partNumber": 123,
+   "partName": "SARVHITKARI PUR MAD VID DAHTORA RN-7",
+   "partId": 362295
+  },
+  {
+   "partNumber": 124,
+   "partName": "SARVHITKARI PUR MAD VID DAHTORA RN-8",
+   "partId": 362296
+  },
+  {
+   "partNumber": 125,
+   "partName": "SARVHITKARI PUR MAD VID DEHTORA R.NO-9",
+   "partId": 362634
+  },
+  {
+   "partNumber": 126,
+   "partName": "SARVHITKARI PRA VID DAHTORA RN-1",
+   "partId": 362297
+  },
+  {
+   "partNumber": 127,
+   "partName": "SARVHITKARI PRA VID DAHTORA RN-2",
+   "partId": 362298
+  },
+  {
+   "partNumber": 128,
+   "partName": "SARVHITKARI PRA VID DAHTORA RN-3",
+   "partId": 362299
+  },
+  {
+   "partNumber": 129,
+   "partName": "SARVHITKARI PRA VID DAHTORA RN-4",
+   "partId": 362300
+  },
+  {
+   "partNumber": 130,
+   "partName": "UCH PRA. VI. COMPOSITE DEHTORA RN-1",
+   "partId": 362301
+  },
+  {
+   "partNumber": 131,
+   "partName": "UCH PRA. VI. COMPOSITE DEHTORA RN-2",
+   "partId": 362302
+  },
+  {
+   "partNumber": 132,
+   "partName": "UCH PRA. VI. COMPOSITE DEHTORA RN-3",
+   "partId": 362303
+  },
+  {
+   "partNumber": 133,
+   "partName": "UCH PRA.VI. COMPOSITE DEHTORA RN-4",
+   "partId": 362304
+  },
+  {
+   "partNumber": 134,
+   "partName": "UCH PRA.VI. COMPOSITE DEHTORA RN-5",
+   "partId": 362305
+  },
+  {
+   "partNumber": 135,
+   "partName": "UCH PRA.VI. COMPOSITE DEHTORA RN-6",
+   "partId": 362306
+  },
+  {
+   "partNumber": 136,
+   "partName": "SENT THOMAS SCHOOL SHASTRIPURAM RN-1",
+   "partId": 362307
+  },
+  {
+   "partNumber": 137,
+   "partName": "SENT THOMAS SCHOOL SHASTRIPURAM RN-2",
+   "partId": 362308
+  },
+  {
+   "partNumber": 138,
+   "partName": "SENT THOMAS SCHOOL SHASTRIPURAM RN-3",
+   "partId": 362309
+  },
+  {
+   "partNumber": 139,
+   "partName": "SENT THOMAS SCHOOL SHASTRIPURAM RN-4",
+   "partId": 362310
+  },
+  {
+   "partNumber": 140,
+   "partName": "SENT THOMAS SCHOOL SHASTRIPURAM R.NO-5",
+   "partId": 362635
+  },
+  {
+   "partNumber": 141,
+   "partName": "PRA VID NAGLA ALBITYA RN-1",
+   "partId": 362311
+  },
+  {
+   "partNumber": 142,
+   "partName": "PRA.VID. NAGLA ALBITYA R.N-2",
+   "partId": 362312
+  },
+  {
+   "partNumber": 143,
+   "partName": "PRA.VID. NAGLA ALBITYA R.N-3",
+   "partId": 362313
+  },
+  {
+   "partNumber": 144,
+   "partName": "MILLTAN PUBLIC SCHOOL VILASGANJ RN-1",
+   "partId": 362314
+  },
+  {
+   "partNumber": 145,
+   "partName": "MILLTAN PUBLIC SCHOOL VILASGANJ RN-2",
+   "partId": 362315
+  },
+  {
+   "partNumber": 146,
+   "partName": "MILLTAN PUBLIC SCHOOL VILASGANJ RN-3",
+   "partId": 362316
+  },
+  {
+   "partNumber": 147,
+   "partName": "MILLTAN PUBLIC SCHOOL VILASGANJ RN-4",
+   "partId": 362317
+  },
+  {
+   "partNumber": 148,
+   "partName": "MILLTON PUBLIC SCHOOL VILASGANJ R.NO-5",
+   "partId": 362636
+  },
+  {
+   "partNumber": 149,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE KALWARI R.N.-1",
+   "partId": 362318
+  },
+  {
+   "partNumber": 150,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE KALWARI R.N.-2",
+   "partId": 362319
+  },
+  {
+   "partNumber": 151,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE KALWARI R.N.-3",
+   "partId": 362320
+  },
+  {
+   "partNumber": 152,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE KALWARI R.N.-4",
+   "partId": 362321
+  },
+  {
+   "partNumber": 153,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE KALWARI R.N.-5",
+   "partId": 362322
+  },
+  {
+   "partNumber": 154,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE KALWARI R.N.-6",
+   "partId": 362323
+  },
+  {
+   "partNumber": 155,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE KALWARI R.N.-7",
+   "partId": 362324
+  },
+  {
+   "partNumber": 156,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE KALWARI R.N.-8",
+   "partId": 362325
+  },
+  {
+   "partNumber": 157,
+   "partName": "PRA VID DEVRETHA RN-1",
+   "partId": 362326
+  },
+  {
+   "partNumber": 158,
+   "partName": "PRA VID DEVRETHA RN-2",
+   "partId": 362327
+  },
+  {
+   "partNumber": 159,
+   "partName": "PRA VID DEVRETHA RN-3",
+   "partId": 362328
+  },
+  {
+   "partNumber": 160,
+   "partName": "PRA VID DEVRETHA RN-4",
+   "partId": 362329
+  },
+  {
+   "partNumber": 161,
+   "partName": "UCHCH PRATHMIK VIDHYALAY DEORETHA R.N.-1",
+   "partId": 362330
+  },
+  {
+   "partNumber": 162,
+   "partName": "UCHCH PRATHMIK VIDHYALAY DEORETHA R.N.-2",
+   "partId": 362331
+  },
+  {
+   "partNumber": 163,
+   "partName": "UCHCH PRATHMIK VIDHYALAY DEORETHA R.N.-3",
+   "partId": 362614
+  },
+  {
+   "partNumber": 164,
+   "partName": "SANJAY GANDHI INTER COLLEGE RN-1",
+   "partId": 362332
+  },
+  {
+   "partNumber": 165,
+   "partName": "SANJAY GANDHI INTER COLLEGE RN-2",
+   "partId": 362333
+  },
+  {
+   "partNumber": 166,
+   "partName": "SANJAY GANDHI INTER COLLEGE R.N.-3",
+   "partId": 362615
+  },
+  {
+   "partNumber": 167,
+   "partName": "SANJAY GANDHI INTER COLLEGE R.N.-4",
+   "partId": 362616
+  },
+  {
+   "partNumber": 168,
+   "partName": "SANJAY GANDHI INTER COLLEGE R.N.-5",
+   "partId": 362617
+  },
+  {
+   "partNumber": 169,
+   "partName": "SANJAY GANDHI INTER COLLEGE R.N.-6",
+   "partId": 362618
+  },
+  {
+   "partNumber": 170,
+   "partName": "PRA VID SUCHETA RN-1",
+   "partId": 362334
+  },
+  {
+   "partNumber": 171,
+   "partName": "PRA VID SUCHETA RN-2",
+   "partId": 362335
+  },
+  {
+   "partNumber": 172,
+   "partName": "PRA VID PATHOLI RN-1",
+   "partId": 362336
+  },
+  {
+   "partNumber": 173,
+   "partName": "PRA VID PATHOLI RN-2",
+   "partId": 362337
+  },
+  {
+   "partNumber": 174,
+   "partName": "PRA VID PATHOLI RN-3",
+   "partId": 362338
+  },
+  {
+   "partNumber": 175,
+   "partName": "PUR MAD VID PATHOLI RN-1",
+   "partId": 362339
+  },
+  {
+   "partNumber": 176,
+   "partName": "PUR MAD VID PATHOLI RN-2",
+   "partId": 362340
+  },
+  {
+   "partNumber": 177,
+   "partName": "PUR MAD VID PATHOLI RN-3",
+   "partId": 362341
+  },
+  {
+   "partNumber": 178,
+   "partName": "PUR MAD VID PATHOLI SECOND RN-1",
+   "partId": 362342
+  },
+  {
+   "partNumber": 179,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BALHERA  R.N.-1",
+   "partId": 362343
+  },
+  {
+   "partNumber": 180,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BALHERA R.N.-2",
+   "partId": 362344
+  },
+  {
+   "partNumber": 181,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BALHERA R.N.-3",
+   "partId": 362345
+  },
+  {
+   "partNumber": 182,
+   "partName": "SETH NATHI LAL INTER COLLEGE NAGLA BUDDHA DHANOLI RN-1",
+   "partId": 362346
+  },
+  {
+   "partNumber": 183,
+   "partName": "SETH NATHI LAL INTER COLLEGE NAGLA BUDDHA DHANOLI RN-2",
+   "partId": 362347
+  },
+  {
+   "partNumber": 184,
+   "partName": "PRA VID DHANOLI RN-1",
+   "partId": 362348
+  },
+  {
+   "partNumber": 185,
+   "partName": "PRA VID DHANOLI RN-2",
+   "partId": 362349
+  },
+  {
+   "partNumber": 186,
+   "partName": "PRA VID DHANOLI RN-3",
+   "partId": 362350
+  },
+  {
+   "partNumber": 187,
+   "partName": "PRA VID DHANOLI RN-4 (PUR MAD VID CAMPUS)",
+   "partId": 362351
+  },
+  {
+   "partNumber": 188,
+   "partName": "PRA VID DHANOLI RN-5 (PUR MAD VID CAMPUS)",
+   "partId": 362352
+  },
+  {
+   "partNumber": 189,
+   "partName": "PRA VID DHANOLI RN-6 (PUR MAD VID CAMPUS)",
+   "partId": 362353
+  },
+  {
+   "partNumber": 190,
+   "partName": "PRA VID DHANOLI RN-7 (PUR MAD VID CAMPUS)",
+   "partId": 362354
+  },
+  {
+   "partNumber": 191,
+   "partName": "RAMBABU INTER COLLEGE RN-1",
+   "partId": 362355
+  },
+  {
+   "partNumber": 192,
+   "partName": "RAMBABU INTER COLLEGE RN-2",
+   "partId": 362356
+  },
+  {
+   "partNumber": 193,
+   "partName": "RAMBABU INTER COLLEGE RN-3",
+   "partId": 362357
+  },
+  {
+   "partNumber": 194,
+   "partName": "RAMBABU INTER COLLEGE RN-4",
+   "partId": 362358
+  },
+  {
+   "partNumber": 195,
+   "partName": "RAMBABU INTER COLLEGE RN-5",
+   "partId": 362359
+  },
+  {
+   "partNumber": 196,
+   "partName": "RAMBABU INTER COLLEGE RN-6",
+   "partId": 362360
+  },
+  {
+   "partNumber": 197,
+   "partName": "AHILYA BAI INTER COLLEGE JAGNER ROAD DHANOLI RN-1",
+   "partId": 362361
+  },
+  {
+   "partNumber": 198,
+   "partName": "AHILYA BAI INTER COLLEGE JAGNER ROAD DHANOLI RN-2",
+   "partId": 362362
+  },
+  {
+   "partNumber": 199,
+   "partName": "AHILYA BAI INTER COLLEGE JAGNER ROAD DHANOLI RN-3",
+   "partId": 362637
+  },
+  {
+   "partNumber": 200,
+   "partName": "PUR MAD VID DHANOLI RN-1",
+   "partId": 362363
+  },
+  {
+   "partNumber": 201,
+   "partName": "PUR MAD VID DHANOLI RN-2",
+   "partId": 362364
+  },
+  {
+   "partNumber": 202,
+   "partName": "GRAMIN BAAL SARMIK VID.VIDHA NAGAR DHANOLI RN-1",
+   "partId": 362365
+  },
+  {
+   "partNumber": 203,
+   "partName": "GRAMIN BAAL SARMIK VID.VIDHA NAGAR DHANOLI RN-2",
+   "partId": 362366
+  },
+  {
+   "partNumber": 204,
+   "partName": "MAHARANI AVANTIBAI UCCH MAD VID DHANOLI RN-1",
+   "partId": 362367
+  },
+  {
+   "partNumber": 205,
+   "partName": "MAHARANI AVANTIBAI UCCH MAD VID DHANOLI RN-2",
+   "partId": 362368
+  },
+  {
+   "partNumber": 206,
+   "partName": "MAHARANI AVANTIBAI UCCH MAD VID DHANOLI RN-3",
+   "partId": 362369
+  },
+  {
+   "partNumber": 207,
+   "partName": "MAHARANI AVANTIBAI UCCH MAD VID DHANOLI RN-4",
+   "partId": 362370
+  },
+  {
+   "partNumber": 208,
+   "partName": "SAROJ DEVI INTER COLLEGE DHANOLI RN1",
+   "partId": 362371
+  },
+  {
+   "partNumber": 209,
+   "partName": "SAROJ DEVI INTER COLLEGE DHANOLI RN2",
+   "partId": 362372
+  },
+  {
+   "partNumber": 210,
+   "partName": "PRA VID KANCHANPUR RN-1",
+   "partId": 362373
+  },
+  {
+   "partNumber": 211,
+   "partName": "PRA VID KANCHANPUR RN-2",
+   "partId": 362374
+  },
+  {
+   "partNumber": 212,
+   "partName": "PRA VID NAGLA LEKHRAJ RN-1",
+   "partId": 362375
+  },
+  {
+   "partNumber": 213,
+   "partName": "PRA VID NAGLA LEKHRAJ RN-2",
+   "partId": 362376
+  },
+  {
+   "partNumber": 214,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE TAPRA R.N.-1",
+   "partId": 362377
+  },
+  {
+   "partNumber": 215,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE TAPRA R.N.-2",
+   "partId": 362378
+  },
+  {
+   "partNumber": 216,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE TAPRA R.N.-3",
+   "partId": 362625
+  },
+  {
+   "partNumber": 217,
+   "partName": "PRA VID CHOR NAGRIYA RN 1",
+   "partId": 362379
+  },
+  {
+   "partNumber": 218,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE AJEEJPUR R.N.-1",
+   "partId": 362380
+  },
+  {
+   "partNumber": 219,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE AJEEJPUR R.N.-2",
+   "partId": 362381
+  },
+  {
+   "partNumber": 220,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE AJEEJPUR R.N.-3",
+   "partId": 362382
+  },
+  {
+   "partNumber": 221,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE AJEEJPUR R.N.-4",
+   "partId": 362383
+  },
+  {
+   "partNumber": 222,
+   "partName": "PRA.VI.AJEEJPUR SECOUND R.N.-1",
+   "partId": 362384
+  },
+  {
+   "partNumber": 223,
+   "partName": "PRA.VI.AJEEJPUR SECOUND R.N.-2",
+   "partId": 362385
+  },
+  {
+   "partNumber": 224,
+   "partName": "PRA.VI.AJEEJPUR SECOUND R.N.-3",
+   "partId": 362386
+  },
+  {
+   "partNumber": 225,
+   "partName": "PRA.VI.AJEEJPUR SECOUND R.N.-4",
+   "partId": 362387
+  },
+  {
+   "partNumber": 226,
+   "partName": "PANCHAYAT GHAR AJEEJPUR R.NO-1",
+   "partId": 362638
+  },
+  {
+   "partNumber": 227,
+   "partName": "ANAND PUBLIC INTER COLLAGE NAI ABADI AJIJPUR RN-1",
+   "partId": 362388
+  },
+  {
+   "partNumber": 228,
+   "partName": "ANAND PUBLIC INTER COLLEGE NAI ABADI AJIJPUR RN-2",
+   "partId": 362389
+  },
+  {
+   "partNumber": 229,
+   "partName": "ANAND PUBLIC INTER COLLEGE NAI ABADI AJIJPUR RN-3",
+   "partId": 362390
+  },
+  {
+   "partNumber": 230,
+   "partName": "ANAND PUBLIC INTER COLLEGE NAI ABADI AJIJPUR RN-4",
+   "partId": 362391
+  },
+  {
+   "partNumber": 231,
+   "partName": "ANAND PUBLIC INTER COLLEGE NAI ABADI AJIJPUR RN-5",
+   "partId": 362392
+  },
+  {
+   "partNumber": 232,
+   "partName": "PRA VID BAMROLI AHIR RN-1",
+   "partId": 362393
+  },
+  {
+   "partNumber": 233,
+   "partName": "PRA VID BAMROLI AHIR RN-2",
+   "partId": 362394
+  },
+  {
+   "partNumber": 234,
+   "partName": "PRA.VID. BAMROLI AHIR R.N-3",
+   "partId": 362395
+  },
+  {
+   "partNumber": 235,
+   "partName": "PRATHMIK VIDHYALAY NAGLA PADMA (BAMROLI AHIR) R.N.-1",
+   "partId": 362626
+  },
+  {
+   "partNumber": 236,
+   "partName": "PRATHMIK VIDHYALAY NAGLA PADMA (BAMROLI AHIR) R.NO-2",
+   "partId": 362639
+  },
+  {
+   "partNumber": 237,
+   "partName": "PRA VID JAKOHDA RN-1",
+   "partId": 362396
+  },
+  {
+   "partNumber": 238,
+   "partName": "TULARAM INTER COLLEGE MALPURA RN-1",
+   "partId": 362397
+  },
+  {
+   "partNumber": 239,
+   "partName": "TULARAM INTER COLLEGE MALPURA RN-2",
+   "partId": 362398
+  },
+  {
+   "partNumber": 240,
+   "partName": "TULARAM INTER COLLEGE MALPURA RN-3",
+   "partId": 362399
+  },
+  {
+   "partNumber": 241,
+   "partName": "TULARAM INTER COLLEGE MALPURA RN-4",
+   "partId": 362400
+  },
+  {
+   "partNumber": 242,
+   "partName": "TULARAM INTER COLLEGE MALPURA RN-5",
+   "partId": 362401
+  },
+  {
+   "partNumber": 243,
+   "partName": "TULARAM INTER COLLEGE MALPURA RN-6",
+   "partId": 362402
+  },
+  {
+   "partNumber": 244,
+   "partName": "TULARAM INTER COLLEGE MALPURA RN-7",
+   "partId": 362403
+  },
+  {
+   "partNumber": 245,
+   "partName": "PRA VID MALPURA RN-1",
+   "partId": 362404
+  },
+  {
+   "partNumber": 246,
+   "partName": "PRA VID MALPURA RN-2",
+   "partId": 362405
+  },
+  {
+   "partNumber": 247,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE ABHAYPURA R.N.-1",
+   "partId": 362406
+  },
+  {
+   "partNumber": 248,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE ABHAYPURA R.NO-2",
+   "partId": 362640
+  },
+  {
+   "partNumber": 249,
+   "partName": "SAMUDIY KENDRA NAGLA RAWATI RN-1",
+   "partId": 362407
+  },
+  {
+   "partNumber": 250,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE SIRAULI R.N.-1",
+   "partId": 362408
+  },
+  {
+   "partNumber": 251,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE SIRAULI R.N.-2",
+   "partId": 362409
+  },
+  {
+   "partNumber": 252,
+   "partName": "PRA VID NAGLA PRATAP SINGH RN-1",
+   "partId": 362410
+  },
+  {
+   "partNumber": 253,
+   "partName": "PRA VID NAGLA MAKROL RN-1",
+   "partId": 362411
+  },
+  {
+   "partNumber": 254,
+   "partName": "PRA VID NAGLA MAKROL RN-2",
+   "partId": 362412
+  },
+  {
+   "partNumber": 255,
+   "partName": "SHRI KILA DEVI INTER COLLEGE ETHORA RN-1",
+   "partId": 362413
+  },
+  {
+   "partNumber": 256,
+   "partName": "SHRI KILA DEVI INTER COLLEGE ETHORA RN-2",
+   "partId": 362414
+  },
+  {
+   "partNumber": 257,
+   "partName": "SHRI KILA DEVI INTER COLLEGE ETHORA RN-3",
+   "partId": 362415
+  },
+  {
+   "partNumber": 258,
+   "partName": "SHRI KILA DEVI INTER COLLEGE ETHORA RN-4",
+   "partId": 362416
+  },
+  {
+   "partNumber": 259,
+   "partName": "SHRI KILA DEVI INTER COLLEGE ETHORA RN-5",
+   "partId": 362417
+  },
+  {
+   "partNumber": 260,
+   "partName": "PRA VID BHADI RN-1",
+   "partId": 362418
+  },
+  {
+   "partNumber": 261,
+   "partName": "PRA VID BHADI RN-2",
+   "partId": 362419
+  },
+  {
+   "partNumber": 262,
+   "partName": "COMPOSITE PURV MADHYAMIK VIDHYALAY KUTHAVALI R.N.-1",
+   "partId": 362420
+  },
+  {
+   "partNumber": 263,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE BAAD R.N.-1",
+   "partId": 362421
+  },
+  {
+   "partNumber": 264,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE BAAD R.N.-2",
+   "partId": 362422
+  },
+  {
+   "partNumber": 265,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE BAAD R.N.-3",
+   "partId": 362423
+  },
+  {
+   "partNumber": 266,
+   "partName": "PRATHMIK VIDHYALAY COMPOSITE KAKUA R.N.-1",
+   "partId": 362424
+  },
+  {
+   "partNumber": 267,
+   "partName": "PRATHMIK VIDHYALAY COMPOSITE KAKUA R.N.-2",
+   "partId": 362425
+  },
+  {
+   "partNumber": 268,
+   "partName": "PRATHMIK VIDHYALAY COMPOSITE KAKUA R.N.-3",
+   "partId": 362627
+  },
+  {
+   "partNumber": 269,
+   "partName": "PRA0VID0 BHOGALPURA RN-1",
+   "partId": 362426
+  },
+  {
+   "partNumber": 270,
+   "partName": "PRA VID BHOGALPURA R.NO-2",
+   "partId": 362641
+  },
+  {
+   "partNumber": 271,
+   "partName": "PRA VID KABULPUR RN-1",
+   "partId": 362427
+  },
+  {
+   "partNumber": 272,
+   "partName": "PRA VID KABULPUR RN-2",
+   "partId": 362428
+  },
+  {
+   "partNumber": 273,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NAGLA SISIYA R.N-1",
+   "partId": 362429
+  },
+  {
+   "partNumber": 274,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NAGLA SISIYA R.N-2",
+   "partId": 362430
+  },
+  {
+   "partNumber": 275,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE SALAIMABAD R.N.-1",
+   "partId": 362431
+  },
+  {
+   "partNumber": 276,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE SALAIMABAD R.N.-2",
+   "partId": 362432
+  },
+  {
+   "partNumber": 277,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE SALEMABAD R.NO-3",
+   "partId": 362642
+  },
+  {
+   "partNumber": 278,
+   "partName": "PRA VID BAHAI RN-1",
+   "partId": 362433
+  },
+  {
+   "partNumber": 279,
+   "partName": "PRA VID BAHAI RN-2",
+   "partId": 362434
+  },
+  {
+   "partNumber": 280,
+   "partName": "COMPOSITE PURV MADHYAMIK VIDHYALAY GADI HARLAL R.N.-1",
+   "partId": 362435
+  },
+  {
+   "partNumber": 281,
+   "partName": "PRATHMIK VIDHYALAY GARHI ROHTA R.N.-1",
+   "partId": 362436
+  },
+  {
+   "partNumber": 282,
+   "partName": "COMPOSITE PURV MADHYAMIK VIDHYALAY ROHTA R.N.-1",
+   "partId": 362437
+  },
+  {
+   "partNumber": 283,
+   "partName": "COMPOSITE PURV MADHYAMIK VIDHYALAY ROHTA R.NO-2",
+   "partId": 362643
+  },
+  {
+   "partNumber": 284,
+   "partName": "COMPOSITE PURV MADHYAMIK VIDHYALAY ROHTA R.NO-3",
+   "partId": 362644
+  },
+  {
+   "partNumber": 285,
+   "partName": "COMPOSITE PURV MADHYAMIK VIDHYALAY ROHTA R.NO-4",
+   "partId": 362645
+  },
+  {
+   "partNumber": 286,
+   "partName": "COMPOSITE PURV MADHYAMIK VIDHYALAY ROHTA R.NO-5",
+   "partId": 362646
+  },
+  {
+   "partNumber": 287,
+   "partName": "ROHTA INTER COLLEGE ROHTA RN-1",
+   "partId": 362438
+  },
+  {
+   "partNumber": 288,
+   "partName": "ROHTA INTER COLLEGE ROHTA RN-2",
+   "partId": 362439
+  },
+  {
+   "partNumber": 289,
+   "partName": "ROHTA INTER COLLEGE ROHTA RN-3",
+   "partId": 362440
+  },
+  {
+   "partNumber": 290,
+   "partName": "ROHTA INTER COLLEGE ROHTA RN-4",
+   "partId": 362441
+  },
+  {
+   "partNumber": 291,
+   "partName": "ROHTA INTER COLLEGE ROHTA RN-5",
+   "partId": 362442
+  },
+  {
+   "partNumber": 292,
+   "partName": "ROHTA INTER COLLEGE ROHTA RN-6",
+   "partId": 362443
+  },
+  {
+   "partNumber": 293,
+   "partName": "ROHTA INTER COLLEGE ROHTA RN-7",
+   "partId": 362444
+  },
+  {
+   "partNumber": 294,
+   "partName": "ROHTA INTER COLLEGE ROHTA RN-8",
+   "partId": 362445
+  },
+  {
+   "partNumber": 295,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NAINANA JAAT R.N.-1",
+   "partId": 362446
+  },
+  {
+   "partNumber": 296,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NAINANA JAAT R.N.-2",
+   "partId": 362447
+  },
+  {
+   "partNumber": 297,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NAINANA JAAT R.N.-3",
+   "partId": 362448
+  },
+  {
+   "partNumber": 298,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NAINANA JAAT R.N.-4",
+   "partId": 362449
+  },
+  {
+   "partNumber": 299,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NAINANA JAAT R.N.-5",
+   "partId": 362450
+  },
+  {
+   "partNumber": 300,
+   "partName": "RAJKIYA KANYA INTER COLLEGE NAINANA JAAT R.N.-1",
+   "partId": 362619
+  },
+  {
+   "partNumber": 301,
+   "partName": "RAJKIYA KANYA INTER COLLEGE NAINANA JAAT R.N.-2",
+   "partId": 362620
+  },
+  {
+   "partNumber": 302,
+   "partName": "RAJKIYA KANYA INTER COLLEGE NAINANA JAAT R.N.-3",
+   "partId": 362621
+  },
+  {
+   "partNumber": 303,
+   "partName": "RAJKIYA KANYA INTER COLLEGE NAINANA JAAT R.N.-4",
+   "partId": 362622
+  },
+  {
+   "partNumber": 304,
+   "partName": "RAJKIYA KANYA INTER COLLEGE NAINANA JAAT R.N.-5",
+   "partId": 362623
+  },
+  {
+   "partNumber": 305,
+   "partName": "PRA VID AMBEDKAR NAGAR NAINANA JAAT RN-1",
+   "partId": 362451
+  },
+  {
+   "partNumber": 306,
+   "partName": "PRA VID AMBEDKAR NAGAR NAINANA JAAT RN-2",
+   "partId": 362452
+  },
+  {
+   "partNumber": 307,
+   "partName": "PRA VID NANINA BHARMAN RN-1",
+   "partId": 362453
+  },
+  {
+   "partNumber": 308,
+   "partName": "PRA VID NANINA BHARMAN RN-2",
+   "partId": 362454
+  },
+  {
+   "partNumber": 309,
+   "partName": "PRA VID NANINA BHARMAN RN-3",
+   "partId": 362455
+  },
+  {
+   "partNumber": 310,
+   "partName": "PANCHAYAT BHAWAN NAINANA BRAHMAN R.NO-1",
+   "partId": 362647
+  },
+  {
+   "partNumber": 311,
+   "partName": "PRA VID KAULKHA RN-1",
+   "partId": 362456
+  },
+  {
+   "partNumber": 312,
+   "partName": "PRA VID KAULKHA RN-2",
+   "partId": 362457
+  },
+  {
+   "partNumber": 313,
+   "partName": "PRA VID KAULKHA RN-3",
+   "partId": 362458
+  },
+  {
+   "partNumber": 314,
+   "partName": "PRA VID KAULKHA RN-4",
+   "partId": 362459
+  },
+  {
+   "partNumber": 315,
+   "partName": "PRA VID KAULKHA RN-5",
+   "partId": 362460
+  },
+  {
+   "partNumber": 316,
+   "partName": "PRA VID KAULAKKHA R.NO-6",
+   "partId": 362648
+  },
+  {
+   "partNumber": 317,
+   "partName": "PRA VID KAHARI RN-1",
+   "partId": 362461
+  },
+  {
+   "partNumber": 318,
+   "partName": "PRA VID KAHARI RN-2",
+   "partId": 362462
+  },
+  {
+   "partNumber": 319,
+   "partName": "PRA VID KAHARI RN-3",
+   "partId": 362463
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRA VID KAHARI RN-4",
+   "partId": 362464
+  },
+  {
+   "partNumber": 321,
+   "partName": "PRA VID KAHARAI R.NO-5",
+   "partId": 362649
+  },
+  {
+   "partNumber": 322,
+   "partName": "SAHID KAUSHAL KUMAR RAWAT PUR MAD VID KAHARI RN-1",
+   "partId": 362465
+  },
+  {
+   "partNumber": 323,
+   "partName": "SAHID KAUSHAL KUMAR RAWAT PUR MAD VID KAHARI RN-2",
+   "partId": 362466
+  },
+  {
+   "partNumber": 324,
+   "partName": "PRA VID NAGLA KALI RN-1",
+   "partId": 362467
+  },
+  {
+   "partNumber": 325,
+   "partName": "PRA VID NAGLA KALI RN-2",
+   "partId": 362468
+  },
+  {
+   "partNumber": 326,
+   "partName": "PRA VID NAGLA KALI RN-3",
+   "partId": 362469
+  },
+  {
+   "partNumber": 327,
+   "partName": "PRA VID RAJRAI RN-1",
+   "partId": 362470
+  },
+  {
+   "partNumber": 328,
+   "partName": "PRA VID RAJRAI RN-2",
+   "partId": 362471
+  },
+  {
+   "partNumber": 329,
+   "partName": "PRA VID NAUBRI RN-1",
+   "partId": 362472
+  },
+  {
+   "partNumber": 330,
+   "partName": "PRA VID NAUBRI RN-2",
+   "partId": 362473
+  },
+  {
+   "partNumber": 331,
+   "partName": "COMPOSITE VIDHYALAY SEMRI R.N.-1",
+   "partId": 362474
+  },
+  {
+   "partNumber": 332,
+   "partName": "COMPOSITE VIDHYALAY SEMRI R.N.-2",
+   "partId": 362475
+  },
+  {
+   "partNumber": 333,
+   "partName": "COMPOSITE VIDHYALAY SEMRI R.N.-3",
+   "partId": 362476
+  },
+  {
+   "partNumber": 334,
+   "partName": "COMPOSITE VIDHYALAY SEMRI R.N.-4",
+   "partId": 362477
+  },
+  {
+   "partNumber": 335,
+   "partName": "COMPOSITE VIDHYALAY SEMRI R.N.-5",
+   "partId": 362478
+  },
+  {
+   "partNumber": 336,
+   "partName": "COMPOSITE VIDHYALAY SEMRI R.N.-6",
+   "partId": 362479
+  },
+  {
+   "partNumber": 337,
+   "partName": "COMPOSITE VIDHYALAY SEMRI R.N.-7",
+   "partId": 362480
+  },
+  {
+   "partNumber": 338,
+   "partName": "PRA VID PACHGAI KHEDA RN-1",
+   "partId": 362481
+  },
+  {
+   "partNumber": 339,
+   "partName": "PRA VID PACHGAI KHEDA RN-2",
+   "partId": 362482
+  },
+  {
+   "partNumber": 340,
+   "partName": "PRA VID PACHGAI KHEDA R.NO-3",
+   "partId": 362650
+  },
+  {
+   "partNumber": 341,
+   "partName": "PRA VID PACHGAI RN-1",
+   "partId": 362483
+  },
+  {
+   "partNumber": 342,
+   "partName": "PRA VID PACHGAI RN-2",
+   "partId": 362484
+  },
+  {
+   "partNumber": 343,
+   "partName": "COMPOSITE VIDHYALAY DEVRI R.N.-1",
+   "partId": 362485
+  },
+  {
+   "partNumber": 344,
+   "partName": "COMPOSITE VIDHYALAY DEVRI R.N.-2",
+   "partId": 362486
+  },
+  {
+   "partNumber": 345,
+   "partName": "COMPOSITE VIDHYALAY DEVRI R.N.-3",
+   "partId": 362487
+  },
+  {
+   "partNumber": 346,
+   "partName": "COMPOSITE VIDHYALAY DEVRI R.N.-4",
+   "partId": 362488
+  },
+  {
+   "partNumber": 347,
+   "partName": "PRA VID KAKRARI RN-1",
+   "partId": 362489
+  },
+  {
+   "partNumber": 348,
+   "partName": "PRA VID KAKRARI R.NO-2",
+   "partId": 362651
+  },
+  {
+   "partNumber": 349,
+   "partName": "PRA VID NAGLA KAKRARI RN-1",
+   "partId": 362490
+  },
+  {
+   "partNumber": 350,
+   "partName": "PRA VID NAGLA KAKRARI R.NO-2",
+   "partId": 362652
+  },
+  {
+   "partNumber": 351,
+   "partName": "PRA VID VISHRA KALA RN-1",
+   "partId": 362491
+  },
+  {
+   "partNumber": 352,
+   "partName": "PRA VID GADI RADDU RN-1",
+   "partId": 362492
+  },
+  {
+   "partNumber": 353,
+   "partName": "COMPOSITE VIDHYALAY SUJGAI R.N.-1",
+   "partId": 362493
+  },
+  {
+   "partNumber": 354,
+   "partName": "COMPOSITE VIDHYALAY GANGRAUA R.N.-1",
+   "partId": 362494
+  },
+  {
+   "partNumber": 355,
+   "partName": "COMPOSITE VIDHYALAY GANGRAUA R.N.-2",
+   "partId": 362495
+  },
+  {
+   "partNumber": 356,
+   "partName": "PRA VID BEHTA RN-1",
+   "partId": 362496
+  },
+  {
+   "partNumber": 357,
+   "partName": "PRA VID BAJEHRA RN-1",
+   "partId": 362497
+  },
+  {
+   "partNumber": 358,
+   "partName": "PRA VID BAHETA R.NO-3",
+   "partId": 362653
+  },
+  {
+   "partNumber": 359,
+   "partName": "PRA VID RAMNAGAR RN-1",
+   "partId": 362498
+  },
+  {
+   "partNumber": 360,
+   "partName": "PRA VID GUTILA RN-1",
+   "partId": 362499
+  },
+  {
+   "partNumber": 361,
+   "partName": "PRA VID GUTILA RN-2",
+   "partId": 362500
+  },
+  {
+   "partNumber": 362,
+   "partName": "PRA VID GUTILA R.NO-3",
+   "partId": 362654
+  },
+  {
+   "partNumber": 363,
+   "partName": "PUR MAD VID BAROLI AHIR RN-1",
+   "partId": 362501
+  },
+  {
+   "partNumber": 364,
+   "partName": "PUR MAD VID BAROLI AHIR RN-2",
+   "partId": 362502
+  },
+  {
+   "partNumber": 365,
+   "partName": "PUR MAD VID BAROLI AHIR R.NO-3",
+   "partId": 362655
+  },
+  {
+   "partNumber": 366,
+   "partName": "PRA VID BAROLI AHIR RN-1",
+   "partId": 362503
+  },
+  {
+   "partNumber": 367,
+   "partName": "PRA VID BAROLI AHIR RN-2",
+   "partId": 362504
+  },
+  {
+   "partNumber": 368,
+   "partName": "PRA VID BAROLI AHIR RN-3",
+   "partId": 362505
+  },
+  {
+   "partNumber": 369,
+   "partName": "PRA VID BAROLI AHIR RN-4",
+   "partId": 362506
+  },
+  {
+   "partNumber": 370,
+   "partName": "S.S.S PUBLIC SCHOOL BAROLI AHIR RN-1",
+   "partId": 362507
+  },
+  {
+   "partNumber": 371,
+   "partName": "PRA VID BAGDA RN-1",
+   "partId": 362508
+  },
+  {
+   "partNumber": 372,
+   "partName": "PRA VID BAGDA RN-2",
+   "partId": 362509
+  },
+  {
+   "partNumber": 373,
+   "partName": "PRA VID BAGDA R.NO-3",
+   "partId": 362656
+  },
+  {
+   "partNumber": 374,
+   "partName": "UCCH.PRA VID CHAMROLI RN 1",
+   "partId": 362510
+  },
+  {
+   "partNumber": 375,
+   "partName": "UCCH.PRA VID CHAMROLI RN 2",
+   "partId": 362511
+  },
+  {
+   "partNumber": 376,
+   "partName": "UCHCH PRA VID CHAMROLI R.NO-3",
+   "partId": 362657
+  },
+  {
+   "partNumber": 377,
+   "partName": "PRA VID CHAMROLI RN-1",
+   "partId": 362512
+  },
+  {
+   "partNumber": 378,
+   "partName": "PRA VID CHAMROLI RN-2",
+   "partId": 362513
+  },
+  {
+   "partNumber": 379,
+   "partName": "PRA VID CHAMROLI R.NO-3",
+   "partId": 362658
+  },
+  {
+   "partNumber": 380,
+   "partName": "PRA VID KARMANA RN-1",
+   "partId": 362514
+  },
+  {
+   "partNumber": 381,
+   "partName": "PRA VID KARMANA RN-2",
+   "partId": 362515
+  },
+  {
+   "partNumber": 382,
+   "partName": "PRA VID KARMANA RN-3",
+   "partId": 362516
+  },
+  {
+   "partNumber": 383,
+   "partName": "PRA VID NAGLA TALFI RN-1",
+   "partId": 362517
+  },
+  {
+   "partNumber": 384,
+   "partName": "PRA VID BHUDANA RN-1",
+   "partId": 362518
+  },
+  {
+   "partNumber": 385,
+   "partName": "PUR MAD VID BHUDANA RN-1",
+   "partId": 362519
+  },
+  {
+   "partNumber": 386,
+   "partName": "PUR MAD VID BHUDANA RN-2",
+   "partId": 362520
+  },
+  {
+   "partNumber": 387,
+   "partName": "PUR MAD VID BHUDANA RN-3",
+   "partId": 362521
+  },
+  {
+   "partNumber": 388,
+   "partName": "PRA VID KALAL KHIRYA RN-1",
+   "partId": 362522
+  },
+  {
+   "partNumber": 389,
+   "partName": "PRA VID KALAL KHIRYA RN-2",
+   "partId": 362523
+  },
+  {
+   "partNumber": 390,
+   "partName": "PRA VID KALAL KHIRYA RN-3",
+   "partId": 362524
+  },
+  {
+   "partNumber": 391,
+   "partName": "PRA VID TORA RN-1",
+   "partId": 362525
+  },
+  {
+   "partNumber": 392,
+   "partName": "PRA VID TORA RN-2",
+   "partId": 362526
+  },
+  {
+   "partNumber": 393,
+   "partName": "PRA VID KUA KHEDA RN-1",
+   "partId": 362527
+  },
+  {
+   "partNumber": 394,
+   "partName": "PRA VID KUA KHEDA RN-2",
+   "partId": 362528
+  },
+  {
+   "partNumber": 395,
+   "partName": "PRA VID KUA KHEDA RN-3",
+   "partId": 362529
+  },
+  {
+   "partNumber": 396,
+   "partName": "PRA VID GADI NAVILAYA RN 1",
+   "partId": 362530
+  },
+  {
+   "partNumber": 397,
+   "partName": "PRATHMIK VIDHYALAY NAGLA SAKKA GADI NAVALIYA R.N.-1",
+   "partId": 362624
+  },
+  {
+   "partNumber": 398,
+   "partName": "PRA VID MAHUA KHEDA RN-1",
+   "partId": 362531
+  },
+  {
+   "partNumber": 399,
+   "partName": "PRA VID MAHUA KHEDA RN-2",
+   "partId": 362532
+  },
+  {
+   "partNumber": 400,
+   "partName": "PRA VID MAHUA KHEDA RN-3",
+   "partId": 362533
+  },
+  {
+   "partNumber": 401,
+   "partName": "PUR MAD VID LAKWALI RN-1",
+   "partId": 362534
+  },
+  {
+   "partNumber": 402,
+   "partName": "PUR MAD VID LAKWALI RN-2",
+   "partId": 362535
+  },
+  {
+   "partNumber": 403,
+   "partName": "PUR MAD VID LAKWALI RN-3",
+   "partId": 362536
+  },
+  {
+   "partNumber": 404,
+   "partName": "PUR MAD VID LAKWALI RN-4",
+   "partId": 362537
+  },
+  {
+   "partNumber": 405,
+   "partName": "PRA VID BHUDRA RN-1",
+   "partId": 362538
+  },
+  {
+   "partNumber": 406,
+   "partName": "PRA VID BHUDRA RN-2",
+   "partId": 362539
+  },
+  {
+   "partNumber": 407,
+   "partName": "PRA VID MYAPUR RN-1",
+   "partId": 362540
+  },
+  {
+   "partNumber": 408,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE AKBARPUR R.N.-1",
+   "partId": 362541
+  },
+  {
+   "partNumber": 409,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE AKBARPUR R.N.-2",
+   "partId": 362542
+  },
+  {
+   "partNumber": 410,
+   "partName": "COMPOSITE VIDHYALAY LODHAI R.N.-1",
+   "partId": 362543
+  },
+  {
+   "partNumber": 411,
+   "partName": "COMPOSITE VIDHYALAY LODHAI R.N.-2",
+   "partId": 362544
+  },
+  {
+   "partNumber": 412,
+   "partName": "MAHARANI AVANTI BAI INTER COLLEGE SHYMO RN-1",
+   "partId": 362545
+  },
+  {
+   "partNumber": 413,
+   "partName": "MAHARANI AVANTI BAI INTER COLLEGE SHYMO RN-2",
+   "partId": 362546
+  },
+  {
+   "partNumber": 414,
+   "partName": "MAHARANI AVANTI BAI INTER COLLEGE SHYMO RN-3",
+   "partId": 362547
+  },
+  {
+   "partNumber": 415,
+   "partName": "PRA VID SHYMO RN-1",
+   "partId": 362548
+  },
+  {
+   "partNumber": 416,
+   "partName": "PRA VID SHYMO RN-2",
+   "partId": 362549
+  },
+  {
+   "partNumber": 417,
+   "partName": "PRA VID SHYMO RN-3",
+   "partId": 362550
+  },
+  {
+   "partNumber": 418,
+   "partName": "PRA VID DIGNER RN-1",
+   "partId": 362551
+  },
+  {
+   "partNumber": 419,
+   "partName": "PRA VID DIGNER RN-2",
+   "partId": 362552
+  },
+  {
+   "partNumber": 420,
+   "partName": "PRA VID DIGNER RN-3",
+   "partId": 362553
+  },
+  {
+   "partNumber": 421,
+   "partName": "PRA VID DIGNER RN-4",
+   "partId": 362554
+  },
+  {
+   "partNumber": 422,
+   "partName": "PRA VID NAUFRI RN-1",
+   "partId": 362555
+  },
+  {
+   "partNumber": 423,
+   "partName": "PRA VID PAWALI RN-1",
+   "partId": 362556
+  },
+  {
+   "partNumber": 424,
+   "partName": "PRA VID PAWAVALI R.NO-2",
+   "partId": 362659
+  },
+  {
+   "partNumber": 425,
+   "partName": "PRA VID BISHARI BHAND RN-1",
+   "partId": 362557
+  },
+  {
+   "partNumber": 426,
+   "partName": "PRA  VID ESLAMPUR RN-1",
+   "partId": 362558
+  },
+  {
+   "partNumber": 427,
+   "partName": "PRA  VID ESLAMPUR RN-2",
+   "partId": 362559
+  },
+  {
+   "partNumber": 428,
+   "partName": "UCH PRA VI JANRA RN-1",
+   "partId": 362560
+  },
+  {
+   "partNumber": 429,
+   "partName": "PRA VID GADI VERNDAWAN RN-1",
+   "partId": 362561
+  },
+  {
+   "partNumber": 430,
+   "partName": "KISHAN VIDHA PETH UCCJ MAD VID BAMROLI KATARA RN-1",
+   "partId": 362562
+  },
+  {
+   "partNumber": 431,
+   "partName": "KISHAN VIDHA PETH UCCJ MAD VID BAMROLI KATARA RN-2",
+   "partId": 362563
+  },
+  {
+   "partNumber": 432,
+   "partName": "KISHAN VIDHA PETH UCCJ MAD VID BAMROLI KATARA RN-3",
+   "partId": 362564
+  },
+  {
+   "partNumber": 433,
+   "partName": "KISHAN VIDHA PETH UCCJ MAD VID BAMROLI KATARA RN-4",
+   "partId": 362565
+  },
+  {
+   "partNumber": 434,
+   "partName": "PRA VID NAGLA GADEY RN-1",
+   "partId": 362566
+  },
+  {
+   "partNumber": 435,
+   "partName": "PRA VID BAMROLI KATARA RN-1",
+   "partId": 362567
+  },
+  {
+   "partNumber": 436,
+   "partName": "PUR MAD VID NAGLA TAAL BAMROLI KATARA RN-1",
+   "partId": 362568
+  },
+  {
+   "partNumber": 437,
+   "partName": "PUR MAD VID NAGLA TAAL BAMROLI KATARA RN-2",
+   "partId": 362569
+  },
+  {
+   "partNumber": 438,
+   "partName": "UCHCH PRATHMIK VIDHYALAY HINGOT KHEDIYA R.N.-1",
+   "partId": 362570
+  },
+  {
+   "partNumber": 439,
+   "partName": "UCHCH PRATHMIK VIDHYALAY HINGOT KHEDIYA R.N.-2",
+   "partId": 362571
+  },
+  {
+   "partNumber": 440,
+   "partName": "UCH PRA VID ETMADPUR MADRA RN-1",
+   "partId": 362572
+  },
+  {
+   "partNumber": 441,
+   "partName": "PRA VID ETMADPUR MADRA RN-2",
+   "partId": 362573
+  },
+  {
+   "partNumber": 442,
+   "partName": "PARISADIYA PUR MAD VID ETMADPUR MADRA RN-1",
+   "partId": 362574
+  },
+  {
+   "partNumber": 443,
+   "partName": "PRA VID KANKARPURA RN-1",
+   "partId": 362575
+  },
+  {
+   "partNumber": 444,
+   "partName": "PRA VID KANKARPURA RN-2",
+   "partId": 362576
+  },
+  {
+   "partNumber": 445,
+   "partName": "PRA VID SAMOGAR RN-1",
+   "partId": 362577
+  },
+  {
+   "partNumber": 446,
+   "partName": "PRA VID SAMOGAR RN-2",
+   "partId": 362578
+  },
+  {
+   "partNumber": 447,
+   "partName": "PRA VID SARGAN KHEDA RN-1",
+   "partId": 362579
+  },
+  {
+   "partNumber": 448,
+   "partName": "COMPOSITE VIDHYALAY VIJHAMAI R.N.-1",
+   "partId": 362580
+  },
+  {
+   "partNumber": 449,
+   "partName": "COMPOSITE VIDHYALAY VIJHAMAI R.N.-2",
+   "partId": 362581
+  },
+  {
+   "partNumber": 450,
+   "partName": "COMPOSITE VIDHYALAY IKTHARA R.N.-1",
+   "partId": 362582
+  },
+  {
+   "partNumber": 451,
+   "partName": "COMPOSITE VIDHYALAY KACHHPURA R.N.-1",
+   "partId": 362583
+  },
+  {
+   "partNumber": 452,
+   "partName": "COMPOSITE VIDHYALAY KACHHPURA R.N.-2",
+   "partId": 362584
+  },
+  {
+   "partNumber": 453,
+   "partName": "COMPOSITE VIDHYALAY KACHHPURA R.N.-3",
+   "partId": 362585
+  },
+  {
+   "partNumber": 454,
+   "partName": "D.A.V. INTER COLLEGE KUNDOL RN-1",
+   "partId": 362586
+  },
+  {
+   "partNumber": 455,
+   "partName": "D.A.V. INTER COLLEGE KUNDOL RN-2",
+   "partId": 362587
+  },
+  {
+   "partNumber": 456,
+   "partName": "D.A.V. INTER COLLEGE KUNDOL RN-3",
+   "partId": 362588
+  },
+  {
+   "partNumber": 457,
+   "partName": "D.A.V. INTER COLLEGE KUNDOL RN-4",
+   "partId": 362589
+  },
+  {
+   "partNumber": 458,
+   "partName": "D.A.V. INTER COLLEGE KUNDOL RN-5",
+   "partId": 362590
+  },
+  {
+   "partNumber": 459,
+   "partName": "D.A.V. INTER COLLEGE KUNDOL RN-6",
+   "partId": 362591
+  },
+  {
+   "partNumber": 460,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE DHAMOTA R.N.-1",
+   "partId": 362592
+  },
+  {
+   "partNumber": 461,
+   "partName": "PRA. VI. BHOLPURA R.N. - 1",
+   "partId": 362593
+  },
+  {
+   "partNumber": 462,
+   "partName": "PRA VID BISHRNA RN-1",
+   "partId": 362594
+  },
+  {
+   "partNumber": 463,
+   "partName": "PRA VID BISHRNA RN-2",
+   "partId": 362595
+  },
+  {
+   "partNumber": 464,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NADAUTA R.N.-1",
+   "partId": 362596
+  },
+  {
+   "partNumber": 465,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE NADAUTA R.N.-2",
+   "partId": 362597
+  },
+  {
+   "partNumber": 466,
+   "partName": "PRA VID SITARAM KE MADHIYA RN-1",
+   "partId": 362598
+  },
+  {
+   "partNumber": 467,
+   "partName": "UCHCH PRATHMIK VIDHYALAY COMPOSITE SULTANPUR R.N.-1",
+   "partId": 362599
+  },
+  {
+   "partNumber": 468,
+   "partName": "PRA VID TANORA NOORPUR RN-1",
+   "partId": 362600
+  },
+  {
+   "partNumber": 469,
+   "partName": "PRA VID TANORA NOORPUR R.NO-2",
+   "partId": 362660
+  },
+  {
+   "partNumber": 470,
+   "partName": "PRA VID MEHRA NAHARGANJ RN-1",
+   "partId": 362601
+  },
+  {
+   "partNumber": 471,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE VILHAINI R.N.-1",
+   "partId": 362602
+  },
+  {
+   "partNumber": 472,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BILHAINI R.NO-2",
+   "partId": 362661
+  },
+  {
+   "partNumber": 473,
+   "partName": "PRA VID GADI CHANDAN RN-1",
+   "partId": 362603
+  },
+  {
+   "partNumber": 474,
+   "partName": "PRA VID GADI CHANDAN RN-2",
+   "partId": 362604
+  },
+  {
+   "partNumber": 475,
+   "partName": "PURV  MADHYAMIK VIDHYALAY COMPOSITE BARAULI GUJAR R.N.-1",
+   "partId": 362605
+  },
+  {
+   "partNumber": 476,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BARAULI GUJAR R.N.-2",
+   "partId": 362606
+  },
+  {
+   "partNumber": 477,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BARAULI GUJAR R.N.-3",
+   "partId": 362607
+  },
+  {
+   "partNumber": 478,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BARAULI GUJAR R.N.-4",
+   "partId": 362608
+  },
+  {
+   "partNumber": 479,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BARAULI GUJAR R.N.-5",
+   "partId": 362609
+  },
+  {
+   "partNumber": 480,
+   "partName": "PURV MADHYAMIK VIDHYALAY COMPOSITE BARAULI GUJAR R.N.-6",
+   "partId": 362610
+  },
+  {
+   "partNumber": 481,
+   "partName": "KANYA PURV MADHYAMIK VIDHYALAY COMPOSITE AAM HAUD R.N.-1",
+   "partId": 362611
+  },
+  {
+   "partNumber": 482,
+   "partName": "KANYA PURV MADHYAMIK VIDHYALAY COMPOSITE AAM HAUD R.N.-2",
+   "partId": 362612
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+const fs=require("node:fs"),path=require("node:path");const {MongoClient}=require("mongodb");
+const DASH="/Volumes/External/algo/Brahmastra_Dashboard";
+const t=fs.readFileSync(path.join(DASH,".env"),"utf8");const e=Object.fromEntries(t.split("\n").filter(l=>l.includes("=")&&!l.startsWith("#")).map(l=>{const i=l.indexOf("=");return[l.slice(0,i).trim(),l.slice(i+1).replace(/\s*#.*$/,"").trim().replace(/^["']|["']$/g,"")]}));
+const DB=e.MONGO_DB||"brahmastra";
+(async()=>{const c=new MongoClient(e.MONGO_URI);await c.connect();const db=c.db(DB);
+const v=db.collection("eroll_voters");const out={};
+const one=await v.findOne({stateNorm:"UTTARPRADESH",acNo:63});console.log("voter keys:",Object.keys(one).join(","));
+const pm=await db.collection("eroll_parts").findOne({key:"UTTARPRADESH::63::2026::Final"});console.log("part keys:",Object.keys(pm).join(","));console.log(JSON.stringify(pm).slice(0,700));
+for(const ac of [61,62,63]){const key=`UTTARPRADESH::${ac}::2026::Final`;const o=out[ac]={};
+ o.bySource=await v.aggregate([{$match:{key}},{$group:{_id:{src:"$source",act:"$actionStatus"},n:{$sum:1}}}]).toArray();
+ o.gender=await v.aggregate([{$match:{key,source:"main"}},{$group:{_id:"$gender",n:{$sum:1}}}]).toArray();
+ o.relation=await v.aggregate([{$match:{key,source:"main"}},{$group:{_id:"$relationType",n:{$sum:1}}}]).toArray();
+ o.ages=await v.aggregate([{$match:{key,source:"main"}},{$project:{a:{$convert:{input:"$age",to:"int",onError:-1,onNull:-1}},g:"$gender"}},{$group:{_id:{a:"$a",g:"$g"},n:{$sum:1}}}]).toArray();
+ o.epic=await v.aggregate([{$match:{key,source:"main"}},{$project:{ok:{$regexMatch:{input:{$ifNull:["$epicNo",""]},regex:/^[A-Z]{3}[0-9]{7}$/}},empty:{$eq:[{$ifNull:["$epicNo",""]},""]}}},{$group:{_id:{ok:"$ok",empty:"$empty"},n:{$sum:1}}}]).toArray();
+ o.dupEpic=await v.aggregate([{$match:{key,source:"main",epicNo:{$nin:["",null]}}},{$group:{_id:"$epicNo",n:{$sum:1}}},{$match:{n:{$gt:1}}},{$group:{_id:null,epics:{$sum:1},rows:{$sum:"$n"}}}]).toArray();
+ o.flags=await v.aggregate([{$match:{key,source:"main"}},{$project:{f:{$ifNull:["$flags",""]}}},{$project:{arr:{$cond:[{$eq:["$f",""]},[],{$split:["$f",";"]}]}}},{$unwind:{path:"$arr",preserveNullAndEmptyArrays:true}},{$group:{_id:"$arr",n:{$sum:1}}}]).toArray();
+ o.flaggedRows=await v.countDocuments({key,source:"main",flags:{$nin:["",null]}});
+ o.perPart=await v.aggregate([{$match:{key,source:"main"}},{$group:{_id:"$partNo",n:{$sum:1},m:{$sum:{$cond:[{$eq:["$gender","Male"]},1,0]}},f:{$sum:{$cond:[{$eq:["$gender","Female"]},1,0]}},flagged:{$sum:{$cond:[{$in:[{$ifNull:["$flags",""]},["",null]]},0,1]}},maxSerial:{$max:{$convert:{input:"$serialNo",to:"int",onError:0,onNull:0}}},sections:{$addToSet:"$sectionNo"},houses:{$addToSet:{$concat:[{$ifNull:["$sectionNo",""]},"|",{$ifNull:["$houseNo",""]}]}}}},{$project:{n:1,m:1,f:1,flagged:1,maxSerial:1,sections:{$size:"$sections"},houses:{$size:"$houses"}}}]).toArray();
+ o.hh=await v.aggregate([{$match:{key,source:"main",houseNo:{$nin:["",null]}}},{$group:{_id:{p:"$partNo",s:"$sectionNo",h:"$houseNo"},n:{$sum:1}}},{$group:{_id:"$n",households:{$sum:1}}},{$sort:{_id:1}}]).toArray();
+ o.parts=await db.collection("eroll_parts").find({key}).project({_id:0,partNo:1,psNameEg:1,sections:1,mainTownVillageEg:1,pinCode:1,tehsilEg:1,districtEg:1}).toArray();
+ o.total=await v.countDocuments({key});
+ console.log("AC",ac,"total",o.total,"parts",o.perPart.length,"flagged",o.flaggedRows,"bySource",JSON.stringify(o.bySource),"gender",JSON.stringify(o.gender),"epic",JSON.stringify(o.epic),"dup",JSON.stringify(o.dupEpic),"relation",JSON.stringify(o.relation));
+}
+fs.writeFileSync(process.argv[2],JSON.stringify(out));await c.close();})().catch(e=>{console.error(e.message);process.exit(1)});

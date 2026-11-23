@@ -1,0 +1,2262 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2411",
+ "acNumber": 97,
+ "fetchedAt": "2026-11-01T08:34:42",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 450,
+ "maxPart": 450,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "SHRI TILAK INTER COLLEGE ARYA NAGAR R.N.1",
+   "partId": 395822
+  },
+  {
+   "partNumber": 2,
+   "partName": "SHRI TILAK INTER COLLEGE ARYA NAGAR R.N.2",
+   "partId": 395823
+  },
+  {
+   "partNumber": 3,
+   "partName": "ISLAMAIYA INTER COLLEGE ARYA NAGAR R.N.1",
+   "partId": 395824
+  },
+  {
+   "partNumber": 4,
+   "partName": "ISLAMAIYA INTER COLLEGE ARYA NAGAR R.N.2",
+   "partId": 395825
+  },
+  {
+   "partNumber": 5,
+   "partName": "ISLAMAIYA INTER COLLEGE ARYA NAGAR R.N.3",
+   "partId": 395826
+  },
+  {
+   "partNumber": 6,
+   "partName": "ISLAMAIYA INTER COLLEGE ARYA NAGAR R.N.4",
+   "partId": 395827
+  },
+  {
+   "partNumber": 7,
+   "partName": "ISLAMAIYA INTER COLLEGE ARYA NAGAR R.N.5",
+   "partId": 395828
+  },
+  {
+   "partNumber": 8,
+   "partName": "RAMA KANYA INTER COLLEGE JALESAR ROAD",
+   "partId": 395829
+  },
+  {
+   "partNumber": 9,
+   "partName": "SUSHILA BRAJRAJ SINGH INTER COLLEGE MATHURA NAGAR R.N.1",
+   "partId": 395830
+  },
+  {
+   "partNumber": 10,
+   "partName": "SUSHILA BRAJRAJ SINGH INTER COLLEGE MATHURA NAGAR R.N.2",
+   "partId": 395831
+  },
+  {
+   "partNumber": 11,
+   "partName": "SUSHILA BRAJRAJ SINGH INTER COLLEGE MATHURA NAGAR R.N.3",
+   "partId": 395832
+  },
+  {
+   "partNumber": 12,
+   "partName": "SUSHILA BRAJRAJ SINGH INTER COLLEGE MATHURA NAGAR R.N. 4",
+   "partId": 395944
+  },
+  {
+   "partNumber": 13,
+   "partName": "D.A.V. INTER COLLEGE KOTLA CHUNGI R.N.1",
+   "partId": 395833
+  },
+  {
+   "partNumber": 14,
+   "partName": "D.A.V. INTER COLLEGE KOTLA CHUNGI R.N.2",
+   "partId": 395834
+  },
+  {
+   "partNumber": 15,
+   "partName": "D.A.V. INTER COLLEGE KOTLA CHUNGI R.N.3",
+   "partId": 395835
+  },
+  {
+   "partNumber": 16,
+   "partName": "D.A.V. INTER COLLEGE KOTLA CHUNGI R.N.4",
+   "partId": 395836
+  },
+  {
+   "partNumber": 17,
+   "partName": "D.A.V. INTER COLLEGE KOTLA CHUNGI R.N.5",
+   "partId": 395837
+  },
+  {
+   "partNumber": 18,
+   "partName": "D.A.V. INTER COLLEGE KOTLA CHUNGI R.N.6",
+   "partId": 395838
+  },
+  {
+   "partNumber": 19,
+   "partName": "S.R.K. INTER COLLEGE RAMLILA CHAURAHA R.N.1",
+   "partId": 395839
+  },
+  {
+   "partNumber": 20,
+   "partName": "S.R.K. INTER COLLEGE RAMLILA CHAURAHA R.N.2",
+   "partId": 395840
+  },
+  {
+   "partNumber": 21,
+   "partName": "S.R.K. INTER COLLEGE RAMLILA CHAURAHA R.N.3",
+   "partId": 395841
+  },
+  {
+   "partNumber": 22,
+   "partName": "S.R.K. INTER COLLEGE RAMLILA CHAURAHA R.N.4",
+   "partId": 395842
+  },
+  {
+   "partNumber": 23,
+   "partName": "S R K INTER COLLEGE RAMLILA CHAURAHA R.N.5",
+   "partId": 395945
+  },
+  {
+   "partNumber": 24,
+   "partName": "BRAHMAN DHARMSALA MOHALLA DULI",
+   "partId": 395843
+  },
+  {
+   "partNumber": 25,
+   "partName": "KASTURBA INTER COLLEGE DURGA NAGAR R.N.1",
+   "partId": 395844
+  },
+  {
+   "partNumber": 26,
+   "partName": "KASTURBA INTER COLLEGE DURGA NAGAR R.N.2",
+   "partId": 395845
+  },
+  {
+   "partNumber": 27,
+   "partName": "KASTURBA INTER COLLEGE DURGA NAGAR R.N.3",
+   "partId": 395846
+  },
+  {
+   "partNumber": 28,
+   "partName": "KASTURBA INTER COLLEGE DURGA NAGAR R.N.4",
+   "partId": 395847
+  },
+  {
+   "partNumber": 29,
+   "partName": "KASTURBA INTER COLLEGE DURGA NAGAR R.N.5",
+   "partId": 395848
+  },
+  {
+   "partNumber": 30,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY INTER COLLEGE FIROZABAD R.N.1",
+   "partId": 395849
+  },
+  {
+   "partNumber": 31,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY INTER COLLEGE FIROZABAD R.N.2",
+   "partId": 395850
+  },
+  {
+   "partNumber": 32,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY INTER COLLEGE FIROZABAD R.N.3",
+   "partId": 395851
+  },
+  {
+   "partNumber": 33,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY INTER COLLEGE FIROZABAD R.N.4",
+   "partId": 395852
+  },
+  {
+   "partNumber": 34,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY INTER COLLEGE FIROZABAD R.N.5",
+   "partId": 395853
+  },
+  {
+   "partNumber": 35,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY INTER COLLEGE FIROZABAD R.N.6",
+   "partId": 395854
+  },
+  {
+   "partNumber": 36,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY P.G. COLLEGE FIROZABAD R.N.1",
+   "partId": 395855
+  },
+  {
+   "partNumber": 37,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY P.G. COLLEGE FIROZABAD R.N.2",
+   "partId": 395856
+  },
+  {
+   "partNumber": 38,
+   "partName": "MAHATMA GANDHI BALIKA VIDHYALAY P.G. COLLEGE FIROZABAD R.N.3",
+   "partId": 395857
+  },
+  {
+   "partNumber": 39,
+   "partName": "ROYAL CITY PUBLIC SCHOOL KARBALA R.N.1",
+   "partId": 395858
+  },
+  {
+   "partNumber": 40,
+   "partName": "ROYAL CITY PUBLIC SCHOOL KARBALA R.N.2",
+   "partId": 395859
+  },
+  {
+   "partNumber": 41,
+   "partName": "ROYAL CITY PUBLIC SCHOOL KARBALA R.N.3",
+   "partId": 395860
+  },
+  {
+   "partNumber": 42,
+   "partName": "RASHTRIYA SHRAMIK HIGHER SECONDARY SCHOOL FIROZABAD R.N.1",
+   "partId": 395861
+  },
+  {
+   "partNumber": 43,
+   "partName": "RASHTRIYA SHRAMIK HIGHER SECONDARY SCHOOL FIROZABAD R.N.2",
+   "partId": 395862
+  },
+  {
+   "partNumber": 44,
+   "partName": "RASHTRIYA SHRAMIK HIGHER SECONDARY SCHOOL FIROZABAD R.N.3",
+   "partId": 395863
+  },
+  {
+   "partNumber": 45,
+   "partName": "RASHTRIYA SHRAMIK HIGHER SECONDARY SCHOOL FIROZABAD R.N.4",
+   "partId": 395864
+  },
+  {
+   "partNumber": 46,
+   "partName": "RASHTRIYA SHRAMIK HIGHER SECONDARY SCHOOL FIROZABAD R.N.5",
+   "partId": 395865
+  },
+  {
+   "partNumber": 47,
+   "partName": "RASHTRIYA SHRAMIK HIGHER SECONDARY SCHOOL FIROZABAD R.N.6",
+   "partId": 395866
+  },
+  {
+   "partNumber": 48,
+   "partName": "RASHTRIYA SHRAMIK HIGHER SECONDARY SCHOOL FIROZABAD R.N.7",
+   "partId": 395867
+  },
+  {
+   "partNumber": 49,
+   "partName": "RASHTRIYA SHRAMIK HIGHER SECONDARY SCHOOL FIROZABAD R.N. 8",
+   "partId": 395946
+  },
+  {
+   "partNumber": 50,
+   "partName": "NAGAR NIGAM KARYALAY R.N.1",
+   "partId": 395868
+  },
+  {
+   "partNumber": 51,
+   "partName": "NAGAR NIGAM KARYALAY R.N.2",
+   "partId": 395869
+  },
+  {
+   "partNumber": 52,
+   "partName": "NAGAR NIGAM KARYALAY R.N.3",
+   "partId": 395870
+  },
+  {
+   "partNumber": 53,
+   "partName": "DIGAMBAR JAIN INTER COLLEGE CHANDRAPRABHU R.N.1",
+   "partId": 395871
+  },
+  {
+   "partNumber": 54,
+   "partName": "DIGAMBAR JAIN INTER COLLEGE CHANDRAPRABHU R.N.2",
+   "partId": 395872
+  },
+  {
+   "partNumber": 55,
+   "partName": "ARYA KANYA U.M.V. PURANI MANDI R.N.1",
+   "partId": 395873
+  },
+  {
+   "partNumber": 56,
+   "partName": "ARYA KANYA U.M.V. PURANI MANDI R.N.2",
+   "partId": 395874
+  },
+  {
+   "partNumber": 57,
+   "partName": "ARYA KANYA U.M.V. PURANI MANDI R.N.5",
+   "partId": 395979
+  },
+  {
+   "partNumber": 58,
+   "partName": "ARYA KANYA U.M.V. PURANI MANDI R.N.3",
+   "partId": 395875
+  },
+  {
+   "partNumber": 59,
+   "partName": "ARYA KANYA U.M.V. PURANI MANDI R.N.4",
+   "partId": 395876
+  },
+  {
+   "partNumber": 60,
+   "partName": "SHRIMATI BHAGVATI DEVI AGRAWAL SARASWATI SHISHU MANDIR CHOUKI GATE R.N.1",
+   "partId": 395877
+  },
+  {
+   "partNumber": 61,
+   "partName": "SHRIMATI BHAGVATI DEVI AGRAWAL SARASWATI SHISHU MANDIR CHOUKI GATE R.N.2",
+   "partId": 395878
+  },
+  {
+   "partNumber": 62,
+   "partName": "SHRIMATI BHAGVATI DEVI AGRAWAL SARASWATI SHISHU MANDIR CHOUKI GATE R.N.3",
+   "partId": 395879
+  },
+  {
+   "partNumber": 63,
+   "partName": "R.U.PUBLIC SCHOOL NAZEER MASJID KE PASS GALI NO.2 SHITAL KHA ROAD R.N.1",
+   "partId": 395880
+  },
+  {
+   "partNumber": 64,
+   "partName": "R.U.PUBLIC SCHOOL NAZEER MASJID KE PASS GALI NO.2 SHITAL KHA ROAD R.N.2",
+   "partId": 395881
+  },
+  {
+   "partNumber": 65,
+   "partName": "RAJENDRA VISHRAM GRAH HANUMAN ROAD R.N.1",
+   "partId": 395882
+  },
+  {
+   "partNumber": 66,
+   "partName": "RAJENDRA VISHRAM GRAH HANUMAN ROAD R.N.2",
+   "partId": 395883
+  },
+  {
+   "partNumber": 67,
+   "partName": "AMBEDKAR DHARMASHALA BHATIYA CHAURAHA R.N.1",
+   "partId": 395884
+  },
+  {
+   "partNumber": 68,
+   "partName": "AMBEDKAR DHARMASHALA BHATIYA CHAURAHA R.N.2",
+   "partId": 395885
+  },
+  {
+   "partNumber": 69,
+   "partName": "AMBEDKAR DHARMASHALA BHATIYA CHAURAHA R.N.3",
+   "partId": 395886
+  },
+  {
+   "partNumber": 70,
+   "partName": "SUGRA BEGUM GIRLS INTER COLLEGE BABU JI KI BAGIYA JATAVPURI R.N.4",
+   "partId": 395887
+  },
+  {
+   "partNumber": 71,
+   "partName": "SUGRA BEGUM GIRLS INTER COLLEGE BABU JI KI BAGIYA JATAVPURI R.N.5",
+   "partId": 395888
+  },
+  {
+   "partNumber": 72,
+   "partName": "SUGRA BEGUM GIRLS INTER COLLEGE BABU JI KI BAGIYA JATAVPURI R.N.6",
+   "partId": 395889
+  },
+  {
+   "partNumber": 73,
+   "partName": "ALHUDA MODERN SCHOOL RAHI NAGAR R.N.1",
+   "partId": 395890
+  },
+  {
+   "partNumber": 74,
+   "partName": "ALHUDA MODERN SCHOOL RAHI NAGAR R.N.2",
+   "partId": 395891
+  },
+  {
+   "partNumber": 75,
+   "partName": "DR.ZAKIR HUSAIN J.H. SCHOOL HOLI BALI BHATTI JHAMAIYA TOLA",
+   "partId": 395892
+  },
+  {
+   "partNumber": 76,
+   "partName": "RIGHT WAY PUBLIC SCHOOL SHISHGRAN",
+   "partId": 395893
+  },
+  {
+   "partNumber": 77,
+   "partName": "CHILDREN CHOICE CONVENT SCHOOL GALIB NAGAR R.N. 1",
+   "partId": 395894
+  },
+  {
+   "partNumber": 78,
+   "partName": "CHILDREN CHOICE CONVENT SCHOOL GALIB NAGAR R.N. 2",
+   "partId": 395895
+  },
+  {
+   "partNumber": 79,
+   "partName": "CHILDREN CHOICE CONVENT SCHOOL GALIB NAGAR R.N.3",
+   "partId": 395947
+  },
+  {
+   "partNumber": 80,
+   "partName": "N.N.P.P. HAJIPURA R.N.1",
+   "partId": 395896
+  },
+  {
+   "partNumber": 81,
+   "partName": "N.N.P.P. HAJIPURA R.N.2",
+   "partId": 395897
+  },
+  {
+   "partNumber": 82,
+   "partName": "N.N.P.P. HAJIPURA R.N.3",
+   "partId": 395898
+  },
+  {
+   "partNumber": 83,
+   "partName": "N.N.P.P. HAJIPURA R.N.4",
+   "partId": 395899
+  },
+  {
+   "partNumber": 84,
+   "partName": "N N P P HAJIPURA R.N. 5",
+   "partId": 395948
+  },
+  {
+   "partNumber": 85,
+   "partName": "J.H. SCHOOL HAJIPURA R.N.1",
+   "partId": 395900
+  },
+  {
+   "partNumber": 86,
+   "partName": "J.H. SCHOOL HAJIPURA R.N.2",
+   "partId": 395901
+  },
+  {
+   "partNumber": 87,
+   "partName": "J.H. SCHOOL HAJIPURA R.N.3",
+   "partId": 395902
+  },
+  {
+   "partNumber": 88,
+   "partName": "SIR BILAL SENIOR SECONDARY SCHOOL NAINI CHAURAHA R.N.1",
+   "partId": 395903
+  },
+  {
+   "partNumber": 89,
+   "partName": "SIR BILAL SENIOR SECONDARY SCHOOL NAINI CHAURAHA R.N.2",
+   "partId": 395904
+  },
+  {
+   "partNumber": 90,
+   "partName": "SIR BILAL SENIOR SECONDARY SCHOOL NAINI CHAURAHA R.N. 3",
+   "partId": 395905
+  },
+  {
+   "partNumber": 91,
+   "partName": "SIR BILAL SENIOR SECONDARY SCHOOL NAINI CHAURAHA R.N. 4",
+   "partId": 395949
+  },
+  {
+   "partNumber": 92,
+   "partName": "ALHAMD PUBLIC SCHOOL HAJIPURA R.N.1",
+   "partId": 395906
+  },
+  {
+   "partNumber": 93,
+   "partName": "ALHAMD PUBLIC SCHOOL HAJIPURA R.N.2",
+   "partId": 395907
+  },
+  {
+   "partNumber": 94,
+   "partName": "ALHAMD PUBLIC SCHOOL HAJIPURA R.N.3",
+   "partId": 395908
+  },
+  {
+   "partNumber": 95,
+   "partName": "ALHAMD PUBLIC SCHOOL HAJIPURA R.N.4",
+   "partId": 395909
+  },
+  {
+   "partNumber": 96,
+   "partName": "ALHAMD PUBLIC SCHOOL HAJIPURA R.N. 5",
+   "partId": 395950
+  },
+  {
+   "partNumber": 97,
+   "partName": "HALY PUBLIC SCHOOL GALIB NAGAR R.N.1",
+   "partId": 395910
+  },
+  {
+   "partNumber": 98,
+   "partName": "HALY PUBLIC SCHOOL GALIB NAGAR R.N.2",
+   "partId": 395911
+  },
+  {
+   "partNumber": 99,
+   "partName": "HALY PUBLIC SCHOOL GALIB NAGAR R.N. 3",
+   "partId": 395951
+  },
+  {
+   "partNumber": 100,
+   "partName": "A.M.PUBLIC SCHOOL GALIB NAGAR R.N.1",
+   "partId": 395912
+  },
+  {
+   "partNumber": 101,
+   "partName": "A.M.PUBLIC SCHOOL GALIB NAGAR R.N.2",
+   "partId": 395913
+  },
+  {
+   "partNumber": 102,
+   "partName": "SUGRA BEGAM GIRLS INTER COLLEGE BABU JI KI BAGIYA JATAVPURI R.N.1",
+   "partId": 395914
+  },
+  {
+   "partNumber": 103,
+   "partName": "SUGRA BEGAM GIRLS INTER COLLEGE BABU JI KI BAGIYA JATAVPURI R.N.2",
+   "partId": 395915
+  },
+  {
+   "partNumber": 104,
+   "partName": "SUGRA BEGAM GIRLS INTER COLLEGE BABU JI KI BAGIYA JATAVPURI R.N.3",
+   "partId": 395916
+  },
+  {
+   "partNumber": 105,
+   "partName": "ABBAS JUNIOR HIGH SCHOOL GALIB NAGAR TIRAHAR.N.4",
+   "partId": 395917
+  },
+  {
+   "partNumber": 106,
+   "partName": "BAL DEEP HIGH SCHOOL PURANA RASOOLPUR R.N.1",
+   "partId": 395918
+  },
+  {
+   "partNumber": 107,
+   "partName": "BAL DEEP HIGH SCHOOL PURANA RASOOLPUR R.N.2",
+   "partId": 395919
+  },
+  {
+   "partNumber": 108,
+   "partName": "BAL DEEP HIGH SCHOOL PURANA RASOOLPUR R.N.3",
+   "partId": 395920
+  },
+  {
+   "partNumber": 109,
+   "partName": "SANJAY GANDHI P.V. RASOOLPUR R.N.1",
+   "partId": 395921
+  },
+  {
+   "partNumber": 110,
+   "partName": "SANJAY GANDHI P.V. RASOOLPUR R.N.2",
+   "partId": 395922
+  },
+  {
+   "partNumber": 111,
+   "partName": "SANJAY GANDHI P.V. RASOOLPUR R.N.3",
+   "partId": 395923
+  },
+  {
+   "partNumber": 112,
+   "partName": "GYAN SAROVAR M. SCHOOL RASOOLPUR R.N.1",
+   "partId": 395924
+  },
+  {
+   "partNumber": 113,
+   "partName": "GYAN SAROVAR M. SCHOOL RASOOLPUR R.N.2",
+   "partId": 395925
+  },
+  {
+   "partNumber": 114,
+   "partName": "GYAN SAROVAR M. SCHOOL RASOOLPUR R.N.3",
+   "partId": 395926
+  },
+  {
+   "partNumber": 115,
+   "partName": "GYAN SAROVAR M. SCHOOL RASOOLPUR R.N.4",
+   "partId": 395927
+  },
+  {
+   "partNumber": 116,
+   "partName": "GYAN SAROVAR M. SCHOOL RASOOLPUR R.N.5",
+   "partId": 395928
+  },
+  {
+   "partNumber": 117,
+   "partName": "GYAN SAROVAR M. SCHOOL RASOOLPUR R.N.6",
+   "partId": 395929
+  },
+  {
+   "partNumber": 118,
+   "partName": "SHIV ADARSH JUNIOR HIGH SCHOOL NAYA RASULPUR R.N 1",
+   "partId": 395930
+  },
+  {
+   "partNumber": 119,
+   "partName": "SHIV ADRASH JUNIOR HIGH SCHOOL NAYA RASULPUR R.N 2",
+   "partId": 395931
+  },
+  {
+   "partNumber": 120,
+   "partName": "SHIV ADARSH JUNIOR HIGH SCHOOL NAYA RASULPUR R.N 3",
+   "partId": 395932
+  },
+  {
+   "partNumber": 121,
+   "partName": "SHIV ADARSH JUNIOR HIGH SCHOOL NAYA RASULPUR R.N 4",
+   "partId": 395933
+  },
+  {
+   "partNumber": 122,
+   "partName": "SHIV ADARSH JUNIOR HIGH SCHOOL NAYA RASULPUR R.N.6",
+   "partId": 395952
+  },
+  {
+   "partNumber": 123,
+   "partName": "SHIV ADARSH JUNIOR HIGH SCHOOL NAYA RASULPUR R.N 5",
+   "partId": 395934
+  },
+  {
+   "partNumber": 124,
+   "partName": "SHRI MADHAV GULAB SINGH SHIKSHAN SANSTHAN NAYA RASULPUR R.N. 1",
+   "partId": 395935
+  },
+  {
+   "partNumber": 125,
+   "partName": "SHRI MADHAV GULAB SINGH SHIKSHAN SANSTHAN NAYA RASULPUR R.N. 2",
+   "partId": 395936
+  },
+  {
+   "partNumber": 126,
+   "partName": "GOPINATH HIGHER SECONDARY SCHOOL PEMESHAWAR GATE R.N. 1",
+   "partId": 395937
+  },
+  {
+   "partNumber": 127,
+   "partName": "GOPINATH HIGHER SECONDARY SCHOOL PEMESHAWAR GATE R.N. 2",
+   "partId": 395938
+  },
+  {
+   "partNumber": 128,
+   "partName": "GOPINATH HIGHER SECONDARY SCHOOL PEMESHAWAR GATE R.N. 3",
+   "partId": 395939
+  },
+  {
+   "partNumber": 129,
+   "partName": "GOPINATH HIGHER SECONDARY SCHOOL PEMESHAWAR GATE R.N. 4",
+   "partId": 395940
+  },
+  {
+   "partNumber": 130,
+   "partName": "GOPINATH HIGHER SECONDARY SCHOOL PEMESHAWAR GATE R.N. 5",
+   "partId": 395941
+  },
+  {
+   "partNumber": 131,
+   "partName": "GOPINATH HIGHER SECONDARY SCHOOL PEMESHAWAR GATE R.N. 6",
+   "partId": 395942
+  },
+  {
+   "partNumber": 132,
+   "partName": "GOPINATH HIGHER SECONDARY SCHOOL PEMESHAWAR GATE R.N. 7",
+   "partId": 395943
+  },
+  {
+   "partNumber": 133,
+   "partName": "GOPINATH INTER COLLEGE PEMESHAWAR GATE R.N. 1",
+   "partId": 394395
+  },
+  {
+   "partNumber": 134,
+   "partName": "GOPINATH INTER COLLEGE PEMESHAWAR GATE R.N. 2",
+   "partId": 394412
+  },
+  {
+   "partNumber": 135,
+   "partName": "GOPINATH INTER COLLEGE PEMESHAWAR GATE R.N. 3",
+   "partId": 394413
+  },
+  {
+   "partNumber": 136,
+   "partName": "SHRIMATI REVATI DEVI VIDHYALAY INTER COLLEGE FIROZABAD R.N. 1",
+   "partId": 394414
+  },
+  {
+   "partNumber": 137,
+   "partName": "SHRIMATI REVATI DEVI VIDHYALAY INTER COLLEGE FIROZABAD R.N. 2",
+   "partId": 394415
+  },
+  {
+   "partNumber": 138,
+   "partName": "SHRIMATI REVATI DEVI VIDHYALAY INTER COLLEGE FIROZABAD R.N. 3",
+   "partId": 394416
+  },
+  {
+   "partNumber": 139,
+   "partName": "SHRIMATI REVATI DEVI VIDHYALAY INTER COLLEGE FIROZABAD R.N. 4",
+   "partId": 394417
+  },
+  {
+   "partNumber": 140,
+   "partName": "AGRAWAL DHARMASHALA CHHOTI CHHAPETI R.N.1",
+   "partId": 394418
+  },
+  {
+   "partNumber": 141,
+   "partName": "AGRAWAL DHARMASHALA CHHOTI CHHAPETI R.N.2",
+   "partId": 394419
+  },
+  {
+   "partNumber": 142,
+   "partName": "AGRAWAL DHARMASHALA CHHOTI CHHAPETI R.N.3",
+   "partId": 394420
+  },
+  {
+   "partNumber": 143,
+   "partName": "AGRAWAL DHARMASHALA CHHOTI CHHAPETI R.N.4",
+   "partId": 394421
+  },
+  {
+   "partNumber": 144,
+   "partName": "PRATHMIK VIDHYALAY PEMESHWAR GATE ( KANYA) R.N.1",
+   "partId": 394422
+  },
+  {
+   "partNumber": 145,
+   "partName": "PRATHMIK VIDHYALAY PEMESHWAR GATE ( KANYA) R.N.2",
+   "partId": 394423
+  },
+  {
+   "partNumber": 146,
+   "partName": "SHIV PUBLIC SCHOOL SHIV PALACE CHANDARVAR GATE R.N.1",
+   "partId": 394424
+  },
+  {
+   "partNumber": 147,
+   "partName": "SHIV PUBLIC SCHOOL SHIV PALACE CHANDARVAR GATE R.N.2",
+   "partId": 394425
+  },
+  {
+   "partNumber": 148,
+   "partName": "SHIV PUBLIC SCHOOL SHIV PALACE CHANDARVAR GATE R.N. 5",
+   "partId": 395953
+  },
+  {
+   "partNumber": 149,
+   "partName": "SHIV PUBLIC SCHOOL SHIV PALACE CHANDARVAR GATE R.N.3",
+   "partId": 394458
+  },
+  {
+   "partNumber": 150,
+   "partName": "SHIV PUBLIC SCHOOL SHIV PALACE CHANDARVAR GATE R.N.4",
+   "partId": 394459
+  },
+  {
+   "partNumber": 151,
+   "partName": "RAJKIYA KANYA JUNIOR HIGH SCHOOL BADI CHHAPETI R.N.1",
+   "partId": 394460
+  },
+  {
+   "partNumber": 152,
+   "partName": "RAJKIYA KANYA JUNIOR HIGH SCHOOL BADI CHHAPETI R.N.2",
+   "partId": 394461
+  },
+  {
+   "partNumber": 153,
+   "partName": "RAJKIYA KANYA JUNIOR HIGH SCHOOL BADI CHHAPETI R.N.3",
+   "partId": 394462
+  },
+  {
+   "partNumber": 154,
+   "partName": "MAULANA AZAD NISWAGIRLS I.C. GADAIYA R.N.1",
+   "partId": 394463
+  },
+  {
+   "partNumber": 155,
+   "partName": "MAULANA AZAD NISWAGIRLS I.C. GADAIYA R.N.2",
+   "partId": 394464
+  },
+  {
+   "partNumber": 156,
+   "partName": "MAULANA AZAD NISWAGIRLS I.C. GADAIYA R.N.3",
+   "partId": 394465
+  },
+  {
+   "partNumber": 157,
+   "partName": "MAULANA AZAD NISWAGIRLS I.C. GADAIYA R.N.4",
+   "partId": 394466
+  },
+  {
+   "partNumber": 158,
+   "partName": "PRATHMIK VIDHYALAY KOTLA ( KANYA) GADIAYA R.N. 1",
+   "partId": 394467
+  },
+  {
+   "partNumber": 159,
+   "partName": "PRATHMIK VIDHYALAY KOTLA ( KANYA) GADIAYA R.N. 02",
+   "partId": 394468
+  },
+  {
+   "partNumber": 160,
+   "partName": "PRATHMIK VIDHYALAY KOTLA ( KANYA) GADIAYA R.N. 3",
+   "partId": 394469
+  },
+  {
+   "partNumber": 161,
+   "partName": "PRATHMIK VIDHYALAY CHANDRAWAR GATE  R.N. 1",
+   "partId": 394470
+  },
+  {
+   "partNumber": 162,
+   "partName": "PRATHMIK VIDHYALAY CHANDRAWAR GATE  R.N. 2",
+   "partId": 394471
+  },
+  {
+   "partNumber": 163,
+   "partName": "PRATHMIK VIDHYALAY CHANDRAWAR GATE  R.N. 3",
+   "partId": 394472
+  },
+  {
+   "partNumber": 164,
+   "partName": "R.V. CONVENT SCHOOL NEHRU NAGAR R.N. 1",
+   "partId": 394473
+  },
+  {
+   "partNumber": 165,
+   "partName": "R.V. CONVENT SCHOOL NEHRU NAGAR R.N. 2",
+   "partId": 394538
+  },
+  {
+   "partNumber": 166,
+   "partName": "SHRI ADINATH JAIN VIDHYALAY JUNIOR HIGH SCHOOL CHHOTI CHHAPETI R.N.1",
+   "partId": 394539
+  },
+  {
+   "partNumber": 167,
+   "partName": "SHRI ADINATH JAIN VIDHYALAY JUNIOR HIGH SCHOOL CHHOTI CHHAPETI R.N.2",
+   "partId": 394540
+  },
+  {
+   "partNumber": 168,
+   "partName": "SHRI ADINATH JAIN VIDHYALAY JUNIOR HIGH SCHOOL CHHOTI CHHAPETI R.N.3",
+   "partId": 394541
+  },
+  {
+   "partNumber": 169,
+   "partName": "ARSHI MEMORIYAL J.H.SCHOOL KOTLA MOHALLA",
+   "partId": 394542
+  },
+  {
+   "partNumber": 170,
+   "partName": "PRATHMIK VIDHYALAY LABOUR COLONY( KANYA) R.N. 1",
+   "partId": 394543
+  },
+  {
+   "partNumber": 171,
+   "partName": "PRATHMIK VIDHYALAY LABOUR COLONY( KANYA) R.N. 2",
+   "partId": 394544
+  },
+  {
+   "partNumber": 172,
+   "partName": "PRATHMIK VIDHYALAY LABOUR COLONY( KANYA) R.N. 3",
+   "partId": 394545
+  },
+  {
+   "partNumber": 173,
+   "partName": "PRATHMIK VIDHYALAY LABOUR COLONY( BALAK) R.N. 4",
+   "partId": 394546
+  },
+  {
+   "partNumber": 174,
+   "partName": "KARYALAY SAHAYAK SHRAM AYUKT SHRAMIK BASTI FIROZABAD R.N. 1",
+   "partId": 394547
+  },
+  {
+   "partNumber": 175,
+   "partName": "KARYALAY SAHAYAK SHRAM AYUKT SHRAMIK BASTI FIROZABAD R.N. 2",
+   "partId": 394548
+  },
+  {
+   "partNumber": 176,
+   "partName": "KARYALAY SAHAYAK SHRAM AYUKT SHRAMIK BASTI FIROZABADR.N. 3",
+   "partId": 394549
+  },
+  {
+   "partNumber": 177,
+   "partName": "BAUHRE PATIRAM POORANMAL MATHUR VAISHYA DHARMARTH TRUST BHAWAN CHANDRAWAR GATE R.N. 1",
+   "partId": 394550
+  },
+  {
+   "partNumber": 178,
+   "partName": "BAUHRE PATIRAM POORANMAL MATHUR VAISHYA DHARMARTH TRUST BHAWAN CHANDRAWAR GATE R.N. 2",
+   "partId": 394551
+  },
+  {
+   "partNumber": 179,
+   "partName": "BAUHRE PATIRAM POORANMAL MATHUR VAISHYA DHARMARTH TRUST BHAWAN CHANDRAWAR GATE R.N. 3",
+   "partId": 394552
+  },
+  {
+   "partNumber": 180,
+   "partName": "BAUHRE PATIRAM POORANMAL MATHUR VAISHYA DHARMARTH TRUST BHAWAN CHANDRAWAR GATE R.N. 4",
+   "partId": 394553
+  },
+  {
+   "partNumber": 181,
+   "partName": "BAUHRE PATIRAM POORANMAL MATHUR VAISHYA DHARMARTH TRUST BHAWAN CHANDRAWAR GATE R.N. 5",
+   "partId": 394554
+  },
+  {
+   "partNumber": 182,
+   "partName": "BAUHRE PATIRAM POORANMAL MATHUR VAISHYA DHARMARTH TRUST BHAWAN CHANDRAWAR GATE R.N. 6",
+   "partId": 395954
+  },
+  {
+   "partNumber": 183,
+   "partName": "S.P. MEMORIAL JUNIOR HIGH SCHOOL SHAYAM NAGAR GALI N.1 R.N. 1",
+   "partId": 394555
+  },
+  {
+   "partNumber": 184,
+   "partName": "S.P. MEMORIAL JUNIOR HIGH SCHOOL SHAYAM NAGAR GALI N.1 R.N. 2",
+   "partId": 394556
+  },
+  {
+   "partNumber": 185,
+   "partName": "S P MEMORIAL JUNIOR HIGH SCHOOL SHAYAM NAGAR R.N 3",
+   "partId": 395955
+  },
+  {
+   "partNumber": 186,
+   "partName": "SUMAN SAROVAR PUBLIC SCHOOL AZAD NAGAR R.N. 1",
+   "partId": 394557
+  },
+  {
+   "partNumber": 187,
+   "partName": "SUMAN SAROVAR PUBLIC SCHOOL AZAD NAGAR R.N. 2",
+   "partId": 394558
+  },
+  {
+   "partNumber": 188,
+   "partName": "SUMAN SAROVAR PUBLIC SCHOOL AZAD NAGAR R.N. 3",
+   "partId": 395956
+  },
+  {
+   "partNumber": 189,
+   "partName": "M.K. PUBLIC SCHOOL KASHYAP BAGICHI RAMNAGR R.N.1",
+   "partId": 394559
+  },
+  {
+   "partNumber": 190,
+   "partName": "M.K. PUBLIC SCHOOL KASHYAP BAGICHI RAMNAGR R.N.2",
+   "partId": 394560
+  },
+  {
+   "partNumber": 191,
+   "partName": "M.K. PUBLIC SCHOOL KASHYAP BAGICHI RAMNAGR R.N.3",
+   "partId": 394561
+  },
+  {
+   "partNumber": 192,
+   "partName": "M.K. PUBLIC SCHOOL KASHYAP BAGICHI RAMNAGR R.N.4",
+   "partId": 394562
+  },
+  {
+   "partNumber": 193,
+   "partName": "B.B. PUBLIC SCHOOL RAM NAGAR R.N. 1",
+   "partId": 394563
+  },
+  {
+   "partNumber": 194,
+   "partName": "B.B. PUBLIC SCHOOL RAM NAGAR R.N. 2",
+   "partId": 394564
+  },
+  {
+   "partNumber": 195,
+   "partName": "K.N. SINGH THAKUR PUBLIC J.H. SCHOOL RAMNAGAR R.N. 1",
+   "partId": 394565
+  },
+  {
+   "partNumber": 196,
+   "partName": "K.N. SINGH THAKUR PUBLIC J.H. SCHOOL RAMNAGAR R.N. 2",
+   "partId": 394566
+  },
+  {
+   "partNumber": 197,
+   "partName": "K.N. SINGH THAKUR PUBLIC J.H. SCHOOL RAMNAGAR R.N. 3",
+   "partId": 394567
+  },
+  {
+   "partNumber": 198,
+   "partName": "K.K. ENGLISH SCHOOL RAMNAGAR R.N.1",
+   "partId": 394568
+  },
+  {
+   "partNumber": 199,
+   "partName": "K.K. ENGLISH SCHOOL RAMNAGAR R.N.2",
+   "partId": 394569
+  },
+  {
+   "partNumber": 200,
+   "partName": "K.K. ENGLISH SCHOOL RAMNAGAR R.N.3",
+   "partId": 394954
+  },
+  {
+   "partNumber": 201,
+   "partName": "K K ENGLISH SCHOOL RAMNAGAR R.N. 4",
+   "partId": 395957
+  },
+  {
+   "partNumber": 202,
+   "partName": "SHRI SWAMI LALTA NAND AADARSH YOG VIDHAYA MANDIR SANT NAGAR R.N.1",
+   "partId": 394955
+  },
+  {
+   "partNumber": 203,
+   "partName": "SHRI SWAMI LALTA NAND AADARSH YOG VIDHAYA MANDIR SANT NAGAR R.N.2",
+   "partId": 394956
+  },
+  {
+   "partNumber": 204,
+   "partName": "SHRI SWAMI LALTA NAND AADARSH YOG VIDHAYA MANDIR SANT NAGAR R.N.3",
+   "partId": 394957
+  },
+  {
+   "partNumber": 205,
+   "partName": "CAPTAIN PREMCHANDRA PANCHSHEEL SAINIK SCHOOL SANT NAGAR R.N. 1",
+   "partId": 394958
+  },
+  {
+   "partNumber": 206,
+   "partName": "CAPTAIN PREMCHANDRA PANCHSHEEL SAINIK SCHOOL SANT NAGAR R.N. 2",
+   "partId": 394959
+  },
+  {
+   "partNumber": 207,
+   "partName": "ADARSH SHIKSHA NIKETAN I.C. SARJEEVAN NAGAR SAILAI R.N.1",
+   "partId": 394960
+  },
+  {
+   "partNumber": 208,
+   "partName": "ADARSH SHIKSHA NIKETAN I.C. SARJEEVAN NAGAR SAILAI R.N.2",
+   "partId": 394961
+  },
+  {
+   "partNumber": 209,
+   "partName": "ADARSH SHIKSHA NIKETAN I.C. SARJEEVAN NAGAR SAILAI R.N.3",
+   "partId": 394962
+  },
+  {
+   "partNumber": 210,
+   "partName": "ADARSH SHIKSHA NIKETAN I.C. SARJEEVAN NAGAR SAILAI R.N. 6",
+   "partId": 395958
+  },
+  {
+   "partNumber": 211,
+   "partName": "ADARSH SHIKSHA NIKETAN I.C. SARJEEVAN NAGAR SAILAI R.N.4",
+   "partId": 394963
+  },
+  {
+   "partNumber": 212,
+   "partName": "ADARSH SHIKSHA NIKETAN I.C. SARJEEVAN NAGAR SAILAI R.N.5",
+   "partId": 394964
+  },
+  {
+   "partNumber": 213,
+   "partName": "ADARSH SHIKSHA NIKETAN I.C. SARJEEVAN NAGAR SAILAI R.N. 7",
+   "partId": 395959
+  },
+  {
+   "partNumber": 214,
+   "partName": "R.V.S. PUBLIC SCHOOL SAMRAT NAGAR SAILAI R.N. 1",
+   "partId": 394965
+  },
+  {
+   "partNumber": 215,
+   "partName": "R.V.S. PUBLIC SCHOOL SAMRAT NAGAR SAILAI R.N. 2",
+   "partId": 394966
+  },
+  {
+   "partNumber": 216,
+   "partName": "R.V.S. PUBLIC SCHOOL SAMRAT NAGAR SAILAI R.N. 3",
+   "partId": 394967
+  },
+  {
+   "partNumber": 217,
+   "partName": "SANT VIVEKANAND MONTESSORY SCHOOL SAILAI R.N. 1",
+   "partId": 394968
+  },
+  {
+   "partNumber": 218,
+   "partName": "SANT VIVEKANAND MONTESSORY SCHOOL SAILAI R.N. 2",
+   "partId": 394969
+  },
+  {
+   "partNumber": 219,
+   "partName": "ENGLISH MEDUIM PRIMARY SCHOOL SAILAI R.N.1",
+   "partId": 394970
+  },
+  {
+   "partNumber": 220,
+   "partName": "ENGLISH MEDUIM PRIMARY SCHOOL SAILAI R.N.2",
+   "partId": 394971
+  },
+  {
+   "partNumber": 221,
+   "partName": "ENGLISH MEDUIM PRIMARY SCHOOL SAILAI R.N.3",
+   "partId": 394972
+  },
+  {
+   "partNumber": 222,
+   "partName": "ENGLISH MEDUIM PRIMARY SCHOOL SAILAI R.N. 4",
+   "partId": 395960
+  },
+  {
+   "partNumber": 223,
+   "partName": "RA. AA. CHHATRAVAS SAILAI R.N.1",
+   "partId": 394973
+  },
+  {
+   "partNumber": 224,
+   "partName": "RA. AA. CHHATRAVAS SAILAI R.N. 2",
+   "partId": 394974
+  },
+  {
+   "partNumber": 225,
+   "partName": "RA. AA. CHHATRAVAS SAILAI R.N. 3",
+   "partId": 394975
+  },
+  {
+   "partNumber": 226,
+   "partName": "RA. AA. CHHATRAVAS SAILAI R.N. 4",
+   "partId": 394976
+  },
+  {
+   "partNumber": 227,
+   "partName": "IQRA CONVENT PUBLIC SCHOOL R.N. 2",
+   "partId": 395961
+  },
+  {
+   "partNumber": 228,
+   "partName": "RA. AA. CHHATRAVAS SAILAI R.N. 5",
+   "partId": 394977
+  },
+  {
+   "partNumber": 229,
+   "partName": "RA. AA. CHHATRAVAS SAILAI R.N. 6",
+   "partId": 394978
+  },
+  {
+   "partNumber": 230,
+   "partName": "IQRA CONVENT PUBLIC SCHOOL R.N. 1",
+   "partId": 394979
+  },
+  {
+   "partNumber": 231,
+   "partName": "J.H. SCHOOL SAILAI R.N.1",
+   "partId": 394980
+  },
+  {
+   "partNumber": 232,
+   "partName": "J.H. SCHOOL SAILAI R.N. 2",
+   "partId": 394981
+  },
+  {
+   "partNumber": 233,
+   "partName": "J.H. SCHOOL SAILAI R.N. 3",
+   "partId": 394982
+  },
+  {
+   "partNumber": 234,
+   "partName": "J.H. SCHOOL SAILAI R.N. 4",
+   "partId": 394983
+  },
+  {
+   "partNumber": 235,
+   "partName": "IQRA CONVENT PUBLIC SCHOOL R.N. 3",
+   "partId": 394984
+  },
+  {
+   "partNumber": 236,
+   "partName": "IQRA CONVENT PUBLIC SCHOOL R.N. 4",
+   "partId": 395962
+  },
+  {
+   "partNumber": 237,
+   "partName": "SHRIMATI GOMADEVI THAKURDAS INTER COLLEGE VIJAY NAGAR R.N.1",
+   "partId": 394985
+  },
+  {
+   "partNumber": 238,
+   "partName": "SHRIMATI GOMADEVI THAKURDAS INTER COLLEGE VIJAY NAGAR R.N.2",
+   "partId": 394986
+  },
+  {
+   "partNumber": 239,
+   "partName": "SHRIMATI GOMADEVI THAKURDAS INTER COLLEGE VIJAY NAGAR R.N.3",
+   "partId": 394987
+  },
+  {
+   "partNumber": 240,
+   "partName": "SHRIMATI GOMADEVI THAKURDAS INTER COLLEGE VIJAY NAGAR R.N.4",
+   "partId": 394988
+  },
+  {
+   "partNumber": 241,
+   "partName": "SHRIMATI GOMADEVI THAKURDAS INTER COLLEGE VIJAY NAGAR R.N.5",
+   "partId": 394989
+  },
+  {
+   "partNumber": 242,
+   "partName": "SHRIMATI GOMA DEVI THAKURDAS INTER COLLEGE VIJAY NAGAR R.N.6",
+   "partId": 394990
+  },
+  {
+   "partNumber": 243,
+   "partName": "SHRIMATI GOMADEVI THAKURDAS INTER COLLEGE VIJAY NAGAR R.N. 7",
+   "partId": 394991
+  },
+  {
+   "partNumber": 244,
+   "partName": "SHRIMATI GOMADEVI THAKURDAS INTER COLLEGE VIJAY NAGAR R.N.8",
+   "partId": 394992
+  },
+  {
+   "partNumber": 245,
+   "partName": "G.P. PUBLIC SCHOOL VIJAY NAGAR R.N.1",
+   "partId": 394993
+  },
+  {
+   "partNumber": 246,
+   "partName": "PRATHMIK PAATHSHALA NAGLA BARI R.N. 1",
+   "partId": 394994
+  },
+  {
+   "partNumber": 247,
+   "partName": "PRATHMIK PAATHSHALA NAGLA BARI R.N. 2",
+   "partId": 394995
+  },
+  {
+   "partNumber": 248,
+   "partName": "SHRIMATI KAMLA DEVI INTER COLLEGE KAMLA NAGAR AASFABAD R.N. 01",
+   "partId": 394996
+  },
+  {
+   "partNumber": 249,
+   "partName": "SHRIMATI KAMLA DEVI INTER COLLEGE KAMLA NAGAR AASFABAD R.N. 02",
+   "partId": 394997
+  },
+  {
+   "partNumber": 250,
+   "partName": "SHRIMATI KAMLA DEVI INTER COLLEGE KAMLA NAGAR AASFABAD R.N. 6",
+   "partId": 395963
+  },
+  {
+   "partNumber": 251,
+   "partName": "SHRIMATI KAMLA DEVI INTER COLLEGE KAMLA NAGAR AASFABAD R.N. 03",
+   "partId": 394998
+  },
+  {
+   "partNumber": 252,
+   "partName": "SHRIMATI KAMLA DEVI INTER COLLEGE KAMLA NAGAR AASFABAD R.N. 04",
+   "partId": 394999
+  },
+  {
+   "partNumber": 253,
+   "partName": "SHRIMATI KAMLA DEVI INTER COLLEGE KAMLA NAGAR AASFABAD R.N. 5",
+   "partId": 395000
+  },
+  {
+   "partNumber": 254,
+   "partName": "P.P. DEEDAMAI R.N. 1",
+   "partId": 395001
+  },
+  {
+   "partNumber": 255,
+   "partName": "P.P. DEEDAMAI R.N. 2",
+   "partId": 395002
+  },
+  {
+   "partNumber": 256,
+   "partName": "P P DEEDAMAI R.N. 4",
+   "partId": 395964
+  },
+  {
+   "partNumber": 257,
+   "partName": "P.P. DEEDAMAI R.N. 3",
+   "partId": 395003
+  },
+  {
+   "partNumber": 258,
+   "partName": "SUN FLOWER J.H. SCHOOL NOOR NAGAR R.N. 1",
+   "partId": 395004
+  },
+  {
+   "partNumber": 259,
+   "partName": "SUN FLOWER J.H. SCHOOL NOOR NAGAR R.N. 2",
+   "partId": 395005
+  },
+  {
+   "partNumber": 260,
+   "partName": "SUN FLOWER J.H. SCHOOL NOOR NAGAR R.N. 3",
+   "partId": 395006
+  },
+  {
+   "partNumber": 261,
+   "partName": "SUN FLOWER J.H. SCHOOL NOOR NAGAR R.N. 4",
+   "partId": 395007
+  },
+  {
+   "partNumber": 262,
+   "partName": "PURV M.V. DEEDAMAI R.N. 1",
+   "partId": 395008
+  },
+  {
+   "partNumber": 263,
+   "partName": "PURV M.V. DEEDAMAI R.N. 2",
+   "partId": 395009
+  },
+  {
+   "partNumber": 264,
+   "partName": "PURV M.V. DEEDAMAI R.N. 3",
+   "partId": 395010
+  },
+  {
+   "partNumber": 265,
+   "partName": "PURV M.V. DEEDAMAI R.N. 4",
+   "partId": 395011
+  },
+  {
+   "partNumber": 266,
+   "partName": "PURV M.S. DEEDAMAI R.N. 5",
+   "partId": 395012
+  },
+  {
+   "partNumber": 267,
+   "partName": "PURV M.S. DEEDAMAI R.N. 6",
+   "partId": 395965
+  },
+  {
+   "partNumber": 268,
+   "partName": "HAJI N.K.PUBLIC SCHOOL RAMGARH ROAD DEEDAMAI R.N. 1",
+   "partId": 395013
+  },
+  {
+   "partNumber": 269,
+   "partName": "HAJI N.K.PUBLIC SCHOOL RAMGARH ROAD DEEDAMAI R.N. 2",
+   "partId": 395014
+  },
+  {
+   "partNumber": 270,
+   "partName": "HAJI N.K.PUBLIC SCHOOL RAMGARH ROAD DEEDAMAI R.N. 3",
+   "partId": 395015
+  },
+  {
+   "partNumber": 271,
+   "partName": "HAJI N.K.PUBLIC SCHOOL RAMGARH ROAD DEEDAMAI R.N. 4",
+   "partId": 395016
+  },
+  {
+   "partNumber": 272,
+   "partName": "HAJI N.K.PUBLIC SCHOOL RAMGARH ROAD DEEDAMAI R.N. 5",
+   "partId": 395966
+  },
+  {
+   "partNumber": 273,
+   "partName": "VAISHNAVI CONVENT SCHOOL AKASHWANI ROAD R.N. 1",
+   "partId": 395017
+  },
+  {
+   "partNumber": 274,
+   "partName": "VAISHNAVI CONVENT SCHOOL AKASHWANI ROAD R.N. 2",
+   "partId": 395018
+  },
+  {
+   "partNumber": 275,
+   "partName": "VAISHNAVI CONVENT SCHOOL AKASHWANI ROAD R.N. 3",
+   "partId": 395019
+  },
+  {
+   "partNumber": 276,
+   "partName": "VAISHNAVI CONVENT SCHOOL AKASHWANI ROAD R.N. 4",
+   "partId": 395020
+  },
+  {
+   "partNumber": 277,
+   "partName": "VAISHNAVI CONVENT SCHOOL AKASHWANI ROAD R.N. 5",
+   "partId": 395967
+  },
+  {
+   "partNumber": 278,
+   "partName": "SWAMI BACHCHU BABA SARASWATI SHIKSHA MANDIR LALPUR R.N. 1",
+   "partId": 395021
+  },
+  {
+   "partNumber": 279,
+   "partName": "SWAMI BACHCHU BABA SARASWATI SHIKSHA MANDIR LALPUR R.N. 2",
+   "partId": 395022
+  },
+  {
+   "partNumber": 280,
+   "partName": "SWAMI BACHCHU BABA SARASWATI SHIKSHA MANDIR LALPUR R.N. 3",
+   "partId": 395023
+  },
+  {
+   "partNumber": 281,
+   "partName": "SWAMI BACHCHU BABA SARASWATI SHIKSHA MANDIR LALPUR R.N. 4",
+   "partId": 395024
+  },
+  {
+   "partNumber": 282,
+   "partName": "SWAMI BACHCHU BABA SARASWATI SHIKSHA MANDIR LALPUR R.N. 5",
+   "partId": 395025
+  },
+  {
+   "partNumber": 283,
+   "partName": "SWAMI BACHCHU BABA SARASWATI SHIKSHA MANDIR LALPUR R.N. 7",
+   "partId": 395968
+  },
+  {
+   "partNumber": 284,
+   "partName": "SWAMI BACHCHU BABA SARASWATI SHIKSHA MANDIR LALPUR R.N. 6",
+   "partId": 395026
+  },
+  {
+   "partNumber": 285,
+   "partName": "EKTA PUBLIC SCHOOL AJMERI GATE DEEDAMAI R.N. 1",
+   "partId": 395027
+  },
+  {
+   "partNumber": 286,
+   "partName": "EKTA PUBLIC SCHOOL AJMERI GATE DEEDAMAI R.N. 2",
+   "partId": 395028
+  },
+  {
+   "partNumber": 287,
+   "partName": "EKTA PUBLIC SCHOOL AJMERI GATE DEEDAMAI R.N. 3",
+   "partId": 395029
+  },
+  {
+   "partNumber": 288,
+   "partName": "ASGARI BEGAM JUNIOR HIGH SCHOOL CHHAPARIYA R.N. 1",
+   "partId": 395030
+  },
+  {
+   "partNumber": 289,
+   "partName": "ASGARI BEGAM JUNIOR HIGH SCHOOL CHHAPARIYA R.N. 2",
+   "partId": 395031
+  },
+  {
+   "partNumber": 290,
+   "partName": "ABU HURAIRA H.S. SCHOOL MADEENA COLONY R.N. 1",
+   "partId": 395032
+  },
+  {
+   "partNumber": 291,
+   "partName": "ABU HURAIRA H.S. SCHOOL MADEENA COLONY R.N. 2",
+   "partId": 395033
+  },
+  {
+   "partNumber": 292,
+   "partName": "ABU HURAIRA H.S. SCHOOL MADEENA COLONY R.N. 3",
+   "partId": 395034
+  },
+  {
+   "partNumber": 293,
+   "partName": "ABU HURAIRA H.S. SCHOOL MADEENA COLONY R.N. 4",
+   "partId": 395035
+  },
+  {
+   "partNumber": 294,
+   "partName": "ABU HURAIRA H.S. SCHOOL MADEENA COLONY R.N. 5",
+   "partId": 395969
+  },
+  {
+   "partNumber": 295,
+   "partName": "SIDDIQUI -E- AKBAR-JUNIOR HIGH SCHOOL RAMGARH MADINA COLONY R.N. 1",
+   "partId": 395036
+  },
+  {
+   "partNumber": 296,
+   "partName": "SIDDIQUI -E- AKBAR-JUNIOR HIGH SCHOOL RAMGARH MADINA COLONY R.N. 2",
+   "partId": 395970
+  },
+  {
+   "partNumber": 297,
+   "partName": "ALKADRI PUBLIC SCHOOL TADO VALI BAGIYA R.N. 1",
+   "partId": 395037
+  },
+  {
+   "partNumber": 298,
+   "partName": "ALKADRI PUBLIC SCHOOL TADO VALI BAGIYA R.N. 2",
+   "partId": 395971
+  },
+  {
+   "partNumber": 299,
+   "partName": "AL TAIBA PUBLIC SCHOOL CHHIDAMUL NAGAR R.N. 1",
+   "partId": 395038
+  },
+  {
+   "partNumber": 300,
+   "partName": "AL TAIBA PUBLIC SCHOOL CHHIDAMUL NAGAR R.N. 2",
+   "partId": 395039
+  },
+  {
+   "partNumber": 301,
+   "partName": "AMEER KHUSARO PUBLIC SCHOOL AJMERI GATE R.N.1",
+   "partId": 395040
+  },
+  {
+   "partNumber": 302,
+   "partName": "AMEER KHUSARO PUBLIC SCHOOL AJMERI GATE R.N.2",
+   "partId": 395041
+  },
+  {
+   "partNumber": 303,
+   "partName": "AMEER KHUSARO PUBLIC SCHOOL AJMERI GATE R.N.3",
+   "partId": 395042
+  },
+  {
+   "partNumber": 304,
+   "partName": "AMEER KHUSARO PUBLIC SCHOOL AJMERI GATE R.N. 4",
+   "partId": 395972
+  },
+  {
+   "partNumber": 305,
+   "partName": "RAHMANIYA I.C. HABEEVGANJ R.N. 1",
+   "partId": 395043
+  },
+  {
+   "partNumber": 306,
+   "partName": "RAHMANIYA I.C. HABEEVGANJ R.N. 2",
+   "partId": 395044
+  },
+  {
+   "partNumber": 307,
+   "partName": "RAHMANIYA I.C. HABEEVGANJ R.N. 3",
+   "partId": 395045
+  },
+  {
+   "partNumber": 308,
+   "partName": "RAHMANIYA I.C. HABEEVGANJ R.N. 4",
+   "partId": 395046
+  },
+  {
+   "partNumber": 309,
+   "partName": "RAHMANIYA I.C. HABEEVGANJ R.N. 5",
+   "partId": 395047
+  },
+  {
+   "partNumber": 310,
+   "partName": "RAHMANIYA I.C. HABEEVGANJ R.N. 6",
+   "partId": 395048
+  },
+  {
+   "partNumber": 311,
+   "partName": "RAHMANIYA I.C. HABEEVGANJ R.N. 7",
+   "partId": 395973
+  },
+  {
+   "partNumber": 312,
+   "partName": "LAXMI PUBLIC SCHOOL HANUMAN GARH R.N.1",
+   "partId": 395049
+  },
+  {
+   "partNumber": 313,
+   "partName": "LAXMI PUBLIC SCHOOL HANUMAN GARH R.N.2",
+   "partId": 395050
+  },
+  {
+   "partNumber": 314,
+   "partName": "PANCHAYATGHAR MOHAMMADPUR GAJMALPUR R.N. 1",
+   "partId": 395051
+  },
+  {
+   "partNumber": 315,
+   "partName": "PANCHAYATGHAR MOHAMMADPUR GAJMALPUR R.N. 2",
+   "partId": 395052
+  },
+  {
+   "partNumber": 316,
+   "partName": "S.L. SHISHU PUBLIC SCHOOL R.N. 1",
+   "partId": 395053
+  },
+  {
+   "partNumber": 317,
+   "partName": "PRATHMIK VIDHYALAY MUHAMMADPUR GAJMALPUR NAGLA MIRZA BADA R.N. 1",
+   "partId": 395054
+  },
+  {
+   "partNumber": 318,
+   "partName": "PRATHMIK VIDHYALAY MUHAMMADPUR GAJMALPUR NAGLA MIRZA BADA R.N. 2",
+   "partId": 395055
+  },
+  {
+   "partNumber": 319,
+   "partName": "PRATHMIK VIDHYALAY MUHAMMADPUR GAJMALPUR NAGLA MIRZA BADA R.N. 3",
+   "partId": 395056
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRATHMIK VIDHYALAY MUHAMMADPUR GAJMALPUR NAGLA MIRZA BADA R.N. 4",
+   "partId": 395057
+  },
+  {
+   "partNumber": 321,
+   "partName": "JAVAHARLAL NEHRU VIDHYALAY AELANI NAGAR AASFABAD 1",
+   "partId": 395058
+  },
+  {
+   "partNumber": 322,
+   "partName": "JAVAHARLAL NEHRU VIDHYALAY AELANI NAGAR AASFABAD 2",
+   "partId": 395059
+  },
+  {
+   "partNumber": 323,
+   "partName": "JAVAHARLAL NEHRU VIDHYALAY AELANI NAGAR AASFABAD 3",
+   "partId": 395060
+  },
+  {
+   "partNumber": 324,
+   "partName": "PURV MADHYAMIK VIDHYALAY ASFABAD SECOND NAGAR KSHETRA NAGAR NIGAM FIROZABAD R.N. 1",
+   "partId": 395061
+  },
+  {
+   "partNumber": 325,
+   "partName": "PURV MADHYAMIK VIDHYALAY ASFABAD SECOND NAGAR KSHETRA NAGAR NIGAM FIROZABAD R.N.2",
+   "partId": 395062
+  },
+  {
+   "partNumber": 326,
+   "partName": "PURV MADHYAMIK VIDHYALAY ASFABAD SECOND NAGAR KSHETRA NAGAR NIGAM FIROZABAD R.N.3",
+   "partId": 395063
+  },
+  {
+   "partNumber": 327,
+   "partName": "SHRI UDAL SINGH MAHAVIDHALAY ASFABAD R.N. 1",
+   "partId": 395064
+  },
+  {
+   "partNumber": 328,
+   "partName": "SHRI UDAL SINGH MAHAVIDHALAY ASFABAD R.N. 2",
+   "partId": 395065
+  },
+  {
+   "partNumber": 329,
+   "partName": "SHRI UDAL SINGH MAHAVIDHALAY ASFABAD R.N. 3",
+   "partId": 395066
+  },
+  {
+   "partNumber": 330,
+   "partName": "SHRI UDAL SINGH MAHAVIDHALAY ASFABAD R.N. 4",
+   "partId": 395067
+  },
+  {
+   "partNumber": 331,
+   "partName": "SHRI UDAL SINGH MAHAVIDHALAY ASFABAD R.N. 5",
+   "partId": 395068
+  },
+  {
+   "partNumber": 332,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 1",
+   "partId": 395069
+  },
+  {
+   "partNumber": 333,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 2",
+   "partId": 395070
+  },
+  {
+   "partNumber": 334,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 3",
+   "partId": 395071
+  },
+  {
+   "partNumber": 335,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 4",
+   "partId": 395072
+  },
+  {
+   "partNumber": 336,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 5",
+   "partId": 395073
+  },
+  {
+   "partNumber": 337,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 6",
+   "partId": 395074
+  },
+  {
+   "partNumber": 338,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 7",
+   "partId": 395075
+  },
+  {
+   "partNumber": 339,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 8",
+   "partId": 395076
+  },
+  {
+   "partNumber": 340,
+   "partName": "BAUDHISTAV DR. AMBEDKAR INTER COLLEGE NAGLA KARAN SINGH R.N. 9",
+   "partId": 395974
+  },
+  {
+   "partNumber": 341,
+   "partName": "MANAVDAYAL H.S. SCHOOL DAKHAL R.N. 1",
+   "partId": 395077
+  },
+  {
+   "partNumber": 342,
+   "partName": "MANAVDAYAL H.S. SCHOOL DAKHAL R.N. 2",
+   "partId": 395078
+  },
+  {
+   "partNumber": 343,
+   "partName": "MANAVDAYAL H.S. SCHOOL DAKHAL R.N. 3",
+   "partId": 395079
+  },
+  {
+   "partNumber": 344,
+   "partName": "MANAVDAYAL H.S. SCHOOL DAKHAL R.N. 4",
+   "partId": 395080
+  },
+  {
+   "partNumber": 345,
+   "partName": "MANAVDAYAL H.S. SCHOOL DAKHAL R.N. 5",
+   "partId": 395081
+  },
+  {
+   "partNumber": 346,
+   "partName": "MANAVDAYAL H.S. SCHOOL DAKHAL R.N. 6",
+   "partId": 395082
+  },
+  {
+   "partNumber": 347,
+   "partName": "P.S. SUKHMALPUR NIJAMABAD TAPAKALAN JALESAR ROAD R.N. 1",
+   "partId": 395083
+  },
+  {
+   "partNumber": 348,
+   "partName": "P.S. SUKHMALPUR NIJAMABAD TAPAKALAN JALESAR ROAD R.N. 2",
+   "partId": 395084
+  },
+  {
+   "partNumber": 349,
+   "partName": "SHELTER HOME TAPA PAITH JALESAR ROAD R.N. 1",
+   "partId": 395085
+  },
+  {
+   "partNumber": 350,
+   "partName": "SHELTER HOME TAPA PAITH JALESAR ROAD R.N. 2",
+   "partId": 395086
+  },
+  {
+   "partNumber": 351,
+   "partName": "SHELTER HOME TAPA PAITH JALESAR ROAD R.N. 3",
+   "partId": 395087
+  },
+  {
+   "partNumber": 352,
+   "partName": "SHELTER HOME TAPA PAITH JALESAR ROAD R.N.4",
+   "partId": 395975
+  },
+  {
+   "partNumber": 353,
+   "partName": "KABIR VIDHYA SHANTI NAGAR TAPAKALA R.N. 1",
+   "partId": 395088
+  },
+  {
+   "partNumber": 354,
+   "partName": "KABIR VIDHYA SHANTI NAGAR TAPAKALA R.N. 2",
+   "partId": 395089
+  },
+  {
+   "partNumber": 355,
+   "partName": "GOPISHAYAM I.C. KAUSHALAYA NAGAR SUKHMALPUR NIJAMABAD R.N. 1",
+   "partId": 395090
+  },
+  {
+   "partNumber": 356,
+   "partName": "GOPISHAYAM I.C. KAUSHALAYA NAGAR SUKHMALPUR NIJAMABAD R.N. 2",
+   "partId": 395091
+  },
+  {
+   "partNumber": 357,
+   "partName": "GOPISHAYAM I.C. KAUSHALAYA NAGAR SUKHMALPUR NIJAMABAD R.N. 3",
+   "partId": 395092
+  },
+  {
+   "partNumber": 358,
+   "partName": "GOPISHAYAM I.C. KAUSHALAYA NAGAR SUKHMALPUR NIJAMABAD R.N. 4",
+   "partId": 395093
+  },
+  {
+   "partNumber": 359,
+   "partName": "GOPISHAYAM I.C. KAUSHALAYA NAGAR SUKHMALPUR NIJAMABAD R.N. 5",
+   "partId": 395094
+  },
+  {
+   "partNumber": 360,
+   "partName": "GOPISHAYAM I.C. KAUSHALAYA NAGAR SUKHMALPUR NIJAMABAD R.N. 6",
+   "partId": 395095
+  },
+  {
+   "partNumber": 361,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABAD R.N. 1",
+   "partId": 395096
+  },
+  {
+   "partNumber": 362,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABAD R.N. 2",
+   "partId": 395097
+  },
+  {
+   "partNumber": 363,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABADR.N. 3",
+   "partId": 395098
+  },
+  {
+   "partNumber": 364,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABADR.N. 4",
+   "partId": 395099
+  },
+  {
+   "partNumber": 365,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABADR.N. 5",
+   "partId": 395100
+  },
+  {
+   "partNumber": 366,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABADR.N. 6",
+   "partId": 395101
+  },
+  {
+   "partNumber": 367,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABAD R.N. 7",
+   "partId": 395102
+  },
+  {
+   "partNumber": 368,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABAD R.N. 8",
+   "partId": 395103
+  },
+  {
+   "partNumber": 369,
+   "partName": "KAMLA NEHRU CHANDRA KUMARI JAIN INTER COLLEGE BODHASHRAM TAPAKALA SHUKHAMALPUR NIZAMABAD R.N. 9",
+   "partId": 395104
+  },
+  {
+   "partNumber": 370,
+   "partName": "P. MUNSHI MAHARAJ I.C. VIBHAV NAGAR R.N. 1",
+   "partId": 395105
+  },
+  {
+   "partNumber": 371,
+   "partName": "P. MUNSHI MAHARAJ I.C. VIBHAV NAGAR R.N. 2",
+   "partId": 395106
+  },
+  {
+   "partNumber": 372,
+   "partName": "P. MUNSHI MAHARAJ I.C. VIBHAV NAGAR R.N. 3",
+   "partId": 395107
+  },
+  {
+   "partNumber": 373,
+   "partName": "P. MUNSHI MAHARAJ I.C. VIBHAV NAGAR R.N. 4",
+   "partId": 395108
+  },
+  {
+   "partNumber": 374,
+   "partName": "P. MUNSHI MAHARAJ I.C. VIBHAV NAGAR R.N. 5",
+   "partId": 395109
+  },
+  {
+   "partNumber": 375,
+   "partName": "SHRI RAMANAND GARG INTER COLLEGE BODHASHRAM TAPAKALA ROAD R.N. 1",
+   "partId": 395110
+  },
+  {
+   "partNumber": 376,
+   "partName": "SHRI RAMANAND GARG INTER COLLEGE BODHASHRAM TAPAKALA ROAD R.N. 2",
+   "partId": 395111
+  },
+  {
+   "partNumber": 377,
+   "partName": "SHRI RAMANAND GARG INTER COLLEGE BODHASHRAM TAPAKALA ROAD R.N. 3",
+   "partId": 395112
+  },
+  {
+   "partNumber": 378,
+   "partName": "MAHATMA BUDDHA JUNIOR HIGH SCHOOL R.N. 1",
+   "partId": 395113
+  },
+  {
+   "partNumber": 379,
+   "partName": "MAHATMA BUDDHA JUNIOR HIGH SCHOOLR.N. 2",
+   "partId": 395114
+  },
+  {
+   "partNumber": 380,
+   "partName": "SAROJINI NAIDU J.H. SCHOOL BODHAASHARAM TAPAKALAN ROAD SUKHMALPUR NIJAMABAD R.N. 1",
+   "partId": 395115
+  },
+  {
+   "partNumber": 381,
+   "partName": "SAROJINI NAIDU J.H. SCHOOL BODHAASHARAM TAPAKALAN ROAD SUKHMALPUR NIJAMABAD R.N. 2",
+   "partId": 395116
+  },
+  {
+   "partNumber": 382,
+   "partName": "SAROJINI NAIDU J.H. SCHOOL BODHAASHARAM TAPAKALAN ROAD SUKHMALPUR NIJAMABAD R.N. 3",
+   "partId": 395117
+  },
+  {
+   "partNumber": 383,
+   "partName": "SAROJINI NAIDU J.H. SCHOOL BODDHASHARAM TAPAKALAN ROAD SUKHMALPUR NIJAMABAD R.N. 4",
+   "partId": 395118
+  },
+  {
+   "partNumber": 384,
+   "partName": "SAROJINI NAIDU J.H. SCHOOL BODDHASHARAM TAPAKALAN ROAD SUKHMALPUR NIJAMABAD R.N. 5",
+   "partId": 395119
+  },
+  {
+   "partNumber": 385,
+   "partName": "SAROJINI NAIDU J.H. SCHOOL BODDHASHARAM TAPAKAL ROAD SUKHMALPUR NIJAMABAD R.N. 6",
+   "partId": 395120
+  },
+  {
+   "partNumber": 386,
+   "partName": "BRAJRAJ SINGH J.H. SCHOOL MATHURA NAGAR R.N. 1",
+   "partId": 395121
+  },
+  {
+   "partNumber": 387,
+   "partName": "BRAJRAJ SINGH J.H. SCHOOL MATHURA NAGAR R.N. 2",
+   "partId": 395122
+  },
+  {
+   "partNumber": 388,
+   "partName": "C.L. JAIN DEGREE CO. FIRO.R.N. 1",
+   "partId": 395123
+  },
+  {
+   "partNumber": 389,
+   "partName": "C.L. JAIN DEGREE CO. FIRO.R.N. 2",
+   "partId": 395124
+  },
+  {
+   "partNumber": 390,
+   "partName": "C.L. JAIN DEGREE CO. FIRO.R.N. 3",
+   "partId": 395125
+  },
+  {
+   "partNumber": 391,
+   "partName": "C.L. JAIN DEGREE CO. FIRO.R.N. 4",
+   "partId": 395126
+  },
+  {
+   "partNumber": 392,
+   "partName": "C.L. JAIN DEGREE CO. FIRO.R.N. 5",
+   "partId": 395127
+  },
+  {
+   "partNumber": 393,
+   "partName": "C.L. JAIN DEGREE CO. FIRO.R.N. 6",
+   "partId": 395128
+  },
+  {
+   "partNumber": 394,
+   "partName": "C.L. JAIN DEGREE CO. FIRO.R.N. 7",
+   "partId": 395129
+  },
+  {
+   "partNumber": 395,
+   "partName": "C.L. JAIN DEGREE CO. FIRO.R.N. 8",
+   "partId": 395130
+  },
+  {
+   "partNumber": 396,
+   "partName": "PRO. RAJENDRA SINGH S.S. SCHOOL SUHAG NAGAR R.N. 1",
+   "partId": 395131
+  },
+  {
+   "partNumber": 397,
+   "partName": "PRO. RAJENDRA SINGH S.S. SCHOOL SUHAG NAGAR R.N. 2",
+   "partId": 395132
+  },
+  {
+   "partNumber": 398,
+   "partName": "PRO. RAJENDRA SINGH S.S. SCHOOL SUHAG NAGAR R.N. 3",
+   "partId": 395133
+  },
+  {
+   "partNumber": 399,
+   "partName": "PRO. RAJENDRA SINGH S.S. SCHOOL SUHAG NAGAR R.N. 4",
+   "partId": 395134
+  },
+  {
+   "partNumber": 400,
+   "partName": "PRO. RAJENDRA SINGH S.S. SCHOOL SUHAG NAGAR R.N. 5",
+   "partId": 395135
+  },
+  {
+   "partNumber": 401,
+   "partName": "PRO. RAJENDRA SINGH S.S. SCHOOL SUHAG NAGAR R.N. 6",
+   "partId": 395136
+  },
+  {
+   "partNumber": 402,
+   "partName": "PRO. RAJENDRA SINGH S.S. SCHOOL SUHAG NAGAR R.N. 7",
+   "partId": 395137
+  },
+  {
+   "partNumber": 403,
+   "partName": "SARSWATI SHISHU NIKETAN JUNIOR HIGH SUHAG NAGAR R.N. 1",
+   "partId": 395138
+  },
+  {
+   "partNumber": 404,
+   "partName": "SARSWATI SHISHU NIKETAN JUNIOR HIGH SUHAG NAGAR R.N. 2",
+   "partId": 395139
+  },
+  {
+   "partNumber": 405,
+   "partName": "SARSWATI SHISHU NIKETAN JUNIOR HIGH SUHAG NAGAR R.N. 3",
+   "partId": 395976
+  },
+  {
+   "partNumber": 406,
+   "partName": "V.K BLOOM INTERNATIONAL SCHOOL  R.N. 1",
+   "partId": 395140
+  },
+  {
+   "partNumber": 407,
+   "partName": "V.K BLOOM INTERNATIONAL SCHOOL  R.N. 2",
+   "partId": 395141
+  },
+  {
+   "partNumber": 408,
+   "partName": "V.K BLOOM INTERNATIONAL SCHOOL  R.N. 3",
+   "partId": 395142
+  },
+  {
+   "partNumber": 409,
+   "partName": "V.K BLOOM INTERNATIONAL SCHOOL R.N. 4",
+   "partId": 395143
+  },
+  {
+   "partNumber": 410,
+   "partName": "V.K BLOOM INTERNATIONAL SCHOOL R.N. 5",
+   "partId": 395144
+  },
+  {
+   "partNumber": 411,
+   "partName": "V.K BLOOM INTERNATIONAL SCHOOL R.N. 6",
+   "partId": 395145
+  },
+  {
+   "partNumber": 412,
+   "partName": "SHYAMA DEVI I.C. HIMAYUPUR R.N. 1",
+   "partId": 395785
+  },
+  {
+   "partNumber": 413,
+   "partName": "SHYAMA DEVI I.C. HIMAYUPUR R.N. 2",
+   "partId": 395786
+  },
+  {
+   "partNumber": 414,
+   "partName": "SHYAMA DEVI I.C. HIMAYUPUR R.N. 3",
+   "partId": 395787
+  },
+  {
+   "partNumber": 415,
+   "partName": "SHYAMA DEVI I.C. HIMAYUPUR R.N. 4",
+   "partId": 395788
+  },
+  {
+   "partNumber": 416,
+   "partName": "SHYAMA DEVI I.C. HIMAYUPUR R.N. 5",
+   "partId": 395789
+  },
+  {
+   "partNumber": 417,
+   "partName": "SHYAMA DEVI I.C. HIMAYUPUR R.N. 6",
+   "partId": 395790
+  },
+  {
+   "partNumber": 418,
+   "partName": "PRATHMIK PATHSHALA HIMAYUPUR R.N. 1",
+   "partId": 395791
+  },
+  {
+   "partNumber": 419,
+   "partName": "PRATHMIK PATHSHALA HIMAYUPUR R.N. 2",
+   "partId": 395792
+  },
+  {
+   "partNumber": 420,
+   "partName": "PRATHMIK PATHSHALA HIMAYUPUR R.N. 3",
+   "partId": 395793
+  },
+  {
+   "partNumber": 421,
+   "partName": "PRATHMIK PATHSHALA HIMAYUPUR R.N. 4",
+   "partId": 395794
+  },
+  {
+   "partNumber": 422,
+   "partName": "PRATHMIK PATHSHALA HIMAYUPUR R.N. 5",
+   "partId": 395795
+  },
+  {
+   "partNumber": 423,
+   "partName": "SAROJINI NAIDU MEMORIAL J.H. SCHOOL HIMAYUPUR R.N. 1",
+   "partId": 395796
+  },
+  {
+   "partNumber": 424,
+   "partName": "SAROJINI NAIDU MEMORIAL J.H. SCHOOL HIMAYUPUR R.N. 2",
+   "partId": 395797
+  },
+  {
+   "partNumber": 425,
+   "partName": "PRATHMIK PATHSHALA NAGLA BHAU R.N. 1",
+   "partId": 395798
+  },
+  {
+   "partNumber": 426,
+   "partName": "PRATHMIK PATHSHALA NAGLA BHAU R.N. 2",
+   "partId": 395799
+  },
+  {
+   "partNumber": 427,
+   "partName": "PRATHMIK PATHSHALA NAGLA BHAU R.N. 3",
+   "partId": 395800
+  },
+  {
+   "partNumber": 428,
+   "partName": "PRATHMIK PATHSHALA RAHANA",
+   "partId": 395801
+  },
+  {
+   "partNumber": 429,
+   "partName": "JUNIOR HIGH SCHOOL RAHANA R.N. 1",
+   "partId": 395802
+  },
+  {
+   "partNumber": 430,
+   "partName": "JUNIOR HIGH SCHOOL RAHANA R.N. 2",
+   "partId": 395803
+  },
+  {
+   "partNumber": 431,
+   "partName": "JUNIOR HIGH SCHOOL RAHANA R.N. 3",
+   "partId": 395804
+  },
+  {
+   "partNumber": 432,
+   "partName": "JUNIOR HIGH SCHOOL RAHANA R.N. 4",
+   "partId": 395978
+  },
+  {
+   "partNumber": 433,
+   "partName": "KUBER VIDHYAPEETH ANAND NAGAR JALESAR ROAD",
+   "partId": 395805
+  },
+  {
+   "partNumber": 434,
+   "partName": "OM SAI PUBLIC SCHOOL  R.N. 1",
+   "partId": 395806
+  },
+  {
+   "partNumber": 435,
+   "partName": "OM SAI PUBLIC SCHOOL R.N. 2",
+   "partId": 395807
+  },
+  {
+   "partNumber": 436,
+   "partName": "OM SAI PUBLIC SCHOOL  R.N. 3",
+   "partId": 395808
+  },
+  {
+   "partNumber": 437,
+   "partName": "S.C.R. PUBLIC SCHOOL, MAHAVEER NAGAR R.N. 1",
+   "partId": 395809
+  },
+  {
+   "partNumber": 438,
+   "partName": "S.C.R. PUBLIC SCHOOL, MAHAVEER NAGAR R.N. 2",
+   "partId": 395810
+  },
+  {
+   "partNumber": 439,
+   "partName": "S.C.R. PUBLIC SCHOOL, MAHAVEER NAGAR R.N. 3",
+   "partId": 395811
+  },
+  {
+   "partNumber": 440,
+   "partName": "S.C.R. PUBLIC SCHOOL, MAHAVEER NAGAR R.N. 4",
+   "partId": 395812
+  },
+  {
+   "partNumber": 441,
+   "partName": "SHRI JAGDACHARYA SWAMI NARADANAND SARSWATI SHISHU MANDIR JAGVEEN RAMNAGAR R.N. 1",
+   "partId": 395813
+  },
+  {
+   "partNumber": 442,
+   "partName": "SHRI JAGDACHARYA SWAMI NARADANAND SARSWATI SHISHU MANDIR JAGVEEN RAMNAGAR R.N. 2",
+   "partId": 395977
+  },
+  {
+   "partNumber": 443,
+   "partName": "GYAN LOK I.C. SUHAG NAGAR",
+   "partId": 395814
+  },
+  {
+   "partNumber": 444,
+   "partName": "CHHOTELAL I.C. NAGLA VISHNU R.N. 1",
+   "partId": 395815
+  },
+  {
+   "partNumber": 445,
+   "partName": "CHHOTELAL I.C. NAGLA VISHNU R.N. 2",
+   "partId": 395816
+  },
+  {
+   "partNumber": 446,
+   "partName": "CHHOTELAL I.C. NAGLA VISHNU R.N. 3",
+   "partId": 395817
+  },
+  {
+   "partNumber": 447,
+   "partName": "CHHOTELAL I.C. NAGLA VISHNU R.N. 4",
+   "partId": 395818
+  },
+  {
+   "partNumber": 448,
+   "partName": "CHHOTELAL I.C. NAGLA VISHNU R.N. 5",
+   "partId": 395819
+  },
+  {
+   "partNumber": 449,
+   "partName": "CHHOTELAL I.C. NAGLA VISHNU R.N. 6",
+   "partId": 395820
+  },
+  {
+   "partNumber": 450,
+   "partName": "CHHOTELAL I.C. NAGLA VISHNU R.N. 7",
+   "partId": 395821
+  }
+ ]
+}

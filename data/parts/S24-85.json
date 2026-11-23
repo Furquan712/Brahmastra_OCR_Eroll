@@ -1,0 +1,2417 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2410",
+ "acNumber": 85,
+ "fetchedAt": "2026-11-01T08:34:26",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 481,
+ "maxPart": 481,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "P.S. KALYANPUR",
+   "partId": 420205
+  },
+  {
+   "partNumber": 2,
+   "partName": "P.S. MAWALI",
+   "partId": 420206
+  },
+  {
+   "partNumber": 3,
+   "partName": "P.S DAHARUA K.N. 1",
+   "partId": 420207
+  },
+  {
+   "partNumber": 4,
+   "partName": "P.S. DAHARUAA K.N. 2",
+   "partId": 420208
+  },
+  {
+   "partNumber": 5,
+   "partName": "P.S. DAHARUAA K.N. 3",
+   "partId": 420209
+  },
+  {
+   "partNumber": 6,
+   "partName": "P.S. KINARAI H.N. 1",
+   "partId": 420210
+  },
+  {
+   "partNumber": 7,
+   "partName": "P.S.KINARAI K.N. 2",
+   "partId": 420907
+  },
+  {
+   "partNumber": 8,
+   "partName": "HIGHER P.S. DEEWANA KALAN (CLASS 1 TO 8) K.N. 1",
+   "partId": 420211
+  },
+  {
+   "partNumber": 9,
+   "partName": "HIGHER PS DEEWANA KALAN (CLASS 1 TO 8) H.N. 2",
+   "partId": 420909
+  },
+  {
+   "partNumber": 10,
+   "partName": "HIGHER P.S. DEEWANA KALAN (CLASS 1 TO 8) K.N. 3",
+   "partId": 420212
+  },
+  {
+   "partNumber": 11,
+   "partName": "PANCHAYAT GHAR GAUDHARPUR H.N. 1",
+   "partId": 420213
+  },
+  {
+   "partNumber": 12,
+   "partName": "PANCHAYAT GHAT GAUDHARPUR H.N.2",
+   "partId": 420908
+  },
+  {
+   "partNumber": 13,
+   "partName": "P.S. PILUKHANI",
+   "partId": 420214
+  },
+  {
+   "partNumber": 14,
+   "partName": "P.S. SURAJ",
+   "partId": 420215
+  },
+  {
+   "partNumber": 15,
+   "partName": "P.S. DHAKU",
+   "partId": 420216
+  },
+  {
+   "partNumber": 16,
+   "partName": "P.S. GAUNGA K.N. 1",
+   "partId": 420217
+  },
+  {
+   "partNumber": 17,
+   "partName": "P.S. GAUNGA K.N. 2",
+   "partId": 420218
+  },
+  {
+   "partNumber": 18,
+   "partName": "P.S. FAJIYATPUR NAGARIYA",
+   "partId": 420219
+  },
+  {
+   "partNumber": 19,
+   "partName": "P.S. TIRAWAYA K.N. 1",
+   "partId": 420220
+  },
+  {
+   "partNumber": 20,
+   "partName": "P.S. TIRAWAYA K.N. 2",
+   "partId": 420221
+  },
+  {
+   "partNumber": 21,
+   "partName": "P.S. NAGLA BHEEMA",
+   "partId": 420222
+  },
+  {
+   "partNumber": 22,
+   "partName": "P.S. NAGLA SAHASU",
+   "partId": 420223
+  },
+  {
+   "partNumber": 23,
+   "partName": "P.S. BHANKARPUR",
+   "partId": 420224
+  },
+  {
+   "partNumber": 24,
+   "partName": "P.S. RAYA K.N. 1",
+   "partId": 420225
+  },
+  {
+   "partNumber": 25,
+   "partName": "P.S. RAYA K.N. 2",
+   "partId": 420226
+  },
+  {
+   "partNumber": 26,
+   "partName": "P.S. RAYA K.N. 3",
+   "partId": 420227
+  },
+  {
+   "partNumber": 27,
+   "partName": "P.S. RAYA K.N. 4",
+   "partId": 420228
+  },
+  {
+   "partNumber": 28,
+   "partName": "P.S. RAYA K.N. 5",
+   "partId": 420229
+  },
+  {
+   "partNumber": 29,
+   "partName": "P.S. RAYA K.N. 6",
+   "partId": 420230
+  },
+  {
+   "partNumber": 30,
+   "partName": "P.S. RAYA K.N. 7",
+   "partId": 420231
+  },
+  {
+   "partNumber": 31,
+   "partName": "R.I.C. RAYA K.N. 1",
+   "partId": 420232
+  },
+  {
+   "partNumber": 32,
+   "partName": "R.I.C. RAYA K.N. 2",
+   "partId": 420233
+  },
+  {
+   "partNumber": 33,
+   "partName": "R.I.C. RAYA K.N. 3",
+   "partId": 420234
+  },
+  {
+   "partNumber": 34,
+   "partName": "R.I.C. RAYA K.N. 4",
+   "partId": 420235
+  },
+  {
+   "partNumber": 35,
+   "partName": "R.I.C. RAYA K.N. 5",
+   "partId": 420236
+  },
+  {
+   "partNumber": 36,
+   "partName": "R.I.C. RAYA K.N. 6",
+   "partId": 420237
+  },
+  {
+   "partNumber": 37,
+   "partName": "RADHA GOPAL U.M.V. RAYA K.N. 1",
+   "partId": 420238
+  },
+  {
+   "partNumber": 38,
+   "partName": "RADHA GOPAL U.M.V. RAYA K.N. 2",
+   "partId": 420904
+  },
+  {
+   "partNumber": 39,
+   "partName": "RADHA GOPAL U.M.V. RAYA K.N. 3",
+   "partId": 420239
+  },
+  {
+   "partNumber": 40,
+   "partName": "RADHA GOPAL U.M.V. RAYA K.N. 4",
+   "partId": 420240
+  },
+  {
+   "partNumber": 41,
+   "partName": "P.S. CHAUHARI",
+   "partId": 420255
+  },
+  {
+   "partNumber": 42,
+   "partName": "P.S. BEEL ALIYABAD",
+   "partId": 420256
+  },
+  {
+   "partNumber": 43,
+   "partName": "P.S. SAUNGARWAR",
+   "partId": 420257
+  },
+  {
+   "partNumber": 44,
+   "partName": "P.S. TEHARA MAHAVAN K.N 1",
+   "partId": 420258
+  },
+  {
+   "partNumber": 45,
+   "partName": "P.S.TEHARA MAHAVAN K.N. 2",
+   "partId": 420910
+  },
+  {
+   "partNumber": 46,
+   "partName": "HIGHER P.S. ISHAPUR (CLASS 1 TO 8) K.N. 1",
+   "partId": 420259
+  },
+  {
+   "partNumber": 47,
+   "partName": "HIGHER P.S. ISHAPUR (CLASS 1 TO 8) K.N. 2",
+   "partId": 420260
+  },
+  {
+   "partNumber": 48,
+   "partName": "HIGHER P.S. ISHAPUR (CLASS 1 TO 8) K.N. 3",
+   "partId": 420261
+  },
+  {
+   "partNumber": 49,
+   "partName": "HIGHER P.S. ISHAPUR (CLASS 1 TO 8) K.N. 4",
+   "partId": 420262
+  },
+  {
+   "partNumber": 50,
+   "partName": "HIGHER P.S. ISHAPUR (CLASS 1 TO 8) K.N. 5",
+   "partId": 420263
+  },
+  {
+   "partNumber": 51,
+   "partName": "UPS ISHAPUR CLASS 1 TO 8 K.N. 6",
+   "partId": 420911
+  },
+  {
+   "partNumber": 52,
+   "partName": "HIGHER P.S. TAIYABPUR  (CLASS 1 TO 8) K.N. 1",
+   "partId": 420264
+  },
+  {
+   "partNumber": 53,
+   "partName": "HIGHER P.S. TAIYABPUR  (CLASS 1 TO 8) K.N. 2",
+   "partId": 420265
+  },
+  {
+   "partNumber": 54,
+   "partName": "HIGHER P.S. TAIYABPUR  (CLASS 1 TO 8) K.N. 3",
+   "partId": 420266
+  },
+  {
+   "partNumber": 55,
+   "partName": "HIGHER P.S. TAIYABPUR  (CLASS 1 TO 8) K.N. 4",
+   "partId": 420267
+  },
+  {
+   "partNumber": 56,
+   "partName": "HIGHER P.S. ISHAPUR (CLASS 1 TO 8)",
+   "partId": 420275
+  },
+  {
+   "partNumber": 57,
+   "partName": "JUGAL KISHOR A.V. JAMUNAPAR K.N. 1",
+   "partId": 420276
+  },
+  {
+   "partNumber": 58,
+   "partName": "JUGAL KISHOR A.V. JAMUNAPAR K.N. 2",
+   "partId": 420277
+  },
+  {
+   "partNumber": 59,
+   "partName": "JUGAL KISHOR AA V JAMUNAPAR H.N.3",
+   "partId": 420912
+  },
+  {
+   "partNumber": 60,
+   "partName": "JUGAL KISHOR A.V. JAMUNAPAR K.N. 4",
+   "partId": 420278
+  },
+  {
+   "partNumber": 61,
+   "partName": "SUBHASH I.C. SHAKHA JAMUNAPAR K.N. 1",
+   "partId": 420279
+  },
+  {
+   "partNumber": 62,
+   "partName": "SUBHASH I.C. SHAKHA JAMUNAPAR K.N. 2",
+   "partId": 420913
+  },
+  {
+   "partNumber": 63,
+   "partName": "SAMUDAYIK BHAWAN SUKHDEVPUR",
+   "partId": 420280
+  },
+  {
+   "partNumber": 64,
+   "partName": "HIGHER P.S. RAYPURMAI  (CLASS 1 TO 8)  ( GOPALPUR) K.N. 1",
+   "partId": 420281
+  },
+  {
+   "partNumber": 65,
+   "partName": "HIGHER P.S. RAYPURMAI  (CLASS 1 TO 8) K.N. 1  ( GOPALPUR) K.N. 2",
+   "partId": 420290
+  },
+  {
+   "partNumber": 66,
+   "partName": "P.S. AJAY NAGAR K.N. 1",
+   "partId": 420291
+  },
+  {
+   "partNumber": 67,
+   "partName": "PS AJAY NAGAR K.N. 2",
+   "partId": 420940
+  },
+  {
+   "partNumber": 68,
+   "partName": "P.S. LOHAVAN PRATHAM K.N. 1",
+   "partId": 420292
+  },
+  {
+   "partNumber": 69,
+   "partName": "PS LOHAVAN PRATHAM K.N. 2",
+   "partId": 420938
+  },
+  {
+   "partNumber": 70,
+   "partName": "P.S. LOHAVAN PRATHAM K.N. 3",
+   "partId": 420293
+  },
+  {
+   "partNumber": 71,
+   "partName": "P.S. LOHAVAN PRATHAM K.N. 4",
+   "partId": 420294
+  },
+  {
+   "partNumber": 72,
+   "partName": "P.S. LOHAVAN PRATHAM K.N. 5",
+   "partId": 420295
+  },
+  {
+   "partNumber": 73,
+   "partName": "HIGHER  P S LOHAVAN (CLASS 1 TO 8) R.N. 1",
+   "partId": 420296
+  },
+  {
+   "partNumber": 74,
+   "partName": "HIGHER P.S. LOHAVAN (CLASS 1 TO 8) K.N. 2",
+   "partId": 420297
+  },
+  {
+   "partNumber": 75,
+   "partName": "HIGHER P.S. LOHAVAN (CLASS 1 TO 8) K.N. 3",
+   "partId": 420298
+  },
+  {
+   "partNumber": 76,
+   "partName": "HIGHER P.S. LOHAVAN (CLASS 1 TO 8) K.N. 4",
+   "partId": 420299
+  },
+  {
+   "partNumber": 77,
+   "partName": "P.S. NAGLA CHEETA",
+   "partId": 420300
+  },
+  {
+   "partNumber": 78,
+   "partName": "P.S. PADARARI",
+   "partId": 420301
+  },
+  {
+   "partNumber": 79,
+   "partName": "PANCHAYAT GHAR NAGLA PEETA",
+   "partId": 420302
+  },
+  {
+   "partNumber": 80,
+   "partName": "P.S. NAGLA HARGOVIND KHAND PADARARI",
+   "partId": 420303
+  },
+  {
+   "partNumber": 81,
+   "partName": "P.S. SARAS",
+   "partId": 420304
+  },
+  {
+   "partNumber": 82,
+   "partName": "CHAMELI DEVI I.C. SIHORA K.N. 1",
+   "partId": 420305
+  },
+  {
+   "partNumber": 83,
+   "partName": "CHAMELI DEVI I.C. SIHORA K.N. 2",
+   "partId": 420306
+  },
+  {
+   "partNumber": 84,
+   "partName": "CHAMELI DEVI I.C. SIHORA K.N. 3",
+   "partId": 420307
+  },
+  {
+   "partNumber": 85,
+   "partName": "CHAMELI DEVI I.C. SIHORA K.N. 4",
+   "partId": 420308
+  },
+  {
+   "partNumber": 86,
+   "partName": "P.S.SIHORA R.N.1",
+   "partId": 420309
+  },
+  {
+   "partNumber": 87,
+   "partName": "PS SIHORA K.N.2",
+   "partId": 420914
+  },
+  {
+   "partNumber": 88,
+   "partName": "P.S. NAGLA RANA BHAG SIHORA",
+   "partId": 420310
+  },
+  {
+   "partNumber": 89,
+   "partName": "HIGHER P.S. TARAPUR KHAND SIHORA",
+   "partId": 420311
+  },
+  {
+   "partNumber": 90,
+   "partName": "AA.K.I.C. KARAB K.N. 1",
+   "partId": 420312
+  },
+  {
+   "partNumber": 91,
+   "partName": "AA.K.I.C. KARAB K.N. 2",
+   "partId": 420313
+  },
+  {
+   "partNumber": 92,
+   "partName": "AA.K.I.C. KARAB K.N. 3",
+   "partId": 420314
+  },
+  {
+   "partNumber": 93,
+   "partName": "AA.K.I.C. KARAB K.N. 4",
+   "partId": 420315
+  },
+  {
+   "partNumber": 94,
+   "partName": "AA.K.I.C. KARAB K.N. 5",
+   "partId": 420316
+  },
+  {
+   "partNumber": 95,
+   "partName": "AA.K.I.C. KARAB K.N. 6",
+   "partId": 420317
+  },
+  {
+   "partNumber": 96,
+   "partName": "P.S. ADDA",
+   "partId": 420318
+  },
+  {
+   "partNumber": 97,
+   "partName": "P.S. BAHADURPUR",
+   "partId": 420319
+  },
+  {
+   "partNumber": 98,
+   "partName": "P.S. GARHI RAMPRASAD",
+   "partId": 420320
+  },
+  {
+   "partNumber": 99,
+   "partName": "HIGHER P.S. ITAULI (CLASS 1 TO 8) K.N. 1",
+   "partId": 420321
+  },
+  {
+   "partNumber": 100,
+   "partName": "HIGHER P.S. ITAULI (CLASS 1 TO 8) K.N. 2",
+   "partId": 420322
+  },
+  {
+   "partNumber": 101,
+   "partName": "P.S. KHAPPARPUR",
+   "partId": 420323
+  },
+  {
+   "partNumber": 102,
+   "partName": "P.S. NAGLA VIJAI",
+   "partId": 420324
+  },
+  {
+   "partNumber": 103,
+   "partName": "P.S. SEEYARA",
+   "partId": 420325
+  },
+  {
+   "partNumber": 104,
+   "partName": "P.S. NAGLA DAKHINI",
+   "partId": 420326
+  },
+  {
+   "partNumber": 105,
+   "partName": "P.S. KATAILA",
+   "partId": 420327
+  },
+  {
+   "partNumber": 106,
+   "partName": "P.S. BHAINSARA",
+   "partId": 420328
+  },
+  {
+   "partNumber": 107,
+   "partName": "P.S. KAKRETIYA KHAND BHAINSARA",
+   "partId": 420329
+  },
+  {
+   "partNumber": 108,
+   "partName": "MAHATMA GANDHI H.S.S. KHIRARI K.N.1",
+   "partId": 420330
+  },
+  {
+   "partNumber": 109,
+   "partName": "MAHATMA GANDHI H.S.S. KHIRARI K.N.2",
+   "partId": 420915
+  },
+  {
+   "partNumber": 110,
+   "partName": "P.S. BANA",
+   "partId": 420331
+  },
+  {
+   "partNumber": 111,
+   "partName": "P.S. SHAHPUR GAUSANA K.N. 1",
+   "partId": 420332
+  },
+  {
+   "partNumber": 112,
+   "partName": "P.S. SHAHPUR GAUSANA K.N. 2",
+   "partId": 420333
+  },
+  {
+   "partNumber": 113,
+   "partName": "P.S. SHAHPUR GAUSANA K.N. 3",
+   "partId": 420334
+  },
+  {
+   "partNumber": 114,
+   "partName": "P.S. SHAHPUR",
+   "partId": 420335
+  },
+  {
+   "partNumber": 115,
+   "partName": "P.S. HAULLA K.N. 1",
+   "partId": 420241
+  },
+  {
+   "partNumber": 116,
+   "partName": "P.S. HAULLA K.N. 2",
+   "partId": 420242
+  },
+  {
+   "partNumber": 117,
+   "partName": "P.S. MALHAI",
+   "partId": 420243
+  },
+  {
+   "partNumber": 118,
+   "partName": "P.S. KHAJURI",
+   "partId": 420244
+  },
+  {
+   "partNumber": 119,
+   "partName": "P.S. PAVESARA R.N.1",
+   "partId": 420245
+  },
+  {
+   "partNumber": 120,
+   "partName": "PS PAVESARA R.N. 2",
+   "partId": 420916
+  },
+  {
+   "partNumber": 121,
+   "partName": "P.S. JASA",
+   "partId": 420246
+  },
+  {
+   "partNumber": 122,
+   "partName": "P.S. KHALAUA",
+   "partId": 420247
+  },
+  {
+   "partNumber": 123,
+   "partName": "P.S. NAGLA MAHAPATI",
+   "partId": 420248
+  },
+  {
+   "partNumber": 124,
+   "partName": "UCHH P.S. JAGTIYA COMPOJIT ( CLASS 1 TO 8)",
+   "partId": 420249
+  },
+  {
+   "partNumber": 125,
+   "partName": "P.S. BHOJUA",
+   "partId": 420250
+  },
+  {
+   "partNumber": 126,
+   "partName": "P.S. MADAIM K.N. 1",
+   "partId": 420251
+  },
+  {
+   "partNumber": 127,
+   "partName": "P.S. MADAIM K.N. 2",
+   "partId": 420252
+  },
+  {
+   "partNumber": 128,
+   "partName": "P.S. NAGAUDA",
+   "partId": 420253
+  },
+  {
+   "partNumber": 129,
+   "partName": "P.S. BASARBHAKHANDI",
+   "partId": 420254
+  },
+  {
+   "partNumber": 130,
+   "partName": "PHOOLCHAND U.M.V. GUDERA",
+   "partId": 420282
+  },
+  {
+   "partNumber": 131,
+   "partName": "P.S. GARHI NANDA",
+   "partId": 420283
+  },
+  {
+   "partNumber": 132,
+   "partName": "P.S. KESHAR GARHI",
+   "partId": 420284
+  },
+  {
+   "partNumber": 133,
+   "partName": "P.S. BANSHAI",
+   "partId": 420285
+  },
+  {
+   "partNumber": 134,
+   "partName": "HIGHER P.S. NUNERA",
+   "partId": 420286
+  },
+  {
+   "partNumber": 135,
+   "partName": "P.S. PEERIGARHI",
+   "partId": 420287
+  },
+  {
+   "partNumber": 136,
+   "partName": "P.S. ANODA PRATHAM K.N. 1",
+   "partId": 420288
+  },
+  {
+   "partNumber": 137,
+   "partName": "P.S. ANODA PRATHAM K.N. 2",
+   "partId": 420289
+  },
+  {
+   "partNumber": 138,
+   "partName": "P.S. ANODA SECOND",
+   "partId": 420370
+  },
+  {
+   "partNumber": 139,
+   "partName": "P.S. NAGLA TAMBAKA",
+   "partId": 420371
+  },
+  {
+   "partNumber": 140,
+   "partName": "HIGHER P.S. NAGLA HARRAY  (CLASS 1 TO 8)",
+   "partId": 420372
+  },
+  {
+   "partNumber": 141,
+   "partName": "P.S. BYOHI",
+   "partId": 420373
+  },
+  {
+   "partNumber": 142,
+   "partName": "P.S. RUJGAILA",
+   "partId": 420374
+  },
+  {
+   "partNumber": 143,
+   "partName": "P.S. VIJAHARI",
+   "partId": 420375
+  },
+  {
+   "partNumber": 144,
+   "partName": "P.S. NAGLA BEECH",
+   "partId": 420376
+  },
+  {
+   "partNumber": 145,
+   "partName": "P.S. GARHI LAL SINGH",
+   "partId": 420379
+  },
+  {
+   "partNumber": 146,
+   "partName": "HIGHER P.S. BALTIKARI K.N. 1",
+   "partId": 420380
+  },
+  {
+   "partNumber": 147,
+   "partName": "HIGHER P.S. BALTIKARI K.N. 2",
+   "partId": 420381
+  },
+  {
+   "partNumber": 148,
+   "partName": "HIGHER P.S. BALTIKARI K.N. 3",
+   "partId": 420382
+  },
+  {
+   "partNumber": 149,
+   "partName": "HIGHER P.S. NAGLA BHARAU K.N. 1",
+   "partId": 420383
+  },
+  {
+   "partNumber": 150,
+   "partName": "HIGHER P.S. NAGLA BHARAU K.N. 2",
+   "partId": 420384
+  },
+  {
+   "partNumber": 151,
+   "partName": "PANCHAYAT GHAR TALGARHI",
+   "partId": 420385
+  },
+  {
+   "partNumber": 152,
+   "partName": "P.S. GARHI KAURKHARA",
+   "partId": 420386
+  },
+  {
+   "partNumber": 153,
+   "partName": "P.S. BHARAUGARH",
+   "partId": 420387
+  },
+  {
+   "partNumber": 154,
+   "partName": "PANCHAYAT GHAR NAGALA ARJUN K.N. 1",
+   "partId": 420388
+  },
+  {
+   "partNumber": 155,
+   "partName": "P.S. SONKHKHEDA",
+   "partId": 420389
+  },
+  {
+   "partNumber": 156,
+   "partName": "P.S. NAGLA THANA",
+   "partId": 420336
+  },
+  {
+   "partNumber": 157,
+   "partName": "PANCHAYAT GHAR NAGLA ARJUN R.N. 2",
+   "partId": 420337
+  },
+  {
+   "partNumber": 158,
+   "partName": "P.S. NAGLA HARI",
+   "partId": 420338
+  },
+  {
+   "partNumber": 159,
+   "partName": "P.S. MUDSAINIYAN",
+   "partId": 420363
+  },
+  {
+   "partNumber": 160,
+   "partName": "P.S. NAGLA TULSI",
+   "partId": 420364
+  },
+  {
+   "partNumber": 161,
+   "partName": "P.S. RAWAL",
+   "partId": 420365
+  },
+  {
+   "partNumber": 162,
+   "partName": "P.S. NAGLA KAJI",
+   "partId": 420366
+  },
+  {
+   "partNumber": 163,
+   "partName": "P.S. NAGLA POLA BHAG RAWAL K.N. 1",
+   "partId": 420367
+  },
+  {
+   "partNumber": 164,
+   "partName": "PS NAGLA POLA BHAG RAWAL K.N. 2",
+   "partId": 420917
+  },
+  {
+   "partNumber": 165,
+   "partName": "GURU KASHRNI SHARNANAND U.M.V. NAGLAL MEERBULAKI (GOPI KI NAGARIYA )",
+   "partId": 420368
+  },
+  {
+   "partNumber": 166,
+   "partName": "GRAM VIKAS U.M.V. HAYATPUR K.N. 1",
+   "partId": 420369
+  },
+  {
+   "partNumber": 167,
+   "partName": "GRAM VIKAS U.M.V. HAYATPUR  K.N. 2",
+   "partId": 420377
+  },
+  {
+   "partNumber": 168,
+   "partName": "GRAM VIKAS U.M.V. HAYATPUR  K.N. 3",
+   "partId": 420378
+  },
+  {
+   "partNumber": 169,
+   "partName": "GRAM VIKAS U.M.V. HAYATPUR  K.N. 4",
+   "partId": 420451
+  },
+  {
+   "partNumber": 170,
+   "partName": "MAHATMA GANDHI BALIKA P.S. NAGLA KHUTIY A",
+   "partId": 420452
+  },
+  {
+   "partNumber": 171,
+   "partName": "P.S. ALIPUR",
+   "partId": 420453
+  },
+  {
+   "partNumber": 172,
+   "partName": "P.S. ISLAMPUR",
+   "partId": 420454
+  },
+  {
+   "partNumber": 173,
+   "partName": "P.S. JIKIRIYAPUR",
+   "partId": 420455
+  },
+  {
+   "partNumber": 174,
+   "partName": "P.S. NAVEEN NIRMAN GOKUL K.N. 1",
+   "partId": 420456
+  },
+  {
+   "partNumber": 175,
+   "partName": "P.S. NAVEEN NIRMAN GOKUL K.N. 2",
+   "partId": 420457
+  },
+  {
+   "partNumber": 176,
+   "partName": "P.S. NANDCHAUK GOKUL K.N. 1",
+   "partId": 420458
+  },
+  {
+   "partNumber": 177,
+   "partName": "P.S. NANDCHAUK GOKUL K.N. 2",
+   "partId": 420466
+  },
+  {
+   "partNumber": 178,
+   "partName": "GURU KARSHNI I.C. MAHAVAN K.N. 1",
+   "partId": 420467
+  },
+  {
+   "partNumber": 179,
+   "partName": "GURU KARSHNI  I.C. MAHAVAN K.N. 2",
+   "partId": 420468
+  },
+  {
+   "partNumber": 180,
+   "partName": "GURU KARSHNI I.C. MAHAVAN K.N. 3",
+   "partId": 420469
+  },
+  {
+   "partNumber": 181,
+   "partName": "GURU KARSHNI  I.C. MAHAVAN K.N. 4",
+   "partId": 420470
+  },
+  {
+   "partNumber": 182,
+   "partName": "GURU KARSHNI  I.C. MAHAVAN K.N. 5",
+   "partId": 420471
+  },
+  {
+   "partNumber": 183,
+   "partName": "GURU KARSHNI  I.C. MAHAVAN K.N. 6",
+   "partId": 420472
+  },
+  {
+   "partNumber": 184,
+   "partName": "HIGHER P.S. MAHAVAN  (CLASS 1 TO 8) K.N. 1",
+   "partId": 420484
+  },
+  {
+   "partNumber": 185,
+   "partName": "HIGHER P.S. MAHAVAN  (CLASS 1 TO 8) K.N. 2",
+   "partId": 420489
+  },
+  {
+   "partNumber": 186,
+   "partName": "HIGHER P.S. MAHAVAN  (CLASS 1 TO 8) K.N. 3",
+   "partId": 420490
+  },
+  {
+   "partNumber": 187,
+   "partName": "HIGHER P.S. MAHAVAN  (CLASS 1 TO 8) K.N. 4",
+   "partId": 420715
+  },
+  {
+   "partNumber": 188,
+   "partName": "P.S. PREM NAGAR KHURD",
+   "partId": 420716
+  },
+  {
+   "partNumber": 189,
+   "partName": "HIGHER P.S. KHAPPAR  BHAG MAHAVAN K.N. 1",
+   "partId": 420723
+  },
+  {
+   "partNumber": 190,
+   "partName": "HIGHER P.S. KHAPPAR  BHAG MAHAVAN K.N. 2",
+   "partId": 420724
+  },
+  {
+   "partNumber": 191,
+   "partName": "P.S. MANOHARPUR K.N. 1",
+   "partId": 420725
+  },
+  {
+   "partNumber": 192,
+   "partName": "P.S. MANOHARPUR K.N. 2",
+   "partId": 420726
+  },
+  {
+   "partNumber": 193,
+   "partName": "P.S. MANOHARPUR K.N. 3",
+   "partId": 420727
+  },
+  {
+   "partNumber": 194,
+   "partName": "P.S. KISHNPUR K.N. 1",
+   "partId": 420390
+  },
+  {
+   "partNumber": 195,
+   "partName": "P.S. KISHNPUR K.N. 2",
+   "partId": 420391
+  },
+  {
+   "partNumber": 196,
+   "partName": "P.S. KHEDIYA",
+   "partId": 420392
+  },
+  {
+   "partNumber": 197,
+   "partName": "P.S. HATHAUDA K.N. 1",
+   "partId": 420393
+  },
+  {
+   "partNumber": 198,
+   "partName": "P.S. HATHAUDA K.N. 2",
+   "partId": 420394
+  },
+  {
+   "partNumber": 199,
+   "partName": "P.S. BALRAMPUR",
+   "partId": 420395
+  },
+  {
+   "partNumber": 200,
+   "partName": "P.S. KHANPUR",
+   "partId": 420396
+  },
+  {
+   "partNumber": 201,
+   "partName": "P.S. JAGADEESHPUR",
+   "partId": 420397
+  },
+  {
+   "partNumber": 202,
+   "partName": "P.M.V BANDI K.N. 1",
+   "partId": 420398
+  },
+  {
+   "partNumber": 203,
+   "partName": "P.M.V BANDI K.N. 2",
+   "partId": 420399
+  },
+  {
+   "partNumber": 204,
+   "partName": "P.M.V BANDI K.N. 3",
+   "partId": 420400
+  },
+  {
+   "partNumber": 205,
+   "partName": "P.S.  CHHAULI FIRST K.N. 1",
+   "partId": 420401
+  },
+  {
+   "partNumber": 206,
+   "partName": "P.S. CHAULI FIRST K.N. 2",
+   "partId": 420402
+  },
+  {
+   "partNumber": 207,
+   "partName": "P.S. IIND CHAULI",
+   "partId": 420403
+  },
+  {
+   "partNumber": 208,
+   "partName": "P.S. AMEERPUR R.N. 1",
+   "partId": 420404
+  },
+  {
+   "partNumber": 209,
+   "partName": "PS AMEERPUR R.N. 2",
+   "partId": 420918
+  },
+  {
+   "partNumber": 210,
+   "partName": "P.S. GANDHI AVAIRANI K.N. 1",
+   "partId": 420405
+  },
+  {
+   "partNumber": 211,
+   "partName": "P.S. GANDHI AVAIRANI K.N. 2",
+   "partId": 420406
+  },
+  {
+   "partNumber": 212,
+   "partName": "P.S. GANDHI AVAIRANI K.N. 3",
+   "partId": 420407
+  },
+  {
+   "partNumber": 213,
+   "partName": "P.S. GANDHI AVAIRANI K.N. 4",
+   "partId": 420408
+  },
+  {
+   "partNumber": 214,
+   "partName": "P.S. GANDHI AVAIRANI K.N. 5",
+   "partId": 420409
+  },
+  {
+   "partNumber": 215,
+   "partName": "P.S. NAGLA PATIRAM",
+   "partId": 420410
+  },
+  {
+   "partNumber": 216,
+   "partName": "P.S. NAGLA BURJ",
+   "partId": 420411
+  },
+  {
+   "partNumber": 217,
+   "partName": "P.S. NAGLA UDAY SINGH BHAG AVAIRANI K.N. 1",
+   "partId": 420412
+  },
+  {
+   "partNumber": 218,
+   "partName": "PS NAGLA UDAY SINGH BHAG AVAIRANI K.N. 2",
+   "partId": 420919
+  },
+  {
+   "partNumber": 219,
+   "partName": "P.S. NAGLA JAMUNI BHAG AVAIRANI",
+   "partId": 420413
+  },
+  {
+   "partNumber": 220,
+   "partName": "KAILASHI DEVI I.C. PACHAWAR K.N. 1",
+   "partId": 420414
+  },
+  {
+   "partNumber": 221,
+   "partName": "KAILASHI DEVI I.C. PACHAWAR K.N. 2",
+   "partId": 420415
+  },
+  {
+   "partNumber": 222,
+   "partName": "KAILASHI DEVI I.C. PACHAWAR K.N. 3",
+   "partId": 420416
+  },
+  {
+   "partNumber": 223,
+   "partName": "KAILASHI DEVI I.C. PACHAWAR K.N. 4",
+   "partId": 420417
+  },
+  {
+   "partNumber": 224,
+   "partName": "P.S. NAGLA KUNJI",
+   "partId": 420418
+  },
+  {
+   "partNumber": 225,
+   "partName": "P.S. NAGLA BALA",
+   "partId": 420419
+  },
+  {
+   "partNumber": 226,
+   "partName": "P.S. NAGLA RATIYA",
+   "partId": 420420
+  },
+  {
+   "partNumber": 227,
+   "partName": "P.S. NAGLA BEECH",
+   "partId": 420421
+  },
+  {
+   "partNumber": 228,
+   "partName": "SANVILIT VIDHYALAY NAGLA LOKA K.N. 1",
+   "partId": 420422
+  },
+  {
+   "partNumber": 229,
+   "partName": "SANVILIT VIDHYALAY NAGLA LOKA K.N. 2",
+   "partId": 420423
+  },
+  {
+   "partNumber": 230,
+   "partName": "SANVILIT VIDHYALAY NAGLA LOKA  K.N. 3",
+   "partId": 420424
+  },
+  {
+   "partNumber": 231,
+   "partName": "P.S. NAGLA RAY SINGH",
+   "partId": 420425
+  },
+  {
+   "partNumber": 232,
+   "partName": "P.S. JUGASANA",
+   "partId": 420426
+  },
+  {
+   "partNumber": 233,
+   "partName": "P.S. NAGLA MEDU R.N.1",
+   "partId": 420427
+  },
+  {
+   "partNumber": 234,
+   "partName": "PS NAGLA MEDU R.N.2",
+   "partId": 420920
+  },
+  {
+   "partNumber": 235,
+   "partName": "P.S. NAGLA MOHAN",
+   "partId": 420428
+  },
+  {
+   "partNumber": 236,
+   "partName": "U. P.S. PREM NAGAR SARAKAND KHEDA COMPOJIT (CLASS 1 TO 8)",
+   "partId": 420429
+  },
+  {
+   "partNumber": 237,
+   "partName": "SANVILIYAN P.S. DAGHENTA K.N.1",
+   "partId": 420430
+  },
+  {
+   "partNumber": 238,
+   "partName": "SANVILIYAN P.S. DAGHENTA K.N.2",
+   "partId": 420431
+  },
+  {
+   "partNumber": 239,
+   "partName": "HIGHER P.S. DHAGENTA K.N.1",
+   "partId": 420432
+  },
+  {
+   "partNumber": 240,
+   "partName": "HIGHER P.S. DHAGENTA K.N.2",
+   "partId": 420433
+  },
+  {
+   "partNumber": 241,
+   "partName": "P.S. PATTHARPATI",
+   "partId": 420434
+  },
+  {
+   "partNumber": 242,
+   "partName": "P.S. NAGLA VIDHI",
+   "partId": 420435
+  },
+  {
+   "partNumber": 243,
+   "partName": "P.S. ARATAUNI",
+   "partId": 420436
+  },
+  {
+   "partNumber": 244,
+   "partName": "P.S. JATAURA",
+   "partId": 420437
+  },
+  {
+   "partNumber": 245,
+   "partName": "P.S. VIRAUNA K.N. 1",
+   "partId": 420438
+  },
+  {
+   "partNumber": 246,
+   "partName": "P.S. JHARAUTHA SECOND K.N. 1",
+   "partId": 420439
+  },
+  {
+   "partNumber": 247,
+   "partName": "P.S. JHARAUTHA SECOND K.N. 2",
+   "partId": 420440
+  },
+  {
+   "partNumber": 248,
+   "partName": "P.S. SARAY DAUD",
+   "partId": 420441
+  },
+  {
+   "partNumber": 249,
+   "partName": "P.S. RADOI K.N. 1",
+   "partId": 420442
+  },
+  {
+   "partNumber": 250,
+   "partName": "P.S. RADOI K.N. 2",
+   "partId": 420443
+  },
+  {
+   "partNumber": 251,
+   "partName": "PANCHAYAT GHAR HASNPUR R.N.1",
+   "partId": 420444
+  },
+  {
+   "partNumber": 252,
+   "partName": "PANCHAYAT GHAR HASANPUR R.N. 2",
+   "partId": 420921
+  },
+  {
+   "partNumber": 253,
+   "partName": "P.S. GOTHA K.N. 1",
+   "partId": 420445
+  },
+  {
+   "partNumber": 254,
+   "partName": "P.S. GOTHA K.N. 2",
+   "partId": 420446
+  },
+  {
+   "partNumber": 255,
+   "partName": "U.P.S. BHARATIYA K.N. 1",
+   "partId": 420447
+  },
+  {
+   "partNumber": 256,
+   "partName": "UPS BHARATIYA K.N.2",
+   "partId": 420939
+  },
+  {
+   "partNumber": 257,
+   "partName": "UPS BHARATIYA K.N. 3",
+   "partId": 420448
+  },
+  {
+   "partNumber": 258,
+   "partName": "P.S. NANDU GARHI R.N. 1",
+   "partId": 420449
+  },
+  {
+   "partNumber": 259,
+   "partName": "PS NANDU GARHI R.N. 2",
+   "partId": 420922
+  },
+  {
+   "partNumber": 260,
+   "partName": "P.M.V. FATEHPURA",
+   "partId": 420450
+  },
+  {
+   "partNumber": 261,
+   "partName": "P.S. KARANAU",
+   "partId": 420459
+  },
+  {
+   "partNumber": 262,
+   "partName": "R.I.C. PATALAUNI K.N. 1",
+   "partId": 420460
+  },
+  {
+   "partNumber": 263,
+   "partName": "R.I.C. PATALAUNI K.N. 2",
+   "partId": 420461
+  },
+  {
+   "partNumber": 264,
+   "partName": "R.I.C.PATALAUNI K.N.3",
+   "partId": 420923
+  },
+  {
+   "partNumber": 265,
+   "partName": "P.S. NAGLA MOHAN",
+   "partId": 420462
+  },
+  {
+   "partNumber": 266,
+   "partName": "P.S. KILAUNI K.N. 1",
+   "partId": 420463
+  },
+  {
+   "partNumber": 267,
+   "partName": "P.S. KILAUNI K.N. 2",
+   "partId": 420464
+  },
+  {
+   "partNumber": 268,
+   "partName": "P.S. ANGAI K.N. 1",
+   "partId": 420465
+  },
+  {
+   "partNumber": 269,
+   "partName": "P.S. ANGAI K.N. 2",
+   "partId": 420473
+  },
+  {
+   "partNumber": 270,
+   "partName": "P.S. CHHIVARU",
+   "partId": 420474
+  },
+  {
+   "partNumber": 271,
+   "partName": "SHRI BALBHADRA I.C. BALDEV K.N. 1",
+   "partId": 420475
+  },
+  {
+   "partNumber": 272,
+   "partName": "SHRI BALBHADRA I.C. BALDEV K.N. 2",
+   "partId": 420476
+  },
+  {
+   "partNumber": 273,
+   "partName": "SHRI BALBHADRA I.C. BALDEV K.N. 3",
+   "partId": 420477
+  },
+  {
+   "partNumber": 274,
+   "partName": "SHRI BALBHADRA I.C. BALDEV K.N. 4",
+   "partId": 420478
+  },
+  {
+   "partNumber": 275,
+   "partName": "SHRI BALBHADRA I.C. BALDEV K.N. 5",
+   "partId": 420479
+  },
+  {
+   "partNumber": 276,
+   "partName": "SHRI BALBHADRA I.C. BALDEV K.N. 6",
+   "partId": 420480
+  },
+  {
+   "partNumber": 277,
+   "partName": "SHRI BALBHADRA I.C. BALDEV K.N. 7",
+   "partId": 420481
+  },
+  {
+   "partNumber": 278,
+   "partName": "P.S. KHADAIRA",
+   "partId": 420482
+  },
+  {
+   "partNumber": 279,
+   "partName": "P.S. NEW BALDEV K.N. 1",
+   "partId": 420483
+  },
+  {
+   "partNumber": 280,
+   "partName": "P.S. NEW BALDEV K.N. 2",
+   "partId": 420485
+  },
+  {
+   "partNumber": 281,
+   "partName": "P.S. NEW BALDEV K.N. 3",
+   "partId": 420486
+  },
+  {
+   "partNumber": 282,
+   "partName": "P.S. NEW BALDEV K.N. 4",
+   "partId": 420487
+  },
+  {
+   "partNumber": 283,
+   "partName": "P.S. NOORPUR",
+   "partId": 420488
+  },
+  {
+   "partNumber": 284,
+   "partName": "P.S. RAMNAGARIYA",
+   "partId": 420717
+  },
+  {
+   "partNumber": 285,
+   "partName": "P.S. NAVEEPUR",
+   "partId": 420718
+  },
+  {
+   "partNumber": 286,
+   "partName": "P.S. SHAHPUR",
+   "partId": 420719
+  },
+  {
+   "partNumber": 287,
+   "partName": "P.S. HAVIVAPUR K.N. 1",
+   "partId": 420720
+  },
+  {
+   "partNumber": 288,
+   "partName": "P.S. HAVIVAPUR K.N. 2",
+   "partId": 420721
+  },
+  {
+   "partNumber": 289,
+   "partName": "P.S. NAGLA VIHARI",
+   "partId": 420722
+  },
+  {
+   "partNumber": 290,
+   "partName": "P.S. IBRAHIMPUR",
+   "partId": 420728
+  },
+  {
+   "partNumber": 291,
+   "partName": "P.S. MUJAHIDPUR",
+   "partId": 420729
+  },
+  {
+   "partNumber": 292,
+   "partName": "P.S. MUJAFFARPUR",
+   "partId": 420730
+  },
+  {
+   "partNumber": 293,
+   "partName": "P.S. HATHKAULI K.N. 1",
+   "partId": 420731
+  },
+  {
+   "partNumber": 294,
+   "partName": "P.S. HATHKAULI K.N. 2",
+   "partId": 420732
+  },
+  {
+   "partNumber": 295,
+   "partName": "P.S. HATHKAULI K.N. 3",
+   "partId": 420733
+  },
+  {
+   "partNumber": 296,
+   "partName": "P.S. NAGLA GIRADHAR",
+   "partId": 420734
+  },
+  {
+   "partNumber": 297,
+   "partName": "P.S. SAIDPUR K.N. 1",
+   "partId": 420735
+  },
+  {
+   "partNumber": 298,
+   "partName": "P.S.SAIDPURK.N.2",
+   "partId": 420924
+  },
+  {
+   "partNumber": 299,
+   "partName": "P.S. SAIDPUR K.N. 3",
+   "partId": 420742
+  },
+  {
+   "partNumber": 300,
+   "partName": "P.S. SELKHEDA K.N. 1",
+   "partId": 420743
+  },
+  {
+   "partNumber": 301,
+   "partName": "P.S. SELKHEDA K.N. 2",
+   "partId": 420744
+  },
+  {
+   "partNumber": 302,
+   "partName": "P.S. KACHANU K.N. 1",
+   "partId": 420745
+  },
+  {
+   "partNumber": 303,
+   "partName": "P.S. KACHANU K.N. 2",
+   "partId": 420746
+  },
+  {
+   "partNumber": 304,
+   "partName": "P.S. MADORA K.N. 1",
+   "partId": 420747
+  },
+  {
+   "partNumber": 305,
+   "partName": "P.S. MADORA K.N. 2",
+   "partId": 420748
+  },
+  {
+   "partNumber": 306,
+   "partName": "P.S. MADORA K.N. 3",
+   "partId": 420749
+  },
+  {
+   "partNumber": 307,
+   "partName": "P.S. NAGLA BALI K.N. 1",
+   "partId": 420750
+  },
+  {
+   "partNumber": 308,
+   "partName": "P.S. NAGLA BALI K.N. 2",
+   "partId": 420751
+  },
+  {
+   "partNumber": 309,
+   "partName": "SHRI RATAN SINGH I.C. DAULATPUR K.N. 1",
+   "partId": 420766
+  },
+  {
+   "partNumber": 310,
+   "partName": "SHRI RATAN SINGH I.C. DAULATPUR K.N. 2",
+   "partId": 420767
+  },
+  {
+   "partNumber": 311,
+   "partName": "P.S. DABADUA",
+   "partId": 420768
+  },
+  {
+   "partNumber": 312,
+   "partName": "P.S. SHAHAJADPUR INDAVALI",
+   "partId": 420769
+  },
+  {
+   "partNumber": 313,
+   "partName": "P.S. LAHAROLI",
+   "partId": 420770
+  },
+  {
+   "partNumber": 314,
+   "partName": "P.S. NAGLA TEEKA",
+   "partId": 420771
+  },
+  {
+   "partNumber": 315,
+   "partName": "P.S. PURANI NAGLA BHALLA KHAND TATARAUTA K.N. 1",
+   "partId": 420772
+  },
+  {
+   "partNumber": 316,
+   "partName": "P.S. PURANI NAGLA BHALLA KHAND TATARAUTA K.N. 2",
+   "partId": 420773
+  },
+  {
+   "partNumber": 317,
+   "partName": "PANCHAYAT GHAR NAGLA ARJUN",
+   "partId": 420774
+  },
+  {
+   "partNumber": 318,
+   "partName": "P.S. KAMORA KANJAULIGHAT",
+   "partId": 420775
+  },
+  {
+   "partNumber": 319,
+   "partName": "P.S. NAGLA LEKHA",
+   "partId": 420785
+  },
+  {
+   "partNumber": 320,
+   "partName": "P.S. NAGLA RADHE KANJAULIGHAT",
+   "partId": 420786
+  },
+  {
+   "partNumber": 321,
+   "partName": "P.S. JADAUPUR",
+   "partId": 420787
+  },
+  {
+   "partNumber": 322,
+   "partName": "P.S.BHOODA",
+   "partId": 420905
+  },
+  {
+   "partNumber": 323,
+   "partName": "PS GADSAULI K.N. 1",
+   "partId": 420788
+  },
+  {
+   "partNumber": 324,
+   "partName": "PS GADSAULI K.N.2",
+   "partId": 420789
+  },
+  {
+   "partNumber": 325,
+   "partName": "P.S. BAROLI PRATHAM K.N. 1",
+   "partId": 420801
+  },
+  {
+   "partNumber": 326,
+   "partName": "P.S. BAROLI PRATHAM K.N. 2",
+   "partId": 420802
+  },
+  {
+   "partNumber": 327,
+   "partName": "P.S. BAROLI SECOND",
+   "partId": 420803
+  },
+  {
+   "partNumber": 328,
+   "partName": "P.S. GARHI MANGALI",
+   "partId": 420804
+  },
+  {
+   "partNumber": 329,
+   "partName": "P.M.V NAGLA SANJA BHAG AKOS K.N. 1",
+   "partId": 420805
+  },
+  {
+   "partNumber": 330,
+   "partName": "P.M.V. NAGLA SANJA BHAG AKOS K.N. 2",
+   "partId": 420806
+  },
+  {
+   "partNumber": 331,
+   "partName": "P.M.V. NAGLA SANJA BHAG AKOS K.N. 3",
+   "partId": 420807
+  },
+  {
+   "partNumber": 332,
+   "partName": "DEEWAN SINGH I.C. BURJ SUKHDEV",
+   "partId": 420808
+  },
+  {
+   "partNumber": 333,
+   "partName": "P.S. GARHI SAHIRAM",
+   "partId": 420809
+  },
+  {
+   "partNumber": 334,
+   "partName": "SAVILIYAT S. NAGLA TULA BURJ K.N. 1",
+   "partId": 420810
+  },
+  {
+   "partNumber": 335,
+   "partName": "SAVILIYAT S. NAGLA TULA BURJ K.N. 2",
+   "partId": 420811
+  },
+  {
+   "partNumber": 336,
+   "partName": "P.S. NAVEEN NIRMAN NAGLA BER",
+   "partId": 420812
+  },
+  {
+   "partNumber": 337,
+   "partName": "P.M.V GARHI ASHA BHAG AKOS",
+   "partId": 420813
+  },
+  {
+   "partNumber": 338,
+   "partName": "P.M.V NAGLA AKOS K.N. 1",
+   "partId": 420814
+  },
+  {
+   "partNumber": 339,
+   "partName": "PMV NAGLA AKOS K.N. 2",
+   "partId": 420925
+  },
+  {
+   "partNumber": 340,
+   "partName": "P.S. GARHI HULASI (NAGLA GUKHAROLI )K.N. 1",
+   "partId": 420815
+  },
+  {
+   "partNumber": 341,
+   "partName": "P.S. GARHI HULASI (NAGLA GUKHAROLI )K.N. 2",
+   "partId": 420816
+  },
+  {
+   "partNumber": 342,
+   "partName": "HIGHER P.S.SARAYSALVAHAN (CLASS 1 TO 8) K.N. 1",
+   "partId": 420817
+  },
+  {
+   "partNumber": 343,
+   "partName": "HIGHER P.S. SARAYSALVAHAN (CLASS 1 TO 8) K.N. 2",
+   "partId": 420818
+  },
+  {
+   "partNumber": 344,
+   "partName": "P.S. NERA K.N. 1",
+   "partId": 420819
+  },
+  {
+   "partNumber": 345,
+   "partName": "P.S. NERA K.N. 2",
+   "partId": 420820
+  },
+  {
+   "partNumber": 346,
+   "partName": "P.S. GARHI BADAM",
+   "partId": 420829
+  },
+  {
+   "partNumber": 347,
+   "partName": "HIGHER P.S. SEHAT (CLASS 1 TO 8)",
+   "partId": 420830
+  },
+  {
+   "partNumber": 348,
+   "partName": "P.S. MADAUR",
+   "partId": 420831
+  },
+  {
+   "partNumber": 349,
+   "partName": "P.S. GARHI KHUNDI",
+   "partId": 420832
+  },
+  {
+   "partNumber": 350,
+   "partName": "P.M.V. BARARI K.N. 1",
+   "partId": 420833
+  },
+  {
+   "partNumber": 351,
+   "partName": "P.M.V. BARARI K.N. 2",
+   "partId": 420834
+  },
+  {
+   "partNumber": 352,
+   "partName": "P.M.V. BARARI K.N. 3",
+   "partId": 420835
+  },
+  {
+   "partNumber": 353,
+   "partName": "P.M.V. BARARI K.N. 4",
+   "partId": 420836
+  },
+  {
+   "partNumber": 354,
+   "partName": "P.S. AMALA SULTANPUR",
+   "partId": 420837
+  },
+  {
+   "partNumber": 355,
+   "partName": "P.S. NAGLA MEDHAKI",
+   "partId": 420838
+  },
+  {
+   "partNumber": 356,
+   "partName": "P.S. LADPUR",
+   "partId": 420839
+  },
+  {
+   "partNumber": 357,
+   "partName": "SAVILIYAT V. NAGLA GYASI LADPUR K.N.1",
+   "partId": 420840
+  },
+  {
+   "partNumber": 358,
+   "partName": "SAVILIYAT V. NAGLA GYASI LADPUR K.N.2",
+   "partId": 420926
+  },
+  {
+   "partNumber": 359,
+   "partName": "P.S. BABURI K.N. 1",
+   "partId": 420841
+  },
+  {
+   "partNumber": 360,
+   "partName": "P.S. BABURI K.N. 2",
+   "partId": 420842
+  },
+  {
+   "partNumber": 361,
+   "partName": "P.S. JHANDIPUR K.N. 1",
+   "partId": 420843
+  },
+  {
+   "partNumber": 362,
+   "partName": "P.S. JHANDIPUR K.N. 2",
+   "partId": 420844
+  },
+  {
+   "partNumber": 363,
+   "partName": "P.S. BALARAI K.N. 1",
+   "partId": 420845
+  },
+  {
+   "partNumber": 364,
+   "partName": "PS BALRAI K.N.2",
+   "partId": 420927
+  },
+  {
+   "partNumber": 365,
+   "partName": "P.S. NAGALA CHHATTI",
+   "partId": 420846
+  },
+  {
+   "partNumber": 366,
+   "partName": "P.S. GARHAYA LATIFPUR  K.N. 1",
+   "partId": 420847
+  },
+  {
+   "partNumber": 367,
+   "partName": "P.S. GARHAYA LATIFPUR  K.N. 2",
+   "partId": 420848
+  },
+  {
+   "partNumber": 368,
+   "partName": "UCCH P.S. GARHAYA LATIFPUR (NAGLA JAUHARI)",
+   "partId": 420849
+  },
+  {
+   "partNumber": 369,
+   "partName": "P.S. SHAHPUR  FARAH",
+   "partId": 420850
+  },
+  {
+   "partNumber": 370,
+   "partName": "P.M.V. KHAIRAT",
+   "partId": 420851
+  },
+  {
+   "partNumber": 371,
+   "partName": "P.M.V. MAHUAN K.N. 1",
+   "partId": 420887
+  },
+  {
+   "partNumber": 372,
+   "partName": "P.M.V.MAHUAN R.N. 2",
+   "partId": 420906
+  },
+  {
+   "partNumber": 373,
+   "partName": "NAVEEN P.. MAHUAN K.N. 1",
+   "partId": 420888
+  },
+  {
+   "partNumber": 374,
+   "partName": "NAVEEN P.. MAHUAN K.N. 2",
+   "partId": 420889
+  },
+  {
+   "partNumber": 375,
+   "partName": "P.S. KURAKANDA",
+   "partId": 420890
+  },
+  {
+   "partNumber": 376,
+   "partName": "P.S. SANAURA  K.N. 1",
+   "partId": 420891
+  },
+  {
+   "partNumber": 377,
+   "partName": "P.S. SANAURA  K.N. 2",
+   "partId": 420892
+  },
+  {
+   "partNumber": 378,
+   "partName": "P.S. HATAWALI",
+   "partId": 420893
+  },
+  {
+   "partNumber": 379,
+   "partName": "P.S DAULATPUR FARAH K.N. 1",
+   "partId": 420894
+  },
+  {
+   "partNumber": 380,
+   "partName": "P.S. DAULATPUR FARAH K.N. 2",
+   "partId": 420895
+  },
+  {
+   "partNumber": 381,
+   "partName": "P.S. NAGLA FUSIYA",
+   "partId": 420896
+  },
+  {
+   "partNumber": 382,
+   "partName": "SETH PREM SUKHDAS BHAGAT I.C. FARAH K.N. 1",
+   "partId": 420897
+  },
+  {
+   "partNumber": 383,
+   "partName": "SETH PREM SUKHDAS BHAGAT I.C. FARAH K.N. 2",
+   "partId": 420898
+  },
+  {
+   "partNumber": 384,
+   "partName": "SETH PREM SUKHDAS BHAGAT I.C. FARAH K.N. 3",
+   "partId": 420899
+  },
+  {
+   "partNumber": 385,
+   "partName": "SETH PREM SUKHDAS BHAGAT I.C. FARAH K.N. 4",
+   "partId": 420900
+  },
+  {
+   "partNumber": 386,
+   "partName": "SETH PREM SUKHDAS BHAGAT I.C. FARAH K.N. 5",
+   "partId": 420901
+  },
+  {
+   "partNumber": 387,
+   "partName": "SETH PREM SUKHDAS BHAGAT I.C. FARAH K.N. 6",
+   "partId": 420902
+  },
+  {
+   "partNumber": 388,
+   "partName": "SETH PREM SUKHDAS BHAGAT I.C. FARAH K.N. 7",
+   "partId": 420903
+  },
+  {
+   "partNumber": 389,
+   "partName": "SETH PREM SUKHDAS BHAGAT  I.C. FARAH  K.N. 8",
+   "partId": 420928
+  },
+  {
+   "partNumber": 390,
+   "partName": "P.S. MIRJAPUR BRAHMNAN",
+   "partId": 420736
+  },
+  {
+   "partNumber": 391,
+   "partName": "P.S. THIRAWALI",
+   "partId": 420737
+  },
+  {
+   "partNumber": 392,
+   "partName": "P.S. DHARMPURA K.N. 1",
+   "partId": 420738
+  },
+  {
+   "partNumber": 393,
+   "partName": "P.S. DHARMPURA K.N. 2",
+   "partId": 420739
+  },
+  {
+   "partNumber": 394,
+   "partName": "P.S. PILUA SADIKPUR K.N. 1",
+   "partId": 420740
+  },
+  {
+   "partNumber": 395,
+   "partName": "P.S. PILUA SADIKPUR K.N. 2",
+   "partId": 420741
+  },
+  {
+   "partNumber": 396,
+   "partName": "P.S. GARHI RAMBAL",
+   "partId": 420752
+  },
+  {
+   "partNumber": 397,
+   "partName": "P.S. SARURPUR K.N. 1",
+   "partId": 420753
+  },
+  {
+   "partNumber": 398,
+   "partName": "PS SARURPUR K.N. 2",
+   "partId": 420929
+  },
+  {
+   "partNumber": 399,
+   "partName": "JAWAHAR I.C. OL K.N. 1",
+   "partId": 420754
+  },
+  {
+   "partNumber": 400,
+   "partName": "JAWAHAR I.C. OL K.N. 2",
+   "partId": 420755
+  },
+  {
+   "partNumber": 401,
+   "partName": "JAWAHAR I.C. OL K.N. 3",
+   "partId": 420756
+  },
+  {
+   "partNumber": 402,
+   "partName": "JAWAHAR I.C. OL K.N. 4",
+   "partId": 420757
+  },
+  {
+   "partNumber": 403,
+   "partName": "P.S. OL SECOND K.N. 1",
+   "partId": 420758
+  },
+  {
+   "partNumber": 404,
+   "partName": "P.S. OL SECOND K.N. 2",
+   "partId": 420759
+  },
+  {
+   "partNumber": 405,
+   "partName": "P.S. NAGLA TANGAR K.N. 1",
+   "partId": 420760
+  },
+  {
+   "partNumber": 406,
+   "partName": "PS NAGLA TANGAR K.N. 2",
+   "partId": 420930
+  },
+  {
+   "partNumber": 407,
+   "partName": "P.S. NAGLA JASARAM",
+   "partId": 420761
+  },
+  {
+   "partNumber": 408,
+   "partName": "P.S. IKADANTA",
+   "partId": 420762
+  },
+  {
+   "partNumber": 409,
+   "partName": "P.S. GANJAULI",
+   "partId": 420763
+  },
+  {
+   "partNumber": 410,
+   "partName": "P.S. SHAHAJADPUR GURJAR",
+   "partId": 420764
+  },
+  {
+   "partNumber": 411,
+   "partName": "P.S. CHAUKIPUR KALAN",
+   "partId": 420765
+  },
+  {
+   "partNumber": 412,
+   "partName": "P.S. LUHARA K.N. 1",
+   "partId": 420776
+  },
+  {
+   "partNumber": 413,
+   "partName": "P.S. LUHARA K.N. 2",
+   "partId": 420777
+  },
+  {
+   "partNumber": 414,
+   "partName": "P.S. BHADERUA K.N. 1",
+   "partId": 420778
+  },
+  {
+   "partNumber": 415,
+   "partName": "P.S. BHADERUA K.N. 2",
+   "partId": 420779
+  },
+  {
+   "partNumber": 416,
+   "partName": "P.S. NAGLA CHHITAR SINGH",
+   "partId": 420780
+  },
+  {
+   "partNumber": 417,
+   "partName": "P.S. NAGLA MAHADEV",
+   "partId": 420781
+  },
+  {
+   "partNumber": 418,
+   "partName": "P.S. JHUDAVAI K.N. 1",
+   "partId": 420782
+  },
+  {
+   "partNumber": 419,
+   "partName": "P.S. JHUDAVAI K.N. 2",
+   "partId": 420783
+  },
+  {
+   "partNumber": 420,
+   "partName": "P.M.V. JHUDAWAI K.N. 1",
+   "partId": 420784
+  },
+  {
+   "partNumber": 421,
+   "partName": "P.M.V. JHUDAWAI K.N. 2",
+   "partId": 420790
+  },
+  {
+   "partNumber": 422,
+   "partName": "P.S. KIRARAI K.N. 1",
+   "partId": 420791
+  },
+  {
+   "partNumber": 423,
+   "partName": "P.S. KIRARAI K.N. 2",
+   "partId": 420792
+  },
+  {
+   "partNumber": 424,
+   "partName": "P.S. VIRAUNA",
+   "partId": 420793
+  },
+  {
+   "partNumber": 425,
+   "partName": "P.S. DHANAJIWANA",
+   "partId": 420794
+  },
+  {
+   "partNumber": 426,
+   "partName": "RAJKIY KANYA U.M.V. PARAKHAM K.N. 1",
+   "partId": 420795
+  },
+  {
+   "partNumber": 427,
+   "partName": "RAJKIY KANYA U.M.V. PARAKHAM K.N. 2",
+   "partId": 420796
+  },
+  {
+   "partNumber": 428,
+   "partName": "RAJKIY KANYA U.M.V. PARAKHAM K.N. 3",
+   "partId": 420797
+  },
+  {
+   "partNumber": 429,
+   "partName": "RAJKIY KANYA U.M.V. PARAKHAM K.N. 4",
+   "partId": 420798
+  },
+  {
+   "partNumber": 430,
+   "partName": "RAJKIY KANYA U.M.V. PARAKHAM K.N. 5",
+   "partId": 420799
+  },
+  {
+   "partNumber": 431,
+   "partName": "RAJKIY KANYA U.M.V. PARAKHAM K.N. 6",
+   "partId": 420800
+  },
+  {
+   "partNumber": 432,
+   "partName": "P.S. JAMALPUR",
+   "partId": 420821
+  },
+  {
+   "partNumber": 433,
+   "partName": "BRIJ KISAN M. SMARAK V.PARKHAM",
+   "partId": 420822
+  },
+  {
+   "partNumber": 434,
+   "partName": "P.S VISU K.N. 1",
+   "partId": 420823
+  },
+  {
+   "partNumber": 435,
+   "partName": "P.S VISU K.N. 2",
+   "partId": 420824
+  },
+  {
+   "partNumber": 436,
+   "partName": "NAVIN P.S.KAVAYLA",
+   "partId": 420825
+  },
+  {
+   "partNumber": 437,
+   "partName": "P.S.BAKALPUR",
+   "partId": 420826
+  },
+  {
+   "partNumber": 438,
+   "partName": "U.P.S MALIKPUR (CLASS 1 TO 8) K.N. 1",
+   "partId": 420827
+  },
+  {
+   "partNumber": 439,
+   "partName": "UPS MALIKPUR (CLASS 1 TO 8) K.N. 2",
+   "partId": 420931
+  },
+  {
+   "partNumber": 440,
+   "partName": "P.S NAGLA MUNNI",
+   "partId": 420828
+  },
+  {
+   "partNumber": 441,
+   "partName": "P.S. DHANATEJA K.N.1",
+   "partId": 420852
+  },
+  {
+   "partNumber": 442,
+   "partName": "PS DHANA TEJA K.N. 2",
+   "partId": 420932
+  },
+  {
+   "partNumber": 443,
+   "partName": "P.S. DHANATEJA K.N.3",
+   "partId": 420853
+  },
+  {
+   "partNumber": 444,
+   "partName": "P.S. KARANPUR",
+   "partId": 420854
+  },
+  {
+   "partNumber": 445,
+   "partName": "P.S. JIROLI",
+   "partId": 420855
+  },
+  {
+   "partNumber": 446,
+   "partName": "P.M.V. RAHIMPUR",
+   "partId": 420856
+  },
+  {
+   "partNumber": 447,
+   "partName": "P.S.HRIDAYANUR ULLAPUR",
+   "partId": 420857
+  },
+  {
+   "partNumber": 448,
+   "partName": "P.M.V. BARODA MASRAKPUR",
+   "partId": 420858
+  },
+  {
+   "partNumber": 449,
+   "partName": "P.S. GARHI BARODA",
+   "partId": 420859
+  },
+  {
+   "partNumber": 450,
+   "partName": "P.S NAGLA HARIYA",
+   "partId": 420860
+  },
+  {
+   "partNumber": 451,
+   "partName": "P.S NAGLA MIRJAPUR",
+   "partId": 420861
+  },
+  {
+   "partNumber": 452,
+   "partName": "P.S. DEENDAYAL DHAM K.N.1",
+   "partId": 420862
+  },
+  {
+   "partNumber": 453,
+   "partName": "P.S. DEENDAYAL DHAM K.N.2",
+   "partId": 420863
+  },
+  {
+   "partNumber": 454,
+   "partName": "P.S. MEGHPUR K.N. 1",
+   "partId": 420864
+  },
+  {
+   "partNumber": 455,
+   "partName": "PS MEGHPUR K.N. 2",
+   "partId": 420933
+  },
+  {
+   "partNumber": 456,
+   "partName": "P.S.JODHPUR",
+   "partId": 420865
+  },
+  {
+   "partNumber": 457,
+   "partName": "P.S. KOH K.N. 1",
+   "partId": 420866
+  },
+  {
+   "partNumber": 458,
+   "partName": "PS KOH K.N. 2",
+   "partId": 420934
+  },
+  {
+   "partNumber": 459,
+   "partName": "P.S.PIPROTH MURSIDPUR K.N.1",
+   "partId": 420867
+  },
+  {
+   "partNumber": 460,
+   "partName": "P.S.PIPROTH MURSIDPUR K.N.2",
+   "partId": 420868
+  },
+  {
+   "partNumber": 461,
+   "partName": "P.S. PINGARI K.N.1",
+   "partId": 420869
+  },
+  {
+   "partNumber": 462,
+   "partName": "PS PINGARI K.N.2",
+   "partId": 420935
+  },
+  {
+   "partNumber": 463,
+   "partName": "P.S. PINGARI K.N.3",
+   "partId": 420870
+  },
+  {
+   "partNumber": 464,
+   "partName": "P.S. BHOJPUR",
+   "partId": 420871
+  },
+  {
+   "partNumber": 465,
+   "partName": "P.S. DHANAKHEMA",
+   "partId": 420872
+  },
+  {
+   "partNumber": 466,
+   "partName": "P.S. BHIMNAGAR",
+   "partId": 420873
+  },
+  {
+   "partNumber": 467,
+   "partName": "P.S.GARHI ROSU",
+   "partId": 420874
+  },
+  {
+   "partNumber": 468,
+   "partName": "SAVILIYAT .S. FATEHA",
+   "partId": 420875
+  },
+  {
+   "partNumber": 469,
+   "partName": "P.S. JALAL",
+   "partId": 420876
+  },
+  {
+   "partNumber": 470,
+   "partName": "P.S. MAKHDUM K.N.1",
+   "partId": 420877
+  },
+  {
+   "partNumber": 471,
+   "partName": "P.S.MAKHDUM K.N.2",
+   "partId": 420878
+  },
+  {
+   "partNumber": 472,
+   "partName": "P.S. SALEMPUR FARAH",
+   "partId": 420879
+  },
+  {
+   "partNumber": 473,
+   "partName": "P.S.CHURMURA",
+   "partId": 420880
+  },
+  {
+   "partNumber": 474,
+   "partName": "P.S. GARHI GANGADHAR BHADAYA K.N.1",
+   "partId": 420881
+  },
+  {
+   "partNumber": 475,
+   "partName": "P.S. GARHI GANGADHAR BHADAYA K.N.2",
+   "partId": 420882
+  },
+  {
+   "partNumber": 476,
+   "partName": "P.S. SAHJADPUR PAURI K.N.1",
+   "partId": 420883
+  },
+  {
+   "partNumber": 477,
+   "partName": "PS SHAHJADPUR PAURI K.N.2",
+   "partId": 420936
+  },
+  {
+   "partNumber": 478,
+   "partName": "P.S. PAURI K.N. 1",
+   "partId": 420884
+  },
+  {
+   "partNumber": 479,
+   "partName": "PS PAURI K.N. 2",
+   "partId": 420937
+  },
+  {
+   "partNumber": 480,
+   "partName": "P.S. RAIPURA JAT K.N.1",
+   "partId": 420885
+  },
+  {
+   "partNumber": 481,
+   "partName": "P.S. RAIPURA JAT K.N. 2",
+   "partId": 420886
+  }
+ ]
+}

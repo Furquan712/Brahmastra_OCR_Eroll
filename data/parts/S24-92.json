@@ -1,0 +1,1967 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2408",
+ "acNumber": 92,
+ "fetchedAt": "2026-11-01T08:34:34",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 391,
+ "maxPart": 391,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "PRA.VI.SONIKHERA",
+   "partId": 353991
+  },
+  {
+   "partNumber": 2,
+   "partName": "PRA.VI.SONIKHERA K.N.2",
+   "partId": 353992
+  },
+  {
+   "partNumber": 3,
+   "partName": "PRA.VI.KONDARI",
+   "partId": 353993
+  },
+  {
+   "partNumber": 4,
+   "partName": "PRA.VI.SINGRAWALI",
+   "partId": 353994
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRA.VI.SHAHGANJ",
+   "partId": 353995
+  },
+  {
+   "partNumber": 6,
+   "partName": "PRA.VI.GARHI MOHAN",
+   "partId": 353996
+  },
+  {
+   "partNumber": 7,
+   "partName": "PU.MA.VI.RANDHIRPURA",
+   "partId": 353997
+  },
+  {
+   "partNumber": 8,
+   "partName": "PRA.VI.JAGATUPURA",
+   "partId": 353998
+  },
+  {
+   "partNumber": 9,
+   "partName": "PRA.VI.HANSPURA",
+   "partId": 353999
+  },
+  {
+   "partNumber": 10,
+   "partName": "PU.MA.VI.BASAI JAGNER",
+   "partId": 354000
+  },
+  {
+   "partNumber": 11,
+   "partName": "PRA.VI.BAG KA PURA",
+   "partId": 354001
+  },
+  {
+   "partNumber": 12,
+   "partName": "PRA.VI.KANSPURA",
+   "partId": 354002
+  },
+  {
+   "partNumber": 13,
+   "partName": "INTER COLLAGE TANTPUR K.N.1",
+   "partId": 354003
+  },
+  {
+   "partNumber": 14,
+   "partName": "INTER COLLAGE TANTPUR K.N.2",
+   "partId": 354004
+  },
+  {
+   "partNumber": 15,
+   "partName": "PRA.VI.KUKARSO K.N.1",
+   "partId": 354005
+  },
+  {
+   "partNumber": 16,
+   "partName": "PRA.VI.KUKARSO K.N.2",
+   "partId": 354006
+  },
+  {
+   "partNumber": 17,
+   "partName": "PRA.VI.HOLIPURA",
+   "partId": 354007
+  },
+  {
+   "partNumber": 18,
+   "partName": "PRA.VI.GHASKATA K.N.1",
+   "partId": 354008
+  },
+  {
+   "partNumber": 19,
+   "partName": "PRA.VI.GHASKATA.K.N2",
+   "partId": 354606
+  },
+  {
+   "partNumber": 20,
+   "partName": "PU.MA.VI.GUNGAWAD K.N.1",
+   "partId": 354009
+  },
+  {
+   "partNumber": 21,
+   "partName": "PU.MA.VI.GUNGAWAD K.N.2",
+   "partId": 354010
+  },
+  {
+   "partNumber": 22,
+   "partName": "PRA.VI.MUSALPUR K.N.1",
+   "partId": 354011
+  },
+  {
+   "partNumber": 23,
+   "partName": "PRA.VI.MUSALPUR.K.N2",
+   "partId": 354607
+  },
+  {
+   "partNumber": 24,
+   "partName": "PU.MA.VI.COMPOSITE CHACHAUND K.N.1",
+   "partId": 354012
+  },
+  {
+   "partNumber": 25,
+   "partName": "PU.MA.VI.COMPOSITE CHACHAUND K.N.2",
+   "partId": 354013
+  },
+  {
+   "partNumber": 26,
+   "partName": "PU.MA.VI.COMPOSITE TURKPURA K.N.1",
+   "partId": 354014
+  },
+  {
+   "partNumber": 27,
+   "partName": "PU.MA.VI.COMPOSITE TURKPURA K.N.2",
+   "partId": 354015
+  },
+  {
+   "partNumber": 28,
+   "partName": "PRA.VI.RICHHOHA",
+   "partId": 354016
+  },
+  {
+   "partNumber": 29,
+   "partName": "PU.MA.VI.RICHHOHA",
+   "partId": 354017
+  },
+  {
+   "partNumber": 30,
+   "partName": "PRA.VI.BHOJPURA",
+   "partId": 354018
+  },
+  {
+   "partNumber": 31,
+   "partName": "PRA.VI.VAJIDPUR",
+   "partId": 354019
+  },
+  {
+   "partNumber": 32,
+   "partName": "PRA.VI.GULABGANJ",
+   "partId": 354020
+  },
+  {
+   "partNumber": 33,
+   "partName": "PRA.VI.KATHUMARI",
+   "partId": 354021
+  },
+  {
+   "partNumber": 34,
+   "partName": "PU.MA.VI.COMPOSITE BHARA K.N.1",
+   "partId": 354029
+  },
+  {
+   "partNumber": 35,
+   "partName": "PU.MA.VI.COMPOSITE .BHARA K.N.2",
+   "partId": 354030
+  },
+  {
+   "partNumber": 36,
+   "partName": "PRA.VI.NAYAGAV K.N.1",
+   "partId": 354031
+  },
+  {
+   "partNumber": 37,
+   "partName": "PRA.VI.NAYAGAV K.N.2",
+   "partId": 354032
+  },
+  {
+   "partNumber": 38,
+   "partName": "PU.MA.VI.COMPOSITE DHANINA K.N.1",
+   "partId": 354033
+  },
+  {
+   "partNumber": 39,
+   "partName": "PU.MA.VI.COMPOSITE DHANINA K.N.2",
+   "partId": 354034
+  },
+  {
+   "partNumber": 40,
+   "partName": "PRA.VI.KACHHPURA",
+   "partId": 354035
+  },
+  {
+   "partNumber": 41,
+   "partName": "PRA.VI.JALALPUR",
+   "partId": 354036
+  },
+  {
+   "partNumber": 42,
+   "partName": "PRA.VI.KHAURPURA",
+   "partId": 354037
+  },
+  {
+   "partNumber": 43,
+   "partName": "PU.MA.VI.VARIGAWA KHURD K.N.1",
+   "partId": 354038
+  },
+  {
+   "partNumber": 44,
+   "partName": "PU.MA.VI.VARIGAWA KHURD K.N.2",
+   "partId": 354039
+  },
+  {
+   "partNumber": 45,
+   "partName": "PU.MA.VI.COMPOSITE NAGLA BHUMMA K.N.1",
+   "partId": 354040
+  },
+  {
+   "partNumber": 46,
+   "partName": "PU.MA.VI.COMPOSITE NAGLA BHUMMA K.N.2",
+   "partId": 354041
+  },
+  {
+   "partNumber": 47,
+   "partName": "PRA.VI.VAMNAI KALA K.N.1",
+   "partId": 354042
+  },
+  {
+   "partNumber": 48,
+   "partName": "PRA.VI.VAMNAI KALA K.N.2",
+   "partId": 354043
+  },
+  {
+   "partNumber": 49,
+   "partName": "PRA.VI.DAHGAWA K.N1",
+   "partId": 354044
+  },
+  {
+   "partNumber": 50,
+   "partName": "PRA.VI.DAHGAWA K.N2",
+   "partId": 354045
+  },
+  {
+   "partNumber": 51,
+   "partName": "PRA.VI.VARIGAWA BUJURG K.N.1",
+   "partId": 354046
+  },
+  {
+   "partNumber": 52,
+   "partName": "PRA.VI.VARIGAWA BUJURG K.N.2",
+   "partId": 354047
+  },
+  {
+   "partNumber": 53,
+   "partName": "PU.MA.VI.COMPOSITE SHAHPUR JAGNER",
+   "partId": 354048
+  },
+  {
+   "partNumber": 54,
+   "partName": "PU.MA.VI.COMPOSITE VI.DEVARI",
+   "partId": 354049
+  },
+  {
+   "partNumber": 55,
+   "partName": "V.N.SARRAF INTERCOLLAGE JAGNER PURVI BHAG K.N.1",
+   "partId": 354050
+  },
+  {
+   "partNumber": 56,
+   "partName": "V.N.SARRAF INTERCOLLAGE JAGNER PURVI BHAG K.N.2",
+   "partId": 354051
+  },
+  {
+   "partNumber": 57,
+   "partName": "V.N.SARRAF INTERCOLLAGE JAGNER PURVI BHAG K.N.3",
+   "partId": 354052
+  },
+  {
+   "partNumber": 58,
+   "partName": "V.N.SARRAF INTERCOLLAGE JAGNER PURVI BHAG K.N.4",
+   "partId": 354053
+  },
+  {
+   "partNumber": 59,
+   "partName": "V.N.SARRAF INTERCOLLAGE JAGNER PURVI BHAG K.N.5",
+   "partId": 354054
+  },
+  {
+   "partNumber": 60,
+   "partName": "V.N.SARRAF.INTER.COLLAGE JAGNERPASHCHIMIBHAG.K.N.6",
+   "partId": 354608
+  },
+  {
+   "partNumber": 61,
+   "partName": "V.N.SARRAF INTERCOLLAGE JAGNER PASHACHIMI BHAG K.N.7",
+   "partId": 354055
+  },
+  {
+   "partNumber": 62,
+   "partName": "V.N.SARRAF INTERCOLLAGE JAGNER PASHACHIMI BHAG K.N.8",
+   "partId": 354056
+  },
+  {
+   "partNumber": 63,
+   "partName": "JANATA INTER COLLAGE JAGNER K.N.1",
+   "partId": 354057
+  },
+  {
+   "partNumber": 64,
+   "partName": "JANATA INTER COLLAGE JAGNER K.N.2",
+   "partId": 354058
+  },
+  {
+   "partNumber": 65,
+   "partName": "JANATA INTER COLLAGE JAGNER K.N.3",
+   "partId": 354059
+  },
+  {
+   "partNumber": 66,
+   "partName": "PU.MA.VI.JAGNER K.N.1",
+   "partId": 354060
+  },
+  {
+   "partNumber": 67,
+   "partName": "PU.MA.VI.JAGNER K.N.2",
+   "partId": 354117
+  },
+  {
+   "partNumber": 68,
+   "partName": "PU.MA.VI.COMPOSITE VIDHAULI JAGNER",
+   "partId": 354118
+  },
+  {
+   "partNumber": 69,
+   "partName": "PU.MA.VI.COMPOSITE .BHAVANPURA K.N.1",
+   "partId": 354119
+  },
+  {
+   "partNumber": 70,
+   "partName": "PU.MA.VI.COMPOSITE.BHAWANPURA.K.N 2",
+   "partId": 354609
+  },
+  {
+   "partNumber": 71,
+   "partName": "PRA.VI.MEWALI K.N.1",
+   "partId": 354120
+  },
+  {
+   "partNumber": 72,
+   "partName": "PRA.VI.MEWALI K.N.2",
+   "partId": 354121
+  },
+  {
+   "partNumber": 73,
+   "partName": "PRA.VI.NAGLA BIRBHAN K.N.1",
+   "partId": 354122
+  },
+  {
+   "partNumber": 74,
+   "partName": "PRA.VI.NAGLA BIRBHAN K.N.2",
+   "partId": 354123
+  },
+  {
+   "partNumber": 75,
+   "partName": "PU.MA.VI.COMPOSITE VI.NAUNI K.N.1",
+   "partId": 354124
+  },
+  {
+   "partNumber": 76,
+   "partName": "PU.MA.VI.COMPOSITE NAUNI K.N.2",
+   "partId": 354125
+  },
+  {
+   "partNumber": 77,
+   "partName": "PU.MA.VI.COMPOSITE NAUNI K.N.3",
+   "partId": 354126
+  },
+  {
+   "partNumber": 78,
+   "partName": "PU.MA.VI.NAUNI K.N.1",
+   "partId": 354127
+  },
+  {
+   "partNumber": 79,
+   "partName": "PU.MA.VI.NAUNI K.N.2",
+   "partId": 354128
+  },
+  {
+   "partNumber": 80,
+   "partName": "PRA.VI.NAGLA IAMALI",
+   "partId": 354129
+  },
+  {
+   "partNumber": 81,
+   "partName": "PRA.VI.NAGLA KASIMPUR",
+   "partId": 354130
+  },
+  {
+   "partNumber": 82,
+   "partName": "PU.MA.VI.COMPOSITE NAGLA NAGU",
+   "partId": 354131
+  },
+  {
+   "partNumber": 83,
+   "partName": "PRA.VI.SINGAYACH K.N.1",
+   "partId": 354132
+  },
+  {
+   "partNumber": 84,
+   "partName": "PRA.VI.SINGAYACH K.N.2",
+   "partId": 354133
+  },
+  {
+   "partNumber": 85,
+   "partName": "PRA.VI.KHERA SINGAYACH",
+   "partId": 354134
+  },
+  {
+   "partNumber": 86,
+   "partName": "PU.MA.VI.COMPOSITE VI.PIPRAITHA K.N.1",
+   "partId": 354135
+  },
+  {
+   "partNumber": 87,
+   "partName": "PU.MA.VI.COMPOSITE VI.PIPRAITHA K.N.2",
+   "partId": 354136
+  },
+  {
+   "partNumber": 88,
+   "partName": "PRA.VI.USARRA",
+   "partId": 354137
+  },
+  {
+   "partNumber": 89,
+   "partName": "PU.MA.VI.COMPOSITE NIMAINA",
+   "partId": 354138
+  },
+  {
+   "partNumber": 90,
+   "partName": "PRA.VI.MIRJPURA",
+   "partId": 354139
+  },
+  {
+   "partNumber": 91,
+   "partName": "PU.MA.VI.COMPOSITE SARAINDHI K.N.1",
+   "partId": 354140
+  },
+  {
+   "partNumber": 92,
+   "partName": "PU.MA.VI.COMPOSITE SARAINDHI K.N.2",
+   "partId": 354141
+  },
+  {
+   "partNumber": 93,
+   "partName": "PU.MA.VI.COMPSITE.SARENDHI.K.N 3",
+   "partId": 354610
+  },
+  {
+   "partNumber": 94,
+   "partName": "PU.MA.VI.COMPOSITE SARAINDHI K.N.4",
+   "partId": 354142
+  },
+  {
+   "partNumber": 95,
+   "partName": "PU.MA.VI.COMPOSITE SARAINDHI K.N.5",
+   "partId": 354143
+  },
+  {
+   "partNumber": 96,
+   "partName": "KANYA PRA.VI.SARAINDHI K.N.1",
+   "partId": 354144
+  },
+  {
+   "partNumber": 97,
+   "partName": "KANYA PRA.VI.SARAINDHI K.N.2",
+   "partId": 354145
+  },
+  {
+   "partNumber": 98,
+   "partName": "PRA.VI.NAGLA HANSRAJ",
+   "partId": 354146
+  },
+  {
+   "partNumber": 99,
+   "partName": "PU.MA.VI.COMPOSITE CHANDSAURA K.N.1",
+   "partId": 354147
+  },
+  {
+   "partNumber": 100,
+   "partName": "PU.MA.VI.COMPOSITE CHANDSAURA K.N.2",
+   "partId": 354148
+  },
+  {
+   "partNumber": 101,
+   "partName": "PU.MA.VI.COMPOSITE UDAINA",
+   "partId": 354149
+  },
+  {
+   "partNumber": 102,
+   "partName": "PRA.VI.NAGLA PALTU K.N.1",
+   "partId": 354150
+  },
+  {
+   "partNumber": 103,
+   "partName": "PRA.VI.NAGLA PALTU K.N.2",
+   "partId": 354151
+  },
+  {
+   "partNumber": 104,
+   "partName": "PRA.VI.NAGLA RUDHI",
+   "partId": 354152
+  },
+  {
+   "partNumber": 105,
+   "partName": "PU.MA.VI.COMPOSITE .NAGLA DULHE KHAN",
+   "partId": 354153
+  },
+  {
+   "partNumber": 106,
+   "partName": "PU.MA.VI.COMPOSITE FAJIYAT PURA K.N.1",
+   "partId": 354154
+  },
+  {
+   "partNumber": 107,
+   "partName": "PU.MA.VI.COMPOSITE FAJIYAT PURA K.N.2",
+   "partId": 354155
+  },
+  {
+   "partNumber": 108,
+   "partName": "PRA.VI.KHERRA",
+   "partId": 354156
+  },
+  {
+   "partNumber": 109,
+   "partName": "PRA.VI.NARIPURA",
+   "partId": 354157
+  },
+  {
+   "partNumber": 110,
+   "partName": "PU.MA.VI.DANDA K.N.1",
+   "partId": 354158
+  },
+  {
+   "partNumber": 111,
+   "partName": "PU.MA.VI.DANDA K.N.2",
+   "partId": 354159
+  },
+  {
+   "partNumber": 112,
+   "partName": "PRA.VI.KULHADA",
+   "partId": 354160
+  },
+  {
+   "partNumber": 113,
+   "partName": "PU.MA.VI.COMPOSITE GARI TURSI",
+   "partId": 354161
+  },
+  {
+   "partNumber": 114,
+   "partName": "PRA.VI.GHUSIYANA K.N.1",
+   "partId": 354162
+  },
+  {
+   "partNumber": 115,
+   "partName": "PRA.VI.GHUSIYANA K.N.2",
+   "partId": 354163
+  },
+  {
+   "partNumber": 116,
+   "partName": "PRA.VI.RASULPUR K.N.1",
+   "partId": 354164
+  },
+  {
+   "partNumber": 117,
+   "partName": "PRA.VI.RASULPUR K.N.2",
+   "partId": 354165
+  },
+  {
+   "partNumber": 118,
+   "partName": "PANCHYAT GHAR RASULPUR",
+   "partId": 354166
+  },
+  {
+   "partNumber": 119,
+   "partName": "PU.MA.VI.COMPOSITE .ATA",
+   "partId": 354167
+  },
+  {
+   "partNumber": 120,
+   "partName": "PU.MA.VI.COMPOSITE .BHOPUR KHERAGARH",
+   "partId": 354168
+  },
+  {
+   "partNumber": 121,
+   "partName": "PU.MA.VI.COMPOSITE NAGLA VISHNU",
+   "partId": 354169
+  },
+  {
+   "partNumber": 122,
+   "partName": "PU.MA.VI.COMPSITE.NAGLAVISHNU.K.N.2",
+   "partId": 354611
+  },
+  {
+   "partNumber": 123,
+   "partName": "PU.MA.VI.COMPOSITE GARI KARANA",
+   "partId": 354170
+  },
+  {
+   "partNumber": 124,
+   "partName": "PRA.VI.GARHI MORA",
+   "partId": 354171
+  },
+  {
+   "partNumber": 125,
+   "partName": "PRA.VI.NAGLA KAMAL K.N.1",
+   "partId": 354172
+  },
+  {
+   "partNumber": 126,
+   "partName": "PRA.VI.NAGLA KAMAL K.N.2",
+   "partId": 354173
+  },
+  {
+   "partNumber": 127,
+   "partName": "PRA.VI.PIPALKHERA",
+   "partId": 354174
+  },
+  {
+   "partNumber": 128,
+   "partName": "PU.MA.VI.COMPOSITE PIPAL KHEARA K.N.1",
+   "partId": 354175
+  },
+  {
+   "partNumber": 129,
+   "partName": "PU.MA.VI.COMPOSITE PIPAL KHEARA K.N.2",
+   "partId": 354176
+  },
+  {
+   "partNumber": 130,
+   "partName": "PRA.VI.RAINANAGAR",
+   "partId": 354177
+  },
+  {
+   "partNumber": 131,
+   "partName": "PU.MA.VI.COMPOSITE PAHADI KALA K.N.1",
+   "partId": 354178
+  },
+  {
+   "partNumber": 132,
+   "partName": "PU.MA.VI.COMPOSITE PAHADI KALA K.N.2",
+   "partId": 354179
+  },
+  {
+   "partNumber": 133,
+   "partName": "PRA.VI.BARBAR K.N.1",
+   "partId": 354180
+  },
+  {
+   "partNumber": 134,
+   "partName": "PRA.VI.BARBAR K.N.2",
+   "partId": 354245
+  },
+  {
+   "partNumber": 135,
+   "partName": "PRA.VI.PREMNAGAR",
+   "partId": 354246
+  },
+  {
+   "partNumber": 136,
+   "partName": "PRA.VI.COMPOSITE SALEH NAGAR K.N.1",
+   "partId": 354247
+  },
+  {
+   "partNumber": 137,
+   "partName": "PRA.VI.COMPOSITE SALEH NAGAR K.N.2",
+   "partId": 354248
+  },
+  {
+   "partNumber": 138,
+   "partName": "PRA.VI.GARI TAL K.N.1",
+   "partId": 354249
+  },
+  {
+   "partNumber": 139,
+   "partName": "PRA.VI.GARI TAL K.N.2",
+   "partId": 354250
+  },
+  {
+   "partNumber": 140,
+   "partName": "PRA.VI.CHANDI",
+   "partId": 354251
+  },
+  {
+   "partNumber": 141,
+   "partName": "PRA.VI.BHILAWALI K.N.1",
+   "partId": 354252
+  },
+  {
+   "partNumber": 142,
+   "partName": "PRA.VI.BHILAWALI K.N.2",
+   "partId": 354253
+  },
+  {
+   "partNumber": 143,
+   "partName": "PRA.VI.BHILAWALI K.N.3",
+   "partId": 354254
+  },
+  {
+   "partNumber": 144,
+   "partName": "PRA.VI.VIDHAULI KHERAGARH",
+   "partId": 354255
+  },
+  {
+   "partNumber": 145,
+   "partName": "PRA.VI.KUKANDAI",
+   "partId": 354256
+  },
+  {
+   "partNumber": 146,
+   "partName": "PRA.VI.DUGARWALA",
+   "partId": 354257
+  },
+  {
+   "partNumber": 147,
+   "partName": "PRA.VI.KUSIYAPUR",
+   "partId": 354258
+  },
+  {
+   "partNumber": 148,
+   "partName": "PRA.VI.KACHHPURA",
+   "partId": 354259
+  },
+  {
+   "partNumber": 149,
+   "partName": "PU.MA.VI.COMPOSITE UATGIR K.N.1",
+   "partId": 354260
+  },
+  {
+   "partNumber": 150,
+   "partName": "PU.MA.VI.COMPOSITE UNTGIR K.N.2",
+   "partId": 354261
+  },
+  {
+   "partNumber": 151,
+   "partName": "PU.MA.VI.COMPOSITE .KHERAGARH K.N.1",
+   "partId": 354262
+  },
+  {
+   "partNumber": 152,
+   "partName": "PU.MA.VI.COMPOSITE .KHERAGARH K.N.2",
+   "partId": 354263
+  },
+  {
+   "partNumber": 153,
+   "partName": "PU.MA.VI.COMPOSITE .KHERAGARH K.N.3",
+   "partId": 354264
+  },
+  {
+   "partNumber": 154,
+   "partName": "PU.MA.VI.COMPOSITE .KHERAGARH K.N.4",
+   "partId": 354265
+  },
+  {
+   "partNumber": 155,
+   "partName": "PRAKSHISHAN KAKASH BLOCK SANSHADHAN KENDRA KHERAGARH.K.N,1",
+   "partId": 354266
+  },
+  {
+   "partNumber": 156,
+   "partName": "RAJKIY BALIKA INTER COLLEGE KHERAGARH K.N.1",
+   "partId": 354267
+  },
+  {
+   "partNumber": 157,
+   "partName": "RAJKIY BALIKA INTER COLLEGE KHERAGARH K.N.2",
+   "partId": 354268
+  },
+  {
+   "partNumber": 158,
+   "partName": "RAJKIY BALIKA INTER COLLEGE KHERAGARH K.N.3",
+   "partId": 354269
+  },
+  {
+   "partNumber": 159,
+   "partName": "RAJKIY BALIKA INTER COLLEGE KHERAGARH K.N.4",
+   "partId": 354270
+  },
+  {
+   "partNumber": 160,
+   "partName": "KASTURBA GANDHI AWASEEY VI. KHERAGARH K.N.1",
+   "partId": 354271
+  },
+  {
+   "partNumber": 161,
+   "partName": "KASTURBA GANDHI AWASEEY VI. KHERAGARH K.N.2",
+   "partId": 354272
+  },
+  {
+   "partNumber": 162,
+   "partName": "KANYA .JU.HA.SCHOOL KHERAGARH K.N.1",
+   "partId": 354273
+  },
+  {
+   "partNumber": 163,
+   "partName": "KANYA .JU.HA.SCHOOL KHERAGARH K.N.2",
+   "partId": 354274
+  },
+  {
+   "partNumber": 164,
+   "partName": "KANYA.JU.HA.SCHOOL .KHERAGARH K.N.3",
+   "partId": 354275
+  },
+  {
+   "partNumber": 165,
+   "partName": "PU.MA.VI.COMPOSITE KHANPUR K.N.1",
+   "partId": 354276
+  },
+  {
+   "partNumber": 166,
+   "partName": "PU.MA.VI.COMPOSITE KHANPUR K.N.2",
+   "partId": 354277
+  },
+  {
+   "partNumber": 167,
+   "partName": "PU.MA.VI.COMPOSITE LAKHANPURA K.N.1",
+   "partId": 354278
+  },
+  {
+   "partNumber": 168,
+   "partName": "PU.MA.VI.COMPOSITE LAKHANPURA K.N.2",
+   "partId": 354279
+  },
+  {
+   "partNumber": 169,
+   "partName": "PRA.VI.NAGLA UDAIYA K.N.1",
+   "partId": 354280
+  },
+  {
+   "partNumber": 170,
+   "partName": "PRA.VI.NAGLA UDAIYA K.N.2",
+   "partId": 354281
+  },
+  {
+   "partNumber": 171,
+   "partName": "PRA.VI.NAGLAUDAIYA.K.N.3",
+   "partId": 354612
+  },
+  {
+   "partNumber": 172,
+   "partName": "PU.MA.VI.COMPOSITE BURHARA K.N.1",
+   "partId": 354282
+  },
+  {
+   "partNumber": 173,
+   "partName": "PU.MA.VI.COMPOSITE BURHARA K.N.2",
+   "partId": 354283
+  },
+  {
+   "partNumber": 174,
+   "partName": "PRA.VI.CHEET K.N.1",
+   "partId": 354284
+  },
+  {
+   "partNumber": 175,
+   "partName": "PRA.VI.CHEET K.N.2",
+   "partId": 354285
+  },
+  {
+   "partNumber": 176,
+   "partName": "PU.MA.VI.CHEET K.N.1",
+   "partId": 354286
+  },
+  {
+   "partNumber": 177,
+   "partName": "PU.MA.VI.CHEET K.N.2",
+   "partId": 354287
+  },
+  {
+   "partNumber": 178,
+   "partName": "PU.MA.VI.COMPOSITE VAKALPUR",
+   "partId": 354288
+  },
+  {
+   "partNumber": 179,
+   "partName": "PU.MA.VI.COMPOSITE.VAKALPUR.K.N.2",
+   "partId": 354613
+  },
+  {
+   "partNumber": 180,
+   "partName": "PRA.VI.BHOJPURA",
+   "partId": 354289
+  },
+  {
+   "partNumber": 181,
+   "partName": "PU.MA.VI.COMPOSITE AURANG PUR K.N.1",
+   "partId": 354290
+  },
+  {
+   "partNumber": 182,
+   "partName": "PU.MA.VI.COMPOSITE AURANG PUR K.N.2",
+   "partId": 354291
+  },
+  {
+   "partNumber": 183,
+   "partName": "PU.MA.VI.KAGAROL K.N.1",
+   "partId": 354292
+  },
+  {
+   "partNumber": 184,
+   "partName": "PU.MA.VI.KAGARAUL.K.N.2",
+   "partId": 354614
+  },
+  {
+   "partNumber": 185,
+   "partName": "PU.MA.VI.KAGAROL K.N.3",
+   "partId": 354293
+  },
+  {
+   "partNumber": 186,
+   "partName": "PU.MA.VI.KAGAROL K.N.4",
+   "partId": 354294
+  },
+  {
+   "partNumber": 187,
+   "partName": "PU.MA.VI.KAGAROL K.N.5",
+   "partId": 354295
+  },
+  {
+   "partNumber": 188,
+   "partName": "PRA.VI.KAGAROL K.N.1",
+   "partId": 354296
+  },
+  {
+   "partNumber": 189,
+   "partName": "PRA.VI.KAGAROL K.N.2",
+   "partId": 354297
+  },
+  {
+   "partNumber": 190,
+   "partName": "PRA.VI.KAGARAUL.K.N.3",
+   "partId": 354615
+  },
+  {
+   "partNumber": 191,
+   "partName": "PRA.VI.KAGAROL K.N.4",
+   "partId": 354298
+  },
+  {
+   "partNumber": 192,
+   "partName": "PRA.VI.KAGAROL K.N.5",
+   "partId": 354299
+  },
+  {
+   "partNumber": 193,
+   "partName": "PRA.VI.BERICHAHAR K.N.1",
+   "partId": 354300
+  },
+  {
+   "partNumber": 194,
+   "partName": "PRA.VI.BERICHAHAR K.N.2",
+   "partId": 354301
+  },
+  {
+   "partNumber": 195,
+   "partName": "PRA.VI.BERICHAHAR K.N.3",
+   "partId": 354302
+  },
+  {
+   "partNumber": 196,
+   "partName": "PANCHAYAT GAR BERICHAHAR",
+   "partId": 354303
+  },
+  {
+   "partNumber": 197,
+   "partName": "PRA.VI.NAGLA MIRA",
+   "partId": 354304
+  },
+  {
+   "partNumber": 198,
+   "partName": "PRA.VI.GARHI KALIYA",
+   "partId": 354305
+  },
+  {
+   "partNumber": 199,
+   "partName": "PRA.VI.GARHMUKKHA K.N.1",
+   "partId": 354306
+  },
+  {
+   "partNumber": 200,
+   "partName": "PRA.VI.GARHMUKKHA K.N.2",
+   "partId": 354307
+  },
+  {
+   "partNumber": 201,
+   "partName": "PRA.VI.GARHMUKKHA K.N.3",
+   "partId": 354308
+  },
+  {
+   "partNumber": 202,
+   "partName": "PU.MA.VI.COMPOSITE BISALPUR K.N.1",
+   "partId": 354309
+  },
+  {
+   "partNumber": 203,
+   "partName": "PU.MA.VI.COMPOSITE BISALPUR K.N.2",
+   "partId": 354310
+  },
+  {
+   "partNumber": 204,
+   "partName": "PU.MA.VI.COMPOSITE BISALPUR K.N.3",
+   "partId": 354311
+  },
+  {
+   "partNumber": 205,
+   "partName": "PU.MA.VI.COMPOSITE BISALPUR K.N.4",
+   "partId": 354312
+  },
+  {
+   "partNumber": 206,
+   "partName": "PU.MA.VI.DIGRAUTA K.N.1",
+   "partId": 354313
+  },
+  {
+   "partNumber": 207,
+   "partName": "PU.MA.VI.DIGRAUTA K.N.2",
+   "partId": 354314
+  },
+  {
+   "partNumber": 208,
+   "partName": "PU.MA.VI.DIGRAUTA K.N.3",
+   "partId": 354315
+  },
+  {
+   "partNumber": 209,
+   "partName": "PRA.VI.DIGRAUTA K.N. 1",
+   "partId": 354316
+  },
+  {
+   "partNumber": 210,
+   "partName": "PRA.VI.DIGRAUTA K.N. 2",
+   "partId": 354317
+  },
+  {
+   "partNumber": 211,
+   "partName": "PRA.VI.VISHRAMPUR K.N.1",
+   "partId": 354318
+  },
+  {
+   "partNumber": 212,
+   "partName": "PRA.VI.VISHRAMPUR K.N.2",
+   "partId": 354319
+  },
+  {
+   "partNumber": 213,
+   "partName": "PRA.VI.GORAU",
+   "partId": 354320
+  },
+  {
+   "partNumber": 214,
+   "partName": "PRA.VI.SAUN K.N.1",
+   "partId": 354321
+  },
+  {
+   "partNumber": 215,
+   "partName": "PRA.VI.SAUN K.N.2",
+   "partId": 354322
+  },
+  {
+   "partNumber": 216,
+   "partName": "GANESHILAL .PU.MA.VI.SAUN",
+   "partId": 354323
+  },
+  {
+   "partNumber": 217,
+   "partName": "PRA.VI.SAUN KA BADA NAGLA",
+   "partId": 354324
+  },
+  {
+   "partNumber": 218,
+   "partName": "PU.MA.VI.COMPOSITE BHAKAR K.N. 1",
+   "partId": 354325
+  },
+  {
+   "partNumber": 219,
+   "partName": "PU.MA.VI.COMPOSITE BHAKAR K.N. 2",
+   "partId": 354326
+  },
+  {
+   "partNumber": 220,
+   "partName": "PU.MA.VI.COMPOSITE MAHUA KHERA K.N.1",
+   "partId": 354327
+  },
+  {
+   "partNumber": 221,
+   "partName": "PU.MA.VI.COMPOSITE MAHUA KHERA K.N.2",
+   "partId": 354328
+  },
+  {
+   "partNumber": 222,
+   "partName": "PU.MA.VI.LALPUR K.N.1",
+   "partId": 354329
+  },
+  {
+   "partNumber": 223,
+   "partName": "PU.MA.VI.LALPUR K.N.2",
+   "partId": 354330
+  },
+  {
+   "partNumber": 224,
+   "partName": "PRA.VI.SITAULI",
+   "partId": 354331
+  },
+  {
+   "partNumber": 225,
+   "partName": "PRA.VI.PAYRATIYA K.N,1",
+   "partId": 354332
+  },
+  {
+   "partNumber": 226,
+   "partName": "PRA.VI.PAYRATIYAK.N.2",
+   "partId": 354616
+  },
+  {
+   "partNumber": 227,
+   "partName": "PRA.VI.KHANKAGARH",
+   "partId": 354333
+  },
+  {
+   "partNumber": 228,
+   "partName": "PRA.VI.BASAI KHERAGARH K.N. 1",
+   "partId": 354334
+  },
+  {
+   "partNumber": 229,
+   "partName": "PRA.VI.BASAI KHERAGARH K.N. 2",
+   "partId": 354335
+  },
+  {
+   "partNumber": 230,
+   "partName": "PU.MA.VI.COMPOSITE BHAISON K.N. 1",
+   "partId": 354336
+  },
+  {
+   "partNumber": 231,
+   "partName": "PU.MA.VI.COMPOSITE BHAISON K.N. 2",
+   "partId": 354337
+  },
+  {
+   "partNumber": 232,
+   "partName": "PRA.VI.RUDAU",
+   "partId": 354338
+  },
+  {
+   "partNumber": 233,
+   "partName": "PRA.VI.JHIL KA PURA",
+   "partId": 354339
+  },
+  {
+   "partNumber": 234,
+   "partName": "PU.MA.VI.COMPOSITE DANKASHA",
+   "partId": 354340
+  },
+  {
+   "partNumber": 235,
+   "partName": "PU.MA.VI.COMPOSITE JODHAPURA K.N.1",
+   "partId": 354341
+  },
+  {
+   "partNumber": 236,
+   "partName": "PU.MA.VI.COMPOSITE JODHAPURA K.N.2",
+   "partId": 354342
+  },
+  {
+   "partNumber": 237,
+   "partName": "PRA.VI.KURRI",
+   "partId": 354343
+  },
+  {
+   "partNumber": 238,
+   "partName": "PU.MA.VI.COMPOSITE JAJAU",
+   "partId": 354344
+  },
+  {
+   "partNumber": 239,
+   "partName": "PU.MA.VI.COMPSITE.JAJAU K.N.2",
+   "partId": 354617
+  },
+  {
+   "partNumber": 240,
+   "partName": "PRA.VI.KACHHPURA",
+   "partId": 354345
+  },
+  {
+   "partNumber": 241,
+   "partName": "PRA.VI.SARAY JAJAU K.N.1",
+   "partId": 354346
+  },
+  {
+   "partNumber": 242,
+   "partName": "PRA.VI.SARAY JAJAU K.N.2",
+   "partId": 354347
+  },
+  {
+   "partNumber": 243,
+   "partName": "PRA.VI.GARHI PANCHHIPAL K.N.1",
+   "partId": 354348
+  },
+  {
+   "partNumber": 244,
+   "partName": "PRA.VI.GARIPANKSHIPAL.K.N.2",
+   "partId": 354618
+  },
+  {
+   "partNumber": 245,
+   "partName": "PRA.VI.NAGLA SABDAL",
+   "partId": 354349
+  },
+  {
+   "partNumber": 246,
+   "partName": "PU.MA.VI.AYELA K.N.1",
+   "partId": 354350
+  },
+  {
+   "partNumber": 247,
+   "partName": "PU.MA.VI.AYELA K.N.2",
+   "partId": 354351
+  },
+  {
+   "partNumber": 248,
+   "partName": "PRA.VI.AYELA K.N.1",
+   "partId": 354352
+  },
+  {
+   "partNumber": 249,
+   "partName": "PRA.VI.AYELA K.N.2",
+   "partId": 354353
+  },
+  {
+   "partNumber": 250,
+   "partName": "PRA.VI.BHAGWATPURA.K.N.1",
+   "partId": 354354
+  },
+  {
+   "partNumber": 251,
+   "partName": "PRA.VI.BHAGWATPURA.K.N.2",
+   "partId": 354619
+  },
+  {
+   "partNumber": 252,
+   "partName": "NAV.NRIMIT.PRA.VI.KHADAR.K.N.1",
+   "partId": 354355
+  },
+  {
+   "partNumber": 253,
+   "partName": "NAV NIRMIT PRA.VI.KHDAR.K.N.2",
+   "partId": 354620
+  },
+  {
+   "partNumber": 254,
+   "partName": "PRA.VI.NAGLA MAHAUR K.N.1",
+   "partId": 354356
+  },
+  {
+   "partNumber": 255,
+   "partName": "PRA.VI.NAGLAMAHAUR.K.N.2",
+   "partId": 354621
+  },
+  {
+   "partNumber": 256,
+   "partName": "PRA.VI.RITHAURI K.N.1",
+   "partId": 354357
+  },
+  {
+   "partNumber": 257,
+   "partName": "PRA.VI.RITHAURI K.N.2",
+   "partId": 354358
+  },
+  {
+   "partNumber": 258,
+   "partName": "PRA.VI.RITHAURI.K.N.3",
+   "partId": 354622
+  },
+  {
+   "partNumber": 259,
+   "partName": "PRA.VI.KUKAWAR",
+   "partId": 354359
+  },
+  {
+   "partNumber": 260,
+   "partName": "PRA.VI.NAGLA TEJA .K.N.1",
+   "partId": 354360
+  },
+  {
+   "partNumber": 261,
+   "partName": "PRA.VI.NAGLATEJA.K.N.2",
+   "partId": 354623
+  },
+  {
+   "partNumber": 262,
+   "partName": "PU.MA.VI.COMPOSITE NAGLA DHANIYA",
+   "partId": 354361
+  },
+  {
+   "partNumber": 263,
+   "partName": "PRA.VI.NAGLA DHOVI",
+   "partId": 354362
+  },
+  {
+   "partNumber": 264,
+   "partName": "PU.MA.VI.COMPOSITE VIRHARU K.N.1",
+   "partId": 354363
+  },
+  {
+   "partNumber": 265,
+   "partName": "PU.MA.VI.COMPOSITE VIRHARU K.N.2",
+   "partId": 354364
+  },
+  {
+   "partNumber": 266,
+   "partName": "PU.MA.VI.COMPOSITE VIRHARU K.N.3",
+   "partId": 354365
+  },
+  {
+   "partNumber": 267,
+   "partName": "PU.MA.VI.COMPOSITE VIRHARU K.N.4",
+   "partId": 354366
+  },
+  {
+   "partNumber": 268,
+   "partName": "PU.MA.VI.COMPOSITE JAUNAI K.N.1",
+   "partId": 354367
+  },
+  {
+   "partNumber": 269,
+   "partName": "PU.MA.VI.COMPOSITE JAUNAI K.N.2",
+   "partId": 354368
+  },
+  {
+   "partNumber": 270,
+   "partName": "PU.MA.VI.COMPOSITE.JAUNAI.K.N.3",
+   "partId": 354624
+  },
+  {
+   "partNumber": 271,
+   "partName": "PU.MA.VI.GARHI JAITU MURKIYA K.N.1",
+   "partId": 354369
+  },
+  {
+   "partNumber": 272,
+   "partName": "PU.MA.VI.GARHI JAITU MURKIYA K.N.2",
+   "partId": 354370
+  },
+  {
+   "partNumber": 273,
+   "partName": "PRA.VI.MURKIYA K.N.1",
+   "partId": 354371
+  },
+  {
+   "partNumber": 274,
+   "partName": "PRA.VI.MURKIYA K.N.2",
+   "partId": 354372
+  },
+  {
+   "partNumber": 275,
+   "partName": "PRA.VI.VISHARA K.N.1",
+   "partId": 354501
+  },
+  {
+   "partNumber": 276,
+   "partName": "PRA.VI.VISHARA K.N.2",
+   "partId": 354502
+  },
+  {
+   "partNumber": 277,
+   "partName": "PRA.VI.SIKANDARPUR K.N.1",
+   "partId": 354503
+  },
+  {
+   "partNumber": 278,
+   "partName": "PRA.VI.SIKANDARPUR K.N.2",
+   "partId": 354504
+  },
+  {
+   "partNumber": 279,
+   "partName": "PRA.VI.SIKANDARPUR KHURD",
+   "partId": 354505
+  },
+  {
+   "partNumber": 280,
+   "partName": "PRA.VI.KANCHANPUR K.N.1",
+   "partId": 354506
+  },
+  {
+   "partNumber": 281,
+   "partName": "PRA.VI.KANCHANPUR K.N.2",
+   "partId": 354507
+  },
+  {
+   "partNumber": 282,
+   "partName": "PRA.VI.TEHARA K.N. 1",
+   "partId": 354508
+  },
+  {
+   "partNumber": 283,
+   "partName": "PRA.VI.TEHARA K.N. 2",
+   "partId": 354509
+  },
+  {
+   "partNumber": 284,
+   "partName": "PU.MA.VI.TEHARA K.N.1",
+   "partId": 354510
+  },
+  {
+   "partNumber": 285,
+   "partName": "PU.MA.VI.TEHARA K.N.2",
+   "partId": 354511
+  },
+  {
+   "partNumber": 286,
+   "partName": "PRA.VI.NAGLA CHHAHARI.K.N.1",
+   "partId": 354512
+  },
+  {
+   "partNumber": 287,
+   "partName": "PRA.VI.NAGLACHHAHARI.K.N2",
+   "partId": 354625
+  },
+  {
+   "partNumber": 288,
+   "partName": "NAV.NRIMIT.PRA.VI.LAHCHORA K.N. 1",
+   "partId": 354513
+  },
+  {
+   "partNumber": 289,
+   "partName": "NAV.NRIMIT.PRA.VI.LAHCHORA K.N. 2",
+   "partId": 354514
+  },
+  {
+   "partNumber": 290,
+   "partName": "PRA.VI.VIRAI K.N.1",
+   "partId": 354515
+  },
+  {
+   "partNumber": 291,
+   "partName": "PRA.VI.VIRAI K.N.2",
+   "partId": 354516
+  },
+  {
+   "partNumber": 292,
+   "partName": "PRA.VI.VIRAI K.N.3",
+   "partId": 354517
+  },
+  {
+   "partNumber": 293,
+   "partName": "PRA.VI.VIRAI.K.N.4",
+   "partId": 354626
+  },
+  {
+   "partNumber": 294,
+   "partName": "PU.MA.VI.COMPOSITE TAHARPUR K.N.1",
+   "partId": 354518
+  },
+  {
+   "partNumber": 295,
+   "partName": "PU.MA.VI.COMPOSITE TAHARPUR K.N.2",
+   "partId": 354627
+  },
+  {
+   "partNumber": 296,
+   "partName": "PRA.VI.CHHITAPURA NAGLA VIRAI",
+   "partId": 354519
+  },
+  {
+   "partNumber": 297,
+   "partName": "PRA.VI.SAURA K.N.1",
+   "partId": 354520
+  },
+  {
+   "partNumber": 298,
+   "partName": "PRA.VI.SAURA K.N.2",
+   "partId": 354521
+  },
+  {
+   "partNumber": 299,
+   "partName": "PRA.VI.SAURA.K.N.3",
+   "partId": 354628
+  },
+  {
+   "partNumber": 300,
+   "partName": "PRA.VI.DAKHALIPURA",
+   "partId": 354522
+  },
+  {
+   "partNumber": 301,
+   "partName": "PRA.VI.MAHARAJ SINGH KA PURA",
+   "partId": 354523
+  },
+  {
+   "partNumber": 302,
+   "partName": "PU.MA.VI.COMPOSITE VI.SAIYAN K.N. 1",
+   "partId": 354524
+  },
+  {
+   "partNumber": 303,
+   "partName": "PU.MA.VI.COMPOSITE.SAIYANK.N.2",
+   "partId": 354629
+  },
+  {
+   "partNumber": 304,
+   "partName": "PU.MA.VI.COMPOSITE VI.SAIYAN K.N. 3",
+   "partId": 354525
+  },
+  {
+   "partNumber": 305,
+   "partName": "PU.MA.VI.COMPOSITE .SAIYAN K.N. 4",
+   "partId": 354526
+  },
+  {
+   "partNumber": 306,
+   "partName": "PU.MA.VI.COMPOSITE.SAIYAN.K.N.5",
+   "partId": 354630
+  },
+  {
+   "partNumber": 307,
+   "partName": "PU.MA.VI.COMPOSITE VI.SAIYAN K.N. 6",
+   "partId": 354527
+  },
+  {
+   "partNumber": 308,
+   "partName": "PU.MA.VI.COMPOSITE VI.SAIYAN K.N. 7",
+   "partId": 354528
+  },
+  {
+   "partNumber": 309,
+   "partName": "PU.MA.VI.COMPOSITE VI.SAIYAN K.N. 8",
+   "partId": 354529
+  },
+  {
+   "partNumber": 310,
+   "partName": "PU.MA.VI.COMPOSITE VI.SAIYAN K.N. 9",
+   "partId": 354530
+  },
+  {
+   "partNumber": 311,
+   "partName": "PRA.VI.HIRODA K.N.1",
+   "partId": 354531
+  },
+  {
+   "partNumber": 312,
+   "partName": "PRA.VI.HIRODA K.N.2",
+   "partId": 354532
+  },
+  {
+   "partNumber": 313,
+   "partName": "PRA.VI.HIRODA K.N.3",
+   "partId": 354533
+  },
+  {
+   "partNumber": 314,
+   "partName": "PRA.VI.MUKHRAI",
+   "partId": 354534
+  },
+  {
+   "partNumber": 315,
+   "partName": "PRA.VI.SAMNTAPURA K.N.1",
+   "partId": 354535
+  },
+  {
+   "partNumber": 316,
+   "partName": "PRA.VI.SAMNTAPURA.K.N.2",
+   "partId": 354631
+  },
+  {
+   "partNumber": 317,
+   "partName": "PRA.VI.RAMPURA",
+   "partId": 354536
+  },
+  {
+   "partNumber": 318,
+   "partName": "SHANKARLAL RAM RAJ INTER COLLAGE LADUKHEDA K.N.1",
+   "partId": 354537
+  },
+  {
+   "partNumber": 319,
+   "partName": "SHANKARLAL RAM RAJ INTER COLLAGE LADUKHEDA K.N.2",
+   "partId": 354538
+  },
+  {
+   "partNumber": 320,
+   "partName": "SHANKARLAL RAM RAJ INTER COLLAGE LADUKHEDA K.N.3",
+   "partId": 354539
+  },
+  {
+   "partNumber": 321,
+   "partName": "PRA.VI.LACHCHHIPURA",
+   "partId": 354540
+  },
+  {
+   "partNumber": 322,
+   "partName": "PU.MA.VI.COMPOSITE AMARUPURA",
+   "partId": 354541
+  },
+  {
+   "partNumber": 323,
+   "partName": "PRA.VI.NAGLA MAUHARE",
+   "partId": 354542
+  },
+  {
+   "partNumber": 324,
+   "partName": "PU.MA.VI.COMPOSITE MAI",
+   "partId": 354543
+  },
+  {
+   "partNumber": 325,
+   "partName": "PRA.VI.GARHI GADSAN",
+   "partId": 354544
+  },
+  {
+   "partNumber": 326,
+   "partName": "PU.MA.VI.COMPOSITE GADSAN K.N.1",
+   "partId": 354545
+  },
+  {
+   "partNumber": 327,
+   "partName": "PU.MA.VI.COMPOSITE GADSAN K.N.2",
+   "partId": 354546
+  },
+  {
+   "partNumber": 328,
+   "partName": "PRA.VI.RAJPURA K.N.1",
+   "partId": 354547
+  },
+  {
+   "partNumber": 329,
+   "partName": "PRA.VI.RAJPURA K.N.2",
+   "partId": 354548
+  },
+  {
+   "partNumber": 330,
+   "partName": "PRA.VI.SHAHPUR NADIM",
+   "partId": 354549
+  },
+  {
+   "partNumber": 331,
+   "partName": "PU.MA.VI.COMPOSITE SIRODH PURA",
+   "partId": 354550
+  },
+  {
+   "partNumber": 332,
+   "partName": "PRA.VI.NADIM K.N.1",
+   "partId": 354551
+  },
+  {
+   "partNumber": 333,
+   "partName": "PRA.VI.NADIM K.N.2",
+   "partId": 354552
+  },
+  {
+   "partNumber": 334,
+   "partName": "PRA.VI.NADIM K.N.3",
+   "partId": 354553
+  },
+  {
+   "partNumber": 335,
+   "partName": "CHANDAN SINGH.JU.HA.SCHOOL CHHITAPURA MOTIPURA",
+   "partId": 354554
+  },
+  {
+   "partNumber": 336,
+   "partName": "PRA.VI.CHHITAPURA MOTIPURA (KHAGAR KA PURA)",
+   "partId": 354555
+  },
+  {
+   "partNumber": 337,
+   "partName": "PRA.VI.NAGLA IANAMI K.N.1",
+   "partId": 354556
+  },
+  {
+   "partNumber": 338,
+   "partName": "PPU.MA.VI.COMPOSITE JHILARA SYARMAU K.N.1",
+   "partId": 354557
+  },
+  {
+   "partNumber": 339,
+   "partName": "PPU.MA.VI.COMPOSITE JHILARA SYARMAU K.N.2",
+   "partId": 354558
+  },
+  {
+   "partNumber": 340,
+   "partName": "PU.MA.VI.COMPOSITE RAGUPURA",
+   "partId": 354559
+  },
+  {
+   "partNumber": 341,
+   "partName": "PRA.VI.AHIRPURA",
+   "partId": 354560
+  },
+  {
+   "partNumber": 342,
+   "partName": "PRA.VI.AARI",
+   "partId": 354561
+  },
+  {
+   "partNumber": 343,
+   "partName": "PRA.VI.NAUHRIKA",
+   "partId": 354562
+  },
+  {
+   "partNumber": 344,
+   "partName": "PU.MA.VI.COMPOSITE NAGLA SHEKHUPUR",
+   "partId": 354563
+  },
+  {
+   "partNumber": 345,
+   "partName": "PRA.VI.MAHAV K.N.1",
+   "partId": 354564
+  },
+  {
+   "partNumber": 346,
+   "partName": "PRA.VI.MAHAV K.N.2",
+   "partId": 354565
+  },
+  {
+   "partNumber": 347,
+   "partName": "PRA.VI.MAHAV.K.N.3",
+   "partId": 354632
+  },
+  {
+   "partNumber": 348,
+   "partName": "PU.MA.VI.COMPOSITE MOHANPUR",
+   "partId": 354566
+  },
+  {
+   "partNumber": 349,
+   "partName": "PRA.VI.VANVARIYAPURA",
+   "partId": 354567
+  },
+  {
+   "partNumber": 350,
+   "partName": "PRA.VI.VRATHALA K.N.1",
+   "partId": 354568
+  },
+  {
+   "partNumber": 351,
+   "partName": "PRA.VI.VRATHALA K.N.2",
+   "partId": 354569
+  },
+  {
+   "partNumber": 352,
+   "partName": "PRA.VI.VARPURA",
+   "partId": 354570
+  },
+  {
+   "partNumber": 353,
+   "partName": "PRA.VI.SILOKHAR",
+   "partId": 354571
+  },
+  {
+   "partNumber": 354,
+   "partName": "PRA.VI.BHARBHUJA PURA K.N.1",
+   "partId": 354572
+  },
+  {
+   "partNumber": 355,
+   "partName": "PRA.VI.BHARBHUJA PURA K.N.2",
+   "partId": 354573
+  },
+  {
+   "partNumber": 356,
+   "partName": "PU.MA.VI.COMPOSITE KHEDIYA K.N.1",
+   "partId": 354574
+  },
+  {
+   "partNumber": 357,
+   "partName": "PU.MA.VI.COMPOSITE KHEDIYA K.N.2",
+   "partId": 354575
+  },
+  {
+   "partNumber": 358,
+   "partName": "KISAN INTER COLLAGE DUNDIPURA K.N.1",
+   "partId": 354576
+  },
+  {
+   "partNumber": 359,
+   "partName": "KISAN INTER COLLAGE DUNDIPURA K.N.2",
+   "partId": 354633
+  },
+  {
+   "partNumber": 360,
+   "partName": "KISAN INTER COLLAGE DUNDIPURA K.N.3",
+   "partId": 354577
+  },
+  {
+   "partNumber": 361,
+   "partName": "PRA.VI.GARHI AHIR",
+   "partId": 354578
+  },
+  {
+   "partNumber": 362,
+   "partName": "PRA.VI.RAHLAI K.N.1",
+   "partId": 354579
+  },
+  {
+   "partNumber": 363,
+   "partName": "PRA.VI.RAHLAI K.N.2",
+   "partId": 354580
+  },
+  {
+   "partNumber": 364,
+   "partName": "PRA.VI.RAHLAI K.N.3",
+   "partId": 354581
+  },
+  {
+   "partNumber": 365,
+   "partName": "PU.MA.VI.COMPOSITE PACHMORI K.N.1",
+   "partId": 354582
+  },
+  {
+   "partNumber": 366,
+   "partName": "PU.MA.VI.COMPOSITE.PACHMORI.K.N.2",
+   "partId": 354634
+  },
+  {
+   "partNumber": 367,
+   "partName": "SARV.INTER COLLAGE IRADATNAGAR K.N.1",
+   "partId": 354583
+  },
+  {
+   "partNumber": 368,
+   "partName": "SARV.INTER COLLAGE IRADATNAGAR K.N.2",
+   "partId": 354584
+  },
+  {
+   "partNumber": 369,
+   "partName": "SARV.INTER COLLAGE IRADATNAGAR K.N.3",
+   "partId": 354585
+  },
+  {
+   "partNumber": 370,
+   "partName": "PRA.VI.GAUHARRA BAVARPUR K.N.1",
+   "partId": 354586
+  },
+  {
+   "partNumber": 371,
+   "partName": "PRA.VI.GAUHARRABAVARPUR.K.N.2",
+   "partId": 354635
+  },
+  {
+   "partNumber": 372,
+   "partName": "PU.MA.VI.COMPOSITE BASAI KALA",
+   "partId": 354587
+  },
+  {
+   "partNumber": 373,
+   "partName": "PRA.VI.GUNJANPURA",
+   "partId": 354588
+  },
+  {
+   "partNumber": 374,
+   "partName": "PRA.VI.SADUPURA",
+   "partId": 354589
+  },
+  {
+   "partNumber": 375,
+   "partName": "PU.MA.VI.COMPOSITE THAPAIDA",
+   "partId": 354590
+  },
+  {
+   "partNumber": 376,
+   "partName": "PRA.VI.SHERPUR",
+   "partId": 354591
+  },
+  {
+   "partNumber": 377,
+   "partName": "PU.MA.VI.COMPOSITE PUSAINTA K.N.1",
+   "partId": 354592
+  },
+  {
+   "partNumber": 378,
+   "partName": "PU.MA.VI.COMPOSITE PUSAINTA K.N.2",
+   "partId": 354593
+  },
+  {
+   "partNumber": 379,
+   "partName": "PU.MA.VI.COMPOSITE PUSAINTA K.N.3",
+   "partId": 354594
+  },
+  {
+   "partNumber": 380,
+   "partName": "PRA.VI.MOTIYAPURA",
+   "partId": 354595
+  },
+  {
+   "partNumber": 381,
+   "partName": "PRA.VI.BHAJJUPURA",
+   "partId": 354596
+  },
+  {
+   "partNumber": 382,
+   "partName": "PRA.VI.BHAJJUPURA.K.N.2",
+   "partId": 354636
+  },
+  {
+   "partNumber": 383,
+   "partName": "PRA.VI.BHIDAWALI",
+   "partId": 354597
+  },
+  {
+   "partNumber": 384,
+   "partName": "PRA.VI.MOTIPURA",
+   "partId": 354598
+  },
+  {
+   "partNumber": 385,
+   "partName": "PRA.VI.MIHAVA .K.N.1",
+   "partId": 354599
+  },
+  {
+   "partNumber": 386,
+   "partName": "PRA.VI.MIHAVA .K.N.2",
+   "partId": 354600
+  },
+  {
+   "partNumber": 387,
+   "partName": "PRA.VI.CHHATTAPURA",
+   "partId": 354601
+  },
+  {
+   "partNumber": 388,
+   "partName": "PU.MA.VI.COMPOSITE MAHDEVA K.N.1",
+   "partId": 354602
+  },
+  {
+   "partNumber": 389,
+   "partName": "PU.MA.VI.COMPOSITE MAHDEVA K.N.2",
+   "partId": 354603
+  },
+  {
+   "partNumber": 390,
+   "partName": "PU.MA.VI.COMPOSITE DARHAKI K.N.1",
+   "partId": 354604
+  },
+  {
+   "partNumber": 391,
+   "partName": "PU.MA.VI.COMPOSITE DARHAKI K.N.2",
+   "partId": 354605
+  }
+ ]
+}

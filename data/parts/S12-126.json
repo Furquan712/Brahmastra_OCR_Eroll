@@ -1,0 +1,1727 @@
+{
+ "stateCd": "S12",
+ "districtCd": "S1228",
+ "acNumber": 126,
+ "fetchedAt": "2026-11-02T01:47:24",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 343,
+ "maxPart": 343,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "GANGIWARA",
+   "partId": 189813
+  },
+  {
+   "partNumber": 2,
+   "partName": "GANGIWARA",
+   "partId": 189685
+  },
+  {
+   "partNumber": 3,
+   "partName": "GANGIWARA",
+   "partId": 189705
+  },
+  {
+   "partNumber": 4,
+   "partName": "MOADEI",
+   "partId": 189706
+  },
+  {
+   "partNumber": 5,
+   "partName": "MANEGAON",
+   "partId": 189852
+  },
+  {
+   "partNumber": 6,
+   "partName": "DUNGARIYA",
+   "partId": 189853
+  },
+  {
+   "partNumber": 7,
+   "partName": "KARABOH (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189854
+  },
+  {
+   "partNumber": 8,
+   "partName": "KARABOH (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189883
+  },
+  {
+   "partNumber": 9,
+   "partName": "PARTALA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189571
+  },
+  {
+   "partNumber": 10,
+   "partName": "PARTALA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189839
+  },
+  {
+   "partNumber": 11,
+   "partName": "PARTALA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189572
+  },
+  {
+   "partNumber": 12,
+   "partName": "PARTALA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189827
+  },
+  {
+   "partNumber": 13,
+   "partName": "PARTALA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189684
+  },
+  {
+   "partNumber": 14,
+   "partName": "POAMA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189573
+  },
+  {
+   "partNumber": 15,
+   "partName": "Poama (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189884
+  },
+  {
+   "partNumber": 16,
+   "partName": "POAMA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189691
+  },
+  {
+   "partNumber": 17,
+   "partName": "GURAIYA (DHANA)",
+   "partId": 189574
+  },
+  {
+   "partNumber": 18,
+   "partName": "GURAIYA",
+   "partId": 189690
+  },
+  {
+   "partNumber": 19,
+   "partName": "GURAIYA",
+   "partId": 189575
+  },
+  {
+   "partNumber": 20,
+   "partName": "GURAIYA",
+   "partId": 189832
+  },
+  {
+   "partNumber": 21,
+   "partName": "GURAIYA",
+   "partId": 189576
+  },
+  {
+   "partNumber": 22,
+   "partName": "GURAIYA (DHANA)",
+   "partId": 189838
+  },
+  {
+   "partNumber": 23,
+   "partName": "BHAISADAND",
+   "partId": 189577
+  },
+  {
+   "partNumber": 24,
+   "partName": "BHAISADAND",
+   "partId": 189630
+  },
+  {
+   "partNumber": 25,
+   "partName": "ROHNAKALA",
+   "partId": 189722
+  },
+  {
+   "partNumber": 26,
+   "partName": "ROHNAKALA",
+   "partId": 189831
+  },
+  {
+   "partNumber": 27,
+   "partName": "ROHNAKALA",
+   "partId": 189578
+  },
+  {
+   "partNumber": 28,
+   "partName": "ROHNAKALA",
+   "partId": 189830
+  },
+  {
+   "partNumber": 29,
+   "partName": "THUNIYAUDANA",
+   "partId": 189579
+  },
+  {
+   "partNumber": 30,
+   "partName": "THUNIYABHAND (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189580
+  },
+  {
+   "partNumber": 31,
+   "partName": "IMLIKHEDA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189581
+  },
+  {
+   "partNumber": 32,
+   "partName": "IMALEEKHEDA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189837
+  },
+  {
+   "partNumber": 33,
+   "partName": "SARRA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189624
+  },
+  {
+   "partNumber": 34,
+   "partName": "SARRA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189878
+  },
+  {
+   "partNumber": 35,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189803
+  },
+  {
+   "partNumber": 36,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189804
+  },
+  {
+   "partNumber": 37,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189879
+  },
+  {
+   "partNumber": 38,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189836
+  },
+  {
+   "partNumber": 39,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189805
+  },
+  {
+   "partNumber": 40,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189885
+  },
+  {
+   "partNumber": 41,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189829
+  },
+  {
+   "partNumber": 42,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189773
+  },
+  {
+   "partNumber": 43,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189806
+  },
+  {
+   "partNumber": 44,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189660
+  },
+  {
+   "partNumber": 45,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189835
+  },
+  {
+   "partNumber": 46,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189886
+  },
+  {
+   "partNumber": 47,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189840
+  },
+  {
+   "partNumber": 48,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189774
+  },
+  {
+   "partNumber": 49,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189723
+  },
+  {
+   "partNumber": 50,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189707
+  },
+  {
+   "partNumber": 51,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189841
+  },
+  {
+   "partNumber": 52,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189887
+  },
+  {
+   "partNumber": 53,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189828
+  },
+  {
+   "partNumber": 54,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189842
+  },
+  {
+   "partNumber": 55,
+   "partName": "CHANDANGAON (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189888
+  },
+  {
+   "partNumber": 56,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189679
+  },
+  {
+   "partNumber": 57,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189667
+  },
+  {
+   "partNumber": 58,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189680
+  },
+  {
+   "partNumber": 59,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189704
+  },
+  {
+   "partNumber": 60,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189681
+  },
+  {
+   "partNumber": 61,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189695
+  },
+  {
+   "partNumber": 62,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189682
+  },
+  {
+   "partNumber": 63,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189739
+  },
+  {
+   "partNumber": 64,
+   "partName": "LONIYA KARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189889
+  },
+  {
+   "partNumber": 65,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189694
+  },
+  {
+   "partNumber": 66,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189740
+  },
+  {
+   "partNumber": 67,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189693
+  },
+  {
+   "partNumber": 68,
+   "partName": "LONIYA KARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189826
+  },
+  {
+   "partNumber": 69,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189766
+  },
+  {
+   "partNumber": 70,
+   "partName": "LONIYAKARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189692
+  },
+  {
+   "partNumber": 71,
+   "partName": "LONIYA KARBAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189890
+  },
+  {
+   "partNumber": 72,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189767
+  },
+  {
+   "partNumber": 73,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189659
+  },
+  {
+   "partNumber": 74,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189768
+  },
+  {
+   "partNumber": 75,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189891
+  },
+  {
+   "partNumber": 76,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189658
+  },
+  {
+   "partNumber": 77,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189715
+  },
+  {
+   "partNumber": 78,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189892
+  },
+  {
+   "partNumber": 79,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189657
+  },
+  {
+   "partNumber": 80,
+   "partName": "KHAJRI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189893
+  },
+  {
+   "partNumber": 81,
+   "partName": "KUKDAJAGAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189716
+  },
+  {
+   "partNumber": 82,
+   "partName": "MOHARLI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189894
+  },
+  {
+   "partNumber": 83,
+   "partName": "KUKDAJAGAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189666
+  },
+  {
+   "partNumber": 84,
+   "partName": "KUKDAJAGAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189607
+  },
+  {
+   "partNumber": 85,
+   "partName": "KUKDAJAGAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189608
+  },
+  {
+   "partNumber": 86,
+   "partName": "KUKDAJAGAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189665
+  },
+  {
+   "partNumber": 87,
+   "partName": "KUKDAJAGAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189609
+  },
+  {
+   "partNumber": 88,
+   "partName": "KHERIBHOPAL (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189703
+  },
+  {
+   "partNumber": 89,
+   "partName": "KHAPABHAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189786
+  },
+  {
+   "partNumber": 90,
+   "partName": "KHAPABHAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189880
+  },
+  {
+   "partNumber": 91,
+   "partName": "KHAPABHAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189696
+  },
+  {
+   "partNumber": 92,
+   "partName": "KHAPABHAT (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189825
+  },
+  {
+   "partNumber": 93,
+   "partName": "BORIYA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189787
+  },
+  {
+   "partNumber": 94,
+   "partName": "BORIYA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189721
+  },
+  {
+   "partNumber": 95,
+   "partName": "SARASWARA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189876
+  },
+  {
+   "partNumber": 96,
+   "partName": "SONPUR (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189625
+  },
+  {
+   "partNumber": 97,
+   "partName": "SONPUR (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189895
+  },
+  {
+   "partNumber": 98,
+   "partName": "SONPUR (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189664
+  },
+  {
+   "partNumber": 99,
+   "partName": "MALHANWARA",
+   "partId": 189626
+  },
+  {
+   "partNumber": 100,
+   "partName": "ATARWARA",
+   "partId": 189653
+  },
+  {
+   "partNumber": 101,
+   "partName": "SONAKHAR (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189654
+  },
+  {
+   "partNumber": 102,
+   "partName": "SONAKHAR (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189896
+  },
+  {
+   "partNumber": 103,
+   "partName": "SONAKHAR (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189655
+  },
+  {
+   "partNumber": 104,
+   "partName": "EMALIYA BOHTA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189824
+  },
+  {
+   "partNumber": 105,
+   "partName": "KABADIYA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189656
+  },
+  {
+   "partNumber": 106,
+   "partName": "SEONI PRANAMOTI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189689
+  },
+  {
+   "partNumber": 107,
+   "partName": "SEONI PRANAMOTI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189897
+  },
+  {
+   "partNumber": 108,
+   "partName": "SEONI PRANAMOTI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189818
+  },
+  {
+   "partNumber": 109,
+   "partName": "SEONI PRANMOTI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189881
+  },
+  {
+   "partNumber": 110,
+   "partName": "SEONI PRANMOTI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189772
+  },
+  {
+   "partNumber": 111,
+   "partName": "KUSAMELI (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189843
+  },
+  {
+   "partNumber": 112,
+   "partName": "AJANIYA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189844
+  },
+  {
+   "partNumber": 113,
+   "partName": "LAHAGADUA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189845
+  },
+  {
+   "partNumber": 114,
+   "partName": "LAHAGADUA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189898
+  },
+  {
+   "partNumber": 115,
+   "partName": "LAHAGADUA  (CHOUKHADA DHANA) (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189817
+  },
+  {
+   "partNumber": 116,
+   "partName": "SARNA",
+   "partId": 189877
+  },
+  {
+   "partNumber": 117,
+   "partName": "SARNA",
+   "partId": 189588
+  },
+  {
+   "partNumber": 118,
+   "partName": "SARNA",
+   "partId": 189846
+  },
+  {
+   "partNumber": 119,
+   "partName": "DUNDA SEONI",
+   "partId": 189847
+  },
+  {
+   "partNumber": 120,
+   "partName": "CHARAGAON PRAHALAD",
+   "partId": 189848
+  },
+  {
+   "partNumber": 121,
+   "partName": "JHIRLINGA",
+   "partId": 189849
+  },
+  {
+   "partNumber": 122,
+   "partName": "ROHNAKHURD",
+   "partId": 189752
+  },
+  {
+   "partNumber": 123,
+   "partName": "JHANDA (NAGAR NIGAM CHHINDWARA)",
+   "partId": 189850
+  },
+  {
+   "partNumber": 124,
+   "partName": "KHAPA MITATHEKHA",
+   "partId": 189851
+  },
+  {
+   "partNumber": 125,
+   "partName": "KEVALARI",
+   "partId": 189730
+  },
+  {
+   "partNumber": 126,
+   "partName": "KACHARIYA",
+   "partId": 189620
+  },
+  {
+   "partNumber": 127,
+   "partName": "SOONKHAVA",
+   "partId": 189751
+  },
+  {
+   "partNumber": 128,
+   "partName": "BAMHANI",
+   "partId": 189621
+  },
+  {
+   "partNumber": 129,
+   "partName": "KAPARWADI",
+   "partId": 189622
+  },
+  {
+   "partNumber": 130,
+   "partName": "KAPARWADI",
+   "partId": 189663
+  },
+  {
+   "partNumber": 131,
+   "partName": "CHHINDA",
+   "partId": 189623
+  },
+  {
+   "partNumber": 132,
+   "partName": "CHHABADI",
+   "partId": 189672
+  },
+  {
+   "partNumber": 133,
+   "partName": "SEONIMEGHA",
+   "partId": 189673
+  },
+  {
+   "partNumber": 134,
+   "partName": "SEONIIMEGHA",
+   "partId": 189674
+  },
+  {
+   "partNumber": 135,
+   "partName": "LAKADAE JAMHODI",
+   "partId": 189769
+  },
+  {
+   "partNumber": 136,
+   "partName": "Lakdai Jamhodi",
+   "partId": 189899
+  },
+  {
+   "partNumber": 137,
+   "partName": "BANGAON",
+   "partId": 189872
+  },
+  {
+   "partNumber": 138,
+   "partName": "BANGAON",
+   "partId": 189750
+  },
+  {
+   "partNumber": 139,
+   "partName": "JAMUNIYA",
+   "partId": 189589
+  },
+  {
+   "partNumber": 140,
+   "partName": "JAMUNIYA",
+   "partId": 189587
+  },
+  {
+   "partNumber": 141,
+   "partName": "JAMUNIYA",
+   "partId": 189590
+  },
+  {
+   "partNumber": 142,
+   "partName": "PIPARIYALALU",
+   "partId": 189591
+  },
+  {
+   "partNumber": 143,
+   "partName": "RAJAKHOH",
+   "partId": 189592
+  },
+  {
+   "partNumber": 144,
+   "partName": "RAJAKHOH",
+   "partId": 189702
+  },
+  {
+   "partNumber": 145,
+   "partName": "SIHORA",
+   "partId": 189593
+  },
+  {
+   "partNumber": 146,
+   "partName": "SIHORA",
+   "partId": 189749
+  },
+  {
+   "partNumber": 147,
+   "partName": "KARAVE PIPARIYA",
+   "partId": 189594
+  },
+  {
+   "partNumber": 148,
+   "partName": "DAGAVANI PIPARIYA",
+   "partId": 189595
+  },
+  {
+   "partNumber": 149,
+   "partName": "THANVAREETEKA",
+   "partId": 189596
+  },
+  {
+   "partNumber": 150,
+   "partName": "CHAUSARA",
+   "partId": 189597
+  },
+  {
+   "partNumber": 151,
+   "partName": "MOHGAON",
+   "partId": 189770
+  },
+  {
+   "partNumber": 152,
+   "partName": "BHULA",
+   "partId": 189748
+  },
+  {
+   "partNumber": 153,
+   "partName": "KARAGHAT",
+   "partId": 189598
+  },
+  {
+   "partNumber": 154,
+   "partName": "DEVARDHA",
+   "partId": 189754
+  },
+  {
+   "partNumber": 155,
+   "partName": "NER",
+   "partId": 189755
+  },
+  {
+   "partNumber": 156,
+   "partName": "NER",
+   "partId": 189747
+  },
+  {
+   "partNumber": 157,
+   "partName": "CHANHIYA KALA",
+   "partId": 189756
+  },
+  {
+   "partNumber": 158,
+   "partName": "PANJARA",
+   "partId": 189757
+  },
+  {
+   "partNumber": 159,
+   "partName": "KHAIREEBHUTAEE",
+   "partId": 189758
+  },
+  {
+   "partNumber": 160,
+   "partName": "SURAGI",
+   "partId": 189759
+  },
+  {
+   "partNumber": 161,
+   "partName": "CHANHIYA KHURD",
+   "partId": 189760
+  },
+  {
+   "partNumber": 162,
+   "partName": "JATALAPUR",
+   "partId": 189761
+  },
+  {
+   "partNumber": 163,
+   "partName": "BOHNAKHARI  KHAIREELADDOO",
+   "partId": 189762
+  },
+  {
+   "partNumber": 164,
+   "partName": "KAKAI",
+   "partId": 189741
+  },
+  {
+   "partNumber": 165,
+   "partName": "JAMHODEEPANDA",
+   "partId": 189763
+  },
+  {
+   "partNumber": 166,
+   "partName": "BILVA",
+   "partId": 189823
+  },
+  {
+   "partNumber": 167,
+   "partName": "BHUTERA",
+   "partId": 189764
+  },
+  {
+   "partNumber": 168,
+   "partName": "DHANORAGOSANI",
+   "partId": 189601
+  },
+  {
+   "partNumber": 169,
+   "partName": "LONIYAMAROO",
+   "partId": 189602
+  },
+  {
+   "partNumber": 170,
+   "partName": "UMARIYAISARA",
+   "partId": 189603
+  },
+  {
+   "partNumber": 171,
+   "partName": "UMARIYAISARA",
+   "partId": 189746
+  },
+  {
+   "partNumber": 172,
+   "partName": "BOHANA",
+   "partId": 189782
+  },
+  {
+   "partNumber": 173,
+   "partName": "BOHANA",
+   "partId": 189820
+  },
+  {
+   "partNumber": 174,
+   "partName": "NAVEGAON",
+   "partId": 189631
+  },
+  {
+   "partNumber": 175,
+   "partName": "GHATAPARASIYA",
+   "partId": 189632
+  },
+  {
+   "partNumber": 176,
+   "partName": "GADHAMARI",
+   "partId": 189633
+  },
+  {
+   "partNumber": 177,
+   "partName": "SAHAJPURI",
+   "partId": 189819
+  },
+  {
+   "partNumber": 178,
+   "partName": "MARAI",
+   "partId": 189742
+  },
+  {
+   "partNumber": 179,
+   "partName": "PAKHADIYA",
+   "partId": 189822
+  },
+  {
+   "partNumber": 180,
+   "partName": "RANGEENAKHAPA",
+   "partId": 189790
+  },
+  {
+   "partNumber": 181,
+   "partName": "GHOGHARA",
+   "partId": 189791
+  },
+  {
+   "partNumber": 182,
+   "partName": "JHANJHARIYA KHUTIYA",
+   "partId": 189792
+  },
+  {
+   "partNumber": 183,
+   "partName": "JHANJHARIYA KHUTIYA",
+   "partId": 189671
+  },
+  {
+   "partNumber": 184,
+   "partName": "DHAMNIYA",
+   "partId": 189793
+  },
+  {
+   "partNumber": 185,
+   "partName": "KHAMRA",
+   "partId": 189794
+  },
+  {
+   "partNumber": 186,
+   "partName": "SHAHPURA",
+   "partId": 189795
+  },
+  {
+   "partNumber": 187,
+   "partName": "SONAPIPARI",
+   "partId": 189796
+  },
+  {
+   "partNumber": 188,
+   "partName": "PULAPULADOH",
+   "partId": 189683
+  },
+  {
+   "partNumber": 189,
+   "partName": "BHANADEEE",
+   "partId": 189645
+  },
+  {
+   "partNumber": 190,
+   "partName": "BIJEPANI",
+   "partId": 189646
+  },
+  {
+   "partNumber": 191,
+   "partName": "KOTALABARRI",
+   "partId": 189647
+  },
+  {
+   "partNumber": 192,
+   "partName": "KOTALABARRI",
+   "partId": 189701
+  },
+  {
+   "partNumber": 193,
+   "partName": "PINDRAIKALA",
+   "partId": 189648
+  },
+  {
+   "partNumber": 194,
+   "partName": "SUSARAI",
+   "partId": 189781
+  },
+  {
+   "partNumber": 195,
+   "partName": "SALAIYA",
+   "partId": 189743
+  },
+  {
+   "partNumber": 196,
+   "partName": "GHAGADIYA",
+   "partId": 189649
+  },
+  {
+   "partNumber": 197,
+   "partName": "THANVARI KALA",
+   "partId": 189650
+  },
+  {
+   "partNumber": 198,
+   "partName": "KUHIYA",
+   "partId": 189833
+  },
+  {
+   "partNumber": 199,
+   "partName": "KUHIYA",
+   "partId": 189670
+  },
+  {
+   "partNumber": 200,
+   "partName": "SUNAREEMOHAGANV",
+   "partId": 189834
+  },
+  {
+   "partNumber": 201,
+   "partName": "BHAJEEPANEEKALA",
+   "partId": 189724
+  },
+  {
+   "partNumber": 202,
+   "partName": "KHAPA KALA",
+   "partId": 189725
+  },
+  {
+   "partNumber": 203,
+   "partName": "UMARAHAR",
+   "partId": 189726
+  },
+  {
+   "partNumber": 204,
+   "partName": "UMARAHAR",
+   "partId": 189753
+  },
+  {
+   "partNumber": 205,
+   "partName": "MADANPUR",
+   "partId": 189717
+  },
+  {
+   "partNumber": 206,
+   "partName": "CHARAGANV",
+   "partId": 189718
+  },
+  {
+   "partNumber": 207,
+   "partName": "SANKH",
+   "partId": 189600
+  },
+  {
+   "partNumber": 208,
+   "partName": "SANKH",
+   "partId": 189669
+  },
+  {
+   "partNumber": 209,
+   "partName": "JATAMA",
+   "partId": 189744
+  },
+  {
+   "partNumber": 210,
+   "partName": "UBHEGAON",
+   "partId": 189735
+  },
+  {
+   "partNumber": 211,
+   "partName": "UBHEGAON",
+   "partId": 189662
+  },
+  {
+   "partNumber": 212,
+   "partName": "UBHEGAON",
+   "partId": 189736
+  },
+  {
+   "partNumber": 213,
+   "partName": "UBHEGAON",
+   "partId": 189668
+  },
+  {
+   "partNumber": 214,
+   "partName": "GONDARA",
+   "partId": 189737
+  },
+  {
+   "partNumber": 215,
+   "partName": "SAMARBOH",
+   "partId": 189738
+  },
+  {
+   "partNumber": 216,
+   "partName": "RAJANA",
+   "partId": 189697
+  },
+  {
+   "partNumber": 217,
+   "partName": "CHHINDWARA",
+   "partId": 189778
+  },
+  {
+   "partNumber": 218,
+   "partName": "CHHINDWARA",
+   "partId": 189698
+  },
+  {
+   "partNumber": 219,
+   "partName": "CHHINDWARA",
+   "partId": 189699
+  },
+  {
+   "partNumber": 220,
+   "partName": "CHHINDWARA",
+   "partId": 189900
+  },
+  {
+   "partNumber": 221,
+   "partName": "CHHINDWARA",
+   "partId": 189700
+  },
+  {
+   "partNumber": 222,
+   "partName": "CHHINDWARA",
+   "partId": 189816
+  },
+  {
+   "partNumber": 223,
+   "partName": "CHHINDWARA",
+   "partId": 189582
+  },
+  {
+   "partNumber": 224,
+   "partName": "CHHINDWARA",
+   "partId": 189815
+  },
+  {
+   "partNumber": 225,
+   "partName": "CHHINDWARA",
+   "partId": 189583
+  },
+  {
+   "partNumber": 226,
+   "partName": "CHHINDWARA",
+   "partId": 189814
+  },
+  {
+   "partNumber": 227,
+   "partName": "CHHINDWARA",
+   "partId": 189719
+  },
+  {
+   "partNumber": 228,
+   "partName": "CHHINDWARA",
+   "partId": 189901
+  },
+  {
+   "partNumber": 229,
+   "partName": "CHHINDWARA",
+   "partId": 189652
+  },
+  {
+   "partNumber": 230,
+   "partName": "CHHINDWARA",
+   "partId": 189902
+  },
+  {
+   "partNumber": 231,
+   "partName": "CHHINDWARA",
+   "partId": 189584
+  },
+  {
+   "partNumber": 232,
+   "partName": "CHHINDWARA",
+   "partId": 189585
+  },
+  {
+   "partNumber": 233,
+   "partName": "CHHINDWARA",
+   "partId": 189855
+  },
+  {
+   "partNumber": 234,
+   "partName": "CHHINDWARA",
+   "partId": 189882
+  },
+  {
+   "partNumber": 235,
+   "partName": "CHHINDWARA",
+   "partId": 189651
+  },
+  {
+   "partNumber": 236,
+   "partName": "CHHINDWARA",
+   "partId": 189856
+  },
+  {
+   "partNumber": 237,
+   "partName": "CHHINDWARA",
+   "partId": 189765
+  },
+  {
+   "partNumber": 238,
+   "partName": "CHHINDWARA",
+   "partId": 189863
+  },
+  {
+   "partNumber": 239,
+   "partName": "CHHINDWARA",
+   "partId": 189627
+  },
+  {
+   "partNumber": 240,
+   "partName": "CHHINDWARA",
+   "partId": 189864
+  },
+  {
+   "partNumber": 241,
+   "partName": "CHHINDWARA",
+   "partId": 189865
+  },
+  {
+   "partNumber": 242,
+   "partName": "CHHINDWARA",
+   "partId": 189776
+  },
+  {
+   "partNumber": 243,
+   "partName": "CHHINDWARA",
+   "partId": 189866
+  },
+  {
+   "partNumber": 244,
+   "partName": "CHHINDWARA",
+   "partId": 189729
+  },
+  {
+   "partNumber": 245,
+   "partName": "CHHINDWARA",
+   "partId": 189775
+  },
+  {
+   "partNumber": 246,
+   "partName": "CHHINDWARA",
+   "partId": 189797
+  },
+  {
+   "partNumber": 247,
+   "partName": "CHHINDWARA",
+   "partId": 189783
+  },
+  {
+   "partNumber": 248,
+   "partName": "CHHINDWARA",
+   "partId": 189798
+  },
+  {
+   "partNumber": 249,
+   "partName": "CHHINDWARA",
+   "partId": 189720
+  },
+  {
+   "partNumber": 250,
+   "partName": "CHHINDWARA",
+   "partId": 189903
+  },
+  {
+   "partNumber": 251,
+   "partName": "CHHINDWARA",
+   "partId": 189799
+  },
+  {
+   "partNumber": 252,
+   "partName": "CHHINDWARA",
+   "partId": 189800
+  },
+  {
+   "partNumber": 253,
+   "partName": "CHHINDWARA",
+   "partId": 189734
+  },
+  {
+   "partNumber": 254,
+   "partName": "CHHINDWARA",
+   "partId": 189904
+  },
+  {
+   "partNumber": 255,
+   "partName": "CHHINDWARA",
+   "partId": 189801
+  },
+  {
+   "partNumber": 256,
+   "partName": "CHHINDWARA",
+   "partId": 189733
+  },
+  {
+   "partNumber": 257,
+   "partName": "CHHINDWARA",
+   "partId": 189802
+  },
+  {
+   "partNumber": 258,
+   "partName": "CHHINDWARA",
+   "partId": 189643
+  },
+  {
+   "partNumber": 259,
+   "partName": "CHHINDWARA",
+   "partId": 189788
+  },
+  {
+   "partNumber": 260,
+   "partName": "CHHINDWARA",
+   "partId": 189642
+  },
+  {
+   "partNumber": 261,
+   "partName": "CHHINDWARA",
+   "partId": 189789
+  },
+  {
+   "partNumber": 262,
+   "partName": "CHHINDWARA",
+   "partId": 189905
+  },
+  {
+   "partNumber": 263,
+   "partName": "CHHINDWARA",
+   "partId": 189641
+  },
+  {
+   "partNumber": 264,
+   "partName": "CHHINDWARA",
+   "partId": 189811
+  },
+  {
+   "partNumber": 265,
+   "partName": "CHHINDWARA",
+   "partId": 189640
+  },
+  {
+   "partNumber": 266,
+   "partName": "CHHINDWARA",
+   "partId": 189906
+  },
+  {
+   "partNumber": 267,
+   "partName": "CHHINDWARA",
+   "partId": 189812
+  },
+  {
+   "partNumber": 268,
+   "partName": "CHHINDWARA",
+   "partId": 189639
+  },
+  {
+   "partNumber": 269,
+   "partName": "CHHINDWARA",
+   "partId": 189867
+  },
+  {
+   "partNumber": 270,
+   "partName": "CHHINDWARA",
+   "partId": 189638
+  },
+  {
+   "partNumber": 271,
+   "partName": "CHHINDWARA",
+   "partId": 189868
+  },
+  {
+   "partNumber": 272,
+   "partName": "CHHINDWARA",
+   "partId": 189869
+  },
+  {
+   "partNumber": 273,
+   "partName": "CHHINDWARA",
+   "partId": 189637
+  },
+  {
+   "partNumber": 274,
+   "partName": "CHHINDWARA",
+   "partId": 189870
+  },
+  {
+   "partNumber": 275,
+   "partName": "CHHINDWARA",
+   "partId": 189745
+  },
+  {
+   "partNumber": 276,
+   "partName": "CHHINDWARA",
+   "partId": 189871
+  },
+  {
+   "partNumber": 277,
+   "partName": "CHHINDWARA",
+   "partId": 189784
+  },
+  {
+   "partNumber": 278,
+   "partName": "CHHINDWARA",
+   "partId": 189675
+  },
+  {
+   "partNumber": 279,
+   "partName": "CHHINDWARA",
+   "partId": 189676
+  },
+  {
+   "partNumber": 280,
+   "partName": "CHHINDWARA",
+   "partId": 189907
+  },
+  {
+   "partNumber": 281,
+   "partName": "CHHINDWARA",
+   "partId": 189677
+  },
+  {
+   "partNumber": 282,
+   "partName": "CHHINDWARA",
+   "partId": 189732
+  },
+  {
+   "partNumber": 283,
+   "partName": "CHHINDWARA",
+   "partId": 189678
+  },
+  {
+   "partNumber": 284,
+   "partName": "CHHINDWARA",
+   "partId": 189731
+  },
+  {
+   "partNumber": 285,
+   "partName": "CHHINDWARA",
+   "partId": 189610
+  },
+  {
+   "partNumber": 286,
+   "partName": "CHHINDWARA",
+   "partId": 189636
+  },
+  {
+   "partNumber": 287,
+   "partName": "CHHINDWARA",
+   "partId": 189611
+  },
+  {
+   "partNumber": 288,
+   "partName": "CHHINDWARA",
+   "partId": 189635
+  },
+  {
+   "partNumber": 289,
+   "partName": "CHHINDWARA",
+   "partId": 189612
+  },
+  {
+   "partNumber": 290,
+   "partName": "CHHINDWARA",
+   "partId": 189613
+  },
+  {
+   "partNumber": 291,
+   "partName": "CHHINDWARA",
+   "partId": 189614
+  },
+  {
+   "partNumber": 292,
+   "partName": "CHHINDWARA",
+   "partId": 189615
+  },
+  {
+   "partNumber": 293,
+   "partName": "CHHINDWARA",
+   "partId": 189616
+  },
+  {
+   "partNumber": 294,
+   "partName": "CHHINDWARA",
+   "partId": 189661
+  },
+  {
+   "partNumber": 295,
+   "partName": "CHHINDWARA",
+   "partId": 189617
+  },
+  {
+   "partNumber": 296,
+   "partName": "CHHINDWARA",
+   "partId": 189634
+  },
+  {
+   "partNumber": 297,
+   "partName": "CHHINDWARA",
+   "partId": 189618
+  },
+  {
+   "partNumber": 298,
+   "partName": "CHHINDWARA",
+   "partId": 189862
+  },
+  {
+   "partNumber": 299,
+   "partName": "CHHINDWARA",
+   "partId": 189619
+  },
+  {
+   "partNumber": 300,
+   "partName": "CHHINDWARA",
+   "partId": 189908
+  },
+  {
+   "partNumber": 301,
+   "partName": "CHHINDWARA",
+   "partId": 189709
+  },
+  {
+   "partNumber": 302,
+   "partName": "CHHINDWARA",
+   "partId": 189710
+  },
+  {
+   "partNumber": 303,
+   "partName": "CHHINDWARA",
+   "partId": 189711
+  },
+  {
+   "partNumber": 304,
+   "partName": "CHHINDWARA",
+   "partId": 189909
+  },
+  {
+   "partNumber": 305,
+   "partName": "CHHINDWARA",
+   "partId": 189712
+  },
+  {
+   "partNumber": 306,
+   "partName": "CHHINDWARA",
+   "partId": 189861
+  },
+  {
+   "partNumber": 307,
+   "partName": "CHHINDWARA",
+   "partId": 189713
+  },
+  {
+   "partNumber": 308,
+   "partName": "CHHINDWARA",
+   "partId": 189809
+  },
+  {
+   "partNumber": 309,
+   "partName": "CHHINDWARA",
+   "partId": 189644
+  },
+  {
+   "partNumber": 310,
+   "partName": "CHHINDWARA",
+   "partId": 189810
+  },
+  {
+   "partNumber": 311,
+   "partName": "CHHINDWARA",
+   "partId": 189910
+  },
+  {
+   "partNumber": 312,
+   "partName": "CHHINDWARA",
+   "partId": 189586
+  },
+  {
+   "partNumber": 313,
+   "partName": "CHHINDWARA",
+   "partId": 189714
+  },
+  {
+   "partNumber": 314,
+   "partName": "CHHINDWARA",
+   "partId": 189708
+  },
+  {
+   "partNumber": 315,
+   "partName": "CHHINDWARA",
+   "partId": 189771
+  },
+  {
+   "partNumber": 316,
+   "partName": "CHHINDWARA",
+   "partId": 189873
+  },
+  {
+   "partNumber": 317,
+   "partName": "CHHINDWARA",
+   "partId": 189911
+  },
+  {
+   "partNumber": 318,
+   "partName": "CHHINDWARA",
+   "partId": 189785
+  },
+  {
+   "partNumber": 319,
+   "partName": "CHHINDWARA",
+   "partId": 189874
+  },
+  {
+   "partNumber": 320,
+   "partName": "CHHINDWARA",
+   "partId": 189875
+  },
+  {
+   "partNumber": 321,
+   "partName": "CHHINDWARA",
+   "partId": 189727
+  },
+  {
+   "partNumber": 322,
+   "partName": "CHHINDWARA",
+   "partId": 189728
+  },
+  {
+   "partNumber": 323,
+   "partName": "CHHINDWARA",
+   "partId": 189604
+  },
+  {
+   "partNumber": 324,
+   "partName": "CHHINDWARA",
+   "partId": 189860
+  },
+  {
+   "partNumber": 325,
+   "partName": "CHHINDWARA",
+   "partId": 189605
+  },
+  {
+   "partNumber": 326,
+   "partName": "CHHINDWARA",
+   "partId": 189859
+  },
+  {
+   "partNumber": 327,
+   "partName": "CHHINDWARA",
+   "partId": 189606
+  },
+  {
+   "partNumber": 328,
+   "partName": "CHHINDWARA",
+   "partId": 189599
+  },
+  {
+   "partNumber": 329,
+   "partName": "CHHINDWARA",
+   "partId": 189686
+  },
+  {
+   "partNumber": 330,
+   "partName": "CHHINDWARA",
+   "partId": 189687
+  },
+  {
+   "partNumber": 331,
+   "partName": "CHHINDWARA",
+   "partId": 189688
+  },
+  {
+   "partNumber": 332,
+   "partName": "CHHINDWARA",
+   "partId": 189912
+  },
+  {
+   "partNumber": 333,
+   "partName": "CHHINDWARA",
+   "partId": 189628
+  },
+  {
+   "partNumber": 334,
+   "partName": "CHHINDWARA",
+   "partId": 189629
+  },
+  {
+   "partNumber": 335,
+   "partName": "CHHINDWARA",
+   "partId": 189807
+  },
+  {
+   "partNumber": 336,
+   "partName": "CHHINDWARA",
+   "partId": 189858
+  },
+  {
+   "partNumber": 337,
+   "partName": "CHHINDWARA",
+   "partId": 189779
+  },
+  {
+   "partNumber": 338,
+   "partName": "CHHINDWARA",
+   "partId": 189808
+  },
+  {
+   "partNumber": 339,
+   "partName": "CHHINDWARA",
+   "partId": 189857
+  },
+  {
+   "partNumber": 340,
+   "partName": "CHHINDWARA",
+   "partId": 189780
+  },
+  {
+   "partNumber": 341,
+   "partName": "CHHINDWARA",
+   "partId": 189821
+  },
+  {
+   "partNumber": 342,
+   "partName": "CHHINDWARA",
+   "partId": 189777
+  },
+  {
+   "partNumber": 343,
+   "partName": "CHHINDWARA",
+   "partId": 189913
+  }
+ ]
+}

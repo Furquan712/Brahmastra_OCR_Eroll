@@ -1,0 +1,1862 @@
+{
+ "stateCd": "S12",
+ "districtCd": "S1228",
+ "acNumber": 123,
+ "fetchedAt": "2026-11-02T01:47:23",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 370,
+ "maxPart": 370,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "PALANIGAILADUBVA",
+   "partId": 214620
+  },
+  {
+   "partNumber": 2,
+   "partName": "GHATALINGA",
+   "partId": 214426
+  },
+  {
+   "partNumber": 3,
+   "partName": "BHODIYAPANI",
+   "partId": 214621
+  },
+  {
+   "partNumber": 4,
+   "partName": "BAKHARI",
+   "partId": 214622
+  },
+  {
+   "partNumber": 5,
+   "partName": "BIJORI",
+   "partId": 214418
+  },
+  {
+   "partNumber": 6,
+   "partName": "PANDU PIPARIYA",
+   "partId": 214419
+  },
+  {
+   "partNumber": 7,
+   "partName": "KHADUA",
+   "partId": 214549
+  },
+  {
+   "partNumber": 8,
+   "partName": "DHULANIYA",
+   "partId": 214420
+  },
+  {
+   "partNumber": 9,
+   "partName": "LINGA",
+   "partId": 214421
+  },
+  {
+   "partNumber": 10,
+   "partName": "JAITPUR",
+   "partId": 214422
+  },
+  {
+   "partNumber": 11,
+   "partName": "BANKI",
+   "partId": 214423
+  },
+  {
+   "partNumber": 12,
+   "partName": "MUARAKALA",
+   "partId": 214509
+  },
+  {
+   "partNumber": 13,
+   "partName": "JOGEEMUAR",
+   "partId": 214643
+  },
+  {
+   "partNumber": 14,
+   "partName": "GHATAMALI",
+   "partId": 214510
+  },
+  {
+   "partNumber": 15,
+   "partName": "MORDHANA",
+   "partId": 214511
+  },
+  {
+   "partNumber": 16,
+   "partName": "CHOPANA",
+   "partId": 214512
+  },
+  {
+   "partNumber": 17,
+   "partName": "MANKADEVRI",
+   "partId": 214602
+  },
+  {
+   "partNumber": 18,
+   "partName": "KHULASAN",
+   "partId": 214513
+  },
+  {
+   "partNumber": 19,
+   "partName": "KHULASAN",
+   "partId": 214601
+  },
+  {
+   "partNumber": 20,
+   "partName": "HIRRIPATHAR",
+   "partId": 214514
+  },
+  {
+   "partNumber": 21,
+   "partName": "KHIRETI MAL",
+   "partId": 214515
+  },
+  {
+   "partNumber": 22,
+   "partName": "BHAISMUNDA",
+   "partId": 214600
+  },
+  {
+   "partNumber": 23,
+   "partName": "LAKDA",
+   "partId": 214685
+  },
+  {
+   "partNumber": 24,
+   "partName": "CHORADONGARI",
+   "partId": 214516
+  },
+  {
+   "partNumber": 25,
+   "partName": "BIJORIPATHAR",
+   "partId": 214437
+  },
+  {
+   "partNumber": 26,
+   "partName": "MOHALIMATA MAL",
+   "partId": 214517
+  },
+  {
+   "partNumber": 27,
+   "partName": "BABAIPATHAR",
+   "partId": 214518
+  },
+  {
+   "partNumber": 28,
+   "partName": "NAGARI",
+   "partId": 214579
+  },
+  {
+   "partNumber": 29,
+   "partName": "JHIRAPANI",
+   "partId": 214580
+  },
+  {
+   "partNumber": 30,
+   "partName": "BAMADI",
+   "partId": 214644
+  },
+  {
+   "partNumber": 31,
+   "partName": "LOTIYA",
+   "partId": 214581
+  },
+  {
+   "partNumber": 32,
+   "partName": "LOTIYA",
+   "partId": 214701
+  },
+  {
+   "partNumber": 33,
+   "partName": "KUMHADI",
+   "partId": 214582
+  },
+  {
+   "partNumber": 34,
+   "partName": "DHODAMUAR",
+   "partId": 214686
+  },
+  {
+   "partNumber": 35,
+   "partName": "CHHINDI",
+   "partId": 214550
+  },
+  {
+   "partNumber": 36,
+   "partName": "CHHINDI",
+   "partId": 214439
+  },
+  {
+   "partNumber": 37,
+   "partName": "UMARAVAH",
+   "partId": 214551
+  },
+  {
+   "partNumber": 38,
+   "partName": "SIDHOLI",
+   "partId": 214645
+  },
+  {
+   "partNumber": 39,
+   "partName": "KAREAM RATED",
+   "partId": 214633
+  },
+  {
+   "partNumber": 40,
+   "partName": "THANAKHEDA",
+   "partId": 214646
+  },
+  {
+   "partNumber": 41,
+   "partName": "DONGRA",
+   "partId": 214647
+  },
+  {
+   "partNumber": 42,
+   "partName": "JADMADAL HARRAKACHHAR",
+   "partId": 214614
+  },
+  {
+   "partNumber": 43,
+   "partName": "KAMATHI",
+   "partId": 214648
+  },
+  {
+   "partNumber": 44,
+   "partName": "BHOIPAAR",
+   "partId": 214649
+  },
+  {
+   "partNumber": 45,
+   "partName": "MOYAKUHI",
+   "partId": 214413
+  },
+  {
+   "partNumber": 46,
+   "partName": "ATARIYA",
+   "partId": 214650
+  },
+  {
+   "partNumber": 47,
+   "partName": "ANAKHAVADI",
+   "partId": 214651
+  },
+  {
+   "partNumber": 48,
+   "partName": "BHAINSAKHOH",
+   "partId": 214652
+  },
+  {
+   "partNumber": 49,
+   "partName": "CHATANI",
+   "partId": 214359
+  },
+  {
+   "partNumber": 50,
+   "partName": "KAMATHA",
+   "partId": 214360
+  },
+  {
+   "partNumber": 51,
+   "partName": "DIGADAHAR",
+   "partId": 214361
+  },
+  {
+   "partNumber": 52,
+   "partName": "MADHI",
+   "partId": 214362
+  },
+  {
+   "partNumber": 53,
+   "partName": "CHILAK",
+   "partId": 214427
+  },
+  {
+   "partNumber": 54,
+   "partName": "KHIRKIGHAT",
+   "partId": 214613
+  },
+  {
+   "partNumber": 55,
+   "partName": "KHONKAURPHAOJHALADHANA",
+   "partId": 214363
+  },
+  {
+   "partNumber": 56,
+   "partName": "RATED",
+   "partId": 214612
+  },
+  {
+   "partNumber": 57,
+   "partName": "GANGAI",
+   "partId": 214394
+  },
+  {
+   "partNumber": 58,
+   "partName": "MUKAKHEDA",
+   "partId": 214442
+  },
+  {
+   "partNumber": 59,
+   "partName": "SANWLAKHEDA",
+   "partId": 214441
+  },
+  {
+   "partNumber": 60,
+   "partName": "CHURISAJAVA",
+   "partId": 214395
+  },
+  {
+   "partNumber": 61,
+   "partName": "SALADHANA",
+   "partId": 214414
+  },
+  {
+   "partNumber": 62,
+   "partName": "ANCHALKUND",
+   "partId": 214396
+  },
+  {
+   "partNumber": 63,
+   "partName": "BORPANI",
+   "partId": 214440
+  },
+  {
+   "partNumber": 64,
+   "partName": "BANKA",
+   "partId": 214397
+  },
+  {
+   "partNumber": 65,
+   "partName": "CHOURASI",
+   "partId": 214398
+  },
+  {
+   "partNumber": 66,
+   "partName": "DENDU",
+   "partId": 214399
+  },
+  {
+   "partNumber": 67,
+   "partName": "BELPATHAR",
+   "partId": 214400
+  },
+  {
+   "partNumber": 68,
+   "partName": "DAMAKHOH",
+   "partId": 214584
+  },
+  {
+   "partNumber": 69,
+   "partName": "GHODAVADI",
+   "partId": 214599
+  },
+  {
+   "partNumber": 70,
+   "partName": "TEHATORI",
+   "partId": 214585
+  },
+  {
+   "partNumber": 71,
+   "partName": "JHIRANA",
+   "partId": 214586
+  },
+  {
+   "partNumber": 72,
+   "partName": "DORALI",
+   "partId": 214653
+  },
+  {
+   "partNumber": 73,
+   "partName": "KOTHIYA",
+   "partId": 214654
+  },
+  {
+   "partNumber": 74,
+   "partName": "MANAKAVADI",
+   "partId": 214655
+  },
+  {
+   "partNumber": 75,
+   "partName": "SAGONIYA",
+   "partId": 214415
+  },
+  {
+   "partNumber": 76,
+   "partName": "CHHUA",
+   "partId": 214656
+  },
+  {
+   "partNumber": 77,
+   "partName": "GUTERA",
+   "partId": 214428
+  },
+  {
+   "partNumber": 78,
+   "partName": "BHUMAKA",
+   "partId": 214657
+  },
+  {
+   "partNumber": 79,
+   "partName": "BHUMKA",
+   "partId": 214702
+  },
+  {
+   "partNumber": 80,
+   "partName": "MORKHA",
+   "partId": 214658
+  },
+  {
+   "partNumber": 81,
+   "partName": "BICHHUA",
+   "partId": 214659
+  },
+  {
+   "partNumber": 82,
+   "partName": "BHALAPANI",
+   "partId": 214660
+  },
+  {
+   "partNumber": 83,
+   "partName": "NACHANA",
+   "partId": 214416
+  },
+  {
+   "partNumber": 84,
+   "partName": "KHIRADA",
+   "partId": 214661
+  },
+  {
+   "partNumber": 85,
+   "partName": "DHANAURA",
+   "partId": 214662
+  },
+  {
+   "partNumber": 86,
+   "partName": "DHANAURA",
+   "partId": 214619
+  },
+  {
+   "partNumber": 87,
+   "partName": "ANDOL",
+   "partId": 214663
+  },
+  {
+   "partNumber": 88,
+   "partName": "PALANI",
+   "partId": 214664
+  },
+  {
+   "partNumber": 89,
+   "partName": "SIMARIYA",
+   "partId": 214665
+  },
+  {
+   "partNumber": 90,
+   "partName": "DUNGARIYA",
+   "partId": 214598
+  },
+  {
+   "partNumber": 91,
+   "partName": "BATAKAKHAPA",
+   "partId": 214666
+  },
+  {
+   "partNumber": 92,
+   "partName": "BATAKAKHAPA",
+   "partId": 214401
+  },
+  {
+   "partNumber": 93,
+   "partName": "BATAKAKHAPA",
+   "partId": 214597
+  },
+  {
+   "partNumber": 94,
+   "partName": "BICHHUA",
+   "partId": 214429
+  },
+  {
+   "partNumber": 95,
+   "partName": "BAICHHAPAR",
+   "partId": 214402
+  },
+  {
+   "partNumber": 96,
+   "partName": "TATEEDHAT",
+   "partId": 214403
+  },
+  {
+   "partNumber": 97,
+   "partName": "CHOPANA",
+   "partId": 214417
+  },
+  {
+   "partNumber": 98,
+   "partName": "THARAVA",
+   "partId": 214404
+  },
+  {
+   "partNumber": 99,
+   "partName": "PIPARIYA KALAN",
+   "partId": 214596
+  },
+  {
+   "partNumber": 100,
+   "partName": "CHHATA",
+   "partId": 214687
+  },
+  {
+   "partNumber": 101,
+   "partName": "NONIYA",
+   "partId": 214405
+  },
+  {
+   "partNumber": 102,
+   "partName": "PAPADA",
+   "partId": 214406
+  },
+  {
+   "partNumber": 103,
+   "partName": "DABARI",
+   "partId": 214688
+  },
+  {
+   "partNumber": 104,
+   "partName": "MADAI",
+   "partId": 214407
+  },
+  {
+   "partNumber": 105,
+   "partName": "DEVRI",
+   "partId": 214364
+  },
+  {
+   "partNumber": 106,
+   "partName": "SALEBARRU",
+   "partId": 214595
+  },
+  {
+   "partNumber": 107,
+   "partName": "UMARI KHURD",
+   "partId": 214365
+  },
+  {
+   "partNumber": 108,
+   "partName": "CHURI KHURD",
+   "partId": 214366
+  },
+  {
+   "partNumber": 109,
+   "partName": "KOHPANI",
+   "partId": 214548
+  },
+  {
+   "partNumber": 110,
+   "partName": "SAMARDOH",
+   "partId": 214367
+  },
+  {
+   "partNumber": 111,
+   "partName": "BHOUD",
+   "partId": 214368
+  },
+  {
+   "partNumber": 112,
+   "partName": "CHIKHLA",
+   "partId": 214594
+  },
+  {
+   "partNumber": 113,
+   "partName": "KOTRA",
+   "partId": 214689
+  },
+  {
+   "partNumber": 114,
+   "partName": "BUDHAINA",
+   "partId": 214369
+  },
+  {
+   "partNumber": 115,
+   "partName": "GADHAGADH",
+   "partId": 214576
+  },
+  {
+   "partNumber": 116,
+   "partName": "CHINDA",
+   "partId": 214391
+  },
+  {
+   "partNumber": 117,
+   "partName": "KUNDALI",
+   "partId": 214443
+  },
+  {
+   "partNumber": 118,
+   "partName": "PARTAPUR",
+   "partId": 214577
+  },
+  {
+   "partNumber": 119,
+   "partName": "TUIYAPANI",
+   "partId": 214690
+  },
+  {
+   "partNumber": 120,
+   "partName": "SALAIYASVAMI",
+   "partId": 214430
+  },
+  {
+   "partNumber": 121,
+   "partName": "MARAKAPATHAR",
+   "partId": 214691
+  },
+  {
+   "partNumber": 122,
+   "partName": "GHOGRI",
+   "partId": 214390
+  },
+  {
+   "partNumber": 123,
+   "partName": "JOGIWADI",
+   "partId": 214389
+  },
+  {
+   "partNumber": 124,
+   "partName": "HATHIKHOH",
+   "partId": 214376
+  },
+  {
+   "partNumber": 125,
+   "partName": "DHADHRA",
+   "partId": 214578
+  },
+  {
+   "partNumber": 126,
+   "partName": "TENDANI",
+   "partId": 214632
+  },
+  {
+   "partNumber": 127,
+   "partName": "SINGODI",
+   "partId": 214692
+  },
+  {
+   "partNumber": 128,
+   "partName": "BHEDA",
+   "partId": 214604
+  },
+  {
+   "partNumber": 129,
+   "partName": "AMARI",
+   "partId": 214605
+  },
+  {
+   "partNumber": 130,
+   "partName": "TENDUKHEDA",
+   "partId": 214606
+  },
+  {
+   "partNumber": 131,
+   "partName": "PATANIYA",
+   "partId": 214388
+  },
+  {
+   "partNumber": 132,
+   "partName": "RATOMATIPIPARIYA",
+   "partId": 214607
+  },
+  {
+   "partNumber": 133,
+   "partName": "MEHNDA",
+   "partId": 214684
+  },
+  {
+   "partNumber": 134,
+   "partName": "SIYAJHIRI",
+   "partId": 214608
+  },
+  {
+   "partNumber": 135,
+   "partName": "BADASALAIYA",
+   "partId": 214615
+  },
+  {
+   "partNumber": 136,
+   "partName": "MOHRIYA",
+   "partId": 214683
+  },
+  {
+   "partNumber": 137,
+   "partName": "NAVALPUR",
+   "partId": 214444
+  },
+  {
+   "partNumber": 138,
+   "partName": "BAMHORI",
+   "partId": 214616
+  },
+  {
+   "partNumber": 139,
+   "partName": "HARRAI",
+   "partId": 214617
+  },
+  {
+   "partNumber": 140,
+   "partName": "HARRAI",
+   "partId": 214603
+  },
+  {
+   "partNumber": 141,
+   "partName": "HARRAI",
+   "partId": 214385
+  },
+  {
+   "partNumber": 142,
+   "partName": "HARRAI",
+   "partId": 214703
+  },
+  {
+   "partNumber": 143,
+   "partName": "HARRAI",
+   "partId": 214386
+  },
+  {
+   "partNumber": 144,
+   "partName": "HARRAI",
+   "partId": 214387
+  },
+  {
+   "partNumber": 145,
+   "partName": "HARRAI",
+   "partId": 214704
+  },
+  {
+   "partNumber": 146,
+   "partName": "HARRAI",
+   "partId": 214438
+  },
+  {
+   "partNumber": 147,
+   "partName": "HARRAI",
+   "partId": 214507
+  },
+  {
+   "partNumber": 148,
+   "partName": "HARRAI",
+   "partId": 214705
+  },
+  {
+   "partNumber": 149,
+   "partName": "HARRAI",
+   "partId": 214508
+  },
+  {
+   "partNumber": 150,
+   "partName": "HARRAI",
+   "partId": 214706
+  },
+  {
+   "partNumber": 151,
+   "partName": "NANDANA",
+   "partId": 214408
+  },
+  {
+   "partNumber": 152,
+   "partName": "BHAISA KALA",
+   "partId": 214409
+  },
+  {
+   "partNumber": 153,
+   "partName": "padharbhata",
+   "partId": 214375
+  },
+  {
+   "partNumber": 154,
+   "partName": "SUKHAPURA",
+   "partId": 214410
+  },
+  {
+   "partNumber": 155,
+   "partName": "KACHANARA",
+   "partId": 214411
+  },
+  {
+   "partNumber": 156,
+   "partName": "LEDIYATOLA",
+   "partId": 214693
+  },
+  {
+   "partNumber": 157,
+   "partName": "KHAMATARA",
+   "partId": 214445
+  },
+  {
+   "partNumber": 158,
+   "partName": "SUNDESAUNDI",
+   "partId": 214682
+  },
+  {
+   "partNumber": 159,
+   "partName": "AHARAVADA",
+   "partId": 214412
+  },
+  {
+   "partNumber": 160,
+   "partName": "RAIYARAV",
+   "partId": 214431
+  },
+  {
+   "partNumber": 161,
+   "partName": "BASURIYA KALA",
+   "partId": 214627
+  },
+  {
+   "partNumber": 162,
+   "partName": "KOKANPIPARIYA",
+   "partId": 214628
+  },
+  {
+   "partNumber": 163,
+   "partName": "SALAIYABULAKI",
+   "partId": 214629
+  },
+  {
+   "partNumber": 164,
+   "partName": "BARAGI",
+   "partId": 214630
+  },
+  {
+   "partNumber": 165,
+   "partName": "BICHHUA",
+   "partId": 214694
+  },
+  {
+   "partNumber": 166,
+   "partName": "MUARSANI",
+   "partId": 214631
+  },
+  {
+   "partNumber": 167,
+   "partName": "SATHIYA",
+   "partId": 214519
+  },
+  {
+   "partNumber": 168,
+   "partName": "BARUL",
+   "partId": 214520
+  },
+  {
+   "partNumber": 169,
+   "partName": "SAJAVA",
+   "partId": 214521
+  },
+  {
+   "partNumber": 170,
+   "partName": "KARAHAIYA",
+   "partId": 214522
+  },
+  {
+   "partNumber": 171,
+   "partName": "RAJADHANA",
+   "partId": 214446
+  },
+  {
+   "partNumber": 172,
+   "partName": "BANDABOH",
+   "partId": 214547
+  },
+  {
+   "partNumber": 173,
+   "partName": "HADAI",
+   "partId": 214523
+  },
+  {
+   "partNumber": 174,
+   "partName": "HADAI",
+   "partId": 214681
+  },
+  {
+   "partNumber": 175,
+   "partName": "BASURIYA KHURD",
+   "partId": 214524
+  },
+  {
+   "partNumber": 176,
+   "partName": "CHHATA KALA",
+   "partId": 214525
+  },
+  {
+   "partNumber": 177,
+   "partName": "BHOURGAD",
+   "partId": 214707
+  },
+  {
+   "partNumber": 178,
+   "partName": "KOHPANI",
+   "partId": 214526
+  },
+  {
+   "partNumber": 179,
+   "partName": "MEDKI",
+   "partId": 214680
+  },
+  {
+   "partNumber": 180,
+   "partName": "GUNGUCH",
+   "partId": 214527
+  },
+  {
+   "partNumber": 181,
+   "partName": "DHARMI",
+   "partId": 214528
+  },
+  {
+   "partNumber": 182,
+   "partName": "GOURPANI",
+   "partId": 214529
+  },
+  {
+   "partNumber": 183,
+   "partName": "GOURPANI",
+   "partId": 214708
+  },
+  {
+   "partNumber": 184,
+   "partName": "KARER",
+   "partId": 214530
+  },
+  {
+   "partNumber": 185,
+   "partName": "KAMKASUR",
+   "partId": 214432
+  },
+  {
+   "partNumber": 186,
+   "partName": "BUDHAINA",
+   "partId": 214531
+  },
+  {
+   "partNumber": 187,
+   "partName": "BARATAMARI",
+   "partId": 214532
+  },
+  {
+   "partNumber": 188,
+   "partName": "JAMUNIYA",
+   "partId": 214533
+  },
+  {
+   "partNumber": 189,
+   "partName": "KARAPATHA",
+   "partId": 214534
+  },
+  {
+   "partNumber": 190,
+   "partName": "SEJAVADA KALA",
+   "partId": 214433
+  },
+  {
+   "partNumber": 191,
+   "partName": "SEJAVADA KALA",
+   "partId": 214679
+  },
+  {
+   "partNumber": 192,
+   "partName": "TINSAI",
+   "partId": 214535
+  },
+  {
+   "partNumber": 193,
+   "partName": "CHHINDA",
+   "partId": 214709
+  },
+  {
+   "partNumber": 194,
+   "partName": "SURLAKHAPA",
+   "partId": 214536
+  },
+  {
+   "partNumber": 195,
+   "partName": "SURLAKHAPA",
+   "partId": 214678
+  },
+  {
+   "partNumber": 196,
+   "partName": "KHAPA",
+   "partId": 214537
+  },
+  {
+   "partNumber": 197,
+   "partName": "SURLI",
+   "partId": 214710
+  },
+  {
+   "partNumber": 198,
+   "partName": "BICHHUA",
+   "partId": 214538
+  },
+  {
+   "partNumber": 199,
+   "partName": "SIMARIYA MULTANI",
+   "partId": 214539
+  },
+  {
+   "partNumber": 200,
+   "partName": "JUNGAVANI",
+   "partId": 214540
+  },
+  {
+   "partNumber": 201,
+   "partName": "GADHADARAYAV",
+   "partId": 214371
+  },
+  {
+   "partNumber": 202,
+   "partName": "HIRRI",
+   "partId": 214372
+  },
+  {
+   "partNumber": 203,
+   "partName": "GADARWADA",
+   "partId": 214447
+  },
+  {
+   "partNumber": 204,
+   "partName": "RICHHEDA",
+   "partId": 214377
+  },
+  {
+   "partNumber": 205,
+   "partName": "JILHERI",
+   "partId": 214677
+  },
+  {
+   "partNumber": 206,
+   "partName": "LAHAGADUA",
+   "partId": 214378
+  },
+  {
+   "partNumber": 207,
+   "partName": "LAHAGADUA",
+   "partId": 214456
+  },
+  {
+   "partNumber": 208,
+   "partName": "RANGAPUR",
+   "partId": 214379
+  },
+  {
+   "partNumber": 209,
+   "partName": "NANDAN VADI",
+   "partId": 214380
+  },
+  {
+   "partNumber": 210,
+   "partName": "PURATALA KALA",
+   "partId": 214381
+  },
+  {
+   "partNumber": 211,
+   "partName": "PATHARAKATEE",
+   "partId": 214552
+  },
+  {
+   "partNumber": 212,
+   "partName": "SONPUR",
+   "partId": 214553
+  },
+  {
+   "partNumber": 213,
+   "partName": "SONPUR",
+   "partId": 214639
+  },
+  {
+   "partNumber": 214,
+   "partName": "PIPARAPANI",
+   "partId": 214554
+  },
+  {
+   "partNumber": 215,
+   "partName": "DHODAKUHI",
+   "partId": 214555
+  },
+  {
+   "partNumber": 216,
+   "partName": "DHODAKUHI",
+   "partId": 214711
+  },
+  {
+   "partNumber": 217,
+   "partName": "KAHUA",
+   "partId": 214556
+  },
+  {
+   "partNumber": 218,
+   "partName": "KAHUA",
+   "partId": 214546
+  },
+  {
+   "partNumber": 219,
+   "partName": "SAJAVA",
+   "partId": 214457
+  },
+  {
+   "partNumber": 220,
+   "partName": "DIGHAVANI",
+   "partId": 214557
+  },
+  {
+   "partNumber": 221,
+   "partName": "SEJAVADA KHURD",
+   "partId": 214558
+  },
+  {
+   "partNumber": 222,
+   "partName": "UMARIYA",
+   "partId": 214593
+  },
+  {
+   "partNumber": 223,
+   "partName": "LAATGAON",
+   "partId": 214545
+  },
+  {
+   "partNumber": 224,
+   "partName": "BANKI",
+   "partId": 214559
+  },
+  {
+   "partNumber": 225,
+   "partName": "BAHERIYA",
+   "partId": 214560
+  },
+  {
+   "partNumber": 226,
+   "partName": "CHARANAKHAPA",
+   "partId": 214561
+  },
+  {
+   "partNumber": 227,
+   "partName": "KOLHIYA",
+   "partId": 214370
+  },
+  {
+   "partNumber": 228,
+   "partName": "MANDANAGADH",
+   "partId": 214460
+  },
+  {
+   "partNumber": 229,
+   "partName": "DHADHARA",
+   "partId": 214461
+  },
+  {
+   "partNumber": 230,
+   "partName": "RAHIVADA",
+   "partId": 214462
+  },
+  {
+   "partNumber": 231,
+   "partName": "MOHALI",
+   "partId": 214458
+  },
+  {
+   "partNumber": 232,
+   "partName": "LACHHUA",
+   "partId": 214463
+  },
+  {
+   "partNumber": 233,
+   "partName": "SALIVADA SANI",
+   "partId": 214353
+  },
+  {
+   "partNumber": 234,
+   "partName": "BADEGANV",
+   "partId": 214354
+  },
+  {
+   "partNumber": 235,
+   "partName": "GADHACHHOTA",
+   "partId": 214355
+  },
+  {
+   "partNumber": 236,
+   "partName": "BABAI",
+   "partId": 214356
+  },
+  {
+   "partNumber": 237,
+   "partName": "BABAI",
+   "partId": 214712
+  },
+  {
+   "partNumber": 238,
+   "partName": "PATANIYA",
+   "partId": 214357
+  },
+  {
+   "partNumber": 239,
+   "partName": "BANKAMUKASA",
+   "partId": 214358
+  },
+  {
+   "partNumber": 240,
+   "partName": "BANKAMUKASA",
+   "partId": 214638
+  },
+  {
+   "partNumber": 241,
+   "partName": "BHAJIYA",
+   "partId": 214464
+  },
+  {
+   "partNumber": 242,
+   "partName": "SINGODI",
+   "partId": 214424
+  },
+  {
+   "partNumber": 243,
+   "partName": "SINGODI",
+   "partId": 214455
+  },
+  {
+   "partNumber": 244,
+   "partName": "SINGODI",
+   "partId": 214465
+  },
+  {
+   "partNumber": 245,
+   "partName": "SINGODI",
+   "partId": 214454
+  },
+  {
+   "partNumber": 246,
+   "partName": "SINGODI",
+   "partId": 214713
+  },
+  {
+   "partNumber": 247,
+   "partName": "KATIYADHANA(RAJANGAON)",
+   "partId": 214459
+  },
+  {
+   "partNumber": 248,
+   "partName": "RAJOLA",
+   "partId": 214695
+  },
+  {
+   "partNumber": 249,
+   "partName": "RAJOLA",
+   "partId": 214466
+  },
+  {
+   "partNumber": 250,
+   "partName": "NANDORA",
+   "partId": 214467
+  },
+  {
+   "partNumber": 251,
+   "partName": "KUBADI",
+   "partId": 214637
+  },
+  {
+   "partNumber": 252,
+   "partName": "DHABAI",
+   "partId": 214696
+  },
+  {
+   "partNumber": 253,
+   "partName": "NANDORI",
+   "partId": 214468
+  },
+  {
+   "partNumber": 254,
+   "partName": "GHATAPIPARIYA",
+   "partId": 214469
+  },
+  {
+   "partNumber": 255,
+   "partName": "TENDANI MAL",
+   "partId": 214470
+  },
+  {
+   "partNumber": 256,
+   "partName": "CHIMOUA",
+   "partId": 214636
+  },
+  {
+   "partNumber": 257,
+   "partName": "PINDARAIDABIR",
+   "partId": 214471
+  },
+  {
+   "partNumber": 258,
+   "partName": "KHAKARACHAUR§",
+   "partId": 214472
+  },
+  {
+   "partNumber": 259,
+   "partName": "KHAKARACHAUR§",
+   "partId": 214674
+  },
+  {
+   "partNumber": 260,
+   "partName": "MAHENDRAVADA",
+   "partId": 214473
+  },
+  {
+   "partNumber": 261,
+   "partName": "GURAIYA",
+   "partId": 214474
+  },
+  {
+   "partNumber": 262,
+   "partName": "KHAMIHIRA",
+   "partId": 214475
+  },
+  {
+   "partNumber": 263,
+   "partName": "KHAMIHIRA",
+   "partId": 214714
+  },
+  {
+   "partNumber": 264,
+   "partName": "BAGALA MAL",
+   "partId": 214476
+  },
+  {
+   "partNumber": 265,
+   "partName": "MANEGANV",
+   "partId": 214623
+  },
+  {
+   "partNumber": 266,
+   "partName": "NANDIYA",
+   "partId": 214697
+  },
+  {
+   "partNumber": 267,
+   "partName": "BANDRA",
+   "partId": 214477
+  },
+  {
+   "partNumber": 268,
+   "partName": "BANDARADHANA",
+   "partId": 214698
+  },
+  {
+   "partNumber": 269,
+   "partName": "PIPARIYA GUMANI",
+   "partId": 214478
+  },
+  {
+   "partNumber": 270,
+   "partName": "KHUSIRPAR",
+   "partId": 214479
+  },
+  {
+   "partNumber": 271,
+   "partName": "AKALAMA",
+   "partId": 214425
+  },
+  {
+   "partNumber": 272,
+   "partName": "DIVANGAON (VANGRAM)",
+   "partId": 214673
+  },
+  {
+   "partNumber": 273,
+   "partName": "BERAVAN",
+   "partId": 214699
+  },
+  {
+   "partNumber": 274,
+   "partName": "HATODA",
+   "partId": 214480
+  },
+  {
+   "partNumber": 275,
+   "partName": "JHAGADABOH",
+   "partId": 214481
+  },
+  {
+   "partNumber": 276,
+   "partName": "BARADHIYA",
+   "partId": 214482
+  },
+  {
+   "partNumber": 277,
+   "partName": "KUDAVARI",
+   "partId": 214483
+  },
+  {
+   "partNumber": 278,
+   "partName": "SARIYAPANI",
+   "partId": 214484
+  },
+  {
+   "partNumber": 279,
+   "partName": "RAPHA",
+   "partId": 214624
+  },
+  {
+   "partNumber": 280,
+   "partName": "CHANERI",
+   "partId": 214485
+  },
+  {
+   "partNumber": 281,
+   "partName": "CHIKHALEEMUKASA",
+   "partId": 214486
+  },
+  {
+   "partNumber": 282,
+   "partName": "KHAMRARAJARAM",
+   "partId": 214715
+  },
+  {
+   "partNumber": 283,
+   "partName": "HIWRASANI",
+   "partId": 214618
+  },
+  {
+   "partNumber": 284,
+   "partName": "KOPAKHEDA",
+   "partId": 214487
+  },
+  {
+   "partNumber": 285,
+   "partName": "PAUNARI",
+   "partId": 214488
+  },
+  {
+   "partNumber": 286,
+   "partName": "MAHALON",
+   "partId": 214489
+  },
+  {
+   "partNumber": 287,
+   "partName": "SARASADOL MAL",
+   "partId": 214490
+  },
+  {
+   "partNumber": 288,
+   "partName": "GHOGHARI",
+   "partId": 214491
+  },
+  {
+   "partNumber": 289,
+   "partName": "KHAMARA ADAKU",
+   "partId": 214492
+  },
+  {
+   "partNumber": 290,
+   "partName": "KHAIRI HAMIRA",
+   "partId": 214493
+  },
+  {
+   "partNumber": 291,
+   "partName": "JAMUNIYA BHURA",
+   "partId": 214494
+  },
+  {
+   "partNumber": 292,
+   "partName": "MOHALIBHARAT",
+   "partId": 214495
+  },
+  {
+   "partNumber": 293,
+   "partName": "KARABADOL",
+   "partId": 214625
+  },
+  {
+   "partNumber": 294,
+   "partName": "BAMHORI",
+   "partId": 214716
+  },
+  {
+   "partNumber": 295,
+   "partName": "KONDARA",
+   "partId": 214496
+  },
+  {
+   "partNumber": 296,
+   "partName": "SEJA",
+   "partId": 214497
+  },
+  {
+   "partNumber": 297,
+   "partName": "HARANBHATA",
+   "partId": 214717
+  },
+  {
+   "partNumber": 298,
+   "partName": "PIPARIYABHARATI",
+   "partId": 214498
+  },
+  {
+   "partNumber": 299,
+   "partName": "BORIMAL",
+   "partId": 214499
+  },
+  {
+   "partNumber": 300,
+   "partName": "BABUTOLA",
+   "partId": 214672
+  },
+  {
+   "partNumber": 301,
+   "partName": "DULARA",
+   "partId": 214500
+  },
+  {
+   "partNumber": 302,
+   "partName": "PETADEVARI",
+   "partId": 214501
+  },
+  {
+   "partNumber": 303,
+   "partName": "JAVAHARAGANV VANAGRAM",
+   "partId": 214502
+  },
+  {
+   "partNumber": 304,
+   "partName": "BANDHANI",
+   "partId": 214503
+  },
+  {
+   "partNumber": 305,
+   "partName": "CHURAKA",
+   "partId": 214504
+  },
+  {
+   "partNumber": 306,
+   "partName": "JUNGAVADA",
+   "partId": 214505
+  },
+  {
+   "partNumber": 307,
+   "partName": "THANVARI KHURD",
+   "partId": 214506
+  },
+  {
+   "partNumber": 308,
+   "partName": "BHAJIPANI",
+   "partId": 214626
+  },
+  {
+   "partNumber": 309,
+   "partName": "CHARAGAON",
+   "partId": 214434
+  },
+  {
+   "partNumber": 310,
+   "partName": "BARAHADHANA",
+   "partId": 214640
+  },
+  {
+   "partNumber": 311,
+   "partName": "BARAHAHIRA MAL",
+   "partId": 214453
+  },
+  {
+   "partNumber": 312,
+   "partName": "LAKHANAVADA",
+   "partId": 214641
+  },
+  {
+   "partNumber": 313,
+   "partName": "DHADA",
+   "partId": 214642
+  },
+  {
+   "partNumber": 314,
+   "partName": "DHASANAVADA",
+   "partId": 214667
+  },
+  {
+   "partNumber": 315,
+   "partName": "DHASANAVADA",
+   "partId": 214635
+  },
+  {
+   "partNumber": 316,
+   "partName": "LAHAGADUA",
+   "partId": 214668
+  },
+  {
+   "partNumber": 317,
+   "partName": "PUTARRA",
+   "partId": 214669
+  },
+  {
+   "partNumber": 318,
+   "partName": "GHUGHARALA KHURD",
+   "partId": 214562
+  },
+  {
+   "partNumber": 319,
+   "partName": "DUNGARIYA RAI.",
+   "partId": 214563
+  },
+  {
+   "partNumber": 320,
+   "partName": "PIPARIYAMANU",
+   "partId": 214564
+  },
+  {
+   "partNumber": 321,
+   "partName": "PAUNAR",
+   "partId": 214382
+  },
+  {
+   "partNumber": 322,
+   "partName": "PAUNAR",
+   "partId": 214565
+  },
+  {
+   "partNumber": 323,
+   "partName": "PAUNAR",
+   "partId": 214544
+  },
+  {
+   "partNumber": 324,
+   "partName": "CHIKHALIVALA",
+   "partId": 214566
+  },
+  {
+   "partNumber": 325,
+   "partName": "CHANDANAGANV",
+   "partId": 214567
+  },
+  {
+   "partNumber": 326,
+   "partName": "SAHAKARI",
+   "partId": 214568
+  },
+  {
+   "partNumber": 327,
+   "partName": "CHHUI",
+   "partId": 214569
+  },
+  {
+   "partNumber": 328,
+   "partName": "CHHUI",
+   "partId": 214452
+  },
+  {
+   "partNumber": 329,
+   "partName": "CHHUADEHI",
+   "partId": 214570
+  },
+  {
+   "partNumber": 330,
+   "partName": "HINGAPANI",
+   "partId": 214435
+  },
+  {
+   "partNumber": 331,
+   "partName": "PIPARIYARAJAGURU",
+   "partId": 214571
+  },
+  {
+   "partNumber": 332,
+   "partName": "PIPARIYARAJAGURU",
+   "partId": 214451
+  },
+  {
+   "partNumber": 333,
+   "partName": "SUKHARI KALA",
+   "partId": 214609
+  },
+  {
+   "partNumber": 334,
+   "partName": "SUKHARI KALA",
+   "partId": 214543
+  },
+  {
+   "partNumber": 335,
+   "partName": "SUKHAREE KHURD",
+   "partId": 214610
+  },
+  {
+   "partNumber": 336,
+   "partName": "SALEEVADASHARADA",
+   "partId": 214611
+  },
+  {
+   "partNumber": 337,
+   "partName": "SALEEVADASHARADA",
+   "partId": 214450
+  },
+  {
+   "partNumber": 338,
+   "partName": "THAVADIKALA",
+   "partId": 214700
+  },
+  {
+   "partNumber": 339,
+   "partName": "RANIKAMATH",
+   "partId": 214572
+  },
+  {
+   "partNumber": 340,
+   "partName": "SAKARAVADA",
+   "partId": 214573
+  },
+  {
+   "partNumber": 341,
+   "partName": "HIRIRMUKASA",
+   "partId": 214383
+  },
+  {
+   "partNumber": 342,
+   "partName": "KHAMI",
+   "partId": 214574
+  },
+  {
+   "partNumber": 343,
+   "partName": "BINEKI",
+   "partId": 214575
+  },
+  {
+   "partNumber": 344,
+   "partName": "BINEKI",
+   "partId": 214449
+  },
+  {
+   "partNumber": 345,
+   "partName": "DATURIYA",
+   "partId": 214634
+  },
+  {
+   "partNumber": 346,
+   "partName": "KEKADA",
+   "partId": 214670
+  },
+  {
+   "partNumber": 347,
+   "partName": "BADELA",
+   "partId": 214671
+  },
+  {
+   "partNumber": 348,
+   "partName": "CHARAGAON",
+   "partId": 214583
+  },
+  {
+   "partNumber": 349,
+   "partName": "KHIRETI",
+   "partId": 214587
+  },
+  {
+   "partNumber": 350,
+   "partName": "BILHERA",
+   "partId": 214675
+  },
+  {
+   "partNumber": 351,
+   "partName": "LINGAPANI",
+   "partId": 214676
+  },
+  {
+   "partNumber": 352,
+   "partName": "MARAKAVADA",
+   "partId": 214392
+  },
+  {
+   "partNumber": 353,
+   "partName": "MARKAWADA",
+   "partId": 214718
+  },
+  {
+   "partNumber": 354,
+   "partName": "JHILAMILI",
+   "partId": 214393
+  },
+  {
+   "partNumber": 355,
+   "partName": "PIPARIYABIRASA",
+   "partId": 214373
+  },
+  {
+   "partNumber": 356,
+   "partName": "AMARWARA",
+   "partId": 214384
+  },
+  {
+   "partNumber": 357,
+   "partName": "AMARWARA",
+   "partId": 214436
+  },
+  {
+   "partNumber": 358,
+   "partName": "AMARWARA",
+   "partId": 214541
+  },
+  {
+   "partNumber": 359,
+   "partName": "AMARWARA",
+   "partId": 214374
+  },
+  {
+   "partNumber": 360,
+   "partName": "AMARWARA",
+   "partId": 214588
+  },
+  {
+   "partNumber": 361,
+   "partName": "AMARWARA",
+   "partId": 214719
+  },
+  {
+   "partNumber": 362,
+   "partName": "AMARWARA",
+   "partId": 214589
+  },
+  {
+   "partNumber": 363,
+   "partName": "AMARWARA",
+   "partId": 214720
+  },
+  {
+   "partNumber": 364,
+   "partName": "AMARWARA",
+   "partId": 214590
+  },
+  {
+   "partNumber": 365,
+   "partName": "AMARWARA",
+   "partId": 214721
+  },
+  {
+   "partNumber": 366,
+   "partName": "AMARWARA",
+   "partId": 214591
+  },
+  {
+   "partNumber": 367,
+   "partName": "AMARWARA",
+   "partId": 214542
+  },
+  {
+   "partNumber": 368,
+   "partName": "AMARWARA",
+   "partId": 214722
+  },
+  {
+   "partNumber": 369,
+   "partName": "AMARWARA",
+   "partId": 214592
+  },
+  {
+   "partNumber": 370,
+   "partName": "AMARWARA",
+   "partId": 214448
+  }
+ ]
+}

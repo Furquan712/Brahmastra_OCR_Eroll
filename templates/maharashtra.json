@@ -1,0 +1,6 @@
+{
+  "name": "maharashtra",
+  "extends": "andhra-pradesh",
+  "description": "Maharashtra - English-language ECI eRoll; same 3x10 layout and ~2.75x A4 pages as Andhra Pradesh, so run it with --dpi 100.",
+  "match": { "states": ["Maharashtra", "MH"] }
+}

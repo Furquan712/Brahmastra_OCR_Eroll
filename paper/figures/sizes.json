@@ -1,1 +1,58 @@
-{"fig10_cards_per_booth.png": [1259, 599], "fig11_up_corpus.png": [1392, 1303], "fig1_roll_page_redacted.png": [910, 1287], "fig1b_cover_redacted.png": [910, 1287], "fig2_pipeline.png": [1532, 688], "fig3_accuracy_vs_baseline.png": [1216, 665], "fig4_flag_calibration.png": [1127, 511], "fig5_translit_ablation.png": [992, 599], "fig6_jewargi_flags.png": [1348, 907], "fig7_confidence_hist.png": [1171, 621], "fig8_age_pyramid.png": [1172, 643], "fig9_household_size.png": [1039, 600]}
+{
+ "fig1_roll_page_redacted.png": [
+  910,
+  1287
+ ],
+ "fig1b_cover_redacted.png": [
+  910,
+  1287
+ ],
+ "fig2_pipeline.png": [
+  1558,
+  688
+ ],
+ "fig3_accuracy_vs_baseline.png": [
+  1214,
+  663
+ ],
+ "fig4_flag_calibration.png": [
+  1125,
+  509
+ ],
+ "fig5_translit_ablation.png": [
+  986,
+  616
+ ],
+ "fig6_part_size.png": [
+  1613,
+  552
+ ],
+ "fig7_completeness.png": [
+  1083,
+  949
+ ],
+ "fig8_jewar_flags.png": [
+  1594,
+  861
+ ],
+ "fig9_age_pyramids.png": [
+  1612,
+  662
+ ],
+ "fig10_age_heaping.png": [
+  1523,
+  553
+ ],
+ "fig11_booth_distributions.png": [
+  1610,
+  596
+ ],
+ "fig12_household_size.png": [
+  1170,
+  597
+ ],
+ "fig13_scaling.png": [
+  1038,
+  618
+ ]
+}

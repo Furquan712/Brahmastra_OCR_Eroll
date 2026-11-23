@@ -1,0 +1,134 @@
+{
+ "61": {
+  "status": [
+   [
+    "modified",
+    "",
+    4236
+   ],
+   [
+    "added",
+    "",
+    29736
+   ],
+   [
+    "existing",
+    "",
+    555439
+   ]
+  ],
+  "blankGender": 8246,
+  "blankByStatus": [
+   [
+    "added",
+    229
+   ],
+   [
+    "existing",
+    8011
+   ],
+   [
+    "modified",
+    6
+   ]
+  ],
+  "dup": {
+   "_id": null,
+   "groups": 2201,
+   "withBlank": 2163,
+   "withDel": 0,
+   "withAdded": 2200,
+   "crossPart": 2201,
+   "sameAge": 1907,
+   "blankAndAdded": 2163
+  }
+ },
+ "62": {
+  "status": [
+   [
+    "existing",
+    "",
+    556006
+   ],
+   [
+    "modified",
+    "",
+    4623
+   ],
+   [
+    "added",
+    "",
+    44484
+   ]
+  ],
+  "blankGender": 5999,
+  "blankByStatus": [
+   [
+    "existing",
+    5734
+   ],
+   [
+    "modified",
+    6
+   ],
+   [
+    "added",
+    259
+   ]
+  ],
+  "dup": {
+   "_id": null,
+   "groups": 2533,
+   "withBlank": 2479,
+   "withDel": 0,
+   "withAdded": 2532,
+   "crossPart": 2533,
+   "sameAge": 2133,
+   "blankAndAdded": 2479
+  }
+ },
+ "63": {
+  "status": [
+   [
+    "modified",
+    "",
+    1748
+   ],
+   [
+    "existing",
+    "",
+    291581
+   ],
+   [
+    "added",
+    "",
+    19968
+   ]
+  ],
+  "blankGender": 1069,
+  "blankByStatus": [
+   [
+    "added",
+    43
+   ],
+   [
+    "modified",
+    1
+   ],
+   [
+    "existing",
+    1025
+   ]
+  ],
+  "dup": {
+   "_id": null,
+   "groups": 234,
+   "withBlank": 227,
+   "withDel": 0,
+   "withAdded": 228,
+   "crossPart": 234,
+   "sameAge": 191,
+   "blankAndAdded": 227
+  }
+ }
+}

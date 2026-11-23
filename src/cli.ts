@@ -10,6 +10,8 @@ import { outputCsvName, outputDirName, parseConstituencyFolder, partCsvName } fr
 import { cropBand, detectColumnBands, detectRowBands, imageDims, templateRowBands } from "./image.js";
 import { Logger } from "./logger.js";
 import { mergeResults, type MergeStats } from "./merge.js";
+import { ensureOfficialParts, sameAcName } from "./official-parts.js";
+import { parseErollFilename } from "./cover.js";
 import { evalText, evalTruthFile } from "./ocr-eval.js";
 import { checkPopplerAvailable, pdfPageCount, removeQuiet, renderPage } from "./pdf.js";
 import { processPdf, type PdfContext } from "./pipeline.js";
@@ -256,6 +258,18 @@ async function runCommand(folder: string, opts: CliOverrides): Promise<number> {
     return 2;
   }
   log.info("run", `${pdfs.length} PDFs; engine ${cfg.engine}${cfg.engine === "local" ? " (tesseract + algorithms, no model, no API)" : `; backend ${cfg.backend}; provider ${cfg.provider}/${cfg.model}`}; ${cfg.engine === "llm" ? `mode ${cfg.mode}` : `local min conf ${cfg.localMinConf}`}; dpi ${cfg.dpi}; pdf concurrency ${cfg.pdfConcurrency}; page concurrency ${cfg.pageConcurrency}${cfg.engine === "local" ? "" : `; ocr concurrency ${cfg.ocrConcurrency}`}`);
+
+  // Before any OCR: fetch the official part list if it is missing, and refuse a folder whose AC
+  // name is not the portal's name for that AC number, so a wrong folder never reaches the dashboard.
+  const fileInfo = parseErollFilename(pdfs[0]);
+  if (fileInfo?.stateCode && fileInfo.acNo) {
+    const official = await ensureOfficialParts(fileInfo.stateCode, fileInfo.acNo, log);
+    if (official?.acName && c.parsed && !sameAcName(c.acName, official.acName)) {
+      log.error("run", `folder says AC ${c.acNo} is "${c.acName}" but ECI says ${fileInfo.stateCode} AC ${fileInfo.acNo} is "${official.acName}": not processing this folder`);
+      await log.close();
+      return 2;
+    }
+  }
 
   const templates = loadTemplates(cfg.templatesDir);
   const tpl = selectTemplate(templates, c.state, cfg.templateOverride);

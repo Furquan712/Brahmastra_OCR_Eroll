@@ -2,9 +2,16 @@
 RESEARCH PAPER - TABLE OF CONTENTS (WORKING INDEX)
 ================================================================================
 
-WORKING TITLE
-  Making the Invisible Roll Visible: Consensus OCR for Hindi Electoral Rolls
-  and an Audit of Additions and Deletions in India's Special Intensive Revision
+WORKING TITLE (draft of 4 November 2026: Making_the_Invisible_Roll_Visible.docx)
+  Making the Invisible Roll Visible: Consensus OCR for Hindi Electoral Rolls and a
+  Booth-Level Reading of Gautam Buddh Nagar after the Special Intensive Revision
+
+SCOPE OF THE CURRENT DRAFT
+  One district, read in full: Gautam Buddh Nagar (61 Noida, 62 Dadri, 63 Jewar),
+  2,024 parts, 59,274 pages, 1,507,821 elector rows. Final roll only (no draft, so
+  deletions are discussed, not measured). Every number in the text is generated
+  from data/gbn_stats.json by build_paper.cjs; figures by make_figs.py.
+  Build:  python3 make_figs.py && NODE_PATH=<dir with the docx npm module> node build_paper.cjs
 
 ALTERNATIVE TITLES
   - Auditing India's Electoral Roll Revision at Scale with Low-Cost,

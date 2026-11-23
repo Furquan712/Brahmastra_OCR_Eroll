@@ -1,0 +1,1783 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2457",
+ "acNumber": 175,
+ "acName": "Lucknow Cantt.",
+ "fetchedAt": "2026-11-07T06:02:19",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 354,
+ "maxPart": 354,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "U P AGRO INDUSTRIAL KRISHI WORKSHOP TALKATORA ROAD ROOM NO-1",
+   "partId": 388244
+  },
+  {
+   "partNumber": 2,
+   "partName": "U P AGRO INDUSTRIAL KRISHI WORKSHOP TALKATORA ROAD ROOM NO-2",
+   "partId": 388245
+  },
+  {
+   "partNumber": 3,
+   "partName": "U P AGRO INDUSTRIAL KRISHI WORKSHOP TALKATORA ROAD ROOM NO-3",
+   "partId": 388570
+  },
+  {
+   "partNumber": 4,
+   "partName": "U P AGRO INDUSTRIAL KRISHI WORKSHOP TALKATORA ROAD ROOM NO-4",
+   "partId": 388571
+  },
+  {
+   "partNumber": 5,
+   "partName": "U P AGRO INDUSTRIAL KRISHI WORKSHOP TALKATORA ROAD ROOM NO-5",
+   "partId": 388572
+  },
+  {
+   "partNumber": 6,
+   "partName": "U P AGRO INDUSTRIAL KRISHI WORKSHOP TALKATORA ROAD ROOM NO-6",
+   "partId": 388573
+  },
+  {
+   "partNumber": 7,
+   "partName": "SHELTOR HOME(RAIN BASERA) ZONE-2 KAREHTA ROOM NO-1",
+   "partId": 388250
+  },
+  {
+   "partNumber": 8,
+   "partName": "SHELTOR HOME(RAIN BASERA) ZONE-2 KAREHTA ROOM NO-2",
+   "partId": 388251
+  },
+  {
+   "partNumber": 9,
+   "partName": "SHELTOR HOME(RAIN BASERA) ZONE-2 KAREHTA ROOM NO-3",
+   "partId": 388252
+  },
+  {
+   "partNumber": 10,
+   "partName": "SHELTOR HOME(RAIN BASERA) ZONE-2 KAREHTA ROOM NO-4",
+   "partId": 388253
+  },
+  {
+   "partNumber": 11,
+   "partName": "GOVERNMENT PRESS WELFARE CENTRE AISHBAGH ROOM NO-1",
+   "partId": 388259
+  },
+  {
+   "partNumber": 12,
+   "partName": "GOVERNMENT PRESS WELFARE CENTRE AISHBAGH ROOM NO-2",
+   "partId": 388260
+  },
+  {
+   "partNumber": 13,
+   "partName": "BAPU SHIKSHA KENDRA HIGHSCHOOL CHITTAKHEDA ROOM NO-1",
+   "partId": 388261
+  },
+  {
+   "partNumber": 14,
+   "partName": "BAPU SHIKSHA KENDRA HIGHSCHOOL CHITTAKHEDA ROOM NO-3",
+   "partId": 388262
+  },
+  {
+   "partNumber": 15,
+   "partName": "BAPU SHIKSHA KENDRA HIGHSCHOOL CHITTAKHEDA ROOM NO-3",
+   "partId": 388263
+  },
+  {
+   "partNumber": 16,
+   "partName": "BAPU SHIKSHA KENDRA HIGHSCHOOL CHITTAKHEDA ROOM NO-4",
+   "partId": 388574
+  },
+  {
+   "partNumber": 17,
+   "partName": "BAPU SHIKSHA KENDRA HIGHSCHOOL CHITTAKHEDA ROOM NO-5",
+   "partId": 388264
+  },
+  {
+   "partNumber": 18,
+   "partName": "DAYANAND VIDYA MANDIR HIGH SCHOOL MOTINAGAR ROOM NO-1",
+   "partId": 388265
+  },
+  {
+   "partNumber": 19,
+   "partName": "DAYANAND VIDYA MANDIR HIGH SCHOOL MOTINAGAR ROOM NO-2",
+   "partId": 388266
+  },
+  {
+   "partNumber": 20,
+   "partName": "DAYANAND VIDYA MANDIR HIGH SCHOOL MOTINAGAR ROOM NO-3",
+   "partId": 388267
+  },
+  {
+   "partNumber": 21,
+   "partName": "DAYANAND VIDYA MANDIR HIGH SCHOOL MOTINAGAR ROOM NO-4",
+   "partId": 388274
+  },
+  {
+   "partNumber": 22,
+   "partName": "MAHARAJA AGRASEN VIDYALAYA INTER COLLEGE MOTINAGAR ROOM NO-1",
+   "partId": 388275
+  },
+  {
+   "partNumber": 23,
+   "partName": "MAHARAJA AGRASEN VIDYALAYA INTER COLLEGE MOTINAGAR ROOM NO-2",
+   "partId": 388276
+  },
+  {
+   "partNumber": 24,
+   "partName": "MAHARAJA AGRASEN VIDYALAYA INTER COLLEGE MOTINAGAR ROOM NO-3",
+   "partId": 388277
+  },
+  {
+   "partNumber": 25,
+   "partName": "MAHARAJA AGRASEN VIDYALAYA INTER COLLEGE MOTINAGAR ROOM NO-4",
+   "partId": 388286
+  },
+  {
+   "partNumber": 26,
+   "partName": "MAHARAJA AGRASEN VIDYALAYA INTER COLLEGE MOTINAGAR ROOM NO-5",
+   "partId": 388288
+  },
+  {
+   "partNumber": 27,
+   "partName": "MAHARAJA AGRASEN VIDYALAYA INTER COLLEGE MOTINAGAR ROOM NO-6",
+   "partId": 388289
+  },
+  {
+   "partNumber": 28,
+   "partName": "MAHARAJA AGRASEN VIDYALAYA INTER COLLEGE MOTINAGAR ROOM NO-7",
+   "partId": 388290
+  },
+  {
+   "partNumber": 29,
+   "partName": "MAHARAJA AGRASEN VIDYALAYA INTER COLLEGE MOTINAGAR ROOM NO-8",
+   "partId": 388575
+  },
+  {
+   "partNumber": 30,
+   "partName": "GAYAPRASAD DHARMSHALA MUNNELAAL DHARMSHALA ROAD CHARBAGH ROOM NO-1",
+   "partId": 388291
+  },
+  {
+   "partNumber": 31,
+   "partName": "GAYAPRASAD DHARMSHALA MUNNELAAL DHARMSHALA ROAD CHARBAGH ROOM NO-2",
+   "partId": 388292
+  },
+  {
+   "partNumber": 32,
+   "partName": "BLOOMING FLOWERS HIGH SCHOOL BLUNT SQUARE MAWAIYA ROOM NO-1",
+   "partId": 388293
+  },
+  {
+   "partNumber": 33,
+   "partName": "BLOOMING FLOWERS HIGH SCHOOL BLUNT SQUARE MAWAIYA ROOM NO-2",
+   "partId": 388294
+  },
+  {
+   "partNumber": 34,
+   "partName": "SUBHASH VIDYA MANDIR SCHOOL MAWAIYA ROOM NO-1",
+   "partId": 388295
+  },
+  {
+   "partNumber": 35,
+   "partName": "SUBHASH VIDYA MANDIR SCHOOL MAWAIYA ROOM NO-2",
+   "partId": 388296
+  },
+  {
+   "partNumber": 36,
+   "partName": "SUBHASH VIDYA MANDIR SCHOOL MAWAIYA ROOM NO-3",
+   "partId": 388297
+  },
+  {
+   "partNumber": 37,
+   "partName": "SUBHASH VIDYA MANDIR SCHOOL MAWAIYA ROOM NO-4",
+   "partId": 388305
+  },
+  {
+   "partNumber": 38,
+   "partName": "SUBHASH VIDYA MANDIR SCHOOL MAWAIYA ROOM NO-5",
+   "partId": 388576
+  },
+  {
+   "partNumber": 39,
+   "partName": "BAHUVISHYAK MANDAL PRASHIKSHAN SANSTHAAN N E R COLONY MAWAIYA CHARBAGH ROOM NO-1",
+   "partId": 388306
+  },
+  {
+   "partNumber": 40,
+   "partName": "AZAD BAL VIDYALAYA INTER COLLEGE ARTINAGAR GADHI KANAURA ROOM NO-1",
+   "partId": 388307
+  },
+  {
+   "partNumber": 41,
+   "partName": "AZAD BAL VIDYALAYA INTER COLLEGE ARTINAGAR GADHI KANAURA ROOM NO-2",
+   "partId": 388308
+  },
+  {
+   "partNumber": 42,
+   "partName": "AZAD BAL VIDYALAYA INTER COLLEGE ARTINAGAR GADHI KANAURA ROOM NO-3",
+   "partId": 388309
+  },
+  {
+   "partNumber": 43,
+   "partName": "AZAD BAL VIDYALAYA INTER COLLEGE ARTINAGAR GADHI KANAURA ROOM NO-4",
+   "partId": 388310
+  },
+  {
+   "partNumber": 44,
+   "partName": "RAMA PUBLIC SCHOOL ARTI NAGAR GADHI KANAURA ROOM NO-1",
+   "partId": 388311
+  },
+  {
+   "partNumber": 45,
+   "partName": "RAMA PUBLIC SCHOOL ARTI NAGAR GADHI KANAURA ROOM NO-2",
+   "partId": 388577
+  },
+  {
+   "partNumber": 46,
+   "partName": "NEW MODEL PUBLIC CONVENT SCHOOL SHRAM VIHAR NAGAR ROOM NO-1",
+   "partId": 388312
+  },
+  {
+   "partNumber": 47,
+   "partName": "NEW MODEL PUBLIC CONVENT SCHOOL SHRAM VIHAR NAGAR ROOM NO-2",
+   "partId": 388578
+  },
+  {
+   "partNumber": 48,
+   "partName": "NEW MODEL PUBLIC CONVENT SCHOOL SHRAM VIHAR NAGAR ROOM NO-3",
+   "partId": 388313
+  },
+  {
+   "partNumber": 49,
+   "partName": "LUCKNOW CENTRAL ACADEMY SCHOOL GADHI KANAURA ROOM NO-1",
+   "partId": 388314
+  },
+  {
+   "partNumber": 50,
+   "partName": "LUCKNOW CENTRAL ACADEMY SCHOOL GADHI KANAURA ROOM NO-2",
+   "partId": 388315
+  },
+  {
+   "partNumber": 51,
+   "partName": "ARVIND BAL VIDYA MANDIR INTER COLLEGE HARCHANDPUR GADHI KANAURA ROOM NO-1",
+   "partId": 388316
+  },
+  {
+   "partNumber": 52,
+   "partName": "ARVIND BAL VIDYA MANDIR INTER COLLEGE HARCHANDPUR GADHI KANAURA ROOM NO-2",
+   "partId": 388579
+  },
+  {
+   "partNumber": 53,
+   "partName": "ARVIND BAL VIDYA MANDIR INTER COLLEGE HARCHANDPUR GADHI KANAURA ROOM NO-3",
+   "partId": 388328
+  },
+  {
+   "partNumber": 54,
+   "partName": "ARVIND BAL VIDYA MANDIR INTER COLLEGE HARCHANDPUR GADHI KANAURA ROOM NO-4",
+   "partId": 388329
+  },
+  {
+   "partNumber": 55,
+   "partName": "ARVIND BAL VIDYA MANDIR INTER COLLEGE HARCHANDPUR GADHI KANAURA ROOM NO-5",
+   "partId": 388330
+  },
+  {
+   "partNumber": 56,
+   "partName": "ARVIND BAL VIDYA MANDIR INTER COLLEGE HARCHANDPUR GADHI KANAURA ROOM NO-6",
+   "partId": 388331
+  },
+  {
+   "partNumber": 57,
+   "partName": "ARVIND BAL VIDYA MANDIR INTER COLLEGE HARCHANDPUR GADHI KANAURA ROOM NO-7",
+   "partId": 388332
+  },
+  {
+   "partNumber": 58,
+   "partName": "BHARTIYA VIKAS VIDYALAYA TEZIKHEDA ROOM NO-1",
+   "partId": 388333
+  },
+  {
+   "partNumber": 59,
+   "partName": "BHARTIYA VIKAS VIDYALAYA TEZIKHEDA ROOM NO-2",
+   "partId": 388334
+  },
+  {
+   "partNumber": 60,
+   "partName": "NEW PUBLIC INTER COLLEGE DEVPUR ROOM NO-1",
+   "partId": 388339
+  },
+  {
+   "partNumber": 61,
+   "partName": "NEW PUBLIC INTER COLLEGE DEVPUR ROOM NO-2",
+   "partId": 388340
+  },
+  {
+   "partNumber": 62,
+   "partName": "NEW PUBLIC INTER COLLEGE DEVPUR ROOM NO-3",
+   "partId": 388341
+  },
+  {
+   "partNumber": 63,
+   "partName": "NEW PUBLIC INTER COLLEGE DEVPUR ROOM NO-4",
+   "partId": 388342
+  },
+  {
+   "partNumber": 64,
+   "partName": "NEW PUBLIC INTER COLLEGE DEVPUR ROOM NO-5",
+   "partId": 388343
+  },
+  {
+   "partNumber": 65,
+   "partName": "NEW PUBLIC INTER COLLEGE DEVPUR ROOM NO-6",
+   "partId": 388580
+  },
+  {
+   "partNumber": 66,
+   "partName": "NEW LUCKNOW MONTESSORY COLLEGE VIKRAMNAGAR ROOM NO-1",
+   "partId": 388344
+  },
+  {
+   "partNumber": 67,
+   "partName": "NEW LUCKNOW MONTESSORY COLLEGE VIKRAMNAGAR ROOM NO-2",
+   "partId": 388345
+  },
+  {
+   "partNumber": 68,
+   "partName": "NEW LUCKNOW MONTESSORY COLLEGE VIKRAMNAGAR ROOM NO-3",
+   "partId": 388346
+  },
+  {
+   "partNumber": 69,
+   "partName": "R B PUBLIC INTER COLLEGE SURYANAGAR ROOM NO-1",
+   "partId": 388347
+  },
+  {
+   "partNumber": 70,
+   "partName": "R B PUBLIC INTER COLLEGE SURYANAGAR ROOM NO-2",
+   "partId": 388348
+  },
+  {
+   "partNumber": 71,
+   "partName": "R B PUBLIC INTER COLLEGE SURYANAGAR ROOM NO-3",
+   "partId": 388349
+  },
+  {
+   "partNumber": 72,
+   "partName": "R B PUBLIC INTER COLLEGE SURYANAGAR ROOM NO-4",
+   "partId": 388350
+  },
+  {
+   "partNumber": 73,
+   "partName": "R B PUBLIC INTER COLLEGE SURYANAGAR ROOM NO-5",
+   "partId": 388351
+  },
+  {
+   "partNumber": 74,
+   "partName": "R B PUBLIC INTER COLLEGE SURYANAGAR ROOM NO-6",
+   "partId": 388352
+  },
+  {
+   "partNumber": 75,
+   "partName": "KENDRIYA VIDYALAYA R D S O COLONY MANAKNAGAR ROOM NO-1",
+   "partId": 388353
+  },
+  {
+   "partNumber": 76,
+   "partName": "KENDRIYA VIDYALAYA R D S O COLONY MANAKNAGAR ROOM NO-2",
+   "partId": 388354
+  },
+  {
+   "partNumber": 77,
+   "partName": "KENDRIYA VIDYALAYA R D S O COLONY MANAKNAGAR ROOM NO-3",
+   "partId": 388355
+  },
+  {
+   "partNumber": 78,
+   "partName": "KENDRIYA VIDYALAYA R D S O COLONY MANAKNAGAR ROOM NO-4",
+   "partId": 388356
+  },
+  {
+   "partNumber": 79,
+   "partName": "J K PUBLIC SCHOOL KHUSHI VIHAR ROOM NO-1",
+   "partId": 388357
+  },
+  {
+   "partNumber": 80,
+   "partName": "J K PUBLIC SCHOOL KHUSHI VIHAR ROOM NO-2",
+   "partId": 388581
+  },
+  {
+   "partNumber": 81,
+   "partName": "J K PUBLIC SCHOOL KHUSHI VIHAR ROOM NO-3",
+   "partId": 388582
+  },
+  {
+   "partNumber": 82,
+   "partName": "PRATHMIK VIDYALAYA KANAUSI-2 ROOM NO-1",
+   "partId": 388358
+  },
+  {
+   "partNumber": 83,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE KANAUSI ROOM NO-1",
+   "partId": 388359
+  },
+  {
+   "partNumber": 84,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE KANAUSI ROOM NO-2",
+   "partId": 388360
+  },
+  {
+   "partNumber": 85,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE KANAUSI ROOM NO-3",
+   "partId": 388361
+  },
+  {
+   "partNumber": 86,
+   "partName": "AWADH STUDY CIRCLE HIGH SCHOOL GANGA KHEDA KANAUSI ROOM NO-1",
+   "partId": 388362
+  },
+  {
+   "partNumber": 87,
+   "partName": "AWADH STUDY CIRCLE HIGH SCHOOL GANGA KHEDA KANAUSI ROOM NO-2",
+   "partId": 388363
+  },
+  {
+   "partNumber": 88,
+   "partName": "TECHNICAL HIGH SCHOOL VIJAYNAGAR KRISHNA NAGAR ROOM NO-1",
+   "partId": 388246
+  },
+  {
+   "partNumber": 89,
+   "partName": "TECHNICAL HIGH SCHOOL VIJAYNAGAR KRISHNA NAGAR ROOM NO-2",
+   "partId": 388247
+  },
+  {
+   "partNumber": 90,
+   "partName": "TECHNICAL HIGH SCHOOL VIJAYNAGAR KRISHNA NAGAR ROOM NO-3",
+   "partId": 388248
+  },
+  {
+   "partNumber": 91,
+   "partName": "TECHNICAL HIGH SCHOOL VIJAYNAGAR KRISHNA NAGAR ROOM NO-4",
+   "partId": 388249
+  },
+  {
+   "partNumber": 92,
+   "partName": "TECHNICAL HIGH SCHOOL VIJAYNAGAR KRISHNA NAGAR ROOM NO-5",
+   "partId": 388254
+  },
+  {
+   "partNumber": 93,
+   "partName": "TECHNICAL HIGH SCHOOL VIJAYNAGAR KRISHNA NAGARROOM NO-6",
+   "partId": 388255
+  },
+  {
+   "partNumber": 94,
+   "partName": "TECHNICAL HIGH SCHOOL VIJAYNAGAR KRISHNA NAGARROOM NO-7",
+   "partId": 388256
+  },
+  {
+   "partNumber": 95,
+   "partName": "NEW PUBLIC SCHOOL M-64 NEAR POST OFFICE INDRALOK COLONY ROOM NO-1",
+   "partId": 388257
+  },
+  {
+   "partNumber": 96,
+   "partName": "NEW PUBLIC SCHOOL M-64 NEAR POST OFFICE INDRALOK COLONY ROOM NO-2",
+   "partId": 388258
+  },
+  {
+   "partNumber": 97,
+   "partName": "NEW PUBLIC SCHOOL M-64 NEAR POST OFFICE INDRALOK COLONY ROOM NO-3",
+   "partId": 388268
+  },
+  {
+   "partNumber": 98,
+   "partName": "MAHANAGAR PUBLIC INTER COLLEGE KRISHNANAGAR ROOM NO-1",
+   "partId": 388269
+  },
+  {
+   "partNumber": 99,
+   "partName": "MAHANAGAR PUBLIC INTER COLLEGE KRISHNANAGAR ROOM NO-2",
+   "partId": 388270
+  },
+  {
+   "partNumber": 100,
+   "partName": "MAHANAGAR PUBLIC INTER COLLEGE KRISHNANAGAR ROOM NO-3",
+   "partId": 388271
+  },
+  {
+   "partNumber": 101,
+   "partName": "MAHANAGAR PUBLIC INTER COLLEGE KRISHNANAGAR ROOM NO-4",
+   "partId": 388272
+  },
+  {
+   "partNumber": 102,
+   "partName": "MAHANAGAR PUBLIC INTER COLLEGE KRISHNANAGAR ROOM NO-5",
+   "partId": 388273
+  },
+  {
+   "partNumber": 103,
+   "partName": "MAHANAGAR PUBLIC INTER COLLEGE KRISHNANAGAR ROOM NO-6",
+   "partId": 388278
+  },
+  {
+   "partNumber": 104,
+   "partName": "MAHANAGAR PUBLIC INTER COLLEGE KRISHNANAGAR ROOM NO-7",
+   "partId": 388279
+  },
+  {
+   "partNumber": 105,
+   "partName": "SARVANGEEN VIKAS INTER COLLEGE BHOLAKHEDA ROOM NO-1",
+   "partId": 388280
+  },
+  {
+   "partNumber": 106,
+   "partName": "SARVANGEEN VIKAS INTER COLLEGE BHOLAKHEDA ROOM NO-2",
+   "partId": 388281
+  },
+  {
+   "partNumber": 107,
+   "partName": "SARVANGEEN VIKAS INTER COLLEGE BHOLAKHEDA ROOM NO-3",
+   "partId": 388282
+  },
+  {
+   "partNumber": 108,
+   "partName": "BESIK VIDYALAYA KANAUSI (SITUATED BHOLAKHEDA) ROOM NO-1",
+   "partId": 388283
+  },
+  {
+   "partNumber": 109,
+   "partName": "BESIK VIDYALAYA KANAUSI (SITUATED BHOLAKHEDA) ROOM NO-2",
+   "partId": 388284
+  },
+  {
+   "partNumber": 110,
+   "partName": "BESIK VIDYALAYA KANAUSI (SITUATED BHOLAKHEDA) ROOM NO-3",
+   "partId": 388285
+  },
+  {
+   "partNumber": 111,
+   "partName": "BESIK VIDYALAYA KANAUSI (SITUATED BHOLAKHEDA) ROOM NO-4",
+   "partId": 388287
+  },
+  {
+   "partNumber": 112,
+   "partName": "BESIK VIDYALAYA KANAUSI (SITUATED BHOLAKHEDA) ROOM NO-5",
+   "partId": 388583
+  },
+  {
+   "partNumber": 113,
+   "partName": "GEETA MONTESSORI SCHOOL NEW BHOLA KHEDA(NEAR JAFAR KHEDA) ROOM NO-1",
+   "partId": 388298
+  },
+  {
+   "partNumber": 114,
+   "partName": "GEETA MONTESSORI SCHOOL NEW BHOLA KHEDA(NEAR JAFAR KHEDA)ROOM NO-2",
+   "partId": 388299
+  },
+  {
+   "partNumber": 115,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE SINGAR NAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388300
+  },
+  {
+   "partNumber": 116,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE SINGAR NAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388301
+  },
+  {
+   "partNumber": 117,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE SINGAR NAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388302
+  },
+  {
+   "partNumber": 118,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE SINGAR NAGAR ALAMBAGH ROOM NO-4",
+   "partId": 388303
+  },
+  {
+   "partNumber": 119,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE SINGAR NAGAR ALAMBAGH ROOM NO-5",
+   "partId": 388304
+  },
+  {
+   "partNumber": 120,
+   "partName": "B N LAL VOCATIONAL INTER COLLEGE CHITRAGUPT NAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388317
+  },
+  {
+   "partNumber": 121,
+   "partName": "B N LAL VOCATIONAL INTER COLLEGE CHITRAGUPT NAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388318
+  },
+  {
+   "partNumber": 122,
+   "partName": "B N LAL VOCATIONAL INTER COLLEGE CHITRAGUPT NAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388319
+  },
+  {
+   "partNumber": 123,
+   "partName": "B N LAL VOCATIONAL INTER COLLEGE CHITRAGUPT NAGAR ALAMBAGH ROOM NO-4",
+   "partId": 388320
+  },
+  {
+   "partNumber": 124,
+   "partName": "B N LAL VOCATIONAL INTER COLLEGE CHITRAGUPT NAGAR ALAMBAGH ROOM NO-5",
+   "partId": 388321
+  },
+  {
+   "partNumber": 125,
+   "partName": "ST. ANN'S DAY SCHOOL/COLLEGE CHITRAGUPT NAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388322
+  },
+  {
+   "partNumber": 126,
+   "partName": "ST. ANN'S DAY SCHOOL/COLLEGE CHITRAGUPT NAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388323
+  },
+  {
+   "partNumber": 127,
+   "partName": "ST. ANN'S DAY SCHOOL/COLLEGE CHITRAGUPT NAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388324
+  },
+  {
+   "partNumber": 128,
+   "partName": "BESHIK VIDHYALAYA BARIGAWAN NAGAR KSHETRA ZONA-1 STHITHI POORAN NAGAR CHAURAHA KANPUR ROAD ROOM NO-1",
+   "partId": 388325
+  },
+  {
+   "partNumber": 129,
+   "partName": "BESHIK VIDHYALAYA BARIGAWAN NAGAR KSHETRA ZONA-1 STHITHI POORAN NAGAR CHAURAHA KANPUR ROAD ROOM NO-2",
+   "partId": 388326
+  },
+  {
+   "partNumber": 130,
+   "partName": "BESHIK VIDHYALAYA BARIGAWAN NAGAR KSHETRA ZONA-1 STHITHI POORAN NAGAR CHAURAHA KANPUR ROAD ROOM NO-3",
+   "partId": 388584
+  },
+  {
+   "partNumber": 131,
+   "partName": "SWATANTRA INTER COLLEGE SNEHNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388327
+  },
+  {
+   "partNumber": 132,
+   "partName": "SWATANTRA INTER COLLEGE SNEHNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388335
+  },
+  {
+   "partNumber": 133,
+   "partName": "SWATANTRA GIRLS DEGREE COLLEGE SNEHNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388336
+  },
+  {
+   "partNumber": 134,
+   "partName": "SWATANTRA GIRLS DEGREE COLLEGE SNEHNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388337
+  },
+  {
+   "partNumber": 135,
+   "partName": "SWATANTRA GIRLS DEGREE COLLEGE SNEHNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388338
+  },
+  {
+   "partNumber": 136,
+   "partName": "INDIAN PUBLIC INTER COLLEGE PREMNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388372
+  },
+  {
+   "partNumber": 137,
+   "partName": "INDIAN PUBLIC INTER COLLEGE PREMNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388373
+  },
+  {
+   "partNumber": 138,
+   "partName": "INDIAN PUBLIC INTER COLLEGE PREMNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388376
+  },
+  {
+   "partNumber": 139,
+   "partName": "INDIAN PUBLIC INTER COLLEGE PREMNAGAR ALAMBAGH ROOM NO-4",
+   "partId": 388379
+  },
+  {
+   "partNumber": 140,
+   "partName": "INDIAN PUBLIC INTER COLLEGE PREMNAGAR ALAMBAGH ROOM NO-5",
+   "partId": 388585
+  },
+  {
+   "partNumber": 141,
+   "partName": "INDIAN PUBLIC INTER COLLEGE PREMNAGAR ALAMBAGH ROOM NO-6",
+   "partId": 388380
+  },
+  {
+   "partNumber": 142,
+   "partName": "A.K.D PUBLIC SCHOOL VISHESHWARNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388381
+  },
+  {
+   "partNumber": 143,
+   "partName": "A.K.D PUBLIC SCHOOL VISHESHWARNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388382
+  },
+  {
+   "partNumber": 144,
+   "partName": "A.K.D PUBLIC SCHOOL VISHESHWARNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388383
+  },
+  {
+   "partNumber": 145,
+   "partName": "SINDHI BOYS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388384
+  },
+  {
+   "partNumber": 146,
+   "partName": "SINDHI BOYS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388385
+  },
+  {
+   "partNumber": 147,
+   "partName": "SINDHI BOYS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388386
+  },
+  {
+   "partNumber": 148,
+   "partName": "SINDHI BOYS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO 4",
+   "partId": 388567
+  },
+  {
+   "partNumber": 149,
+   "partName": "AWASIYA PUBLIC INTER COLLEGE VIRATNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388387
+  },
+  {
+   "partNumber": 150,
+   "partName": "AWASIYA PUBLIC INTER COLLEGE VIRATNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388388
+  },
+  {
+   "partNumber": 151,
+   "partName": "AWASIYA PUBLIC INTER COLLEGE VIRATNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388389
+  },
+  {
+   "partNumber": 152,
+   "partName": "AWASIYA PUBLIC INTER COLLEGE VIRATNAGAR ALAMBAGH ROOM NO-4",
+   "partId": 388390
+  },
+  {
+   "partNumber": 153,
+   "partName": "AWASIYA PUBLIC INTER COLLEGE VIRATNAGAR ALAMBAGH ROOM NO-5",
+   "partId": 388586
+  },
+  {
+   "partNumber": 154,
+   "partName": "LUCKNOW MEMORIAL PUBLIC HIGH SCHOOL GOPALPURI ALAMBAGH ROOM NO-1",
+   "partId": 388394
+  },
+  {
+   "partNumber": 155,
+   "partName": "LUCKNOW MEMORIAL PUBLIC HIGH SCHOOL GOPALPURI ALAMBAGH ROOM NO-2",
+   "partId": 388395
+  },
+  {
+   "partNumber": 156,
+   "partName": "LUCKNOW MEMORIAL PUBLIC HIGH SCHOOL GOPALPURI ALAMBAGH ROOM NO-3",
+   "partId": 388587
+  },
+  {
+   "partNumber": 157,
+   "partName": "SRI SARASWATI SHIKSHA SADAN BALIKA JUNIOR HIGH SCHOOL BADA BARHA NEAR RAILWAY COLONY ALAMBAGH ROOM NO-1",
+   "partId": 388396
+  },
+  {
+   "partNumber": 158,
+   "partName": "SRI SARASWATI SHIKSHA SADAN BALIKA JUNIOR HIGH SCHOOL BADA BARHA NEAR RAILWAY COLONY ALAMBAGH ROOM NO-2",
+   "partId": 388364
+  },
+  {
+   "partNumber": 159,
+   "partName": "SRI SARASWATI SHIKSHA SADAN BALIKA JUNIOR HIGH SCHOOL BADA BARHA NEAR RAILWAY COLONY ALAMBAGH ROOM NO-3",
+   "partId": 388365
+  },
+  {
+   "partNumber": 160,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-1",
+   "partId": 388366
+  },
+  {
+   "partNumber": 161,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-2",
+   "partId": 388367
+  },
+  {
+   "partNumber": 162,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-3",
+   "partId": 388368
+  },
+  {
+   "partNumber": 163,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-4",
+   "partId": 388369
+  },
+  {
+   "partNumber": 164,
+   "partName": "SWAMI VIVEKANAND INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-5",
+   "partId": 388370
+  },
+  {
+   "partNumber": 165,
+   "partName": "HOMEGUARD KARYALAYA JAIL ROAD ROOM NO-1",
+   "partId": 388371
+  },
+  {
+   "partNumber": 166,
+   "partName": "HOMEGUARD KARYALAYA JAIL ROAD ROOM NO-2",
+   "partId": 388374
+  },
+  {
+   "partNumber": 167,
+   "partName": "HOMEGUARD KARYALAYA JAIL ROAD ROOM NO-3",
+   "partId": 388375
+  },
+  {
+   "partNumber": 168,
+   "partName": "HOMEGUARD KARYALAYA JAIL ROAD ROOM NO-4",
+   "partId": 388377
+  },
+  {
+   "partNumber": 169,
+   "partName": "JANTA BOYS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388378
+  },
+  {
+   "partNumber": 170,
+   "partName": "JANTA BOYS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388391
+  },
+  {
+   "partNumber": 171,
+   "partName": "JANTA BOYS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388392
+  },
+  {
+   "partNumber": 172,
+   "partName": "JANTA BOYS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-4",
+   "partId": 388393
+  },
+  {
+   "partNumber": 173,
+   "partName": "JANTA BOYS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-5",
+   "partId": 388397
+  },
+  {
+   "partNumber": 174,
+   "partName": "JANTA BOYS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-6",
+   "partId": 388398
+  },
+  {
+   "partNumber": 175,
+   "partName": "NAVYUG PUBLIC SCHOOL NEAR STATE BANK CHANDARNAGAR ALAMBAGH LUCKNOW ROOM NO-1",
+   "partId": 388399
+  },
+  {
+   "partNumber": 176,
+   "partName": "NAVYUG PUBLIC SCHOOL NEAR STATE BANK CHANDARNAGAR ALAMBAGH LUCKNOW ROOM NO-2",
+   "partId": 388400
+  },
+  {
+   "partNumber": 177,
+   "partName": "NAVYUG PUBLIC SCHOOL NEAR STATE BANK CHANDARNAGAR ALAMBAGH LUCKNOW ROOM NO-3",
+   "partId": 388401
+  },
+  {
+   "partNumber": 178,
+   "partName": "GURUNANAK VIDYALAYA GIRLS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388404
+  },
+  {
+   "partNumber": 179,
+   "partName": "GURUNANAK VIDYALAYA GIRLS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388405
+  },
+  {
+   "partNumber": 180,
+   "partName": "GURUNANAK VIDYALAYA GIRLS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388407
+  },
+  {
+   "partNumber": 181,
+   "partName": "GURUNANAK VIDYALAYA GIRLS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-4",
+   "partId": 388408
+  },
+  {
+   "partNumber": 182,
+   "partName": "GURUNANAK VIDYALAYA GIRLS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-5",
+   "partId": 388414
+  },
+  {
+   "partNumber": 183,
+   "partName": "GURUNANAK VIDYALAYA GIRLS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-6",
+   "partId": 388415
+  },
+  {
+   "partNumber": 184,
+   "partName": "GURUNANAK VIDYALAYA GIRLS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-7",
+   "partId": 388588
+  },
+  {
+   "partNumber": 185,
+   "partName": "GURUNANAK VIDYALAYA GIRLS INTER COLLEGE CHANDARNAGAR ALAMBAGH ROOM NO-8",
+   "partId": 388416
+  },
+  {
+   "partNumber": 186,
+   "partName": "ST. CHRIST PUBLIC INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-1",
+   "partId": 388417
+  },
+  {
+   "partNumber": 187,
+   "partName": "ST. CHRIST PUBLIC INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-2",
+   "partId": 388418
+  },
+  {
+   "partNumber": 188,
+   "partName": "ST. CHRIST PUBLIC INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-3",
+   "partId": 388421
+  },
+  {
+   "partNumber": 189,
+   "partName": "ST. CHRIST PUBLIC INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-4",
+   "partId": 388422
+  },
+  {
+   "partNumber": 190,
+   "partName": "PIONEER MONTESSORI VIDYALAYA INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-1",
+   "partId": 388423
+  },
+  {
+   "partNumber": 191,
+   "partName": "PIONEER MONTESSORI VIDYALAYA INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-2",
+   "partId": 388424
+  },
+  {
+   "partNumber": 192,
+   "partName": "PIONEER MONTESSORI VIDYALAYA INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-3",
+   "partId": 388430
+  },
+  {
+   "partNumber": 193,
+   "partName": "PIONEER MONTESSORI VIDYALAYA INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-4",
+   "partId": 388434
+  },
+  {
+   "partNumber": 194,
+   "partName": "PIONEER MONTESSORI VIDYALAYA INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-5",
+   "partId": 388402
+  },
+  {
+   "partNumber": 195,
+   "partName": "PIONEER MONTESSORI VIDYALAYA INTER COLLEGE GEETAPALLI ALAMBAGH ROOM NO-6",
+   "partId": 388403
+  },
+  {
+   "partNumber": 196,
+   "partName": "LUCKNOW PUBLIC STANDARD SCHOOL SAINIKNAGAR FAUJI COLONY ALAMBAGH ROOM NO-1",
+   "partId": 388406
+  },
+  {
+   "partNumber": 197,
+   "partName": "LUCKNOW PUBLIC STANDARD SCHOOL SAINIKNAGAR FAUJI COLONY ALAMBAGH ROOM NO-2",
+   "partId": 388409
+  },
+  {
+   "partNumber": 198,
+   "partName": "LUCKNOW PUBLIC STANDARD SCHOOL SAINIKNAGAR FAUJI COLONY ALAMBAGH ROOM NO-3",
+   "partId": 388410
+  },
+  {
+   "partNumber": 199,
+   "partName": "SHYAMACHANDRA CONVENT INTER COLLEGE KRISHNAPALLI ALAMBAGH ROOM NO-1",
+   "partId": 388411
+  },
+  {
+   "partNumber": 200,
+   "partName": "SHYAMACHANDRA CONVENT INTER COLLEGE KRISHNAPALLI ALAMBAGH ROOM NO-2",
+   "partId": 388412
+  },
+  {
+   "partNumber": 201,
+   "partName": "SHYAMACHANDRA CONVENT INTER COLLEGE KRISHNAPALLI ALAMBAGH ROOM NO-3",
+   "partId": 388413
+  },
+  {
+   "partNumber": 202,
+   "partName": "SHYAMACHANDRA CONVENT INTER COLLEGE KRISHNAPALLI ALAMBAGH ROOM NO-4",
+   "partId": 388419
+  },
+  {
+   "partNumber": 203,
+   "partName": "NATIONAL SHIKSHA NIKETAN MADHUBANNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388420
+  },
+  {
+   "partNumber": 204,
+   "partName": "NATIONAL SHIKSHA NIKETAN MADHUBANNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388425
+  },
+  {
+   "partNumber": 205,
+   "partName": "NATIONAL SHIKSHA NIKETAN MADHUBANNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388426
+  },
+  {
+   "partNumber": 206,
+   "partName": "SWATANTRA BAL NIKETAN INTER COLLEGE MADHUBANNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388427
+  },
+  {
+   "partNumber": 207,
+   "partName": "SWATANTRA BAL NIKETAN INTER COLLEGE MADHUBANNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388428
+  },
+  {
+   "partNumber": 208,
+   "partName": "NALANDA PUBLIC INTER COLLEGE HASNAPUR ROAD ALAMBAGH ROOM NO-1",
+   "partId": 388429
+  },
+  {
+   "partNumber": 209,
+   "partName": "NALANDA PUBLIC INTER COLLEGE HASNAPUR ROAD ALAMBAGH ROOM NO-2",
+   "partId": 388431
+  },
+  {
+   "partNumber": 210,
+   "partName": "NALANDA PUBLIC INTER COLLEGE HASNAPUR ROAD ALAMBAGH ROOM NO-3",
+   "partId": 388432
+  },
+  {
+   "partNumber": 211,
+   "partName": "NALANDA PUBLIC INTER COLLEGE HASNAPUR ROAD ALAMBAGH ROOM NO-4",
+   "partId": 388433
+  },
+  {
+   "partNumber": 212,
+   "partName": "ROSERY PUBLIC INTER COLLEGE ARJUNNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388435
+  },
+  {
+   "partNumber": 213,
+   "partName": "ROSERY PUBLIC INTER COLLEGE ARJUNNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388436
+  },
+  {
+   "partNumber": 214,
+   "partName": "ROSERY PUBLIC INTER COLLEGE ARJUNNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388437
+  },
+  {
+   "partNumber": 215,
+   "partName": "JANTA GIRLS INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-1",
+   "partId": 388448
+  },
+  {
+   "partNumber": 216,
+   "partName": "JANTA GIRLS INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-2",
+   "partId": 388449
+  },
+  {
+   "partNumber": 217,
+   "partName": "JANTA GIRLS INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-3",
+   "partId": 388450
+  },
+  {
+   "partNumber": 218,
+   "partName": "JANTA GIRLS INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-4",
+   "partId": 388451
+  },
+  {
+   "partNumber": 219,
+   "partName": "JANTA GIRLS INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-5",
+   "partId": 388452
+  },
+  {
+   "partNumber": 220,
+   "partName": "JANTA GIRLS INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-6",
+   "partId": 388589
+  },
+  {
+   "partNumber": 221,
+   "partName": "JANTA GIRLS INTER COLLEGE CHHOTA BARHA ALAMBAGH ROOM NO-7",
+   "partId": 388453
+  },
+  {
+   "partNumber": 222,
+   "partName": "LUCKNOW MODEL PUBLIC INTER COLLEGE SUJANPURA ROAD ALAMBAGH ROOM NO-1",
+   "partId": 388455
+  },
+  {
+   "partNumber": 223,
+   "partName": "LUCKNOW MODEL PUBLIC INTER COLLEGE SUJANPURA ROAD ALAMBAGH ROOM NO-2",
+   "partId": 388438
+  },
+  {
+   "partNumber": 224,
+   "partName": "LUCKNOW MODEL PUBLIC INTER COLLEGE SUJANPURA ROAD ALAMBAGH ROOM NO-3",
+   "partId": 388439
+  },
+  {
+   "partNumber": 225,
+   "partName": "SINDHI GIRLS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388440
+  },
+  {
+   "partNumber": 226,
+   "partName": "SINDHI GIRLS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388441
+  },
+  {
+   "partNumber": 227,
+   "partName": "SINDHI GIRLS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO-3",
+   "partId": 388442
+  },
+  {
+   "partNumber": 228,
+   "partName": "SINDHI GIRLS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO-4",
+   "partId": 388443
+  },
+  {
+   "partNumber": 229,
+   "partName": "SINDHI GIRLS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO 5",
+   "partId": 388568
+  },
+  {
+   "partNumber": 230,
+   "partName": "SINDHI GIRLS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO 6",
+   "partId": 388569
+  },
+  {
+   "partNumber": 231,
+   "partName": "SINDHI GIRLS INTER COLLEGE RAMNAGAR ALAMBAGH ROOM NO-6",
+   "partId": 388596
+  },
+  {
+   "partNumber": 232,
+   "partName": "UTTAR RAILWAY SAMUDAAYIK KENDRA 40 QUARTER COLONY ALAMBAGH ROOM NO-1",
+   "partId": 388444
+  },
+  {
+   "partNumber": 233,
+   "partName": "UTTAR RAILWAY SAMUDAAYIK KENDRA 40 QUARTER COLONY ALAMBAGH ROOM NO-2",
+   "partId": 388445
+  },
+  {
+   "partNumber": 234,
+   "partName": "UTTAR RAILWAY SAMUDAAYIK KENDRA 40 QUARTER COLONY ALAMBAGH ROOM NO-3",
+   "partId": 388446
+  },
+  {
+   "partNumber": 235,
+   "partName": "GANDHI VIDYALAYA INTER COLLEGE KANPUR ROAD ALAMBAGH ROOM NO-1",
+   "partId": 388447
+  },
+  {
+   "partNumber": 236,
+   "partName": "GANDHI VIDYALAYA INTER COLLEGE KANPUR ROAD ALAMBAGH ROOM NO-2",
+   "partId": 388454
+  },
+  {
+   "partNumber": 237,
+   "partName": "GANDHI VIDYALAYA INTER COLLEGE KANPUR ROAD ALAMBAGH ROOM NO-3",
+   "partId": 388590
+  },
+  {
+   "partNumber": 238,
+   "partName": "T.D.V.S PUBLIC SCHOOL NEAR BARHA RAILWAY COLONY ARJUNNAGAR ALAMBAGH ROOM NO-1",
+   "partId": 388456
+  },
+  {
+   "partNumber": 239,
+   "partName": "T.D.V.S PUBLIC SCHOOL NEAR BARHA RAILWAY COLONY ARJUNNAGAR ALAMBAGH ROOM NO-2",
+   "partId": 388457
+  },
+  {
+   "partNumber": 240,
+   "partName": "RAILWAY HIGHER SECONDARY SCHOOL JAIL ROAD ROOM NO-1",
+   "partId": 388458
+  },
+  {
+   "partNumber": 241,
+   "partName": "RAILWAY HIGHER SECONDARY SCHOOL JAIL ROAD ROOM NO-2",
+   "partId": 388459
+  },
+  {
+   "partNumber": 242,
+   "partName": "RAILWAY HIGHER SECONDARY SCHOOL JAIL ROAD ROOM NO-3",
+   "partId": 388460
+  },
+  {
+   "partNumber": 243,
+   "partName": "RAILWAY HIGHER SECONDARY SCHOOL JAIL ROAD ROOM NO-4",
+   "partId": 388464
+  },
+  {
+   "partNumber": 244,
+   "partName": "RAILWAY HIGHER SECONDARY SCHOOL JAIL ROAD ROOM NO-5",
+   "partId": 388467
+  },
+  {
+   "partNumber": 245,
+   "partName": "A P SEN MEMORIAL P G COLLEGE CHARBAGH ROOM NO-1",
+   "partId": 388468
+  },
+  {
+   "partNumber": 246,
+   "partName": "A P SEN MEMORIAL P G COLLEGE CHARBAGH ROOM NO-2",
+   "partId": 388471
+  },
+  {
+   "partNumber": 247,
+   "partName": "A P SEN MEMORIAL P G COLLEGE CHARBAGH ROOM NO-3",
+   "partId": 388472
+  },
+  {
+   "partNumber": 248,
+   "partName": "A P SEN MEMORIAL P G COLLEGE CHARBAGH ROOM NO-4",
+   "partId": 388473
+  },
+  {
+   "partNumber": 249,
+   "partName": "SRI GURUNANAK GIRLS DEGREE COLLEGE CHARBAGH ROOM NO-1",
+   "partId": 388474
+  },
+  {
+   "partNumber": 250,
+   "partName": "SRI GURUNANAK GIRLS DEGREE COLLEGE CHARBAGH ROOM NO-2",
+   "partId": 388461
+  },
+  {
+   "partNumber": 251,
+   "partName": "SRI GURUNANAK GIRLS DEGREE COLLEGE CHARBAGH ROOM NO-3",
+   "partId": 388462
+  },
+  {
+   "partNumber": 252,
+   "partName": "SRI GURUNANAK GIRLS DEGREE COLLEGE CHARBAGH ROOM NO-4",
+   "partId": 388463
+  },
+  {
+   "partNumber": 253,
+   "partName": "SRI GURUNANAK GIRLS DEGREE COLLEGE CHARBAGH ROOM NO-5",
+   "partId": 388591
+  },
+  {
+   "partNumber": 254,
+   "partName": "SRI GURUNANAK GIRLS COLLEGE VIJAYNAGAR BAASMANDI CHAURAHA ROOM NO-1",
+   "partId": 388465
+  },
+  {
+   "partNumber": 255,
+   "partName": "SRI GURUNANAK GIRLS COLLEGE VIJAYNAGAR BAASMANDI CHAURAHA ROOM NO-2",
+   "partId": 388466
+  },
+  {
+   "partNumber": 256,
+   "partName": "VAIDIK KANNYA PATHSHAALA ARYASAMAJ MANDIR MARG GANESHGANJ ROOM NO-1",
+   "partId": 388469
+  },
+  {
+   "partNumber": 257,
+   "partName": "VAIDIK KANNYA PATHSHAALA ARYASAMAJ MANDIR MARG GANESHGANJ ROOM NO-2",
+   "partId": 388470
+  },
+  {
+   "partNumber": 258,
+   "partName": "VAIDIK KANNYA PATHSHAALA ARYASAMAJ MANDIR MARG GANESHGANJ ROOM NO-3",
+   "partId": 388475
+  },
+  {
+   "partNumber": 259,
+   "partName": "VAIDIK KANNYA PATHSHAALA ARYASAMAJ MANDIR MARG GANESHGANJ ROOM NO-4",
+   "partId": 388592
+  },
+  {
+   "partNumber": 260,
+   "partName": "VAIDIK BAL VIDYA MANDIR GAUTAMBUDH MARG ROOM NO-1",
+   "partId": 388476
+  },
+  {
+   "partNumber": 261,
+   "partName": "VAIDIK BAL VIDYA MANDIR GAUTAMBUDH MARG ROOM NO-2",
+   "partId": 388479
+  },
+  {
+   "partNumber": 262,
+   "partName": "VAIDIK BAL VIDYA MANDIR GAUTAMBUDH MARG ROOM NO-3",
+   "partId": 388480
+  },
+  {
+   "partNumber": 263,
+   "partName": "VAIDIK BAL VIDYA MANDIR GAUTAMBUDH MARG ROOM NO-4",
+   "partId": 388481
+  },
+  {
+   "partNumber": 264,
+   "partName": "INDUSTRIAL INTER COLLEGE BANSMANDI CHAURAHA ROOM NO-1",
+   "partId": 388483
+  },
+  {
+   "partNumber": 265,
+   "partName": "INDUSTRIAL INTER COLLEGE BANSMANDI CHAURAHA ROOM NO-2",
+   "partId": 388487
+  },
+  {
+   "partNumber": 266,
+   "partName": "INDUSTRIAL INTER COLLEGE BANSMANDI CHAURAHA ROOM NO-3",
+   "partId": 388488
+  },
+  {
+   "partNumber": 267,
+   "partName": "INDUSTRIAL INTER COLLEGE BANSMANDI CHAURAHA ROOM NO-4",
+   "partId": 388491
+  },
+  {
+   "partNumber": 268,
+   "partName": "INDUSTRIAL INTER COLLEGE BANSMANDI CHAURAHA ROOM NO-5",
+   "partId": 388495
+  },
+  {
+   "partNumber": 269,
+   "partName": "INDUSTRIAL INTER COLLEGE BANSMANDI CHAURAHA ROOM NO-6",
+   "partId": 388496
+  },
+  {
+   "partNumber": 270,
+   "partName": "SHIVPRASAD SANSKRIT VIDYALAYA CHHITWAPUR PAJAWAN ROOM NO-1",
+   "partId": 388477
+  },
+  {
+   "partNumber": 271,
+   "partName": "SHIVPRASAD SANSKRIT VIDYALAYA CHHITWAPUR PAJAWAN ROOM NO-2",
+   "partId": 388478
+  },
+  {
+   "partNumber": 272,
+   "partName": "SHIVPRASAD SANSKRIT VIDYALAYA CHHITWAPUR PAJAWAN ROOM NO-3",
+   "partId": 388482
+  },
+  {
+   "partNumber": 273,
+   "partName": "SHIVPRASAD SANSKRIT VIDYALAYA CHHITWAPUR PAJAWAN ROOM NO-4",
+   "partId": 388484
+  },
+  {
+   "partNumber": 274,
+   "partName": "SHIVPRASAD SANSKRIT VIDYALAYA CHHITWAPUR PAJAWAN ROOM NO-5",
+   "partId": 388485
+  },
+  {
+   "partNumber": 275,
+   "partName": "ST. AGNES LORETO DAY SCHOOL STATION ROAD ROOM NO-1",
+   "partId": 388486
+  },
+  {
+   "partNumber": 276,
+   "partName": "ST. AGNES LORETO DAY SCHOOL STATION ROAD ROOM NO-2",
+   "partId": 388489
+  },
+  {
+   "partNumber": 277,
+   "partName": "ST. AGNES LORETO DAY SCHOOL STATION ROAD ROOM NO-3",
+   "partId": 388490
+  },
+  {
+   "partNumber": 278,
+   "partName": "ST. AGNES LORETO DAY SCHOOL STATION ROAD ROOM NO-4",
+   "partId": 388492
+  },
+  {
+   "partNumber": 279,
+   "partName": "ST. AGNES LORETO DAY SCHOOL STATION ROAD ROOM NO-5",
+   "partId": 388493
+  },
+  {
+   "partNumber": 280,
+   "partName": "ST. AGNES LORETO DAY SCHOOL STATION ROAD ROOM NO-6",
+   "partId": 388494
+  },
+  {
+   "partNumber": 281,
+   "partName": "ABACUS PUBLIC SCHOOL RAM MANDIR LANE HUSSAINGANJ ROOM NO-1",
+   "partId": 388498
+  },
+  {
+   "partNumber": 282,
+   "partName": "CHUTKI BHANDAR GIRLS INTER COLLEGE HUSSAINGANJ TILPURWA ROOM NO-2",
+   "partId": 388499
+  },
+  {
+   "partNumber": 283,
+   "partName": "CHUTKI BHANDAR GIRLS INTER COLLEGE HUSSAINGANJ TILPURWA ROOM NO-3",
+   "partId": 388500
+  },
+  {
+   "partNumber": 284,
+   "partName": "CHUTKI BHANDAR GIRLS INTER COLLEGE HUSSAINGANJ TILPURWA ROOM NO-4",
+   "partId": 388504
+  },
+  {
+   "partNumber": 285,
+   "partName": "CHUTKI BHANDAR GIRLS INTER COLLEGE HUSSAINGANJ TILPURWA ROOM NO-5",
+   "partId": 388505
+  },
+  {
+   "partNumber": 286,
+   "partName": "CHUTKI BHANDAR GIRLS INTER COLLEGE HUSSAINGANJ TILPURWA ROOM NO-6",
+   "partId": 388511
+  },
+  {
+   "partNumber": 287,
+   "partName": "H G D V CONVENT SCHOOL JAI NARAYAN ROAD HUSSAINGANJ ROOM NO-1",
+   "partId": 388512
+  },
+  {
+   "partNumber": 288,
+   "partName": "H G D V CONVENT SCHOOL JAI NARAYAN ROAD HUSSAINGANJ ROOM NO-2",
+   "partId": 388513
+  },
+  {
+   "partNumber": 289,
+   "partName": "UCHCH PRATHMIK VIDYALAY UDAYGANJ KHATIKAANA ROOM NO-1",
+   "partId": 388514
+  },
+  {
+   "partNumber": 290,
+   "partName": "UCHCH PRATHMIK VIDYALAY UDAYGANJ KHATIKAANA ROOM NO-2",
+   "partId": 388515
+  },
+  {
+   "partNumber": 291,
+   "partName": "SHASHI BHUSHAN BALIKA VIDYALAY INTER COLLEGE LALKUAN ROOM NO-1",
+   "partId": 388516
+  },
+  {
+   "partNumber": 292,
+   "partName": "SHASHI BHUSHAN BALIKA VIDYALAY INTER COLLEGE LALKUAN ROOM NO-2",
+   "partId": 388497
+  },
+  {
+   "partNumber": 293,
+   "partName": "SHASHI BHUSHAN BALIKA VIDYALAY INTER COLLEGE LALKUAN ROOM NO-3",
+   "partId": 388501
+  },
+  {
+   "partNumber": 294,
+   "partName": "SHASHI BHUSHAN BALIKA VIDYALAY INTER COLLEGE LALKUAN ROOM NO-4",
+   "partId": 388502
+  },
+  {
+   "partNumber": 295,
+   "partName": "SHASHI BHUSHAN BALIKA VIDYALAY INTER COLLEGE LALKUAN ROOM NO-5",
+   "partId": 388503
+  },
+  {
+   "partNumber": 296,
+   "partName": "KARYALAY U P STATE AGRO INDUSTRIAL CORPORATION VIDHAN SABHA MARG ROOM NO-1",
+   "partId": 388506
+  },
+  {
+   "partNumber": 297,
+   "partName": "KARYALAY U P STATE AGRO INDUSTRIAL CORPORATION VIDHAN SABHA MARG ROOM NO-2",
+   "partId": 388507
+  },
+  {
+   "partNumber": 298,
+   "partName": "KARYALAY U P STATE AGRO INDUSTRIAL CORPORATION VIDHAN SABHA MARG ROOM NO-3",
+   "partId": 388508
+  },
+  {
+   "partNumber": 299,
+   "partName": "KARYALAY U P STATE AGRO INDUSTRIAL CORPORATION VIDHAN SABHA MARG ROOM NO-4",
+   "partId": 388509
+  },
+  {
+   "partNumber": 300,
+   "partName": "KARYALAY U P STATE AGRO INDUSTRIAL CORPORATION VIDHAN SABHA MARG ROOM NO-5",
+   "partId": 388510
+  },
+  {
+   "partNumber": 301,
+   "partName": "ST. MARKS SCHOOL CLAY SQUARE ROOM NO-1",
+   "partId": 388525
+  },
+  {
+   "partNumber": 302,
+   "partName": "ST. MARKS SCHOOL CLAY SQUARE ROOM NO-2",
+   "partId": 388526
+  },
+  {
+   "partNumber": 303,
+   "partName": "ST. MARKS SCHOOL CLAY SQUARE ROOM NO-3",
+   "partId": 388533
+  },
+  {
+   "partNumber": 304,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-1",
+   "partId": 388534
+  },
+  {
+   "partNumber": 305,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-2",
+   "partId": 388535
+  },
+  {
+   "partNumber": 306,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-3",
+   "partId": 388536
+  },
+  {
+   "partNumber": 307,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-4",
+   "partId": 388517
+  },
+  {
+   "partNumber": 308,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-5",
+   "partId": 388518
+  },
+  {
+   "partNumber": 309,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-6",
+   "partId": 388519
+  },
+  {
+   "partNumber": 310,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-7",
+   "partId": 388597
+  },
+  {
+   "partNumber": 311,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-7",
+   "partId": 388520
+  },
+  {
+   "partNumber": 312,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-8",
+   "partId": 388521
+  },
+  {
+   "partNumber": 313,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-9",
+   "partId": 388522
+  },
+  {
+   "partNumber": 314,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-10",
+   "partId": 388523
+  },
+  {
+   "partNumber": 315,
+   "partName": "KARYALAYA CHIEF ENGINEER CANAL COLONY UDAYGANJ ROOM NO-11",
+   "partId": 388593
+  },
+  {
+   "partNumber": 316,
+   "partName": "SANSKRIT PAATHSHALA MAHAVIDYALAY MANGAL PANDEY MARG SADAR ROOM NO-1",
+   "partId": 388524
+  },
+  {
+   "partNumber": 317,
+   "partName": "SANSKRIT PAATHSHALA MAHAVIDYALAY MANGAL PANDEY MARG SADAR ROOM NO-2",
+   "partId": 388527
+  },
+  {
+   "partNumber": 318,
+   "partName": "SANSKRIT PAATHSHALA MAHAVIDYALAY MANGAL PANDEY MARG SADAR ROOM NO-3",
+   "partId": 388528
+  },
+  {
+   "partNumber": 319,
+   "partName": "SANSKRIT PAATHSHALA MAHAVIDYALAY MANGAL PANDEY MARG SADAR ROOM NO-4",
+   "partId": 388529
+  },
+  {
+   "partNumber": 320,
+   "partName": "SANSKRIT PAATHSHALA MAHAVIDYALAY MANGAL PANDEY MARG SADAR ROOM NO-5",
+   "partId": 388530
+  },
+  {
+   "partNumber": 321,
+   "partName": "SANSKRIT PAATHSHALA MAHAVIDYALAY MANGAL PANDEY MARG SADAR ROOM NO-6",
+   "partId": 388594
+  },
+  {
+   "partNumber": 322,
+   "partName": "JUNIOR BASIC PRIMARY PATHSHAALA CHHOTILAL KURTI ROOM NO-1",
+   "partId": 388531
+  },
+  {
+   "partNumber": 323,
+   "partName": "JUNIOR BASIC PRIMARY PATHSHAALA CHHOTILAL KURTI ROOM NO-2",
+   "partId": 388532
+  },
+  {
+   "partNumber": 324,
+   "partName": "JUNIOR BASIC PRIMARY PATHSHAALA CHHOTILAL KURTI ROOM NO-3",
+   "partId": 388537
+  },
+  {
+   "partNumber": 325,
+   "partName": "JUNIOR BASIC PRIMARY PATHSHAALA CHHOTILAL KURTI ROOM NO-4",
+   "partId": 388542
+  },
+  {
+   "partNumber": 326,
+   "partName": "HARICHAND INTER COLLEGE SADAR ROOM NO-1",
+   "partId": 388543
+  },
+  {
+   "partNumber": 327,
+   "partName": "HARICHAND INTER COLLEGE SADAR ROOM NO-2",
+   "partId": 388545
+  },
+  {
+   "partNumber": 328,
+   "partName": "HARICHAND INTER COLLEGE SADAR ROOM NO-3",
+   "partId": 388546
+  },
+  {
+   "partNumber": 329,
+   "partName": "MANGLA DEVI JUNIOR HIGH SCHOOL CHHAVNI PARISHAD SADAR LUCKNOW ROOM NO-1",
+   "partId": 388547
+  },
+  {
+   "partNumber": 330,
+   "partName": "MANGLA DEVI JUNIOR HIGH SCHOOL CHHAVNI PARISHAD SADAR LUCKNOW ROOM NO-2",
+   "partId": 388550
+  },
+  {
+   "partNumber": 331,
+   "partName": "MANGLA DEVI JUNIOR HIGH SCHOOL CHHAVNI PARISHAD SADAR LUCKNOW ROOM NO-3",
+   "partId": 388551
+  },
+  {
+   "partNumber": 332,
+   "partName": "NEW MISSION BOYS AND GIRLS INTER COLLEGE NEHRU ROAD SADAR ROOM NO-1",
+   "partId": 388552
+  },
+  {
+   "partNumber": 333,
+   "partName": "NEW MISSION BOYS AND GIRLS INTER COLLEGE NEHRU ROAD SADAR ROOM NO-2",
+   "partId": 388553
+  },
+  {
+   "partNumber": 334,
+   "partName": "NEW MISSION BOYS AND GIRLS INTER COLLEGE NEHRU ROAD SADAR ROOM NO-3",
+   "partId": 388557
+  },
+  {
+   "partNumber": 335,
+   "partName": "KENDRIYA VIDYALAYA DILKUSHA CANTT ROOM NO-1",
+   "partId": 388558
+  },
+  {
+   "partNumber": 336,
+   "partName": "KENDRIYA VIDYALAYA DILKUSHA CANTT ROOM NO-2",
+   "partId": 388559
+  },
+  {
+   "partNumber": 337,
+   "partName": "KENDRIYA VIDYALAYA DILKUSHA CANTT ROOM NO-3",
+   "partId": 388562
+  },
+  {
+   "partNumber": 338,
+   "partName": "KENDRIYA VIDYALAYA DILKUSHA CANTT ROOM NO-4",
+   "partId": 388563
+  },
+  {
+   "partNumber": 339,
+   "partName": "KENDRIYA VIDYALAYA DILKUSHA CANTT ROOM NO-5",
+   "partId": 388538
+  },
+  {
+   "partNumber": 340,
+   "partName": "KENDRIYA VIDYALAYA DILKUSHA CANTT ROOM NO-6",
+   "partId": 388539
+  },
+  {
+   "partNumber": 341,
+   "partName": "RED EAGLE ARMY PRE PRIMARY SCHOOL NEEL LINES CANTT ROOM NO-1",
+   "partId": 388540
+  },
+  {
+   "partNumber": 342,
+   "partName": "RED EAGLE ARMY PRE PRIMARY SCHOOL NEEL LINES CANTT ROOM NO-2",
+   "partId": 388541
+  },
+  {
+   "partNumber": 343,
+   "partName": "RED EAGLE ARMY PRE PRIMARY SCHOOL NEEL LINES CANTT ROOM NO-3",
+   "partId": 388544
+  },
+  {
+   "partNumber": 344,
+   "partName": "JUNIOR HIGH SCHOOL B C BAZAAR CANTT ROOM NO-1",
+   "partId": 388548
+  },
+  {
+   "partNumber": 345,
+   "partName": "JUNIOR HIGH SCHOOL B C BAZAAR CANTT ROOM NO-2",
+   "partId": 388549
+  },
+  {
+   "partNumber": 346,
+   "partName": "JUNIOR HIGH SCHOOL B C BAZAAR CANTT ROOM NO-3",
+   "partId": 388554
+  },
+  {
+   "partNumber": 347,
+   "partName": "ST. PAUL SCHOOL SUBHASH MARG CANTT ROOM NO-1",
+   "partId": 388555
+  },
+  {
+   "partNumber": 348,
+   "partName": "ST. PAUL SCHOOL SUBHASH MARG CANTT ROOM NO-2",
+   "partId": 388556
+  },
+  {
+   "partNumber": 349,
+   "partName": "ST. PAUL SCHOOL SUBHASH MARG CANTT ROOM NO-3",
+   "partId": 388560
+  },
+  {
+   "partNumber": 350,
+   "partName": "AMBEDKAR SHIKSHA NIKETAN CANTT ROOM NO-1",
+   "partId": 388561
+  },
+  {
+   "partNumber": 351,
+   "partName": "PRATHMIK EVAM MADHYAMIK VIDYALAYA R A BAZAAR TOPKHANA ROOM NO-1",
+   "partId": 388564
+  },
+  {
+   "partNumber": 352,
+   "partName": "PRATHMIK EVAM MADHYAMIK VIDYALAYA R A BAZAAR TOPKHANA ROOM NO-2",
+   "partId": 388565
+  },
+  {
+   "partNumber": 353,
+   "partName": "PRATHMIK EVAM MADHYAMIK VIDYALAYA R A BAZAAR TOPKHANA ROOM NO-3",
+   "partId": 388566
+  },
+  {
+   "partNumber": 354,
+   "partName": "PRATHMIK EVAM MADHYAMIK VIDYALAYA R A BAZAAR TOPKHANA ROOM NO-4",
+   "partId": 388595
+  }
+ ]
+}

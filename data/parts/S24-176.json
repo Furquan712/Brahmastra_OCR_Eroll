@@ -1,0 +1,2203 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2457",
+ "acNumber": 176,
+ "acName": "Mohanlalganj",
+ "fetchedAt": "2026-11-07T06:02:19",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 438,
+ "maxPart": 438,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "U.P.S MASTEMAU",
+   "partId": 393876
+  },
+  {
+   "partNumber": 2,
+   "partName": "P.S MIRJAPUR",
+   "partId": 393877
+  },
+  {
+   "partNumber": 3,
+   "partName": "U.P.S MADERMAU ROOM NO-1",
+   "partId": 393878
+  },
+  {
+   "partNumber": 4,
+   "partName": "U.P.S MADERMAU ROOM NO-2",
+   "partId": 393879
+  },
+  {
+   "partNumber": 5,
+   "partName": "S.KENDRA AND PANCHYAT BHAVAN MADERMAU KALA ROOM NO-1",
+   "partId": 393880
+  },
+  {
+   "partNumber": 6,
+   "partName": "S.KENDRA AND PANCHYAT BHAVAN MADERMAU KALA ROOM NO-2",
+   "partId": 393881
+  },
+  {
+   "partNumber": 7,
+   "partName": "P.S BAKKAS- FIRST ROOM NO-1",
+   "partId": 393882
+  },
+  {
+   "partNumber": 8,
+   "partName": "P.S BAKKAS- FIRST ROOM NO-2",
+   "partId": 393883
+  },
+  {
+   "partNumber": 9,
+   "partName": "P.S BAKKAS- FIRST ROOM NO-3",
+   "partId": 393884
+  },
+  {
+   "partNumber": 10,
+   "partName": "P.S BAKKAS- SECOND ROOM NO-1",
+   "partId": 393885
+  },
+  {
+   "partNumber": 11,
+   "partName": "P.S BAKKAS- SECOND ROOM NO-2",
+   "partId": 393886
+  },
+  {
+   "partNumber": 12,
+   "partName": "P.S.SHEKHNA GHAT SHEKHNAPUR",
+   "partId": 393887
+  },
+  {
+   "partNumber": 13,
+   "partName": "P.S.SHEKHNAA GHAT SHEKHNAPUR ROOM NO.-2",
+   "partId": 394268
+  },
+  {
+   "partNumber": 14,
+   "partName": "P.S. MOAJJMNAGAR",
+   "partId": 393888
+  },
+  {
+   "partNumber": 15,
+   "partName": "PURVA MADHYAMIK VIDYALAY MOAJJAMNAGAR",
+   "partId": 393889
+  },
+  {
+   "partNumber": 16,
+   "partName": "PRATHMIK VIDYALAY KASIMPUR BIRUHA ROOM NO-1",
+   "partId": 393890
+  },
+  {
+   "partNumber": 17,
+   "partName": "PRATHMIK VIDYALAY KASIMPUR BIRUHA ROOM NO-2",
+   "partId": 394269
+  },
+  {
+   "partNumber": 18,
+   "partName": "PRATHMIK VIDYALAY KASIMPUR BIRUHA ROOM NO-3",
+   "partId": 394270
+  },
+  {
+   "partNumber": 19,
+   "partName": "P.S. CHAND SARAAY ROOM NO-1",
+   "partId": 393891
+  },
+  {
+   "partNumber": 20,
+   "partName": "P.S. CHAND SARAAY ROOM NO-2",
+   "partId": 393892
+  },
+  {
+   "partNumber": 21,
+   "partName": "P.S. GOSAIGANJ",
+   "partId": 393893
+  },
+  {
+   "partNumber": 22,
+   "partName": "S. MILAN KENDRA SADARPUR KARORA",
+   "partId": 393894
+  },
+  {
+   "partNumber": 23,
+   "partName": "P.S RANIKHERA",
+   "partId": 393895
+  },
+  {
+   "partNumber": 24,
+   "partName": "R.P.T INTER COLLEGE GOSAIGANJ ROOM NO-1",
+   "partId": 393896
+  },
+  {
+   "partNumber": 25,
+   "partName": "R.P.T INTER COLLEGE GOSAIGANJ ROOM NO-2",
+   "partId": 393897
+  },
+  {
+   "partNumber": 26,
+   "partName": "R.P.T INTER COLLEGE GOSAIGANJ ROOM NO-3",
+   "partId": 393898
+  },
+  {
+   "partNumber": 27,
+   "partName": "R.P.T INTER COLLEGE GOSAIGANJ ROOM NO-4",
+   "partId": 393899
+  },
+  {
+   "partNumber": 28,
+   "partName": "R.P.T INTER COLLEGE GOSAIGANJ ROOM NO-5",
+   "partId": 393900
+  },
+  {
+   "partNumber": 29,
+   "partName": "SHISHU MANDIR INTER COLLAGE GOSAIGANJ ROOM NO-1",
+   "partId": 393901
+  },
+  {
+   "partNumber": 30,
+   "partName": "SHISHU MANDIR INTER COLLAGE GOSAIGANJ ROOM NO-2",
+   "partId": 393902
+  },
+  {
+   "partNumber": 31,
+   "partName": "SHISHU MANDIR INTER COLLAGE GOSAIGANJ ROOM NO-3",
+   "partId": 393903
+  },
+  {
+   "partNumber": 32,
+   "partName": "SHISHU MANDIR INTER COLLAGE GOSAIGANJ ROOM NO-4",
+   "partId": 393904
+  },
+  {
+   "partNumber": 33,
+   "partName": "PANCHAYAT SACHIVALAY KORIYANI",
+   "partId": 393905
+  },
+  {
+   "partNumber": 34,
+   "partName": "GRAM PANCHAYAT SACHIVALAY MALAULI ROOM NO-1",
+   "partId": 393906
+  },
+  {
+   "partNumber": 35,
+   "partName": "GRAM PANCHAYAT SACHIVALAY MALAULI ROOM NO-2",
+   "partId": 393907
+  },
+  {
+   "partNumber": 36,
+   "partName": "P.S. SEMNAPUR",
+   "partId": 393908
+  },
+  {
+   "partNumber": 37,
+   "partName": "P.S SALAULI ROOM NO-1",
+   "partId": 393909
+  },
+  {
+   "partNumber": 38,
+   "partName": "P.S SALAULI ROOM NO-2",
+   "partId": 393910
+  },
+  {
+   "partNumber": 39,
+   "partName": "P.S DULARMAU",
+   "partId": 393911
+  },
+  {
+   "partNumber": 40,
+   "partName": "BESIK VIDYALAY MALUKPUR DAKWA",
+   "partId": 393912
+  },
+  {
+   "partNumber": 41,
+   "partName": "P.S AHIRAN DAKHWA",
+   "partId": 393913
+  },
+  {
+   "partNumber": 42,
+   "partName": "P.S BAJUPUR",
+   "partId": 393914
+  },
+  {
+   "partNumber": 43,
+   "partName": "P.S CHAURHIYA",
+   "partId": 393915
+  },
+  {
+   "partNumber": 44,
+   "partName": "P.S. MULLA KHEDA M. CHAURHIYA",
+   "partId": 393916
+  },
+  {
+   "partNumber": 45,
+   "partName": "P.S. NOORPUR BEHTA",
+   "partId": 393917
+  },
+  {
+   "partNumber": 46,
+   "partName": "P.S. BAKHARI",
+   "partId": 393869
+  },
+  {
+   "partNumber": 47,
+   "partName": "P.S. MEESA ROOM NO-1",
+   "partId": 393870
+  },
+  {
+   "partNumber": 48,
+   "partName": "P.S. MEESA ROOM NO-2",
+   "partId": 393871
+  },
+  {
+   "partNumber": 49,
+   "partName": "P.S. SENGTA M. MEESA",
+   "partId": 393872
+  },
+  {
+   "partNumber": 50,
+   "partName": "P.S. JAHNAGEERPUR ROOM NO-1",
+   "partId": 393873
+  },
+  {
+   "partNumber": 51,
+   "partName": "P.S. JAHANGEERPUR ROOM NO-2",
+   "partId": 393874
+  },
+  {
+   "partNumber": 52,
+   "partName": "P.S. MAHMOODPUR ROOM NO-1",
+   "partId": 393875
+  },
+  {
+   "partNumber": 53,
+   "partName": "P.S. MAHMOODPUR ROOM NO-2",
+   "partId": 393918
+  },
+  {
+   "partNumber": 54,
+   "partName": "P.S. SALLAHIMAU",
+   "partId": 393919
+  },
+  {
+   "partNumber": 55,
+   "partName": "P.S. MARKHAPUR",
+   "partId": 393920
+  },
+  {
+   "partNumber": 56,
+   "partName": "P.S. FARIDPUR",
+   "partId": 393921
+  },
+  {
+   "partNumber": 57,
+   "partName": "P.S SURIYAMAU ROOM NO-1",
+   "partId": 393922
+  },
+  {
+   "partNumber": 58,
+   "partName": "P.S SURIYAMAU ROOM NO-2",
+   "partId": 393923
+  },
+  {
+   "partNumber": 59,
+   "partName": "J.B.S.GAURIYAKALA ROOM NO-1",
+   "partId": 393924
+  },
+  {
+   "partNumber": 60,
+   "partName": "J.B.S.GAURIYAKALA ROOM NO-2",
+   "partId": 393925
+  },
+  {
+   "partNumber": 61,
+   "partName": "P.S. TANT KA PURVA",
+   "partId": 393926
+  },
+  {
+   "partNumber": 62,
+   "partName": "P.S. RASOOLPUR TIKNIYAMAU ROOM NO-1",
+   "partId": 393927
+  },
+  {
+   "partNumber": 63,
+   "partName": "P.S RASULPUR TIKANIYAMAU ROOM NO-2",
+   "partId": 393928
+  },
+  {
+   "partNumber": 64,
+   "partName": "P.S. BEGARIYAMAU",
+   "partId": 393929
+  },
+  {
+   "partNumber": 65,
+   "partName": "J.B. S. NIZAMPUR",
+   "partId": 393930
+  },
+  {
+   "partNumber": 66,
+   "partName": "JUNIOR BASIC VIDYALAYA NIJAMPUR ROOM NO-2",
+   "partId": 394271
+  },
+  {
+   "partNumber": 67,
+   "partName": "P.S. JALLABAD",
+   "partId": 393931
+  },
+  {
+   "partNumber": 68,
+   "partName": "PURVA MADHYAMIK VIDYALAYA DHAURHARA ROOM NO-1",
+   "partId": 393932
+  },
+  {
+   "partNumber": 69,
+   "partName": "PURVA MADHYAMIK VIDYALAYA DHAURHARA ROOM NO-2",
+   "partId": 393933
+  },
+  {
+   "partNumber": 70,
+   "partName": "OFF.GRAM PANCAYAT DHAURHARA",
+   "partId": 393934
+  },
+  {
+   "partNumber": 71,
+   "partName": "P.S.MOHAMDABAD",
+   "partId": 393935
+  },
+  {
+   "partNumber": 72,
+   "partName": "P.S. FATEHPUR",
+   "partId": 393936
+  },
+  {
+   "partNumber": 73,
+   "partName": "BESIK VIDYALAY GHUSKAR ROOM NO-1",
+   "partId": 393937
+  },
+  {
+   "partNumber": 74,
+   "partName": "BESIK VIDYALAY GHUSKAR ROOM NO-2",
+   "partId": 393938
+  },
+  {
+   "partNumber": 75,
+   "partName": "P.S. HUSAINPUR",
+   "partId": 393939
+  },
+  {
+   "partNumber": 76,
+   "partName": "P.S. CHAMERTALIYA",
+   "partId": 393940
+  },
+  {
+   "partNumber": 77,
+   "partName": "P.S. BARUA",
+   "partId": 393941
+  },
+  {
+   "partNumber": 78,
+   "partName": "P.S. SEEFATNAGAR NAVEEN",
+   "partId": 393942
+  },
+  {
+   "partNumber": 79,
+   "partName": "P.S. SEEFATNAGAR PRACHEEN BASTAULI",
+   "partId": 393943
+  },
+  {
+   "partNumber": 80,
+   "partName": "P.S. SALEMPUR ROOM NO-1",
+   "partId": 393944
+  },
+  {
+   "partNumber": 81,
+   "partName": "P.S. SALEMPUR ROOM NO-2",
+   "partId": 393945
+  },
+  {
+   "partNumber": 82,
+   "partName": "ANGANBARI KENDRA SALEMPUR",
+   "partId": 393946
+  },
+  {
+   "partNumber": 83,
+   "partName": "P.S. BHADUWA",
+   "partId": 393947
+  },
+  {
+   "partNumber": 84,
+   "partName": "PURVA MADHYAMIK VIDYALAYA SALEMPUR ROOM NO-1",
+   "partId": 393948
+  },
+  {
+   "partNumber": 85,
+   "partName": "PURVA MADHYAMIK VIDYALAYA SALEMPUR ROOM NO-2",
+   "partId": 393949
+  },
+  {
+   "partNumber": 86,
+   "partName": "P.S. JALAUDINAGAR",
+   "partId": 393950
+  },
+  {
+   "partNumber": 87,
+   "partName": "PRATHMIK VIDALAYA REHMATNAGAR ROOM NO-1",
+   "partId": 393951
+  },
+  {
+   "partNumber": 88,
+   "partName": "PRATHMIK VIDALAYA REHMATNAGAR ROOM NO-2",
+   "partId": 393952
+  },
+  {
+   "partNumber": 89,
+   "partName": "PRATHMIK VIDYALAYA REHMAT NGAR ROOM NO-3",
+   "partId": 394272
+  },
+  {
+   "partNumber": 90,
+   "partName": "P.S. MOHAMMADPUR GARHI ROOM NO-1",
+   "partId": 393953
+  },
+  {
+   "partNumber": 91,
+   "partName": "P.S. MOHAMMADPUR GARHI ROOM NO-2",
+   "partId": 393954
+  },
+  {
+   "partNumber": 92,
+   "partName": "P.S.URDU M. AMETHI ROOM NO-1",
+   "partId": 393955
+  },
+  {
+   "partNumber": 93,
+   "partName": "P.S. URDU M. AMETHI ROOM NO-2",
+   "partId": 393956
+  },
+  {
+   "partNumber": 94,
+   "partName": "P.S. URDU M. AMETHI ROOM NO-3",
+   "partId": 393957
+  },
+  {
+   "partNumber": 95,
+   "partName": "P.S. URDU M. AMETHI ROOM NO-4",
+   "partId": 393958
+  },
+  {
+   "partNumber": 96,
+   "partName": "PURVA MADHYAMIK VIDYALAYA AMETHI ROOM NO-1",
+   "partId": 393959
+  },
+  {
+   "partNumber": 97,
+   "partName": "PURVA MADHYAMIK VIDYALAYA AMETHI ROOM NO-2",
+   "partId": 393960
+  },
+  {
+   "partNumber": 98,
+   "partName": "PURV MADHYAMIK VIDYALAYA AMETHI ROOM NO  -3",
+   "partId": 394273
+  },
+  {
+   "partNumber": 99,
+   "partName": "KANYA PURVA M.S. AMETHI ROOM NO-1",
+   "partId": 393961
+  },
+  {
+   "partNumber": 100,
+   "partName": "KANYA PURVA M.S. AMETHI ROOM NO-2",
+   "partId": 393962
+  },
+  {
+   "partNumber": 101,
+   "partName": "PRATHMIK VIDALAYA AMETHI ROOM  NO-1",
+   "partId": 393963
+  },
+  {
+   "partNumber": 102,
+   "partName": "PRATHMIK VIDALAYA AMETHI ROOM NO-2",
+   "partId": 393964
+  },
+  {
+   "partNumber": 103,
+   "partName": "PRATHMIK VIDALAYA AMETHI ROOM NO - 3",
+   "partId": 394274
+  },
+  {
+   "partNumber": 104,
+   "partName": "PRATHMIK VIDALAYA AMETHI (2) ROOM NO- 01",
+   "partId": 394303
+  },
+  {
+   "partNumber": 105,
+   "partName": "PRATHMIK VIDALAYA AMETHI (2) ROOM NO- 02",
+   "partId": 394304
+  },
+  {
+   "partNumber": 106,
+   "partName": "PRATHMIK VIDALAYA AMETHI (2) ROOM NO-03",
+   "partId": 394305
+  },
+  {
+   "partNumber": 107,
+   "partName": "PRATHMIK VIDALAYA AMETHI (2) ROOM NO- 04",
+   "partId": 394306
+  },
+  {
+   "partNumber": 108,
+   "partName": "P.S. KAAJI KHERA",
+   "partId": 393965
+  },
+  {
+   "partNumber": 109,
+   "partName": "P.S. SHEKHNAPUR",
+   "partId": 393966
+  },
+  {
+   "partNumber": 110,
+   "partName": "P.S. DAUDPUR SAIDAPUR",
+   "partId": 393967
+  },
+  {
+   "partNumber": 111,
+   "partName": "P.S. BASRAHIYA",
+   "partId": 393968
+  },
+  {
+   "partNumber": 112,
+   "partName": "U.P.S. BASTIYA",
+   "partId": 393969
+  },
+  {
+   "partNumber": 113,
+   "partName": "UCCH0 PRATHMIK VIDALAYA BASTIYA  ROOM NO-2",
+   "partId": 394275
+  },
+  {
+   "partNumber": 114,
+   "partName": "P.S. MAHURAKALA ROOM NO-1",
+   "partId": 393970
+  },
+  {
+   "partNumber": 115,
+   "partName": "P.S. MAHURAKALA ROOM NO-2",
+   "partId": 393971
+  },
+  {
+   "partNumber": 116,
+   "partName": "P.S. MAHURAKHURD",
+   "partId": 393972
+  },
+  {
+   "partNumber": 117,
+   "partName": "P.S GOMIKHERA",
+   "partId": 393973
+  },
+  {
+   "partNumber": 118,
+   "partName": "P.S. RASOOLPUR ASHIK ALI",
+   "partId": 393974
+  },
+  {
+   "partNumber": 119,
+   "partName": "PRATHMIK VIDALAYA RASULPUR ASHIK ALI ROOM NO-2",
+   "partId": 394276
+  },
+  {
+   "partNumber": 120,
+   "partName": "P.S. MAKHDOOMNAGAR",
+   "partId": 393975
+  },
+  {
+   "partNumber": 121,
+   "partName": "PURV MADHYAMIK VIDYALYA AADAMPUR NOUBASTA",
+   "partId": 393976
+  },
+  {
+   "partNumber": 122,
+   "partName": "P.S. BAHEDA ROOM NO-1",
+   "partId": 393977
+  },
+  {
+   "partNumber": 123,
+   "partName": "P.S. BAHEDA ROOM NO-2",
+   "partId": 393978
+  },
+  {
+   "partNumber": 124,
+   "partName": "P.S. BAHRAULI ROOM NO-1",
+   "partId": 393979
+  },
+  {
+   "partNumber": 125,
+   "partName": "P.S. BAHRAULI ROOM NO-2",
+   "partId": 393980
+  },
+  {
+   "partNumber": 126,
+   "partName": "JAWAHERLAL NEHRU INTER COLLEGE BAHRAULI",
+   "partId": 393981
+  },
+  {
+   "partNumber": 127,
+   "partName": "JAWAHRLAL NEHRU INTER COLLEGE BAHARAULLI ROOM NO -2",
+   "partId": 394277
+  },
+  {
+   "partNumber": 128,
+   "partName": "P.S. JAWAHER SINGH KA PURWA",
+   "partId": 393982
+  },
+  {
+   "partNumber": 129,
+   "partName": "P.S. GHODSARA",
+   "partId": 393983
+  },
+  {
+   "partNumber": 130,
+   "partName": "PRATHMIK VIDALAYA GHODSARA ROOM NO-2",
+   "partId": 394278
+  },
+  {
+   "partNumber": 131,
+   "partName": "P.S. BAJGAHIYA",
+   "partId": 393984
+  },
+  {
+   "partNumber": 132,
+   "partName": "P.S. KHAWASKHEDA",
+   "partId": 393985
+  },
+  {
+   "partNumber": 133,
+   "partName": "P.S. SHAHJADEPUR",
+   "partId": 393986
+  },
+  {
+   "partNumber": 134,
+   "partName": "P.S. HASNAPUR",
+   "partId": 393987
+  },
+  {
+   "partNumber": 135,
+   "partName": "PRATHMIK VIDALAYA HASANA PUR ROOM NO- 2",
+   "partId": 394279
+  },
+  {
+   "partNumber": 136,
+   "partName": "P.S. KHEMA KHEDA",
+   "partId": 393988
+  },
+  {
+   "partNumber": 137,
+   "partName": "P.S. JAUKHANDI ROOM NO-1",
+   "partId": 393989
+  },
+  {
+   "partNumber": 138,
+   "partName": "P.S. JAUKHANDI ROOM NO-2",
+   "partId": 393990
+  },
+  {
+   "partNumber": 139,
+   "partName": "P.S. KAMALAPUR",
+   "partId": 393991
+  },
+  {
+   "partNumber": 140,
+   "partName": "P.S. DAKHINWARA",
+   "partId": 393992
+  },
+  {
+   "partNumber": 141,
+   "partName": "P.S. PANCHSARA",
+   "partId": 393993
+  },
+  {
+   "partNumber": 142,
+   "partName": "P.S. KAPERA MADARPUR",
+   "partId": 393994
+  },
+  {
+   "partNumber": 143,
+   "partName": "PURVA MADHYAMIK VIDYALAY KAPERA",
+   "partId": 393995
+  },
+  {
+   "partNumber": 144,
+   "partName": "P.S. MADARPUR",
+   "partId": 393996
+  },
+  {
+   "partNumber": 145,
+   "partName": "P.S. ASTI",
+   "partId": 393997
+  },
+  {
+   "partNumber": 146,
+   "partName": "PRATHMIK VIDALAYA ASTI ROOM NO-2",
+   "partId": 394280
+  },
+  {
+   "partNumber": 147,
+   "partName": "P.S. ECHWALIYA",
+   "partId": 393998
+  },
+  {
+   "partNumber": 148,
+   "partName": "P.S. RATIYAMAU",
+   "partId": 393999
+  },
+  {
+   "partNumber": 149,
+   "partName": "P.S. JAGMOHANPURWA M. JAMALPUR KURMIYAN",
+   "partId": 394000
+  },
+  {
+   "partNumber": 150,
+   "partName": "S.B. SCHOOL SHIVLAR ROOM NO-1",
+   "partId": 394001
+  },
+  {
+   "partNumber": 151,
+   "partName": "S.B. SCHOOL SHIVLAR ROOM NO-2",
+   "partId": 394002
+  },
+  {
+   "partNumber": 152,
+   "partName": "P.S. RAJJAKPUR M. SHIVLAR",
+   "partId": 394003
+  },
+  {
+   "partNumber": 153,
+   "partName": "P.S. DEHRAMAU",
+   "partId": 394004
+  },
+  {
+   "partNumber": 154,
+   "partName": "P.S. RAIPUR",
+   "partId": 394005
+  },
+  {
+   "partNumber": 155,
+   "partName": "PURVA MADHYAMIK VIDYALAYA BELIKALA",
+   "partId": 394006
+  },
+  {
+   "partNumber": 156,
+   "partName": "PURV MADHYAMIK VIDHYALA BELIKALA ROOM NO- 2",
+   "partId": 394281
+  },
+  {
+   "partNumber": 157,
+   "partName": "P.S. MAGHUWA",
+   "partId": 394007
+  },
+  {
+   "partNumber": 158,
+   "partName": "PRATHMIK VIDYALAYA MAGAHUVA ROOM NO -2",
+   "partId": 394282
+  },
+  {
+   "partNumber": 159,
+   "partName": "P.S. SATHWARA",
+   "partId": 394008
+  },
+  {
+   "partNumber": 160,
+   "partName": "PANCHYAT BHAWAN BARGADHA M. SATHWARA",
+   "partId": 394009
+  },
+  {
+   "partNumber": 161,
+   "partName": "P.S. BHATWARA ROOM NO-1",
+   "partId": 394010
+  },
+  {
+   "partNumber": 162,
+   "partName": "P.S. BHATWARA ROOM NO-2",
+   "partId": 394011
+  },
+  {
+   "partNumber": 163,
+   "partName": "U.P.S. PAHADNAGAR TIKARIYA",
+   "partId": 394012
+  },
+  {
+   "partNumber": 164,
+   "partName": "PRATHMIK VIDALAYA PAHAD NAGAR TIKARIYA ROOM NO-2",
+   "partId": 394283
+  },
+  {
+   "partNumber": 165,
+   "partName": "PANCHYAT BHAWAN BEERAMPUR PAHADNAGAR TIKARIYA",
+   "partId": 394013
+  },
+  {
+   "partNumber": 166,
+   "partName": "P.S. MAI JI KA PURWA MAJRA SONAI KAJEHERA ROOM NO-1",
+   "partId": 394014
+  },
+  {
+   "partNumber": 167,
+   "partName": "P.S. MAI JI KA PURWA MAJRA SONAI KAJEHERA ROOM NO-2",
+   "partId": 394015
+  },
+  {
+   "partNumber": 168,
+   "partName": "P.S. SIKANDAR PUR AMOLIYA",
+   "partId": 394016
+  },
+  {
+   "partNumber": 169,
+   "partName": "PRATHMIK VIDALAYA SIKANDERPUR AMOLIYA ROOM NO - 2",
+   "partId": 394284
+  },
+  {
+   "partNumber": 170,
+   "partName": "P.S. SIDDHPURA",
+   "partId": 394017
+  },
+  {
+   "partNumber": 171,
+   "partName": "J.B.S. MOHARIKALN ROOM NO-1",
+   "partId": 394018
+  },
+  {
+   "partNumber": 172,
+   "partName": "J.B.S. MOHARIKALA ROOM NO-2",
+   "partId": 394019
+  },
+  {
+   "partNumber": 173,
+   "partName": "P.S. MOHARIKHURD",
+   "partId": 394020
+  },
+  {
+   "partNumber": 174,
+   "partName": "PURVA MADHYAMIK VIDYALAY BHAWANI KHEDA M. MOHARI KHURD",
+   "partId": 394021
+  },
+  {
+   "partNumber": 175,
+   "partName": "P.S. RAKIBABAD",
+   "partId": 394022
+  },
+  {
+   "partNumber": 176,
+   "partName": "BESIK VIDYALAY PEREHATA ROOM NO-1",
+   "partId": 394023
+  },
+  {
+   "partNumber": 177,
+   "partName": "BESIK VIDYALAY PEREHATA ROOM NO-2",
+   "partId": 394024
+  },
+  {
+   "partNumber": 178,
+   "partName": "BESIK VIDYALAY PEREHATA ROOM NO-3",
+   "partId": 394025
+  },
+  {
+   "partNumber": 179,
+   "partName": "P.S.DUNIYAPATI KHEDA",
+   "partId": 394265
+  },
+  {
+   "partNumber": 180,
+   "partName": "P.S. SERTHUWA",
+   "partId": 394026
+  },
+  {
+   "partNumber": 181,
+   "partName": "P.S. MOHIDDINPUR",
+   "partId": 394027
+  },
+  {
+   "partNumber": 182,
+   "partName": "P.S. PURANPUR",
+   "partId": 394028
+  },
+  {
+   "partNumber": 183,
+   "partName": "P.S. DALAUNA",
+   "partId": 394029
+  },
+  {
+   "partNumber": 184,
+   "partName": "P.S. HARIKANSH GARHI",
+   "partId": 394030
+  },
+  {
+   "partNumber": 185,
+   "partName": "P.S. GOPAL KHERA ROOM NO-1",
+   "partId": 394031
+  },
+  {
+   "partNumber": 186,
+   "partName": "P.S. GOPAL KHERA ROOM NO-2",
+   "partId": 394032
+  },
+  {
+   "partNumber": 187,
+   "partName": "PURVA MADHYAMIK VIDYALAY PURSENI  ROOM NO-1",
+   "partId": 394033
+  },
+  {
+   "partNumber": 188,
+   "partName": "PURVA MADHYAMIK VIDYALAY PURSENI  ROOM NO-2",
+   "partId": 394034
+  },
+  {
+   "partNumber": 189,
+   "partName": "P.S. NAGAR",
+   "partId": 394035
+  },
+  {
+   "partNumber": 190,
+   "partName": "BESIK VIDYALAY SHIVDHARA",
+   "partId": 394036
+  },
+  {
+   "partNumber": 191,
+   "partName": "P.S. DAHIYAR ROOM NO-1",
+   "partId": 394037
+  },
+  {
+   "partNumber": 192,
+   "partName": "P.S. DAHIYAR ROOM NO-2",
+   "partId": 394038
+  },
+  {
+   "partNumber": 193,
+   "partName": "P.S. DHARAMANGAT KHEDA",
+   "partId": 394039
+  },
+  {
+   "partNumber": 194,
+   "partName": "P.S. INDERAJEET KHEDA",
+   "partId": 394040
+  },
+  {
+   "partNumber": 195,
+   "partName": "BESIK VIDYALAY MAU ROOM NO-1",
+   "partId": 394041
+  },
+  {
+   "partNumber": 196,
+   "partName": "BESIK VIDYALAY MAU ROOM NO-2",
+   "partId": 394042
+  },
+  {
+   "partNumber": 197,
+   "partName": "P.S. MAU -SECOND ROOM NO-1",
+   "partId": 394043
+  },
+  {
+   "partNumber": 198,
+   "partName": "P.S. MAU -SECOND ROOM NO-2",
+   "partId": 394044
+  },
+  {
+   "partNumber": 199,
+   "partName": "NAVJEEVAN INTER COLLEGE MOHANLAL GANJ ROOM NO-1",
+   "partId": 394045
+  },
+  {
+   "partNumber": 200,
+   "partName": "NAVJEEVAN INTER COLLEGE MOHANLAL GANJ ROOM NO-2",
+   "partId": 394046
+  },
+  {
+   "partNumber": 201,
+   "partName": "NAVJEEVAN INTER COLLEGE MOHANLAL GANJ ROOM NO-3",
+   "partId": 394047
+  },
+  {
+   "partNumber": 202,
+   "partName": "NAVJEEVAN INTER COLLEGE MOHANLAL GANJ ROOM NO-4",
+   "partId": 394048
+  },
+  {
+   "partNumber": 203,
+   "partName": "NAVJEEVAN INTER COLLEGE MOHANLAL GANJ ROOM NO-5",
+   "partId": 394049
+  },
+  {
+   "partNumber": 204,
+   "partName": "NAVJEEVAN INTER COLLEGE MOHANLALGANJ ROOM NO- 06",
+   "partId": 394285
+  },
+  {
+   "partNumber": 205,
+   "partName": "NAVJEEVAN INTER COLLEGE MOHANLALGANJ ROOM NO - 07",
+   "partId": 394286
+  },
+  {
+   "partNumber": 206,
+   "partName": "P.S. DEEWANGANJ",
+   "partId": 394050
+  },
+  {
+   "partNumber": 207,
+   "partName": "P.S. CHIBAUKHEDA",
+   "partId": 394051
+  },
+  {
+   "partNumber": 208,
+   "partName": "BESIK VIDYALAY RAIBHAN KHEDA",
+   "partId": 394052
+  },
+  {
+   "partNumber": 209,
+   "partName": "BASIC VIDYALAYA RAYBHANKHEDA ROOM NO. 2",
+   "partId": 394287
+  },
+  {
+   "partNumber": 210,
+   "partName": "PURVA MADHYAMIK VIDYALAYA KHUJAULI ROOM NO-1",
+   "partId": 394053
+  },
+  {
+   "partNumber": 211,
+   "partName": "PURVA MADHYAMIK VIDYALAY KHUJAULI ROOM NO-2",
+   "partId": 394054
+  },
+  {
+   "partNumber": 212,
+   "partName": "P.S UDVAT KHERA",
+   "partId": 394055
+  },
+  {
+   "partNumber": 213,
+   "partName": "P.S SEMRAPEETPUR",
+   "partId": 394056
+  },
+  {
+   "partNumber": 214,
+   "partName": "P.S SITHAULI KHURD",
+   "partId": 394057
+  },
+  {
+   "partNumber": 215,
+   "partName": "P.S SITHAULI KALA ROOM NO-1",
+   "partId": 394058
+  },
+  {
+   "partNumber": 216,
+   "partName": "P.S SITHAULI KALA ROOM NO-2",
+   "partId": 394059
+  },
+  {
+   "partNumber": 217,
+   "partName": "P.S DEITEEKAR",
+   "partId": 394060
+  },
+  {
+   "partNumber": 218,
+   "partName": "P.S BHATTI BARKATNAGAR ROOM NO-1",
+   "partId": 394061
+  },
+  {
+   "partNumber": 219,
+   "partName": "P.S BHATTI BARKATNAGAR ROOM NO-2",
+   "partId": 394062
+  },
+  {
+   "partNumber": 220,
+   "partName": "P.S BHAURA KALA",
+   "partId": 394063
+  },
+  {
+   "partNumber": 221,
+   "partName": "P.S SARAIGUDAULI ROOM NO-1",
+   "partId": 394064
+  },
+  {
+   "partNumber": 222,
+   "partName": "P.S SARAIGUDAULI ROOM NO-2",
+   "partId": 394065
+  },
+  {
+   "partNumber": 223,
+   "partName": "U.P.S KEVALI ROOM NO-1",
+   "partId": 394066
+  },
+  {
+   "partNumber": 224,
+   "partName": "U.P.S KEVALI ROOM NO-2",
+   "partId": 394067
+  },
+  {
+   "partNumber": 225,
+   "partName": "P.S KARSANDA",
+   "partId": 394068
+  },
+  {
+   "partNumber": 226,
+   "partName": "PURVA MADHYAMIK VIDYALAYBAGHAULI",
+   "partId": 394069
+  },
+  {
+   "partNumber": 227,
+   "partName": "P.S MAMAIMAU",
+   "partId": 394070
+  },
+  {
+   "partNumber": 228,
+   "partName": "P.S SARAUNA",
+   "partId": 394071
+  },
+  {
+   "partNumber": 229,
+   "partName": "U.P.S ANAIYA KHARGAPUR",
+   "partId": 394072
+  },
+  {
+   "partNumber": 230,
+   "partName": "UCHH  PRATHMIK VIDALAYA ANNAIYA KHARGAPUR ROOM NO- 2",
+   "partId": 394288
+  },
+  {
+   "partNumber": 231,
+   "partName": "PURVA MADHYAMIK VIDYALAYA ANAIYA KHARGAPUR",
+   "partId": 394073
+  },
+  {
+   "partNumber": 232,
+   "partName": "P.S DALPAT KHERA",
+   "partId": 394074
+  },
+  {
+   "partNumber": 233,
+   "partName": "P.S HARDOIYA ROOM NO-1",
+   "partId": 394075
+  },
+  {
+   "partNumber": 234,
+   "partName": "P.S HARDOIYA ROOM NO-2",
+   "partId": 394076
+  },
+  {
+   "partNumber": 235,
+   "partName": "P.S MITAULI ADAMPUR",
+   "partId": 394077
+  },
+  {
+   "partNumber": 236,
+   "partName": "P.S SELHUMAU",
+   "partId": 394078
+  },
+  {
+   "partNumber": 237,
+   "partName": "U.P.S GULALKHERA",
+   "partId": 394079
+  },
+  {
+   "partNumber": 238,
+   "partName": "P.S ACHLIKHERA ROOM NO-1",
+   "partId": 394080
+  },
+  {
+   "partNumber": 239,
+   "partName": "P.S ACHLIKHERA ROOM NO-2",
+   "partId": 394081
+  },
+  {
+   "partNumber": 240,
+   "partName": "U.P.S BHAURAKHURD",
+   "partId": 394082
+  },
+  {
+   "partNumber": 241,
+   "partName": "P.S TIKRAJUGRAJ",
+   "partId": 394083
+  },
+  {
+   "partNumber": 242,
+   "partName": "P.S TAMORIYA",
+   "partId": 394084
+  },
+  {
+   "partNumber": 243,
+   "partName": "P.S NEVAJKHERA",
+   "partId": 394085
+  },
+  {
+   "partNumber": 244,
+   "partName": "BESIK VIDYALAY DEVATI ROOM NO-1",
+   "partId": 394086
+  },
+  {
+   "partNumber": 245,
+   "partName": "BESIK VIDYALAY DEVATI ROOM NO-2",
+   "partId": 394087
+  },
+  {
+   "partNumber": 246,
+   "partName": "PURVA MADHYAMIK VIDYALAY KHUJEHATA ROOM NO-1",
+   "partId": 394088
+  },
+  {
+   "partNumber": 247,
+   "partName": "PURVA MADHYAMIK VIDYALAY KHUJEHATA ROOM NO-2",
+   "partId": 394089
+  },
+  {
+   "partNumber": 248,
+   "partName": "P.S RANIKHERA M. GAURIYA KHURD",
+   "partId": 394090
+  },
+  {
+   "partNumber": 249,
+   "partName": "P.S BADLEKHERA",
+   "partId": 394091
+  },
+  {
+   "partNumber": 250,
+   "partName": "P.S PACHAURI",
+   "partId": 394092
+  },
+  {
+   "partNumber": 251,
+   "partName": "P.S PADMINKHERA",
+   "partId": 394093
+  },
+  {
+   "partNumber": 252,
+   "partName": "BESIK VIDYALAY HULASKHERA  ROOM NO-1",
+   "partId": 394094
+  },
+  {
+   "partNumber": 253,
+   "partName": "BESIK VIDYALAY HULASKHERA  ROOM NO-2",
+   "partId": 394095
+  },
+  {
+   "partNumber": 254,
+   "partName": "P.S ATRAULI ROOM NO-1",
+   "partId": 394096
+  },
+  {
+   "partNumber": 255,
+   "partName": "P.S ATRAULI ROOM NO-2",
+   "partId": 394097
+  },
+  {
+   "partNumber": 256,
+   "partName": "P.S FULVARIYA",
+   "partId": 394098
+  },
+  {
+   "partNumber": 257,
+   "partName": "P,S DEHVA",
+   "partId": 394099
+  },
+  {
+   "partNumber": 258,
+   "partName": "PRATHMIK VIDALAYA DEHVA ROOM NO- 02",
+   "partId": 394289
+  },
+  {
+   "partNumber": 259,
+   "partName": "P.S RANIKHERA",
+   "partId": 394100
+  },
+  {
+   "partNumber": 260,
+   "partName": "P.S BHAUNDARI",
+   "partId": 394101
+  },
+  {
+   "partNumber": 261,
+   "partName": "P.S MARUI",
+   "partId": 394102
+  },
+  {
+   "partNumber": 262,
+   "partName": "P.S GANIYAR",
+   "partId": 394103
+  },
+  {
+   "partNumber": 263,
+   "partName": "PURVA MADHYAMIK VIDYALAY BHADESUA ROOM NO-1",
+   "partId": 394104
+  },
+  {
+   "partNumber": 264,
+   "partName": "PURVA MADHYAMIK VIDYALAY BHADESUA ROOM NO-2",
+   "partId": 394105
+  },
+  {
+   "partNumber": 265,
+   "partName": "P.S TRILOKPUR",
+   "partId": 394106
+  },
+  {
+   "partNumber": 266,
+   "partName": "PANCHAYAT BHAVAN KODRA RAYPUR",
+   "partId": 394107
+  },
+  {
+   "partNumber": 267,
+   "partName": "P.S RAYPUR",
+   "partId": 394108
+  },
+  {
+   "partNumber": 268,
+   "partName": "P.S DHANUASAND ROOM NO-1",
+   "partId": 394109
+  },
+  {
+   "partNumber": 269,
+   "partName": "P.S DHANUASAND ROOM NO-2",
+   "partId": 394110
+  },
+  {
+   "partNumber": 270,
+   "partName": "P.S LALUMAR",
+   "partId": 394111
+  },
+  {
+   "partNumber": 271,
+   "partName": "P.S HILGI",
+   "partId": 394112
+  },
+  {
+   "partNumber": 272,
+   "partName": "P.S MEENAPUR",
+   "partId": 394113
+  },
+  {
+   "partNumber": 273,
+   "partName": "P.S SISENDI ROOM NO-1",
+   "partId": 394114
+  },
+  {
+   "partNumber": 274,
+   "partName": "P.S SISENDI ROOM NO-2",
+   "partId": 394115
+  },
+  {
+   "partNumber": 275,
+   "partName": "PRATHMIK VIDALAYA SISENDI ROOM NO- 03",
+   "partId": 394290
+  },
+  {
+   "partNumber": 276,
+   "partName": "KANYA KRAMOTTAR VIDYALAYA SISENDI ROOM NO-1",
+   "partId": 394116
+  },
+  {
+   "partNumber": 277,
+   "partName": "KANYA KRAMOTTAR VIDYALAYA SISENDI ROOM NO-2",
+   "partId": 394117
+  },
+  {
+   "partNumber": 278,
+   "partName": "P.S KESRIKHERA",
+   "partId": 394118
+  },
+  {
+   "partNumber": 279,
+   "partName": "P.S UTTARGAON ROOM NO-1",
+   "partId": 394119
+  },
+  {
+   "partNumber": 280,
+   "partName": "P.S UTTARGAON ROOM NO-2",
+   "partId": 394120
+  },
+  {
+   "partNumber": 281,
+   "partName": "P.S AHMADKHERA",
+   "partId": 394121
+  },
+  {
+   "partNumber": 282,
+   "partName": "P.S DHANVARA",
+   "partId": 394122
+  },
+  {
+   "partNumber": 283,
+   "partName": "PURVA MADHYAMIK VIDYALAY KHREHNA",
+   "partId": 394123
+  },
+  {
+   "partNumber": 284,
+   "partName": "P.S BHASANDA ROOM NO-1",
+   "partId": 394124
+  },
+  {
+   "partNumber": 285,
+   "partName": "P.S BHASANDA ROOM NO-2",
+   "partId": 394125
+  },
+  {
+   "partNumber": 286,
+   "partName": "BESIK VIDYALAY GAURA ROOM NO-1",
+   "partId": 394126
+  },
+  {
+   "partNumber": 287,
+   "partName": "BESIK VIDYALAY GAURA ROOM NO-2",
+   "partId": 394127
+  },
+  {
+   "partNumber": 288,
+   "partName": "BESIK VIDYALAY GAURA ROOM NO-3",
+   "partId": 394128
+  },
+  {
+   "partNumber": 289,
+   "partName": "P.S GAUIRA- SECOND",
+   "partId": 394129
+  },
+  {
+   "partNumber": 290,
+   "partName": "BESIK VIDYALAY GADIYANA",
+   "partId": 394130
+  },
+  {
+   "partNumber": 291,
+   "partName": "P.S DANDASIKANDERPUR",
+   "partId": 394131
+  },
+  {
+   "partNumber": 292,
+   "partName": "P.S KURHA",
+   "partId": 394132
+  },
+  {
+   "partNumber": 293,
+   "partName": "PRATHMIK VIDALAYA KURHA ROOM NO - 02",
+   "partId": 394291
+  },
+  {
+   "partNumber": 294,
+   "partName": "P.S KUBAHRA",
+   "partId": 394133
+  },
+  {
+   "partNumber": 295,
+   "partName": "P.S  MEHDAULI",
+   "partId": 394134
+  },
+  {
+   "partNumber": 296,
+   "partName": "P.S BENDAUVA ROOM NO-1",
+   "partId": 394135
+  },
+  {
+   "partNumber": 297,
+   "partName": "P.S BENDAUA ROOM NO-2",
+   "partId": 394136
+  },
+  {
+   "partNumber": 298,
+   "partName": "BESIK VIDYALAY VIDYALAYA JABRAULI ROOM NO-1",
+   "partId": 394137
+  },
+  {
+   "partNumber": 299,
+   "partName": "BESIK VIDYALAY VIDYALAYA JABRAULI ROOM NO-2",
+   "partId": 394138
+  },
+  {
+   "partNumber": 300,
+   "partName": "BESIK VIDYALAY VIDYALAYA JABRAULI ROOM NO-3",
+   "partId": 394139
+  },
+  {
+   "partNumber": 301,
+   "partName": "P.S GOVINDPUR",
+   "partId": 394140
+  },
+  {
+   "partNumber": 302,
+   "partName": "P.S KORANA",
+   "partId": 394141
+  },
+  {
+   "partNumber": 303,
+   "partName": "PANCHAYAT BHAVAN GOVINDPUR",
+   "partId": 394142
+  },
+  {
+   "partNumber": 304,
+   "partName": "P.S BHEELAMPUR",
+   "partId": 394143
+  },
+  {
+   "partNumber": 305,
+   "partName": "P.S DEBARIYA",
+   "partId": 394144
+  },
+  {
+   "partNumber": 306,
+   "partName": "P.S KUNDANKHERA",
+   "partId": 394145
+  },
+  {
+   "partNumber": 307,
+   "partName": "BESIK VIDYALAY BHARSAVA",
+   "partId": 394146
+  },
+  {
+   "partNumber": 308,
+   "partName": "P.S MEERANPUR",
+   "partId": 394147
+  },
+  {
+   "partNumber": 309,
+   "partName": "P.S BARVALIYA",
+   "partId": 394148
+  },
+  {
+   "partNumber": 310,
+   "partName": "P.S LAKHNAKHERA",
+   "partId": 394149
+  },
+  {
+   "partNumber": 311,
+   "partName": "P.S KUSHMAURA ROOM NO.1",
+   "partId": 394150
+  },
+  {
+   "partNumber": 312,
+   "partName": "P.S.KUSHMAURA ROOM NO. 2",
+   "partId": 394266
+  },
+  {
+   "partNumber": 313,
+   "partName": "P.S GAUTAMKHERA",
+   "partId": 394151
+  },
+  {
+   "partNumber": 314,
+   "partName": "BESIK VIDYALAY PARASPUR THATTHA",
+   "partId": 394152
+  },
+  {
+   "partNumber": 315,
+   "partName": "P.S DAYALPUR",
+   "partId": 394153
+  },
+  {
+   "partNumber": 316,
+   "partName": "SAMUDAYIK MILAN KENDRA CHABEELEKHERA ROOM NO-1",
+   "partId": 394154
+  },
+  {
+   "partNumber": 317,
+   "partName": "SAMUDAYIK MILAN KENDRA CHABEELEKHERA ROOM NO-2",
+   "partId": 394155
+  },
+  {
+   "partNumber": 318,
+   "partName": "BESIK VIDYALAY BHAJANMAU",
+   "partId": 394156
+  },
+  {
+   "partNumber": 319,
+   "partName": "BASIC VIDALAYA BHAJANMAU ROOM NO- 02",
+   "partId": 394292
+  },
+  {
+   "partNumber": 320,
+   "partName": "P.S MANGTAIYA",
+   "partId": 394157
+  },
+  {
+   "partNumber": 321,
+   "partName": "BESIK VIDYALAY BAIRI",
+   "partId": 394158
+  },
+  {
+   "partNumber": 322,
+   "partName": "P.S  BENIGANJ",
+   "partId": 394159
+  },
+  {
+   "partNumber": 323,
+   "partName": "P.S RATI",
+   "partId": 394160
+  },
+  {
+   "partNumber": 324,
+   "partName": "P.S AHINVAR",
+   "partId": 394161
+  },
+  {
+   "partNumber": 325,
+   "partName": "P.S RAGHUNATHKHERA ROOM NO-1",
+   "partId": 394162
+  },
+  {
+   "partNumber": 326,
+   "partName": "P.S RAGHUNATHKHERA ROOM NO-2",
+   "partId": 394163
+  },
+  {
+   "partNumber": 327,
+   "partName": "P.S BAIRISALPUR ROOM NO. 1",
+   "partId": 394164
+  },
+  {
+   "partNumber": 328,
+   "partName": "P.S.BAIRISAL PUR ROOM NO.2",
+   "partId": 394267
+  },
+  {
+   "partNumber": 329,
+   "partName": "P.S BHAVAKHERA",
+   "partId": 394165
+  },
+  {
+   "partNumber": 330,
+   "partName": "P.S SIRS ROOM NO-1",
+   "partId": 394166
+  },
+  {
+   "partNumber": 331,
+   "partName": "P.S SIRS ROOM NO-2",
+   "partId": 394167
+  },
+  {
+   "partNumber": 332,
+   "partName": "BESIK VIDYALA YBHADDI SIRS",
+   "partId": 394168
+  },
+  {
+   "partNumber": 333,
+   "partName": "P.S MADAKHERA",
+   "partId": 394187
+  },
+  {
+   "partNumber": 334,
+   "partName": "P.S KANKAHA -FIRST ROOM NO-1",
+   "partId": 394188
+  },
+  {
+   "partNumber": 335,
+   "partName": "P.S KANKAHA -FIRST ROOM NO-2",
+   "partId": 394194
+  },
+  {
+   "partNumber": 336,
+   "partName": "P.S MANKHERA",
+   "partId": 394195
+  },
+  {
+   "partNumber": 337,
+   "partName": "P.S FATTEKHERA",
+   "partId": 394196
+  },
+  {
+   "partNumber": 338,
+   "partName": "PRATHMIK VIDALAYA FATTEKHERA ROOM NO- 02",
+   "partId": 394293
+  },
+  {
+   "partNumber": 339,
+   "partName": "U.P.S KANKAHA",
+   "partId": 394197
+  },
+  {
+   "partNumber": 340,
+   "partName": "P.S MASTIPUR",
+   "partId": 394202
+  },
+  {
+   "partNumber": 341,
+   "partName": "P.S GARHI",
+   "partId": 394203
+  },
+  {
+   "partNumber": 342,
+   "partName": "P.S KUSHBHITA",
+   "partId": 394204
+  },
+  {
+   "partNumber": 343,
+   "partName": "P.S CHOTIKHERA",
+   "partId": 394205
+  },
+  {
+   "partNumber": 344,
+   "partName": "PURVA MADHYAMIK VIDYALAYKAMALPUR BICHLIKA ROOM NO-1",
+   "partId": 394210
+  },
+  {
+   "partNumber": 345,
+   "partName": "PURVA MADHYAMIK VIDYALAYKAMALPUR BICHLIKA ROOM NO-2",
+   "partId": 394214
+  },
+  {
+   "partNumber": 346,
+   "partName": "BESIK VIDYALAY UTRAVAN",
+   "partId": 394169
+  },
+  {
+   "partNumber": 347,
+   "partName": "SAMUDAYIK MILAN KENDRA SHEKHANKHERA",
+   "partId": 394170
+  },
+  {
+   "partNumber": 348,
+   "partName": "P.S SHIVPURA",
+   "partId": 394171
+  },
+  {
+   "partNumber": 349,
+   "partName": "P.S RAMPURA",
+   "partId": 394172
+  },
+  {
+   "partNumber": 350,
+   "partName": "P.S NARAYANKHERA ROOM NO-1",
+   "partId": 394173
+  },
+  {
+   "partNumber": 351,
+   "partName": "P.S NARAYANKHERA ROOM NO-2",
+   "partId": 394174
+  },
+  {
+   "partNumber": 352,
+   "partName": "P.S UTRAVAN",
+   "partId": 394175
+  },
+  {
+   "partNumber": 353,
+   "partName": "P.S TIKARA",
+   "partId": 394176
+  },
+  {
+   "partNumber": 354,
+   "partName": "P.S BRAMHDASPUR",
+   "partId": 394177
+  },
+  {
+   "partNumber": 355,
+   "partName": "P.S UDAYPUR",
+   "partId": 394178
+  },
+  {
+   "partNumber": 356,
+   "partName": "P.S RAMPURGADHI JAMUNI",
+   "partId": 394179
+  },
+  {
+   "partNumber": 357,
+   "partName": "PRATHMIK VIDALAYA RAMPURGADHI JAMUNI ROOM NO -02",
+   "partId": 394294
+  },
+  {
+   "partNumber": 358,
+   "partName": "P.S DIGHARI",
+   "partId": 394180
+  },
+  {
+   "partNumber": 359,
+   "partName": "P.S PATAUNA",
+   "partId": 394181
+  },
+  {
+   "partNumber": 360,
+   "partName": "PRATHMIK VIDALAYA PATAUNA ROOM NO - 02",
+   "partId": 394295
+  },
+  {
+   "partNumber": 361,
+   "partName": "P.S PALKHERA",
+   "partId": 394182
+  },
+  {
+   "partNumber": 362,
+   "partName": "P.S SAMESI -FIRST ROOM NO-1",
+   "partId": 394183
+  },
+  {
+   "partNumber": 363,
+   "partName": "P.S SAMESI -FIRST ROOM NO-2",
+   "partId": 394184
+  },
+  {
+   "partNumber": 364,
+   "partName": "P.S SAMESI -FIRST ROOM NO-3",
+   "partId": 394185
+  },
+  {
+   "partNumber": 365,
+   "partName": "PRATHMIK VIDYALAYA SAMESI PRATHM ROOM NO -04",
+   "partId": 394296
+  },
+  {
+   "partNumber": 366,
+   "partName": "PRATHMIK VIDYALAYA SAMESI PRATHM ROOM NO- 05",
+   "partId": 394297
+  },
+  {
+   "partNumber": 367,
+   "partName": "PANCHAYAT BHAVAN SAMESI",
+   "partId": 394186
+  },
+  {
+   "partNumber": 368,
+   "partName": "P.S RASULPUR ROOM NO-1",
+   "partId": 394189
+  },
+  {
+   "partNumber": 369,
+   "partName": "P.S RASULPUR ROOM NO-2",
+   "partId": 394190
+  },
+  {
+   "partNumber": 370,
+   "partName": "PURVA MADHYAMIK VIDYALAY RAM BAKSH KHERA",
+   "partId": 394191
+  },
+  {
+   "partNumber": 371,
+   "partName": "P.S PATVAKHERA",
+   "partId": 394192
+  },
+  {
+   "partNumber": 372,
+   "partName": "BESIK VIDYALAY KARORA ROOM NO-1",
+   "partId": 394193
+  },
+  {
+   "partNumber": 373,
+   "partName": "BESIK VIDYALAY KARORA ROOM NO-2",
+   "partId": 394198
+  },
+  {
+   "partNumber": 374,
+   "partName": "BASIC VIDALAYA KARORA ROOM NO-03",
+   "partId": 394298
+  },
+  {
+   "partNumber": 375,
+   "partName": "P.S JAMALPUR DADURI",
+   "partId": 394199
+  },
+  {
+   "partNumber": 376,
+   "partName": "SAMUDAYIK MILAN KENDRA DADURI",
+   "partId": 394200
+  },
+  {
+   "partNumber": 377,
+   "partName": "BESIK VIDYALAY BALSINHKHERA ROOM NO-1",
+   "partId": 394201
+  },
+  {
+   "partNumber": 378,
+   "partName": "BESIK VIDYALAY BALSINHKHERA ROOM NO-2",
+   "partId": 394206
+  },
+  {
+   "partNumber": 379,
+   "partName": "PURVA MADHYAMIK VIDYALAY MITAULI ADAMPUR AT AKRAHDU",
+   "partId": 394207
+  },
+  {
+   "partNumber": 380,
+   "partName": "P.S DULHAPUR HUSENABAD ROOM NO-1",
+   "partId": 394208
+  },
+  {
+   "partNumber": 381,
+   "partName": "P.S DULHAPUR HUSENABAD ROOM NO-2",
+   "partId": 394209
+  },
+  {
+   "partNumber": 382,
+   "partName": "P.S ISMAILNAGAR",
+   "partId": 394211
+  },
+  {
+   "partNumber": 383,
+   "partName": "PURVA MADHYAMIK VIDYALAY NAGRAM ROOM NO-1",
+   "partId": 394212
+  },
+  {
+   "partNumber": 384,
+   "partName": "PURVA MADHYAMIK VIDYALAY NAGRAM ROOM NO-2",
+   "partId": 394213
+  },
+  {
+   "partNumber": 385,
+   "partName": "PURVA MADHYAMIK VIDYALAY NAGRAM ROOM NO-3",
+   "partId": 394215
+  },
+  {
+   "partNumber": 386,
+   "partName": "PURV MADHYAMIK VIDALAYA NAGRAM ROOM NO-04",
+   "partId": 394299
+  },
+  {
+   "partNumber": 387,
+   "partName": "P.S PRACHEEN NAGRAM",
+   "partId": 394216
+  },
+  {
+   "partNumber": 388,
+   "partName": "PRATHMIK VIDALAYA PRACHEEN NAGRAM ROOM NO-02",
+   "partId": 394300
+  },
+  {
+   "partNumber": 389,
+   "partName": "P.S NAVINAGAR",
+   "partId": 394217
+  },
+  {
+   "partNumber": 390,
+   "partName": "P.S SUKHLALKHERA",
+   "partId": 394218
+  },
+  {
+   "partNumber": 391,
+   "partName": "PURVA MADHYAMIK VIDYALAY NABINAGAR BHATTHA CHAURAHA",
+   "partId": 394219
+  },
+  {
+   "partNumber": 392,
+   "partName": "KANYA PURVA MADHYAMIK VIDYALAYA NAGRAM ROOM NO-1",
+   "partId": 394220
+  },
+  {
+   "partNumber": 393,
+   "partName": "KANYA PURVA MADHYAMIK VIDYALAYA NAGRAM ROOM NO-2",
+   "partId": 394221
+  },
+  {
+   "partNumber": 394,
+   "partName": "P.S KARORVA",
+   "partId": 394222
+  },
+  {
+   "partNumber": 395,
+   "partName": "BESIK VIDYALAY AMVAMURTJAPUR",
+   "partId": 394223
+  },
+  {
+   "partNumber": 396,
+   "partName": "P.S ASLAM NAGAR",
+   "partId": 394224
+  },
+  {
+   "partNumber": 397,
+   "partName": "P.S GARHA",
+   "partId": 394225
+  },
+  {
+   "partNumber": 398,
+   "partName": "P.S ABBASNAGAR",
+   "partId": 394228
+  },
+  {
+   "partNumber": 399,
+   "partName": "P.S KATRA NAGRAM ROOM NO-1",
+   "partId": 394226
+  },
+  {
+   "partNumber": 400,
+   "partName": "P.S KATRA NAGRAM ROOM NO-2",
+   "partId": 394227
+  },
+  {
+   "partNumber": 401,
+   "partName": "P.S SHAH MOHAMMADPUR APAIYA",
+   "partId": 394229
+  },
+  {
+   "partNumber": 402,
+   "partName": "SHIV NANDAN I.C CHATAUNI ROOM NO-1",
+   "partId": 394230
+  },
+  {
+   "partNumber": 403,
+   "partName": "SHIV NANDAN I.C CHATAUNI ROOM NO-2",
+   "partId": 394231
+  },
+  {
+   "partNumber": 404,
+   "partName": "P.S HASANPUR",
+   "partId": 394232
+  },
+  {
+   "partNumber": 405,
+   "partName": "BESIK VIDYALAY HASANPUR KANERI",
+   "partId": 394233
+  },
+  {
+   "partNumber": 406,
+   "partName": "PURVA MADHYAMIK VIDYALAY SALEMPUR ACHAKA",
+   "partId": 394234
+  },
+  {
+   "partNumber": 407,
+   "partName": "P.S KANTA",
+   "partId": 394235
+  },
+  {
+   "partNumber": 408,
+   "partName": "P.S KARAUNDI",
+   "partId": 394236
+  },
+  {
+   "partNumber": 409,
+   "partName": "PURVA MADHYAMIK VIDYALAYMEERAKNAGAR ROOM NO-1",
+   "partId": 394237
+  },
+  {
+   "partNumber": 410,
+   "partName": "PURVA MADHYAMIK VIDYALAYMEERAKNAGAR ROOM NO-2",
+   "partId": 394238
+  },
+  {
+   "partNumber": 411,
+   "partName": "PURVA MADHYAMIK VIDYALAYA MEERAKNAGAR ROOM NO-3",
+   "partId": 394239
+  },
+  {
+   "partNumber": 412,
+   "partName": "P.S KARANPUR",
+   "partId": 394240
+  },
+  {
+   "partNumber": 413,
+   "partName": "PURVA MADHYAMIK VIDYALAY LAVAL ROOM NO-1",
+   "partId": 394241
+  },
+  {
+   "partNumber": 414,
+   "partName": "PURVA MADHYAMIK VIDYALAY LAVAL ROOM NO-2",
+   "partId": 394242
+  },
+  {
+   "partNumber": 415,
+   "partName": "P.S RAMDASPUR ROOM NO-1",
+   "partId": 394243
+  },
+  {
+   "partNumber": 416,
+   "partName": "P.S RAMDASPUR ROOM NO-2",
+   "partId": 394244
+  },
+  {
+   "partNumber": 417,
+   "partName": "BESIK VIDYALAY NANDAULI",
+   "partId": 394245
+  },
+  {
+   "partNumber": 418,
+   "partName": "PURVA MADHYAMIK VIDYALAY DAKHINASHEKHPUR",
+   "partId": 394246
+  },
+  {
+   "partNumber": 419,
+   "partName": "P.S SHEKHPUR",
+   "partId": 394247
+  },
+  {
+   "partNumber": 420,
+   "partName": "P.S RATNAPUR",
+   "partId": 394248
+  },
+  {
+   "partNumber": 421,
+   "partName": "PURVA MADHYAMIK VIDYALAY AMILIHAKHERA",
+   "partId": 394249
+  },
+  {
+   "partNumber": 422,
+   "partName": "BESIK VIDYALAY NIGOHAN ROOM NO-1",
+   "partId": 394250
+  },
+  {
+   "partNumber": 423,
+   "partName": "BESIK VIDYALAY NIGOHAN ROOM NO-2",
+   "partId": 394251
+  },
+  {
+   "partNumber": 424,
+   "partName": "SATYA NARAYAN I COLLEGE NIGOHAN ROOM NO-1",
+   "partId": 394252
+  },
+  {
+   "partNumber": 425,
+   "partName": "SATYA NARAYAN I COLLEGE NIGOHAN ROOM NO-2",
+   "partId": 394253
+  },
+  {
+   "partNumber": 426,
+   "partName": "SATYA NARAYAN I COLLEGE NIGOHAN ROOM NO-3",
+   "partId": 394254
+  },
+  {
+   "partNumber": 427,
+   "partName": "SATYANARAYAN TIWARI INTER COLLAGE NIGOHA ROOM NO-04",
+   "partId": 394301
+  },
+  {
+   "partNumber": 428,
+   "partName": "P.S BIRSINGHPUR",
+   "partId": 394255
+  },
+  {
+   "partNumber": 429,
+   "partName": "PRATHMIK VIDALAYA BIRSINGHPUR ROOM NO- 02",
+   "partId": 394302
+  },
+  {
+   "partNumber": 430,
+   "partName": "BESIK VIDYALAY AGHAIYA",
+   "partId": 394256
+  },
+  {
+   "partNumber": 431,
+   "partName": "P.S HARIHARPUR PATSA",
+   "partId": 394257
+  },
+  {
+   "partNumber": 432,
+   "partName": "PANCHAYAT BHAVAN BHATPURA",
+   "partId": 394258
+  },
+  {
+   "partNumber": 433,
+   "partName": "P.S LALPUR",
+   "partId": 394259
+  },
+  {
+   "partNumber": 434,
+   "partName": "P.S PURAHIYA ROOM NO-1",
+   "partId": 394260
+  },
+  {
+   "partNumber": 435,
+   "partName": "P.S PURAHIYA ROOM NO-2",
+   "partId": 394261
+  },
+  {
+   "partNumber": 436,
+   "partName": "P.S KHUDDIKHERA",
+   "partId": 394262
+  },
+  {
+   "partNumber": 437,
+   "partName": "PURVA MADHYAMIK VIDYALAY NATAULI",
+   "partId": 394263
+  },
+  {
+   "partNumber": 438,
+   "partName": "P.S. NATAULI, JAMADARKHERA",
+   "partId": 394264
+  }
+ ]
+}

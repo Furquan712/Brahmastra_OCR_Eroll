@@ -1,0 +1,2542 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2409",
+ "acNumber": 77,
+ "fetchedAt": "2026-11-01T08:34:17",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 506,
+ "maxPart": 506,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "PRATHAMIK VIDYALAY INAYATPUR BAJHEDA",
+   "partId": 376162
+  },
+  {
+   "partNumber": 2,
+   "partName": "PRATHAMIK VIDYALAY ASNETA JAHANGIRABAD",
+   "partId": 376163
+  },
+  {
+   "partNumber": 3,
+   "partName": "PRATHAMIK VIDYALAY CHAMROLA",
+   "partId": 376164
+  },
+  {
+   "partNumber": 4,
+   "partName": "PRATHAMIK VIDYALAY SHAHAPUR KUTUB R.N-1",
+   "partId": 376165
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRATHAMIK VIDYALAY SHAHAPUR KUTUB R.N-2",
+   "partId": 376439
+  },
+  {
+   "partNumber": 6,
+   "partName": "PRATHAMIK VIDYALAY IBRAHIMAPUR R.N.1",
+   "partId": 376166
+  },
+  {
+   "partNumber": 7,
+   "partName": "PRATHAMIK VIDYALAY IBRAHIMAPUR R.N.2",
+   "partId": 376440
+  },
+  {
+   "partNumber": 8,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.1",
+   "partId": 376167
+  },
+  {
+   "partNumber": 9,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.2",
+   "partId": 376168
+  },
+  {
+   "partNumber": 10,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.3",
+   "partId": 376169
+  },
+  {
+   "partNumber": 11,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.4",
+   "partId": 376170
+  },
+  {
+   "partNumber": 12,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.5",
+   "partId": 376171
+  },
+  {
+   "partNumber": 13,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.6",
+   "partId": 376172
+  },
+  {
+   "partNumber": 14,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.7",
+   "partId": 376300
+  },
+  {
+   "partNumber": 15,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.8",
+   "partId": 376441
+  },
+  {
+   "partNumber": 16,
+   "partName": "PRATHAMIK VIDYALAY ALAHADADPUR NIVRI R.N.9",
+   "partId": 376442
+  },
+  {
+   "partNumber": 17,
+   "partName": "UCCH PRATHAMIK VIDYALAY TALASPUR KHURD R.N.1",
+   "partId": 376301
+  },
+  {
+   "partNumber": 18,
+   "partName": "UCCH PRATHAMIK VIDYALAY TALASPUR KHURD R.N.2",
+   "partId": 376302
+  },
+  {
+   "partNumber": 19,
+   "partName": "UCCH PRATHAMIK VIDYALAY TALASPUR KHURD R.N.3",
+   "partId": 376443
+  },
+  {
+   "partNumber": 20,
+   "partName": "PRATHAMIK VIDYALAY RORAVAR R.N.1",
+   "partId": 376303
+  },
+  {
+   "partNumber": 21,
+   "partName": "PRATHAMIK VIDYALAY RORAVAR R.N.2",
+   "partId": 376304
+  },
+  {
+   "partNumber": 22,
+   "partName": "PRATHAMIK VIDYALAY RORAVAR R.N.3",
+   "partId": 376305
+  },
+  {
+   "partNumber": 23,
+   "partName": "PRATHAMIK VIDYALAY RORAVAR R.N.4",
+   "partId": 376306
+  },
+  {
+   "partNumber": 24,
+   "partName": "MODERN SIR SYED INTER COLLEGE RORAVAR -1",
+   "partId": 376307
+  },
+  {
+   "partNumber": 25,
+   "partName": "MODERN SIR SYED INTER COLLEGE RORAVAR -2",
+   "partId": 376308
+  },
+  {
+   "partNumber": 26,
+   "partName": "MODERN SIR SYED INTER COLLEGE RORAVAR -3",
+   "partId": 376309
+  },
+  {
+   "partNumber": 27,
+   "partName": "MODERN SIR SYED INTER COLLEGE RORAVAR -4",
+   "partId": 376310
+  },
+  {
+   "partNumber": 28,
+   "partName": "MODERN SIR SYED INTER COLLEGE RORAVAR -5",
+   "partId": 376311
+  },
+  {
+   "partNumber": 29,
+   "partName": "MODERN SIR SYED INTER COLLEGE RORAVAR -6",
+   "partId": 376312
+  },
+  {
+   "partNumber": 30,
+   "partName": "MODERN SIR SYED INTER COLLEGE RORAVAR -7",
+   "partId": 376313
+  },
+  {
+   "partNumber": 31,
+   "partName": "MODERN SIR SYED INTER COLLEGE RORAVAR -8",
+   "partId": 376314
+  },
+  {
+   "partNumber": 32,
+   "partName": "SANRAISH PABLIK SCHOOL ,RORAVAR R.N.1",
+   "partId": 376444
+  },
+  {
+   "partNumber": 33,
+   "partName": "SANRAISH PABLIK SCHOOL ,RORAVAR R.N.2",
+   "partId": 376445
+  },
+  {
+   "partNumber": 34,
+   "partName": "PRATHAMIK VIDYALAY GOVINDAPUR FAGOI R.N.1",
+   "partId": 376315
+  },
+  {
+   "partNumber": 35,
+   "partName": "PRATHAMIK VIDYALAY GOVINDAPUR FAGOI R.N.2",
+   "partId": 376316
+  },
+  {
+   "partNumber": 36,
+   "partName": "PRATHAMIK VIDYALAY HAIBTAPUR FAGOI",
+   "partId": 376317
+  },
+  {
+   "partNumber": 37,
+   "partName": "ADARSH SHIKSHA SADAN AMARPUR KONDRA R.N.1",
+   "partId": 376318
+  },
+  {
+   "partNumber": 38,
+   "partName": "ADARSH SHIKSHA SADAN AMARPUR KONDRA R.N.2",
+   "partId": 376319
+  },
+  {
+   "partNumber": 39,
+   "partName": "PRATHAMIK VIDYALAY NAUGAWAN ARJUN R.N.1",
+   "partId": 376320
+  },
+  {
+   "partNumber": 40,
+   "partName": "PRATHAMIK VIDYALAY NAUGAWAN ARJUN R.N.2",
+   "partId": 376321
+  },
+  {
+   "partNumber": 41,
+   "partName": "PRATHAMIK VIDYALAY KAITHVARI R.N-1",
+   "partId": 376322
+  },
+  {
+   "partNumber": 42,
+   "partName": "PRATHAMIK VIDYALAY KAITHVARI R.N.2",
+   "partId": 376446
+  },
+  {
+   "partNumber": 43,
+   "partName": "PRATHAMIK VIDYALAY NURPUR",
+   "partId": 376323
+  },
+  {
+   "partNumber": 44,
+   "partName": "PRATHAMIK VIDYALAY MADAR KHEDA",
+   "partId": 376324
+  },
+  {
+   "partNumber": 45,
+   "partName": "PRATHAMIK VIDYALAY BITHNA R.N. 1",
+   "partId": 376325
+  },
+  {
+   "partNumber": 46,
+   "partName": "PRATHAMIK VIDYALAY BITHNA R.N.2",
+   "partId": 376326
+  },
+  {
+   "partNumber": 47,
+   "partName": "PRATHAMIK VIDYALAY LALGADHI",
+   "partId": 376327
+  },
+  {
+   "partNumber": 48,
+   "partName": "PRATHAMIK VIDYALAY VAD VAMANI",
+   "partId": 376328
+  },
+  {
+   "partNumber": 49,
+   "partName": "PRATHAMIK VIDYALAY BAROLI BHIKAM",
+   "partId": 376329
+  },
+  {
+   "partNumber": 50,
+   "partName": "PRATHAMIK VIDYALAY BHAMROLA",
+   "partId": 376330
+  },
+  {
+   "partNumber": 51,
+   "partName": "UCCH PRATHAMIK VIDYALAY SHAHARI MADANGADHI R.N. 1",
+   "partId": 376331
+  },
+  {
+   "partNumber": 52,
+   "partName": "UCCH PRATHAMIK VIDYALAY SHAHARI MADANGADHI R.N. 2",
+   "partId": 376332
+  },
+  {
+   "partNumber": 53,
+   "partName": "UCCH PRATHAMIK VIDYALAY SHAHARI MADANGADHI R.N. 3",
+   "partId": 376333
+  },
+  {
+   "partNumber": 54,
+   "partName": "UCCH PRATHAMIK VIDYALAY RANIHAL",
+   "partId": 376334
+  },
+  {
+   "partNumber": 55,
+   "partName": "PRATHAMIK VIDYALAY KARHALA GAURVA",
+   "partId": 376335
+  },
+  {
+   "partNumber": 56,
+   "partName": "PRATHAMIK VIDYALAY KARAHLA BAGRI",
+   "partId": 376336
+  },
+  {
+   "partNumber": 57,
+   "partName": "COMPOSITE  VIDYALAY BHAIMATI R.N.1",
+   "partId": 376337
+  },
+  {
+   "partNumber": 58,
+   "partName": "COMPOSITE VIDYALAY BHAIMATI R.N.2",
+   "partId": 376338
+  },
+  {
+   "partNumber": 59,
+   "partName": "PRATHAMIK VIDYALAY DHORRAPALAN",
+   "partId": 376339
+  },
+  {
+   "partNumber": 60,
+   "partName": "PRATHAMIK VIDYALAY AKBARPUR R.N.1",
+   "partId": 376340
+  },
+  {
+   "partNumber": 61,
+   "partName": "PRATHAMIK VIDYALAY AKBARPUR R.N.2",
+   "partId": 376341
+  },
+  {
+   "partNumber": 62,
+   "partName": "PRATHAMIK VIDYALAY MANDALA",
+   "partId": 376342
+  },
+  {
+   "partNumber": 63,
+   "partName": "PRATHAMIK VIDYALAY BALBHADRAPUR",
+   "partId": 376343
+  },
+  {
+   "partNumber": 64,
+   "partName": "PRATHAMIK VIDYALAY RANA",
+   "partId": 376344
+  },
+  {
+   "partNumber": 65,
+   "partName": "PRATHAMIK VIDYALAY DIGSI",
+   "partId": 376345
+  },
+  {
+   "partNumber": 66,
+   "partName": "PRATHAMIK VIDYALAY CHANDAPURA",
+   "partId": 376346
+  },
+  {
+   "partNumber": 67,
+   "partName": "PRATHAMIK VIDYALAY BINUPUR R.N0 1",
+   "partId": 376347
+  },
+  {
+   "partNumber": 68,
+   "partName": "PRATHAMIK VIDYALAY BINUPUR R.N0 2",
+   "partId": 376348
+  },
+  {
+   "partNumber": 69,
+   "partName": "PRATHAMIK VIDYALAY PINJARI NAGRI",
+   "partId": 376349
+  },
+  {
+   "partNumber": 70,
+   "partName": "MOHINI INTER COLLEGE BADHON R.N-1",
+   "partId": 376350
+  },
+  {
+   "partNumber": 71,
+   "partName": "MOHINI INTER COLLEGE BADHON R.N0 2",
+   "partId": 376447
+  },
+  {
+   "partNumber": 72,
+   "partName": "PRATHAMIK VIDYALAY BADHOLA HAJI",
+   "partId": 376351
+  },
+  {
+   "partNumber": 73,
+   "partName": "PRATHAMIK VIDYALAY BHARTAPUR",
+   "partId": 376352
+  },
+  {
+   "partNumber": 74,
+   "partName": "PRATHAMIK VIDYALAY RUSTAMPUR NAIMABAD",
+   "partId": 376353
+  },
+  {
+   "partNumber": 75,
+   "partName": "UCCH PRATHAMIK VIDYALAY HEERPUR HUSSAINPUR R.N.1",
+   "partId": 376354
+  },
+  {
+   "partNumber": 76,
+   "partName": "UCCH PRATHAMIK VIDYALAY HEERPUR HUSSAINPUR R.N.2",
+   "partId": 376355
+  },
+  {
+   "partNumber": 77,
+   "partName": "UCCH PRATHAMIK VIDYALAY KIRTAPUR NIMANA",
+   "partId": 376356
+  },
+  {
+   "partNumber": 78,
+   "partName": "PRATHAMIK VIDYALAY LHORRA NAGLA BADHON",
+   "partId": 376357
+  },
+  {
+   "partNumber": 79,
+   "partName": "PRATHAMIK VIDYALAY DUNAI R.N-1",
+   "partId": 376358
+  },
+  {
+   "partNumber": 80,
+   "partName": "PRATHAMIK VIDYALAY DUNAI R.N.2",
+   "partId": 376448
+  },
+  {
+   "partNumber": 81,
+   "partName": "PRATHAMIK VIDYALAY PARSAHARA",
+   "partId": 376359
+  },
+  {
+   "partNumber": 82,
+   "partName": "PRATHAMIK VIDYALAY NEHRA R.N-1",
+   "partId": 376360
+  },
+  {
+   "partNumber": 83,
+   "partName": "PRATHAMIK VIDYALAY NEHRA R.N.2",
+   "partId": 376449
+  },
+  {
+   "partNumber": 84,
+   "partName": "PRATHAMIK VIDYALAY AMRAPUR NAHARA",
+   "partId": 376361
+  },
+  {
+   "partNumber": 85,
+   "partName": "PRATHAMIK VIDYALAY KESHONPUR JOFARI R.N. 1",
+   "partId": 376362
+  },
+  {
+   "partNumber": 86,
+   "partName": "PRATHAMIK VIDYALAY KESHONPUR JOFARI R.N. 2",
+   "partId": 376363
+  },
+  {
+   "partNumber": 87,
+   "partName": "PRATHAMIK VIDYALAY KARILIYA",
+   "partId": 376364
+  },
+  {
+   "partNumber": 88,
+   "partName": "PRATHAMIK VIDYALAY LHAUSRA BISAVAN R.N-1",
+   "partId": 376365
+  },
+  {
+   "partNumber": 89,
+   "partName": "PRATHAMIK VIDYALAY LHAUSRA BISAVAN R.N.2",
+   "partId": 376450
+  },
+  {
+   "partNumber": 90,
+   "partName": "PRATHAMIK VIDYALAY RUSTAMAPUR AKHAN",
+   "partId": 376366
+  },
+  {
+   "partNumber": 91,
+   "partName": "PRATHAMIK VIDYALAY BAJIDPUR NADA R.N.1",
+   "partId": 376367
+  },
+  {
+   "partNumber": 92,
+   "partName": "PRATHAMIK VIDYALAY BAJIDPUR NADA R.N.2",
+   "partId": 376368
+  },
+  {
+   "partNumber": 93,
+   "partName": "PRATHAMIK VIDYALAY HAYATPUR HINGOTIYA",
+   "partId": 376369
+  },
+  {
+   "partNumber": 94,
+   "partName": "PRATHAMIK VIDYALAY SALEMAPUR MAFI",
+   "partId": 376370
+  },
+  {
+   "partNumber": 95,
+   "partName": "PRATHAMIK VIDYALAY TAJPUR RASULPUR R.N.1",
+   "partId": 376371
+  },
+  {
+   "partNumber": 96,
+   "partName": "PRATHAMIK VIDYALAY TAJPUR RASULPUR R.N.2",
+   "partId": 376372
+  },
+  {
+   "partNumber": 97,
+   "partName": "SARASWATI VIDYA MANDIR ASRAFPUR JALAL R.N.1",
+   "partId": 376373
+  },
+  {
+   "partNumber": 98,
+   "partName": "SARASWATI VIDYA MANDIR ASRAFPUR JALAL R.N.2",
+   "partId": 376374
+  },
+  {
+   "partNumber": 99,
+   "partName": "SARASWATI VIDYA MANDIR ASRAFPUR JALAL R.N.3",
+   "partId": 376375
+  },
+  {
+   "partNumber": 100,
+   "partName": "SARASWATI VIDYA MANDIR ASRAFPUR JALAL R.N.4",
+   "partId": 376376
+  },
+  {
+   "partNumber": 101,
+   "partName": "SARASWATI VIDYA MANDIR ASRAFPUR JALAL R.N.5",
+   "partId": 376377
+  },
+  {
+   "partNumber": 102,
+   "partName": "SARASWATI VIDYA MANDIR ASRAFPUR JALAL R.N.6",
+   "partId": 376378
+  },
+  {
+   "partNumber": 103,
+   "partName": "SARASWATI VIDYA MANDIR ASRAFPUR JALAL R.N.7",
+   "partId": 376451
+  },
+  {
+   "partNumber": 104,
+   "partName": "SARASWATI VIDYA MANDIR ASRAFPUR JALAL R.N.8",
+   "partId": 376452
+  },
+  {
+   "partNumber": 105,
+   "partName": "K.B.R EDUCATION ACADEMY ASRAFPUR JALAL  R.N. 1",
+   "partId": 376379
+  },
+  {
+   "partNumber": 106,
+   "partName": "K.B.R EDUCATION ACADEMY ASRAFPUR JALAL R.N. 2",
+   "partId": 376380
+  },
+  {
+   "partNumber": 107,
+   "partName": "COMPOSITE 1-8 ENGLISH MEDIUM UPPER PRIMARY SCHOOL ELAMPUR R.N. 1",
+   "partId": 376381
+  },
+  {
+   "partNumber": 108,
+   "partName": "COMPOSITE 1-8 ENGLISH MEDIUM UPPER PRIMARY SCHOOL ELAMPUR R.N. 2",
+   "partId": 376382
+  },
+  {
+   "partNumber": 109,
+   "partName": "COMPOSITE 1-8 ENGLISH MEDIUM UPPER PRIMARY SCHOOL ELAMPUR R.N. 3",
+   "partId": 376383
+  },
+  {
+   "partNumber": 110,
+   "partName": "PANCHYAT GHAR ALAPUR GADIYA R.N-1",
+   "partId": 376384
+  },
+  {
+   "partNumber": 111,
+   "partName": "PANCHYAT GHAR ALAPUR GADIYA R.N. 2",
+   "partId": 376453
+  },
+  {
+   "partNumber": 112,
+   "partName": "PRATHAMIK VIDYALAY HARDASPUR R.N. 1",
+   "partId": 376385
+  },
+  {
+   "partNumber": 113,
+   "partName": "PRATHAMIK VIDYALAY HARDASPUR R.N. 2",
+   "partId": 376386
+  },
+  {
+   "partNumber": 114,
+   "partName": "PRATHAMIK VIDYALAY BHANKARI KHAS R.N. 1",
+   "partId": 376387
+  },
+  {
+   "partNumber": 115,
+   "partName": "PRATHAMIK VIDYALAY BHANKARI KHAS R.N. 2",
+   "partId": 376388
+  },
+  {
+   "partNumber": 116,
+   "partName": "PRATHAMIK VIDYALAY BHAGWANPUR",
+   "partId": 376389
+  },
+  {
+   "partNumber": 117,
+   "partName": "PRATHAMIK VIDYALAY SEMLA",
+   "partId": 376390
+  },
+  {
+   "partNumber": 118,
+   "partName": "PRATHAMIK VIDYALAY BULAKGADHI",
+   "partId": 376391
+  },
+  {
+   "partNumber": 119,
+   "partName": "PRATHAMIK VIDYALAY KHEDA KHUSHKHABAR",
+   "partId": 376392
+  },
+  {
+   "partNumber": 120,
+   "partName": "PRATHAMIK VIDYALAY CHUAVLI",
+   "partId": 376393
+  },
+  {
+   "partNumber": 121,
+   "partName": "PRATHAMIK VIDYALAY BHARTARI R.N-1",
+   "partId": 376394
+  },
+  {
+   "partNumber": 122,
+   "partName": "PRATHAMIK VIDYALAY BHARTARI R.N. 2",
+   "partId": 376454
+  },
+  {
+   "partNumber": 123,
+   "partName": "PRATHAMIK VIDYALAY HARNOTI",
+   "partId": 376395
+  },
+  {
+   "partNumber": 124,
+   "partName": "PRATHAMIK VIDYALAY HAYATPUR BAJHERA",
+   "partId": 376396
+  },
+  {
+   "partNumber": 125,
+   "partName": "PRATHAMIK VIDYALAY JATNAPUR CHIKAVTI R.N-1",
+   "partId": 376397
+  },
+  {
+   "partNumber": 126,
+   "partName": "PRATHAMIK VIDYALAY JATNAPUR CHIKAVTI R.N. 2",
+   "partId": 376455
+  },
+  {
+   "partNumber": 127,
+   "partName": "PRATHAMIK VIDYALAY LEKHRAJPUR R.N-1",
+   "partId": 376398
+  },
+  {
+   "partNumber": 128,
+   "partName": "PRATHAMIK VIDYALAY LEKHRAJPUR R.N. 2",
+   "partId": 376456
+  },
+  {
+   "partNumber": 129,
+   "partName": "PRATHAMIK VIDYALAY BHIKAMPUR R.N.1",
+   "partId": 376399
+  },
+  {
+   "partNumber": 130,
+   "partName": "PRATHAMIK VIDYALAY BHIKAMPUR R.N.2",
+   "partId": 376400
+  },
+  {
+   "partNumber": 131,
+   "partName": "PRATHAMIK VIDYALAY SIKANDARAPUR BHUKARAVLI",
+   "partId": 376401
+  },
+  {
+   "partNumber": 132,
+   "partName": "UCCH PRATHAMIK VIDYALAY KARSUA R.N.1",
+   "partId": 376402
+  },
+  {
+   "partNumber": 133,
+   "partName": "UCCH PRATHAMIK VIDYALAY KARSUA R.N.2",
+   "partId": 376403
+  },
+  {
+   "partNumber": 134,
+   "partName": "PRATHAMIK VIDYALAY NADAROI",
+   "partId": 376404
+  },
+  {
+   "partNumber": 135,
+   "partName": "UCCH PRATHAMIK VIDYALAY SIKHARAN",
+   "partId": 376416
+  },
+  {
+   "partNumber": 136,
+   "partName": "PRATHAMIK VIDYALAY BIJONA BUJURG",
+   "partId": 376405
+  },
+  {
+   "partNumber": 137,
+   "partName": "PRATHAMIK VIDYALAY JIROLI DOR",
+   "partId": 376406
+  },
+  {
+   "partNumber": 138,
+   "partName": "UCCH PRATHAMIK VIDYALAY JIROLI DOR",
+   "partId": 376407
+  },
+  {
+   "partNumber": 139,
+   "partName": "UCCH PRATHAMIK VIDYALAY LODHA R.N.1",
+   "partId": 376408
+  },
+  {
+   "partNumber": 140,
+   "partName": "UCCH PRATHAMIK VIDYALAY LODHA R.N.2",
+   "partId": 376409
+  },
+  {
+   "partNumber": 141,
+   "partName": "PRATHAMIK VIDYALAY LODHA",
+   "partId": 376410
+  },
+  {
+   "partNumber": 142,
+   "partName": "PRATHAMIK VIDYALAY ATALPUR",
+   "partId": 376411
+  },
+  {
+   "partNumber": 143,
+   "partName": "PRATHAMIK VIDYALAY MUSEPUR",
+   "partId": 376412
+  },
+  {
+   "partNumber": 144,
+   "partName": "VAIDIK UCHHTAR MADHYAMIK VIDYALAY NAGLA BIRKHU R.NO 1",
+   "partId": 376413
+  },
+  {
+   "partNumber": 145,
+   "partName": "VAIDIK UCHHTAR MADHYAMIK VIDYALAY NAGLA BIRKHU R.NO 2",
+   "partId": 376414
+  },
+  {
+   "partNumber": 146,
+   "partName": "PRATHAMIK VIDYALAY DAHODA",
+   "partId": 376415
+  },
+  {
+   "partNumber": 147,
+   "partName": "COMPOSITE SCHOOL (1-8) NAGLA JOTU",
+   "partId": 375980
+  },
+  {
+   "partNumber": 148,
+   "partName": "COMPOSITE SCHOOL (1-8) CHHOTI BALLABH",
+   "partId": 375981
+  },
+  {
+   "partNumber": 149,
+   "partName": "COMPOSITE SCHOOL (1-8) SARKORIYA",
+   "partId": 375982
+  },
+  {
+   "partNumber": 150,
+   "partName": "PRATHAMIK VIDYALAY UTTAMPUR",
+   "partId": 375983
+  },
+  {
+   "partNumber": 151,
+   "partName": "PRATHAMIK VIDYALAY BRASHABHANPUR",
+   "partId": 375984
+  },
+  {
+   "partNumber": 152,
+   "partName": "COMPOSITE SCHOOL (1-8) CHUHARPUR KINAMASA R.NO 1",
+   "partId": 375985
+  },
+  {
+   "partNumber": 153,
+   "partName": "COMPOSITE SCHOOL (1-8) CHUHARPUR KINAMASA R.NO 2",
+   "partId": 375986
+  },
+  {
+   "partNumber": 154,
+   "partName": "COMPOSITE SCHOOL (1-8) HIRDAY KI NAGRIYA",
+   "partId": 375987
+  },
+  {
+   "partNumber": 155,
+   "partName": "PRATHAMIK VIDYALAY PACHAWARI R.N-1",
+   "partId": 375988
+  },
+  {
+   "partNumber": 156,
+   "partName": "PRATHAMIK VIDYALAY PACHAWARI R.NO 2",
+   "partId": 376457
+  },
+  {
+   "partNumber": 157,
+   "partName": "COMPOSITE SCHOOL (1-8) NITHAVARI",
+   "partId": 375989
+  },
+  {
+   "partNumber": 158,
+   "partName": "COMPOSITE SCHOOL (1-8) KUVARAPUR R.N-1",
+   "partId": 375990
+  },
+  {
+   "partNumber": 159,
+   "partName": "COMPOSITE SCHOOL (1-8) KUVARAPUR R.NO 2",
+   "partId": 376458
+  },
+  {
+   "partNumber": 160,
+   "partName": "PRATHAMIK VIDYALAY DHATOLI R.NO 1",
+   "partId": 375991
+  },
+  {
+   "partNumber": 161,
+   "partName": "PRATHAMIK VIDYALAY DHATOLI R.NO 2",
+   "partId": 375992
+  },
+  {
+   "partNumber": 162,
+   "partName": "PRATHAMIK VIDYALAY SHEKHUPUR",
+   "partId": 375993
+  },
+  {
+   "partNumber": 163,
+   "partName": "PRATHAMIK VIDYALAY NAGLA SARTAJ",
+   "partId": 375994
+  },
+  {
+   "partNumber": 164,
+   "partName": "PRATHAMIK VIDYALAY TALNAGAR",
+   "partId": 375995
+  },
+  {
+   "partNumber": 165,
+   "partName": "PRATHAMIK VIDYALAY PAYANDAPUR",
+   "partId": 375996
+  },
+  {
+   "partNumber": 166,
+   "partName": "PRATHAMIK VIDYALAY MAGDA",
+   "partId": 375997
+  },
+  {
+   "partNumber": 167,
+   "partName": "PRATHAMIK VIDYALAY MUDIYA",
+   "partId": 375998
+  },
+  {
+   "partNumber": 168,
+   "partName": "PRATHAMIK VIDYALAY BHURIYA GADHI",
+   "partId": 375999
+  },
+  {
+   "partNumber": 169,
+   "partName": "PRATHAMIK VIDYALAY AJAHARI",
+   "partId": 376000
+  },
+  {
+   "partNumber": 170,
+   "partName": "PRATHAMIK VIDYALAY HASANGARH",
+   "partId": 376001
+  },
+  {
+   "partNumber": 171,
+   "partName": "COMPOSITE SCHOOL (1-8) RAJAWAL R.NO. 1",
+   "partId": 376002
+  },
+  {
+   "partNumber": 172,
+   "partName": "COMPOSITE SCHOOL (1-8) RAJAWAL R.NO. 2",
+   "partId": 376003
+  },
+  {
+   "partNumber": 173,
+   "partName": "PRATHAMIK VIDYALAY BHADIRA",
+   "partId": 376004
+  },
+  {
+   "partNumber": 174,
+   "partName": "COMPOSITE SCHOOL (1-8) SADHA",
+   "partId": 376005
+  },
+  {
+   "partNumber": 175,
+   "partName": "COMPOSITE SCHOOL (1-8) BELAUTH R.NO. 1",
+   "partId": 376006
+  },
+  {
+   "partNumber": 176,
+   "partName": "COMPOSITE SCHOOL (1-8) BELAUTH R.NO. 2",
+   "partId": 376007
+  },
+  {
+   "partNumber": 177,
+   "partName": "PRATHAMIK VIDYALAY KALUA BELAUTH R.N-1",
+   "partId": 376008
+  },
+  {
+   "partNumber": 178,
+   "partName": "PRATHAMIK VIDYALAY KALUA BELAUTH R.NO. 2",
+   "partId": 376459
+  },
+  {
+   "partNumber": 179,
+   "partName": "PRATHAMIK VIDYALAY AHALAD",
+   "partId": 376009
+  },
+  {
+   "partNumber": 180,
+   "partName": "LAGSABHA  VIDYA NIKETAN INTER COLLEGE MURAVAR R.NO. 1",
+   "partId": 376010
+  },
+  {
+   "partNumber": 181,
+   "partName": "LAGSABHA  VIDYA NIKETAN INTER COLLEGE MURAVAR R.NO. 2",
+   "partId": 376011
+  },
+  {
+   "partNumber": 182,
+   "partName": "LAGSMA VIDYA NIKETAN INTER COLLEGE MURAVAR R.NO. 3",
+   "partId": 376417
+  },
+  {
+   "partNumber": 183,
+   "partName": "PRATHAMIK VIDYALAY MURAWAR",
+   "partId": 376012
+  },
+  {
+   "partNumber": 184,
+   "partName": "COMPOSITE SCHOOL (1-8) NAGLA FAKIRA",
+   "partId": 376013
+  },
+  {
+   "partNumber": 185,
+   "partName": "COMPOSITE SCHOOL (1-8) RAFAYATPUR",
+   "partId": 376014
+  },
+  {
+   "partNumber": 186,
+   "partName": "COMPOSITE SCHOOL (1-8) NAGLA JANGALI R.NO. 1",
+   "partId": 376015
+  },
+  {
+   "partNumber": 187,
+   "partName": "COMPOSITE SCHOOL (1-8) NAGLA JANGALI R.NO. 2",
+   "partId": 376016
+  },
+  {
+   "partNumber": 188,
+   "partName": "LAGSMA KANYA INTER COLLEGE GONDA R.N. 1",
+   "partId": 376017
+  },
+  {
+   "partNumber": 189,
+   "partName": "LAGSMA KANYA INTER COLLEGE GONDA R.N. 2",
+   "partId": 376018
+  },
+  {
+   "partNumber": 190,
+   "partName": "PRATHAMIK VIDYALAY NAGLA GOVARDHAN SIKATARI",
+   "partId": 376019
+  },
+  {
+   "partNumber": 191,
+   "partName": "PRATHAMIK VIDYALAY GONDA R.NO. 1",
+   "partId": 376020
+  },
+  {
+   "partNumber": 192,
+   "partName": "PRATHAMIK VIDYALAY GONDA R.NO. 2",
+   "partId": 376021
+  },
+  {
+   "partNumber": 193,
+   "partName": "LAGSMA INTER COLLEGE GONDA R.NO. 1",
+   "partId": 376022
+  },
+  {
+   "partNumber": 194,
+   "partName": "LAGSMA INTER COLLEGE GONDA R.NO. 2",
+   "partId": 376023
+  },
+  {
+   "partNumber": 195,
+   "partName": "LAGSMA INTER COLLEGE GONDA R.NO. 3",
+   "partId": 376024
+  },
+  {
+   "partNumber": 196,
+   "partName": "PRATHAMIK VIDYALAY DHARA KI GADHI",
+   "partId": 376025
+  },
+  {
+   "partNumber": 197,
+   "partName": "PRATHAMIK VIDYALAY NAGLA MADHO",
+   "partId": 376026
+  },
+  {
+   "partNumber": 198,
+   "partName": "COMPOSITE SCHOOL (1-8) NAGLA MAN SUJAN R.NO. 1",
+   "partId": 376418
+  },
+  {
+   "partNumber": 199,
+   "partName": "COMPOSITE SCHOOL (1-8) NAGLA MAN SUJAN R.NO. 2",
+   "partId": 376419
+  },
+  {
+   "partNumber": 200,
+   "partName": "PRATHAMIK VIDYALAY SHYAM NAGARIYA R.N-1",
+   "partId": 376027
+  },
+  {
+   "partNumber": 201,
+   "partName": "PRATHAMIK VIDYALAY SHYAM NAGARIYA R.NO. 2",
+   "partId": 376460
+  },
+  {
+   "partNumber": 202,
+   "partName": "COMPOSITE SCHOOL (1-8) ADU KI NAGARIYA",
+   "partId": 376028
+  },
+  {
+   "partNumber": 203,
+   "partName": "PRATHAMIK VIDYALAY CHINTA KI NAGRIYA R.N-1",
+   "partId": 376029
+  },
+  {
+   "partNumber": 204,
+   "partName": "PRATHAMIK VIDYALAY CHINTA KI NAGRIYA R.N. 2",
+   "partId": 376461
+  },
+  {
+   "partNumber": 205,
+   "partName": "UCCH PRATHAMIK VIDYALAY NAYABAS (YAKTAJPUR) R.NO. 1",
+   "partId": 376030
+  },
+  {
+   "partNumber": 206,
+   "partName": "UCCH PRATHAMIK VIDYALAY NAYABAS (YAKTAJPUR) R.NO. 2",
+   "partId": 376031
+  },
+  {
+   "partNumber": 207,
+   "partName": "PRATHAMIK VIDYALAY RUDAYAN URF TARAPUR",
+   "partId": 376032
+  },
+  {
+   "partNumber": 208,
+   "partName": "TALESARA INTER COLLEGE TALESARA R.NO. 1",
+   "partId": 376033
+  },
+  {
+   "partNumber": 209,
+   "partName": "TALESARA INTER COLLEGE TALESARA R.NO. 2",
+   "partId": 376034
+  },
+  {
+   "partNumber": 210,
+   "partName": "PRATHAMIK VIDYALAY DAMGADHI",
+   "partId": 376035
+  },
+  {
+   "partNumber": 211,
+   "partName": "UCCH PRATHAMIK VIDYALAY DIGASARI",
+   "partId": 376036
+  },
+  {
+   "partNumber": 212,
+   "partName": "PRATHAMIK VIDYALAY HIRNOTI",
+   "partId": 376037
+  },
+  {
+   "partNumber": 213,
+   "partName": "PRATHAMIK VIDYALAY NAGLA BARI",
+   "partId": 376038
+  },
+  {
+   "partNumber": 214,
+   "partName": "COMPOSITE SCHOOL (1-8) MAJUPUR SUBAKARA R.NO. 1",
+   "partId": 376039
+  },
+  {
+   "partNumber": 215,
+   "partName": "COMPOSITE SCHOOL (1-8) MAJUPUR SUBAKARA R.NO. 2",
+   "partId": 376040
+  },
+  {
+   "partNumber": 216,
+   "partName": "COMPOSITE SCHOOL (1-8) MAJUPUR SUBAKARA R.NO. 3",
+   "partId": 376041
+  },
+  {
+   "partNumber": 217,
+   "partName": "COMPOSITE SCHOOL (1-8) MAJUPUR SUBAKARA R.NO. 4",
+   "partId": 376042
+  },
+  {
+   "partNumber": 218,
+   "partName": "PRATHAMIK VIDYALAY NAGLA THANDI",
+   "partId": 376043
+  },
+  {
+   "partNumber": 219,
+   "partName": "PRATHAMIK VIDYALAY SUBAKARA R.NO. 1",
+   "partId": 376044
+  },
+  {
+   "partNumber": 220,
+   "partName": "PRATHAMIK VIDYALAY SUBAKARA R.NO. 2",
+   "partId": 376045
+  },
+  {
+   "partNumber": 221,
+   "partName": "PRATHAMIK VIDYALAY GIDAURA R.NO. 1",
+   "partId": 376046
+  },
+  {
+   "partNumber": 222,
+   "partName": "PRATHAMIK VIDYALAY GIDAURA R.NO. 2",
+   "partId": 376047
+  },
+  {
+   "partNumber": 223,
+   "partName": "PRATHAMIK VIDYALAY MANTI",
+   "partId": 376048
+  },
+  {
+   "partNumber": 224,
+   "partName": "COMPOSITE SCHOOL (1-8) BASAI R.N- 1",
+   "partId": 376049
+  },
+  {
+   "partNumber": 225,
+   "partName": "COMPOSITE SCHOOL (1-8) BASAI R.NO. 2",
+   "partId": 376462
+  },
+  {
+   "partNumber": 226,
+   "partName": "PRATHAMIK VIDYALAY KODHA",
+   "partId": 376050
+  },
+  {
+   "partNumber": 227,
+   "partName": "PANCHAYAT GHAR PIPLI",
+   "partId": 376051
+  },
+  {
+   "partNumber": 228,
+   "partName": "PRATHAMIK VIDYALAY NUNERA R.NO. 1",
+   "partId": 376052
+  },
+  {
+   "partNumber": 229,
+   "partName": "PRATHAMIK VIDYALAY NUNERA R.NO. 2",
+   "partId": 376053
+  },
+  {
+   "partNumber": 230,
+   "partName": "UCCH PRATHAMIK VIDYALAY BASAULI R.NO. 1",
+   "partId": 376054
+  },
+  {
+   "partNumber": 231,
+   "partName": "UCCH PRATHAMIK VIDYALAY BASAULI R.NO. 2",
+   "partId": 376055
+  },
+  {
+   "partNumber": 232,
+   "partName": "ADARSH LAGSAMA INTER COLLEGE KAIMTHAL R.NO. 1",
+   "partId": 376056
+  },
+  {
+   "partNumber": 233,
+   "partName": "ADARSH LAGSAMA INTER COLLEGE KAIMTHAL R.NO. 2",
+   "partId": 376463
+  },
+  {
+   "partNumber": 234,
+   "partName": "ADARSH LAGSAMA INTER COLLEGE KAIMTHAL R.NO. 3",
+   "partId": 376057
+  },
+  {
+   "partNumber": 235,
+   "partName": "COMPOSITE SCHOOL (1-8) NAGLA DEV",
+   "partId": 376058
+  },
+  {
+   "partNumber": 236,
+   "partName": "PRATHAMIK VIDYALAY NAGLA KUNJI",
+   "partId": 376059
+  },
+  {
+   "partNumber": 237,
+   "partName": "PRATHAMIK VIDYALAY GADA KHEDA",
+   "partId": 376060
+  },
+  {
+   "partNumber": 238,
+   "partName": "PRATHAMIK VIDYALAY PISAWA",
+   "partId": 376061
+  },
+  {
+   "partNumber": 239,
+   "partName": "COMPOSITE SCHOOL (1-8) ANRIYA KHWAJA RAJU",
+   "partId": 376062
+  },
+  {
+   "partNumber": 240,
+   "partName": "PRATHAMIK VIDYALAY DAUKOLI",
+   "partId": 376063
+  },
+  {
+   "partNumber": 241,
+   "partName": "COMPOSITE SCHOOL (1-8) JAITHOLI R.N-1",
+   "partId": 376064
+  },
+  {
+   "partNumber": 242,
+   "partName": "COMPOSITE SCHOOL (1-8) JAITHOLI R.NO. 2",
+   "partId": 376464
+  },
+  {
+   "partNumber": 243,
+   "partName": "PRATHAMIK VIDYALAY NAGLA CHANDRAM",
+   "partId": 376065
+  },
+  {
+   "partNumber": 244,
+   "partName": "COMPOSITE SCHOOL (1-8) NAGLA BHUVIYA",
+   "partId": 376066
+  },
+  {
+   "partNumber": 245,
+   "partName": "PRATHAMIK VIDYALAY JALHU",
+   "partId": 376067
+  },
+  {
+   "partNumber": 246,
+   "partName": "COMPOSITE SCHOOL (1-8) GAHLAU R.NO. 1",
+   "partId": 376068
+  },
+  {
+   "partNumber": 247,
+   "partName": "COMPOSITE SCHOOL (1-8) GAHLAU R.NO. 2",
+   "partId": 376069
+  },
+  {
+   "partNumber": 248,
+   "partName": "PRATHAMIK VIDYALAY NAGLA VEERA R.N-1",
+   "partId": 376070
+  },
+  {
+   "partNumber": 249,
+   "partName": "PRATHAMIK VIDYALAY NAGLA VEERA R.NO. 2",
+   "partId": 376465
+  },
+  {
+   "partNumber": 250,
+   "partName": "PRATHAMIK VIDYALAY GONJILPUR",
+   "partId": 376071
+  },
+  {
+   "partNumber": 251,
+   "partName": "COMPOSITE SCHOOL (1-8) BHAIYA R.NO. 1",
+   "partId": 376072
+  },
+  {
+   "partNumber": 252,
+   "partName": "COMPOSITE SCHOOL (1-8) BHAIYA R.NO. 2",
+   "partId": 376073
+  },
+  {
+   "partNumber": 253,
+   "partName": "PRATHAMIK VIDYALAY LADHAULI",
+   "partId": 376074
+  },
+  {
+   "partNumber": 254,
+   "partName": "PRATHAMIK VIDYALAY NAGLA BALARAM",
+   "partId": 376075
+  },
+  {
+   "partNumber": 255,
+   "partName": "PRATHAMIK VIDYALAY KANAITAPUR",
+   "partId": 376076
+  },
+  {
+   "partNumber": 256,
+   "partName": "COMPOSITE SCHOOL (1-8) RAMPUR",
+   "partId": 376077
+  },
+  {
+   "partNumber": 257,
+   "partName": "PRATHAMIK VIDYALAY SHAHPUR THATHOI R.NO. 1",
+   "partId": 376078
+  },
+  {
+   "partNumber": 258,
+   "partName": "PRATHAMIK VIDYALAY SHAHPUR THATHOI R.NO. 2",
+   "partId": 376079
+  },
+  {
+   "partNumber": 259,
+   "partName": "PRATHAMIK VIDYALAY MAUJIPUR",
+   "partId": 376080
+  },
+  {
+   "partNumber": 260,
+   "partName": "PRATHAMIK VIDYALAY NAGLA FATOLA",
+   "partId": 376081
+  },
+  {
+   "partNumber": 261,
+   "partName": "PRATHAMIK VIDYALAY MATAROI",
+   "partId": 376082
+  },
+  {
+   "partNumber": 262,
+   "partName": "COMPOSITE SCHOOL (1-8) LAKHATOI",
+   "partId": 376083
+  },
+  {
+   "partNumber": 263,
+   "partName": "COMPOSITE SCHOOL (1-8) JATWAR R.NO. 1",
+   "partId": 376084
+  },
+  {
+   "partNumber": 264,
+   "partName": "COMPOSITE SCHOOL (1-8) JATWAR R.NO. 2",
+   "partId": 376085
+  },
+  {
+   "partNumber": 265,
+   "partName": "PRATHAMIK VIDYALAY BHANGARA",
+   "partId": 376086
+  },
+  {
+   "partNumber": 266,
+   "partName": "COMPOSITE SCHOOL (1-8) KHIRSAULI",
+   "partId": 376087
+  },
+  {
+   "partNumber": 267,
+   "partName": "PRATHAMIK VIDYALAY GINDAURA BAKSA R.NO. 1",
+   "partId": 376088
+  },
+  {
+   "partNumber": 268,
+   "partName": "PRATHAMIK VIDYALAY GINDAURA BAKSA R.NO. 2",
+   "partId": 376089
+  },
+  {
+   "partNumber": 269,
+   "partName": "PRATHAMIK VIDYALAY DANTAU",
+   "partId": 376090
+  },
+  {
+   "partNumber": 270,
+   "partName": "UCCH PRATHAMIK VIDYALAY MAHADAURA R.NO. 1",
+   "partId": 376420
+  },
+  {
+   "partNumber": 271,
+   "partName": "UCCH PRATHAMIK VIDYALAY MAHADAURA R.NO. 2",
+   "partId": 376421
+  },
+  {
+   "partNumber": 272,
+   "partName": "PRATHAMIK VIDYALAY KANTHI KI NAGRIYA",
+   "partId": 376091
+  },
+  {
+   "partNumber": 273,
+   "partName": "PRATHAMIK VIDYALAY GORAI R.NO.1",
+   "partId": 376092
+  },
+  {
+   "partNumber": 274,
+   "partName": "PRATHAMIK VIDYALAY GORAI R.NO.2",
+   "partId": 376093
+  },
+  {
+   "partNumber": 275,
+   "partName": "SMT. SAROJ SINGH GOVERNMENT INTER COLLEGE GORAI R.NO. 1",
+   "partId": 376094
+  },
+  {
+   "partNumber": 276,
+   "partName": "SMT. SAROJ SINGH GOVERNMENT INTER COLLEGE GORAI R.NO. 2",
+   "partId": 376095
+  },
+  {
+   "partNumber": 277,
+   "partName": "COMPOSITE SCHOOL (1-8) BASTODA R.NO.1",
+   "partId": 376096
+  },
+  {
+   "partNumber": 278,
+   "partName": "COMPOSITE SCHOOL (1-8) BASTODA R.NO.2",
+   "partId": 376097
+  },
+  {
+   "partNumber": 279,
+   "partName": "ANGANWADI CENTER SIKATRA",
+   "partId": 376098
+  },
+  {
+   "partNumber": 280,
+   "partName": "COMPOSITE SCHOOL (1-8) JAMON R.N-1",
+   "partId": 376099
+  },
+  {
+   "partNumber": 281,
+   "partName": "COMPOSITE SCHOOL (1-8) JAMON R.NO.2",
+   "partId": 376466
+  },
+  {
+   "partNumber": 282,
+   "partName": "PRATHAMIK VIDYALAY PACHAHARA",
+   "partId": 376100
+  },
+  {
+   "partNumber": 283,
+   "partName": "COMPOSITE SCHOOL (1-8) KHAIM KA BAS",
+   "partId": 376101
+  },
+  {
+   "partNumber": 284,
+   "partName": "PRATHAMIK VIDYALAY KUBARA",
+   "partId": 376102
+  },
+  {
+   "partNumber": 285,
+   "partName": "UCCH PRATHAMIK VIDYALAY SHAYAMGARHI R.NO.1",
+   "partId": 376103
+  },
+  {
+   "partNumber": 286,
+   "partName": "UCCH PRATHAMIK VIDYALAY SHAYAMGARHI R.NO.2",
+   "partId": 376104
+  },
+  {
+   "partNumber": 287,
+   "partName": "PRATHAMIK VIDYALAY WAS FATELI",
+   "partId": 376105
+  },
+  {
+   "partNumber": 288,
+   "partName": "UCCH PRATHAMIK VIDYALAY SUDAMA KA WAS",
+   "partId": 376106
+  },
+  {
+   "partNumber": 289,
+   "partName": "UCCH PRATHAMIK VIDYALAY CHINTA KA WAS",
+   "partId": 376107
+  },
+  {
+   "partNumber": 290,
+   "partName": "PRATHAMIK VIDYALAY SURAJA",
+   "partId": 376108
+  },
+  {
+   "partNumber": 291,
+   "partName": "PRATHAMIK VIDYALAY KARAULI",
+   "partId": 376109
+  },
+  {
+   "partNumber": 292,
+   "partName": "PRATHAMIK VIDYALAY AMARPUR DAHANA",
+   "partId": 376110
+  },
+  {
+   "partNumber": 293,
+   "partName": "PRATHAMIK VIDYALAY CHHENCHHAU R.N-1",
+   "partId": 376111
+  },
+  {
+   "partNumber": 294,
+   "partName": "PRATHAMIK VIDYALAY CHHENCHHAU R.NO.2",
+   "partId": 376467
+  },
+  {
+   "partNumber": 295,
+   "partName": "PANCHYATGHAR CHHENCHHAU",
+   "partId": 376112
+  },
+  {
+   "partNumber": 296,
+   "partName": "COMPOSITE SCHOOL (1-8) MAHABLA R.N-1",
+   "partId": 376113
+  },
+  {
+   "partNumber": 297,
+   "partName": "COMPOSITE SCHOOL (1-8) MAHABLA R.NO.2",
+   "partId": 376468
+  },
+  {
+   "partNumber": 298,
+   "partName": "PRATHAMIK VIDYALAY GADUA R.NO.1",
+   "partId": 376114
+  },
+  {
+   "partNumber": 299,
+   "partName": "PRATHAMIK VIDYALAY GADUA R.NO.2",
+   "partId": 376115
+  },
+  {
+   "partNumber": 300,
+   "partName": "PRATHAMIK VIDYALAY HAROTHA R.NO.1",
+   "partId": 376116
+  },
+  {
+   "partNumber": 301,
+   "partName": "PRATHAMIK VIDYALAY HAROTHA R.NO.2",
+   "partId": 376117
+  },
+  {
+   "partNumber": 302,
+   "partName": "PRATHAMIK VIDYALAY MUMAREJA",
+   "partId": 376118
+  },
+  {
+   "partNumber": 303,
+   "partName": "PRATHAMIK VIDYALAY NAGLA MALLU R.NO.1",
+   "partId": 376119
+  },
+  {
+   "partNumber": 304,
+   "partName": "PRATHAMIK VIDYALAY NAGLA MALLU R.NO.2",
+   "partId": 376120
+  },
+  {
+   "partNumber": 305,
+   "partName": "PRATHAMIK VIDYALAY GADHI BUCHA",
+   "partId": 376121
+  },
+  {
+   "partNumber": 306,
+   "partName": "PRATHAMIK VIDYALAY BALAKAN NAGRIYA",
+   "partId": 376122
+  },
+  {
+   "partNumber": 307,
+   "partName": "COMPOSITE SCHOOL (1-8) KAMALPUR MARAUTHA",
+   "partId": 376123
+  },
+  {
+   "partNumber": 308,
+   "partName": "COMPOSITE SCHOOL (1-8) SEVANPUR",
+   "partId": 376124
+  },
+  {
+   "partNumber": 309,
+   "partName": "COMPOSITE SCHOOL (1-8) SALEMPUR",
+   "partId": 376125
+  },
+  {
+   "partNumber": 310,
+   "partName": "PRATHAMIK VIDYALAY KANCHIROLI",
+   "partId": 376126
+  },
+  {
+   "partNumber": 311,
+   "partName": "COMPOSITE SCHOOL (1-8) VISHANPUR",
+   "partId": 376127
+  },
+  {
+   "partNumber": 312,
+   "partName": "PRATHAMIK VIDYALAY KAIMAWALI R.NO.1",
+   "partId": 376128
+  },
+  {
+   "partNumber": 313,
+   "partName": "PRATHAMIK VIDYALAY KAIMAWALI R.NO.2",
+   "partId": 376469
+  },
+  {
+   "partNumber": 314,
+   "partName": "PRATHAMIK VIDYALAY BALIPUR",
+   "partId": 376422
+  },
+  {
+   "partNumber": 315,
+   "partName": "COMPOSITE SCHOOL (1-8) BHEELAPUR",
+   "partId": 376423
+  },
+  {
+   "partNumber": 316,
+   "partName": "COMPOSITE SCHOOL (1-8) GURSAINA R.NO. 1",
+   "partId": 376129
+  },
+  {
+   "partNumber": 317,
+   "partName": "COMPOSITE SCHOOL (1-8) GURSAINA R.NO. 2",
+   "partId": 376130
+  },
+  {
+   "partNumber": 318,
+   "partName": "PRATHAMIK VIDYALAY SATALAPUR",
+   "partId": 376131
+  },
+  {
+   "partNumber": 319,
+   "partName": "PRATHAMIK VIDYALAY BHAURA GORAVA R.NO. 1",
+   "partId": 376132
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRATHAMIK VIDYALAY BHAURA GORAVA R.NO. 2",
+   "partId": 376470
+  },
+  {
+   "partNumber": 321,
+   "partName": "PRATHAMIK VIDYALAY BHAURA GORAVA R.NO. 3",
+   "partId": 376133
+  },
+  {
+   "partNumber": 322,
+   "partName": "UCCH PRATHAMIK VIDYALAY KAREKA",
+   "partId": 376134
+  },
+  {
+   "partNumber": 323,
+   "partName": "PRATHAMIK VIDYALAY ALIYASPUR BHMVRA",
+   "partId": 376135
+  },
+  {
+   "partNumber": 324,
+   "partName": "PRATHAMIK VIDYALAY MAHUA R.NO.1",
+   "partId": 376136
+  },
+  {
+   "partNumber": 325,
+   "partName": "PRATHAMIK VIDYALAY MAHUA R.NO.2",
+   "partId": 376137
+  },
+  {
+   "partNumber": 326,
+   "partName": "COMPOSITE SCHOOL (1-8) JARAUTH",
+   "partId": 376138
+  },
+  {
+   "partNumber": 327,
+   "partName": "PRATHAMIK VIDYALAY BARAUTH",
+   "partId": 376139
+  },
+  {
+   "partNumber": 328,
+   "partName": "UCCH PRATHAMIK VIDYALAY VICHULA",
+   "partId": 376424
+  },
+  {
+   "partNumber": 329,
+   "partName": "PRATHAMIK VIDYALAY VICHULA",
+   "partId": 376140
+  },
+  {
+   "partNumber": 330,
+   "partName": "COMPOSITE SCHOOL (1-8) HASTPUR CHANDPHARI R.NO. 1",
+   "partId": 376141
+  },
+  {
+   "partNumber": 331,
+   "partName": "COMPOSITE SCHOOL (1-8) HASTPUR CHANDPHARI R.NO. 2",
+   "partId": 376142
+  },
+  {
+   "partNumber": 332,
+   "partName": "COMPOSITE SCHOOL (1-8) HASTPUR CHANDPHARI R.NO. 3",
+   "partId": 376143
+  },
+  {
+   "partNumber": 333,
+   "partName": "COMPOSITE SCHOOL (1-8) HASTPUR CHANDPHARI R.NO. 4",
+   "partId": 376144
+  },
+  {
+   "partNumber": 334,
+   "partName": "PRATHAMIK VIDYALAY MAKHDUMPUR",
+   "partId": 376145
+  },
+  {
+   "partNumber": 335,
+   "partName": "PRATHAMIK VIDYALAY NAGLA SANTOSHI",
+   "partId": 376146
+  },
+  {
+   "partNumber": 336,
+   "partName": "PRATHAMIK VIDYALAY VIDIRAKA R.N-1",
+   "partId": 376147
+  },
+  {
+   "partNumber": 337,
+   "partName": "PRATHAMIK VIDYALAY VIDIRAKA R.NO. 2",
+   "partId": 376471
+  },
+  {
+   "partNumber": 338,
+   "partName": "COMPOSITE SCHOOL (1-8) RAMPUR",
+   "partId": 376148
+  },
+  {
+   "partNumber": 339,
+   "partName": "PRATHAMIK VIDYALAY NAGLA MISHRIYA",
+   "partId": 376425
+  },
+  {
+   "partNumber": 340,
+   "partName": "PRATHAMIK VIDYALAY NAGLA CHURA",
+   "partId": 376149
+  },
+  {
+   "partNumber": 341,
+   "partName": "PRATHAMIK VIDYALAY RUSTAMPUR GOTANA",
+   "partId": 376426
+  },
+  {
+   "partNumber": 342,
+   "partName": "PRATHAMIK VIDYALAY RUSATAMPUR KHOJAN",
+   "partId": 376472
+  },
+  {
+   "partNumber": 343,
+   "partName": "COMPOSITE SCHOOL (1-8) BIJAHARA",
+   "partId": 376150
+  },
+  {
+   "partNumber": 344,
+   "partName": "COMPOSITE SCHOOL (1-8) PADHIL R.NO.1",
+   "partId": 376151
+  },
+  {
+   "partNumber": 345,
+   "partName": "COMPOSITE SCHOOL (1-8) PADHIL R.NO.2",
+   "partId": 376152
+  },
+  {
+   "partNumber": 346,
+   "partName": "COMPOSITE SCHOOL (1-8) BAJGADHI",
+   "partId": 376153
+  },
+  {
+   "partNumber": 347,
+   "partName": "PRATHAMIK VIDYALAY SIKANDARPUR",
+   "partId": 376154
+  },
+  {
+   "partNumber": 348,
+   "partName": "COMPOSITE SCHOOL (1-8) AGORANA R.NO.1",
+   "partId": 376155
+  },
+  {
+   "partNumber": 349,
+   "partName": "COMPOSITE SCHOOL (1-8) AGORANA R.NO.2",
+   "partId": 376156
+  },
+  {
+   "partNumber": 350,
+   "partName": "PRATHAMIK VIDYALAY TAHARPUR R.NO.1",
+   "partId": 376157
+  },
+  {
+   "partNumber": 351,
+   "partName": "PRATHAMIK VIDYALAY TAHARPUR R.NO.2",
+   "partId": 376158
+  },
+  {
+   "partNumber": 352,
+   "partName": "COMPOSITE SCHOOL (1-8) MUHARAINI",
+   "partId": 376159
+  },
+  {
+   "partNumber": 353,
+   "partName": "PRATHAMIK VIDYALAY NAVALPUR",
+   "partId": 376160
+  },
+  {
+   "partNumber": 354,
+   "partName": "COMPOSITE SCHOOL  (1-8) SAHARA KALA",
+   "partId": 376161
+  },
+  {
+   "partNumber": 355,
+   "partName": "PANCHYATGHAR SAHARA KHURD",
+   "partId": 376427
+  },
+  {
+   "partNumber": 356,
+   "partName": "PRATHAMIK VIDYALAY BHATOI",
+   "partId": 376173
+  },
+  {
+   "partNumber": 357,
+   "partName": "PANCHYATGHAR NAGLA MOHAN",
+   "partId": 376174
+  },
+  {
+   "partNumber": 358,
+   "partName": "PRATHAMIK VIDYALAY KHEDIYA PATAL",
+   "partId": 376175
+  },
+  {
+   "partNumber": 359,
+   "partName": "PRATHAMIK VIDYALAY MANOHARPUR",
+   "partId": 376176
+  },
+  {
+   "partNumber": 360,
+   "partName": "PRATHAMIK VIDYALAY NAGLA NAHCHALA",
+   "partId": 376177
+  },
+  {
+   "partNumber": 361,
+   "partName": "PRATHAMIK VIDYALAY KANKA",
+   "partId": 376178
+  },
+  {
+   "partNumber": 362,
+   "partName": "INDRA GANDHI JUNIOR HIGH SCHOOL NAGLA AHIVASI R.NO.1",
+   "partId": 376428
+  },
+  {
+   "partNumber": 363,
+   "partName": "INDRA GANDHI JUNIOR HIGH SCHOOL NAGLA AHIVASI R.NO.2",
+   "partId": 376429
+  },
+  {
+   "partNumber": 364,
+   "partName": "PRATHAMIK VIDYALAY NAGLA JAR",
+   "partId": 376179
+  },
+  {
+   "partNumber": 365,
+   "partName": "COMPOSITE SCHOOL  (1-8) KHEDIYA GURDEV",
+   "partId": 376180
+  },
+  {
+   "partNumber": 366,
+   "partName": "PRATHAMIK VIDYALAY PHULAPUR",
+   "partId": 376181
+  },
+  {
+   "partNumber": 367,
+   "partName": "PRATHAMIK VIDYALAY TEHRA R.NO.1",
+   "partId": 376182
+  },
+  {
+   "partNumber": 368,
+   "partName": "PRATHAMIK VIDYALAY TEHRA R.NO.2",
+   "partId": 376183
+  },
+  {
+   "partNumber": 369,
+   "partName": "PRATHAMIK VIDYALAY NAVANAGAR",
+   "partId": 376184
+  },
+  {
+   "partNumber": 370,
+   "partName": "PANCHYATGHAR BYOHI",
+   "partId": 376185
+  },
+  {
+   "partNumber": 371,
+   "partName": "PRATHAMIK VIDYALAY RAMPUR BAKTARA",
+   "partId": 376186
+  },
+  {
+   "partNumber": 372,
+   "partName": "COMPOSITE SCHOOL  (1-8) KISHANPUR",
+   "partId": 376187
+  },
+  {
+   "partNumber": 373,
+   "partName": "CHAUDHARY CHARAN SINGH SHIVADAN SINGH P.G.COLLEGE IGLAS R.NO. 1",
+   "partId": 376188
+  },
+  {
+   "partNumber": 374,
+   "partName": "CHAUDHARY CHARAN SINGH SHIVADAN SINGH P.G.COLLEGE IGLAS R.NO. 2",
+   "partId": 376189
+  },
+  {
+   "partNumber": 375,
+   "partName": "CHAUDHARY CHARAN SINGH SHIVADAN SINGH P.G.COLLEGE IGLAS R.NO. 3",
+   "partId": 376190
+  },
+  {
+   "partNumber": 376,
+   "partName": "PRATHAMIK VIDYALAY IGLAS R.NO. 1",
+   "partId": 376191
+  },
+  {
+   "partNumber": 377,
+   "partName": "PRATHAMIK VIDYALAY IGLAS R.NO. 2",
+   "partId": 376192
+  },
+  {
+   "partNumber": 378,
+   "partName": "BLOCK DEVELOPMENT OFFICE IGLAS R.NO. 1",
+   "partId": 376193
+  },
+  {
+   "partNumber": 379,
+   "partName": "BLOCK DEVELOPMENT OFFICE IGLAS R.NO. 2",
+   "partId": 376194
+  },
+  {
+   "partNumber": 380,
+   "partName": "BLOCK DEVELOPMENT OFFICE IGLAS R.NO. 3",
+   "partId": 376195
+  },
+  {
+   "partNumber": 381,
+   "partName": "BLOCK DEVELOPMENT OFFICE IGLAS R.NO. 4",
+   "partId": 376473
+  },
+  {
+   "partNumber": 382,
+   "partName": "OFFICE NAGAR PANCHYAT IGLAS",
+   "partId": 376196
+  },
+  {
+   "partNumber": 383,
+   "partName": "PRATHAMIK VIDYALAY LALPUR R.N-1",
+   "partId": 376197
+  },
+  {
+   "partNumber": 384,
+   "partName": "PRATHAMIK VIDYALAY LALPUR R.NO. 2",
+   "partId": 376474
+  },
+  {
+   "partNumber": 385,
+   "partName": "COMPOSITE SCHOOL  (1-8) ASAWAR R.NO.1",
+   "partId": 376198
+  },
+  {
+   "partNumber": 386,
+   "partName": "COMPOSITE SCHOOL  (1-8) ASAWAR R.NO.2",
+   "partId": 376199
+  },
+  {
+   "partNumber": 387,
+   "partName": "UCCH PRATHAMIK VIDYALAY IGLAS",
+   "partId": 376475
+  },
+  {
+   "partNumber": 388,
+   "partName": "COMPOSITE SCHOOL  (1-8) ASAWAR R.NO.3",
+   "partId": 376200
+  },
+  {
+   "partNumber": 389,
+   "partName": "PRATHAMIK VIDYALAY KARTHALA R.NO.1",
+   "partId": 376201
+  },
+  {
+   "partNumber": 390,
+   "partName": "PRATHAMIK VIDYALAY KARTHALA R.NO.2",
+   "partId": 376202
+  },
+  {
+   "partNumber": 391,
+   "partName": "PANCHAYAT GHAR VISAHULI R.NO 1",
+   "partId": 376203
+  },
+  {
+   "partNumber": 392,
+   "partName": "PANCHAYAT GHAR VISAHULI R.NO.2",
+   "partId": 376204
+  },
+  {
+   "partNumber": 393,
+   "partName": "UCCH PRATHAMIK VIDYALAY VISAHUALI R.NO. 1",
+   "partId": 376205
+  },
+  {
+   "partNumber": 394,
+   "partName": "UCCH PRATHAMIK VIDYALAY VISAHUALI R.NO. 2",
+   "partId": 376206
+  },
+  {
+   "partNumber": 395,
+   "partName": "PRATHAMIK VIDYALAY SIKURRA",
+   "partId": 376207
+  },
+  {
+   "partNumber": 396,
+   "partName": "PRATHAMIK VIDYALAY NAGLA JAGATA",
+   "partId": 376208
+  },
+  {
+   "partNumber": 397,
+   "partName": "PRATHAMIK VIDYALAY HARIYA KI NAGRIYA",
+   "partId": 376209
+  },
+  {
+   "partNumber": 398,
+   "partName": "PRATHAMIK VIDYALAY BYAUHARA",
+   "partId": 376210
+  },
+  {
+   "partNumber": 399,
+   "partName": "ANGANWADI CENTER BYAUHARA",
+   "partId": 376211
+  },
+  {
+   "partNumber": 400,
+   "partName": "ANGANWADI CENTER TEEKAPUR",
+   "partId": 376212
+  },
+  {
+   "partNumber": 401,
+   "partName": "COMPOSITE SCHOOL  (1-8) BADAMPUR",
+   "partId": 376213
+  },
+  {
+   "partNumber": 402,
+   "partName": "PRATHAMIK VIDYALAY TARSARA",
+   "partId": 376214
+  },
+  {
+   "partNumber": 403,
+   "partName": "PRATHAMIK VIDYALAY KANDALI R.NO 1",
+   "partId": 376215
+  },
+  {
+   "partNumber": 404,
+   "partName": "PRATHAMIK VIDYALAY KANDALI R.NO.2",
+   "partId": 376216
+  },
+  {
+   "partNumber": 405,
+   "partName": "PRATHAMIK VIDYALAY SATLONI KALAN",
+   "partId": 376217
+  },
+  {
+   "partNumber": 406,
+   "partName": "PRATHAMIK VIDYALAY SATLONI KHARD R.N-1",
+   "partId": 376218
+  },
+  {
+   "partNumber": 407,
+   "partName": "PRATHAMIK VIDYALAY SATLONI KHARD R.NO.2",
+   "partId": 376476
+  },
+  {
+   "partNumber": 408,
+   "partName": "PRATHAMIK VIDYALAY JAHRAULI",
+   "partId": 376219
+  },
+  {
+   "partNumber": 409,
+   "partName": "COMPOSITE SCHOOL  (1-8) DHANDHRIYA",
+   "partId": 376220
+  },
+  {
+   "partNumber": 410,
+   "partName": "PRATHAMIK VIDYALAY SARKORIYA",
+   "partId": 376221
+  },
+  {
+   "partNumber": 411,
+   "partName": "PRATHAMIK VIDYALAY TAMAUTIYA R.NO 1",
+   "partId": 376222
+  },
+  {
+   "partNumber": 412,
+   "partName": "PRATHAMIK VIDYALAY TAMAUTIYA R.NO 2",
+   "partId": 376223
+  },
+  {
+   "partNumber": 413,
+   "partName": "PRATHAMIK VIDYALAY DHORIYA",
+   "partId": 376224
+  },
+  {
+   "partNumber": 414,
+   "partName": "UCCH PRATHAMIK VIDYALAY (1-8) USARPUR TARAPUR",
+   "partId": 376225
+  },
+  {
+   "partNumber": 415,
+   "partName": "PRATHAMIK VIDYALAY JIVANPUR",
+   "partId": 376226
+  },
+  {
+   "partNumber": 416,
+   "partName": "COMPOSITE SCHOOL  (1-8) KALINJARI R.NO 1",
+   "partId": 376227
+  },
+  {
+   "partNumber": 417,
+   "partName": "COMPOSITE SCHOOL  (1-8) KALINJARI R.NO 2",
+   "partId": 376228
+  },
+  {
+   "partNumber": 418,
+   "partName": "UCCH PRATHAMIK VIDYALAY JAHRAULI (BHANAU)",
+   "partId": 376229
+  },
+  {
+   "partNumber": 419,
+   "partName": "UCCH PRATHAMIK VIDYALAY BESWAN R.NO1",
+   "partId": 376230
+  },
+  {
+   "partNumber": 420,
+   "partName": "UCCH PRATHAMIK VIDYALAY BESWAN R.NO.2",
+   "partId": 376231
+  },
+  {
+   "partNumber": 421,
+   "partName": "UCCH PRATHAMIK VIDYALAY BESWAN R.NO.3",
+   "partId": 376232
+  },
+  {
+   "partNumber": 422,
+   "partName": "PRATHAMIK VIDYALAY BESWAN KANYA R.NO 1",
+   "partId": 376430
+  },
+  {
+   "partNumber": 423,
+   "partName": "PRATHAMIK VIDYALAY BESWAN KANYA R.NO 2",
+   "partId": 376431
+  },
+  {
+   "partNumber": 424,
+   "partName": "PRATHAMIK VIDYALAY MUKANDAPUR",
+   "partId": 376233
+  },
+  {
+   "partNumber": 425,
+   "partName": "PRATHAMIK VIDYALAY NAYA BAS R.NO 1",
+   "partId": 376432
+  },
+  {
+   "partNumber": 426,
+   "partName": "PRATHAMIK VIDYALAY NAYA BAS R.NO 2",
+   "partId": 376433
+  },
+  {
+   "partNumber": 427,
+   "partName": "PRATHAMIK VIDYALAY SANGILA R.NO 1",
+   "partId": 376234
+  },
+  {
+   "partNumber": 428,
+   "partName": "PRATHAMIK VIDYALAY SANGILA R.NO 2",
+   "partId": 376235
+  },
+  {
+   "partNumber": 429,
+   "partName": "PRATHAMIK VIDYALAY CHUHARA R.NO 1",
+   "partId": 376236
+  },
+  {
+   "partNumber": 430,
+   "partName": "PRATHAMIK VIDYALAY CHUHARA R.NO 2",
+   "partId": 376237
+  },
+  {
+   "partNumber": 431,
+   "partName": "COMPOSITE SCHOOL  (1-8) SATHINI R.NO 1",
+   "partId": 376238
+  },
+  {
+   "partNumber": 432,
+   "partName": "COMPOSITE SCHOOL  (1-8) SATHINI R.NO 2",
+   "partId": 376239
+  },
+  {
+   "partNumber": 433,
+   "partName": "COMPOSITE SCHOOL  (1-8) KALA AAM SHYORA R.N0 1",
+   "partId": 376240
+  },
+  {
+   "partNumber": 434,
+   "partName": "COMPOSITE SCHOOL  (1-8) KALA AAM SHYORA R.N0 2",
+   "partId": 376241
+  },
+  {
+   "partNumber": 435,
+   "partName": "COMPOSITE SCHOOL  (1-8) KALA AAM SHYORA R.N0 3",
+   "partId": 376242
+  },
+  {
+   "partNumber": 436,
+   "partName": "PRATHAMIK VIDYALAY MONIYA R.N-1",
+   "partId": 376434
+  },
+  {
+   "partNumber": 437,
+   "partName": "PRATHAMIK VIDYALAY MONIYA R.N0 2",
+   "partId": 376477
+  },
+  {
+   "partNumber": 438,
+   "partName": "UCCH PRATHAMIK VIDYALAY DISAWAR",
+   "partId": 376435
+  },
+  {
+   "partNumber": 439,
+   "partName": "PRATHAMIK VIDYALAY NAGLA PATPAR",
+   "partId": 376436
+  },
+  {
+   "partNumber": 440,
+   "partName": "COMPOSITE SCHOOL  (1-8) MANKRAUL R.NO 1",
+   "partId": 376243
+  },
+  {
+   "partNumber": 441,
+   "partName": "COMPOSITE SCHOOL  (1-8) MANKRAUL R.NO 2",
+   "partId": 376244
+  },
+  {
+   "partNumber": 442,
+   "partName": "PRATHAMIK VIDYALAY JAWAR R.NO1",
+   "partId": 376245
+  },
+  {
+   "partNumber": 443,
+   "partName": "PRATHAMIK VIDYALAY JAWAR R.NO2",
+   "partId": 376246
+  },
+  {
+   "partNumber": 444,
+   "partName": "RAJKIYA KANYA INTER COLLAGE JAWAR R.NO 1",
+   "partId": 376247
+  },
+  {
+   "partNumber": 445,
+   "partName": "RAJKIYA KANYA INTER COLLAGE JAWAR R.NO 2",
+   "partId": 376248
+  },
+  {
+   "partNumber": 446,
+   "partName": "UCCH PRATHAMIK VIDYALAY JAWAR R.NO1",
+   "partId": 376249
+  },
+  {
+   "partNumber": 447,
+   "partName": "UCCH PRATHAMIK VIDYALAY JAWAR R.NO2",
+   "partId": 376250
+  },
+  {
+   "partNumber": 448,
+   "partName": "COMPOSITE SCHOOL  (1-8) MAI R.NO 1",
+   "partId": 376251
+  },
+  {
+   "partNumber": 449,
+   "partName": "COMPOSITE SCHOOL  (1-8) MAI R.NO 2",
+   "partId": 376252
+  },
+  {
+   "partNumber": 450,
+   "partName": "PRATHAMIK VIDYALAY PURANA",
+   "partId": 376253
+  },
+  {
+   "partNumber": 451,
+   "partName": "UCCH PRATHAMIK VIDYALAY NAGLA DAGUR",
+   "partId": 376254
+  },
+  {
+   "partNumber": 452,
+   "partName": "PRATHAMIK VIDYALAY MAUHAKAMPUR R.NO 1",
+   "partId": 376255
+  },
+  {
+   "partNumber": 453,
+   "partName": "PRATHAMIK VIDYALAY MAUHAKAMPUR R.NO 2",
+   "partId": 376256
+  },
+  {
+   "partNumber": 454,
+   "partName": "PRATHAMIK VIDYALAY GARHI DHANU R.NO 1",
+   "partId": 376257
+  },
+  {
+   "partNumber": 455,
+   "partName": "PRATHAMIK VIDYALAY GARHI DHANU R.NO 2",
+   "partId": 376258
+  },
+  {
+   "partNumber": 456,
+   "partName": "PRATHAMIK VIDYALAY MAHTAPUR R.N.-1",
+   "partId": 376259
+  },
+  {
+   "partNumber": 457,
+   "partName": "PRATHAMIK VIDYALAY MAHTAPUR R.NO 2",
+   "partId": 376478
+  },
+  {
+   "partNumber": 458,
+   "partName": "PRATHAMIK VIDYALAY DHUKANI",
+   "partId": 376260
+  },
+  {
+   "partNumber": 459,
+   "partName": "COMPOSITE SCHOOL  (1-8) ANUPIYA",
+   "partId": 376261
+  },
+  {
+   "partNumber": 460,
+   "partName": "PRATHAMIK VIDYALAY SIMARDHARI R.NO 1",
+   "partId": 376262
+  },
+  {
+   "partNumber": 461,
+   "partName": "PRATHAMIK VIDYALAY SIMARDHARI R.NO 2",
+   "partId": 376263
+  },
+  {
+   "partNumber": 462,
+   "partName": "PRATHAMIK VIDYALAY NAGLA HARKANNA R.N-1",
+   "partId": 376264
+  },
+  {
+   "partNumber": 463,
+   "partName": "PRATHAMIK VIDYALAY NAGLA HARKANNA R.NO 2",
+   "partId": 376479
+  },
+  {
+   "partNumber": 464,
+   "partName": "COMPOSITE SCHOOL  (1-8) KAJRAUTH R.NO 1",
+   "partId": 376265
+  },
+  {
+   "partNumber": 465,
+   "partName": "COMPOSITE SCHOOL  (1-8) KAJRAUTH R.NO 2",
+   "partId": 376266
+  },
+  {
+   "partNumber": 466,
+   "partName": "COMPOSITE SCHOOL (1-8) KAJRAUTH R.NO 3",
+   "partId": 376480
+  },
+  {
+   "partNumber": 467,
+   "partName": "GOVERNMENT GIRLS INTER COLLEGE KAJRAUTH",
+   "partId": 376267
+  },
+  {
+   "partNumber": 468,
+   "partName": "PANCHYAT GHAR MADAURA",
+   "partId": 376268
+  },
+  {
+   "partNumber": 469,
+   "partName": "PANCHYAT GHAR SITAPUR",
+   "partId": 376437
+  },
+  {
+   "partNumber": 470,
+   "partName": "COMPOSITE SCHOOL  (1-8) NAUGAWAN R.N-1",
+   "partId": 376269
+  },
+  {
+   "partNumber": 471,
+   "partName": "COMPOSITE SCHOOL (1-8) NAUGAWAN R.NO 2",
+   "partId": 376481
+  },
+  {
+   "partNumber": 472,
+   "partName": "KELA MAI INTER COLLEGE PAHADIPUR",
+   "partId": 376270
+  },
+  {
+   "partNumber": 473,
+   "partName": "PRATHAMIK VIDYALAY NAGLA NANNU",
+   "partId": 376271
+  },
+  {
+   "partNumber": 474,
+   "partName": "COMPOSITE SCHOOL  (1-8) NAGLA GOPAL",
+   "partId": 376272
+  },
+  {
+   "partNumber": 475,
+   "partName": "PRATHAMIK VIDYALAY TOCHHIGARH R.NO 1",
+   "partId": 376273
+  },
+  {
+   "partNumber": 476,
+   "partName": "PRATHAMIK VIDYALAY TOCHHIGARH R.NO 2",
+   "partId": 376482
+  },
+  {
+   "partNumber": 477,
+   "partName": "PRATHAMIK VIDYALAY TOCHHIGARH R.NO 3",
+   "partId": 376274
+  },
+  {
+   "partNumber": 478,
+   "partName": "VIJAY VIDHALAYA INTER COLLEGE TOCHHIGARH R.NO. 1",
+   "partId": 376275
+  },
+  {
+   "partNumber": 479,
+   "partName": "VIJAY VIDHALAYA INTER COLLEGE TOCHHIGARH R.NO. 2",
+   "partId": 376276
+  },
+  {
+   "partNumber": 480,
+   "partName": "COMPOSITE SCHOOL  (1-8)AKHAIPUR",
+   "partId": 376277
+  },
+  {
+   "partNumber": 481,
+   "partName": "PRATHAMIK VIDYALAY BAIRAMGARHI",
+   "partId": 376278
+  },
+  {
+   "partNumber": 482,
+   "partName": "LOKAMANDAS UCHATAM MADHYAMIK VIDHYALAYA HARIRAMPUR",
+   "partId": 376279
+  },
+  {
+   "partNumber": 483,
+   "partName": "PRATHAMIK VIDYALAY KANAURA",
+   "partId": 376280
+  },
+  {
+   "partNumber": 484,
+   "partName": "UCCH PRATHAMIK VIDYALAY KARAS R.NO. 1",
+   "partId": 376281
+  },
+  {
+   "partNumber": 485,
+   "partName": "UCCH PRATHAMIK VIDYALAY KARAS R.NO. 2",
+   "partId": 376282
+  },
+  {
+   "partNumber": 486,
+   "partName": "PRATHAMIK VIDYALAY BASELI  R.N-1",
+   "partId": 376283
+  },
+  {
+   "partNumber": 487,
+   "partName": "PRATHAMIK VIDYALAY BASELI R.NO. 2",
+   "partId": 376483
+  },
+  {
+   "partNumber": 488,
+   "partName": "UCCH PRATHAMIK VIDYALAY FATEHPUR R.N.1",
+   "partId": 376284
+  },
+  {
+   "partNumber": 489,
+   "partName": "UCCH PRATHAMIK VIDYALAY FATEHPUR R.N.2",
+   "partId": 376285
+  },
+  {
+   "partNumber": 490,
+   "partName": "PRATHAMIK VIDYALAY BELAUTH R.N-1",
+   "partId": 376286
+  },
+  {
+   "partNumber": 491,
+   "partName": "PRATHAMIK VIDYALAY BELAUTH R.NO. 2",
+   "partId": 376484
+  },
+  {
+   "partNumber": 492,
+   "partName": "PRATHAMIK VIDYALAY RAHATPUR IMLIYA R.N-1",
+   "partId": 376287
+  },
+  {
+   "partNumber": 493,
+   "partName": "PRATHAMIK VIDYALAY RAHATPUR IMLIYA R.NO. 2",
+   "partId": 376485
+  },
+  {
+   "partNumber": 494,
+   "partName": "PRATHAMIK VIDYALAY BAHADURPUR",
+   "partId": 376288
+  },
+  {
+   "partNumber": 495,
+   "partName": "COMPOSITE SCHOOL (1-8) NAYA",
+   "partId": 376289
+  },
+  {
+   "partNumber": 496,
+   "partName": "PRATHAMIK VIDYALAY GANGA GADHI",
+   "partId": 376290
+  },
+  {
+   "partNumber": 497,
+   "partName": "PANCHYAT GHAR TURI",
+   "partId": 376438
+  },
+  {
+   "partNumber": 498,
+   "partName": "COMPOSITE SCHOOL  (1-8) BADHA KHURD",
+   "partId": 376291
+  },
+  {
+   "partNumber": 499,
+   "partName": "UCCH PRATHAMIK VIDYALAY BADHA KALA",
+   "partId": 376292
+  },
+  {
+   "partNumber": 500,
+   "partName": "UCCH PRATHAMIK VIDYALAY PILAKHUNIYA",
+   "partId": 376293
+  },
+  {
+   "partNumber": 501,
+   "partName": "PRATHAMIK VIDYALAY SURAJA",
+   "partId": 376294
+  },
+  {
+   "partNumber": 502,
+   "partName": "JANTA INTER COLLEGE MANIPUR",
+   "partId": 376295
+  },
+  {
+   "partNumber": 503,
+   "partName": "PRATHAMIK VIDYALAY DOLATABAD",
+   "partId": 376296
+  },
+  {
+   "partNumber": 504,
+   "partName": "COMPOSITE SCHOOL  (1-8) ASROI R.NO. 1",
+   "partId": 376297
+  },
+  {
+   "partNumber": 505,
+   "partName": "COMPOSITE SCHOOL  (1-8) ASROI R.NO. 2",
+   "partId": 376298
+  },
+  {
+   "partNumber": 506,
+   "partName": "COMPOSITE SCHOOL (1-8) ASROI R.NO. 3",
+   "partId": 376299
+  }
+ ]
+}
