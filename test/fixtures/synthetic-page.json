@@ -1,0 +1,307 @@
+{
+ "pdf": "test/fixtures/synthetic/Uttar Pradesh/00-Synthetic-2026-Final/2026-EROLLGEN-S24-00-SIR-FinalRoll-Revision1-HIN-1-WI.pdf",
+ "page": 1,
+ "note": "Synthetic page: invented names and EPIC numbers (seed 7), drawn by paper/analysis/make_synthetic_page.py. Serial = printed serial.",
+ "cards": [
+  {
+   "serial": 1,
+   "epic": "ABK8159083",
+   "name": "सुनीता देवी",
+   "rel": "पति",
+   "relName": "विनोद राठौर",
+   "house": "12",
+   "age": 29,
+   "gender": "महिला"
+  },
+  {
+   "serial": 2,
+   "epic": "ABK9139099",
+   "name": "मीना गुप्ता",
+   "rel": "पति",
+   "relName": "प्रकाश कुमार",
+   "house": "7/3",
+   "age": 24,
+   "gender": "महिला"
+  },
+  {
+   "serial": 3,
+   "epic": "ABK6281948",
+   "name": "सुरेश कश्यप",
+   "rel": "पिता",
+   "relName": "संजय सिंह",
+   "house": "बी-12",
+   "age": 31,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 4,
+   "epic": "ABK1909378",
+   "name": "मुकेश यादव",
+   "rel": "पिता",
+   "relName": "अजय कश्यप",
+   "house": "7/3",
+   "age": 58,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 5,
+   "epic": "ABK3194875",
+   "name": "नीलम यादव",
+   "rel": "पति",
+   "relName": "राकेश त्यागी",
+   "house": "एन-1702",
+   "age": 54,
+   "gender": "महिला"
+  },
+  {
+   "serial": 6,
+   "epic": "ABK2527601",
+   "name": "विनोद शर्मा",
+   "rel": "पिता",
+   "relName": "मनोज देवी",
+   "house": "203",
+   "age": 58,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 7,
+   "epic": "ABK1471049",
+   "name": "उषा सैनी",
+   "rel": "पति",
+   "relName": "अरुण शर्मा",
+   "house": "एन-1702",
+   "age": 54,
+   "gender": "महिला"
+  },
+  {
+   "serial": 8,
+   "epic": "ABK2917034",
+   "name": "महेश कुमार",
+   "rel": "पिता",
+   "relName": "अरुण यादव",
+   "house": "बी-12",
+   "age": 49,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 9,
+   "epic": "ABK4268465",
+   "name": "किरन शर्मा",
+   "rel": "पति",
+   "relName": "नरेश कश्यप",
+   "house": "7/3",
+   "age": 47,
+   "gender": "महिला"
+  },
+  {
+   "serial": 10,
+   "epic": "ABK7924402",
+   "name": "अनीता वर्मा",
+   "rel": "पति",
+   "relName": "दिनेश कुमार",
+   "house": "7/3",
+   "age": 86,
+   "gender": "महिला"
+  },
+  {
+   "serial": 11,
+   "epic": "ABK0786666",
+   "name": "ज्योति यादव",
+   "rel": "पिता",
+   "relName": "मनोज सैनी",
+   "house": "45",
+   "age": 79,
+   "gender": "महिला"
+  },
+  {
+   "serial": 12,
+   "epic": "ABK7215901",
+   "name": "सुरेश गुप्ता",
+   "rel": "पिता",
+   "relName": "विनोद गुप्ता",
+   "house": "12",
+   "age": 37,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 13,
+   "epic": "ABK3962459",
+   "name": "महेश सैनी",
+   "rel": "पिता",
+   "relName": "रमेश शर्मा",
+   "house": "101, टॉवर-ए",
+   "age": 78,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 14,
+   "epic": "ABK2154728",
+   "name": "किरन भाटी",
+   "rel": "पति",
+   "relName": "सुनील शर्मा",
+   "house": "12",
+   "age": 44,
+   "gender": "महिला"
+  },
+  {
+   "serial": 15,
+   "epic": "ABK8084148",
+   "name": "मनोज यादव",
+   "rel": "पिता",
+   "relName": "संजय त्यागी",
+   "house": "101, टॉवर-ए",
+   "age": 39,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 16,
+   "epic": "ABK3933633",
+   "name": "सरिता कश्यप",
+   "rel": "पति",
+   "relName": "मनोज यादव",
+   "house": "203",
+   "age": 81,
+   "gender": "महिला"
+  },
+  {
+   "serial": 17,
+   "epic": "ABK3957551",
+   "name": "सीमा कुमार",
+   "rel": "पिता",
+   "relName": "विजय सिंह",
+   "house": "B-204",
+   "age": 31,
+   "gender": "महिला"
+  },
+  {
+   "serial": 18,
+   "epic": "ABK9075116",
+   "name": "गीता यादव",
+   "rel": "पति",
+   "relName": "अमित मिश्रा",
+   "house": "B-204",
+   "age": 79,
+   "gender": "महिला"
+  },
+  {
+   "serial": 19,
+   "epic": "ABK6761222",
+   "name": "प्रकाश पाल",
+   "rel": "पिता",
+   "relName": "राजेश शर्मा",
+   "house": "12",
+   "age": 37,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 20,
+   "epic": "ABK9752882",
+   "name": "अरुण पाल",
+   "rel": "पिता",
+   "relName": "संजय सैनी",
+   "house": "12",
+   "age": 19,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 21,
+   "epic": "ABK3304348",
+   "name": "अजय कश्यप",
+   "rel": "पिता",
+   "relName": "संजय देवी",
+   "house": "B-204",
+   "age": 59,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 22,
+   "epic": "ABK7986828",
+   "name": "आशा राठौर",
+   "rel": "पति",
+   "relName": "महेश मिश्रा",
+   "house": "बी-12",
+   "age": 85,
+   "gender": "महिला"
+  },
+  {
+   "serial": 23,
+   "epic": "ABK0222791",
+   "name": "अरुण पाल",
+   "rel": "पिता",
+   "relName": "राकेश सैनी",
+   "house": "203",
+   "age": 25,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 24,
+   "epic": "ABK8033401",
+   "name": "संगीता कश्यप",
+   "rel": "पति",
+   "relName": "अजय मिश्रा",
+   "house": "203",
+   "age": 75,
+   "gender": "महिला"
+  },
+  {
+   "serial": 25,
+   "epic": "ABK8983478",
+   "name": "विनोद भाटी",
+   "rel": "पिता",
+   "relName": "राजेश सैनी",
+   "house": "203",
+   "age": 79,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 26,
+   "epic": "ABK4837261",
+   "name": "दिनेश त्यागी",
+   "rel": "पिता",
+   "relName": "मनोज मिश्रा",
+   "house": "7/3",
+   "age": 74,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 27,
+   "epic": "ABK1252427",
+   "name": "सरिता देवी",
+   "rel": "पति",
+   "relName": "सुनील पाल",
+   "house": "B-204",
+   "age": 30,
+   "gender": "महिला"
+  },
+  {
+   "serial": 28,
+   "epic": "ABK6865635",
+   "name": "किरन वर्मा",
+   "rel": "पिता",
+   "relName": "दिनेश वर्मा",
+   "house": "101, टॉवर-ए",
+   "age": 29,
+   "gender": "महिला"
+  },
+  {
+   "serial": 29,
+   "epic": "ABK7065894",
+   "name": "रमेश यादव",
+   "rel": "पिता",
+   "relName": "अशोक भाटी",
+   "house": "203",
+   "age": 26,
+   "gender": "पुरुष"
+  },
+  {
+   "serial": 30,
+   "epic": "ABK0242646",
+   "name": "सरिता मिश्रा",
+   "rel": "पति",
+   "relName": "अनिल सिंह",
+   "house": "बी-12",
+   "age": 86,
+   "gender": "महिला"
+  }
+ ]
+}

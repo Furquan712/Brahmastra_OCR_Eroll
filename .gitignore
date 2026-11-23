@@ -12,3 +12,5 @@ raw-data/
 data/pushed.json
 .DS_Store
 --list-langs.txt
+paper/private/
+paper/analysis/stampscan/

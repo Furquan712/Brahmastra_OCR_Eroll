@@ -29,8 +29,23 @@ function readScan(folder) {
   return byPart;
 }
 
+// Atlas times out on a single 600k-row find; fetch a few parts at a time, retrying on network errors.
+async function fetchByParts(v, key, parts, opts, chunk = 20) {
+  const out = [];
+  for (let i = 0; i < parts.length; i += chunk) {
+    const slice = parts.slice(i, i + chunk);
+    for (let attempt = 1; ; attempt++) {
+      try { out.push(...await v.find({ key, source: "main", partNo: { $in: slice } }, opts).toArray()); break; }
+      catch (e) { if (attempt >= 5) throw e; process.stderr.write(`  retry ${attempt} after ${e.message}\n`); await new Promise((r) => setTimeout(r, 3000 * attempt)); }
+    }
+    process.stderr.write(`\r  ${key.split("::")[1]}: ${Math.min(i + chunk, parts.length)}/${parts.length} parts, ${out.length} rows`);
+  }
+  process.stderr.write("\n");
+  return out;
+}
+
 (async () => {
-  const c = new MongoClient(e.MONGO_URI); await c.connect();
+  const c = new MongoClient(e.MONGO_URI, { socketTimeoutMS: 600000, maxPoolSize: 4 }); await c.connect();
   const v = c.db(e.MONGO_DB || "brahmastra").collection("eroll_voters");
   const st = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "gbn_stats.json"), "utf8"));
   st.stamp = st.stamp || {};
@@ -39,7 +54,7 @@ function readScan(folder) {
     if (scan.size === 0) { console.log(ac, "no scan outputs"); continue; }
     const key = `UTTARPRADESH::${ac}::2026::Final`;
     const parts = [...scan.keys()];
-    const rows = await v.find({ key, source: "main", partNo: { $in: parts } }, { projection: { partNo: 1, pageNo: 1, serialNo: 1, epicNo: 1, age: 1, gender: 1, actionStatus: 1, nameHi: 1 } }).toArray();
+    const rows = await fetchByParts(v, key, parts, { projection: { partNo: 1, pageNo: 1, serialNo: 1, epicNo: 1, age: 1, gender: 1, actionStatus: 1, nameHi: 1 } });
     // position of every row on its page
     const byPage = new Map();
     for (const r of rows) { const k = `${r.partNo}:${r.pageNo}`; (byPage.get(k) || byPage.set(k, []).get(k)).push(r); }

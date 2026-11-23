@@ -67,7 +67,7 @@ for ac in ORDER:
 df = pd.DataFrame(rows).set_index("AC"); df.loc["District"] = df.sum(numeric_only=True); df'''))
 cells.append(new_code_cell('''fig, ax = plt.subplots(figsize=(6, 2.8))
 for ac in ORDER:
-    h = ACS[ac]["ageLt18"]["hist"]; xs = sorted(int(k) for k in h)
+    h = ACS[ac]["ageLt18"].get("hist") or {"0": ACS[ac]["ageLt18"]["zero"], "5": ACS[ac]["ageLt18"]["a1_9"], "14": ACS[ac]["ageLt18"]["a10_17"]}; xs = sorted(int(k) for k in h)
     ax.bar([x + (ORDER.index(ac) - 1) * 0.28 for x in xs], [h[str(x)] for x in xs], 0.28, color=AC_COL[ac], label=label(ac))
 ax.set_yscale("log"); ax.set_xlabel("Printed age below 18"); ax.set_ylabel("Rows (log)"); ax.legend(fontsize=7)
 ax.set_title("Almost all are age 0 (unreadable) or a single digit; ages 10–17 are a few dozen rows", fontsize=8, color=INK); plt.show()'''))

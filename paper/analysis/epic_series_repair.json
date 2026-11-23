@@ -1,0 +1,103 @@
+{
+ "61": {
+  "total": 589001,
+  "major": [
+   "YHO:13599",
+   "ZYH:502662",
+   "FJF:51047"
+  ],
+  "plan": [
+   {
+    "from": "FUF",
+    "to": "FJF",
+    "rows7": 1041,
+    "rows6": 0
+   },
+   {
+    "from": "YHL",
+    "to": "YHO",
+    "rows7": 55,
+    "rows6": 0
+   },
+   {
+    "from": "FIF",
+    "to": "FJF",
+    "rows7": 47,
+    "rows6": 0
+   },
+   {
+    "from": "UJF",
+    "to": "FJF",
+    "rows7": 26,
+    "rows6": 0
+   },
+   {
+    "from": "YHB",
+    "to": "YHO",
+    "rows7": 24,
+    "rows6": 424
+   }
+  ]
+ },
+ "62": {
+  "total": 553901,
+  "major": [
+   "NDT:461377",
+   "FJF:64316"
+  ],
+  "plan": [
+   {
+    "from": "FUF",
+    "to": "FJF",
+    "rows7": 1295,
+    "rows6": 0
+   },
+   {
+    "from": "NDN",
+    "to": "NDT",
+    "rows7": 363,
+    "rows6": 0
+   },
+   {
+    "from": "ODT",
+    "to": "NDT",
+    "rows7": 120,
+    "rows6": 0
+   },
+   {
+    "from": "FIF",
+    "to": "FJF",
+    "rows7": 63,
+    "rows6": 0
+   },
+   {
+    "from": "UJF",
+    "to": "FJF",
+    "rows7": 33,
+    "rows6": 0
+   }
+  ]
+ },
+ "63": {
+  "total": 265699,
+  "major": [
+   "LKC:25791",
+   "NZQ:216937",
+   "FXX:18025"
+  ],
+  "plan": [
+   {
+    "from": "LKG",
+    "to": "LKC",
+    "rows7": 44,
+    "rows6": 0
+   },
+   {
+    "from": "NZO",
+    "to": "NZQ",
+    "rows7": 25,
+    "rows6": 0
+   }
+  ]
+ }
+}
