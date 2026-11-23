@@ -1,0 +1,2203 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2457",
+ "acNumber": 172,
+ "acName": "Lucknow North",
+ "fetchedAt": "2026-11-07T06:01:35",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 438,
+ "maxPart": 438,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "ATUL MEMO. INTER COLLEGE JANRAILGANJ ROOM NO-1",
+   "partId": 480132
+  },
+  {
+   "partNumber": 2,
+   "partName": "ATUL MEMO. INTER COLLEGE JANRAILGANJ ROOM NO-2",
+   "partId": 480133
+  },
+  {
+   "partNumber": 3,
+   "partName": "ATUL MEMO. INTER COLLEGE JANRAILGANJ ROOM NO-3",
+   "partId": 480134
+  },
+  {
+   "partNumber": 4,
+   "partName": "ATUL MEMO. INTER COLLEGE JANRAILGANJ ROOM NO-4",
+   "partId": 480135
+  },
+  {
+   "partNumber": 5,
+   "partName": "ATUL MEMO. INTER COLLEGE JANRAILGANJ ROOM NO-5",
+   "partId": 480136
+  },
+  {
+   "partNumber": 6,
+   "partName": "ATUL MEMO. INTER COLLEGE JANRAILGANJ ROOM NO-6",
+   "partId": 480137
+  },
+  {
+   "partNumber": 7,
+   "partName": "ATUL MEMO. INTER COLLEGE JANRAILGANJ ROOM NO-7",
+   "partId": 480540
+  },
+  {
+   "partNumber": 8,
+   "partName": "ST JOSEF INTER COLLEGE HARDOI ROAD ROOM NO-1",
+   "partId": 480138
+  },
+  {
+   "partNumber": 9,
+   "partName": "ST JOSEF INTER COLLEGE HARDOI ROAD ROOM NO-2",
+   "partId": 480139
+  },
+  {
+   "partNumber": 10,
+   "partName": "ST JOSEF INTER COLLEGE HARDOI ROAD ROOM NO-3",
+   "partId": 480140
+  },
+  {
+   "partNumber": 11,
+   "partName": "ST JOSEF INTER COLLEGE HARDOI ROAD ROOM NO-4",
+   "partId": 480141
+  },
+  {
+   "partNumber": 12,
+   "partName": "ST JOSEF INTER COLLEGE HARDOI ROAD ROOM NO-5",
+   "partId": 480142
+  },
+  {
+   "partNumber": 13,
+   "partName": "ST JOSEF INTER COLLEGE HARDOI ROAD ROOM NO-6",
+   "partId": 480143
+  },
+  {
+   "partNumber": 14,
+   "partName": "ST JOSEF INTER COLLEGE HARDOI ROAD ROOM NO-7",
+   "partId": 480144
+  },
+  {
+   "partNumber": 15,
+   "partName": "ST JOSEF INTER COLLEGE HARDOI ROAD ROOM NO-8",
+   "partId": 480541
+  },
+  {
+   "partNumber": 16,
+   "partName": "MAHTMA MEMORIAL PUBLIC SCHOOL NAGARIYA THAKURGAN ROOM NO-1",
+   "partId": 480145
+  },
+  {
+   "partNumber": 17,
+   "partName": "MAHTMA MEMORIAL PUBLIC SCHOOL NAGARIYA THAKURGAN ROOM NO-2",
+   "partId": 480146
+  },
+  {
+   "partNumber": 18,
+   "partName": "MAHTMA MEMORIAL PUBLIC SCHOOL NAGARIYA THAKURGAN ROOM NO-3",
+   "partId": 480147
+  },
+  {
+   "partNumber": 19,
+   "partName": "MAHTMA MEMORIAL PUBLIC SCHOOL NAGARIYA THAKURGAN ROOM NO-4",
+   "partId": 480148
+  },
+  {
+   "partNumber": 20,
+   "partName": "MAHTMA MEMORIAL PUBLIC SCHOOL NAGARIYA THAKURGAN ROOM NO-5",
+   "partId": 480149
+  },
+  {
+   "partNumber": 21,
+   "partName": "MAHTMA MEMORIAL PUBLIC SCHOOL NAGARIYA THAKURGAN ROOM NO-6",
+   "partId": 480150
+  },
+  {
+   "partNumber": 22,
+   "partName": "MAHTMA MEMORIAL PUBLIC SCHOOL NAGARIYA THAKURGAN ROOM NO-7",
+   "partId": 480151
+  },
+  {
+   "partNumber": 23,
+   "partName": "PRA VIDYALAYA MUSHAHABGANJ ROOM NO-1",
+   "partId": 480152
+  },
+  {
+   "partNumber": 24,
+   "partName": "PRA VIDYALAYA MUSHAHABGANJ ROOM NO-2",
+   "partId": 480153
+  },
+  {
+   "partNumber": 25,
+   "partName": "PRA VIDYALAYA MUSHAHABGANJ ROOM NO-3",
+   "partId": 480154
+  },
+  {
+   "partNumber": 26,
+   "partName": "PRA VIDYALAYA MUSHAHABGANJ ROOM NO-4",
+   "partId": 480155
+  },
+  {
+   "partNumber": 27,
+   "partName": "PRA VIDYALAYA MUSHAHABGANJ ROOM NO-5",
+   "partId": 480156
+  },
+  {
+   "partNumber": 28,
+   "partName": "PURVA MADYAMIK KANYA VIDYALYA MUSHABGANJ ROOM NO-1",
+   "partId": 480157
+  },
+  {
+   "partNumber": 29,
+   "partName": "PURVA MADYAMIK KANYA VIDYALYA MUSHABGANJ ROOM NO-2",
+   "partId": 480158
+  },
+  {
+   "partNumber": 30,
+   "partName": "PURVA MADHYAMIK KANYA VIDYALYA MUSAAHABGANJ ROOM NO-3",
+   "partId": 480542
+  },
+  {
+   "partNumber": 31,
+   "partName": "PRATHMIC VIDYALAY GAUGHAT ROOM NO-1",
+   "partId": 480159
+  },
+  {
+   "partNumber": 32,
+   "partName": "C H C ACADAMY SAJJADBAGH ROOM NO-1",
+   "partId": 480160
+  },
+  {
+   "partNumber": 33,
+   "partName": "C H C ACADAMY SAJJADBAGH ROOM NO-2",
+   "partId": 480161
+  },
+  {
+   "partNumber": 34,
+   "partName": "C H C ACADAMY SAJJADBAGH ROOM NO-3",
+   "partId": 480162
+  },
+  {
+   "partNumber": 35,
+   "partName": "C H C ACADAMY SAJJADBAGH ROOM NO-4",
+   "partId": 480163
+  },
+  {
+   "partNumber": 36,
+   "partName": "C H C ACADAMY SAJJADBAGH ROOM NO-5",
+   "partId": 480164
+  },
+  {
+   "partNumber": 37,
+   "partName": "C H C ACADAMY SAJJADBAGH ROOM NO-6",
+   "partId": 480165
+  },
+  {
+   "partNumber": 38,
+   "partName": "C H C ACADAMY SAJJADBAGH ROOM NO-7",
+   "partId": 480166
+  },
+  {
+   "partNumber": 39,
+   "partName": "C H C ACADAMY SAJJADBAGH ROOM NO-8",
+   "partId": 480167
+  },
+  {
+   "partNumber": 40,
+   "partName": "HUSAINABAD TRUST OFFICE HUSAINABAD ROOM NO-1",
+   "partId": 480168
+  },
+  {
+   "partNumber": 41,
+   "partName": "HUSAINABAD TRUST OFFICE HUSAINABAD ROOM NO-2",
+   "partId": 480169
+  },
+  {
+   "partNumber": 42,
+   "partName": "HUSAINABAD TRUST OFFICE HUSAINABAD ROOM NO-3",
+   "partId": 480170
+  },
+  {
+   "partNumber": 43,
+   "partName": "HUSAINABAD TRUST OFFICE HUSAINABAD ROOM NO-4",
+   "partId": 480171
+  },
+  {
+   "partNumber": 44,
+   "partName": "HUSAINABAD TRUST OFFICE HUSAINABAD ROOM NO-5",
+   "partId": 480172
+  },
+  {
+   "partNumber": 45,
+   "partName": "HUSAINABAD TRUST OFFICE HUSAINABAD ROOM NO-6",
+   "partId": 480173
+  },
+  {
+   "partNumber": 46,
+   "partName": "HUSAINABAD TRUST OFFICE HUSAINABAD ROOM NO-7",
+   "partId": 480517
+  },
+  {
+   "partNumber": 47,
+   "partName": "CAPITAL CONVENT SCHOOL MOHINIPURWA ROOM NO-1",
+   "partId": 480534
+  },
+  {
+   "partNumber": 48,
+   "partName": "CAPITAL CONVENT SCHOOL MOHINIPURWA ROOM NO-2",
+   "partId": 480535
+  },
+  {
+   "partNumber": 49,
+   "partName": "CAPITAL CONVENT SCHOOL MOHINIPURWA ROOM NO-3",
+   "partId": 480536
+  },
+  {
+   "partNumber": 50,
+   "partName": "PRA VIDYALAYA LAJPATNAGAR CHOWK ROOM NO-1",
+   "partId": 480177
+  },
+  {
+   "partNumber": 51,
+   "partName": "PRA VIDYALAYA LAJPATNAGAR CHOWK ROOM NO-2",
+   "partId": 480178
+  },
+  {
+   "partNumber": 52,
+   "partName": "PRA VIDYALAYA LAJPATNAGAR CHOWK ROOM NO-3",
+   "partId": 480179
+  },
+  {
+   "partNumber": 53,
+   "partName": "MAHATMA GANDHI MONTESSORI INTER COLLAGE HATA SITAARA BEGAM ROOM NO-1",
+   "partId": 480180
+  },
+  {
+   "partNumber": 54,
+   "partName": "MAHATMA GANDHI MONTESSORI INTER COLLAGE HATA SITAARA BEGAM ROOM NO-2",
+   "partId": 480181
+  },
+  {
+   "partNumber": 55,
+   "partName": "MAHATMA GANDHI MONTESSORI INTER COLLAGE HATA SITAARA BEGAM ROOM NO-3",
+   "partId": 480185
+  },
+  {
+   "partNumber": 56,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-1",
+   "partId": 480186
+  },
+  {
+   "partNumber": 57,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-2",
+   "partId": 480187
+  },
+  {
+   "partNumber": 58,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-3",
+   "partId": 480188
+  },
+  {
+   "partNumber": 59,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-4",
+   "partId": 480189
+  },
+  {
+   "partNumber": 60,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-5",
+   "partId": 480190
+  },
+  {
+   "partNumber": 61,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-6",
+   "partId": 480194
+  },
+  {
+   "partNumber": 62,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-7",
+   "partId": 480195
+  },
+  {
+   "partNumber": 63,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-8",
+   "partId": 480196
+  },
+  {
+   "partNumber": 64,
+   "partName": "UNITY PUBLIC INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-9",
+   "partId": 480197
+  },
+  {
+   "partNumber": 65,
+   "partName": "BABY MARTIN INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-1",
+   "partId": 480198
+  },
+  {
+   "partNumber": 66,
+   "partName": "BABY MARTIN INTER COLLEGE TAHSEENGANJ ROAD ROOM NO-2",
+   "partId": 480199
+  },
+  {
+   "partNumber": 67,
+   "partName": "MUFFTIGANJ GIRLS INTER COLLEGE MUFFTIGANJ ROOM NO-1",
+   "partId": 480200
+  },
+  {
+   "partNumber": 68,
+   "partName": "MUFFTIGANJ GIRLS INTER COLLEGE MUFFTIGANJ ROOM NO-2",
+   "partId": 480205
+  },
+  {
+   "partNumber": 69,
+   "partName": "MUFFTIGANJ GIRLS INTER COLLEGE MUFFTIGANJ ROOM NO-3",
+   "partId": 480206
+  },
+  {
+   "partNumber": 70,
+   "partName": "MUFTIGANJ GIRLS INTER COLLEGE MUFTIGANJ ROOM NO-4",
+   "partId": 480518
+  },
+  {
+   "partNumber": 71,
+   "partName": "NEW ST. JOHN INTER COLLEGE ROOM NO-1",
+   "partId": 480207
+  },
+  {
+   "partNumber": 72,
+   "partName": "NEW ST. JOHN INTER COLLEGE ROOM NO-2",
+   "partId": 480208
+  },
+  {
+   "partNumber": 73,
+   "partName": "NEW ST. JOHN INTER COLLEGE ROOM NO-3",
+   "partId": 480209
+  },
+  {
+   "partNumber": 74,
+   "partName": "SACRED WAY CONVENT SCHOOL CHOBDARI MOHALLA ROOM NO-1",
+   "partId": 480212
+  },
+  {
+   "partNumber": 75,
+   "partName": "SACRED WAY CONVENT SCHOOL CHOBDARI MOHALLA ROOM NO-2",
+   "partId": 480213
+  },
+  {
+   "partNumber": 76,
+   "partName": "SACRED WAY CONVENT SCHOOL CHOBDARI MOHALLA ROOM NO-3",
+   "partId": 480218
+  },
+  {
+   "partNumber": 77,
+   "partName": "SACRED WAY CONVENT SCHOOL CHOBDARI MOHALLA ROOM NO-4",
+   "partId": 480543
+  },
+  {
+   "partNumber": 78,
+   "partName": "KHUN KHUNJI GIRLS P.G COLLEGE LAJPAT NAGAR CHOWK ROOM NO-1",
+   "partId": 480219
+  },
+  {
+   "partNumber": 79,
+   "partName": "KHUN KHUNJI GIRLS P.G COLLEGE LAJPAT NAGAR CHOWK ROOM NO-2",
+   "partId": 480220
+  },
+  {
+   "partNumber": 80,
+   "partName": "KHUN KHUNJI GIRLS P.G COLLEGE LAJPAT NAGAR CHOWK ROOM NO-3",
+   "partId": 480221
+  },
+  {
+   "partNumber": 81,
+   "partName": "KHUN KHUN JI GIRLS P.G COLLEGE LAJPAT NAGAR CHOWK ROOM NO-4",
+   "partId": 480519
+  },
+  {
+   "partNumber": 82,
+   "partName": "KHUN KHUNJI GIRLS P.G COLLEGE LAJPAT NAGAR CHOWK ROOM NO.5",
+   "partId": 480521
+  },
+  {
+   "partNumber": 83,
+   "partName": "KHUN KHUNJI GIRLS P.G COLLEGE LAJPAT NAGAR CHOWK ROOM NO.6",
+   "partId": 480544
+  },
+  {
+   "partNumber": 84,
+   "partName": "PRA VIDYALAYA IRADAT NAGAR ROOM NO-1",
+   "partId": 480222
+  },
+  {
+   "partNumber": 85,
+   "partName": "PRA VIDYALAYA IRADAT NAGAR ROOM NO-2",
+   "partId": 480226
+  },
+  {
+   "partNumber": 86,
+   "partName": "PRA VIDYALAYA IRADAT NAGAR ROOM NO-3",
+   "partId": 480227
+  },
+  {
+   "partNumber": 87,
+   "partName": "JALILIYA MUSLIM GIRLS HIGH SCHOOL IRADATNAGAR ROOM NO-1",
+   "partId": 480228
+  },
+  {
+   "partNumber": 88,
+   "partName": "JALILIYA MUSLIM GIRLS HIGH SCHOOL IRADATNAGAR ROOM NO-2",
+   "partId": 480229
+  },
+  {
+   "partNumber": 89,
+   "partName": "JALILIYA MUSLIM GIRLS HIGH SCHOOL IRADATNAGAR ROOM NO-3",
+   "partId": 480230
+  },
+  {
+   "partNumber": 90,
+   "partName": "MUMTAZ P.G COLLEGE MOHAN MEKING ROAD ROOM NO-1",
+   "partId": 480231
+  },
+  {
+   "partNumber": 91,
+   "partName": "MUMTAZ P.G COLLEGE MOHAN MEKING ROAD ROOM NO-2",
+   "partId": 480232
+  },
+  {
+   "partNumber": 92,
+   "partName": "MUMTAZ P.G COLLEGE MOHAN MEKING ROAD ROOM NO-3",
+   "partId": 480233
+  },
+  {
+   "partNumber": 93,
+   "partName": "MUMTAZ P.G COLLEGE MOHAN MEKING ROAD ROOM NO-4",
+   "partId": 480234
+  },
+  {
+   "partNumber": 94,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-1",
+   "partId": 480238
+  },
+  {
+   "partNumber": 95,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-2",
+   "partId": 480239
+  },
+  {
+   "partNumber": 96,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-3",
+   "partId": 480240
+  },
+  {
+   "partNumber": 97,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-4",
+   "partId": 480241
+  },
+  {
+   "partNumber": 98,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-5",
+   "partId": 480242
+  },
+  {
+   "partNumber": 99,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-6",
+   "partId": 480243
+  },
+  {
+   "partNumber": 100,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-7",
+   "partId": 480244
+  },
+  {
+   "partNumber": 101,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-8",
+   "partId": 480245
+  },
+  {
+   "partNumber": 102,
+   "partName": "SHIYA P.G. COLLEGE SITAPUR ROAD ROOM NO-9",
+   "partId": 480545
+  },
+  {
+   "partNumber": 103,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-1",
+   "partId": 480249
+  },
+  {
+   "partNumber": 104,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-2",
+   "partId": 480174
+  },
+  {
+   "partNumber": 105,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-3",
+   "partId": 480175
+  },
+  {
+   "partNumber": 106,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-4",
+   "partId": 480176
+  },
+  {
+   "partNumber": 107,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-5",
+   "partId": 480182
+  },
+  {
+   "partNumber": 108,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-6",
+   "partId": 480183
+  },
+  {
+   "partNumber": 109,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-7",
+   "partId": 480184
+  },
+  {
+   "partNumber": 110,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-8",
+   "partId": 480191
+  },
+  {
+   "partNumber": 111,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-9",
+   "partId": 480192
+  },
+  {
+   "partNumber": 112,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-10",
+   "partId": 480193
+  },
+  {
+   "partNumber": 113,
+   "partName": "SHIYA INTER COLLEGE SITAPUR ROAD ROOM NO-11",
+   "partId": 480546
+  },
+  {
+   "partNumber": 114,
+   "partName": "SARWAR MONTESSORY SCHOOL ROOPPUR KHADRA SITAPUR ROAD ROOM NO-1",
+   "partId": 480201
+  },
+  {
+   "partNumber": 115,
+   "partName": "SARWAR MONTESSORY SCHOOL ROOPPUR KHADRA SITAPUR ROAD ROOM NO-2",
+   "partId": 480202
+  },
+  {
+   "partNumber": 116,
+   "partName": "SARWAR PUBLIC SCHOOL KHADRA ROOM NO-1",
+   "partId": 480203
+  },
+  {
+   "partNumber": 117,
+   "partName": "SARWAR PUBLIC SCHOOL KHADRA ROOM NO-2",
+   "partId": 480204
+  },
+  {
+   "partNumber": 118,
+   "partName": "SARWAR PUBLIC SCHOOL KHADRA ROOM NO-3",
+   "partId": 480547
+  },
+  {
+   "partNumber": 119,
+   "partName": "LUCKNOW CONVENT SCHOOL KHADRA ROOM NO-1",
+   "partId": 480210
+  },
+  {
+   "partNumber": 120,
+   "partName": "LUCKNOW CONVENT SCHOOL KHADRA ROOM NO-2",
+   "partId": 480211
+  },
+  {
+   "partNumber": 121,
+   "partName": "LUCKNOW CONVENT SCHOOL KHADRA ROOM NO-3",
+   "partId": 480214
+  },
+  {
+   "partNumber": 122,
+   "partName": "LUCKNOW CONVENT SCHOOL KHADRA ROOM NO-4",
+   "partId": 480215
+  },
+  {
+   "partNumber": 123,
+   "partName": "LUCKNOW CONVENT SCHOOL KHADRA ROOM NO-5",
+   "partId": 480216
+  },
+  {
+   "partNumber": 124,
+   "partName": "ALMIGHTY SCHOOL MADEYAGANJ CHAOKI KE PICHHE ROOM NO-1",
+   "partId": 480217
+  },
+  {
+   "partNumber": 125,
+   "partName": "ALMIGHTY SCHOOL MADEYAGANJ CHAOKI KE PICHHE ROOM NO-2",
+   "partId": 480223
+  },
+  {
+   "partNumber": 126,
+   "partName": "ALMIGHTY SCHOOL MADEYAGANJ CHAOKI KE PICHHE ROOM NO-3",
+   "partId": 480224
+  },
+  {
+   "partNumber": 127,
+   "partName": "ALMIGHTY SCHOOL MADEYAGANJ CHAOKI KE PICHHE ROOM NO-4",
+   "partId": 480225
+  },
+  {
+   "partNumber": 128,
+   "partName": "ALMIGHTY SCHOOL MADEYAGANJ CHAOKI KE PICHHE ROOM NO-5",
+   "partId": 480235
+  },
+  {
+   "partNumber": 129,
+   "partName": "AWADH EDUCATIONAL SOCIETY MADEYGANJ SITAPUR ROAD ROOM NO-1",
+   "partId": 480236
+  },
+  {
+   "partNumber": 130,
+   "partName": "AWADH EDUCATIONAL SOCIETY MADEYGANJ SITAPUR ROAD ROOM NO-2",
+   "partId": 480237
+  },
+  {
+   "partNumber": 131,
+   "partName": "AWADH EDUCATIONAL SOCIETY MADEYGANJ SITAPUR ROAD ROOM NO-3",
+   "partId": 480246
+  },
+  {
+   "partNumber": 132,
+   "partName": "AWADH EDUCATIONAL SOCIETY MADEYGANJ SITAPUR ROAD ROOM NO-4",
+   "partId": 480247
+  },
+  {
+   "partNumber": 133,
+   "partName": "AWADH EDUCATIONAL SOCIETY MADEYGANJ SITAPUR ROAD ROOM NO-5",
+   "partId": 480248
+  },
+  {
+   "partNumber": 134,
+   "partName": "AWADH EDUCATIONAL SOCIETY MADEYGANJ SITAPUR ROAD ROOM NO-6",
+   "partId": 480250
+  },
+  {
+   "partNumber": 135,
+   "partName": "AWADH EDUCATIONAL SOCIETY MADEYGANJ SITAPUR ROAD ROOM NO-7",
+   "partId": 480251
+  },
+  {
+   "partNumber": 136,
+   "partName": "AWADH EDUCATIONAL SOCIETY MADEYGANJ SITAPUR ROAD ROOM NO-8",
+   "partId": 480252
+  },
+  {
+   "partNumber": 137,
+   "partName": "PRATHMIC VIDYALAYA TRIVENINAGAR  ROOM NO-1",
+   "partId": 480253
+  },
+  {
+   "partNumber": 138,
+   "partName": "PRATHMIC VIDYALAYA TRIVENINAGAR  ROOM NO-2",
+   "partId": 480254
+  },
+  {
+   "partNumber": 139,
+   "partName": "PRATHMIC VIDYALAYA TRIVENINAGAR  ROOM NO-3",
+   "partId": 480255
+  },
+  {
+   "partNumber": 140,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIV PURAM TRIVENI NAGAR-III ROOM NO-1",
+   "partId": 480256
+  },
+  {
+   "partNumber": 141,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIV PURAM TRIVENI NAGAR-III  ROOM NO-2",
+   "partId": 480257
+  },
+  {
+   "partNumber": 142,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIVPURAM TRIVENI NAGAR-III ROOM NO-3",
+   "partId": 480258
+  },
+  {
+   "partNumber": 143,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIV PURAM TRIVENI NAGAR-III ROOM NO-4",
+   "partId": 480259
+  },
+  {
+   "partNumber": 144,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIVPURAM TRIVENI NAGAR-III ROOM NO-5",
+   "partId": 480261
+  },
+  {
+   "partNumber": 145,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIVPURAM TRIVENI NAGAR-III  ROOM NO-6",
+   "partId": 480262
+  },
+  {
+   "partNumber": 146,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIV PURAM TRIVENI NAGAR-III  ROOM NO-7",
+   "partId": 480263
+  },
+  {
+   "partNumber": 147,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIVPURAM TRIVENI NAGAR-III ROOM NO-8",
+   "partId": 480264
+  },
+  {
+   "partNumber": 148,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIV PURAM TRIVENI NAGAR-III  ROOM NO-9",
+   "partId": 480265
+  },
+  {
+   "partNumber": 149,
+   "partName": "NEW WORLD PUBLIC INTER COLLEGE SHIVPURAM TRIVENI NAGAR-III ROOM NO-10",
+   "partId": 480266
+  },
+  {
+   "partNumber": 150,
+   "partName": "LIONS RAJDHANI VIDYALAY YOGI NAGAR ROOM NO-11",
+   "partId": 480267
+  },
+  {
+   "partNumber": 151,
+   "partName": "LIONS RAJDHANI VIDYALAY YOGI NAGAR ROOM NO-12",
+   "partId": 480548
+  },
+  {
+   "partNumber": 152,
+   "partName": "TIGER EDUCATIONAL SOCIETY JR HIGH SCHOOL SHIVLOK TRIVENI NAGAR ROOM NO-1",
+   "partId": 480268
+  },
+  {
+   "partNumber": 153,
+   "partName": "TIGER EDUCATIONAL SOCIETY JR HIGH SCHOOL SHIVLOK TRIVENI NAGAR ROOM NO-2",
+   "partId": 480274
+  },
+  {
+   "partNumber": 154,
+   "partName": "TIGER EDUCATIONAL SOCIETY JR HIGH SCHOOL SHIVLOK TRIVENI NAGAR ROOM NO-3",
+   "partId": 480275
+  },
+  {
+   "partNumber": 155,
+   "partName": "TIGER EDUCATIONAL SOCIETY JR HIGH SCHOOL SHIVLOK TRIVENI NAGAR ROOM NO-4",
+   "partId": 480549
+  },
+  {
+   "partNumber": 156,
+   "partName": "BRIGHT LAND INTER COLLAGE MAUSAMBAGH TRIVENI NAGAR ROOM NO-1",
+   "partId": 480276
+  },
+  {
+   "partNumber": 157,
+   "partName": "BRIGHT LAND INTER COLLAGE MAUSAMBAGH TRIVENI NAGAR ROOM NO-2",
+   "partId": 480277
+  },
+  {
+   "partNumber": 158,
+   "partName": "BRIGHT LAND INTER COLLAGE MAUSAMBAGH TRIVENI NAGAR ROOM NO-3",
+   "partId": 480282
+  },
+  {
+   "partNumber": 159,
+   "partName": "BRIGHT LAND INTER COLLAGE MAUSAMBAGH TRIVENI NAGAR ROOM NO-4",
+   "partId": 480283
+  },
+  {
+   "partNumber": 160,
+   "partName": "BRIGHT LAND INTER COLLAGE MAUSAMBAGH TRIVENI NAGAR ROOM NO-5",
+   "partId": 480284
+  },
+  {
+   "partNumber": 161,
+   "partName": "BRIGHT LAND INTER COLLAGE MAUSAMBAGH TRIVENI NAGAR ROOM NO-6",
+   "partId": 480288
+  },
+  {
+   "partNumber": 162,
+   "partName": "BRIGHT LAND INTER COLLAGE MAUSAMBAGH TRIVENI NAGAR ROOM NO-7",
+   "partId": 480289
+  },
+  {
+   "partNumber": 163,
+   "partName": "FLORENCE NIGHTNGALE INTER COLLEGE TRIVENI NAGAR ROOM NO-1",
+   "partId": 480260
+  },
+  {
+   "partNumber": 164,
+   "partName": "FLORENCE NIGHTNGALE INTER COLLEGE TRIVENI NAGAR ROOM NO-2",
+   "partId": 480269
+  },
+  {
+   "partNumber": 165,
+   "partName": "FLORENCE NIGHTNGALE INTER COLLEGE TRIVENI NAGAR ROOM NO-3",
+   "partId": 480270
+  },
+  {
+   "partNumber": 166,
+   "partName": "FLORENCE NIGHTNGALE INTER COLLEGE TRIVENI NAGAR ROOM NO-4",
+   "partId": 480271
+  },
+  {
+   "partNumber": 167,
+   "partName": "FLORENCE NIGHTNGALE INTER COLLEGE TRIVENI NAGAR ROOM NO-5",
+   "partId": 480272
+  },
+  {
+   "partNumber": 168,
+   "partName": "FLORENCE NIGHTNGALE INTER COLLEGE TRIVENI NAGAR ROOM NO-6",
+   "partId": 480550
+  },
+  {
+   "partNumber": 169,
+   "partName": "MAHARAJA AGRASEN BALIKA VIDYALAYA NAZEERGANJ DALIGANJ ROOM NO-1",
+   "partId": 480273
+  },
+  {
+   "partNumber": 170,
+   "partName": "MAHARAJA AGRASEN BALIKA VIDYALAYA NAZEERGANJ DALIGANJ ROOM NO-2",
+   "partId": 480278
+  },
+  {
+   "partNumber": 171,
+   "partName": "MAHARAJA AGRASEN BALIKA VIDYALAYA NAZEERGANJ DALIGANJ ROOM NO-3",
+   "partId": 480279
+  },
+  {
+   "partNumber": 172,
+   "partName": "MAHARAJA AGRASEN BALIKA VIDYALAYA NAZEERGANJ DALIGANJ ROOM NO-4",
+   "partId": 480280
+  },
+  {
+   "partNumber": 173,
+   "partName": "MAHARAJA AGRASEN BALIKA VIDYALAYA NAZEERGANJ DALIGANJ ROOM NO-5",
+   "partId": 480281
+  },
+  {
+   "partNumber": 174,
+   "partName": "MAHARAJA AGRASEN BALIKA VIDYALAYA NAZEERGANJ DALIGANJ ROOM NO-6",
+   "partId": 480285
+  },
+  {
+   "partNumber": 175,
+   "partName": "MAHARAJA AGRASEN BALIKA VIDYALAYA NAZEERGANJ DALIGANJ ROOM NO-7",
+   "partId": 480286
+  },
+  {
+   "partNumber": 176,
+   "partName": "MAHARAJA AGRASEN BALIKA VIDYALAYA NAZEERGANJ DALIGANJ ROOM NO-8",
+   "partId": 480551
+  },
+  {
+   "partNumber": 177,
+   "partName": "KALA EVAM SHILP MAHA VIDYALAYA TAGORE MARG ROOM NO-1",
+   "partId": 480287
+  },
+  {
+   "partNumber": 178,
+   "partName": "KALA EVAM SHILP MAHA VIDYALAYA TAGORE MARG ROOM NO-2",
+   "partId": 480290
+  },
+  {
+   "partNumber": 179,
+   "partName": "KALA EVAM SHILP MAHA VIDYALAYA TAGORE MARG ROOM NO-3",
+   "partId": 480291
+  },
+  {
+   "partNumber": 180,
+   "partName": "KALA EVAM SHILP MAHA VIDYALAYA TAGORE MARG ROOM NO-4",
+   "partId": 480292
+  },
+  {
+   "partNumber": 181,
+   "partName": "RAJKEEY VASTU KALA MAHA VIDYALAYA TAGORE MARG ROOM NO-1",
+   "partId": 480293
+  },
+  {
+   "partNumber": 182,
+   "partName": "RAJKEEY VASTU KALA MAHA VIDYALAYA TAGORE MARG ROOM NO-2",
+   "partId": 480294
+  },
+  {
+   "partNumber": 183,
+   "partName": "RAJKEEY VASTU KALA MAHA VIDYALAYA TAGORE MARG ROOM NO-3",
+   "partId": 480295
+  },
+  {
+   "partNumber": 184,
+   "partName": "RAJKEEY VASTU KALA MAHA VIDYALAYA TAGORE MARG ROOM NO-4",
+   "partId": 480296
+  },
+  {
+   "partNumber": 185,
+   "partName": "RAJKEEY VASTU KALA MAHA VIDYALAYA TAGORE MARG ROOM NO-5",
+   "partId": 480297
+  },
+  {
+   "partNumber": 186,
+   "partName": "RAJKEEY VASTU KALA MAHA VIDYALAYA TAGORE MARG ROOM NO-6",
+   "partId": 480298
+  },
+  {
+   "partNumber": 187,
+   "partName": "RAJKEEY VASTU KALA MAHA VIDYALAYA TAGORE MARG ROOM NO-7",
+   "partId": 480299
+  },
+  {
+   "partNumber": 188,
+   "partName": "RAMADHEEN SINGH INTER COLLEGE FAIZABAD ROAD ROOM NO-1",
+   "partId": 480306
+  },
+  {
+   "partNumber": 189,
+   "partName": "RAMADHEEN SINGH INTER COLLEGE FAIZABAD ROAD ROOM NO-2",
+   "partId": 480307
+  },
+  {
+   "partNumber": 190,
+   "partName": "RAMADHEEN SINGH INTER COLLEGE FAIZABAD ROAD ROOM NO-3",
+   "partId": 480308
+  },
+  {
+   "partNumber": 191,
+   "partName": "RAMADHEEN SINGH INTER COLLEGE FAIZABAD ROAD ROOM NO-4",
+   "partId": 480309
+  },
+  {
+   "partNumber": 192,
+   "partName": "RAMADHEEN SINGH INTER COLLEGE FAIZABAD ROAD ROOM NO-5",
+   "partId": 480310
+  },
+  {
+   "partNumber": 193,
+   "partName": "RAMADHEEN SINGH INTER COLLEGE FAIZABAD ROAD ROOM NO-6",
+   "partId": 480315
+  },
+  {
+   "partNumber": 194,
+   "partName": "RAMADHEEN SINGH INTER COLLEGE FAIZABAD ROAD ROOM NO-7",
+   "partId": 480316
+  },
+  {
+   "partNumber": 195,
+   "partName": "RAMADHEEN SINGH INTER COLLEGE FAIZABAD ROAD ROOM NO-8",
+   "partId": 480317
+  },
+  {
+   "partNumber": 196,
+   "partName": "DURGA GEETA VIDYALAYA H.SE.S.BABUGANJ FAIZABABD ROAD ROOM NO-1",
+   "partId": 480318
+  },
+  {
+   "partNumber": 197,
+   "partName": "DURGA GEETA VIDYALAYA H.SE.S.BABUGANJ FAIZABABD ROAD ROOM NO-2",
+   "partId": 480319
+  },
+  {
+   "partNumber": 198,
+   "partName": "DURGA GEETA VIDYALAYA H.SE.S.BABUGANJ FAIZABABD ROAD ROOM NO-3",
+   "partId": 480320
+  },
+  {
+   "partNumber": 199,
+   "partName": "DURGA GEETA VIDYALAYA H.SE.S.BABUGANJ FAIZABABD ROAD ROOM NO-4",
+   "partId": 480323
+  },
+  {
+   "partNumber": 200,
+   "partName": "SARSWATI SHISHU MANDIR NIRALA NAGARROOM NO-1",
+   "partId": 480324
+  },
+  {
+   "partNumber": 201,
+   "partName": "SARSWATI SHISHU MANDIR NIRALA NAGARROOM NO-2",
+   "partId": 480325
+  },
+  {
+   "partNumber": 202,
+   "partName": "SARSWATI SHISHU MANDIR NIRALA NAGARROOM NO-3",
+   "partId": 480326
+  },
+  {
+   "partNumber": 203,
+   "partName": "SARSWATI SHISHU MANDIR NIRALA NAGARROOM NO-4",
+   "partId": 480327
+  },
+  {
+   "partNumber": 204,
+   "partName": "SARSWATI SHISHU MANDIR NIRALA NAGARROOM NO-5",
+   "partId": 480328
+  },
+  {
+   "partNumber": 205,
+   "partName": "SARSWATI SHISHU MANDIR NIRALA NAGARROOM NO-6",
+   "partId": 480329
+  },
+  {
+   "partNumber": 206,
+   "partName": "SARSWATI SHISHU MANDIR NIRALA NAGARROOM NO-7",
+   "partId": 480330
+  },
+  {
+   "partNumber": 207,
+   "partName": "NETAJI SUBHASH CHANDRA BOSE MAHILA DEGREE COLLEGE ALIGANJ ROOM NO-1",
+   "partId": 480331
+  },
+  {
+   "partNumber": 208,
+   "partName": "NETAJI SUBHASH CHANDRA BOSE MAHILA DEGREE COLLEGE ALIGANJ ROOM NO-2",
+   "partId": 480332
+  },
+  {
+   "partNumber": 209,
+   "partName": "NETAJI SUBHASH CHANDRA BOSE MAHILA DEGREE COLLEGE ALIGANJ ROOM NO-3",
+   "partId": 480333
+  },
+  {
+   "partNumber": 210,
+   "partName": "NETAJI SUBHASH CHANDRA BOSE MAHILA DEGREE COLLEGE ALIGANJ ROOM NO-4",
+   "partId": 480334
+  },
+  {
+   "partNumber": 211,
+   "partName": "BHAURAO DEVRAS SARASWATI VIDYALAYA SEC-Q ALIGANJ ROOM NO-1",
+   "partId": 480335
+  },
+  {
+   "partNumber": 212,
+   "partName": "BHAURAO DEVRAS SARASWATI VIDYALAYA SEC-Q ALIGANJ ROOM NO-2",
+   "partId": 480336
+  },
+  {
+   "partNumber": 213,
+   "partName": "BHAURAO DEVRAS SARASWATI VIDYALAYA SEC-Q ALIGANJ ROOM NO-3",
+   "partId": 480337
+  },
+  {
+   "partNumber": 214,
+   "partName": "BHAURAO DEVRAS SARASWATI VIDYALAYA SEC-Q ALIGANJ ROOM NO-4",
+   "partId": 480338
+  },
+  {
+   "partNumber": 215,
+   "partName": "BHAURAO DEVRAS SARASWATI VIDYALAYA SEC-Q ALIGANJ ROOM NO-5",
+   "partId": 480339
+  },
+  {
+   "partNumber": 216,
+   "partName": "BHAURAO DEVRAS SARASWATI VIDYALAYA SEC-Q ALIGANJ ROOM NO-6",
+   "partId": 480552
+  },
+  {
+   "partNumber": 217,
+   "partName": "R. K SENIOR SECONDARY SCHOOL SEC-D ALIGANJ ROOM NO-1",
+   "partId": 480300
+  },
+  {
+   "partNumber": 218,
+   "partName": "R. K SENIOR SECONDARY SCHOOL SEC-D ALIGANJ ROOM NO-2",
+   "partId": 480301
+  },
+  {
+   "partNumber": 219,
+   "partName": "R. K SENIOR SECONDARY SCHOOL SEC-D ALIGANJ ROOM NO-3",
+   "partId": 480302
+  },
+  {
+   "partNumber": 220,
+   "partName": "ALIGANJ MONTESSORI SCHOOL KAPOORTHALA ROOM NO-1",
+   "partId": 480303
+  },
+  {
+   "partNumber": 221,
+   "partName": "ALIGANJ MONTESSORI SCHOOL KAPOORTHALA ROOM NO-2",
+   "partId": 480304
+  },
+  {
+   "partNumber": 222,
+   "partName": "ALIGANJ MONTESSORI SCHOOL KAPOORTHALA ROOM NO-3",
+   "partId": 480305
+  },
+  {
+   "partNumber": 223,
+   "partName": "ST. MICHAEL SCHOOL BADA CHANDGANJ ALIGANJ ROOM NO-1",
+   "partId": 480311
+  },
+  {
+   "partNumber": 224,
+   "partName": "ST. MICHAEL SCHOOL BADA CHANDGANJ ALIGANJ ROOM NO-2",
+   "partId": 480312
+  },
+  {
+   "partNumber": 225,
+   "partName": "ST. MICHAEL SCHOOL BADA CHANDGANJ ALIGANJ ROOM NO-3",
+   "partId": 480313
+  },
+  {
+   "partNumber": 226,
+   "partName": "ST. MICHAEL SCHOOL BADA CHANDGANJ ALIGANJ ROOM NO-4",
+   "partId": 480314
+  },
+  {
+   "partNumber": 227,
+   "partName": "PRATHMIC VIDYALAYA CHANDGANJ ROOM NO-1",
+   "partId": 480321
+  },
+  {
+   "partNumber": 228,
+   "partName": "PRATHMIC VIDYALAYA CHANDGANJ ROOM NO-2",
+   "partId": 480322
+  },
+  {
+   "partNumber": 229,
+   "partName": "MODERN SCHOOL ALIGANJ ROOM NO-1",
+   "partId": 480353
+  },
+  {
+   "partNumber": 230,
+   "partName": "MODERN SCHOOL ALIGANJ ROOM NO-2",
+   "partId": 480354
+  },
+  {
+   "partNumber": 231,
+   "partName": "MODERN SCHOOL ALIGANJ ROOM NO-3",
+   "partId": 480359
+  },
+  {
+   "partNumber": 232,
+   "partName": "MODERN SCHOOL ALIGANJ ROOM NO-4",
+   "partId": 480360
+  },
+  {
+   "partNumber": 233,
+   "partName": "RAJKEEYA AUDYOGIK PRASHIKSHAN SANSTHAN ALIGANJ ROOM NO-1",
+   "partId": 480340
+  },
+  {
+   "partNumber": 234,
+   "partName": "RAJKEEYA AUDYOGIK PRASHIKSHAN SANSTHAN ALIGANJ ROOM NO-2",
+   "partId": 480341
+  },
+  {
+   "partNumber": 235,
+   "partName": "RAJKEEYA AUDYOGIK PRASHIKSHAN SANSTHAN ALIGANJ ROOM NO-3",
+   "partId": 480342
+  },
+  {
+   "partNumber": 236,
+   "partName": "RAJKEEYA AUDYOGIK PRASHIKSHAN SANSTHAN ALIGANJ ROOM NO-4",
+   "partId": 480343
+  },
+  {
+   "partNumber": 237,
+   "partName": "RAJKEEYA AUDYOGIK PRASHIKSHAN SANSTHAN ALIGANJ ROOM NO-5",
+   "partId": 480344
+  },
+  {
+   "partNumber": 238,
+   "partName": "ALIGANJ MONTESSORI SENIOR SECONDARY SCHOOL SEC.-L ALIGANJ ROOM NO-1",
+   "partId": 480345
+  },
+  {
+   "partNumber": 239,
+   "partName": "ALIGANJ MONTESSORI SENIOR SECONDARY SCHOOL SEC.-L ALIGANJ ROOM NO-2",
+   "partId": 480346
+  },
+  {
+   "partNumber": 240,
+   "partName": "ALIGANJ MONTESSORI SENIOR SECONDARY SCHOOL SEC.-L ALIGANJ ROOM NO-3",
+   "partId": 480347
+  },
+  {
+   "partNumber": 241,
+   "partName": "ALIGANJ MONTESSORI SENIOR SECONDARY SCHOOL SEC.-L ALIGANJ ROOM NO-4",
+   "partId": 480348
+  },
+  {
+   "partNumber": 242,
+   "partName": "ALIGANJ MONTESSORI SENIOR SECONDARY SCHOOL SEC.-L ALIGANJ ROOM NO-5",
+   "partId": 480349
+  },
+  {
+   "partNumber": 243,
+   "partName": "ALIGANJ MONTESSORI SENIOR SECONDARY SCHOOL SEC.-L ALIGANJ ROOM NO-6",
+   "partId": 480553
+  },
+  {
+   "partNumber": 244,
+   "partName": "UDAYA MONTESSORI INTER COLLAGE SEC N ALIGANJ ROOM NO-1",
+   "partId": 480350
+  },
+  {
+   "partNumber": 245,
+   "partName": "UDAYA MONTESSORI INTER COLLAGE SEC N ALIGANJ ROOM NO-2",
+   "partId": 480351
+  },
+  {
+   "partNumber": 246,
+   "partName": "UDAYA MONTESSORI INTER COLLAGE SEC N ALIGANJ ROOM NO-3",
+   "partId": 480352
+  },
+  {
+   "partNumber": 247,
+   "partName": "UDAYA MONTESSORI INTER COLLAGE SEC N ALIGANJ ROOM NO-4",
+   "partId": 480355
+  },
+  {
+   "partNumber": 248,
+   "partName": "UDAYA MONTESSORI INTER COLLAGE SEC N ALIGANJ ROOM NO-5",
+   "partId": 480554
+  },
+  {
+   "partNumber": 249,
+   "partName": "KENDRIYA VIDYALAYA ALIGANJ ROOM NO-1",
+   "partId": 480356
+  },
+  {
+   "partNumber": 250,
+   "partName": "KENDRIYA VIDYALAYA ALIGANJ ROOM NO-2",
+   "partId": 480357
+  },
+  {
+   "partNumber": 251,
+   "partName": "KENDRIYA VIDYALAYA ALIGANJ ROOM NO-3",
+   "partId": 480358
+  },
+  {
+   "partNumber": 252,
+   "partName": "KENDRIYA VIDYALAYA ALIGANJ ROOM NO-4",
+   "partId": 480361
+  },
+  {
+   "partNumber": 253,
+   "partName": "BRIGHT WAY SECTOR M ALIGANJ ROOM NO-1",
+   "partId": 480362
+  },
+  {
+   "partNumber": 254,
+   "partName": "BRIGHT WAY SECTOR M ALIGANJ ROOM NO-2",
+   "partId": 480363
+  },
+  {
+   "partNumber": 255,
+   "partName": "BRIGHT WAY SECTOR M ALIGANJ ROOM NO-3",
+   "partId": 480364
+  },
+  {
+   "partNumber": 256,
+   "partName": "BRIGHT WAY SECTOR M ALIGANJ ROOM NO-4",
+   "partId": 480365
+  },
+  {
+   "partNumber": 257,
+   "partName": "SAMUDAYIK KENDRA ALIGANJ ROOM NO-1",
+   "partId": 480366
+  },
+  {
+   "partNumber": 258,
+   "partName": "SAMUDAYIK KENDRA ALIGANJ ROOM NO-2",
+   "partId": 480367
+  },
+  {
+   "partNumber": 259,
+   "partName": "PRATHMIC VIDYALAYA  PALTAN CHHAWNI ROOM NO-1",
+   "partId": 480368
+  },
+  {
+   "partNumber": 260,
+   "partName": "PRATHMIC VIDYALAYA  PALTAN CHHAWNI ROOM NO-2",
+   "partId": 480369
+  },
+  {
+   "partNumber": 261,
+   "partName": "PRATHMIC VIDYALAYA  PALTAN CHHAWNI ROOM NO-3",
+   "partId": 480370
+  },
+  {
+   "partNumber": 262,
+   "partName": "PRATHMIC VIDYALAYA  PALTAN CHHAWNI ROOM NO-4",
+   "partId": 480371
+  },
+  {
+   "partNumber": 263,
+   "partName": "PRATHMIC VIDYALAYA PALTAN CHHAWNI ROOM NO-5",
+   "partId": 480555
+  },
+  {
+   "partNumber": 264,
+   "partName": "PURVA MADHYAMIK VIDYALAYA PALTAN CHHAWNI ROOM NO-1",
+   "partId": 480372
+  },
+  {
+   "partNumber": 265,
+   "partName": "PURVA MADHYAMIK VIDYALAYA PALTAN CHHAWNI ROOM NO-2",
+   "partId": 480373
+  },
+  {
+   "partNumber": 266,
+   "partName": "PURVA MADHYAMIK VIDYALAYA PALTAN CHHAWNI ROOM NO-3",
+   "partId": 480374
+  },
+  {
+   "partNumber": 267,
+   "partName": "HAZARILAL PURVA MADHYAMIK VIDYALAYA PURANIYA ROOM NO-1",
+   "partId": 480375
+  },
+  {
+   "partNumber": 268,
+   "partName": "HAZARILAL PURVA MADHYAMIK VIDYALAYA PURANIYA ROOM NO-2",
+   "partId": 480376
+  },
+  {
+   "partNumber": 269,
+   "partName": "HAZARILAL PURVA MADHYAMIK VIDYALAYA PURANIYA ROOM NO-3",
+   "partId": 480377
+  },
+  {
+   "partNumber": 270,
+   "partName": "HAZARILAL PURVA MADHYAMIK VIDYALAYA PURANIYA ROOM NO-4",
+   "partId": 480378
+  },
+  {
+   "partNumber": 271,
+   "partName": "HAZARILAL PURVA MADHYAMIK VIDYALAYA PURANIYA ROOM NO-5",
+   "partId": 480379
+  },
+  {
+   "partNumber": 272,
+   "partName": "HAZARILAL PURVA MADHYAMIK VIDYALAYA PURANIYA ROOM NO-6",
+   "partId": 480383
+  },
+  {
+   "partNumber": 273,
+   "partName": "FLORENCE NIGHTANGLE PUBLIC GIRLS DIGREE COLLEGE PREETI NAGAR ROOM NO-1",
+   "partId": 480384
+  },
+  {
+   "partNumber": 274,
+   "partName": "FLORENCE NIGHTANGLE PUBLIC GIRLS DIGREE COLLEGE PREETI NAGAR ROOM NO-2",
+   "partId": 480389
+  },
+  {
+   "partNumber": 275,
+   "partName": "FLORENCE NIGHTANGLE PUBLIC GIRLS DIGREE COLLEGE PREETI NAGAR ROOM NO-3",
+   "partId": 480380
+  },
+  {
+   "partNumber": 276,
+   "partName": "FLORENCE NIGHTANGLE PUBLIC GIRLS DIGREE COLLEGE PREETI NAGAR ROOM NO-4",
+   "partId": 480381
+  },
+  {
+   "partNumber": 277,
+   "partName": "FLORENCE NIGHTANGLE PUBLIC GIRLS DIGREE COLLEGE PREETI NAGAR ROOM NO-5",
+   "partId": 480382
+  },
+  {
+   "partNumber": 278,
+   "partName": "FLORENCE NIGHTANGLE PUBLIC GIRLS DIGREE COLLEGE PREETI NAGAR ROOM NO-6",
+   "partId": 480385
+  },
+  {
+   "partNumber": 279,
+   "partName": "FLORENCE NIGHTANGLE PUBLIC GIRLS DIGREE COLLEGE PREETI NAGAR ROOM NO-7",
+   "partId": 480556
+  },
+  {
+   "partNumber": 280,
+   "partName": "SOA FATIMA P GIRLS INTER COLLEGE KESHAVNAGAR ROOM NO-1",
+   "partId": 480386
+  },
+  {
+   "partNumber": 281,
+   "partName": "SOA FATIMA P GIRLS INTER COLLEGE KESHAVNAGAR ROOM NO-2",
+   "partId": 480387
+  },
+  {
+   "partNumber": 282,
+   "partName": "SOA FATIMA P GIRLS INTER COLLEGE KESHAVNAGAR ROOM NO-3",
+   "partId": 480388
+  },
+  {
+   "partNumber": 283,
+   "partName": "SOA FATIMA P GIRLS INTER COLLEGE KESHAVNAGAR ROOM NO-4",
+   "partId": 480390
+  },
+  {
+   "partNumber": 284,
+   "partName": "SOA FATIMA P GIRLS INTER COLLEGE KESHAVNAGAR ROOM NO-5",
+   "partId": 480395
+  },
+  {
+   "partNumber": 285,
+   "partName": "SOA FATIMA P GIRLS INTER COLLEGE KESHAVNAGAR ROOM NO-6",
+   "partId": 480396
+  },
+  {
+   "partNumber": 286,
+   "partName": "SOA FATIMA P GIRLS INTER COLLEGE KESHAVNAGAR ROOM NO-7",
+   "partId": 480557
+  },
+  {
+   "partNumber": 287,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-1",
+   "partId": 480406
+  },
+  {
+   "partNumber": 288,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-2",
+   "partId": 480407
+  },
+  {
+   "partNumber": 289,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-3",
+   "partId": 480408
+  },
+  {
+   "partNumber": 290,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-4",
+   "partId": 480410
+  },
+  {
+   "partNumber": 291,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-5",
+   "partId": 480391
+  },
+  {
+   "partNumber": 292,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-6",
+   "partId": 480392
+  },
+  {
+   "partNumber": 293,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-7",
+   "partId": 480393
+  },
+  {
+   "partNumber": 294,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-8",
+   "partId": 480394
+  },
+  {
+   "partNumber": 295,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-9",
+   "partId": 480397
+  },
+  {
+   "partNumber": 296,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-10",
+   "partId": 480398
+  },
+  {
+   "partNumber": 297,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-11",
+   "partId": 480399
+  },
+  {
+   "partNumber": 298,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-12",
+   "partId": 480400
+  },
+  {
+   "partNumber": 299,
+   "partName": "ST JOSEF COLLEGE SEC-B PRIYADARSHINI COLONY SITAPUR ROAD LUCKNOW ROOM NO-13",
+   "partId": 480558
+  },
+  {
+   "partNumber": 300,
+   "partName": "THE OAF INTER COLLEGE GAJIPUR BALRAM FAIZULLAHGANJ ROOM NO-1",
+   "partId": 480401
+  },
+  {
+   "partNumber": 301,
+   "partName": "THE OAF INTER COLLEGE GAJIPUR BALRAM FAIZULLAHGANJ ROOM NO-2",
+   "partId": 480402
+  },
+  {
+   "partNumber": 302,
+   "partName": "THE OAF INTER COLLEGE GAJIPUR BALRAM FAIZULLAHGANJ ROOM NO-3",
+   "partId": 480403
+  },
+  {
+   "partNumber": 303,
+   "partName": "THE OAF INTER COLLEGE GAJIPUR BALRAM FAIZULLAHGANJ ROOM NO-4",
+   "partId": 480520
+  },
+  {
+   "partNumber": 304,
+   "partName": "THE OAF INTER COLLEGE GAJIPUR BALRAM FAIZULLAHGANJ ROOM NO-5",
+   "partId": 480559
+  },
+  {
+   "partNumber": 305,
+   "partName": "ST.GABRIEL CONVENT SCHOOL KESHAVNAGAR ROOM NO-1",
+   "partId": 480404
+  },
+  {
+   "partNumber": 306,
+   "partName": "ST.GABRIEL CONVENT SCHOOL KESHAVNAGAR ROOM NO-2",
+   "partId": 480405
+  },
+  {
+   "partNumber": 307,
+   "partName": "ST.GABRIEL CONVENT SCHOOL KESHAVNAGAR ROOM NO-3",
+   "partId": 480409
+  },
+  {
+   "partNumber": 308,
+   "partName": "ST.GABRIEL CONVENT SCHOOL KESHAVNAGAR ROOM NO-4",
+   "partId": 480411
+  },
+  {
+   "partNumber": 309,
+   "partName": "ST.GABRIEL CONVENT SCHOOL KESHAVNAGAR ROOM NO-5",
+   "partId": 480412
+  },
+  {
+   "partNumber": 310,
+   "partName": "ST GABRIEL CONVENT SCHOOL KESHAVNAGAR ROOM NO-6",
+   "partId": 480522
+  },
+  {
+   "partNumber": 311,
+   "partName": "ST GABRIEL CONVENT SCHOOL KESHAVNAGAR ROOM NO-7",
+   "partId": 480560
+  },
+  {
+   "partNumber": 312,
+   "partName": "S.S.J.D INTER COLLEGEFAIZULLAHGANJ ROOM NO-1",
+   "partId": 480413
+  },
+  {
+   "partNumber": 313,
+   "partName": "S.S.J.D INTER COLLEGEFAIZULLAHGANJ ROOM NO-2",
+   "partId": 480419
+  },
+  {
+   "partNumber": 314,
+   "partName": "S.S.J.D INTER COLLEGEFAIZULLAHGANJ ROOM NO-3",
+   "partId": 480420
+  },
+  {
+   "partNumber": 315,
+   "partName": "S.S.J.D INTER COLLEGEFAIZULLAHGANJ ROOM NO-4",
+   "partId": 480421
+  },
+  {
+   "partNumber": 316,
+   "partName": "S.S.J.D INTER COLLEGEFAIZULLAHGANJ ROOM NO-5",
+   "partId": 480422
+  },
+  {
+   "partNumber": 317,
+   "partName": "S.S.J.D INTER COLLEGEFAIZULLAHGANJ ROOM NO-6",
+   "partId": 480423
+  },
+  {
+   "partNumber": 318,
+   "partName": "S S J D INTER COLLEGEFAIZULLAHGANJ ROOM NO-7",
+   "partId": 480523
+  },
+  {
+   "partNumber": 319,
+   "partName": "S S J D INTER COLLEGEFAIZULLAHGANJ ROOM NO-8",
+   "partId": 480524
+  },
+  {
+   "partNumber": 320,
+   "partName": "PURAVA MADHYAMIK VIDYALAY GAZIPUR BALRAM ROOM NO-1",
+   "partId": 480424
+  },
+  {
+   "partNumber": 321,
+   "partName": "PURAVA MADHYAMIK VIDYALAY GAZIPUR BALRAM ROOM NO-2",
+   "partId": 480428
+  },
+  {
+   "partNumber": 322,
+   "partName": "PURAVA MADHYAMIK VIDYALAY GAZIPUR BALRAM ROOM NO-3",
+   "partId": 480525
+  },
+  {
+   "partNumber": 323,
+   "partName": "I.M.A INTERNATIONAL SCHOOL FRIENDS COLONY RAHEEM NAGAR DUDOLI ROOM NO-1",
+   "partId": 480429
+  },
+  {
+   "partNumber": 324,
+   "partName": "I.M.A INTERNATIONAL SCHOOL FRIENDS COLONY RAHEEM NAGAR DUDOLI ROOM NO-2",
+   "partId": 480430
+  },
+  {
+   "partNumber": 325,
+   "partName": "I.M.A INTERNATIONAL SCHOOL FRIENDS COLONY RAHEEM NAGAR DUDOLI ROOM NO-3",
+   "partId": 480431
+  },
+  {
+   "partNumber": 326,
+   "partName": "I M A INTERNATIONAL SCHOOL FRIENDS COLONY RAHEEM NAGAR DUDOLI ROOM NO-4",
+   "partId": 480526
+  },
+  {
+   "partNumber": 327,
+   "partName": "I M A INTERNATIONAL SCHOOL FRIENDS COLONY RAHEEM NAGAR DUDOLI ROOM NO-5",
+   "partId": 480561
+  },
+  {
+   "partNumber": 328,
+   "partName": "M D CONVENT COLLEGE GAURBHEETH ROOM NO-1",
+   "partId": 480432
+  },
+  {
+   "partNumber": 329,
+   "partName": "M D CONVENT COLLEGE GAURBHEETH ROOM NO-2",
+   "partId": 480433
+  },
+  {
+   "partNumber": 330,
+   "partName": "M D CONVENT COLLEGE GAURBHEETH ROOM NO-3",
+   "partId": 480437
+  },
+  {
+   "partNumber": 331,
+   "partName": "M D CONVENT COLLEGE GAURBHEETH ROOM NO-4",
+   "partId": 480527
+  },
+  {
+   "partNumber": 332,
+   "partName": "M D CONVENT COLLEGE GAURBHEETH ROOM NO-5",
+   "partId": 480562
+  },
+  {
+   "partNumber": 333,
+   "partName": "MAHARISHI VIDYA MANDIR I.I.M. ROAD ROOM NO-1",
+   "partId": 480438
+  },
+  {
+   "partNumber": 334,
+   "partName": "MAHARISHI VIDYA MANDIR I.I.M. ROAD ROOM NO-2",
+   "partId": 480439
+  },
+  {
+   "partNumber": 335,
+   "partName": "MAHARISHI VIDYA MANDIR I.I.M. ROAD ROOM NO-3",
+   "partId": 480440
+  },
+  {
+   "partNumber": 336,
+   "partName": "MAHARISHI VIDYA MANDIR I.I.M. ROAD ROOM NO-4",
+   "partId": 480445
+  },
+  {
+   "partNumber": 337,
+   "partName": "MAHARISHI VIDYA MANDIR I.I.M. ROAD ROOM NO-5",
+   "partId": 480446
+  },
+  {
+   "partNumber": 338,
+   "partName": "MAHARISHI VIDYA MANDIR I.I.M. ROAD ROOM NO-6",
+   "partId": 480447
+  },
+  {
+   "partNumber": 339,
+   "partName": "MAHARISHI VIDYA MANDIR I.I.M. ROAD ROOM NO-7",
+   "partId": 480448
+  },
+  {
+   "partNumber": 340,
+   "partName": "MAHRISHI VIDYA MANDIR I.I.M. ROAD ROOM NO-8",
+   "partId": 480563
+  },
+  {
+   "partNumber": 341,
+   "partName": "PRATHAMIK VIDYALAYA KHADRI ROOM NO-1",
+   "partId": 480449
+  },
+  {
+   "partNumber": 342,
+   "partName": "PRATHAMIK VIDYALAYA KHADRI ROOM NO-2",
+   "partId": 480528
+  },
+  {
+   "partNumber": 343,
+   "partName": "GYANODAYA MAHA VIDYALA AJEEJNAGAR SITAPUR ROAD ROOM NO-1",
+   "partId": 480453
+  },
+  {
+   "partNumber": 344,
+   "partName": "GYANODAYA MAHA VIDYALA AJEEJNAGAR SITAPUR ROAD ROOM NO-2",
+   "partId": 480454
+  },
+  {
+   "partNumber": 345,
+   "partName": "GYANODAYA MAHA VIDYALA AJEEJNAGAR SITAPUR ROAD ROOM NO-3",
+   "partId": 480455
+  },
+  {
+   "partNumber": 346,
+   "partName": "GYANODAYA MAHA VIDYALA AJEEJNAGAR SITAPUR ROAD ROOM NO-4",
+   "partId": 480456
+  },
+  {
+   "partNumber": 347,
+   "partName": "GYANODAYA MAHA VIDYALA AJEEJNAGAR SITAPUR ROAD ROOM NO-5",
+   "partId": 480457
+  },
+  {
+   "partNumber": 348,
+   "partName": "GYANODAYA MAHA VIDYALA AJEEJNAGAR SITAPUR ROAD ROOM NO-6",
+   "partId": 480529
+  },
+  {
+   "partNumber": 349,
+   "partName": "GYANODAYA MAHA VIDYALA AJEEJNAGAR SITAPUR ROAD ROOM NO-7",
+   "partId": 480564
+  },
+  {
+   "partNumber": 350,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-1",
+   "partId": 480414
+  },
+  {
+   "partNumber": 351,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-2",
+   "partId": 480415
+  },
+  {
+   "partNumber": 352,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-3",
+   "partId": 480416
+  },
+  {
+   "partNumber": 353,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-4",
+   "partId": 480417
+  },
+  {
+   "partNumber": 354,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-5",
+   "partId": 480418
+  },
+  {
+   "partNumber": 355,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-6",
+   "partId": 480425
+  },
+  {
+   "partNumber": 356,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-7",
+   "partId": 480426
+  },
+  {
+   "partNumber": 357,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-8",
+   "partId": 480427
+  },
+  {
+   "partNumber": 358,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-9",
+   "partId": 480434
+  },
+  {
+   "partNumber": 359,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-10",
+   "partId": 480435
+  },
+  {
+   "partNumber": 360,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-11",
+   "partId": 480436
+  },
+  {
+   "partNumber": 361,
+   "partName": "I.E.T SITAPUR ROAD ROOM NO-12",
+   "partId": 480441
+  },
+  {
+   "partNumber": 362,
+   "partName": "SHRI RAM ACADEMY SRINAGAR MOHIBULLAPUR ROOM NO-1",
+   "partId": 480442
+  },
+  {
+   "partNumber": 363,
+   "partName": "SHRI RAM ACADEMY SRINAGAR MOHIBULLAPUR ROOM NO-2",
+   "partId": 480443
+  },
+  {
+   "partNumber": 364,
+   "partName": "SHRI RAM ACADEMY SRINAGAR MOHIBULLAPUR ROOM NO-3",
+   "partId": 480444
+  },
+  {
+   "partNumber": 365,
+   "partName": "SHRI RAM ACADEMY SRINAGAR MOHIBULLAPUR ROOM NO-4",
+   "partId": 480530
+  },
+  {
+   "partNumber": 366,
+   "partName": "SHRI RAM ACADEMY SRINAGAR MOHIBULLAPUR ROOM NO-5",
+   "partId": 480531
+  },
+  {
+   "partNumber": 367,
+   "partName": "BAAL NIKUNJ INTER COLLEGE SEC-A AND D MOHIBULLAPUR ROOM NO-1",
+   "partId": 480450
+  },
+  {
+   "partNumber": 368,
+   "partName": "BAAL NIKUNJ INTER COLLEGE SEC-A AND D MOHIBULLAPUR ROOM NO-2",
+   "partId": 480451
+  },
+  {
+   "partNumber": 369,
+   "partName": "BAAL NIKUNJ INTER COLLEGE SEC-A AND D MOHIBULLAPUR ROOM NO-3",
+   "partId": 480452
+  },
+  {
+   "partNumber": 370,
+   "partName": "BAAL NIKUNJ INTER COLLEGE SEC-A AND D MOHIBULLAPUR ROOM NO-4",
+   "partId": 480458
+  },
+  {
+   "partNumber": 371,
+   "partName": "BAAL NIKUNJ INTER COLLEGE SEC-A AND D MOHIBULLAPUR ROOM NO-5",
+   "partId": 480459
+  },
+  {
+   "partNumber": 372,
+   "partName": "BAAL NIKUNJ INTER COLLEGE SEC-A AND D MOHIBULLAPUR ROOM NO-6",
+   "partId": 480460
+  },
+  {
+   "partNumber": 373,
+   "partName": "BAAL NIKUNJ INTER COLLEGE SEC-A AND D MOHIBULLAPUR ROOM NO-7",
+   "partId": 480463
+  },
+  {
+   "partNumber": 374,
+   "partName": "BAAL NIKUNJ INTER COLLEGE SEC-A AND D MOHIBULLAPUR ROOM NO-8",
+   "partId": 480565
+  },
+  {
+   "partNumber": 375,
+   "partName": "RAM KISHOR INTER COLLEGE ABHISHEK PURAM 60 FITA ROAD ROOM NO-1",
+   "partId": 480464
+  },
+  {
+   "partNumber": 376,
+   "partName": "RAM KISHOR INTER COLLEGE ABHISHEK PURAM 60 FITA ROAD ROOM NO-2",
+   "partId": 480468
+  },
+  {
+   "partNumber": 377,
+   "partName": "RAM KISHOR INTER COLLEGE ABHISHEK PURAM 60 FITA ROAD ROOM NO-3",
+   "partId": 480469
+  },
+  {
+   "partNumber": 378,
+   "partName": "RAM KISHOR INTER COLLEGE ABHISHEK PURAM 60 FITA ROAD ROOM NO-4",
+   "partId": 480470
+  },
+  {
+   "partNumber": 379,
+   "partName": "SARASWATI BALIKA VIDYA MANDIR SECTOR-I JANKIPURAM ROOM NO-1",
+   "partId": 480471
+  },
+  {
+   "partNumber": 380,
+   "partName": "SARASWATI BALIKA VIDYA MANDIR SECTOR-I JANKIPURAM ROOM NO-2",
+   "partId": 480477
+  },
+  {
+   "partNumber": 381,
+   "partName": "SARASWATI BALIKA VIDYA MANDIR SECTOR-I JANKIPURAM ROOM NO-3",
+   "partId": 480478
+  },
+  {
+   "partNumber": 382,
+   "partName": "SARASWATI BALIKA VIDYA MANDIR SECTOR-I JANKIPURAM ROOM NO-4",
+   "partId": 480479
+  },
+  {
+   "partNumber": 383,
+   "partName": "SARASWATI BALIKA VIDYA MANDIR SECTOR-I JANKIPURAM ROOM NO-5",
+   "partId": 480566
+  },
+  {
+   "partNumber": 384,
+   "partName": "PIONEER SCHOOL JANKIPURAM ROOM NO-1",
+   "partId": 480480
+  },
+  {
+   "partNumber": 385,
+   "partName": "PIONEER SCHOOL JANKIPURAM ROOM NO-2",
+   "partId": 480481
+  },
+  {
+   "partNumber": 386,
+   "partName": "PIONEER SCHOOL JANKIPURAM ROOM NO-3",
+   "partId": 480487
+  },
+  {
+   "partNumber": 387,
+   "partName": "LUCKNOW PUBLIC COLLEGE SAHARA STATE JANKIPURAM ROOM NO-1",
+   "partId": 480488
+  },
+  {
+   "partNumber": 388,
+   "partName": "LUCKNOW PUBLIC COLLEGE SAHARA STATE JANKIPURAM ROOM NO-2",
+   "partId": 480489
+  },
+  {
+   "partNumber": 389,
+   "partName": "LUCKNOW PUBLIC COLLEGE SAHARA STATE JANKIPURAM ROOM NO-3",
+   "partId": 480492
+  },
+  {
+   "partNumber": 390,
+   "partName": "LUCKNOW PUBLIC COLLEGE SAHARA STATE JANKIPURAM ROOM NO-4",
+   "partId": 480493
+  },
+  {
+   "partNumber": 391,
+   "partName": "LUCKNOW PUBLIC COLLEGE SAHARA STATE JANKIPURAM ROOM NO-5",
+   "partId": 480567
+  },
+  {
+   "partNumber": 392,
+   "partName": "CAPITAL PUBLIC SCHOOL JANKIPURAM GARDEN ROOM NO-1",
+   "partId": 480494
+  },
+  {
+   "partNumber": 393,
+   "partName": "CAPITAL PUBLIC SCHOOL JANKIPURAM GARDEN ROOM NO-2",
+   "partId": 480495
+  },
+  {
+   "partNumber": 394,
+   "partName": "CAPITAL PUBLIC SCHOOL JANKIPURAM GARDEN ROOM NO-3",
+   "partId": 480498
+  },
+  {
+   "partNumber": 395,
+   "partName": "CAPITAL PUBLIC SCHOOL JANKIPURAM GARDEN ROOM NO-4",
+   "partId": 480532
+  },
+  {
+   "partNumber": 396,
+   "partName": "CAPITAL PUBLIC SCHOOL JANKIPURAM GARDEN ROOM NO-5",
+   "partId": 480533
+  },
+  {
+   "partNumber": 397,
+   "partName": "SAM LUCKNOW PUBLIC SCHOOL MADIYAON ROOM NO-1",
+   "partId": 480499
+  },
+  {
+   "partNumber": 398,
+   "partName": "SAM LUCKNOW PUBLIC SCHOOL MADIYAON ROOM NO-2",
+   "partId": 480500
+  },
+  {
+   "partNumber": 399,
+   "partName": "SAM LUCKNOW PUBLIC SCHOOL MADIYAON ROOM NO-3",
+   "partId": 480461
+  },
+  {
+   "partNumber": 400,
+   "partName": "SAM LUCKNOW PUBLIC SCHOOL MADIYAON ROOM NO-4",
+   "partId": 480462
+  },
+  {
+   "partNumber": 401,
+   "partName": "SAM LUCKNOW PUBLIC SCHOOL MADIYAON ROOM NO-5",
+   "partId": 480465
+  },
+  {
+   "partNumber": 402,
+   "partName": "SAM LUCKNOW PUBLIC SCHOOL MADIYAON ROOM NO-6",
+   "partId": 480466
+  },
+  {
+   "partNumber": 403,
+   "partName": "SAM LUCKNOW PUBLIC SCHOOL MADIYAON ROOM NO-7",
+   "partId": 480467
+  },
+  {
+   "partNumber": 404,
+   "partName": "SAM LUCKNOW PUBLIC SCHOOL MADIYAON ROOM NO-8",
+   "partId": 480568
+  },
+  {
+   "partNumber": 405,
+   "partName": "ST ANTONY'S INTER COLLEGE SEC A JANKIPURAM ROOM NO-1",
+   "partId": 480472
+  },
+  {
+   "partNumber": 406,
+   "partName": "ST ANTONY'S INTER COLLEGE SEC A JANKIPURAM ROOM NO-2",
+   "partId": 480473
+  },
+  {
+   "partNumber": 407,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-1",
+   "partId": 480474
+  },
+  {
+   "partNumber": 408,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-2",
+   "partId": 480475
+  },
+  {
+   "partNumber": 409,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-3",
+   "partId": 480476
+  },
+  {
+   "partNumber": 410,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-4",
+   "partId": 480482
+  },
+  {
+   "partNumber": 411,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-5",
+   "partId": 480483
+  },
+  {
+   "partNumber": 412,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-6",
+   "partId": 480484
+  },
+  {
+   "partNumber": 413,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-7",
+   "partId": 480485
+  },
+  {
+   "partNumber": 414,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-8",
+   "partId": 480486
+  },
+  {
+   "partNumber": 415,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-9",
+   "partId": 480490
+  },
+  {
+   "partNumber": 416,
+   "partName": "BRIGHT WAY COLLEGE SEC H JANKI PURAM ROOM NO-10",
+   "partId": 480491
+  },
+  {
+   "partNumber": 417,
+   "partName": "NARAYAN E TECHNO SCHOOL SEC-G JANKIPURAM ROOM NO-1",
+   "partId": 480537
+  },
+  {
+   "partNumber": 418,
+   "partName": "NARAYAN E.TECHNO SCHOOL SEC-G JANKIPURAM ROOM NO-2",
+   "partId": 480538
+  },
+  {
+   "partNumber": 419,
+   "partName": "NARAYAN E.TECHNO SCHOOL SEC-G JANKIPURAM ROOM NO-3",
+   "partId": 480539
+  },
+  {
+   "partNumber": 420,
+   "partName": "NARAYAN E.TECHNO SCHOOL SEC-G JANKIPURAM ROOM NO-4",
+   "partId": 480569
+  },
+  {
+   "partNumber": 421,
+   "partName": "M.D.M PUBLIC INTER COLLEGE JANKI PURAM ROOM NO-1",
+   "partId": 480496
+  },
+  {
+   "partNumber": 422,
+   "partName": "M.D.M PUBLIC INTER COLLEGE JANKI PURAM ROOM NO-2",
+   "partId": 480497
+  },
+  {
+   "partNumber": 423,
+   "partName": "M.D.M PUBLIC INTER COLLEGE JANKI PURAM ROOM NO-3",
+   "partId": 480501
+  },
+  {
+   "partNumber": 424,
+   "partName": "M.D.M PUBLIC INTER COLLEGE JANKI PURAM ROOM NO-4",
+   "partId": 480502
+  },
+  {
+   "partNumber": 425,
+   "partName": "M.D.M PUBLIC INTER COLLEGE JANKI PURAM ROOM NO-5",
+   "partId": 480503
+  },
+  {
+   "partNumber": 426,
+   "partName": "COMMUNITY HALL SMIRITI APARTMENT KURSI ROAD LUCKNOW ROOM NO-1",
+   "partId": 480504
+  },
+  {
+   "partNumber": 427,
+   "partName": "ST. THOMAS MISSION SCHOOL JANKIPURAM ROOM NO-1",
+   "partId": 480505
+  },
+  {
+   "partNumber": 428,
+   "partName": "ST. THOMAS MISSION SCHOOL JANKIPURAM ROOM NO-2",
+   "partId": 480506
+  },
+  {
+   "partNumber": 429,
+   "partName": "PRATHAMIK VIDYALAYA BATHA SABAULI ROOM NO-1",
+   "partId": 480507
+  },
+  {
+   "partNumber": 430,
+   "partName": "PRATHAMIK VIDYALAYA BATHA SABAULI ROOM NO-2",
+   "partId": 480508
+  },
+  {
+   "partNumber": 431,
+   "partName": "PRAGATI PUBLIC SCHOOL SECTOR-C JANKIPURAM ROOM NO-1",
+   "partId": 480509
+  },
+  {
+   "partNumber": 432,
+   "partName": "PRATHAMIC VIDYALAYA BATHA SABAULI ROOM NO-3",
+   "partId": 480510
+  },
+  {
+   "partNumber": 433,
+   "partName": "PRATHAMIC VIDYALAYA BATHA SABAULI ROOM NO-4",
+   "partId": 480511
+  },
+  {
+   "partNumber": 434,
+   "partName": "MAHAVEER INTER COLLEGE KURSI ROAD ROOM NO-1",
+   "partId": 480512
+  },
+  {
+   "partNumber": 435,
+   "partName": "MAHAVEER INTER COLLEGE KURSI ROAD ROOM NO-2",
+   "partId": 480513
+  },
+  {
+   "partNumber": 436,
+   "partName": "MAHAVEER INTER COLLEGE KURSI ROAD ROOM NO-3",
+   "partId": 480514
+  },
+  {
+   "partNumber": 437,
+   "partName": "MAHAVEER INTER COLLEGE KURSI ROAD ROOM NO-4",
+   "partId": 480515
+  },
+  {
+   "partNumber": 438,
+   "partName": "MAHAVEER INTER COLLEGE KURSI ROAD ROOM NO-5",
+   "partId": 480516
+  }
+ ]
+}

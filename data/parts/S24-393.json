@@ -1,0 +1,2303 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2446",
+ "acNumber": 393,
+ "acName": "Gyanpur",
+ "fetchedAt": "2026-11-11T14:02:03",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 458,
+ "maxPart": 458,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "UPPER PRIMARY SCHOOL KHEWAKHAR R.NO.-1",
+   "partId": 523407
+  },
+  {
+   "partNumber": 2,
+   "partName": "UPPER PRIMARY SCHOOL KHEWAKHAR R.NO.-2",
+   "partId": 523408
+  },
+  {
+   "partNumber": 3,
+   "partName": "UPPER PRIMARY SCHOOL KHEWAKHAR  R.NO.-3",
+   "partId": 523409
+  },
+  {
+   "partNumber": 4,
+   "partName": "UPPER PRIMARY SCHOOL KHEVKHAR R.NO.4",
+   "partId": 523463
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRIMARY SCHOOL MAKANPUR ROHI R.NO.-1",
+   "partId": 523410
+  },
+  {
+   "partNumber": 6,
+   "partName": "PRIMARY SCHOOL MAKANPUR ROHI R.NO.-2",
+   "partId": 523411
+  },
+  {
+   "partNumber": 7,
+   "partName": "UPPER PRIMARY SCHOOL NAJARPUR R.NO.-1",
+   "partId": 523412
+  },
+  {
+   "partNumber": 8,
+   "partName": "UPPER PRIMARY SCHOOL NAJARPUR R.NO.-2",
+   "partId": 523413
+  },
+  {
+   "partNumber": 9,
+   "partName": "UPPER PRIMARY SCHOOL NAJARPUR R.NO.-3",
+   "partId": 523414
+  },
+  {
+   "partNumber": 10,
+   "partName": "UPPER PRIMARY SCHOOL NAJARPUR R.NO.4",
+   "partId": 523464
+  },
+  {
+   "partNumber": 11,
+   "partName": "UPPER PRIMARY SCHOOL JAGATPUR R.N.-1",
+   "partId": 523415
+  },
+  {
+   "partNumber": 12,
+   "partName": "UPPER PRIMARY SCHOO JAGATPUR R.N.-2",
+   "partId": 523416
+  },
+  {
+   "partNumber": 13,
+   "partName": "PRIMARY SCHOOL MAURAMSHALA R.NO.-1",
+   "partId": 523417
+  },
+  {
+   "partNumber": 14,
+   "partName": "PRIMARY SCHOOL MAURAMSHALA R.NO.-2",
+   "partId": 523418
+  },
+  {
+   "partNumber": 15,
+   "partName": "UPPER PRIMARY SCHOOL MATETHU R.N.-1",
+   "partId": 523419
+  },
+  {
+   "partNumber": 16,
+   "partName": "UPPER PRIMARY SCHOOL MATETHU R.N.-2",
+   "partId": 523420
+  },
+  {
+   "partNumber": 17,
+   "partName": "UPPER PRIMARY SCHOOL MATETHU R.N.-3",
+   "partId": 523421
+  },
+  {
+   "partNumber": 18,
+   "partName": "UPPER PRIMARY SCHOOL MATETHU R.NO.4",
+   "partId": 523465
+  },
+  {
+   "partNumber": 19,
+   "partName": "PRIMARY SCHOOL BEERBHADRAPATTI II R.NO.-1",
+   "partId": 523422
+  },
+  {
+   "partNumber": 20,
+   "partName": "PRIMARY SCHOOL BEERBHADRAPATTI II R.NO.2",
+   "partId": 523466
+  },
+  {
+   "partNumber": 21,
+   "partName": "PRIMARY SCHOOL BEERBHADRAPATTI SITUATED GRAM PRATAPSINGHPATTI",
+   "partId": 523423
+  },
+  {
+   "partNumber": 22,
+   "partName": "UPPER PRIMARY SCHOOL KANAKPUR R.N.-1",
+   "partId": 523424
+  },
+  {
+   "partNumber": 23,
+   "partName": "UPPER PRIMARY SCHOOL KANAKPUR R.N.-2",
+   "partId": 523425
+  },
+  {
+   "partNumber": 24,
+   "partName": "PRIMARY SCHOOL BHIKHAMAPUR R.NO.-1",
+   "partId": 523426
+  },
+  {
+   "partNumber": 25,
+   "partName": "UPPER PRIMARY SCHOOL DANUPUR PATTE PASCHIM R.N.-1",
+   "partId": 523427
+  },
+  {
+   "partNumber": 26,
+   "partName": "UPPER PRIMARY SCHOOL DANUPUR PATTI PASCHIM R.N.-2",
+   "partId": 523428
+  },
+  {
+   "partNumber": 27,
+   "partName": "UPPER PRIMARY SCHOOL JODHAPUR",
+   "partId": 523429
+  },
+  {
+   "partNumber": 28,
+   "partName": "PRIMARY SCHOOL ASAIPUR",
+   "partId": 523430
+  },
+  {
+   "partNumber": 29,
+   "partName": "UPPER PRIMARY SCHOOL DASWATPUR R.N.-1",
+   "partId": 523431
+  },
+  {
+   "partNumber": 30,
+   "partName": "UPPER PRIMARY SCHOOL DASWATPUR R.N.-2",
+   "partId": 523432
+  },
+  {
+   "partNumber": 31,
+   "partName": "UPPER PRIMARY SCHOOL DASHVATPUR R.NO.3",
+   "partId": 523467
+  },
+  {
+   "partNumber": 32,
+   "partName": "UPPER PRIMARY SCHOOL BIRAMPUR R.N.-1",
+   "partId": 523433
+  },
+  {
+   "partNumber": 33,
+   "partName": "UPPER PRIMARY SCHOOL BIRAMPUR R.N.-2",
+   "partId": 523434
+  },
+  {
+   "partNumber": 34,
+   "partName": "PRIMARY SCHOOL MEENAPUR R.NO.-1",
+   "partId": 523435
+  },
+  {
+   "partNumber": 35,
+   "partName": "PRIMARY SCHOOL MEENAPUR R.NO.-2",
+   "partId": 523436
+  },
+  {
+   "partNumber": 36,
+   "partName": "PRIMARY SCHOOL LOKMANPUR",
+   "partId": 523437
+  },
+  {
+   "partNumber": 37,
+   "partName": "PRIMARY SCHOOL VIJAIPUR",
+   "partId": 523438
+  },
+  {
+   "partNumber": 38,
+   "partName": "PRIMARY SCHOOL MEENAPUR SITUATED GRAM KANTIRAMPUR",
+   "partId": 523439
+  },
+  {
+   "partNumber": 39,
+   "partName": "PRIMARY SCHOOL AINACHHA R.NO.-1",
+   "partId": 523440
+  },
+  {
+   "partNumber": 40,
+   "partName": "PRIMARY SCHOOL AINACH R.NO.-2",
+   "partId": 523468
+  },
+  {
+   "partNumber": 41,
+   "partName": "DR. RAMMANOHAR  LOHIYA INTER COLLEGE SAGARPUR BAVAI R.NO.-1",
+   "partId": 523441
+  },
+  {
+   "partNumber": 42,
+   "partName": "DR. RAMMANOHAR  LOHIYA INTER COLLEGE SAGARPUR BAVAI R.NO.-2",
+   "partId": 523442
+  },
+  {
+   "partNumber": 43,
+   "partName": "DR RAMMAHOHAR LOHIYA INTER COLLEGE SAGARPUR BAVAI R.NO.- 3",
+   "partId": 523469
+  },
+  {
+   "partNumber": 44,
+   "partName": "PRIMARY SCHOOL BAVAI SITUATED GRAM SARAYRUDDI",
+   "partId": 523443
+  },
+  {
+   "partNumber": 45,
+   "partName": "RAM TAVANKAL INTER COLLEGE ROHI R.NO-1",
+   "partId": 523444
+  },
+  {
+   "partNumber": 46,
+   "partName": "RAM TAVANKAL INTER COLLEGE ROHI R.NO.-2",
+   "partId": 523445
+  },
+  {
+   "partNumber": 47,
+   "partName": "RAM TAVANKAL INTER COLLEGE ROHI R.NO.-3",
+   "partId": 523470
+  },
+  {
+   "partNumber": 48,
+   "partName": "PRIMARY SCHOOL ROHI SHUKLAN R.NO.-1",
+   "partId": 523446
+  },
+  {
+   "partNumber": 49,
+   "partName": "PRIMARY SCHOOL ROHI SHUKLAN R.NO-2",
+   "partId": 523447
+  },
+  {
+   "partNumber": 50,
+   "partName": "COMPOSITE VIDAYLAY DASHRATHPUR BAYAVA",
+   "partId": 523448
+  },
+  {
+   "partNumber": 51,
+   "partName": "COMPOSITE VIDAYLAY BAYAWAN R.N.-1",
+   "partId": 523449
+  },
+  {
+   "partNumber": 52,
+   "partName": "COMPOSITE VIDAYLAY BAYAWAN R.N.-2",
+   "partId": 523450
+  },
+  {
+   "partNumber": 53,
+   "partName": "PRIMARY SCHOOL CHAKSARNATH R.NO.-1",
+   "partId": 523451
+  },
+  {
+   "partNumber": 54,
+   "partName": "PRIMARY SCHOOL CHSKSARNATH.NO.-2",
+   "partId": 523471
+  },
+  {
+   "partNumber": 55,
+   "partName": "COMPOSITE VIDAYLAY HARIHARPUR MATUKA",
+   "partId": 523452
+  },
+  {
+   "partNumber": 56,
+   "partName": "PRIMARY SCHOOL PILKHUNA R.NO.-1",
+   "partId": 523453
+  },
+  {
+   "partNumber": 57,
+   "partName": "PRIMARY SCHOOL PILKHUNA R.NO.-2",
+   "partId": 523454
+  },
+  {
+   "partNumber": 58,
+   "partName": "PRIMARY SCHOOL PILKHUNA R.NO.-3",
+   "partId": 523472
+  },
+  {
+   "partNumber": 59,
+   "partName": "PRIMARY SCHOOL SRIKANTPUR R.NO.-1",
+   "partId": 523455
+  },
+  {
+   "partNumber": 60,
+   "partName": "PRIMARY SCHOOL SRIKANTPUR R.NO.-2",
+   "partId": 523456
+  },
+  {
+   "partNumber": 61,
+   "partName": "PRIMARY SCHOOL SOBARI R.NO.-1",
+   "partId": 523457
+  },
+  {
+   "partNumber": 62,
+   "partName": "PRIMARY SCHOOL SOBARI R.NO.-2",
+   "partId": 523458
+  },
+  {
+   "partNumber": 63,
+   "partName": "JUNIOR HIGH SCHOOL SOBARI",
+   "partId": 523061
+  },
+  {
+   "partNumber": 64,
+   "partName": "COMPOSITE VIDAYLAY  MUNGARI",
+   "partId": 523062
+  },
+  {
+   "partNumber": 65,
+   "partName": "COMPOSITE VIDAYLAY KUBIHARDOPATTI",
+   "partId": 523063
+  },
+  {
+   "partNumber": 66,
+   "partName": "COMPOSITE VIDAYLAY CHAURAKALA R.N.-1",
+   "partId": 523064
+  },
+  {
+   "partNumber": 67,
+   "partName": "COMPOSITE VIDAYLAY CHAURAKALA R.N.-2",
+   "partId": 523065
+  },
+  {
+   "partNumber": 68,
+   "partName": "PRIMARY SCHOOL JIYANPUR R.NO.-1",
+   "partId": 523066
+  },
+  {
+   "partNumber": 69,
+   "partName": "PRIMARY SCHOOL JIYANPUR R.NO.-2",
+   "partId": 523067
+  },
+  {
+   "partNumber": 70,
+   "partName": "PRIMARY SCHOOL JIYANPUR R.NO.-3",
+   "partId": 523473
+  },
+  {
+   "partNumber": 71,
+   "partName": "COMPOSITE VIDAYLAY BAIRIPAWA R.N.-1",
+   "partId": 523068
+  },
+  {
+   "partNumber": 72,
+   "partName": "COMPOSITE VIDAYLAY BAIRIPAWA R.N.-2",
+   "partId": 523069
+  },
+  {
+   "partNumber": 73,
+   "partName": "UPPER PRIMARY SCHOOL  AMILHRA R.N.-1",
+   "partId": 523070
+  },
+  {
+   "partNumber": 74,
+   "partName": "UPPER PRIMARY SCHOOL  AMILHRA R.N.-2",
+   "partId": 523071
+  },
+  {
+   "partNumber": 75,
+   "partName": "UPPER PRIMARY SCHOOL AMILAHARA R.NO.3",
+   "partId": 523474
+  },
+  {
+   "partNumber": 76,
+   "partName": "COMPOSITE VIDAYLAY KARIGAVAN R.N.-1",
+   "partId": 523072
+  },
+  {
+   "partNumber": 77,
+   "partName": "COMPOSITE VIDAYLAY KARIGAVAN R.N.-2",
+   "partId": 523073
+  },
+  {
+   "partNumber": 78,
+   "partName": "COMPOSITE VIDAYLAY KARIGAVAN R.N.-3",
+   "partId": 523074
+  },
+  {
+   "partNumber": 79,
+   "partName": "COMPOSITE VIDAYLAY KUSHAULI R.N.-1",
+   "partId": 523075
+  },
+  {
+   "partNumber": 80,
+   "partName": "COMPOSITE VIDAYLAY KUSHAULI R.N.-2",
+   "partId": 523076
+  },
+  {
+   "partNumber": 81,
+   "partName": "COMPOSITE VIDAYLAY NATHIPUR R.N.-1",
+   "partId": 523077
+  },
+  {
+   "partNumber": 82,
+   "partName": "COMPOSITE VIDAYLAY NATHIPUR R.N.-2",
+   "partId": 523078
+  },
+  {
+   "partNumber": 83,
+   "partName": "COMPOSITE VIDAYLAY NATHIPUR R.N.-3",
+   "partId": 523079
+  },
+  {
+   "partNumber": 84,
+   "partName": "COMPOSITE VIDAYLAY NATHAIPUR R.NO.-4",
+   "partId": 523475
+  },
+  {
+   "partNumber": 85,
+   "partName": "COMPOSITE VIDAYLAY SAGARRAYPUR  R.N.-1",
+   "partId": 523080
+  },
+  {
+   "partNumber": 86,
+   "partName": "COMPOSITE VIDAYLAY SAGARRAYPUR  R.N.-2",
+   "partId": 523081
+  },
+  {
+   "partNumber": 87,
+   "partName": "COMPOSITE VIDAYLAY SIKHAPUR R.N.-1",
+   "partId": 523082
+  },
+  {
+   "partNumber": 88,
+   "partName": "COMPOSITE VIDAYLAY SIKHAPUR R.NO.-3",
+   "partId": 523476
+  },
+  {
+   "partNumber": 89,
+   "partName": "COMPOSITE VIDYLAYA SIKHAPUR R.O.-2",
+   "partId": 523459
+  },
+  {
+   "partNumber": 90,
+   "partName": "PRIMARY SCHOOL PURE BAHURIYA",
+   "partId": 523083
+  },
+  {
+   "partNumber": 91,
+   "partName": "COMPOSITE VIDAYLAY GANDHI R.N.-1",
+   "partId": 523084
+  },
+  {
+   "partNumber": 92,
+   "partName": "COMPOSITE VIDAYLAY GANDHI R.N.-2",
+   "partId": 523085
+  },
+  {
+   "partNumber": 93,
+   "partName": "COMPOSITE VIDAYLAY GANDHI R.NO.-3",
+   "partId": 523477
+  },
+  {
+   "partNumber": 94,
+   "partName": "COMPOSITE VIDAYLAY BHAGVANPUR CHAUTHAR R.N.-1",
+   "partId": 523086
+  },
+  {
+   "partNumber": 95,
+   "partName": "COMPOSITE VIDAYLAY BHAGVANPUR CHAUTHAR R.N.-2",
+   "partId": 523087
+  },
+  {
+   "partNumber": 96,
+   "partName": "PRIMARY SCHOOL MADANPUR",
+   "partId": 523088
+  },
+  {
+   "partNumber": 97,
+   "partName": "PRIMARY SCHOOL HOLPUR",
+   "partId": 523089
+  },
+  {
+   "partNumber": 98,
+   "partName": "PRIMARY SCHOOL KAULAPUR R.NO.-1",
+   "partId": 523090
+  },
+  {
+   "partNumber": 99,
+   "partName": "PRIMARY SCHOOL KAULAPUR R.NO-2",
+   "partId": 523091
+  },
+  {
+   "partNumber": 100,
+   "partName": "PRIMARY SCHOOL KAULAPUR R.NO-3",
+   "partId": 523092
+  },
+  {
+   "partNumber": 101,
+   "partName": "PRIMARY SCHOOL PUREKANUNGOYAN R.NO.-1",
+   "partId": 523093
+  },
+  {
+   "partNumber": 102,
+   "partName": "PRIMARY SCHOOL PUREKANUNGOYAN R.NO.-2",
+   "partId": 523094
+  },
+  {
+   "partNumber": 103,
+   "partName": "PRIMARY SCHOOL KHANAPUR R.NO.-1",
+   "partId": 523095
+  },
+  {
+   "partNumber": 104,
+   "partName": "PRIMARY SCHOOL KHANAPUR R.NO.-2",
+   "partId": 523096
+  },
+  {
+   "partNumber": 105,
+   "partName": "PRIMARY SCHOOL KHANAPUR R.NO.-3",
+   "partId": 523478
+  },
+  {
+   "partNumber": 106,
+   "partName": "PRIMARY SCHOOL BALIPUR R.NO.-1",
+   "partId": 523097
+  },
+  {
+   "partNumber": 107,
+   "partName": "PRIMARY SCHOOL BALIPUR R.NO.-2",
+   "partId": 523479
+  },
+  {
+   "partNumber": 108,
+   "partName": "PANCHYAT BHAWAN JANGALPUR R.NO-1",
+   "partId": 523098
+  },
+  {
+   "partNumber": 109,
+   "partName": "PANCHYAT BHAWAN JANGALPUR R.NO.-2",
+   "partId": 523099
+  },
+  {
+   "partNumber": 110,
+   "partName": "COMPOSITE VIDAYLAY BADAGANVA  R.N.-1",
+   "partId": 523100
+  },
+  {
+   "partNumber": 111,
+   "partName": "COMPOSITE VIDAYLAY BADHAGANVA  R.N.-2",
+   "partId": 523101
+  },
+  {
+   "partNumber": 112,
+   "partName": "COMPOSITE VIDAYLAY BADHAGANVA R.N.-3",
+   "partId": 523102
+  },
+  {
+   "partNumber": 113,
+   "partName": "COMPOSITE VIDAYLAY BHARATAPUR R.N.-1",
+   "partId": 523103
+  },
+  {
+   "partNumber": 114,
+   "partName": "COMPOSITE VIDAYLAY BHARATAPUR R.N.-2",
+   "partId": 523104
+  },
+  {
+   "partNumber": 115,
+   "partName": "PRIMARY SCHOOL PARSHURAMPUR",
+   "partId": 523105
+  },
+  {
+   "partNumber": 116,
+   "partName": "COMPOSITE VIDAYLAY KANCHANPUR",
+   "partId": 523106
+  },
+  {
+   "partNumber": 117,
+   "partName": "COMPOSITE VIDAYLAY TRIBHUWANPUR R.N.-1",
+   "partId": 523107
+  },
+  {
+   "partNumber": 118,
+   "partName": "COMPOSITE VIDYLAYA TRIBHUVANPUR R.NO.-2",
+   "partId": 523460
+  },
+  {
+   "partNumber": 119,
+   "partName": "COMPOSITE VIDAYLAY KALAKA PURA  R.N.-1",
+   "partId": 523108
+  },
+  {
+   "partNumber": 120,
+   "partName": "COMPOSITE VIDAYLAY KALAKA PURA  R.N.-2",
+   "partId": 523109
+  },
+  {
+   "partNumber": 121,
+   "partName": "COMPOSITE VIDAYLAY KALAKA PURA  R.N.-3",
+   "partId": 523110
+  },
+  {
+   "partNumber": 122,
+   "partName": "COMPOSITE SCHOOL KALIPUR R.NO.-1",
+   "partId": 523111
+  },
+  {
+   "partNumber": 123,
+   "partName": "COMPOSITE VIDAYLAY KALIPUR R.NO.-3",
+   "partId": 523480
+  },
+  {
+   "partNumber": 124,
+   "partName": "COMPOSITE SCHOOL KALIPUR R.NO.-2",
+   "partId": 523112
+  },
+  {
+   "partNumber": 125,
+   "partName": "COMPOSITE VIDAYLAY RAGURAMPUR",
+   "partId": 523113
+  },
+  {
+   "partNumber": 126,
+   "partName": "GRAM PANCHAYAT SACHIVALAY RAMAIPUR",
+   "partId": 523114
+  },
+  {
+   "partNumber": 127,
+   "partName": "COMPOSITE VIDAYLAY PUREVISHVANATH R.N.-1",
+   "partId": 523115
+  },
+  {
+   "partNumber": 128,
+   "partName": "COMPOSITE VIDAYLAY PUREVISHVANATH R.N.-2",
+   "partId": 523116
+  },
+  {
+   "partNumber": 129,
+   "partName": "PRIMARY SCHOOL BICHHIYA R.NO.-1",
+   "partId": 523117
+  },
+  {
+   "partNumber": 130,
+   "partName": "PRIMARY SCHOOL BICHHIYA R.NO.-2",
+   "partId": 523118
+  },
+  {
+   "partNumber": 131,
+   "partName": "PRIMARY SCHOOL BICHHIYA R.NO.-3",
+   "partId": 523119
+  },
+  {
+   "partNumber": 132,
+   "partName": "PRIMARY SCHOOL SIKICHAURA",
+   "partId": 523120
+  },
+  {
+   "partNumber": 133,
+   "partName": "PRIMARY SCHOOL KURMAICHA R.NO.-1",
+   "partId": 523121
+  },
+  {
+   "partNumber": 134,
+   "partName": "PRIMARY SCHOOL KURMAICHA R.NO.-2",
+   "partId": 523122
+  },
+  {
+   "partNumber": 135,
+   "partName": "PRIMARY SCHOOL KURMAICHA R.NO.-3",
+   "partId": 523123
+  },
+  {
+   "partNumber": 136,
+   "partName": "PRIMARY SCHOOL KURMAICHA R.NO.-4",
+   "partId": 523481
+  },
+  {
+   "partNumber": 137,
+   "partName": "PRIMARY SCHOOL NAUDHAN R.NO.-1",
+   "partId": 523124
+  },
+  {
+   "partNumber": 138,
+   "partName": "PRIMARY SCHOOL NAUDHAN R.NO.-2",
+   "partId": 523125
+  },
+  {
+   "partNumber": 139,
+   "partName": "PRIMARY SCHOOL NAUDHAN R.NO.-3",
+   "partId": 523126
+  },
+  {
+   "partNumber": 140,
+   "partName": "PRIMARY SCHOOL NAUDHAN R.NO.-4",
+   "partId": 523482
+  },
+  {
+   "partNumber": 141,
+   "partName": "COMPOSITE VIDAYLAY SUDHAVAI R.N.-1",
+   "partId": 523127
+  },
+  {
+   "partNumber": 142,
+   "partName": "COMPOSITE VIDAYLAY SUDHAVAI R.N.-2",
+   "partId": 523128
+  },
+  {
+   "partNumber": 143,
+   "partName": "COMPOSITE VIDAYLAY SUDHAVAI R.N.-3",
+   "partId": 523129
+  },
+  {
+   "partNumber": 144,
+   "partName": "PRIMARY SCHOOL MANGAPATTI",
+   "partId": 523130
+  },
+  {
+   "partNumber": 145,
+   "partName": "COMPOSITE VIDAYLAY GODHANA R.N.-1",
+   "partId": 523131
+  },
+  {
+   "partNumber": 146,
+   "partName": "COMPOSITE VIDAYLAY GODHANA R.N.-2",
+   "partId": 523132
+  },
+  {
+   "partNumber": 147,
+   "partName": "COMPOSITE VIDAYLAY GODHANA R.N.-3",
+   "partId": 523133
+  },
+  {
+   "partNumber": 148,
+   "partName": "COMPOSITE VIDAYLAY GODHANA R.NO.-4",
+   "partId": 523483
+  },
+  {
+   "partNumber": 149,
+   "partName": "COMPOSITE VIDAYLAY DARWASI R.N.-1",
+   "partId": 523134
+  },
+  {
+   "partNumber": 150,
+   "partName": "COMPOSITE VIDAYLAY DARWASI R.N.-2",
+   "partId": 523135
+  },
+  {
+   "partNumber": 151,
+   "partName": "COMPOSITE VIDAYLAY DARWASI R.N.-3",
+   "partId": 523136
+  },
+  {
+   "partNumber": 152,
+   "partName": "PRIMARY SCHOOL UNJMUGRAHA R.NO.-1",
+   "partId": 523137
+  },
+  {
+   "partNumber": 153,
+   "partName": "PRIMARY SCHOOL UNJMUGRAHA R.NO.-2",
+   "partId": 523138
+  },
+  {
+   "partNumber": 154,
+   "partName": "COMPOSITE VIDAYLAY KHRAGAPUR R.NO.-1",
+   "partId": 523139
+  },
+  {
+   "partNumber": 155,
+   "partName": "COMPOSITE VIDYLAYA KHARGAPUR R.NO.-2",
+   "partId": 523461
+  },
+  {
+   "partNumber": 156,
+   "partName": "COMPOSITE VIDAYLAY RAMKISUNPUR BASAHI R.N.-1",
+   "partId": 523140
+  },
+  {
+   "partNumber": 157,
+   "partName": "COMPOSITE VIDAYLAY RAMKISUNPUR BASAHI R.N.-2",
+   "partId": 523141
+  },
+  {
+   "partNumber": 158,
+   "partName": "PANCHYAT BHAWAN BHAVAPUR",
+   "partId": 523142
+  },
+  {
+   "partNumber": 159,
+   "partName": "COMPOSITE VIDAYLAY GOLKHRA R.NO.-1",
+   "partId": 523143
+  },
+  {
+   "partNumber": 160,
+   "partName": "COMPOSITE VIDAYLAY GOLKHARA R.NO.-2",
+   "partId": 523484
+  },
+  {
+   "partNumber": 161,
+   "partName": "COMPOSITE VIDAYLAY KEWATAHE R.N.-1",
+   "partId": 523144
+  },
+  {
+   "partNumber": 162,
+   "partName": "COMPOSITE VIDAYLAY KEWATAHE R.N.-2",
+   "partId": 523145
+  },
+  {
+   "partNumber": 163,
+   "partName": "PRIMARY SCHOOL JHARIHAGPUR",
+   "partId": 523146
+  },
+  {
+   "partNumber": 164,
+   "partName": "COMPOSITE VIDAYLAY ARAI R.NO.-1",
+   "partId": 523147
+  },
+  {
+   "partNumber": 165,
+   "partName": "COMPOSITE VIDAYLAY ARAI R.NO.-2",
+   "partId": 523485
+  },
+  {
+   "partNumber": 166,
+   "partName": "COMPOSITE VIDAYLAY KHEMAPUR",
+   "partId": 523148
+  },
+  {
+   "partNumber": 167,
+   "partName": "PRIMARY SCHOOL KATRA",
+   "partId": 523149
+  },
+  {
+   "partNumber": 168,
+   "partName": "COMPOSITE VIDAYLAY DUGUNA R.N.-1",
+   "partId": 523150
+  },
+  {
+   "partNumber": 169,
+   "partName": "COMPOSITE VIDAYLAY DUGUNA R.N.-2",
+   "partId": 523151
+  },
+  {
+   "partNumber": 170,
+   "partName": "PANCHYAT BHAWAN PARSANI",
+   "partId": 523152
+  },
+  {
+   "partNumber": 171,
+   "partName": "PRIMARY SCHOOL BHATGAVA",
+   "partId": 523153
+  },
+  {
+   "partNumber": 172,
+   "partName": "COMPOSITE VIDAYLAY KUDHI KALA R.N.-1",
+   "partId": 523154
+  },
+  {
+   "partNumber": 173,
+   "partName": "COMPOSITE VIDAYLAY KUDHI KALA R.N.-2",
+   "partId": 523155
+  },
+  {
+   "partNumber": 174,
+   "partName": "PRIMARY SCHOOL KUDIKHURDA R.NO.1",
+   "partId": 523156
+  },
+  {
+   "partNumber": 175,
+   "partName": "PRIMARY SCHOOL KUDIKHUDRA R.NO.-2",
+   "partId": 523486
+  },
+  {
+   "partNumber": 176,
+   "partName": "PRIMARY SCHOOL SHERPUR R.NO.-1",
+   "partId": 523157
+  },
+  {
+   "partNumber": 177,
+   "partName": "PRIMARY SCHOOL SHERPUR R.NO.-2",
+   "partId": 523487
+  },
+  {
+   "partNumber": 178,
+   "partName": "JUNIOR HIGH SCHOOL TEDHI UPARVAR",
+   "partId": 523158
+  },
+  {
+   "partNumber": 179,
+   "partName": "PRIMARY SCHOOL MAVAIYATHANSINGH",
+   "partId": 523159
+  },
+  {
+   "partNumber": 180,
+   "partName": "PRIMARY SCHOOL MAVAIYA BASGOTI",
+   "partId": 523160
+  },
+  {
+   "partNumber": 181,
+   "partName": "JUNIOR HIGH SCHOOL LAKHANPUR BHADRAV",
+   "partId": 523161
+  },
+  {
+   "partNumber": 182,
+   "partName": "COMPOSITE VIDAYLAY BHABHORI R.N.-1",
+   "partId": 523162
+  },
+  {
+   "partNumber": 183,
+   "partName": "COMPOSITE VIDAYLAY BHABHORI R.N.-2",
+   "partId": 523163
+  },
+  {
+   "partNumber": 184,
+   "partName": "COMPOSITE VIDAYLAY TULSI KALA R.NO.-1",
+   "partId": 523164
+  },
+  {
+   "partNumber": 185,
+   "partName": "COMPOSITE VIDAYLAY TULSI KALA R.NO.-2",
+   "partId": 523165
+  },
+  {
+   "partNumber": 186,
+   "partName": "SRINARAYAN INTER COLLEGE DHANTULSI R.NO.-1",
+   "partId": 523166
+  },
+  {
+   "partNumber": 187,
+   "partName": "SRINARAYAN INTER COLLEGE DHANTULSI R.NO.-2",
+   "partId": 523167
+  },
+  {
+   "partNumber": 188,
+   "partName": "COMPOSITE VIDAYLAY GAJADHARPUR R.N.-1",
+   "partId": 523168
+  },
+  {
+   "partNumber": 189,
+   "partName": "COMPOSITE VIDAYLAY GAJADHARPUR R.N.-2",
+   "partId": 523169
+  },
+  {
+   "partNumber": 190,
+   "partName": "COMPOSITE VIDAYLAY CHECHUWA R.N.-1",
+   "partId": 523170
+  },
+  {
+   "partNumber": 191,
+   "partName": "COMPOSITE VIDAYLAY CHECHUWA R.N.-2",
+   "partId": 523171
+  },
+  {
+   "partNumber": 192,
+   "partName": "COMPOSITE VIDAYLAY KALIK MAVAIYA R.N.-1",
+   "partId": 523172
+  },
+  {
+   "partNumber": 193,
+   "partName": "COMPOSITE VIDAYLAY KALIK MAVAIYA R.N.-2",
+   "partId": 523173
+  },
+  {
+   "partNumber": 194,
+   "partName": "COMPOSITE VIDAYLAY ITAHARA R.N.-1",
+   "partId": 523174
+  },
+  {
+   "partNumber": 195,
+   "partName": "COMPOSITE VIDAYLAY ITAHARA R.N.-2",
+   "partId": 523175
+  },
+  {
+   "partNumber": 196,
+   "partName": "COMPOSITE VIDAYLAY ITAHARA R.N.-3",
+   "partId": 523176
+  },
+  {
+   "partNumber": 197,
+   "partName": "PRIMARY SCHOOL DEEGH R.NO.-1",
+   "partId": 523177
+  },
+  {
+   "partNumber": 198,
+   "partName": "PRIMARY SCHOOL DEEGH R.NO.-2",
+   "partId": 523178
+  },
+  {
+   "partNumber": 199,
+   "partName": "JUNIOR HIGH SCHOOL KATARA R.NO.-1",
+   "partId": 523179
+  },
+  {
+   "partNumber": 200,
+   "partName": "JUNIOR HIGH SCHOOL KATARA R.NO.-2",
+   "partId": 523180
+  },
+  {
+   "partNumber": 201,
+   "partName": "JUNIOR HIGH SCHOOL KATARA R.NO.-3",
+   "partId": 523181
+  },
+  {
+   "partNumber": 202,
+   "partName": "COMPOSITE VIDAYLAY TALAVA DEGHA R.N.-1",
+   "partId": 523182
+  },
+  {
+   "partNumber": 203,
+   "partName": "COMPOSITE VIDAYLAY TALAVA DEGHA R.N.-2",
+   "partId": 523183
+  },
+  {
+   "partNumber": 204,
+   "partName": "PRIMARY SCHOOL CHAKIYA",
+   "partId": 523184
+  },
+  {
+   "partNumber": 205,
+   "partName": "JUNIOR HIGH SCHOOL BANKAT R.NO.-1",
+   "partId": 523185
+  },
+  {
+   "partNumber": 206,
+   "partName": "JUNIOR HIGH SCHOOL BANKAT R.NO.-2",
+   "partId": 523186
+  },
+  {
+   "partNumber": 207,
+   "partName": "PRIMARY SCHOOL BANKAT R.NO.-1",
+   "partId": 523187
+  },
+  {
+   "partNumber": 208,
+   "partName": "PRIMARY SCHOOL BANKAT R.NO.-2",
+   "partId": 523488
+  },
+  {
+   "partNumber": 209,
+   "partName": "COMPOSITE VIDAYLAY BARIPUR R.N.-1",
+   "partId": 523188
+  },
+  {
+   "partNumber": 210,
+   "partName": "COMPOSITE VIDAYLAY BARIPUR R.N.-2",
+   "partId": 523189
+  },
+  {
+   "partNumber": 211,
+   "partName": "COMPOSITE VIDAYLAY BARIPUR R.N.-3",
+   "partId": 523190
+  },
+  {
+   "partNumber": 212,
+   "partName": "PRIMARY SCHOOL NAREPAR R.NO.-1",
+   "partId": 523191
+  },
+  {
+   "partNumber": 213,
+   "partName": "PRIMARY SCHOOL NAREPAR R.NO.-2",
+   "partId": 523192
+  },
+  {
+   "partNumber": 214,
+   "partName": "LAVKUSH INTER COLLEGE SITAMADI R.NO.-1",
+   "partId": 523193
+  },
+  {
+   "partNumber": 215,
+   "partName": "LAVKUSH INTER COLLEGE SITAMADI R.NO.-2",
+   "partId": 523194
+  },
+  {
+   "partNumber": 216,
+   "partName": "LAVKUSH INTER COLLEGE SITAMADI R.NO.-3",
+   "partId": 523489
+  },
+  {
+   "partNumber": 217,
+   "partName": "PRIMARY SCHOOL MAJHAGAVA R.NO.-1",
+   "partId": 523195
+  },
+  {
+   "partNumber": 218,
+   "partName": "PRIMARY SCHOOL MAJHAGAVA R.NO.-2",
+   "partId": 523196
+  },
+  {
+   "partNumber": 219,
+   "partName": "PRATHMIK VIDAYLAY KOIRAUNA I R.N.-1",
+   "partId": 523197
+  },
+  {
+   "partNumber": 220,
+   "partName": "PRATHMIK VIDAYLAY KOIRAUNA I R.N.-2",
+   "partId": 523198
+  },
+  {
+   "partNumber": 221,
+   "partName": "PRIMARY SCHOOL KOIRAUNA I R.NO.-3",
+   "partId": 523490
+  },
+  {
+   "partNumber": 222,
+   "partName": "SRIKALIKA INTER COLLEGE KOIRAUNA R.NO.-1",
+   "partId": 523199
+  },
+  {
+   "partNumber": 223,
+   "partName": "SRIKALIKA INTER COLLEGE KOIRAUNA R.NO.-2",
+   "partId": 523200
+  },
+  {
+   "partNumber": 224,
+   "partName": "SRIKALIKA INTER COLLEGE KOIRAUNA R.NO.-3",
+   "partId": 523491
+  },
+  {
+   "partNumber": 225,
+   "partName": "PRIMARY SCHOOL BERVAPAHADPUR R.NO.-1",
+   "partId": 523201
+  },
+  {
+   "partNumber": 226,
+   "partName": "PRIMARY SCHOOL BERVAPAHADPUR R.NO.-2",
+   "partId": 523202
+  },
+  {
+   "partNumber": 227,
+   "partName": "PRIMARY SCHOOL BERVAPAHADPUR R.NO.-3",
+   "partId": 523492
+  },
+  {
+   "partNumber": 228,
+   "partName": "PRIMARY SCHOOL MARSADA",
+   "partId": 523203
+  },
+  {
+   "partNumber": 229,
+   "partName": "COMPOSITE VIDAYLAY MADANPUR",
+   "partId": 523204
+  },
+  {
+   "partNumber": 230,
+   "partName": "COMPOSITE VIDAYLAY GOPALAPUR",
+   "partId": 523205
+  },
+  {
+   "partNumber": 231,
+   "partName": "COMPOSITE VIDAYLAY GADH KALINJAR",
+   "partId": 523206
+  },
+  {
+   "partNumber": 232,
+   "partName": "PRIMARY SCHOOL PHULVARIYA",
+   "partId": 523207
+  },
+  {
+   "partNumber": 233,
+   "partName": "PRIMARY SCHOOL BHIKHIPUR R.NO.-1",
+   "partId": 523208
+  },
+  {
+   "partNumber": 234,
+   "partName": "PRIMARY SCHOOL BHIKHIPUR R.NO.-2",
+   "partId": 523209
+  },
+  {
+   "partNumber": 235,
+   "partName": "PRIMARY SCHOOL BHAVAPUR",
+   "partId": 523210
+  },
+  {
+   "partNumber": 236,
+   "partName": "PRIMARY SCHOOL JANGALPUR R.NO.-1",
+   "partId": 523211
+  },
+  {
+   "partNumber": 237,
+   "partName": "PRIMARY SCHOOL JANGALPUR R.NO-2",
+   "partId": 523212
+  },
+  {
+   "partNumber": 238,
+   "partName": "PRIMARY SCHOOL JANGALPUR R.NO-3",
+   "partId": 523213
+  },
+  {
+   "partNumber": 239,
+   "partName": "PRIMARY SCHOOL JANGALPUR R.NO.-4",
+   "partId": 523493
+  },
+  {
+   "partNumber": 240,
+   "partName": "PRIMARY SCHOOL KULMANPUR",
+   "partId": 523214
+  },
+  {
+   "partNumber": 241,
+   "partName": "PRIMARY SCHOOL MAILAUNA R.NO.-1",
+   "partId": 523215
+  },
+  {
+   "partNumber": 242,
+   "partName": "PRIMARY SCHOOL MAILAUNA R.NO.-2",
+   "partId": 523216
+  },
+  {
+   "partNumber": 243,
+   "partName": "PRIMARY SCHOOL JANGIGANJ R.NO.-1",
+   "partId": 523217
+  },
+  {
+   "partNumber": 244,
+   "partName": "PRIMARY SCHOOL JANGIGANJ R.NO.-2",
+   "partId": 523218
+  },
+  {
+   "partNumber": 245,
+   "partName": "SAHAKARI SAMITI SARAYJADEESH R.NO.-1",
+   "partId": 523219
+  },
+  {
+   "partNumber": 246,
+   "partName": "SAHAKARI SAMITI SARAYJADEESH R.NO.-2",
+   "partId": 523220
+  },
+  {
+   "partNumber": 247,
+   "partName": "SAHAKARI SAMITI SARAYJAGDEESH R.NO.-3",
+   "partId": 523494
+  },
+  {
+   "partNumber": 248,
+   "partName": "PRIMARY SCHOOL SARAYJAGDEESH",
+   "partId": 523221
+  },
+  {
+   "partNumber": 249,
+   "partName": "COMPOSITE VIDAYLAY CHANDAPUR R.N.-1",
+   "partId": 523222
+  },
+  {
+   "partNumber": 250,
+   "partName": "COMPOSITE VIDAYLAY CHANDAPUR R.N.-2",
+   "partId": 523223
+  },
+  {
+   "partNumber": 251,
+   "partName": "PRIMARY SCHOOL SADASHIVPATTI R.NO.-1",
+   "partId": 523224
+  },
+  {
+   "partNumber": 252,
+   "partName": "PRIMARY SCHOOL SADASHIVPATTI R.NO.-2",
+   "partId": 523225
+  },
+  {
+   "partNumber": 253,
+   "partName": "PRIMARY SCHOOL SHIVSEVAKPATTI R.No.-1",
+   "partId": 523226
+  },
+  {
+   "partNumber": 254,
+   "partName": "PRIMARY SCHOOL SHIVSEVAKPATTI R.NO.-2",
+   "partId": 523495
+  },
+  {
+   "partNumber": 255,
+   "partName": "PRIMARY SCHOOL DASHARAMPATTI",
+   "partId": 523227
+  },
+  {
+   "partNumber": 256,
+   "partName": "COMPOSITE VIDAYLAY ARTA",
+   "partId": 523228
+  },
+  {
+   "partNumber": 257,
+   "partName": "COMPOSITE VIDAYLAY TULSIPATTI R.N.-1",
+   "partId": 523229
+  },
+  {
+   "partNumber": 258,
+   "partName": "COMPOSITE VIDAYLAY TULSIPATTI R.N.-2",
+   "partId": 523230
+  },
+  {
+   "partNumber": 259,
+   "partName": "COMPOSITE VIDAYLAY TULSIPATTI R.N.-3",
+   "partId": 523231
+  },
+  {
+   "partNumber": 260,
+   "partName": "COMPOSITE VIDAYLAY TULSIPATTI R.N.-4",
+   "partId": 523232
+  },
+  {
+   "partNumber": 261,
+   "partName": "PRIMARY SCHOOL SHERPUR PINDRA HISSA JOGAPUR R.NO.1",
+   "partId": 523233
+  },
+  {
+   "partNumber": 262,
+   "partName": "PRIMARY SCHOOL SHERPUR PINDRA HISSA JOGAPURR.NO.-2",
+   "partId": 523496
+  },
+  {
+   "partNumber": 263,
+   "partName": "COMPOSITE VIDAYLAY SONPUR YADAV BASTI  R.N.-1",
+   "partId": 523234
+  },
+  {
+   "partNumber": 264,
+   "partName": "COMPOSITE VIDAYLAY SONPUR YADAV BASTI  R.N.-2",
+   "partId": 523235
+  },
+  {
+   "partNumber": 265,
+   "partName": "PRIMARY SCHOOL INARAGAV R.NO.-1",
+   "partId": 523236
+  },
+  {
+   "partNumber": 266,
+   "partName": "PRIMARY SCHOOL INARAGAV R.NO.-2",
+   "partId": 523237
+  },
+  {
+   "partNumber": 267,
+   "partName": "PRIMARY SCHOOL INARAGAV R.NO.-3",
+   "partId": 523238
+  },
+  {
+   "partNumber": 268,
+   "partName": "PRIMARY SCHOOL DUHIYA R.NO.-1",
+   "partId": 523239
+  },
+  {
+   "partNumber": 269,
+   "partName": "PRIMARY SCHOOL DUHIYA R.NO.-2",
+   "partId": 523240
+  },
+  {
+   "partNumber": 270,
+   "partName": "COMPOSITE VIDAYLAY NAGARDAHA R.N.-1",
+   "partId": 523241
+  },
+  {
+   "partNumber": 271,
+   "partName": "COMPOSITE VIDAYLAY NAGARDAHA R.N.-2",
+   "partId": 523242
+  },
+  {
+   "partNumber": 272,
+   "partName": "COMPOSITE VIDAYLAY NAGRADAHA R.NO.-3",
+   "partId": 523497
+  },
+  {
+   "partNumber": 273,
+   "partName": "PRIMARY SCHOOL OJHAPUR",
+   "partId": 523243
+  },
+  {
+   "partNumber": 274,
+   "partName": "COMPOSITE VIDAYLAY SEMRADH R.N.-1",
+   "partId": 523244
+  },
+  {
+   "partNumber": 275,
+   "partName": "COMPOSITE VIDAYLAY SEMRADH R.N.-2",
+   "partId": 523245
+  },
+  {
+   "partNumber": 276,
+   "partName": "PRIMARY SCHOOL MAHMADPUR",
+   "partId": 523246
+  },
+  {
+   "partNumber": 277,
+   "partName": "JUNIOR HIGH SCHOOL PURVA R.NO.-1",
+   "partId": 523247
+  },
+  {
+   "partNumber": 278,
+   "partName": "JUNIOR HIGH SCHOOL PURVA R.NO.-2",
+   "partId": 523248
+  },
+  {
+   "partNumber": 279,
+   "partName": "PRIMARY SCHOOL IBRAHIMPUR R.NO.-1",
+   "partId": 523249
+  },
+  {
+   "partNumber": 280,
+   "partName": "PRIMARY SCHOOL IBRAHIMPUR R.NO.-2",
+   "partId": 523250
+  },
+  {
+   "partNumber": 281,
+   "partName": "PANCHYAT BHAWAN GOPALPUR",
+   "partId": 523251
+  },
+  {
+   "partNumber": 282,
+   "partName": "JUNIOR  HIGH SCHOOL BADARI",
+   "partId": 523252
+  },
+  {
+   "partNumber": 283,
+   "partName": "PANCHYAT BHAWAN JAGDISHPUR",
+   "partId": 523253
+  },
+  {
+   "partNumber": 284,
+   "partName": "MATA SEVAK INTER MEDIATE COLLEGE BAIRIBISA R.NO.-1",
+   "partId": 523254
+  },
+  {
+   "partNumber": 285,
+   "partName": "MATA SEVAK INTER MEDITAE COLLEGE BAIRIBISAR.NO.-5",
+   "partId": 523498
+  },
+  {
+   "partNumber": 286,
+   "partName": "MATA SEVAK INTER MEDIATE COLLEGE BAIRIBISA R.NO.-2",
+   "partId": 523255
+  },
+  {
+   "partNumber": 287,
+   "partName": "MATA SEVAK INTER MEDIATE COLLEGE BAIRIBISA R.NO.-3",
+   "partId": 523256
+  },
+  {
+   "partNumber": 288,
+   "partName": "MATA SEVAK INTER MEDIATE COLLEGE BAIRIBISA R.NO.-4",
+   "partId": 523257
+  },
+  {
+   "partNumber": 289,
+   "partName": "JUNIOR HIGH SCHOOL TALIYA",
+   "partId": 523258
+  },
+  {
+   "partNumber": 290,
+   "partName": "COMPOSITE VIDAYLAY JAGAPUR R.N.-1",
+   "partId": 523259
+  },
+  {
+   "partNumber": 291,
+   "partName": "PRIMARY SCHOOL SONAICHA R.NO.-1",
+   "partId": 523260
+  },
+  {
+   "partNumber": 292,
+   "partName": "PRIMARY SCHOOL SONAICHA R.NO.-2",
+   "partId": 523261
+  },
+  {
+   "partNumber": 293,
+   "partName": "COMPOSITE VIDAYLAY BERASPUR R.N.-1",
+   "partId": 523262
+  },
+  {
+   "partNumber": 294,
+   "partName": "COMPOSITE VIDAYLAY BERASPUR R.N.-2",
+   "partId": 523263
+  },
+  {
+   "partNumber": 295,
+   "partName": "COMPOSITE VIDAYLAY KEDARPUR",
+   "partId": 523264
+  },
+  {
+   "partNumber": 296,
+   "partName": "COMPOSITE VIDAYLAY BEHAROJPUR R.N.-1",
+   "partId": 523265
+  },
+  {
+   "partNumber": 297,
+   "partName": "COMPOSITE VIDAYLAY BIHAROJPUR R.N.-2",
+   "partId": 523266
+  },
+  {
+   "partNumber": 298,
+   "partName": "COMPOSITE VIDAYLAY BIHROJPUR R.NO.-3",
+   "partId": 523499
+  },
+  {
+   "partNumber": 299,
+   "partName": "PRIMARY SCHOOL BAIKUNTHPATTI URF DHANAPUR",
+   "partId": 523267
+  },
+  {
+   "partNumber": 300,
+   "partName": "COMPOSITE VIDAYLAY SUJATPUR R.N.-1",
+   "partId": 523268
+  },
+  {
+   "partNumber": 301,
+   "partName": "COMPOSITE VIDAYLAY SUJATPUR R.N.-2",
+   "partId": 523269
+  },
+  {
+   "partNumber": 302,
+   "partName": "PRIMARY SCHOOL CHERAPUR R.NO.-1",
+   "partId": 523270
+  },
+  {
+   "partNumber": 303,
+   "partName": "PRIMARY SCHOOL CHERAPUR R.NO.-2",
+   "partId": 523271
+  },
+  {
+   "partNumber": 304,
+   "partName": "JUNIOR HIGH SCHOOL BHAGATPATTI BIRNAI R.NO.-1",
+   "partId": 523272
+  },
+  {
+   "partNumber": 305,
+   "partName": "JUNIOR HIGH SCHOOL BHAGATPATTI BIRNAI R.NO.-2",
+   "partId": 523273
+  },
+  {
+   "partNumber": 306,
+   "partName": "PRIMARY SCHOOL CHHATMI R.NO.-1",
+   "partId": 523274
+  },
+  {
+   "partNumber": 307,
+   "partName": "PRIMARY SCHOOL CHHATMI R.NO.-2",
+   "partId": 523275
+  },
+  {
+   "partNumber": 308,
+   "partName": "PRIMARY SCHOOL KISHUNDEVPUR",
+   "partId": 523276
+  },
+  {
+   "partNumber": 309,
+   "partName": "MAHARSHI SHIV BRAT LAL INTER COLLEGE RADHASWAMIDHAM",
+   "partId": 523277
+  },
+  {
+   "partNumber": 310,
+   "partName": "PRIMARY SCHOOL GHANSHYAMPUR R.NO.-1",
+   "partId": 523278
+  },
+  {
+   "partNumber": 311,
+   "partName": "PRIMARY SCHOOL GHANSHYAMPUR R.NO.-2",
+   "partId": 523279
+  },
+  {
+   "partNumber": 312,
+   "partName": "COMPOSITE VIDAYLAY TILANGA R.N.-1",
+   "partId": 523280
+  },
+  {
+   "partNumber": 313,
+   "partName": "COMPOSITE VIDAYLAY TILANGA R.N.-2",
+   "partId": 523281
+  },
+  {
+   "partNumber": 314,
+   "partName": "COMPOSITE VIDAYLAY GULAURI R.N.-1",
+   "partId": 523282
+  },
+  {
+   "partNumber": 315,
+   "partName": "COMPOSITE VIDAYLAY GULAURI R.N.-2",
+   "partId": 523283
+  },
+  {
+   "partNumber": 316,
+   "partName": "PRIMARY SCHOOL DHANAPUR R.NO.-1",
+   "partId": 523284
+  },
+  {
+   "partNumber": 317,
+   "partName": "PRIMARY SCHOOL DHANAPUR R.NO.-2",
+   "partId": 523500
+  },
+  {
+   "partNumber": 318,
+   "partName": "UCHCHA PRATHMIK VIDYLAYA ANAPUR R.NO.-1",
+   "partId": 523462
+  },
+  {
+   "partNumber": 319,
+   "partName": "CCHCHA PRATHMIL VIDYLAY ANAPUR R.NO.-2",
+   "partId": 523501
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRIMARY SCHOOL GAHARPUR R.NO.-1",
+   "partId": 523285
+  },
+  {
+   "partNumber": 321,
+   "partName": "PRIMARY SCHOOL GAHARPUR R.NO-2",
+   "partId": 523286
+  },
+  {
+   "partNumber": 322,
+   "partName": "PRIMARY SCHOOL CHAHARPUR",
+   "partId": 523287
+  },
+  {
+   "partNumber": 323,
+   "partName": "PRIMARY SCHOOL SONKHARI R.NO.-1",
+   "partId": 523288
+  },
+  {
+   "partNumber": 324,
+   "partName": "PRIMARY SCHOOL SONKHARI R.NO.-2",
+   "partId": 523289
+  },
+  {
+   "partNumber": 325,
+   "partName": "PRIMARY SCHOOL CHAKMANDHATA R.NO.-1",
+   "partId": 523290
+  },
+  {
+   "partNumber": 326,
+   "partName": "PRIMARY SCHOOL CHAKMANDHATA R.NO.-2",
+   "partId": 523291
+  },
+  {
+   "partNumber": 327,
+   "partName": "JUNIOR HIGH SCHOOL CHAKMADHATA",
+   "partId": 523292
+  },
+  {
+   "partNumber": 328,
+   "partName": "COMPOSITE VIDAYLAY BAIDAKHASA R.N.-1",
+   "partId": 523293
+  },
+  {
+   "partNumber": 329,
+   "partName": "COMPOSITE VIDAYLAY BADAKHASA R.N.-2",
+   "partId": 523294
+  },
+  {
+   "partNumber": 330,
+   "partName": "COMPOSITE VIDAYLAY CHITAIPUR",
+   "partId": 523295
+  },
+  {
+   "partNumber": 331,
+   "partName": "PRIMARY SCHOOL THANIPUR R.NO.-1",
+   "partId": 523296
+  },
+  {
+   "partNumber": 332,
+   "partName": "PRIMARY SCHOOL THANIPUR R.NO.-2",
+   "partId": 523502
+  },
+  {
+   "partNumber": 333,
+   "partName": "PRIMARY SCHOOL HARIHARPUR",
+   "partId": 523297
+  },
+  {
+   "partNumber": 334,
+   "partName": "PRATHMIK  VIDAYLAY PUREBAHUREYA I",
+   "partId": 523298
+  },
+  {
+   "partNumber": 335,
+   "partName": "JUNIOR HIGH SCHOOL JAGAPUR R.NO.-1",
+   "partId": 523299
+  },
+  {
+   "partNumber": 336,
+   "partName": "JUNIOR HIGH SCHOOL JAGAPUR R.NO.-2",
+   "partId": 523300
+  },
+  {
+   "partNumber": 337,
+   "partName": "COMPOSITE VIDAYLAY DUHIYA R.NO.1",
+   "partId": 523301
+  },
+  {
+   "partNumber": 338,
+   "partName": "COMPOSITE VIDAYLAY DUHIYA R.NO.-2",
+   "partId": 523503
+  },
+  {
+   "partNumber": 339,
+   "partName": "PRIMARY SCHOOL BHAVSINGHPUR",
+   "partId": 523302
+  },
+  {
+   "partNumber": 340,
+   "partName": "COMPOSITE VIDAYLAY ANRI KA PURA",
+   "partId": 523303
+  },
+  {
+   "partNumber": 341,
+   "partName": "GIRLS JUNIOR HIGH SCHOOL UMRIYA R.NO.1",
+   "partId": 523304
+  },
+  {
+   "partNumber": 342,
+   "partName": "GIRLS JUNIOR HIGH SCHOOL UMARIYA R.NO.-2",
+   "partId": 523504
+  },
+  {
+   "partNumber": 343,
+   "partName": "PRIMARY SCHOOL UMRIYA R.NO.-1",
+   "partId": 523305
+  },
+  {
+   "partNumber": 344,
+   "partName": "PRIMARY SCHOOL UMRIYA R.NO.-2",
+   "partId": 523306
+  },
+  {
+   "partNumber": 345,
+   "partName": "COMPOSITE VIDAYLAY MILKI R.NO.-1",
+   "partId": 523307
+  },
+  {
+   "partNumber": 346,
+   "partName": "COMPOSITE VIDAYLAY MILKI R.NO.-2",
+   "partId": 523505
+  },
+  {
+   "partNumber": 347,
+   "partName": "COMPOSITE VIDAYLAY KASIRAMPUR",
+   "partId": 523308
+  },
+  {
+   "partNumber": 348,
+   "partName": "SRIRAM MADHAYMIK VIDAYLAY SAREPUR URF UMARPUR R.N.-1",
+   "partId": 523309
+  },
+  {
+   "partNumber": 349,
+   "partName": "SRIRAM MADHAYMIK VIDAYLAY SAREPUR URF UMARPUR R.N.-2",
+   "partId": 523310
+  },
+  {
+   "partNumber": 350,
+   "partName": "COMPOSITE VIDAYLAY CHAK SUNDER R.N.-1",
+   "partId": 523311
+  },
+  {
+   "partNumber": 351,
+   "partName": "COMPOSITE VIDAYLAY CHAK SUNDER R.N.-2",
+   "partId": 523312
+  },
+  {
+   "partNumber": 352,
+   "partName": "COMPOSITE VIDAYLAY HINCHANPUR R.N.-1",
+   "partId": 523313
+  },
+  {
+   "partNumber": 353,
+   "partName": "COMPOSITE VIDAYLAY HINCHANPUR R.N.-2",
+   "partId": 523314
+  },
+  {
+   "partNumber": 354,
+   "partName": "PRIMARY SCHOOL SANSARAPUR R.NO.-1",
+   "partId": 523315
+  },
+  {
+   "partNumber": 355,
+   "partName": "PRIMARY SCHOOL SANSARAPUR R.NO.-2",
+   "partId": 523316
+  },
+  {
+   "partNumber": 356,
+   "partName": "PANCHYAT BHAWAN CHAKSAHAB",
+   "partId": 523317
+  },
+  {
+   "partNumber": 357,
+   "partName": "COMPOSITE VIDAYLAY BHAGWAS R.NO.-1",
+   "partId": 523318
+  },
+  {
+   "partNumber": 358,
+   "partName": "COMPOSITE VIDAYLAY BHAGVAS R.NO.-2",
+   "partId": 523506
+  },
+  {
+   "partNumber": 359,
+   "partName": "PRIMARY SCHOOL BHOPATPATTI R.NO.-1",
+   "partId": 523319
+  },
+  {
+   "partNumber": 360,
+   "partName": "PRIMARY SCHOOL BHOPATPATTI R.NO.-2",
+   "partId": 523320
+  },
+  {
+   "partNumber": 361,
+   "partName": "COMPOSITE VIDAYLAY GHATAMPUR",
+   "partId": 523321
+  },
+  {
+   "partNumber": 362,
+   "partName": "PRIMARY SCHOOL DULHIPUR",
+   "partId": 523322
+  },
+  {
+   "partNumber": 363,
+   "partName": "PRIMARY SCHOOL SHIVRAMPUR R.NO.-1",
+   "partId": 523323
+  },
+  {
+   "partNumber": 364,
+   "partName": "PRIMARY SCHOOL SHIVRAMPUR R.NO.-2",
+   "partId": 523507
+  },
+  {
+   "partNumber": 365,
+   "partName": "COMPOSITE VIDAYLAY KSHTRSAHAPUR R.N.-1",
+   "partId": 523324
+  },
+  {
+   "partNumber": 366,
+   "partName": "COMPOSITE VIDAYLAY KSHAATRSAHAPUR R.N.-2",
+   "partId": 523325
+  },
+  {
+   "partNumber": 367,
+   "partName": "COMPOSITE VIDAYLAY RAYPUR R.NO.-1",
+   "partId": 523326
+  },
+  {
+   "partNumber": 368,
+   "partName": "COMPOSITE VIDAYLAY RAYPUR R.NO.-2",
+   "partId": 523508
+  },
+  {
+   "partNumber": 369,
+   "partName": "PRIMARY SCHOOL KASIDAHA R.NO.-1",
+   "partId": 523327
+  },
+  {
+   "partNumber": 370,
+   "partName": "PRIMARY SCHOOL KASIDAHA R.NO.-2",
+   "partId": 523328
+  },
+  {
+   "partNumber": 371,
+   "partName": "PRIMARY SCHOOL KASIDAHA R.NO.-3",
+   "partId": 523329
+  },
+  {
+   "partNumber": 372,
+   "partName": "PRIMARY SCHOOL KASIDAHA R.NO.-4",
+   "partId": 523330
+  },
+  {
+   "partNumber": 373,
+   "partName": "PRIMARY SCHOOL KASIDAHA R.NO.-5",
+   "partId": 523509
+  },
+  {
+   "partNumber": 374,
+   "partName": "COMPOSITE VIDAYLAY GANESHRAYPUR R.N.-1",
+   "partId": 523331
+  },
+  {
+   "partNumber": 375,
+   "partName": "COMPOSITE VIDAYLAY GANESHRAYPUR R.N.-2",
+   "partId": 523332
+  },
+  {
+   "partNumber": 376,
+   "partName": "COMPOSITE VIDAYLAY GANESHRAYPUR R.N.-3",
+   "partId": 523333
+  },
+  {
+   "partNumber": 377,
+   "partName": "COMPOSITE VIDAYLAY BHIDIURA R.NO.-1",
+   "partId": 523334
+  },
+  {
+   "partNumber": 378,
+   "partName": "COMPOSITE VIDAYLAY BHIDIURA R.NO.-2",
+   "partId": 523510
+  },
+  {
+   "partNumber": 379,
+   "partName": "COMPOSITE VIDAYLAY PALI R.N.-1",
+   "partId": 523335
+  },
+  {
+   "partNumber": 380,
+   "partName": "COMPOSITE VIDAYLAY PALI R.N.-2",
+   "partId": 523336
+  },
+  {
+   "partNumber": 381,
+   "partName": "COMPOSITE VIDAYLAY PALI R.N.-3",
+   "partId": 523337
+  },
+  {
+   "partNumber": 382,
+   "partName": "COMPOSITE VIDAYLAY KASIYAPUR R.N.-1",
+   "partId": 523338
+  },
+  {
+   "partNumber": 383,
+   "partName": "COMPOSITE VIDAYLAY KASIYAPUR R.N.-2",
+   "partId": 523339
+  },
+  {
+   "partNumber": 384,
+   "partName": "PRIMARY SCHOOL GHORAHA R.NO.-1",
+   "partId": 523340
+  },
+  {
+   "partNumber": 385,
+   "partName": "PRIMARY SCHOOL GHORAHA R.NO.-2",
+   "partId": 523341
+  },
+  {
+   "partNumber": 386,
+   "partName": "PRIMARY SCHOOL PAKRIKHURDA R.NO.-1",
+   "partId": 523342
+  },
+  {
+   "partNumber": 387,
+   "partName": "PRIMARY SCHOOL PAKRIKHURDA R.NO.-2",
+   "partId": 523343
+  },
+  {
+   "partNumber": 388,
+   "partName": "PRIMARY SCHOOL PAKRIKHURDA R.NO.-3",
+   "partId": 523511
+  },
+  {
+   "partNumber": 389,
+   "partName": "COMPOSITE VIDAYLAY VARI R.N.-1",
+   "partId": 523344
+  },
+  {
+   "partNumber": 390,
+   "partName": "COMPOSITE VIDAYLAY VARI R.N.-2",
+   "partId": 523345
+  },
+  {
+   "partNumber": 391,
+   "partName": "COMPOSITE VIDAYLAY VARI R.N.-3",
+   "partId": 523346
+  },
+  {
+   "partNumber": 392,
+   "partName": "COMPOSITE VIDAYLAY DASRATHPUR R.N.-1",
+   "partId": 523347
+  },
+  {
+   "partNumber": 393,
+   "partName": "COMPOSITE VIDAYLAY DASRATHPUR R.N.-2",
+   "partId": 523348
+  },
+  {
+   "partNumber": 394,
+   "partName": "PRIMARY SCHOOL GALAHAIYA",
+   "partId": 523349
+  },
+  {
+   "partNumber": 395,
+   "partName": "PRIMARY SCHOOL CHAKKALUTI",
+   "partId": 523350
+  },
+  {
+   "partNumber": 396,
+   "partName": "PRIMARY SCHOOL CHAKKATULI GAJDHARA R.NO.-1",
+   "partId": 523351
+  },
+  {
+   "partNumber": 397,
+   "partName": "PRIMARY SCHOOL CHAKKLUTI GAJDHARA R.NO.-2",
+   "partId": 523512
+  },
+  {
+   "partNumber": 398,
+   "partName": "PRIMARY SCHOOL KAVAL R.NO.-1",
+   "partId": 523352
+  },
+  {
+   "partNumber": 399,
+   "partName": "PRIMARY SCHOOL KAVAL R.NO.-2",
+   "partId": 523353
+  },
+  {
+   "partNumber": 400,
+   "partName": "PRIMARY SCHOOL KAVAL SITUATED GRAM CHAKSIKHARI R.NO.-1",
+   "partId": 523354
+  },
+  {
+   "partNumber": 401,
+   "partName": "PRIMARY SCHOOL KAVAL SITUATED GRAM CHAKSIKHARI R.NO.-2",
+   "partId": 523355
+  },
+  {
+   "partNumber": 402,
+   "partName": "JUNIOR HIGH SCHOOL NANDAPUR",
+   "partId": 523356
+  },
+  {
+   "partNumber": 403,
+   "partName": "COMPOSITE VIDAYLAY PUREGANEREYA",
+   "partId": 523357
+  },
+  {
+   "partNumber": 404,
+   "partName": "PRIMARY SCHOOL JAYSINGHPUR",
+   "partId": 523358
+  },
+  {
+   "partNumber": 405,
+   "partName": "PRIMARY SCHOOL CHAKKISHUNDAS",
+   "partId": 523359
+  },
+  {
+   "partNumber": 406,
+   "partName": "PRIMARY SCHOOL TINBARVA CHAKKISHUNDAS",
+   "partId": 523360
+  },
+  {
+   "partNumber": 407,
+   "partName": "COMPOSITE VIDAYLAY KESWPUR SARPATHA R.N.-1",
+   "partId": 523361
+  },
+  {
+   "partNumber": 408,
+   "partName": "COMPOSITE VIDAYLAY KESWPUR SARPATHA R.N.-2",
+   "partId": 523362
+  },
+  {
+   "partNumber": 409,
+   "partName": "COMPOSITE VIDAYLAY KESHAVPUR SARPATHA R.NO.-3",
+   "partId": 523513
+  },
+  {
+   "partNumber": 410,
+   "partName": "PRIMARY SCHOOL DEVAJITPUR",
+   "partId": 523363
+  },
+  {
+   "partNumber": 411,
+   "partName": "PRIMARY SCHOOL BADA GEEH, CHHOTA DEEH",
+   "partId": 523364
+  },
+  {
+   "partNumber": 412,
+   "partName": "MUKHYA BHAWAN VIBHUTI NARAYAN GOVERNMENT INTER COLLEGE GYANPUR R.NO.-1",
+   "partId": 523365
+  },
+  {
+   "partNumber": 413,
+   "partName": "MUKHYA BHAWAN VIBHUTI NARAYAN GOVERNMENT INTER COLLEGE GYANPUR R.NO.-2",
+   "partId": 523366
+  },
+  {
+   "partNumber": 414,
+   "partName": "MUKHYA BHAWAN VIBHUTI NARAYAN GOVERNMENT INTER COLLEGE GYANPUR R.NO.-3",
+   "partId": 523367
+  },
+  {
+   "partNumber": 415,
+   "partName": "KASHI NARESH UNIVERSITY GYANPUR,BHADOHI R.NO.-1",
+   "partId": 523368
+  },
+  {
+   "partNumber": 416,
+   "partName": "KASHI NARESH UNIVERSITY GYANPUR,BHADOHI R.NO.2",
+   "partId": 523514
+  },
+  {
+   "partNumber": 417,
+   "partName": "KASHI NARESH UNIVERSITY GYANPUR,BHADOHI R.NO.-3",
+   "partId": 523369
+  },
+  {
+   "partNumber": 418,
+   "partName": "KASHI NARESH UNIVERSITY GYANPUR,BHADOHI R.NO.-4",
+   "partId": 523370
+  },
+  {
+   "partNumber": 419,
+   "partName": "DISTRICT PANCHAYAT OFFICE GYANPUR R.NO.-1",
+   "partId": 523371
+  },
+  {
+   "partNumber": 420,
+   "partName": "DISTRICT PANCHAYAT OFFICE GYANPUR R.NO.-2",
+   "partId": 523372
+  },
+  {
+   "partNumber": 421,
+   "partName": "COMPOSITE VIDAYLAY GYANPUR R.NO.-1",
+   "partId": 523373
+  },
+  {
+   "partNumber": 422,
+   "partName": "COMPOSITE VIDAYLAY GYANPUR R.NO.-2",
+   "partId": 523515
+  },
+  {
+   "partNumber": 423,
+   "partName": "PRIMARY SCHOOL GYANPUR DEHAT",
+   "partId": 523374
+  },
+  {
+   "partNumber": 424,
+   "partName": "PRIMARY SCHOOL CHAKTODAR",
+   "partId": 523375
+  },
+  {
+   "partNumber": 425,
+   "partName": "COMPOSITE VIDAYLAY GIRDHARPUR",
+   "partId": 523376
+  },
+  {
+   "partNumber": 426,
+   "partName": "PRIMARY SCHOOL GIRDHARPUR II",
+   "partId": 523377
+  },
+  {
+   "partNumber": 427,
+   "partName": "COMPOSITE VIDAYLAY RAM KA PURA",
+   "partId": 523378
+  },
+  {
+   "partNumber": 428,
+   "partName": "PANCHYAT BHAWAN PURE GOSAIDAS",
+   "partId": 523379
+  },
+  {
+   "partNumber": 429,
+   "partName": "GIRLS PRIMARY SCHOOL GYANPUR",
+   "partId": 523380
+  },
+  {
+   "partNumber": 430,
+   "partName": "PANCHYAT BHAWAN TEJIKAPURA",
+   "partId": 523381
+  },
+  {
+   "partNumber": 431,
+   "partName": "PURV MADHAMIK VIDYALYA LAKHANO",
+   "partId": 523382
+  },
+  {
+   "partNumber": 432,
+   "partName": "GULABDHAR MISHRA INTER COLLEGE GOPIGANJ R.NO.-1",
+   "partId": 523383
+  },
+  {
+   "partNumber": 433,
+   "partName": "GULABDHAR MISHRA INTER COLLEGE GOPIGANJ R.NO.-2",
+   "partId": 523384
+  },
+  {
+   "partNumber": 434,
+   "partName": "GULABDHAR MISHRA INTER COLLEGE GOPIGANJ R.NO.-3",
+   "partId": 523385
+  },
+  {
+   "partNumber": 435,
+   "partName": "GULABDHAR MISHRA INTER COLLEGE GOPIGANJ R.NO.-4",
+   "partId": 523386
+  },
+  {
+   "partNumber": 436,
+   "partName": "GULABDHAR MISHRA INTER COLLEGE GOPIGANJ R.NO.-5",
+   "partId": 523387
+  },
+  {
+   "partNumber": 437,
+   "partName": "GULABDHAR MISHRA INTER COLLEGE GOPIGANJ R.NO.-6",
+   "partId": 523516
+  },
+  {
+   "partNumber": 438,
+   "partName": "PRIMARY SCHOOL GOPIGANJ R.NO.-1",
+   "partId": 523388
+  },
+  {
+   "partNumber": 439,
+   "partName": "PRIMARY SCHOOL GOPIGANJ R.NO.-2",
+   "partId": 523389
+  },
+  {
+   "partNumber": 440,
+   "partName": "PANCHYAT BHAWAN PURE BHAGVAT R.NO.-1",
+   "partId": 523390
+  },
+  {
+   "partNumber": 441,
+   "partName": "PANCHYAT BHAWAN PURE BHAGVAT R.NO.-2",
+   "partId": 523517
+  },
+  {
+   "partNumber": 442,
+   "partName": "JILA PANCHYAT HIGH SEKENDARI SCHOOL GOPIGANJ R.NO.-1",
+   "partId": 523391
+  },
+  {
+   "partNumber": 443,
+   "partName": "JILA PANCHYAT HIGH SEKENDARI SCHOOL GOPIGANJ R.NO.-2",
+   "partId": 523392
+  },
+  {
+   "partNumber": 444,
+   "partName": "PRIMARY SCHOOL KATHAUTA",
+   "partId": 523393
+  },
+  {
+   "partNumber": 445,
+   "partName": "PRIMARY SCHOOL GERAI R.NO.-1",
+   "partId": 523394
+  },
+  {
+   "partNumber": 446,
+   "partName": "PRIMARY SCHOOL GERAI R.NO.-2",
+   "partId": 523395
+  },
+  {
+   "partNumber": 447,
+   "partName": "PRIMARY SCHOOL GERAI R.NO.-3",
+   "partId": 523396
+  },
+  {
+   "partNumber": 448,
+   "partName": "PRIMARY SCHOOL KALIDEVI MAHAL GOPIGANJ R.NO.-1",
+   "partId": 523397
+  },
+  {
+   "partNumber": 449,
+   "partName": "PRIMARY SCHOOL KALIDEVI MAHAL GOPIGANJ R.NO.-2",
+   "partId": 523398
+  },
+  {
+   "partNumber": 450,
+   "partName": "PRIMARY SCHOOL KALIDEVI MAHAL GOPIGANJ R.NO.-3",
+   "partId": 523399
+  },
+  {
+   "partNumber": 451,
+   "partName": "PRIMARY SCHOOL KALIDEVI MAHAL GOPIGANJ R.NO.-4",
+   "partId": 523400
+  },
+  {
+   "partNumber": 452,
+   "partName": "PRIMARY SCHOOL KALIDEVI MAHAL GOPIGANJ R.NO.-5",
+   "partId": 523401
+  },
+  {
+   "partNumber": 453,
+   "partName": "PRIMARY SCHOOL KALIDEVI MAHAL GOPIGANJ R.NO.-6",
+   "partId": 523518
+  },
+  {
+   "partNumber": 454,
+   "partName": "PRIMARY SCHOOL PURE JHAMMAN R.NO.-1",
+   "partId": 523402
+  },
+  {
+   "partNumber": 455,
+   "partName": "PRIMARY SCHOOL PURE JHAMMAN R.NO.-2",
+   "partId": 523403
+  },
+  {
+   "partNumber": 456,
+   "partName": "PRIMARY SCHOOL RAMPUR GHAT R.NO.-1",
+   "partId": 523404
+  },
+  {
+   "partNumber": 457,
+   "partName": "PRIMARY SCHOOL RAMPUR GHAT R.NO.-2",
+   "partId": 523405
+  },
+  {
+   "partNumber": 458,
+   "partName": "COMPOSITE VIDAYLAY AMILAUR",
+   "partId": 523406
+  }
+ ]
+}

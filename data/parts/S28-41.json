@@ -1,0 +1,778 @@
+{
+ "stateCd": "S28",
+ "districtCd": "S2812",
+ "acNumber": 41,
+ "acName": "Kotdwar",
+ "fetchedAt": "2026-11-07T05:54:55",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 153,
+ "maxPart": 153,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "Shivpur-1 Room No 1",
+   "partId": 32350
+  },
+  {
+   "partNumber": 2,
+   "partName": "Shivpur-2 Room No 2",
+   "partId": 32351
+  },
+  {
+   "partNumber": 3,
+   "partName": "Shivpur-3 Room No 3",
+   "partId": 32352
+  },
+  {
+   "partNumber": 4,
+   "partName": "Shivpur-4 Room No 1",
+   "partId": 32353
+  },
+  {
+   "partNumber": 5,
+   "partName": "Shivpur-5 Room No 2",
+   "partId": 32354
+  },
+  {
+   "partNumber": 6,
+   "partName": "Shivpur-6 Room No 3",
+   "partId": 32487
+  },
+  {
+   "partNumber": 7,
+   "partName": "Lalpur-1 (South Wing) Room No.1",
+   "partId": 32355
+  },
+  {
+   "partNumber": 8,
+   "partName": "Lalpur-2 (North Wing) Room No.2",
+   "partId": 32356
+  },
+  {
+   "partNumber": 9,
+   "partName": "Dhruvpur-1",
+   "partId": 32383
+  },
+  {
+   "partNumber": 10,
+   "partName": "Dhruvpur-2",
+   "partId": 32384
+  },
+  {
+   "partNumber": 11,
+   "partName": "Manpur-1 (East Wing) Room No-1",
+   "partId": 32377
+  },
+  {
+   "partNumber": 12,
+   "partName": "Manpur-2 (West Wing) Room No-2",
+   "partId": 32378
+  },
+  {
+   "partNumber": 13,
+   "partName": "Manpur-3 (North Wing) Room No-3",
+   "partId": 32379
+  },
+  {
+   "partNumber": 14,
+   "partName": "Manpur-4 (South Wing) Room No-4",
+   "partId": 32380
+  },
+  {
+   "partNumber": 15,
+   "partName": "Padampur Sukhro-1 Room No-1",
+   "partId": 32360
+  },
+  {
+   "partNumber": 16,
+   "partName": "Padampur Sukhro-2 Room No 2",
+   "partId": 32368
+  },
+  {
+   "partNumber": 17,
+   "partName": "Padampur Sukhro-3 Room No-1",
+   "partId": 32369
+  },
+  {
+   "partNumber": 18,
+   "partName": "Shibbunagar (Padampur Sukharow) Room No 3",
+   "partId": 32370
+  },
+  {
+   "partNumber": 19,
+   "partName": "Padampur Sukhro-4  Room No. 2",
+   "partId": 32359
+  },
+  {
+   "partNumber": 20,
+   "partName": "Padampur Sukhro-5  Room No. 1",
+   "partId": 32361
+  },
+  {
+   "partNumber": 21,
+   "partName": "Padampur Sukhro-6 Room No 2",
+   "partId": 32488
+  },
+  {
+   "partNumber": 22,
+   "partName": "Padampur Sukhro-7  Room No. 1",
+   "partId": 32357
+  },
+  {
+   "partNumber": 23,
+   "partName": "Padampur Sukhro-10  Room No 1",
+   "partId": 32358
+  },
+  {
+   "partNumber": 24,
+   "partName": "Padampur Sukhro-11 Room No. 2",
+   "partId": 32489
+  },
+  {
+   "partNumber": 25,
+   "partName": "Padampur Sukhro-8 Room No 2",
+   "partId": 32366
+  },
+  {
+   "partNumber": 26,
+   "partName": "Padampur Sukhro-9 Room No 3",
+   "partId": 32367
+  },
+  {
+   "partNumber": 27,
+   "partName": "Simalchaur-1 (East Wing) Room No 1",
+   "partId": 32381
+  },
+  {
+   "partNumber": 28,
+   "partName": "Simalchaur-2 (West Wing) Room No 2",
+   "partId": 32382
+  },
+  {
+   "partNumber": 29,
+   "partName": "Balbhadrapur-1 Room No- 1",
+   "partId": 32374
+  },
+  {
+   "partNumber": 30,
+   "partName": "Balbhadrapur-2 Room No- 2",
+   "partId": 32375
+  },
+  {
+   "partNumber": 31,
+   "partName": "Balbhadrapur-3 Room No- 3",
+   "partId": 32376
+  },
+  {
+   "partNumber": 32,
+   "partName": "Shibbunagar-2 (South Wing) Room No 1",
+   "partId": 32372
+  },
+  {
+   "partNumber": 33,
+   "partName": "Shibbunagar-3 ( North Wing) Room No 2",
+   "partId": 32373
+  },
+  {
+   "partNumber": 34,
+   "partName": "Shibbunagar-4",
+   "partId": 32371
+  },
+  {
+   "partNumber": 35,
+   "partName": "Ratanpur Sukhro Devi-1 (East) Room No. 1",
+   "partId": 32362
+  },
+  {
+   "partNumber": 36,
+   "partName": "Ratanpur Sukhro Devi-2(West) Room No. 2",
+   "partId": 32363
+  },
+  {
+   "partNumber": 37,
+   "partName": "Sitabpur-4 Room No-1",
+   "partId": 32389
+  },
+  {
+   "partNumber": 38,
+   "partName": "Sitabpur-2 Room No-2",
+   "partId": 32390
+  },
+  {
+   "partNumber": 39,
+   "partName": "Sitabpur-3",
+   "partId": 32391
+  },
+  {
+   "partNumber": 40,
+   "partName": "Balasaur-1 Room No-1",
+   "partId": 32385
+  },
+  {
+   "partNumber": 41,
+   "partName": "Balasaur-2 Room No-2",
+   "partId": 32386
+  },
+  {
+   "partNumber": 42,
+   "partName": "Balasaur-3 Room No-3",
+   "partId": 32387
+  },
+  {
+   "partNumber": 43,
+   "partName": "Balasaur-4 Room No-4",
+   "partId": 32490
+  },
+  {
+   "partNumber": 44,
+   "partName": "Sitabpur-1 Room No-1",
+   "partId": 32392
+  },
+  {
+   "partNumber": 45,
+   "partName": "Harsinghpur-1 (East) Room No 1",
+   "partId": 32364
+  },
+  {
+   "partNumber": 46,
+   "partName": "Harsinghpur-2 (West) Room No 2",
+   "partId": 32365
+  },
+  {
+   "partNumber": 47,
+   "partName": "Kaudiya",
+   "partId": 32388
+  },
+  {
+   "partNumber": 48,
+   "partName": "Janki Nagar-1 Room No-1",
+   "partId": 32393
+  },
+  {
+   "partNumber": 49,
+   "partName": "Janki Nagar-2 Room No-2",
+   "partId": 32491
+  },
+  {
+   "partNumber": 50,
+   "partName": "Kotdwar Shivalik Nagar Room No. 2",
+   "partId": 32403
+  },
+  {
+   "partNumber": 51,
+   "partName": "Janki Nagar-3 Room No-3",
+   "partId": 32404
+  },
+  {
+   "partNumber": 52,
+   "partName": "Nayagaun Kotdwar",
+   "partId": 32420
+  },
+  {
+   "partNumber": 53,
+   "partName": "Kashirampur Talla Najibabad Road B-1 Room No-1",
+   "partId": 32394
+  },
+  {
+   "partNumber": 54,
+   "partName": "Kashirampur Malla Najibabad Road B-2 Room No-2",
+   "partId": 32395
+  },
+  {
+   "partNumber": 55,
+   "partName": "Kotdwar Nagar Area No 6",
+   "partId": 32396
+  },
+  {
+   "partNumber": 56,
+   "partName": "Kotdwar-1 Room No-1",
+   "partId": 32397
+  },
+  {
+   "partNumber": 57,
+   "partName": "Kashirampur Malla Room No-2",
+   "partId": 32398
+  },
+  {
+   "partNumber": 58,
+   "partName": "Kashirampur Talla Room No-3",
+   "partId": 32399
+  },
+  {
+   "partNumber": 59,
+   "partName": "Govind Nagar Room No-1",
+   "partId": 32400
+  },
+  {
+   "partNumber": 60,
+   "partName": "Govind Nagar Room No-2",
+   "partId": 32401
+  },
+  {
+   "partNumber": 61,
+   "partName": "Kashirampur  Room No-4",
+   "partId": 32402
+  },
+  {
+   "partNumber": 62,
+   "partName": "Kashipur Premnagar Room No-3",
+   "partId": 32492
+  },
+  {
+   "partNumber": 63,
+   "partName": "Kashirampur Pratap Nagar Room No-4",
+   "partId": 32405
+  },
+  {
+   "partNumber": 64,
+   "partName": "Jankinagar Kotdwar-4 Room No-4",
+   "partId": 32493
+  },
+  {
+   "partNumber": 65,
+   "partName": "Jaunpur-1",
+   "partId": 32410
+  },
+  {
+   "partNumber": 66,
+   "partName": "Aampadav Kotdwar-1 Room No-1",
+   "partId": 32417
+  },
+  {
+   "partNumber": 67,
+   "partName": "Aampadav Kotdwar-2 Room No-2",
+   "partId": 32418
+  },
+  {
+   "partNumber": 68,
+   "partName": "Aampadav Kotdwar-3 Room No-3",
+   "partId": 32419
+  },
+  {
+   "partNumber": 69,
+   "partName": "Jaunpur-2",
+   "partId": 32408
+  },
+  {
+   "partNumber": 70,
+   "partName": "Apar Kalabarh-1 North Wing",
+   "partId": 32406
+  },
+  {
+   "partNumber": 71,
+   "partName": "Apar Kalabarh-2 Kalabad",
+   "partId": 32407
+  },
+  {
+   "partNumber": 72,
+   "partName": "Lower Kalabad",
+   "partId": 32409
+  },
+  {
+   "partNumber": 73,
+   "partName": "Jaunpur-3 Room No-1",
+   "partId": 32411
+  },
+  {
+   "partNumber": 74,
+   "partName": "Kotdwar-12 Room No-2",
+   "partId": 32412
+  },
+  {
+   "partNumber": 75,
+   "partName": "Kotdwar-13 Room No-3",
+   "partId": 32414
+  },
+  {
+   "partNumber": 76,
+   "partName": "Garighat Kotdwar-1 Room No-1",
+   "partId": 32415
+  },
+  {
+   "partNumber": 77,
+   "partName": "Garighat Kotdwar-2 Room No-2",
+   "partId": 32416
+  },
+  {
+   "partNumber": 78,
+   "partName": "Giwai Garighat Kotdwar",
+   "partId": 32413
+  },
+  {
+   "partNumber": 79,
+   "partName": "Giwai Garighat Kotdwar Room No-2",
+   "partId": 32494
+  },
+  {
+   "partNumber": 80,
+   "partName": "Malgodam Road Kotdwar-1 Room No-1",
+   "partId": 32425
+  },
+  {
+   "partNumber": 81,
+   "partName": "Malgodam Road Kotdwar-2 Room No-2",
+   "partId": 32426
+  },
+  {
+   "partNumber": 82,
+   "partName": "Malgodam Road kotdwar-3",
+   "partId": 32427
+  },
+  {
+   "partNumber": 83,
+   "partName": "Malgodam Road kotdwar-4 Room No-3",
+   "partId": 32495
+  },
+  {
+   "partNumber": 84,
+   "partName": "Garighat-1 Room No-1",
+   "partId": 32423
+  },
+  {
+   "partNumber": 85,
+   "partName": "Garighat-2 Room No-2",
+   "partId": 32424
+  },
+  {
+   "partNumber": 86,
+   "partName": "Malgodam Road-1 (East) Room No-1",
+   "partId": 32421
+  },
+  {
+   "partNumber": 87,
+   "partName": "Malgodam Road-2 (West) Room No-2",
+   "partId": 32422
+  },
+  {
+   "partNumber": 88,
+   "partName": "Grastanganj Room No. 1",
+   "partId": 32433
+  },
+  {
+   "partNumber": 89,
+   "partName": "Kotdwar Gaun Room No-2",
+   "partId": 32496
+  },
+  {
+   "partNumber": 90,
+   "partName": "Kumbhichaur-1 Room No-1",
+   "partId": 32428
+  },
+  {
+   "partNumber": 91,
+   "partName": "Jeetpur (Kumbhichaur) Room No-1",
+   "partId": 32429
+  },
+  {
+   "partNumber": 92,
+   "partName": "Vishanpur (Kumbhichaur) Room No-2",
+   "partId": 32430
+  },
+  {
+   "partNumber": 93,
+   "partName": "Ratanpur-1 (Kumbhichaur) Room No-2",
+   "partId": 32431
+  },
+  {
+   "partNumber": 94,
+   "partName": "Ratanpur-2 (Kumbhichaur) Room No-3",
+   "partId": 32432
+  },
+  {
+   "partNumber": 95,
+   "partName": "Lalpani-1 Room No-1",
+   "partId": 32434
+  },
+  {
+   "partNumber": 96,
+   "partName": "Lalpani Palli-2 Room No-2",
+   "partId": 32497
+  },
+  {
+   "partNumber": 97,
+   "partName": "Lalpani-3 Room No-3",
+   "partId": 32435
+  },
+  {
+   "partNumber": 98,
+   "partName": "Saneh Room No-1",
+   "partId": 32436
+  },
+  {
+   "partNumber": 99,
+   "partName": "Kothridhak Room No 2",
+   "partId": 32437
+  },
+  {
+   "partNumber": 100,
+   "partName": "Nimbuchaur-1 (Ghamandpur) Room No-1",
+   "partId": 32476
+  },
+  {
+   "partNumber": 101,
+   "partName": "Nimbuchaur-2 (Ghamandpur) Room No-2",
+   "partId": 32477
+  },
+  {
+   "partNumber": 102,
+   "partName": "Nimbuchaur-3 (Ghamandpur) Room No-3",
+   "partId": 32478
+  },
+  {
+   "partNumber": 103,
+   "partName": "Nimbuchaur-4 (Ghamandpur) Room No-4",
+   "partId": 32498
+  },
+  {
+   "partNumber": 104,
+   "partName": "Satichaur",
+   "partId": 32481
+  },
+  {
+   "partNumber": 105,
+   "partName": "Nandpur-1 Room No-1",
+   "partId": 32482
+  },
+  {
+   "partNumber": 106,
+   "partName": "Ghamandpur-1 Room No-1",
+   "partId": 32484
+  },
+  {
+   "partNumber": 107,
+   "partName": "Ghamandpur-2 Room No-2",
+   "partId": 32485
+  },
+  {
+   "partNumber": 108,
+   "partName": "Ghamandpur-3 Room No-3",
+   "partId": 32499
+  },
+  {
+   "partNumber": 109,
+   "partName": "Mawakot-1 Room No-1",
+   "partId": 32479
+  },
+  {
+   "partNumber": 110,
+   "partName": "Mawakot-2 Room No-2",
+   "partId": 32480
+  },
+  {
+   "partNumber": 111,
+   "partName": "Mawakot Room No-3",
+   "partId": 32486
+  },
+  {
+   "partNumber": 112,
+   "partName": "Nandpur-2 Room No-2",
+   "partId": 32483
+  },
+  {
+   "partNumber": 113,
+   "partName": "Padampur Motadhak-1 Room No-1",
+   "partId": 32472
+  },
+  {
+   "partNumber": 114,
+   "partName": "Padampur Motadhak-2 Room No-2",
+   "partId": 32473
+  },
+  {
+   "partNumber": 115,
+   "partName": "Padampur Motadhak-3 Room No-3",
+   "partId": 32474
+  },
+  {
+   "partNumber": 116,
+   "partName": "Umravnagar Padampur Motadhak",
+   "partId": 32475
+  },
+  {
+   "partNumber": 117,
+   "partName": "Durgapur-1 Room No-1",
+   "partId": 32468
+  },
+  {
+   "partNumber": 118,
+   "partName": "Durgapur-2 Room No-2",
+   "partId": 32469
+  },
+  {
+   "partNumber": 119,
+   "partName": "Khunibarh Room No-3",
+   "partId": 32470
+  },
+  {
+   "partNumber": 120,
+   "partName": "Jiwanandpur Room No-4",
+   "partId": 32471
+  },
+  {
+   "partNumber": 121,
+   "partName": "Shivrajpur-1 Room No-1",
+   "partId": 32465
+  },
+  {
+   "partNumber": 122,
+   "partName": "Shivrajpur-2 Room No-2",
+   "partId": 32466
+  },
+  {
+   "partNumber": 123,
+   "partName": "Devrampur (Shivrajpur) Room No-1",
+   "partId": 32467
+  },
+  {
+   "partNumber": 124,
+   "partName": "Haldukhata-1 North Wing",
+   "partId": 32455
+  },
+  {
+   "partNumber": 125,
+   "partName": "Haldukhata-2 South Wing",
+   "partId": 32458
+  },
+  {
+   "partNumber": 126,
+   "partName": "Luthapur",
+   "partId": 32456
+  },
+  {
+   "partNumber": 127,
+   "partName": "Jashodharpur",
+   "partId": 32457
+  },
+  {
+   "partNumber": 128,
+   "partName": "Manpur(Kalalghati) Room No-1",
+   "partId": 32459
+  },
+  {
+   "partNumber": 129,
+   "partName": "Lachampur(Kalalghati) Room No-2",
+   "partId": 32460
+  },
+  {
+   "partNumber": 130,
+   "partName": "Maganpur(Kalalghati) Room No-3",
+   "partId": 32461
+  },
+  {
+   "partNumber": 131,
+   "partName": "Trilokpur(Kalalghati) Room No-4",
+   "partId": 32462
+  },
+  {
+   "partNumber": 132,
+   "partName": "Udayrampur(Kalalghati) Room No-1",
+   "partId": 32463
+  },
+  {
+   "partNumber": 133,
+   "partName": "Bhimsinghpur",
+   "partId": 32500
+  },
+  {
+   "partNumber": 134,
+   "partName": "Udayrampur Nayawad (Kalalghati) Room No-2",
+   "partId": 32464
+  },
+  {
+   "partNumber": 135,
+   "partName": "Udayrampur Nayawad (Kalalghati) Room No-3",
+   "partId": 32501
+  },
+  {
+   "partNumber": 136,
+   "partName": "Ramdayalpur (Lokmanipur Sigaddi)-1",
+   "partId": 32443
+  },
+  {
+   "partNumber": 137,
+   "partName": "Lokmanipur Sigaddi",
+   "partId": 32444
+  },
+  {
+   "partNumber": 138,
+   "partName": "Dalippur Sigaddi-1 Room No-1",
+   "partId": 32445
+  },
+  {
+   "partNumber": 139,
+   "partName": "Dalippur Sigaddi-2 Room No-2",
+   "partId": 32446
+  },
+  {
+   "partNumber": 140,
+   "partName": "Jhandichaur Uttari-1 Room No-1",
+   "partId": 32452
+  },
+  {
+   "partNumber": 141,
+   "partName": "Umravnagar (Jhandichaur) Room no 2",
+   "partId": 32450
+  },
+  {
+   "partNumber": 142,
+   "partName": "Jhandichaur Uttari-2 Room No-3",
+   "partId": 32451
+  },
+  {
+   "partNumber": 143,
+   "partName": "Jhandichaur Paschami-1 Room No-1",
+   "partId": 32453
+  },
+  {
+   "partNumber": 144,
+   "partName": "Jhandichaur West-2 Room No-2",
+   "partId": 32502
+  },
+  {
+   "partNumber": 145,
+   "partName": "Jhandichaur Paschami-3 Room No-3",
+   "partId": 32454
+  },
+  {
+   "partNumber": 146,
+   "partName": "Jhandichaur Purvi-2 East Wing",
+   "partId": 32448
+  },
+  {
+   "partNumber": 147,
+   "partName": "Jhandichaur Purvi-1 East Wing Room No 1",
+   "partId": 32447
+  },
+  {
+   "partNumber": 148,
+   "partName": "Jhandichaur Purvi-3 East Wing Room No 2",
+   "partId": 32449
+  },
+  {
+   "partNumber": 149,
+   "partName": "Kalagarh-1 Room No-1",
+   "partId": 32438
+  },
+  {
+   "partNumber": 150,
+   "partName": "Kalagarh-2 Room No-3",
+   "partId": 32439
+  },
+  {
+   "partNumber": 151,
+   "partName": "Kalagarh-3 Room No-4",
+   "partId": 32440
+  },
+  {
+   "partNumber": 152,
+   "partName": "Kalagarh East Wing",
+   "partId": 32441
+  },
+  {
+   "partNumber": 153,
+   "partName": "Dhikala",
+   "partId": 32442
+  }
+ ]
+}

@@ -1,0 +1,2108 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2467",
+ "acNumber": 275,
+ "acName": "Ayodhya",
+ "fetchedAt": "2026-11-07T06:22:17",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 419,
+ "maxPart": 419,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "PRAIMARI/JUNIYAR HIGHSCHOOL CHAWNI PARISHAD FAIZABAD, AYODHYA ROOM NO.1",
+   "partId": 540886
+  },
+  {
+   "partNumber": 2,
+   "partName": "PRAIMARI/JUNIYAR HIGHSCHOOL CHAWNI PARISHAD FAIZABAD, AYODHYA ROOM NO.2",
+   "partId": 540887
+  },
+  {
+   "partNumber": 3,
+   "partName": "PRAIMARI/JUNIYAR HIGHSCHOOL CHAWNI PARISHAD FAIZABAD, AYODHYA ROOM NO.3",
+   "partId": 540888
+  },
+  {
+   "partNumber": 4,
+   "partName": "PRAIMARI/JUNIYAR HIGHSCHOOL CHAWNI PARISHAD FAIZABAD, AYODHYA ROOM NO.6",
+   "partId": 540889
+  },
+  {
+   "partNumber": 5,
+   "partName": "PRAIMARI/JUNIYAR HIGHSCHOOL CHAWNI PARISHAD FAIZABAD, AYODHYA ROOM NO.5",
+   "partId": 540890
+  },
+  {
+   "partNumber": 6,
+   "partName": "KARYALAY LIFT SICHAI KHAND-2, SAHAYAK ABHIYANTA KACSHA",
+   "partId": 540891
+  },
+  {
+   "partNumber": 7,
+   "partName": "PS SAHADATGANJ-I NAGAR KSHETRA UTTARI",
+   "partId": 540892
+  },
+  {
+   "partNumber": 8,
+   "partName": "PS SAHADATGANJ-I NAGAR KSHETRA DAKSHINI",
+   "partId": 540893
+  },
+  {
+   "partNumber": 9,
+   "partName": "SARYU NAHAR KHAND, AYODHYA-3 JILEDAR KACSHA",
+   "partId": 540894
+  },
+  {
+   "partNumber": 10,
+   "partName": "SARYU NAHAR KHAND, AYODHYA-3 OFFICE",
+   "partId": 540895
+  },
+  {
+   "partNumber": 11,
+   "partName": "PS NAGA BABA, ABBU SARAI",
+   "partId": 540896
+  },
+  {
+   "partNumber": 12,
+   "partName": "PS NAGA BABA, ABBU SARAI KACCHA NO 2",
+   "partId": 541734
+  },
+  {
+   "partNumber": 13,
+   "partName": "AMAR SAHEED DILIP SINGH U.P.S. SAHADATGANJ PURVI-1",
+   "partId": 540897
+  },
+  {
+   "partNumber": 14,
+   "partName": "AMAR SAHEED DILIP SINGH U.P.S. SAHADATGANJ ATIRIKT ROOM",
+   "partId": 541735
+  },
+  {
+   "partNumber": 15,
+   "partName": "AMAR SAHEED DILIP SINGH U.P.S. SAHADATGANJ PURVI-II",
+   "partId": 540898
+  },
+  {
+   "partNumber": 16,
+   "partName": "RAJKIYA BALIKA INTER COLLAGE (FAIZABAD) UTTARI, AYODHYA",
+   "partId": 540899
+  },
+  {
+   "partNumber": 17,
+   "partName": "RAJKIYA BALIKA INTER COLLAGE (FAIZABAD) UTTARI MADHYA, AYODHYA",
+   "partId": 540900
+  },
+  {
+   "partNumber": 18,
+   "partName": "RAJKIYA BALIKA INTER COLLAGE (FAIZABAD) DAKSHNI MADHYA, AYODHYA",
+   "partId": 540901
+  },
+  {
+   "partNumber": 19,
+   "partName": "RAJKIYA BALIKA INTER COLLAGE (FAIZABAD) MADHYA, AYODHYA",
+   "partId": 540902
+  },
+  {
+   "partNumber": 20,
+   "partName": "RAJKIYA BALIKA INTER COLLAGE (FAIZABAD) DAKSHNI, AYODHYA",
+   "partId": 540903
+  },
+  {
+   "partNumber": 21,
+   "partName": "A.D. (BASIC) OFFICE, AYODHYA DIVI. AYODHYA UTTARI BHAVAN PURVI",
+   "partId": 540904
+  },
+  {
+   "partNumber": 22,
+   "partName": "A.D. (BASIC) OFFICE, AYODHYA DIVI. AYODHYA UTTARI BHAVAN PASHCHMI",
+   "partId": 540905
+  },
+  {
+   "partNumber": 23,
+   "partName": "A.D. (BASIC) OFFICE, AYODHYA DIVI. AYODHYA",
+   "partId": 540906
+  },
+  {
+   "partNumber": 24,
+   "partName": "PS BEGUMGANJ GARAIAYA PURVI",
+   "partId": 540907
+  },
+  {
+   "partNumber": 25,
+   "partName": "PS BEGUMGANJ GARAIAYA PASHCHAMI",
+   "partId": 540908
+  },
+  {
+   "partNumber": 26,
+   "partName": "PS BEGUMGANJ GARAIAYA UTTARI (ATIRIKAT KACHHA)",
+   "partId": 540909
+  },
+  {
+   "partNumber": 27,
+   "partName": "PS BEGUMGANJ GARAIAYA UTTARI ATIRIKAT KACHHA-2",
+   "partId": 540910
+  },
+  {
+   "partNumber": 28,
+   "partName": "OFFICE FOREST DEPARTMENT RETIA",
+   "partId": 540911
+  },
+  {
+   "partNumber": 29,
+   "partName": "PS HASNU KATRA UTTARI",
+   "partId": 540912
+  },
+  {
+   "partNumber": 30,
+   "partName": "PS HASNU KATRA MADHYA",
+   "partId": 540913
+  },
+  {
+   "partNumber": 31,
+   "partName": "PS HASNU KATRA DAKSHRI",
+   "partId": 540914
+  },
+  {
+   "partNumber": 32,
+   "partName": "PS HASNU KATRA ATIRIKAT KACHHA UTTARI",
+   "partId": 540915
+  },
+  {
+   "partNumber": 33,
+   "partName": "GAN‍NA SAHKARI VIKAS SAMITI LIMITED AYODHYA DAKSHINI PASHCHIMI KAKSH",
+   "partId": 540916
+  },
+  {
+   "partNumber": 34,
+   "partName": "PS HASNU KATRA ATRIKT KACHHA",
+   "partId": 540917
+  },
+  {
+   "partNumber": 35,
+   "partName": "V.S.R. ARYA KANYA I.C. (CITY FAIZABAD) UTTARI, AYODHYA",
+   "partId": 540918
+  },
+  {
+   "partNumber": 36,
+   "partName": "V.S.R. ARYA KANYA I.C. (CITY FAIZABAD) MADHYA, AYODHYA",
+   "partId": 540919
+  },
+  {
+   "partNumber": 37,
+   "partName": "V.S.R. ARYA KANYA I.C. (CITY FAIZABAD) MADHYA-1, AYODHYA",
+   "partId": 540920
+  },
+  {
+   "partNumber": 38,
+   "partName": "V.S.R. ARYA KANYA I.C. (CITY FAIZABAD) DAKSHRI, AYODHYA",
+   "partId": 540921
+  },
+  {
+   "partNumber": 39,
+   "partName": "V.S.R. ARYA KANYA I.C. (CITY FAIZABAD) MADHYA-2, AYODHYA",
+   "partId": 540922
+  },
+  {
+   "partNumber": 40,
+   "partName": "RAJA MOHAN GIRLS DIGREE COLLEGE, (CITY FAIZABAD) PURVI, AYODHYA",
+   "partId": 540923
+  },
+  {
+   "partNumber": 41,
+   "partName": "RAJA MOHAN GIRLS DIGREE COLLEGE, (CITY FAIZABAD) PASHCHAMI, AYODHYA",
+   "partId": 540924
+  },
+  {
+   "partNumber": 42,
+   "partName": "RAJA MOHAN GIRLS DIGREE COLLEGE, (CITY FAIZABAD) MADHYA, AYODHYA",
+   "partId": 540925
+  },
+  {
+   "partNumber": 43,
+   "partName": "M.L.M.L. INTER COLLEGE, (CITY FAIZABAD) UTTARI, AYODHYA",
+   "partId": 540926
+  },
+  {
+   "partNumber": 44,
+   "partName": "M.L.M.L. INTER COLLEGE, (CITY FAIZABAD) MADHYA, AYODHYA",
+   "partId": 540927
+  },
+  {
+   "partNumber": 45,
+   "partName": "M.L.M.L. INTER COLLEGE, (CITY FAIZABAD) DAKSHNI PURVI, AYODHYA",
+   "partId": 540928
+  },
+  {
+   "partNumber": 46,
+   "partName": "M.L.M.L. INTER COLLEGE, (CITY FAIZABAD) DAKSHRI PASHCHAMI, AYODHYA",
+   "partId": 540929
+  },
+  {
+   "partNumber": 47,
+   "partName": "M.L.M.L. INTER COLLEGE, (CITY FAIZABAD) ATIRIKT KACHHA, AYODHYA",
+   "partId": 540930
+  },
+  {
+   "partNumber": 48,
+   "partName": "MUNNALAL MADANLAL U.M. VIDHALAY, (CITY FAIZABAD) PURVI, AYODHYA",
+   "partId": 540931
+  },
+  {
+   "partNumber": 49,
+   "partName": "MUNNALAL MADANLAL U.M. VIDHALAY, (CITY FAIZABAD) PASHCHAMI, AYODHYA",
+   "partId": 540932
+  },
+  {
+   "partNumber": 50,
+   "partName": "MUNNALAL MADANLAL U.M. VIDHALAY, (CITY FAIZABAD) MADHYA, AYODHYA",
+   "partId": 540933
+  },
+  {
+   "partNumber": 51,
+   "partName": "PS ANGOORIBAG, (CITY FAIZABAD) PURVI, AYODHYA",
+   "partId": 540934
+  },
+  {
+   "partNumber": 52,
+   "partName": "PS ANGOORIBAG, (CITY FAIZABAD) PASHCHAM, AYODYA",
+   "partId": 540935
+  },
+  {
+   "partNumber": 53,
+   "partName": "PS ANGOORIBAG, (CITY FAIZABAD) ATIRIKT KAKCH, AYODYA",
+   "partId": 540936
+  },
+  {
+   "partNumber": 54,
+   "partName": "COMPOSITE VIDYALAYA (U.P.S KANYA) ANGOORIBAGH (CITY FAIZABAD) UTTARI, AYODHYA",
+   "partId": 540937
+  },
+  {
+   "partNumber": 55,
+   "partName": "COMPOSITE VIDYALAYA (U.P.S KANYA) ANGOORIBAGH (CITY FAIZABAD) UTTARI MADHYA, AYODHYA",
+   "partId": 540938
+  },
+  {
+   "partNumber": 56,
+   "partName": "COMPOSITE VIDYALAYA (U.P.S KANYA) ANGOORIBAGH (CITY FAIZABAD) DAKSHNI MADHYA, AYODHYA",
+   "partId": 540939
+  },
+  {
+   "partNumber": 57,
+   "partName": "COMPOSITE VIDYALAYA (U.P.S KANYA) ANGOORIBAGH (CITY FAIZABAD) DAKSHNI, AYODHYA",
+   "partId": 540940
+  },
+  {
+   "partNumber": 58,
+   "partName": "COMPOSITE VIDYALAYA (U.P.S KANYA) ANGOORIBAGH (CITY FAIZABAD) ATIRIKAT KACHHA, AYODHYA",
+   "partId": 540941
+  },
+  {
+   "partNumber": 59,
+   "partName": "M.P.L.L. ADHARSH INTER COLLEGE, (CITY FAIZABAD) PURVI, AYODHYA",
+   "partId": 540942
+  },
+  {
+   "partNumber": 60,
+   "partName": "M.P.L.L. ADHARSH INTER COLLEGE, (CITY FAIZABAD) MADHYA-2, AYODHYA",
+   "partId": 540943
+  },
+  {
+   "partNumber": 61,
+   "partName": "M.P.L.L. ADHARSH INTER COLLEGE, (CITY FAIZABAD) PASHCHAMI, AYODHYA",
+   "partId": 540944
+  },
+  {
+   "partNumber": 62,
+   "partName": "M.P.L.L. ADHARSH INTER COLLEGE, (CITY FAIZABAD) PASHCHAMI PURVI KE MADHYA, AYODHYA",
+   "partId": 540945
+  },
+  {
+   "partNumber": 63,
+   "partName": "KARYALAY SEHKARI GANNA VIKAS SAMITI LIMITED AYODHYA SABHAGAR KAKSHA",
+   "partId": 540946
+  },
+  {
+   "partNumber": 64,
+   "partName": "KARYALAY SEHKARI GANNA VIKAS SAMITI LIMITED AYODHYA KAKSHA SANKHYA-7",
+   "partId": 540947
+  },
+  {
+   "partNumber": 65,
+   "partName": "KARYALAY SEHKARI GANNA VIKAS SAMITI LIMITED AYODHYA KAKSHA SANKHYA-9",
+   "partId": 540948
+  },
+  {
+   "partNumber": 66,
+   "partName": "COMPOSITE SCHOOL FATEHGANJ (CITY FAIZABAD) ROOM NO. 1, AYODHYA",
+   "partId": 540949
+  },
+  {
+   "partNumber": 67,
+   "partName": "COMPOSITE SCHOOL FATEHGANJ (CITY FAIZABAD) ROOM NO. 2, AYODHYA",
+   "partId": 540950
+  },
+  {
+   "partNumber": 68,
+   "partName": "GIC (CITY FAIZABAD) ART FACAULTY UTTARI, AYODHYA",
+   "partId": 540951
+  },
+  {
+   "partNumber": 69,
+   "partName": "GIC (CITY FAIZABAD) ART FACAULTY UTTARI 2, AYODHYA",
+   "partId": 541736
+  },
+  {
+   "partNumber": 70,
+   "partName": "GIC (CITY FAIZABAD) ART FACAULTY UTTARI MADHYA, AYODHYA",
+   "partId": 540952
+  },
+  {
+   "partNumber": 71,
+   "partName": "GIC (CITY FAIZABAD) SCIENCE LAB. PURVI, AYODHYA",
+   "partId": 540953
+  },
+  {
+   "partNumber": 72,
+   "partName": "GIC (CITY FAIZABAD) SCIENCE LAB. PASHCHAMI, AYODHYA",
+   "partId": 540954
+  },
+  {
+   "partNumber": 73,
+   "partName": "GIC (CITY FAIZABAD) ART FACAULTY MADHYA DAKSHNI MADHYA, AYODHYA",
+   "partId": 540955
+  },
+  {
+   "partNumber": 74,
+   "partName": "GIC (CITY FAIZABAD) ART FACAULTY DAKSHNI, AYODHYA",
+   "partId": 540956
+  },
+  {
+   "partNumber": 75,
+   "partName": "COMPOSITE VIDHYALAY, RAM NAGAR, NAGAR KSHISHA KSHETRA, MAHANAGAR PURVI,",
+   "partId": 540957
+  },
+  {
+   "partNumber": 76,
+   "partName": "COMPOSITE VIDHYALAY RAMNAGAR, NAGAR KSHIKSHA KSHETRA, -MAHANAGAR MADHYA",
+   "partId": 540958
+  },
+  {
+   "partNumber": 77,
+   "partName": "COMPOSITE VIDHYALAY RAMNAGAR, NAGAR KSHIKSHA  KSHETRA,-MAHANAGAR  PASHCHAMI",
+   "partId": 540959
+  },
+  {
+   "partNumber": 78,
+   "partName": "SARASWATI SHISHU MANDIR, RAMNAGAR, PURVI",
+   "partId": 540960
+  },
+  {
+   "partNumber": 79,
+   "partName": "SARASWATI SHISHU MANDIR, RAMNAGAR, PASHCHAMI",
+   "partId": 540961
+  },
+  {
+   "partNumber": 80,
+   "partName": "KUSHTROGI ASHRAM, CIVIL LINE (MAHILA BAL SADAN KACHHA)",
+   "partId": 540962
+  },
+  {
+   "partNumber": 81,
+   "partName": "ZILA SEWA YOJNA OFFICE, AYODHYA-ROOM NO 1",
+   "partId": 540963
+  },
+  {
+   "partNumber": 82,
+   "partName": "ZILA SEWA YOJNA OFFICE, AYODHYA-ROOM NO 2",
+   "partId": 540964
+  },
+  {
+   "partNumber": 83,
+   "partName": "ZILA SEWA YOJNA OFFICE, AYODHYA UTTARI KACHHA",
+   "partId": 540965
+  },
+  {
+   "partNumber": 84,
+   "partName": "ZILA SEWA YOJNA OFFICE, AYODHYA DAKSHNI KACHHA",
+   "partId": 540966
+  },
+  {
+   "partNumber": 85,
+   "partName": "NSS INTER COLLEGE (NAVAL SHIKSHAN SANSTHAN) KACHSANKHYA 1",
+   "partId": 540967
+  },
+  {
+   "partNumber": 86,
+   "partName": "NSS INTER COLLEGE (NAVAL SHIKSHAN SANSTHAN) KACHSANKHYA 2",
+   "partId": 540968
+  },
+  {
+   "partNumber": 87,
+   "partName": "NSS INTER COLLEGE (NAVAL SHIKSHAN SANSTHAN) KACHSANKHYA 3",
+   "partId": 540969
+  },
+  {
+   "partNumber": 88,
+   "partName": "NSS INTER COLLEGE (NAVAL SHIKSHAN SANSTHAN) KACHSANKHYA 4",
+   "partId": 540970
+  },
+  {
+   "partNumber": 89,
+   "partName": "NSS INTER COLLEGE (NAVAL SHIKSHAN SANSTHAN) KACHSANKHYA 6",
+   "partId": 540971
+  },
+  {
+   "partNumber": 90,
+   "partName": "NSS INTER COLLEGE (NAVAL SHIKSHAN SANSTHAN) KACHSANKHYA 7",
+   "partId": 540972
+  },
+  {
+   "partNumber": 91,
+   "partName": "ANIL SARASWATI VIDHYA MANDIR, WAZEERGANJ PURVI BHAVAN KA UTTARI KACHHA",
+   "partId": 540973
+  },
+  {
+   "partNumber": 92,
+   "partName": "PS Wazeerganj Japti, Room No. 1",
+   "partId": 540974
+  },
+  {
+   "partNumber": 93,
+   "partName": "PS Wazeerganj Japti, Room No. 2",
+   "partId": 540975
+  },
+  {
+   "partNumber": 94,
+   "partName": "ANIL SARASWATI SHISHU MANDIR, WAZEERGANJ MADHYA PURVI",
+   "partId": 540976
+  },
+  {
+   "partNumber": 95,
+   "partName": "ANIL SARASWATI SHISHU MANDIR, WAZEERGANJ PASHCHAMI",
+   "partId": 540977
+  },
+  {
+   "partNumber": 96,
+   "partName": "ANIL SARASWATI VIDAY MINDER, WAZEERGANJ PURVI BHAVAN KA UTTARI MADHYA KACHHA",
+   "partId": 540978
+  },
+  {
+   "partNumber": 97,
+   "partName": "ANIL SARASWATI VIDHYA MANDIR, WAZEERGANJ DAKSHNI BHAVAN KA PURVI KACHHA",
+   "partId": 540979
+  },
+  {
+   "partNumber": 98,
+   "partName": "ANIL SARASWATI VIDHYA MANDIR, WAZEERGANJ DAKSHNI BHAVAN KA MADHYA KACHHA",
+   "partId": 540980
+  },
+  {
+   "partNumber": 99,
+   "partName": "ANIL SARASWATI VIDHYA MANDIR, WAZEERGANJ DAKSHNI BHAVAN KA PASHCHAMI KACHHA",
+   "partId": 540981
+  },
+  {
+   "partNumber": 100,
+   "partName": "ANIL SARASWATI VIDHYA MANDIR, WAZEERGANJ DAKSHNI BHAVAN ATIRIKT KACHHA",
+   "partId": 540982
+  },
+  {
+   "partNumber": 101,
+   "partName": "ANIL SARASWATI VIDHYA MANDIR, WAZEERGANJ ATIRIKT KACHHA-2",
+   "partId": 540983
+  },
+  {
+   "partNumber": 102,
+   "partName": "PS JANAURA UTARI",
+   "partId": 540984
+  },
+  {
+   "partNumber": 103,
+   "partName": "PS JANAURA DAKSHRI",
+   "partId": 540985
+  },
+  {
+   "partNumber": 104,
+   "partName": "PS JANAURA ATIRIKAT KACHHA-1",
+   "partId": 540986
+  },
+  {
+   "partNumber": 105,
+   "partName": "PS JANAURA ATIRIKAT KACHHA-2",
+   "partId": 540987
+  },
+  {
+   "partNumber": 106,
+   "partName": "JILA SIKACHHA AUR PRASIKACHHAN SANSTHAN AYODHYA PURVI",
+   "partId": 540988
+  },
+  {
+   "partNumber": 107,
+   "partName": "JILA SIKACHHA AUR PRASIKACHHAN SANSTHAN AYODHYA PASHCHAMI",
+   "partId": 540989
+  },
+  {
+   "partNumber": 108,
+   "partName": "JILA SIKACHHA AUR PRASIKACHHAN SANSTHAN AYODHYA NAYA BHAWAN",
+   "partId": 540990
+  },
+  {
+   "partNumber": 109,
+   "partName": "RAJKARAN VAIDIK INTER COLLEGE, AYODHYA UT‍TAR NAYA BHAWAN",
+   "partId": 540991
+  },
+  {
+   "partNumber": 110,
+   "partName": "RAJKARAN VAIDIK INTER COLLEGE, AYODHYA",
+   "partId": 540992
+  },
+  {
+   "partNumber": 111,
+   "partName": "COMPOSITE SCHOOL HAIDERGANJ DIET",
+   "partId": 540993
+  },
+  {
+   "partNumber": 112,
+   "partName": "COMPOSITE SCHOOL HAIDERGANJ DIET PURVI MADHYA",
+   "partId": 540994
+  },
+  {
+   "partNumber": 113,
+   "partName": "COMPOSITE SCHOOL HAIDERGANJ DIET PASCHIMI",
+   "partId": 540995
+  },
+  {
+   "partNumber": 114,
+   "partName": "COMPOSITE SCHOOL HAIDERGANJ DIET PASCHIMI MADHYA",
+   "partId": 540996
+  },
+  {
+   "partNumber": 115,
+   "partName": "FORBES INTER COLLEGE, REEDGANJ, (CITY FAIZABAD) DAKSHNI BHAWAN ME PURVI KACHHA, AYODHYA",
+   "partId": 540997
+  },
+  {
+   "partNumber": 116,
+   "partName": "FORBES INTER COLLEGE, REEDGANJ, (CITY FAIZABAD) DAKSHNI BHAWAN ME PASHCHAMI KACHHA, AYODHYA",
+   "partId": 540998
+  },
+  {
+   "partNumber": 117,
+   "partName": "FORBES INTER COLLEGE, REEDGANJ, (CITY FAIZABAD) PASHCHAMI BHAWAN ME DAKSHNI KACHHA, AYODHYA",
+   "partId": 540999
+  },
+  {
+   "partNumber": 118,
+   "partName": "FORBES INTER COLLEGE, REEDGANJ, (CITY FAIZABAD) PASHCHAMI KACHHA, AYODHYA",
+   "partId": 541000
+  },
+  {
+   "partNumber": 119,
+   "partName": "FORBES INTER COLLEGE, REEDGANJ, (CITY FAIZABAD) PASHCHMI BHAWAN ME UTTARI KACHHA, AYODHYA",
+   "partId": 541001
+  },
+  {
+   "partNumber": 120,
+   "partName": "BAPU BALIKA INTER COLLEGE, (CITY FAIZABAD) PRTHAM BHVAN PSHCHAMI, AYODHYA",
+   "partId": 541002
+  },
+  {
+   "partNumber": 121,
+   "partName": "BAPU BALIKA INTER COLLEGE, (CITY FAIZABAD) PRTHAM BHAWAN KACHHA, AYODHYA",
+   "partId": 541003
+  },
+  {
+   "partNumber": 122,
+   "partName": "BAPU BALIKA INTER COLLEGE, (CITY FAIZABAD) II- BHVAN PSHCHAMI, AYODHYA",
+   "partId": 541004
+  },
+  {
+   "partNumber": 123,
+   "partName": "BAPU BALIKA INTER COLLEGE, (CITY FAIZABAD) II- BHVAN MADHYA PSHCHAMI, AYODHYA",
+   "partId": 541005
+  },
+  {
+   "partNumber": 124,
+   "partName": "BAPU BALIKA INTER COLLEGE, (CITY FAIZABAD) II- BHVAN MADHYA PURVI, AYODHYA",
+   "partId": 541006
+  },
+  {
+   "partNumber": 125,
+   "partName": "BAPU BALIKA INTER COLLEGE, (CITY FAIZABAD) II- BHVAN MADHYA KACHHA, AYODHYA",
+   "partId": 541007
+  },
+  {
+   "partNumber": 126,
+   "partName": "SHAYM SUNDAR SARASWATI INTER COLLEGE, (CITY FAIZABAD) PURVI CAMPUS ROOM NO 18, AYODHYA",
+   "partId": 541728
+  },
+  {
+   "partNumber": 127,
+   "partName": "COMPOSITE VIDYALAYA REEDGANJ NAGAR KSHETRA MUKHYA BHAWAN",
+   "partId": 541729
+  },
+  {
+   "partNumber": 128,
+   "partName": "COMPOSITE VIDYALAYA REEDGANJ NAGAR KSHETRA MUKHYA BHAWAN ROOM NO 1",
+   "partId": 541730
+  },
+  {
+   "partNumber": 129,
+   "partName": "SHAYM SUNDAR SARASWATI INTER COLLEGE, (CITY FAIZABAD) PURVI CAMPUS, ROOM NO 19, AYODHYA",
+   "partId": 541731
+  },
+  {
+   "partNumber": 130,
+   "partName": "COMPOSITE VIDYALAYA REEDGANJ NAGAR KSHETRA MUKHYA BHAWAN ROOM NO 2",
+   "partId": 541732
+  },
+  {
+   "partNumber": 131,
+   "partName": "I.T.I. AYODHYA ROOM NO.-1",
+   "partId": 541008
+  },
+  {
+   "partNumber": 132,
+   "partName": "I.T.I. AYODHYA ROOM NO.-2",
+   "partId": 541009
+  },
+  {
+   "partNumber": 133,
+   "partName": "I.T.I. AYODHYA ROOM NO.-3",
+   "partId": 541010
+  },
+  {
+   "partNumber": 134,
+   "partName": "PUMP HOUSE OFFICE BUILDING, AMANIGANJ UTTARI",
+   "partId": 541011
+  },
+  {
+   "partNumber": 135,
+   "partName": "PUMP HOUSE OFFICE BUILDING, AMANIGANJ DAKSHNI",
+   "partId": 541012
+  },
+  {
+   "partNumber": 136,
+   "partName": "SAHABDIN SITARAM GIRLS INTER COLLEGE, (CITY FAIZABAD) KACHHA SANKHYA-9, AYODHYA",
+   "partId": 541461
+  },
+  {
+   "partNumber": 137,
+   "partName": "SAHABDIN SITARAM GIRLS INTER COLLEGE, (CITY FAIZABAD) KACHHA SANKHYA-10, AYODHYA",
+   "partId": 541462
+  },
+  {
+   "partNumber": 138,
+   "partName": "SAHABDIN SITARAM GIRLS INTER COLLEGE, (CITY FAIZABAD) KACHHA SANKHYA-11, AYODHYA",
+   "partId": 541463
+  },
+  {
+   "partNumber": 139,
+   "partName": "SAHABDIN SITARAM GIRLS INTER COLLEGE, (CITY FAIZABAD) DAKSHNI, AYODHYA",
+   "partId": 541464
+  },
+  {
+   "partNumber": 140,
+   "partName": "SAHABDIN SITARAM GIRLS INTER COLLEGE, (CITY FAIZABAD) UTTARI, AYODHYA",
+   "partId": 541465
+  },
+  {
+   "partNumber": 141,
+   "partName": "SAHABDIN SITARAM GIRLS INTER COLLEGE, (CITY FAIZABAD) KACHHA-12, AYODHYA",
+   "partId": 541466
+  },
+  {
+   "partNumber": 142,
+   "partName": "SHAYM SUNDAR SARASWATI INTER COLLEGE, (CITY FAIZABAD) UTTARI PASHCHAMI, AYODHYA",
+   "partId": 541467
+  },
+  {
+   "partNumber": 143,
+   "partName": "SHAYM SUNDAR SARASWATI INTER COLLEGE, (CITY FAIZABAD) UTTARI PASHCHAMI MADHYA, AYODHYA",
+   "partId": 541468
+  },
+  {
+   "partNumber": 144,
+   "partName": "SHAYM SUNDAR SARASWATI INTER COLLEGE, (CITY FAIZABAD) CAMPOUS PURVI, AYODHYA",
+   "partId": 541469
+  },
+  {
+   "partNumber": 145,
+   "partName": "SHAYM SUNDAR SARASWATI INTER COLLEGE, (CITY FAIZABAD) MADHYA BHVAN UTTARI, AYODHYA",
+   "partId": 541470
+  },
+  {
+   "partNumber": 146,
+   "partName": "SHAYM SUNDAR SARASWATI INTER COLLEGE, (CITY FAIZABAD) ATIRIKT KACHHA, AYODHYA",
+   "partId": 541471
+  },
+  {
+   "partNumber": 147,
+   "partName": "SHAYM SUNDAR SARASWATI INTER COLLEGE, (CITY FAIZABAD) MADHYA BHVAN MADHYA, AYODHYA",
+   "partId": 541472
+  },
+  {
+   "partNumber": 148,
+   "partName": "PS SAHABGANJ FIRST ROOM NO-1",
+   "partId": 541473
+  },
+  {
+   "partNumber": 149,
+   "partName": "PS SAHABGANJ FIRST ROOM NO-2",
+   "partId": 541474
+  },
+  {
+   "partNumber": 150,
+   "partName": "PS KHURDABAD PURVI",
+   "partId": 541475
+  },
+  {
+   "partNumber": 151,
+   "partName": "PS KHURDABAD PSHCHAMI",
+   "partId": 541476
+  },
+  {
+   "partNumber": 152,
+   "partName": "SARDAR GANPAT RAI S.V.M., RANOPALI UTTARI PURVI BHAVAN KA UTTARI KACHHA",
+   "partId": 541477
+  },
+  {
+   "partNumber": 153,
+   "partName": "SARDAR GANPAT RAI S.V.M., RANOPALI UTTARI PURVI BHAVAN KA UTTARI MADHYA KACHHA",
+   "partId": 541478
+  },
+  {
+   "partNumber": 154,
+   "partName": "SARDAR GANPAT RAI S.V.M., RANOPALI UTTARI PURVI BHAVAN KA UTTARI MADHYA KACHHA ATIRIKT KACHHA",
+   "partId": 541737
+  },
+  {
+   "partNumber": 155,
+   "partName": "PS DARGAAHA BAGIYA",
+   "partId": 541479
+  },
+  {
+   "partNumber": 156,
+   "partName": "PS DARGAAHA BAGIYA KACHHA 2",
+   "partId": 541738
+  },
+  {
+   "partNumber": 157,
+   "partName": "SARDAR GANPAT RAI S.V.M., RANOPALI UTTARI PURVI BHAVAN KA DAKSHNI  KACHHA",
+   "partId": 541480
+  },
+  {
+   "partNumber": 158,
+   "partName": "SARDAR GANPAT RAI S.V.M., RANOPALI, DAKSHNI MADHYA KACHHA",
+   "partId": 541481
+  },
+  {
+   "partNumber": 159,
+   "partName": "PS HAIBATPUR UTTARI",
+   "partId": 541482
+  },
+  {
+   "partNumber": 160,
+   "partName": "SRI VAIDIKADARSH SNATKOTTAR SANSKRIT MAHAVIDAYALAY SARYUBAGH, AYODHYA KACHHA-7",
+   "partId": 541483
+  },
+  {
+   "partNumber": 161,
+   "partName": "U.P.S. KATRA-2, AYODHYA NAGAR KSHETRA, KACHHA SANKHYA-2 UTTARI",
+   "partId": 541484
+  },
+  {
+   "partNumber": 162,
+   "partName": "U.P.S. KATRA-2, AYODHYA NAGAR KSHETRA, KACHHA SANKHYA-3 MADHYA",
+   "partId": 541485
+  },
+  {
+   "partNumber": 163,
+   "partName": "U.P.S. KATRA-2, AYODHYA NAGAR KSHETRA, KACHHA SANKHYA-4 MADHYA",
+   "partId": 541486
+  },
+  {
+   "partNumber": 164,
+   "partName": "U.P.S. KATRA-2, AYODHYA NAGAR KSHETRA, KACHHA SANKHYA-5 DAKSHNI",
+   "partId": 541487
+  },
+  {
+   "partNumber": 165,
+   "partName": "PS KATRA-2, AYODHYA NAGAR KSHETRA, KACHHA SANKHYA-1 PASHCHAMI",
+   "partId": 541488
+  },
+  {
+   "partNumber": 166,
+   "partName": "PS KATRA-2, AYODHYA NAGAR KSHETRA, KACHHA SANKHYA-2 PURVI",
+   "partId": 541489
+  },
+  {
+   "partNumber": 167,
+   "partName": "PS RAMKOT-1, AYODHYA, KACHHA SANKHYA-1 UTTARI",
+   "partId": 541490
+  },
+  {
+   "partNumber": 168,
+   "partName": "PS RAMKOT-1, AYODHYA, KACHHA SANKHYA-5 DAKSHNI",
+   "partId": 541491
+  },
+  {
+   "partNumber": 169,
+   "partName": "PS RAMKOT-1, AYODHYA, ATIRIKAT KACHH",
+   "partId": 541492
+  },
+  {
+   "partNumber": 170,
+   "partName": "VASHISHKUND GAYATRI BHAWAN, ROOM NO-1",
+   "partId": 541493
+  },
+  {
+   "partNumber": 171,
+   "partName": "VASHISHKUND GAYATRI BHAWAN, ROOM NO-2",
+   "partId": 541494
+  },
+  {
+   "partNumber": 172,
+   "partName": "VASHISHKUND GAYATRI BHAWAN, ROOM NO-3",
+   "partId": 541495
+  },
+  {
+   "partNumber": 173,
+   "partName": "VASHISHKUND GAYATRI BHAWAN, ROOM NO-4",
+   "partId": 541496
+  },
+  {
+   "partNumber": 174,
+   "partName": "LAKSHMAN B.V.M.I.C. VIDHYAKUND, AYODHYA, KACHHA SANKHYA-3 PURVI",
+   "partId": 541497
+  },
+  {
+   "partNumber": 175,
+   "partName": "LAKSHMAN B.V.M.I.C. VIDHYAKUND, AYODHYA, KACHHA SANKHYA-2 PASHCHAMI",
+   "partId": 541498
+  },
+  {
+   "partNumber": 176,
+   "partName": "LAKSHMAN B.V.M.I.C. VIDHYAKUND, AYODHYA, KACHHA SANKHYA-1 PURVI",
+   "partId": 541499
+  },
+  {
+   "partNumber": 177,
+   "partName": "LAKSHMAN B.V.M.I.C. VIDHYAKUND, AYODHYA, KACHHA SANKHYA-1 DAKSHRI",
+   "partId": 541500
+  },
+  {
+   "partNumber": 178,
+   "partName": "HANUMAT SANSKRIT SNATKOTTAR MAHAVIDHYALAY, HANUMANGADI, NIRWANI AKHARA, AYODHYA, KACHHA SANKHYA-1 DAKSHNI",
+   "partId": 541501
+  },
+  {
+   "partNumber": 179,
+   "partName": "HANUMAT SANSKRIT SNATKOTTAR MAHAVIDHYALAY, HANUMANGADI, NIRWANI AKHARA, AYODHYA, KACHHA SANKHYA-2 DAKSHNI",
+   "partId": 541502
+  },
+  {
+   "partNumber": 180,
+   "partName": "HANUMAT SANSKRIT SNATKOTTAR MAHAVIDHYALAY, HANUMANGADI, NIRWANI AKHARA, AYODHYA, KACHHA SANKHYA-3 DAKSHNI",
+   "partId": 541503
+  },
+  {
+   "partNumber": 181,
+   "partName": "HANUMAT SANSKRIT SNATKOTTAR MAHAVIDHYALAY, HANUMANGADI, NIRWANI AKHARA, AYODHYA, KACHHA SANKHYA-6 UTTARI",
+   "partId": 541504
+  },
+  {
+   "partNumber": 182,
+   "partName": "M.KANSHI RAM COMPOSIT VIDYALAYA, RAMGHAT AYODHYA NAGAR AREA  ROON NO 1",
+   "partId": 541505
+  },
+  {
+   "partNumber": 183,
+   "partName": "M.KANSHI RAM COMPOSITE VIDYALAYA, RAMGHAT AYODHYA NAGAR AREA ROON NO 2",
+   "partId": 541506
+  },
+  {
+   "partNumber": 184,
+   "partName": "HANUMAT SANSKRIT SNATKOTTAR MAHAVIDHYALAY, HANUMANGADI, NIRWANI AKHARA, AYODHYA, KACHHA SANKHYA-7 UTTARI",
+   "partId": 541507
+  },
+  {
+   "partNumber": 185,
+   "partName": "HANUMAT SANSKRIT SNATKOTTAR MAHAVIDHYALAY, HANUMANGADI, NIRWANI AKHARA, AYODHYA, KACHHA SANKHYA-8 UTTARI",
+   "partId": 541508
+  },
+  {
+   "partNumber": 186,
+   "partName": "MAHARAJA INTER COLLEGE,AYODHYA, (NAYA BHAVAN) KASH SANKHYA -27",
+   "partId": 541509
+  },
+  {
+   "partNumber": 187,
+   "partName": "MAHARAJA INTER COLLEGE,AYODHYA, KASH SANKHYA-4 DAKCCHNI",
+   "partId": 541510
+  },
+  {
+   "partNumber": 188,
+   "partName": "MAHARAJA INTER COLLEGE,AYODHYA, KACHHA SANKHYA - 8 PASHCHAMI",
+   "partId": 541511
+  },
+  {
+   "partNumber": 189,
+   "partName": "MAHARAJA INTER COLLEGE,AYODHYA, KACHHA SANKHYA - 10 PASHCHAMI",
+   "partId": 541512
+  },
+  {
+   "partNumber": 190,
+   "partName": "M.KANSHI RAM COMPOSITE VIDYALAYA, RAMGHAT AYODHYA NAGAR AREA ROON NO 3",
+   "partId": 541513
+  },
+  {
+   "partNumber": 191,
+   "partName": "M.KANSHI RAM COMPOSITE VIDYALAYA, RAMGHAT AYODHYA NAGAR AREA ROON NO 4",
+   "partId": 541514
+  },
+  {
+   "partNumber": 192,
+   "partName": "MAHAPOUR CAMP KARYALAY, AYODHYA DHAM ROOM-1",
+   "partId": 541515
+  },
+  {
+   "partNumber": 193,
+   "partName": "MAHAPOUR CAMP KARYALAY, AYODHYA DHAM ROOM-2",
+   "partId": 541516
+  },
+  {
+   "partNumber": 194,
+   "partName": "TULSI RAJKIYA BALIKA I.C. AYODHYA KACHHA SANKHYA-1 PURVI",
+   "partId": 541517
+  },
+  {
+   "partNumber": 195,
+   "partName": "TULSI RAJKIYA BALIKA I.C. AYODHYA KACHHA SANKHYA-3 DAKSHNI",
+   "partId": 541518
+  },
+  {
+   "partNumber": 196,
+   "partName": "TULSI RAJKIYA BALIKA I.C. AYODHYA KACHHA SANKHYA-4 DAKSHNI",
+   "partId": 541519
+  },
+  {
+   "partNumber": 197,
+   "partName": "TULSI RAJKIYA BALIKA I.C. AYODHYA KACHHA SANKHYA-5 DAKSHNI",
+   "partId": 541520
+  },
+  {
+   "partNumber": 198,
+   "partName": "TULSI RAJKIYA BALIKA I.C. AYODHYA KACHHA SANKHYA-6 DAKSHNI",
+   "partId": 541521
+  },
+  {
+   "partNumber": 199,
+   "partName": "MADHUSOODN VIDYAMANDIR JOONIYAR HIGHS‍CHOOL AYODH‍YA ROOM NO.-11",
+   "partId": 541522
+  },
+  {
+   "partNumber": 200,
+   "partName": "MADHUSOODN VIDYAMANDIR JOONIYAR HIGHS‍CHOOL AYODH‍YA ROOM NO.-12",
+   "partId": 541523
+  },
+  {
+   "partNumber": 201,
+   "partName": "MADHUSOODN VIDYAMANDIR JOONIYAR HIGHS‍CHOOL AYODH‍YA MADHYA",
+   "partId": 541524
+  },
+  {
+   "partNumber": 202,
+   "partName": "MAHARAJA INTER COLLEGE, AYODHYA, (NAYA BHAWAN) KACHHA SANKHYA -28 UTTARI",
+   "partId": 541525
+  },
+  {
+   "partNumber": 203,
+   "partName": "MAHARAJA INTER COLLEGE, AYODHYA, (NAYA BHAWAN) KACHHA-25",
+   "partId": 541526
+  },
+  {
+   "partNumber": 204,
+   "partName": "MAHARAJA INTER COLLEGE, AYODHYA, (NAYA BHAWAN)KACHHA SANKHYA-30 UTTARI",
+   "partId": 541527
+  },
+  {
+   "partNumber": 205,
+   "partName": "MAHARAJA INTER COLLEGE, AYODHYA, (NAYA BHAWAN) KACHHA SANKHYA -31 UTTARI",
+   "partId": 541528
+  },
+  {
+   "partNumber": 206,
+   "partName": "PS NAYAGHAT, AYODHYA",
+   "partId": 541529
+  },
+  {
+   "partNumber": 207,
+   "partName": "PS JIYANPUR",
+   "partId": 541530
+  },
+  {
+   "partNumber": 208,
+   "partName": "PS MAKHAPUR",
+   "partId": 541531
+  },
+  {
+   "partNumber": 209,
+   "partName": "PS SHAHJAHANPUR UTTARI",
+   "partId": 541532
+  },
+  {
+   "partNumber": 210,
+   "partName": "PS SHAHJAHANPUR DAKSHNI",
+   "partId": 541533
+  },
+  {
+   "partNumber": 211,
+   "partName": "DR.BRIJ KISHORE HOMEOPATHIC MED.COLL.DEVKALI, KACHHA SANKHYA-1",
+   "partId": 541534
+  },
+  {
+   "partNumber": 212,
+   "partName": "DR.BRIJ KISHORE HOMEOPATHIC MED.COLL.DEVKALI, VAKHYAAN KACHHA SANKHYA-2",
+   "partId": 541535
+  },
+  {
+   "partNumber": 213,
+   "partName": "DR.BRIJ KISHORE HOMEOPATHIC MED.COLL.DEVKALI, KACHHA SANKHYA-3",
+   "partId": 541536
+  },
+  {
+   "partNumber": 214,
+   "partName": "DR.BRIJ KISHORE HOMEOPATHIC MED.COLL.DEVKALI KACHHA SANKHYA-4",
+   "partId": 541537
+  },
+  {
+   "partNumber": 215,
+   "partName": "DR BRIJ KISHORE HOMEOPATHIC MED.COLL.DEVKALI KACHHA SANKHYA-5",
+   "partId": 541739
+  },
+  {
+   "partNumber": 216,
+   "partName": "PS BHIKHAPUR, PURVI",
+   "partId": 541538
+  },
+  {
+   "partNumber": 217,
+   "partName": "PS BHIKHAPUR, ATIRIKAT KACHHA",
+   "partId": 541539
+  },
+  {
+   "partNumber": 218,
+   "partName": "PS BHIKHAPUR, PASHCHAMI",
+   "partId": 541540
+  },
+  {
+   "partNumber": 219,
+   "partName": "BHAUTIKI BHAWAN DR. R.M.L.AWADH UNIVERSITY, PURVI",
+   "partId": 541541
+  },
+  {
+   "partNumber": 220,
+   "partName": "PRAVESH PARIKACHHA BHAWAN DR. R.M.L.AWADH UNIVERSITY,",
+   "partId": 541542
+  },
+  {
+   "partNumber": 221,
+   "partName": "BHAUTIKI BHAWAN DR. R.M.L.AWADH UNIVERSITY, MADHYA",
+   "partId": 541543
+  },
+  {
+   "partNumber": 222,
+   "partName": "BHAUTIKI BHAWAN DR. R.M.L.AWADH UNIVERSITY, PSHCHAMI",
+   "partId": 541544
+  },
+  {
+   "partNumber": 223,
+   "partName": "PS CHANDPUR HARVANSH KACHHA SANKHYA-2",
+   "partId": 541727
+  },
+  {
+   "partNumber": 224,
+   "partName": "PS CHANDPUR HARVANSH ATIRIKT KACHHA",
+   "partId": 541740
+  },
+  {
+   "partNumber": 225,
+   "partName": "PS USROO PURVI",
+   "partId": 541545
+  },
+  {
+   "partNumber": 226,
+   "partName": "PS USROO PASHCHAMI",
+   "partId": 541546
+  },
+  {
+   "partNumber": 227,
+   "partName": "PS USROO ATIRIKAT KACHHA",
+   "partId": 541547
+  },
+  {
+   "partNumber": 228,
+   "partName": "PS USROO ATIRIKAT KACHHA-2",
+   "partId": 541548
+  },
+  {
+   "partNumber": 229,
+   "partName": "OFFICE OF SAHAYAK. KRISHI VIPRAN ADHIKARI, AYODHYA. DIVISION, AYODHYA. (NAVEEN MANDI) PURVI KACHHA",
+   "partId": 541549
+  },
+  {
+   "partNumber": 230,
+   "partName": "OFFICE OF SAHAYAK. KRISHI VIPRAN ADHIKARI, AYODHYA. DIVISION, AYODHYA. (NAVEEN MANDI) PURVI KACHHA-2",
+   "partId": 541550
+  },
+  {
+   "partNumber": 231,
+   "partName": "OFFICE OF SAHAYAK. KRISHI VIPRAN ADHIKARI, AYODHYA. DIVISION, AYODHYA. (NAVEEN MANDI) PASHCHIM TARAF DAKSHNI SE DUSARA KACHHA",
+   "partId": 541551
+  },
+  {
+   "partNumber": 232,
+   "partName": "OFFICE OF SAHAYAK. KRISHI VIPRAN ADHIKARI, AYODHYA. DIVISION, AYODHYA. (NAVEEN MANDI) PASHCHIM TARAF UTTARI KACHHA",
+   "partId": 541552
+  },
+  {
+   "partNumber": 233,
+   "partName": "OFFICE OF SAHAYAK. KRISHI VIPRAN ADHIKARI, AYODHYA. DIVISION, AYODHYA. (NAVEEN MANDI)",
+   "partId": 541553
+  },
+  {
+   "partNumber": 234,
+   "partName": "GRAMMER ACADEMY, KAUSHALPURI COLONEY, DAKSHRI SE DUSRA KACHHA",
+   "partId": 541554
+  },
+  {
+   "partNumber": 235,
+   "partName": "GRAMMER ACADEMY, KAUSHALPURI COLONEY, DAKSHRI SE KACHHA SANKHYA -I-PURAB TARF",
+   "partId": 541555
+  },
+  {
+   "partNumber": 236,
+   "partName": "GRAMMER ACADEMY, KAUSHALPURI COLONEY, DAKSHRI SE TEESRA KACHHA",
+   "partId": 541556
+  },
+  {
+   "partNumber": 237,
+   "partName": "GRAMMER ACADEMY, KAUSHALPURI COLONEY, PURVI VING DAKSHNI SE KACHHA SANKHYA -2",
+   "partId": 541557
+  },
+  {
+   "partNumber": 238,
+   "partName": "GRAMMER ACADEMY, KAUSHALPURI COLONEY, PURVI VING DAKSHNI SE KACHHA SANKHYA -3",
+   "partId": 541741
+  },
+  {
+   "partNumber": 239,
+   "partName": "PS KHOJANPUR PURVI UTTARI",
+   "partId": 541558
+  },
+  {
+   "partNumber": 240,
+   "partName": "PS KHOJANPUR PURVI DAKSHRI",
+   "partId": 541559
+  },
+  {
+   "partNumber": 241,
+   "partName": "PS KHOJANPUR ATIRIKAT KACHHA-2",
+   "partId": 541560
+  },
+  {
+   "partNumber": 242,
+   "partName": "PS KHOJANPUR PURVI ATIRIKAT KACHHA",
+   "partId": 541561
+  },
+  {
+   "partNumber": 243,
+   "partName": "PS ABUSARAI DEHAT UTTARI KACHHA",
+   "partId": 541562
+  },
+  {
+   "partNumber": 244,
+   "partName": "PS ABUSARAI DEHAT DAKSHNI KACHHA",
+   "partId": 541563
+  },
+  {
+   "partNumber": 245,
+   "partName": "PS GADDOPUR PURVI",
+   "partId": 541564
+  },
+  {
+   "partNumber": 246,
+   "partName": "PS GADDOPUR ATIRIKAT KACHH",
+   "partId": 541565
+  },
+  {
+   "partNumber": 247,
+   "partName": "PS GADDOPUR PASHCHAMI",
+   "partId": 541566
+  },
+  {
+   "partNumber": 248,
+   "partName": "U.P.S. GADDOPUR, PURVI",
+   "partId": 541567
+  },
+  {
+   "partNumber": 249,
+   "partName": "U.P.S. GADDOPUR, PASHCHAMI",
+   "partId": 541568
+  },
+  {
+   "partNumber": 250,
+   "partName": "U.P.S. GADDOPUR, MADHYA",
+   "partId": 541569
+  },
+  {
+   "partNumber": 251,
+   "partName": "PANCHAYAT GHAR,PALIA SHAHBADI PASHCHAMI",
+   "partId": 541570
+  },
+  {
+   "partNumber": 252,
+   "partName": "PANCHAYAT GHAR,PALIA SHAHBADI PURVI",
+   "partId": 541571
+  },
+  {
+   "partNumber": 253,
+   "partName": "PS MASHINYA PALIA SHAHBADI KACHHA SANKHYA-1",
+   "partId": 541572
+  },
+  {
+   "partNumber": 254,
+   "partName": "PS TONIYA PASHCHAMI",
+   "partId": 541573
+  },
+  {
+   "partNumber": 255,
+   "partName": "PS TONIYA PURVI",
+   "partId": 541574
+  },
+  {
+   "partNumber": 256,
+   "partName": "PS TONIYA DAKSHNI",
+   "partId": 541575
+  },
+  {
+   "partNumber": 257,
+   "partName": "PS HANSAPUR PASHCHAMI",
+   "partId": 541576
+  },
+  {
+   "partNumber": 258,
+   "partName": "PS HANSAPUR KACHHA 2",
+   "partId": 541742
+  },
+  {
+   "partNumber": 259,
+   "partName": "PS CHANDPUR HARVANSH KACHHA SANKHYA-1",
+   "partId": 541577
+  },
+  {
+   "partNumber": 260,
+   "partName": "PS CHANDPUR HARVANSH KACHHA SANKHYA-3",
+   "partId": 541743
+  },
+  {
+   "partNumber": 261,
+   "partName": "PS DABHASEMAR DEVTIYA",
+   "partId": 541578
+  },
+  {
+   "partNumber": 262,
+   "partName": "OFFICE OF ACHARYA NARENDRA KSHETRIA GRAM VIKASH SANSTHAN",
+   "partId": 541579
+  },
+  {
+   "partNumber": 263,
+   "partName": "PS MALIKPUR PURVI",
+   "partId": 541580
+  },
+  {
+   "partNumber": 264,
+   "partName": "PS MALIKPUR PASHCHAMI",
+   "partId": 541581
+  },
+  {
+   "partNumber": 265,
+   "partName": "PS FIROZPUR KACHHA SANKHYA-1",
+   "partId": 541582
+  },
+  {
+   "partNumber": 266,
+   "partName": "PS MALIKPUR ATIRIKT KACHHA",
+   "partId": 541583
+  },
+  {
+   "partNumber": 267,
+   "partName": "PS MIRZAPUR MAPHI",
+   "partId": 541584
+  },
+  {
+   "partNumber": 268,
+   "partName": "PS MIRZAPUR MAPHI ATIRIKT KACHHA",
+   "partId": 541744
+  },
+  {
+   "partNumber": 269,
+   "partName": "PS MIRZAPUR DHARAMPUR",
+   "partId": 541585
+  },
+  {
+   "partNumber": 270,
+   "partName": "PS FIROZPUR KACHHA SANKHYA-2",
+   "partId": 541586
+  },
+  {
+   "partNumber": 271,
+   "partName": "PS FIROZPUR ATIRIKT KACHHA",
+   "partId": 541745
+  },
+  {
+   "partNumber": 272,
+   "partName": "PS SAMSUDDINPU PASHCHAMI",
+   "partId": 541587
+  },
+  {
+   "partNumber": 273,
+   "partName": "COMPOSITE VIDHYALAY KUSHMAHA PASHCHAMI",
+   "partId": 541588
+  },
+  {
+   "partNumber": 274,
+   "partName": "COMPOSITE VIDHYALAY KUSHMAHA PURVI",
+   "partId": 541589
+  },
+  {
+   "partNumber": 275,
+   "partName": "COMPOSITE VIDHYALAY KUSHMAHA ATIRIKAT KACHHA-1",
+   "partId": 541590
+  },
+  {
+   "partNumber": 276,
+   "partName": "COMPOSITE VIDHYALAY KUSHMAHA ATIRIKAT KACHHA-2",
+   "partId": 541591
+  },
+  {
+   "partNumber": 277,
+   "partName": "PS SHAHANWAN",
+   "partId": 541592
+  },
+  {
+   "partNumber": 278,
+   "partName": "PS SHAHANWAN ATIRIKT KACHHA",
+   "partId": 541746
+  },
+  {
+   "partNumber": 279,
+   "partName": "PS ASHAPUR",
+   "partId": 541593
+  },
+  {
+   "partNumber": 280,
+   "partName": "PS ASHAPUR ATIRIKAT KACHHA",
+   "partId": 541594
+  },
+  {
+   "partNumber": 281,
+   "partName": "PS TAKPURA UTTARI",
+   "partId": 541595
+  },
+  {
+   "partNumber": 282,
+   "partName": "PRATHIMIK VIDYALAYA MANJHA BARHATA (BANWARI KA PURWA) PRATHAM  KACHHA",
+   "partId": 541596
+  },
+  {
+   "partNumber": 283,
+   "partName": "PS MANJHA BARHATA (BANWARI KA PURWA) DITAYA KACHHA",
+   "partId": 541597
+  },
+  {
+   "partNumber": 284,
+   "partName": "PS SHAHNEWAJPUR PARTHAM KACHHA",
+   "partId": 541598
+  },
+  {
+   "partNumber": 285,
+   "partName": "PS SHAHNEWAJPUR DITAYA KACHHA",
+   "partId": 541599
+  },
+  {
+   "partNumber": 286,
+   "partName": "COMPOSITE VIDHYALAY DARSHAN NAGAR UTTARI-1",
+   "partId": 541600
+  },
+  {
+   "partNumber": 287,
+   "partName": "COMPOSITE VIDHYALAY DARSHAN NAGAR UTTARI-2",
+   "partId": 541601
+  },
+  {
+   "partNumber": 288,
+   "partName": "COMPOSITE VIDHYALAY DARSHAN NAGAR UTTARI-3",
+   "partId": 541602
+  },
+  {
+   "partNumber": 289,
+   "partName": "COMPOSITE VIDHYALAY DARSHAN NAGAR UTTARI-4",
+   "partId": 541603
+  },
+  {
+   "partNumber": 290,
+   "partName": "COMPOSITE VIDHYALAY DARSHAN NAGAR",
+   "partId": 541604
+  },
+  {
+   "partNumber": 291,
+   "partName": "COMPOSITE VIDHYALAY DARSHAN NAGAR ATIRIKT KACHHA",
+   "partId": 541747
+  },
+  {
+   "partNumber": 292,
+   "partName": "PS MOHATRIMNAGAR",
+   "partId": 541605
+  },
+  {
+   "partNumber": 293,
+   "partName": "PS PARAKHAN PURAB UTTAR",
+   "partId": 541606
+  },
+  {
+   "partNumber": 294,
+   "partName": "PS PARAKHAN ATRIKT KACHHA",
+   "partId": 541607
+  },
+  {
+   "partNumber": 295,
+   "partName": "UP.S. SAMAHAKHURD",
+   "partId": 541608
+  },
+  {
+   "partNumber": 296,
+   "partName": "PS SAMAHKALAN",
+   "partId": 541609
+  },
+  {
+   "partNumber": 297,
+   "partName": "PS CHAK BAISINGH",
+   "partId": 541610
+  },
+  {
+   "partNumber": 298,
+   "partName": "PS SARETHI PURVI",
+   "partId": 541611
+  },
+  {
+   "partNumber": 299,
+   "partName": "PS SARETHI -PASHCHAMI",
+   "partId": 541612
+  },
+  {
+   "partNumber": 300,
+   "partName": "PS SARETHI -PASHCHAMI ATRIKT KACHHA",
+   "partId": 541613
+  },
+  {
+   "partNumber": 301,
+   "partName": "U.P.S. RAMDATTPUR, ATRAWAN",
+   "partId": 541614
+  },
+  {
+   "partNumber": 302,
+   "partName": "PS KISHUNDASPUR",
+   "partId": 541615
+  },
+  {
+   "partNumber": 303,
+   "partName": "PS DADERA UTTARI",
+   "partId": 541616
+  },
+  {
+   "partNumber": 304,
+   "partName": "PS DADERA DAKSHNI",
+   "partId": 541617
+  },
+  {
+   "partNumber": 305,
+   "partName": "PS SUKHAPUR ITAURA DAKSHNI",
+   "partId": 541618
+  },
+  {
+   "partNumber": 306,
+   "partName": "PS SUKHAPUR ITAURA UTTARI",
+   "partId": 541619
+  },
+  {
+   "partNumber": 307,
+   "partName": "PS SUKHAPUR ITAURA ATRIKT KACHHA",
+   "partId": 541620
+  },
+  {
+   "partNumber": 308,
+   "partName": "PS BHADOKHAR UTTARI",
+   "partId": 541621
+  },
+  {
+   "partNumber": 309,
+   "partName": "PS BHADOKHAR DAKSHNI",
+   "partId": 541622
+  },
+  {
+   "partNumber": 310,
+   "partName": "PS BHADOKHAR ATRIKT KACHHA",
+   "partId": 541623
+  },
+  {
+   "partNumber": 311,
+   "partName": "PS SHIVDASPUR UTTARI",
+   "partId": 541624
+  },
+  {
+   "partNumber": 312,
+   "partName": "PS SHIVDASPUR ATRIKT KACHHA",
+   "partId": 541625
+  },
+  {
+   "partNumber": 313,
+   "partName": "PS BIRAULI UTTARI",
+   "partId": 541626
+  },
+  {
+   "partNumber": 314,
+   "partName": "PS BIRAULI DAKSHNI",
+   "partId": 541627
+  },
+  {
+   "partNumber": 315,
+   "partName": "PS MOHATSIMPUR PRATHAM KACHHA",
+   "partId": 541628
+  },
+  {
+   "partNumber": 316,
+   "partName": "PS MOHATSIMPUR DITAYA KACHHA",
+   "partId": 541629
+  },
+  {
+   "partNumber": 317,
+   "partName": "COMPOSITE SCHOOL AKWARA FIRST ROOM",
+   "partId": 541630
+  },
+  {
+   "partNumber": 318,
+   "partName": "COMPOSITE SCHOOL AKWARA SECOUND ROOM",
+   "partId": 541631
+  },
+  {
+   "partNumber": 319,
+   "partName": "PS NARAYANPUR-1",
+   "partId": 541632
+  },
+  {
+   "partNumber": 320,
+   "partName": "PS NARAYANPUR-2",
+   "partId": 541633
+  },
+  {
+   "partNumber": 321,
+   "partName": "PS KACHHAULI PRATHAM KACHHA",
+   "partId": 541634
+  },
+  {
+   "partNumber": 322,
+   "partName": "PS KACHHAULI DITAYA KACHHA",
+   "partId": 541635
+  },
+  {
+   "partNumber": 323,
+   "partName": "PS KARMA KODRI PURVI",
+   "partId": 541636
+  },
+  {
+   "partNumber": 324,
+   "partName": "PS KARMA KODRI PASHCHAMI",
+   "partId": 541637
+  },
+  {
+   "partNumber": 325,
+   "partName": "PS KARMA KODRI ATRIKT KACHHA",
+   "partId": 541638
+  },
+  {
+   "partNumber": 326,
+   "partName": "PS SARAI CHAIMAL",
+   "partId": 541639
+  },
+  {
+   "partNumber": 327,
+   "partName": "PS SHANTIPUR",
+   "partId": 541640
+  },
+  {
+   "partNumber": 328,
+   "partName": "PS RAMPUR SARDHA UTTARI",
+   "partId": 541641
+  },
+  {
+   "partNumber": 329,
+   "partName": "PS RAMPUR SARDHA DAKSHNI",
+   "partId": 541642
+  },
+  {
+   "partNumber": 330,
+   "partName": "PS ALAWALPUR PURVI",
+   "partId": 541643
+  },
+  {
+   "partNumber": 331,
+   "partName": "PS ALAWALPUR PASHCHAMI",
+   "partId": 541644
+  },
+  {
+   "partNumber": 332,
+   "partName": "PS MITRASENPUR PRATHAM KACHHA",
+   "partId": 541645
+  },
+  {
+   "partNumber": 333,
+   "partName": "PS MITRASENPUR PRATHAM KACHHA 2",
+   "partId": 541748
+  },
+  {
+   "partNumber": 334,
+   "partName": "PS BAISINGH ATIRIKAT KACHHA",
+   "partId": 541646
+  },
+  {
+   "partNumber": 335,
+   "partName": "PS BAISINGH UTTARI",
+   "partId": 541647
+  },
+  {
+   "partNumber": 336,
+   "partName": "PS NARIYAWAN PURVI",
+   "partId": 541648
+  },
+  {
+   "partNumber": 337,
+   "partName": "PS NARIYAWAN",
+   "partId": 541649
+  },
+  {
+   "partNumber": 338,
+   "partName": "U.P.S. MODRA MAHESHPUR",
+   "partId": 541650
+  },
+  {
+   "partNumber": 339,
+   "partName": "PS MODRA MAHESHPUR,",
+   "partId": 541651
+  },
+  {
+   "partNumber": 340,
+   "partName": "PS ANJANA-1 PASHCHAMI",
+   "partId": 541652
+  },
+  {
+   "partNumber": 341,
+   "partName": "PS ANJANA- 1 ROOM NO- 1",
+   "partId": 541653
+  },
+  {
+   "partNumber": 342,
+   "partName": "PS ANJANA- 1 ROOM NO- 2",
+   "partId": 541654
+  },
+  {
+   "partNumber": 343,
+   "partName": "PS PURKHEPUR",
+   "partId": 541655
+  },
+  {
+   "partNumber": 344,
+   "partName": "PS GANGAULI DAKSHNI",
+   "partId": 541656
+  },
+  {
+   "partNumber": 345,
+   "partName": "PS GANGAULI",
+   "partId": 541657
+  },
+  {
+   "partNumber": 346,
+   "partName": "PS GANGAULI ATIRIKT KACHHA",
+   "partId": 541749
+  },
+  {
+   "partNumber": 347,
+   "partName": "PT. HRIDAYA RAM SHARMA PT. DUTT PANDEY INTER COLLEGE SANISA",
+   "partId": 541658
+  },
+  {
+   "partNumber": 348,
+   "partName": "PS MOHARRAMPUR ARTI",
+   "partId": 541659
+  },
+  {
+   "partNumber": 349,
+   "partName": "PS RASULABAD-1",
+   "partId": 541660
+  },
+  {
+   "partNumber": 350,
+   "partName": "PS RASULABAD -1-ATIRIKAT KACHHA",
+   "partId": 541661
+  },
+  {
+   "partNumber": 351,
+   "partName": "SADHAN SAHKARI SAMITI, RASULABAD,",
+   "partId": 541662
+  },
+  {
+   "partNumber": 352,
+   "partName": "PS KARAUNDI",
+   "partId": 541663
+  },
+  {
+   "partNumber": 353,
+   "partName": "PS AMI ALAPUR PURVI",
+   "partId": 541664
+  },
+  {
+   "partNumber": 354,
+   "partName": "PS AEMI ALAPUR PASHCHAMI",
+   "partId": 541665
+  },
+  {
+   "partNumber": 355,
+   "partName": "PS AEMI ALAPUR ATRIKT KACHHA",
+   "partId": 541666
+  },
+  {
+   "partNumber": 356,
+   "partName": "PS FATEHPUR MUMTAZABAD PRATHAM KACHHA",
+   "partId": 541667
+  },
+  {
+   "partNumber": 357,
+   "partName": "PS FATEHPUR MUMTAZABAD DITAYA KACHHA",
+   "partId": 541668
+  },
+  {
+   "partNumber": 358,
+   "partName": "PS BHADAULI BUJURG UTTARI",
+   "partId": 541669
+  },
+  {
+   "partNumber": 359,
+   "partName": "PS BHADAULI BUJURG DAKSHNI",
+   "partId": 541670
+  },
+  {
+   "partNumber": 360,
+   "partName": "PS DWARIKAPUR",
+   "partId": 541671
+  },
+  {
+   "partNumber": 361,
+   "partName": "PS KHAJURAWAR",
+   "partId": 541672
+  },
+  {
+   "partNumber": 362,
+   "partName": "PS PALIATEKDHAR ATIRIKAT KACHHA",
+   "partId": 541673
+  },
+  {
+   "partNumber": 363,
+   "partName": "PS ASHAPUR CHANDAI",
+   "partId": 541674
+  },
+  {
+   "partNumber": 364,
+   "partName": "PANCHAYAT BHAWAN, KHANPUR",
+   "partId": 541675
+  },
+  {
+   "partNumber": 365,
+   "partName": "PS KHANPUR ATRIKT KACHHA",
+   "partId": 541676
+  },
+  {
+   "partNumber": 366,
+   "partName": "PS KHANPUR PRATHAM KACHHA",
+   "partId": 541677
+  },
+  {
+   "partNumber": 367,
+   "partName": "PS KHANPUR DITAYA KACHHA",
+   "partId": 541678
+  },
+  {
+   "partNumber": 368,
+   "partName": "PS KURAULI PILKHAWAN PASHCHAMI",
+   "partId": 541679
+  },
+  {
+   "partNumber": 369,
+   "partName": "PS KURAULI PILKHAWAN DAKSHNI",
+   "partId": 541680
+  },
+  {
+   "partNumber": 370,
+   "partName": "PS GAYANAPUR DAKSHNI",
+   "partId": 541681
+  },
+  {
+   "partNumber": 371,
+   "partName": "PRATHMIK VIDYALAY RASRA",
+   "partId": 541682
+  },
+  {
+   "partNumber": 372,
+   "partName": "PRATHMIK VIDYALAY RASRA ATIRIKT KACHHA",
+   "partId": 541750
+  },
+  {
+   "partNumber": 373,
+   "partName": "PS KASTURIPUR",
+   "partId": 541683
+  },
+  {
+   "partNumber": 374,
+   "partName": "PS KANDIPUR",
+   "partId": 541684
+  },
+  {
+   "partNumber": 375,
+   "partName": "PS DURGAPUR",
+   "partId": 541685
+  },
+  {
+   "partNumber": 376,
+   "partName": "PS NARA UTTARI",
+   "partId": 541686
+  },
+  {
+   "partNumber": 377,
+   "partName": "ANGANWADI KENDRA NARA JOGAPUR",
+   "partId": 541733
+  },
+  {
+   "partNumber": 378,
+   "partName": "PS QUTUBPUR PASHCHAMI",
+   "partId": 541687
+  },
+  {
+   "partNumber": 379,
+   "partName": "PS BHAGWABHIT UTTARI",
+   "partId": 541688
+  },
+  {
+   "partNumber": 380,
+   "partName": "U.P.S. SANETHU KACHHA SANKHYA-1",
+   "partId": 541689
+  },
+  {
+   "partNumber": 381,
+   "partName": "U.P.S. SANETHU KACHHA SANKHYA-2",
+   "partId": 541690
+  },
+  {
+   "partNumber": 382,
+   "partName": "U.P.S. SANETHU KACHHA SANKHYA-3",
+   "partId": 541691
+  },
+  {
+   "partNumber": 383,
+   "partName": "U.P.S. SANETHU KACHHA SANKHYA-4",
+   "partId": 541692
+  },
+  {
+   "partNumber": 384,
+   "partName": "CHANDRABALI SINGH INTER COLLEGE, SIRSINDA ROOM NO-1",
+   "partId": 541693
+  },
+  {
+   "partNumber": 385,
+   "partName": "CHANDRABALI SINGH INTER COLLEGE, SIRSINDA NO-2",
+   "partId": 541694
+  },
+  {
+   "partNumber": 386,
+   "partName": "RAMPUR HALWARA PASHCHAMI",
+   "partId": 541695
+  },
+  {
+   "partNumber": 387,
+   "partName": "PS RAMPUR HALWARA PURVI",
+   "partId": 541696
+  },
+  {
+   "partNumber": 388,
+   "partName": "PS TIHURA PASHCHIMI UTTARI",
+   "partId": 541697
+  },
+  {
+   "partNumber": 389,
+   "partName": "PS MANJHA TIHURA PSHCHIMI UTTARI",
+   "partId": 541698
+  },
+  {
+   "partNumber": 390,
+   "partName": "PRATHMIK VIDYALAYA MANJHA TIHURA PURAB UTTARI",
+   "partId": 541699
+  },
+  {
+   "partNumber": 391,
+   "partName": "PS MUNDADEEHA PRATHAM KACHHA",
+   "partId": 541700
+  },
+  {
+   "partNumber": 392,
+   "partName": "PS MUNDADEEHA PRATHAM KACHHA -2",
+   "partId": 541751
+  },
+  {
+   "partNumber": 393,
+   "partName": "PS SARAI RASHI PURVI",
+   "partId": 541701
+  },
+  {
+   "partNumber": 394,
+   "partName": "PS SARAI RASHI PASHCHAMI",
+   "partId": 541702
+  },
+  {
+   "partNumber": 395,
+   "partName": "PS SARAI RASHI ATIRIKAT KACHHA",
+   "partId": 541703
+  },
+  {
+   "partNumber": 396,
+   "partName": "PS RAJEPUR UTTARI",
+   "partId": 541704
+  },
+  {
+   "partNumber": 397,
+   "partName": "PRATHMIK VIDYALAY RAJEPUR ATIRIKT KACHH",
+   "partId": 541705
+  },
+  {
+   "partNumber": 398,
+   "partName": "PS RAJEPUR DAKSHNI",
+   "partId": 541706
+  },
+  {
+   "partNumber": 399,
+   "partName": "BACHULAL INTER COLLEGE, PURA BAZAR PASHCHAMI-1",
+   "partId": 541707
+  },
+  {
+   "partNumber": 400,
+   "partName": "BACHULAL INTER COLLEGE, PURA BAZAR PASHCHAMI-2",
+   "partId": 541708
+  },
+  {
+   "partNumber": 401,
+   "partName": "BACHULAL INTER COLLEGE, PURA BAZAR PASHCHAMI-3",
+   "partId": 541709
+  },
+  {
+   "partNumber": 402,
+   "partName": "BACHULAL INTER COLLEGE, PURA BAZAR PURVI-2",
+   "partId": 541710
+  },
+  {
+   "partNumber": 403,
+   "partName": "BACHULAL INTER COLLEGE, PURA BAZAR PURVI",
+   "partId": 541711
+  },
+  {
+   "partNumber": 404,
+   "partName": "BACHULAL INTER COLLEGE, PURA BAZAR MADHAYA",
+   "partId": 541712
+  },
+  {
+   "partNumber": 405,
+   "partName": "PS CHARERA",
+   "partId": 541713
+  },
+  {
+   "partNumber": 406,
+   "partName": "PS TAHIRPUR BARAULI",
+   "partId": 541714
+  },
+  {
+   "partNumber": 407,
+   "partName": "U.P.S. MADNA PURVI-I",
+   "partId": 541715
+  },
+  {
+   "partNumber": 408,
+   "partName": "U.P.S. MADNA MADHYA",
+   "partId": 541716
+  },
+  {
+   "partNumber": 409,
+   "partName": "U.P.S. MADNA PASHCHAMI",
+   "partId": 541717
+  },
+  {
+   "partNumber": 410,
+   "partName": "U.P.S. MADNA",
+   "partId": 541718
+  },
+  {
+   "partNumber": 411,
+   "partName": "PS DATAULI",
+   "partId": 541719
+  },
+  {
+   "partNumber": 412,
+   "partName": "PS DEOGARH PRATHAM KACHHA",
+   "partId": 541720
+  },
+  {
+   "partNumber": 413,
+   "partName": "PS DEOGARH PRATHAM KACHHA-2",
+   "partId": 541752
+  },
+  {
+   "partNumber": 414,
+   "partName": "PS DUGWA RAHIMPUR",
+   "partId": 541721
+  },
+  {
+   "partNumber": 415,
+   "partName": "PS SAMAISA",
+   "partId": 541722
+  },
+  {
+   "partNumber": 416,
+   "partName": "PS KHUSHALGANJ RUDAULIYA PASHCHAMI",
+   "partId": 541723
+  },
+  {
+   "partNumber": 417,
+   "partName": "PS KHUSHALGANJ RUDAULIYA PURVI",
+   "partId": 541724
+  },
+  {
+   "partNumber": 418,
+   "partName": "PS ROSHANNAGAR ROOM NO-1",
+   "partId": 541725
+  },
+  {
+   "partNumber": 419,
+   "partName": "PS ROSHANNAGAR ROOM NO-2",
+   "partId": 541726
+  }
+ ]
+}

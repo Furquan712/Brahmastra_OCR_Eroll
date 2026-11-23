@@ -1,0 +1,2258 @@
+{
+ "stateCd": "S24",
+ "districtCd": "S2409",
+ "acNumber": 75,
+ "acName": "Koil",
+ "fetchedAt": "2026-11-07T06:01:34",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 449,
+ "maxPart": 449,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "S.M.B. INTER COLLEGE R.NO.-1 RAMGHAT ROAD",
+   "partId": 396760
+  },
+  {
+   "partNumber": 2,
+   "partName": "S.M.B. INTER COLLEGE R.NO.-2 RAMGHAT ROAD",
+   "partId": 396761
+  },
+  {
+   "partNumber": 3,
+   "partName": "S.M.B. INTER COLLEGE R.NO.-3 RAMGHAT ROAD",
+   "partId": 396762
+  },
+  {
+   "partNumber": 4,
+   "partName": "ABDULLA NURSERY SCHOOL, A.M.U. R.NO.-1 MAIRS ROAD",
+   "partId": 396763
+  },
+  {
+   "partNumber": 5,
+   "partName": "ABDULLA NURSERY SCHOOL, A.M.U. R.NO.-2 MAIRS ROAD",
+   "partId": 396764
+  },
+  {
+   "partNumber": 6,
+   "partName": "ABDULLA NURSERY SCHOOL, A.M.U. R.NO.-3 MAIRS ROAD",
+   "partId": 396765
+  },
+  {
+   "partNumber": 7,
+   "partName": "ABDULLA NURSERY SCHOOL, A.M.U. R.NO.-4 MAIRS ROAD",
+   "partId": 396766
+  },
+  {
+   "partNumber": 8,
+   "partName": "ABDULLA NURSERY SCHOOL, A.M.U. R.NO.-5 MAIRS ROAD",
+   "partId": 396767
+  },
+  {
+   "partNumber": 9,
+   "partName": "ABDULLA NURSERY SCHOOL, A.M.U. R.NO.-6 MAIRS ROAD",
+   "partId": 396768
+  },
+  {
+   "partNumber": 10,
+   "partName": "SENIOR SECONDARY ABDULLAH GIRLS COLLEGE R.NO.-1 A.M.U.",
+   "partId": 396769
+  },
+  {
+   "partNumber": 11,
+   "partName": "SENIOR SECONDARY ABDULLAH GIRLS COLLEGE R.NO.-2 A.M.U.",
+   "partId": 396770
+  },
+  {
+   "partNumber": 12,
+   "partName": "SENIOR SECONDARY ABDULLAH GIRLS COLLEGE R.NO.-3 A.M.U.",
+   "partId": 396771
+  },
+  {
+   "partNumber": 13,
+   "partName": "SENIOR SECONDARY ABDULLAH GIRLS COLLEGE R.NO.-4 A.M.U.",
+   "partId": 396772
+  },
+  {
+   "partNumber": 14,
+   "partName": "SENIOR SECONDARY ABDULLAH GIRLS COLLEGE R.NO.-5 A.M.U.",
+   "partId": 396773
+  },
+  {
+   "partNumber": 15,
+   "partName": "ST. FIDELIS JUNIOR HIGH SCHOOL R.NO.-1 RAMGHAT ROAD",
+   "partId": 396774
+  },
+  {
+   "partNumber": 16,
+   "partName": "ST. FIDELIS JUNIOR HIGH SCHOOL R.NO.-2 RAMGHAT ROAD",
+   "partId": 396775
+  },
+  {
+   "partNumber": 17,
+   "partName": "ST. FIDELIS JUNIOR HIGH SCHOOL R.NO.-3 RAMGHAT ROAD",
+   "partId": 396776
+  },
+  {
+   "partNumber": 18,
+   "partName": "ST. FIDELIS JUNIOR HIGH SCHOOL R.NO.-4 RAMGHAT ROAD",
+   "partId": 396777
+  },
+  {
+   "partNumber": 19,
+   "partName": "ST. FIDELIS JUNIOR HIGH SCHOOL R.NO.-5 RAMGHAT ROAD",
+   "partId": 396778
+  },
+  {
+   "partNumber": 20,
+   "partName": "ST. FIDELIS JUNIOR HIGH SCHOOL R.NO.-6 RAMGHAT ROAD",
+   "partId": 396779
+  },
+  {
+   "partNumber": 21,
+   "partName": "ST. FIDELIS JUNIOR HIGH SCHOOL R.NO.-7 RAMGHAT ROAD",
+   "partId": 396780
+  },
+  {
+   "partNumber": 22,
+   "partName": "ST. FIDELIS JUNIOR HIGH SCHOOL R.NO.-8 RAMGHAT ROAD",
+   "partId": 396781
+  },
+  {
+   "partNumber": 23,
+   "partName": "NATIONAL INTER COLLEGE (SENIOR WING) R.NO.- 1 JEEVANGARH",
+   "partId": 396782
+  },
+  {
+   "partNumber": 24,
+   "partName": "NATIONAL INTER COLLEGE (SENIOR WING) R.NO.- 2 JEEVANGARH",
+   "partId": 396783
+  },
+  {
+   "partNumber": 25,
+   "partName": "NATIONAL INTER COLLEGE (SENIOR WING) R.NO.- 3 JEEVANGARH",
+   "partId": 396784
+  },
+  {
+   "partNumber": 26,
+   "partName": "NATIONAL INTER COLLEGE (SENIOR WING) R.NO.- 4 JEEVANGARH",
+   "partId": 396785
+  },
+  {
+   "partNumber": 27,
+   "partName": "NATIONAL INTER COLLEGE (SENIOR WING) R.NO.- 5 JEEVANGARH",
+   "partId": 396786
+  },
+  {
+   "partNumber": 28,
+   "partName": "NATIONAL INTER COLLEGE (SENIOR WING) R.NO.- 6 JEEVANGARH",
+   "partId": 396787
+  },
+  {
+   "partNumber": 29,
+   "partName": "NATIONAL INTER COLLEGE (JUNIOR WING) R.NO.- 1 JEEVANGARH",
+   "partId": 396788
+  },
+  {
+   "partNumber": 30,
+   "partName": "NATIONAL INTER COLLEGE (JUNIOR WING) R.NO.- 2 JEEVANGARH",
+   "partId": 396789
+  },
+  {
+   "partNumber": 31,
+   "partName": "NATIONAL INTER COLLEGE (JUNIOR WING) R.NO.- 3 JEEVANGARH",
+   "partId": 396790
+  },
+  {
+   "partNumber": 32,
+   "partName": "NATIONAL INTER COLLEGE (JUNIOR WING) R.NO.- 4 JEEVANGARH",
+   "partId": 397091
+  },
+  {
+   "partNumber": 33,
+   "partName": "OFFICE BHUMI SANRAKSHAN ADHIKARI R.NO. 1 QUARSI FARM",
+   "partId": 396791
+  },
+  {
+   "partNumber": 34,
+   "partName": "OFFICE BHUMI SANRAKSHAN ADHIKARI R.NO. 2 QUARSI FARM",
+   "partId": 396792
+  },
+  {
+   "partNumber": 35,
+   "partName": "GLORIA PUBLIC SCHOOL R.NO.- 1 KELA NAGAR CHAURAHA",
+   "partId": 396793
+  },
+  {
+   "partNumber": 36,
+   "partName": "GLORIA PUBLIC SCHOOL R.N. 2  KELA NAGAR CHAURAHA",
+   "partId": 396794
+  },
+  {
+   "partNumber": 37,
+   "partName": "GLORIA PUBLIC SCHOOL R.NO.- 3 KELA NAGAR CHAURAHA",
+   "partId": 396795
+  },
+  {
+   "partNumber": 38,
+   "partName": "GLORIA PUBLIC SCHOOL R.NO.- 4 KELA NAGAR CHAURAHA",
+   "partId": 396796
+  },
+  {
+   "partNumber": 39,
+   "partName": "GLORIA PUBLIC SCHOOL R.NO.- 5 KELA NAGAR CHAURAHA",
+   "partId": 396797
+  },
+  {
+   "partNumber": 40,
+   "partName": "IQRA PUBLIC SCHOOL, R.NO.-1 NAGALA MALLAH",
+   "partId": 396798
+  },
+  {
+   "partNumber": 41,
+   "partName": "IQRA PUBLIC SCHOOL, R.NO.-2 NAGALA MALLAH",
+   "partId": 396799
+  },
+  {
+   "partNumber": 42,
+   "partName": "IQRA PUBLIC SCHOOL, R.NO.-3 NAGALA MALLAH",
+   "partId": 396800
+  },
+  {
+   "partNumber": 43,
+   "partName": "IQRA PUBLIC SCHOOL, R.NO.-4 NAGALA MALLAH",
+   "partId": 396801
+  },
+  {
+   "partNumber": 44,
+   "partName": "Fatima Girls Inter College R.No. 1 Quarsi Bypass",
+   "partId": 397083
+  },
+  {
+   "partNumber": 45,
+   "partName": "Fatima Girls Inter College R.No. 2 Quarsi Bypass",
+   "partId": 397084
+  },
+  {
+   "partNumber": 46,
+   "partName": "Fatima Girls Inter College R.No. 3 Quarsi Bypass",
+   "partId": 397085
+  },
+  {
+   "partNumber": 47,
+   "partName": "Fatima Girls Inter College R.No. 4 Quarsi Bypass",
+   "partId": 397092
+  },
+  {
+   "partNumber": 48,
+   "partName": "Fatima Girls Inter College R.No. 5 Quarsi Bypass",
+   "partId": 397093
+  },
+  {
+   "partNumber": 49,
+   "partName": "Fatima Girls Inter College R.No. 6 Quarsi Bypass",
+   "partId": 397094
+  },
+  {
+   "partNumber": 50,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-1 MARRIS ROAD",
+   "partId": 396802
+  },
+  {
+   "partNumber": 51,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-2 MARRIS ROAD",
+   "partId": 396803
+  },
+  {
+   "partNumber": 52,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-3 MARRIS ROAD",
+   "partId": 396804
+  },
+  {
+   "partNumber": 53,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-4 MARRIS ROAD",
+   "partId": 396805
+  },
+  {
+   "partNumber": 54,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-5 MARRIS ROAD",
+   "partId": 396806
+  },
+  {
+   "partNumber": 55,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-6 MARRIS ROAD",
+   "partId": 396807
+  },
+  {
+   "partNumber": 56,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-7 MARRIS ROAD",
+   "partId": 396808
+  },
+  {
+   "partNumber": 57,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-8 MARRIS ROAD",
+   "partId": 396809
+  },
+  {
+   "partNumber": 58,
+   "partName": "CHILDREN ACADEMY SCHOOL R.NO.-9 MARRIS ROAD",
+   "partId": 397095
+  },
+  {
+   "partNumber": 59,
+   "partName": "INCOME TAX OFFICE R.NO.-1  MARIS ROAD",
+   "partId": 396810
+  },
+  {
+   "partNumber": 60,
+   "partName": "INCOME TAX OFFICE  R.NO.-2  MARIS ROAD",
+   "partId": 396811
+  },
+  {
+   "partNumber": 61,
+   "partName": "ALIGARH PUBLIC SCHOOL R.NO.-1 A.M.U.",
+   "partId": 396812
+  },
+  {
+   "partNumber": 62,
+   "partName": "ALIGARH PUBLIC SCHOOL R.NO.-2 A.M.U.",
+   "partId": 396813
+  },
+  {
+   "partNumber": 63,
+   "partName": "ALIGARH PUBLIC SCHOOL R.NO.-3 A.M.U.",
+   "partId": 396814
+  },
+  {
+   "partNumber": 64,
+   "partName": "ALIGARH PUBLIC SCHOOL R.NO.-4 A.M.U.",
+   "partId": 396815
+  },
+  {
+   "partNumber": 65,
+   "partName": "ALIGARH PUBLIC SCHOOL R.NO.-5 A.M.U.",
+   "partId": 396816
+  },
+  {
+   "partNumber": 66,
+   "partName": "ALIGARH PUBLIC SCHOOL R.NO.-6  A.M.U.",
+   "partId": 396817
+  },
+  {
+   "partNumber": 67,
+   "partName": "OFFICE NICHLI GANGA NAHAR R.NO.-1 DODHPUR",
+   "partId": 396818
+  },
+  {
+   "partNumber": 68,
+   "partName": "OFFICE NICHLI GANGA NAHAR R.NO.-2 DODHPUR",
+   "partId": 396819
+  },
+  {
+   "partNumber": 69,
+   "partName": "ZAKIR HUSAIN MODEL SCHOOL R.NO.-1 DODPUR",
+   "partId": 396820
+  },
+  {
+   "partNumber": 70,
+   "partName": "ZAKIR HUSAIN MODEL SCHOOL R.NO.-2 DODPUR",
+   "partId": 396821
+  },
+  {
+   "partNumber": 71,
+   "partName": "ZAKIR HUSAIN MODEL SCHOOL R.NO.-3 DODPUR",
+   "partId": 396822
+  },
+  {
+   "partNumber": 72,
+   "partName": "ZAKIR HUSAIN MODEL SCHOOL R.NO.-4 DODPUR",
+   "partId": 396823
+  },
+  {
+   "partNumber": 73,
+   "partName": "ZAKIR HUSAIN MODEL SCHOOL R.NO.-5 DODPUR",
+   "partId": 396824
+  },
+  {
+   "partNumber": 74,
+   "partName": "ZAKIR HUSAIN MODEL SCHOOL R.NO.-6 DODPUR",
+   "partId": 396825
+  },
+  {
+   "partNumber": 75,
+   "partName": "ZAKIR HUSAIN MODEL SCHOOL R.NO.-7 DODPUR",
+   "partId": 397096
+  },
+  {
+   "partNumber": 76,
+   "partName": "ZAKIR HUSAIN MODEL SCHOOL R.NO.-8 DODPUR",
+   "partId": 396826
+  },
+  {
+   "partNumber": 77,
+   "partName": "JAMIYA URDU COLLEGE R.NO.-1 MEDICAL ROAD",
+   "partId": 396827
+  },
+  {
+   "partNumber": 78,
+   "partName": "JAMIYA URDU COLLEGE R.NO.-2 MEDICAL ROAD",
+   "partId": 396828
+  },
+  {
+   "partNumber": 79,
+   "partName": "JAMIYA URDU COLLEGE R.NO.-3 MEDICAL ROAD",
+   "partId": 396829
+  },
+  {
+   "partNumber": 80,
+   "partName": "JAMIYA URDU COLLEGE R.NO.-4 MEDICAL ROAD",
+   "partId": 397097
+  },
+  {
+   "partNumber": 81,
+   "partName": "JAMIYA URDU COLLEGE R.NO.-5 MEDICAL ROAD",
+   "partId": 396830
+  },
+  {
+   "partNumber": 82,
+   "partName": "SENIOR SECONDARY BOYS SCHOOL R.NO.-1 A.M.U MEDICAL ROAD",
+   "partId": 396831
+  },
+  {
+   "partNumber": 83,
+   "partName": "SENIOR SECONDARY BOYS SCHOOL R.NO.-2 A.M.U MEDICAL ROAD",
+   "partId": 396832
+  },
+  {
+   "partNumber": 84,
+   "partName": "SENIOR SECONDARY BOYS SCHOOL  R.NO.-3 A.M.U MEDICAL ROAD",
+   "partId": 396833
+  },
+  {
+   "partNumber": 85,
+   "partName": "SENIOR SECONDARY BOYS SCHOOL R.NO.-4 A.M.U MEDICAL ROAD",
+   "partId": 396834
+  },
+  {
+   "partNumber": 86,
+   "partName": "SENIOR SECONDARY BOYS SCHOOL R.NO.-5 A.M.U MEDICAL ROAD",
+   "partId": 396835
+  },
+  {
+   "partNumber": 87,
+   "partName": "SENIOR SECONDARY BOYS SCHOOL R.NO.-6 A.M.U MEDICAL ROAD",
+   "partId": 396836
+  },
+  {
+   "partNumber": 88,
+   "partName": "SENIOR SECONDARY BOYS SCHOOL R.NO.-7 A.M.U MEDICAL ROAD",
+   "partId": 396837
+  },
+  {
+   "partNumber": 89,
+   "partName": "Kasturi Devi Anganwadi Centre Room No. 1 Jamalpur",
+   "partId": 396838
+  },
+  {
+   "partNumber": 90,
+   "partName": "Kasturi Devi Anganwadi Centre Room No. 2 Jamalpur",
+   "partId": 396839
+  },
+  {
+   "partNumber": 91,
+   "partName": "Kasturi Devi Anganwadi Centre Room No. 3 Jamalpur",
+   "partId": 396840
+  },
+  {
+   "partNumber": 92,
+   "partName": "Kasturi Devi Anganwadi Centre Room No. 4 Jamalpur",
+   "partId": 396841
+  },
+  {
+   "partNumber": 93,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-1 A.M.U JAMALPUR",
+   "partId": 396842
+  },
+  {
+   "partNumber": 94,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-2 A.M.U JAMALPUR",
+   "partId": 396843
+  },
+  {
+   "partNumber": 95,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-3 A.M.U JAMALPUR",
+   "partId": 396844
+  },
+  {
+   "partNumber": 96,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-4 A.M.U JAMALPUR",
+   "partId": 396845
+  },
+  {
+   "partNumber": 97,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-5 A.M.U JAMALPUR",
+   "partId": 397098
+  },
+  {
+   "partNumber": 98,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-6 A.M.U JAMALPUR",
+   "partId": 396846
+  },
+  {
+   "partNumber": 99,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-7 A.M.U JAMALPUR",
+   "partId": 396847
+  },
+  {
+   "partNumber": 100,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-8 A.M.U JAMALPUR",
+   "partId": 396848
+  },
+  {
+   "partNumber": 101,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-9 A.M.U JAMALPUR",
+   "partId": 397099
+  },
+  {
+   "partNumber": 102,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-10 A.M.U JAMALPUR",
+   "partId": 396849
+  },
+  {
+   "partNumber": 103,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-11 A.M.U JAMALPUR",
+   "partId": 397086
+  },
+  {
+   "partNumber": 104,
+   "partName": "MINTO CIRCLE SCHOOL R.NO.-12 A.M.U JAMALPUR",
+   "partId": 397087
+  },
+  {
+   "partNumber": 105,
+   "partName": "A B K U SCHOOL R.NO.-1 A.M.U JAMALPUR",
+   "partId": 396850
+  },
+  {
+   "partNumber": 106,
+   "partName": "A B K U SCHOOL R.NO.-2 A.M.U JAMALPUR",
+   "partId": 396851
+  },
+  {
+   "partNumber": 107,
+   "partName": "A B K U SCHOOL R.NO.-3 A.M.U JAMALPUR",
+   "partId": 396852
+  },
+  {
+   "partNumber": 108,
+   "partName": "A B K U SCHOOL R.NO.-4 A.M.U JAMALPUR",
+   "partId": 396853
+  },
+  {
+   "partNumber": 109,
+   "partName": "A B K U SCHOOL R.NO.-5 A.M.U JAMALPUR",
+   "partId": 396854
+  },
+  {
+   "partNumber": 110,
+   "partName": "A B K U SCHOOL R.NO.-6 A.M.U JAMALPUR",
+   "partId": 396855
+  },
+  {
+   "partNumber": 111,
+   "partName": "A B K U SCHOOL R.NO.-7 A.M.U JAMALPUR",
+   "partId": 397100
+  },
+  {
+   "partNumber": 112,
+   "partName": "A B K U SCHOOL R.NO.-8 A.M.U JAMALPUR",
+   "partId": 396856
+  },
+  {
+   "partNumber": 113,
+   "partName": "A B K U SCHOOL R.NO.-9 A.M.U JAMALPUR",
+   "partId": 396857
+  },
+  {
+   "partNumber": 114,
+   "partName": "A B K U SCHOOL R.NO.-10 A.M.U JAMALPUR",
+   "partId": 396858
+  },
+  {
+   "partNumber": 115,
+   "partName": "A B K U SCHOOL R.NO.-11 A.M.U JAMALPUR",
+   "partId": 396859
+  },
+  {
+   "partNumber": 116,
+   "partName": "A B K U SCHOOL R.NO.-12 A.M.U JAMALPUR",
+   "partId": 397101
+  },
+  {
+   "partNumber": 117,
+   "partName": "M R SHERWANI PUBLIC SCHOOL R.NO.-1 JAMALPUR",
+   "partId": 396860
+  },
+  {
+   "partNumber": 118,
+   "partName": "M R SHERWANI PUBLIC SCHOOL R.NO.-2 JAMALPUR",
+   "partId": 396861
+  },
+  {
+   "partNumber": 119,
+   "partName": "M R SHERWANI PUBLIC SCHOOL R.NO.-3 JAMALPUR",
+   "partId": 396862
+  },
+  {
+   "partNumber": 120,
+   "partName": "M R SHERWANI PUBLIC SCHOOL R.NO.-4 JAMALPUR",
+   "partId": 396863
+  },
+  {
+   "partNumber": 121,
+   "partName": "M R SHERWANI PUBLIC SCHOOL R.NO.-5 JAMALPUR",
+   "partId": 396864
+  },
+  {
+   "partNumber": 122,
+   "partName": "M R SHERWANI PUBLIC SCHOOL R.NO.-6 JAMALPUR",
+   "partId": 396865
+  },
+  {
+   "partNumber": 123,
+   "partName": "PRIMARY BALAK PATHSHALA NO 46  R.NO. 1 JAMALPUR",
+   "partId": 396866
+  },
+  {
+   "partNumber": 124,
+   "partName": "PRIMARY BALAK PATHSHALA NO 46 R.NO. 2 JAMALPUR",
+   "partId": 396867
+  },
+  {
+   "partNumber": 125,
+   "partName": "PRIMARY BALAK PATHSHALA NO 46 R.NO. 3 JAMALPUR",
+   "partId": 396868
+  },
+  {
+   "partNumber": 126,
+   "partName": "PRIMARY BALAK PATHSHALA NO 46 R.NO. 4 JAMALPUR",
+   "partId": 396869
+  },
+  {
+   "partNumber": 127,
+   "partName": "H. I. INTER COLLEGE R.NO.-1 SAHANSABAD",
+   "partId": 396870
+  },
+  {
+   "partNumber": 128,
+   "partName": "H. I. INTER COLLEGE R.NO.-2 SAHANSABAD",
+   "partId": 396871
+  },
+  {
+   "partNumber": 129,
+   "partName": "H. I. INTER COLLEGE R.NO.-3 SAHANSABAD",
+   "partId": 396872
+  },
+  {
+   "partNumber": 130,
+   "partName": "H. I. INTER COLLEGE R.NO.-4 SAHANSABAD",
+   "partId": 396873
+  },
+  {
+   "partNumber": 131,
+   "partName": "H. I. INTER COLLEGE R.NO.-5 SAHANSABAD",
+   "partId": 396874
+  },
+  {
+   "partNumber": 132,
+   "partName": "H. I. INTER COLLEGE R.NO.-6 SAHANSABAD",
+   "partId": 396875
+  },
+  {
+   "partNumber": 133,
+   "partName": "H. I. INTER COLLEGE R.NO.-7 SAHANSABAD",
+   "partId": 396876
+  },
+  {
+   "partNumber": 134,
+   "partName": "H. I. INTER COLLEGE R.NO.-8 SAHANSABAD",
+   "partId": 396877
+  },
+  {
+   "partNumber": 135,
+   "partName": "H. I. INTER COLLEGE R.NO.-9 SAHANSABAD",
+   "partId": 396878
+  },
+  {
+   "partNumber": 136,
+   "partName": "H. I. INTER COLLEGE R.NO.-10 SAHANSABAD",
+   "partId": 396879
+  },
+  {
+   "partNumber": 137,
+   "partName": "H. I. INTER COLLEGE R.NO.-11 SAHANSABAD",
+   "partId": 396880
+  },
+  {
+   "partNumber": 138,
+   "partName": "H I INTER COLLEGE R.NO.-12 SAHANSABAD",
+   "partId": 397102
+  },
+  {
+   "partNumber": 139,
+   "partName": "H. I. INTER COLLEGE R.NO.-13 SAHANSABAD",
+   "partId": 396881
+  },
+  {
+   "partNumber": 140,
+   "partName": "H. I. INTER COLLEGE R.NO.-14 SAHANSABAD",
+   "partId": 396882
+  },
+  {
+   "partNumber": 141,
+   "partName": "ALSARA PUBLIC SCHOOL R.NO.-1 SAHANSABAD",
+   "partId": 396883
+  },
+  {
+   "partNumber": 142,
+   "partName": "ALSARA PUBLIC SCHOOL R.NO.-3 SHAHANSHABAD",
+   "partId": 396884
+  },
+  {
+   "partNumber": 143,
+   "partName": "ALSARA PUBLIC SCHOOL R.NO.-4 SHAHANSHABAD",
+   "partId": 396885
+  },
+  {
+   "partNumber": 144,
+   "partName": "PRIMARY BALAK PATHSHALA NO 19 R.NO.- 1 HAMDARD NAGAR D JAMALPUR 24 FUTA ROAD",
+   "partId": 396886
+  },
+  {
+   "partNumber": 145,
+   "partName": "PRIMARY BALAK PATHSHALA NO 19 R.NO.- 2 HAMDARD NAGAR D JAMALPUR 24 FUTA ROAD",
+   "partId": 396887
+  },
+  {
+   "partNumber": 146,
+   "partName": "PRIMARY BALAK PATHSHALA NO 19 R.NO.- 3 HAMDARD NAGAR D JAMALPUR 24 FUTA ROAD",
+   "partId": 397103
+  },
+  {
+   "partNumber": 147,
+   "partName": "PRIMARY BALAK PATHSHALA NO 19 R.NO.- 4 HAMDARD NAGAR D JAMALPUR 24 FUTA ROAD",
+   "partId": 396888
+  },
+  {
+   "partNumber": 148,
+   "partName": "PRIMARY BALAK PATHSHALA NO 19 R.NO.- 5 HAMDARD NAGAR D JAMALPUR 24 FUTA ROAD",
+   "partId": 396889
+  },
+  {
+   "partNumber": 149,
+   "partName": "PRIMARY BALAK PATHSHALA NO 19 R.NO.- 6 HAMDARD NAGAR D JAMALPUR 24 FUTA ROAD",
+   "partId": 397104
+  },
+  {
+   "partNumber": 150,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-1 QILA ROAD",
+   "partId": 396890
+  },
+  {
+   "partNumber": 151,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-2 QILA ROAD",
+   "partId": 396891
+  },
+  {
+   "partNumber": 152,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-3 QILA ROAD",
+   "partId": 396892
+  },
+  {
+   "partNumber": 153,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-4 QILA ROAD",
+   "partId": 396893
+  },
+  {
+   "partNumber": 154,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-5 QILA ROAD",
+   "partId": 396894
+  },
+  {
+   "partNumber": 155,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-6 QILA ROAD",
+   "partId": 396895
+  },
+  {
+   "partNumber": 156,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-7 QILA ROAD",
+   "partId": 396896
+  },
+  {
+   "partNumber": 157,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-8 QILA ROAD",
+   "partId": 396897
+  },
+  {
+   "partNumber": 158,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-9 QILA ROAD",
+   "partId": 396898
+  },
+  {
+   "partNumber": 159,
+   "partName": "A M U BLIND OF SCHOOL R.NO.-10 QILA ROAD",
+   "partId": 397105
+  },
+  {
+   "partNumber": 160,
+   "partName": "PRIMARY BALAK PATHSHALA NO 22 R.NO.- 1 FIRDAUS NAGAR",
+   "partId": 396899
+  },
+  {
+   "partNumber": 161,
+   "partName": "PRIMARY BALAK PATHSHALA NO 22 R.NO.- 2 FIRDAUS NAGAR",
+   "partId": 396900
+  },
+  {
+   "partNumber": 162,
+   "partName": "PRIMARY BALAK PATHSHALA NO 22 R.NO.- 3 FIRDAUS NAGAR",
+   "partId": 397106
+  },
+  {
+   "partNumber": 163,
+   "partName": "ADHI. ABHI. PRANTIYA KHAND LO. NI. VIBHAG R.NO.-1 ANOOPSHEHAR ROAD",
+   "partId": 396901
+  },
+  {
+   "partNumber": 164,
+   "partName": "ADHI. ABHI. PRANTIYA KHAND LO. NI. VIBHAG R.NO.-2 ANOOPSHEHAR ROAD",
+   "partId": 396902
+  },
+  {
+   "partNumber": 165,
+   "partName": "SPRING BELLS PUBLIC SCHOOL R.NO.- 1 ANOOPSHEHAR ROAD",
+   "partId": 396903
+  },
+  {
+   "partNumber": 166,
+   "partName": "SPRING BELS PUBLIC SCHOOL R.NO.- 2 ANOOPSHEHAR ROAD",
+   "partId": 396904
+  },
+  {
+   "partNumber": 167,
+   "partName": "BASIC PRIMARY SCHOOL R.NO.-1 POLICE LINE",
+   "partId": 396905
+  },
+  {
+   "partNumber": 168,
+   "partName": "BASIC PRIMARY SCHOOL R.NO.-2 POLICE LINE",
+   "partId": 396906
+  },
+  {
+   "partNumber": 169,
+   "partName": "BASIC PRIMARY SCHOOL R.NO.-3 POLICE LINE",
+   "partId": 396907
+  },
+  {
+   "partNumber": 170,
+   "partName": "BASIC PRIMARY SCHOOL R.NO.-4 POLICE LINE",
+   "partId": 396908
+  },
+  {
+   "partNumber": 171,
+   "partName": "OFFICE JILA VIDKALAY NIRISHAK NAURANGILAL INTER COLLEGE, R.NO.-1 GHANTAGHAR",
+   "partId": 396909
+  },
+  {
+   "partNumber": 172,
+   "partName": "OFFICE JILA VIDKALAY NIRISHAK NAURANGILAL INTER COLLEGE, R.NO.-2 GHANTAGHAR",
+   "partId": 396910
+  },
+  {
+   "partNumber": 173,
+   "partName": "SEWA BHAWAN NAGAR NIGAM OFFICE R.NO.-1 NAGAR NIGAM",
+   "partId": 396911
+  },
+  {
+   "partNumber": 174,
+   "partName": "SEWA BHAWAN NAGAR NIGAM OFFICE R.NO.-2 NAGAR NIGAM",
+   "partId": 396912
+  },
+  {
+   "partNumber": 175,
+   "partName": "MORDEN PUBLIC SCHOOL R.NO.-1 MATHURIYA NAGAR BARAULA BYPASS ROAD",
+   "partId": 396913
+  },
+  {
+   "partNumber": 176,
+   "partName": "MORDEN PUBLIC SCHOOL R.NO.-2 MATHURIYA NAGAR BARAULA BYPASS ROAD",
+   "partId": 396914
+  },
+  {
+   "partNumber": 177,
+   "partName": "Munni Devi Mathuriya Ju. Hi. School R.No. 1 Nagla Bhunda",
+   "partId": 396915
+  },
+  {
+   "partNumber": 178,
+   "partName": "Munni Devi Mathuriya Ju. Hi. School R.No. 2 Nagla Bhunda",
+   "partId": 397107
+  },
+  {
+   "partNumber": 179,
+   "partName": "D.A.V. INTER COLLEGE R.NO.-1 G.T. ROAD",
+   "partId": 396916
+  },
+  {
+   "partNumber": 180,
+   "partName": "D.A.V. INTER COLLEGE R.NO.-2 G.T. ROAD",
+   "partId": 396917
+  },
+  {
+   "partNumber": 181,
+   "partName": "D.A.V. INTER COLLEGE R.NO.-3 G.T. ROAD",
+   "partId": 396918
+  },
+  {
+   "partNumber": 182,
+   "partName": "D.A.V. INTER COLLEGE R.NO.-4 G.T. ROAD",
+   "partId": 396919
+  },
+  {
+   "partNumber": 183,
+   "partName": "D A. V. INTER COLLEGE R.NO.-5 G.T. ROAD",
+   "partId": 397108
+  },
+  {
+   "partNumber": 184,
+   "partName": "D.A.V. INTER COLLEGE R.NO.-6 G.T. ROAD",
+   "partId": 396920
+  },
+  {
+   "partNumber": 185,
+   "partName": "D.A.V. INTER COLLEGE R.NO.-7 G.T. ROAD",
+   "partId": 396921
+  },
+  {
+   "partNumber": 186,
+   "partName": "D.A.V. INTER COLLEGE R.NO.-8 G.T. ROAD",
+   "partId": 396922
+  },
+  {
+   "partNumber": 187,
+   "partName": "D A.V. INTER COLLEGE R.NO.-9 G.T. ROAD",
+   "partId": 397109
+  },
+  {
+   "partNumber": 188,
+   "partName": "D.A.V. INTER COLLEGE R.NO.-10 G.T. ROAD",
+   "partId": 396923
+  },
+  {
+   "partNumber": 189,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-1 G.T. ROAD",
+   "partId": 396924
+  },
+  {
+   "partNumber": 190,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-2 G.T. ROAD",
+   "partId": 396925
+  },
+  {
+   "partNumber": 191,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-3 G.T. ROAD",
+   "partId": 396926
+  },
+  {
+   "partNumber": 192,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-4 G.T. ROAD",
+   "partId": 396927
+  },
+  {
+   "partNumber": 193,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-5 G.T. ROAD",
+   "partId": 396928
+  },
+  {
+   "partNumber": 194,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-6 G.T. ROAD",
+   "partId": 396929
+  },
+  {
+   "partNumber": 195,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-7 G.T. ROAD",
+   "partId": 396930
+  },
+  {
+   "partNumber": 196,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-8 G.T. ROAD",
+   "partId": 396931
+  },
+  {
+   "partNumber": 197,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-9 G.T. ROAD",
+   "partId": 396932
+  },
+  {
+   "partNumber": 198,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-10 G.T. ROAD",
+   "partId": 396933
+  },
+  {
+   "partNumber": 199,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-11 G.T. ROAD",
+   "partId": 396934
+  },
+  {
+   "partNumber": 200,
+   "partName": "D.A.V GIRLS INTER COLLEGE R.NO.-12 G.T. ROAD",
+   "partId": 396935
+  },
+  {
+   "partNumber": 201,
+   "partName": "PRATAP SINGH MEMORIAL PUBLIC SCHOOL R.NO.-1 KUNDAN NAGAR, TIKARAM COLONY",
+   "partId": 396936
+  },
+  {
+   "partNumber": 202,
+   "partName": "PRATAP SINGH MEMORIAL PUBLIC SCHOOL R.NO.-2  KUNDAN NAGAR, TIKARAM COLONY",
+   "partId": 396937
+  },
+  {
+   "partNumber": 203,
+   "partName": "PRATAP SINGH MEMORIAL PUBLIC SCHOOL R.NO.-3  KUNDAN NAGAR, TIKARAM COLONY",
+   "partId": 396938
+  },
+  {
+   "partNumber": 204,
+   "partName": "PRATAP SINGH MEMORIAL PUBLIC SCHOOL R.NO.-4 KUNDAN NAGAR, TIKARAM COLONY",
+   "partId": 396939
+  },
+  {
+   "partNumber": 205,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-1 TIKARAM COLONY",
+   "partId": 396940
+  },
+  {
+   "partNumber": 206,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-2 TIKARAM COLONY",
+   "partId": 396941
+  },
+  {
+   "partNumber": 207,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-3 TIKARAM COLONY",
+   "partId": 396942
+  },
+  {
+   "partNumber": 208,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-4 TIKARAM COLONY",
+   "partId": 396943
+  },
+  {
+   "partNumber": 209,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-5 TIKARAM COLONY",
+   "partId": 396944
+  },
+  {
+   "partNumber": 210,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-6 TIKARAM COLONY",
+   "partId": 396945
+  },
+  {
+   "partNumber": 211,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-7 TIKARAM COLONY",
+   "partId": 396946
+  },
+  {
+   "partNumber": 212,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-8 TIKARAM COLONY",
+   "partId": 396947
+  },
+  {
+   "partNumber": 213,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-9 TIKARAM COLONY",
+   "partId": 396948
+  },
+  {
+   "partNumber": 214,
+   "partName": "JAYDEVI MEMORIAL SCHOOL R.NO.-10 TIKARAM COLONY",
+   "partId": 396949
+  },
+  {
+   "partNumber": 215,
+   "partName": "MOHAN LAL MEMORIAL PUBLIC SCHOOL R.NO. 1 AMBEDKAR COLONY CHHAWANI",
+   "partId": 396950
+  },
+  {
+   "partNumber": 216,
+   "partName": "MOHAN LAL MEMORIAL PUBLIC SCHOOL R.NO. 2 AMBEDKAR COLONY CHHAWANI",
+   "partId": 396951
+  },
+  {
+   "partNumber": 217,
+   "partName": "SAMUDAYIK VIKAS KENDRA R.NO.-1 AMBEDKAR COLONY CHHAWANI",
+   "partId": 396952
+  },
+  {
+   "partNumber": 218,
+   "partName": "SAMUDAYIK VIKAS KENDRA R.NO.-2 AMBEDKAR COLONY CHHAWANI",
+   "partId": 396953
+  },
+  {
+   "partNumber": 219,
+   "partName": "SAMUDAYIK VIKAS KENDRA R.NO.-3 AMBEDKAR COLONY CHHAWANI",
+   "partId": 397110
+  },
+  {
+   "partNumber": 220,
+   "partName": "ADARSH GYANDEEP INTER COLLEGE, R.NO.-1 DORI NAGAR",
+   "partId": 396954
+  },
+  {
+   "partNumber": 221,
+   "partName": "ADARSH GYANDEEP INTER COLLEGE, R.NO.-2 DORI NAGAR",
+   "partId": 396955
+  },
+  {
+   "partNumber": 222,
+   "partName": "ADARSH GYANDEEP INTER COLLEGE, R.NO.-3 DORI NAGAR",
+   "partId": 396956
+  },
+  {
+   "partNumber": 223,
+   "partName": "ADARSH GYANDEEP INTER COLLEGE, R.NO.-4 DORI NAGAR",
+   "partId": 396957
+  },
+  {
+   "partNumber": 224,
+   "partName": "BHUMI PUBLIC SCHOOL R.N.1 MAHAVIR NAGAR",
+   "partId": 396958
+  },
+  {
+   "partNumber": 225,
+   "partName": "BHUMI PUBLIC SCHOOL R.N.2 MAHAVIR NAGAR",
+   "partId": 396959
+  },
+  {
+   "partNumber": 226,
+   "partName": "BHUMI PUBLIC SCHOOL R.N.3 MAHAVIR NAGAR",
+   "partId": 397111
+  },
+  {
+   "partNumber": 227,
+   "partName": "PT. BRAHMDEV SHASTRI BAL VIDHYALAY & JUNIOR HIGH SCHOOL R.NO. 1 MAHAVIR NAGAR",
+   "partId": 396960
+  },
+  {
+   "partNumber": 228,
+   "partName": "PT. BRAHMDEV SHASTRI BAL VIDHYALAY & JUNIOR HIGH SCHOOL R.NO. 2 MAHAVIR NAGAR",
+   "partId": 396961
+  },
+  {
+   "partNumber": 229,
+   "partName": "PT BRAHMDEV SHASTRI BAL VIDHYALAY, JUNIOR HIGH SCHOOL R.NO. 3 MAHAVIR NAGAR",
+   "partId": 397112
+  },
+  {
+   "partNumber": 230,
+   "partName": "PT. BRAHMDEV SHASTRI BAL VIDHYALAY & JUNIOR HIGH SCHOOL R.NO. 4 MAHAVIR NAGAR",
+   "partId": 396962
+  },
+  {
+   "partNumber": 231,
+   "partName": "SHRI. MAHAURU P.M.V. R.NO.-1 RAVAN TILA PANI KI TANKI",
+   "partId": 396963
+  },
+  {
+   "partNumber": 232,
+   "partName": "SHRI. MAHAURU P.M.V. R.NO.-2 RAVAN TILA PANI KI TANKI",
+   "partId": 396964
+  },
+  {
+   "partNumber": 233,
+   "partName": "SHRI. MAHAURU P.M.V. R.NO.-3 RAVAN TILA PANI KI TANKI",
+   "partId": 396965
+  },
+  {
+   "partNumber": 234,
+   "partName": "SHRI. MAHAURU P.M.V. R.NO.-4 RAVAN TILA PANI KI TANKI",
+   "partId": 396966
+  },
+  {
+   "partNumber": 235,
+   "partName": "SHRI. MAHAURU P.M.V. R.NO.-5 RAVAN TILA PANI KI TANKI",
+   "partId": 396967
+  },
+  {
+   "partNumber": 236,
+   "partName": "PRIMARY SCHOOL NO. 44 R.NO.-1 BELA MARG VISHNUPURI",
+   "partId": 396968
+  },
+  {
+   "partNumber": 237,
+   "partName": "PRIMARY SCHOOL NO. 44 R.NO.-2 BELA MARG VISHNUPURI",
+   "partId": 396969
+  },
+  {
+   "partNumber": 238,
+   "partName": "PRIMARY SCHOOL NO. 44 R.NO.-3 BELA MARG VISHNUPURI",
+   "partId": 396970
+  },
+  {
+   "partNumber": 239,
+   "partName": "PRIMARY SCHOOL NO. 44 R.NO.-4 BELA MARG VISHNUPURI",
+   "partId": 396971
+  },
+  {
+   "partNumber": 240,
+   "partName": "GRAH NIRMAN SAMITI GIRLS INTER COLLEGE R.NO.- 1 VISHNUPURI",
+   "partId": 396972
+  },
+  {
+   "partNumber": 241,
+   "partName": "GRAH NIRMAN SAMITI GIRLS INTER COLLEGE R.NO.- 2 VISHNUPURI",
+   "partId": 396973
+  },
+  {
+   "partNumber": 242,
+   "partName": "GRAH NIRMAN SAMITI GIRLS INTER COLLEGE R.NO.- 3 VISHNUPURI",
+   "partId": 396974
+  },
+  {
+   "partNumber": 243,
+   "partName": "GRAH NIRMAN SAMITI GIRLS INTER COLLEGE R.NO.- 4 VISHNUPURI",
+   "partId": 396975
+  },
+  {
+   "partNumber": 244,
+   "partName": "GRAH NIRMAN SAMITI GIRLS INTER COLLEGE R.NO.- 5 VISHNUPURI",
+   "partId": 397113
+  },
+  {
+   "partNumber": 245,
+   "partName": "PRIMARY SCHOOL NO 14 R.NO.-1 VISHNUPURI",
+   "partId": 396976
+  },
+  {
+   "partNumber": 246,
+   "partName": "PRIMARY SCHOOL NO 14 R.NO.-2 VISHNUPURI",
+   "partId": 396977
+  },
+  {
+   "partNumber": 247,
+   "partName": "PRIMARY SCHOOL NO 14 R.NO.-3 VISHNUPURI",
+   "partId": 396978
+  },
+  {
+   "partNumber": 248,
+   "partName": "NABAL KISHOR PUBLIC SCHOOL R.NO. 1 NAGLA TIKONA ROAD",
+   "partId": 396979
+  },
+  {
+   "partNumber": 249,
+   "partName": "NABAL KISHOR PUBLIC SCHOOL R.NO. 2 NAGLA TIKONA ROAD",
+   "partId": 396980
+  },
+  {
+   "partNumber": 250,
+   "partName": "NABAL KISHOR PUBLIC SCHOOL R.NO. 3 NAGLA TIKONA ROAD",
+   "partId": 396981
+  },
+  {
+   "partNumber": 251,
+   "partName": "NABAL KISHOR PUBLIC SCHOOL R.NO. 4 NAGLA TIKONA ROAD",
+   "partId": 396982
+  },
+  {
+   "partNumber": 252,
+   "partName": "P.D. PUBLIC INTER COLLEGE R.NO.- 1 CHADANIA",
+   "partId": 396983
+  },
+  {
+   "partNumber": 253,
+   "partName": "P.D. PUBLIC INTER COLLEGE R.NO.- 2 CHADANIA",
+   "partId": 396984
+  },
+  {
+   "partNumber": 254,
+   "partName": "P.D. PUBLIC INTER COLLEGE R.NO.- 3 CHADANIA",
+   "partId": 396985
+  },
+  {
+   "partNumber": 255,
+   "partName": "P.D. PUBLIC INTER COLLEGE R.NO.- 4 CHADANIA",
+   "partId": 396986
+  },
+  {
+   "partNumber": 256,
+   "partName": "P.D. PUBLIC INTER COLLEGE R.NO.- 5 CHADANIA",
+   "partId": 396987
+  },
+  {
+   "partNumber": 257,
+   "partName": "P.D. PUBLIC INTER COLLEGE R.NO.- 6 CHADANIA",
+   "partId": 396988
+  },
+  {
+   "partNumber": 258,
+   "partName": "GANGA PUBLIC SCHOOL R.NO.- 1 KESHAV VATIKA NAGLA TIKONA",
+   "partId": 396989
+  },
+  {
+   "partNumber": 259,
+   "partName": "GANGA PUBLIC SCHOOL R.NO.- 2 KESHAV VATIKA NAGLA TIKONA",
+   "partId": 396990
+  },
+  {
+   "partNumber": 260,
+   "partName": "GANGA PUBLIC SCHOOL R.NO.- 3 KESHAV VATIKA NAGLA TIKONA",
+   "partId": 397114
+  },
+  {
+   "partNumber": 261,
+   "partName": "RAGHUVEER BAL MANDIR R.NO.-1 RAMGHAT ROAD",
+   "partId": 396991
+  },
+  {
+   "partNumber": 262,
+   "partName": "RAGHUVEER BAL MANDIR R.NO.-2 RAMGHAT ROAD",
+   "partId": 396992
+  },
+  {
+   "partNumber": 263,
+   "partName": "RAGHUVEER BAL MANDIR R.NO.-3 RAMGHAT ROAD",
+   "partId": 396993
+  },
+  {
+   "partNumber": 264,
+   "partName": "RAGHUVEER BAL MANDIR R.NO.- 4 RAMGHAT ROAD",
+   "partId": 396994
+  },
+  {
+   "partNumber": 265,
+   "partName": "RAGHUVEER BAL MANDIR R.NO.- 5 RAMGHAT ROAD",
+   "partId": 396995
+  },
+  {
+   "partNumber": 266,
+   "partName": "RAGHUVEER BAL MANDIR R.NO.- 6 RAMGHAT ROAD",
+   "partId": 396996
+  },
+  {
+   "partNumber": 267,
+   "partName": "TIKARAM KANYA MAHAVIDHYALAY R.NO.-1 RAMGHAT ROAD",
+   "partId": 396997
+  },
+  {
+   "partNumber": 268,
+   "partName": "TIKARAM KANYA MAHAVIDHYALAY R.NO.-2 RAMGHAT ROAD",
+   "partId": 396998
+  },
+  {
+   "partNumber": 269,
+   "partName": "TIKARAM KANYA MAHAVIDHYALAY R.NO.-3 RAMGHAT ROAD",
+   "partId": 396999
+  },
+  {
+   "partNumber": 270,
+   "partName": "TIKARAM KANYA MAHAVIDHYALAY R.NO.-4 RAMGHAT ROAD",
+   "partId": 397000
+  },
+  {
+   "partNumber": 271,
+   "partName": "TIKARAM KANYA MAHAVIDHYALAY R.NO.-5 RAMGHAT ROAD",
+   "partId": 397001
+  },
+  {
+   "partNumber": 272,
+   "partName": "TIKARAM KANYA MAHAVIDHYALAY R.NO.-6 RAMGHAT ROAD",
+   "partId": 397002
+  },
+  {
+   "partNumber": 273,
+   "partName": "TIKARAM KANYA MAHAVIDHYALAY R.NO.-7 RAMGHAT ROAD",
+   "partId": 397003
+  },
+  {
+   "partNumber": 274,
+   "partName": "TIKARAM KANYA INTER COLLEGE R.NO.-1 RAMGHAT ROAD",
+   "partId": 397004
+  },
+  {
+   "partNumber": 275,
+   "partName": "TIKARAM KANYA INTER COLLEGE R.NO.-2 RAMGHAT ROAD",
+   "partId": 397005
+  },
+  {
+   "partNumber": 276,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-1 RAMGHAT ROAD",
+   "partId": 397006
+  },
+  {
+   "partNumber": 277,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-2 RAMGHAT ROAD",
+   "partId": 397007
+  },
+  {
+   "partNumber": 278,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-3 RAMGHAT ROAD",
+   "partId": 397008
+  },
+  {
+   "partNumber": 279,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-4 RAMGHAT ROAD",
+   "partId": 397009
+  },
+  {
+   "partNumber": 280,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-5 RAMGHAT ROAD",
+   "partId": 397010
+  },
+  {
+   "partNumber": 281,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-6 RAMGHAT ROAD",
+   "partId": 397011
+  },
+  {
+   "partNumber": 282,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-7 RAMGHAT ROAD",
+   "partId": 397012
+  },
+  {
+   "partNumber": 283,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-8 RAMGHAT ROAD",
+   "partId": 397013
+  },
+  {
+   "partNumber": 284,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-9 RAMGHAT ROAD",
+   "partId": 397014
+  },
+  {
+   "partNumber": 285,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-10 RAMGHAT ROAD",
+   "partId": 397015
+  },
+  {
+   "partNumber": 286,
+   "partName": "S K D Inter College R.No. 1 Shatabdi Nagar",
+   "partId": 397127
+  },
+  {
+   "partNumber": 287,
+   "partName": "OUR LADY OF FATIMA SR.SEC. SCHOOL R.NO.-11 RAMGHAT ROAD",
+   "partId": 397016
+  },
+  {
+   "partNumber": 288,
+   "partName": "S K D Inter College R.No. 2 Shatabdi Nagar",
+   "partId": 397128
+  },
+  {
+   "partNumber": 289,
+   "partName": "MORDEN CONVENT INTER COLLEGE RAMBAG COLONY R.NO.-1 RAMGHAT ROAD",
+   "partId": 397017
+  },
+  {
+   "partNumber": 290,
+   "partName": "MORDEN CONVENT INTER COLLEGE RAMBAG COLONY R.NO.-2 RAMGHAT ROAD",
+   "partId": 397018
+  },
+  {
+   "partNumber": 291,
+   "partName": "MORDEN CONVENT INTER COLLEGE RAMBAG COLONY R.NO.-3 RAMGHAT ROAD",
+   "partId": 397019
+  },
+  {
+   "partNumber": 292,
+   "partName": "MORDEN CONVENT INTER COLLEGE RAMBAG COLONY R.NO.-4 RAMGHAT ROAD",
+   "partId": 397020
+  },
+  {
+   "partNumber": 293,
+   "partName": "MORDEN CONVENT INTER COLLEGE RAMBAG COLONY R.NO.-5 RAMGHAT ROAD",
+   "partId": 397021
+  },
+  {
+   "partNumber": 294,
+   "partName": "MORDEN CONVENT INTER COLLEGE RAMBAG COLONY R.NO.-6 RAMGHAT ROAD",
+   "partId": 397022
+  },
+  {
+   "partNumber": 295,
+   "partName": "City Garden Public Ju. Ha. School R.No. 1 Kishanpur",
+   "partId": 397088
+  },
+  {
+   "partNumber": 296,
+   "partName": "City Garden Public Ju. Ha. School R.No. 2 Kishanpur",
+   "partId": 397089
+  },
+  {
+   "partNumber": 297,
+   "partName": "THREE DOTS NURSERY SCHOOL R.NO.-1 RAMGHAT ROAD",
+   "partId": 397023
+  },
+  {
+   "partNumber": 298,
+   "partName": "THREE DOTS NURSERY SCHOOL R.NO.-2 RAMGHAT ROAD",
+   "partId": 397024
+  },
+  {
+   "partNumber": 299,
+   "partName": "THREE DOTS NURSERY SCHOOL R.NO.-3 RAMGHAT ROAD",
+   "partId": 397025
+  },
+  {
+   "partNumber": 300,
+   "partName": "PRIMARY SCHOOL NO 33 R.NO.-1 CHANDNIYA",
+   "partId": 397026
+  },
+  {
+   "partNumber": 301,
+   "partName": "PRIMARY SCHOOL NO 33 R.NO.-2 CHANDNIYA",
+   "partId": 397027
+  },
+  {
+   "partNumber": 302,
+   "partName": "PRIMARY SCHOOL NO 33 R.NO.-3 CHANDNIYA",
+   "partId": 397028
+  },
+  {
+   "partNumber": 303,
+   "partName": "PRIMARY SCHOOL NO 33 R.NO.-4 CHANDNIYA",
+   "partId": 397029
+  },
+  {
+   "partNumber": 304,
+   "partName": "PRIMARY SCHOOL NO 33 R.NO.-5 CHANDNIYA",
+   "partId": 397030
+  },
+  {
+   "partNumber": 305,
+   "partName": "ENGENEARS PUBLIC SCHOOL R.NO. 1 ENGENEARS COLONY, QUARSI ETAH CHUNGI BYPASS",
+   "partId": 397031
+  },
+  {
+   "partNumber": 306,
+   "partName": "ENGENEARS PUBLIC SCHOOL R.NO. 2 ENGENEARS COLONY, QUARSI ETAH CHUNGI BYPASS",
+   "partId": 397032
+  },
+  {
+   "partNumber": 307,
+   "partName": "ENGENEARS PUBLIC SCHOOL R.NO. 3 ENGENEARS COLONY, QUARSI ETAH CHUNGI BYPASS",
+   "partId": 397033
+  },
+  {
+   "partNumber": 308,
+   "partName": "ENGENEARS PUBLIC SCHOOL R.NO. 4 ENGENEARS COLONY, QUARSI ETAH CHUNGI BYPASS",
+   "partId": 397115
+  },
+  {
+   "partNumber": 309,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE A BLOCK R.NO.-1 QUARSI",
+   "partId": 397034
+  },
+  {
+   "partNumber": 310,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE A BLOCK R.NO.-2 QUARSI",
+   "partId": 397035
+  },
+  {
+   "partNumber": 311,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE A BLOCK R.NO.-3 QUARSI",
+   "partId": 397036
+  },
+  {
+   "partNumber": 312,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE A BLOCK R.NO.-4 QUARSI",
+   "partId": 397037
+  },
+  {
+   "partNumber": 313,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE A BLOCK R.NO.-5 QUARSI",
+   "partId": 397038
+  },
+  {
+   "partNumber": 314,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE B BLOCK R.NO.-6 QUARSI",
+   "partId": 397039
+  },
+  {
+   "partNumber": 315,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE B BLOCK R.NO.-7 QUARSI",
+   "partId": 397040
+  },
+  {
+   "partNumber": 316,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE B BLOCK R.NO.-8 QUARSI",
+   "partId": 397041
+  },
+  {
+   "partNumber": 317,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE B BLOCK R.NO.-9 QUARSI",
+   "partId": 397042
+  },
+  {
+   "partNumber": 318,
+   "partName": "LFT. NAHAR SINGH INTER COLLEGE B BLOCK R.NO.-10 QUARSI",
+   "partId": 397043
+  },
+  {
+   "partNumber": 319,
+   "partName": "PRIMARY SCHOOL R.NO.-1 DHAURRAMAFI",
+   "partId": 397044
+  },
+  {
+   "partNumber": 320,
+   "partName": "PRIMARY SCHOOL R.NO.-2 DHAURRAMAFI",
+   "partId": 397045
+  },
+  {
+   "partNumber": 321,
+   "partName": "PRIMARY SCHOOL R.NO.-3 DHAURRAMAFI",
+   "partId": 397046
+  },
+  {
+   "partNumber": 322,
+   "partName": "PRIMARY SCHOOL R.NO.-4 DHAURRAMAFI",
+   "partId": 397047
+  },
+  {
+   "partNumber": 323,
+   "partName": "AGANWADI KENDRA R.NO.-1 DHAURRAMAFI",
+   "partId": 397048
+  },
+  {
+   "partNumber": 324,
+   "partName": "AGANWADI KENDRA R.NO.-2 DHAURRAMAFI",
+   "partId": 397049
+  },
+  {
+   "partNumber": 325,
+   "partName": "M.U.COLLEGE R.N. 1 DHAURRA MAFI",
+   "partId": 397050
+  },
+  {
+   "partNumber": 326,
+   "partName": "M.U.COLLEGE R.N. 2 DHAURRA MAFI",
+   "partId": 397051
+  },
+  {
+   "partNumber": 327,
+   "partName": "M.U.COLLEGE R.N. 3 DHAURRA MAFI",
+   "partId": 397052
+  },
+  {
+   "partNumber": 328,
+   "partName": "M.U.COLLEGE R.N. 4 DHAURRA MAFI",
+   "partId": 397053
+  },
+  {
+   "partNumber": 329,
+   "partName": "M.U.COLLEGE R.N. 5 DHAURRA MAFI",
+   "partId": 397054
+  },
+  {
+   "partNumber": 330,
+   "partName": "M.U.COLLEGE R.N. 6 DHAURRA MAFI",
+   "partId": 397055
+  },
+  {
+   "partNumber": 331,
+   "partName": "PRIMARY SCHOOL R.NO.-1 RAJA NAGAR",
+   "partId": 397056
+  },
+  {
+   "partNumber": 332,
+   "partName": "PRIMARY SCHOOL R.NO.-2 RAJA NAGAR",
+   "partId": 397057
+  },
+  {
+   "partNumber": 333,
+   "partName": "PRIMARY SCHOOL R.NO.-3 RAJA NAGAR",
+   "partId": 397058
+  },
+  {
+   "partNumber": 334,
+   "partName": "PRIMARY SCHOOL R.NO.-4 RAJA NAGAR",
+   "partId": 397059
+  },
+  {
+   "partNumber": 335,
+   "partName": "PRIMARY SCHOOL R.NO.-5 RAJA NAGAR",
+   "partId": 397116
+  },
+  {
+   "partNumber": 336,
+   "partName": "SANVILIYAN VIDHYALAY R.NO.-1 SIHOR (1-8)",
+   "partId": 397060
+  },
+  {
+   "partNumber": 337,
+   "partName": "SANVILIYAN VIDHYALAY R.NO.-2 SIHOR (1-8)",
+   "partId": 397061
+  },
+  {
+   "partNumber": 338,
+   "partName": "PRIMARY SCHOOL R.NO.-1 FRIDPUR",
+   "partId": 397062
+  },
+  {
+   "partNumber": 339,
+   "partName": "PRIMARY SCHOOL R.NO.-2 FRIDPUR",
+   "partId": 397117
+  },
+  {
+   "partNumber": 340,
+   "partName": "PRIMARY SCHOOL R.NO.-1 SISROI",
+   "partId": 397063
+  },
+  {
+   "partNumber": 341,
+   "partName": "PRIMARY SCHOOL R.NO.-1 ASGARPUR",
+   "partId": 397064
+  },
+  {
+   "partNumber": 342,
+   "partName": "PRIMARY SCHOOL R.NO.-1 BALUKHEDA",
+   "partId": 397065
+  },
+  {
+   "partNumber": 343,
+   "partName": "PRIMARY SCHOOL R.NO.-1 ROHINA SINGHPUR",
+   "partId": 397066
+  },
+  {
+   "partNumber": 344,
+   "partName": "PRIMARY SCHOOL R.NO.-2 ROHINA SINGHPUR",
+   "partId": 397067
+  },
+  {
+   "partNumber": 345,
+   "partName": "PRIMARY SCHOOL R.NO.-1 NAGLA DHAK",
+   "partId": 397068
+  },
+  {
+   "partNumber": 346,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 BHANKARI AHIWASI (1-8)",
+   "partId": 397069
+  },
+  {
+   "partNumber": 347,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 BHANKARI AHIWASI (1-8)",
+   "partId": 397118
+  },
+  {
+   "partNumber": 348,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 DIHAULI",
+   "partId": 397070
+  },
+  {
+   "partNumber": 349,
+   "partName": "PRIMARY SCHOOL R.NO.-1 MALIKPURA",
+   "partId": 397071
+  },
+  {
+   "partNumber": 350,
+   "partName": "PRIMARY SCHOOL R.NO.-1 GOKULPUR",
+   "partId": 397090
+  },
+  {
+   "partNumber": 351,
+   "partName": "PRIMARY SCHOOL R.NO.-2 GOKULPUR",
+   "partId": 397072
+  },
+  {
+   "partNumber": 352,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 SHAHBAJPUR (1-8)",
+   "partId": 397073
+  },
+  {
+   "partNumber": 353,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 SHAHBAJPUR (1-8)",
+   "partId": 397074
+  },
+  {
+   "partNumber": 354,
+   "partName": "PRIMARY SCHOOL R.NO.-1 SIRAWALI",
+   "partId": 397075
+  },
+  {
+   "partNumber": 355,
+   "partName": "PRIMARY SCHOOL R.NO.-1 BHARATUA",
+   "partId": 397076
+  },
+  {
+   "partNumber": 356,
+   "partName": "PRIMARY SCHOOL R.NO.-2 BHARATUA,",
+   "partId": 397077
+  },
+  {
+   "partNumber": 357,
+   "partName": "PRIMARY SCHOOL R.NO.-1 UAJRRA",
+   "partId": 397078
+  },
+  {
+   "partNumber": 358,
+   "partName": "SANVILIYAN VIDHYALAY R.NO.-1 ADAUN",
+   "partId": 397079
+  },
+  {
+   "partNumber": 359,
+   "partName": "SANVILIYAN VIDHYALAY R.NO.-2 ADAUN",
+   "partId": 397080
+  },
+  {
+   "partNumber": 360,
+   "partName": "SANVILIYAN VIDHYALAY R.NO.-3 ADAUN",
+   "partId": 397081
+  },
+  {
+   "partNumber": 361,
+   "partName": "PRIMARY SCHOOL R.NO.-1 NAGLA TEJA",
+   "partId": 397082
+  },
+  {
+   "partNumber": 362,
+   "partName": "PRIMARY SCHOOL R.NO.-1 ANWRABAD",
+   "partId": 396680
+  },
+  {
+   "partNumber": 363,
+   "partName": "PRIMARY SCHOOL R.NO.-1 NAGLA ASHA",
+   "partId": 396681
+  },
+  {
+   "partNumber": 364,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 DHEERDHARPUR GDHIYAWALI (1-8)",
+   "partId": 396682
+  },
+  {
+   "partNumber": 365,
+   "partName": "PRIMARY SCHOOL R.NO.-1 JORAWAR NAGAR",
+   "partId": 396683
+  },
+  {
+   "partNumber": 366,
+   "partName": "PRIMARY SCHOOL R.NO.-1 KAMALPUR",
+   "partId": 396684
+  },
+  {
+   "partNumber": 367,
+   "partName": "PRIMARY SCHOOL R.NO.-2 KAMALPUR",
+   "partId": 396685
+  },
+  {
+   "partNumber": 368,
+   "partName": "PRIMARY SCHOOL R.NO.-3 KAMALPUR",
+   "partId": 396686
+  },
+  {
+   "partNumber": 369,
+   "partName": "NATIONAL PUBLIC HIGH SCHOOL R.NO.-1 QUARSI BYPASS",
+   "partId": 396687
+  },
+  {
+   "partNumber": 370,
+   "partName": "NATIONAL PUBLIC HIGH SCHOOL R.NO.-2 QUARSI BYPASS",
+   "partId": 396688
+  },
+  {
+   "partNumber": 371,
+   "partName": "NATIONAL PUBLIC HIGH SCHOOL R.NO.-3 QUARSI BYPASS",
+   "partId": 397119
+  },
+  {
+   "partNumber": 372,
+   "partName": "PRIMARY SCHOOL R.NO.-1 BHADESHI MAFI",
+   "partId": 396689
+  },
+  {
+   "partNumber": 373,
+   "partName": "PRIMARY SCHOOL R.NO.-2 BHADESHI MAFI",
+   "partId": 396690
+  },
+  {
+   "partNumber": 374,
+   "partName": "PRIMARY SCHOOL R.NO.-3 BHADESHI MAFI",
+   "partId": 397120
+  },
+  {
+   "partNumber": 375,
+   "partName": "PANCHYAT GHAR R.NO.-1 CHIRAULIYA DAUD KHAN",
+   "partId": 396691
+  },
+  {
+   "partNumber": 376,
+   "partName": "PRIMARY SCHOOL R.NO.-1 NAGLA PANKHANI",
+   "partId": 396692
+  },
+  {
+   "partNumber": 377,
+   "partName": "PRIMARY SCHOOL R.NO.-1 MUKUNDPUR",
+   "partId": 396693
+  },
+  {
+   "partNumber": 378,
+   "partName": "PRIMARY SCHOOL R.NO.-2 MUKUNDPUR",
+   "partId": 396694
+  },
+  {
+   "partNumber": 379,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 PADIYAWALI (1-8)",
+   "partId": 396695
+  },
+  {
+   "partNumber": 380,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 PADIYAWALI (1-8)",
+   "partId": 396696
+  },
+  {
+   "partNumber": 381,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-3 PADIYAWALI (1-8)",
+   "partId": 397121
+  },
+  {
+   "partNumber": 382,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 GHASIPUR (1-8)",
+   "partId": 396697
+  },
+  {
+   "partNumber": 383,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 GHASIPUR (1-8)",
+   "partId": 396698
+  },
+  {
+   "partNumber": 384,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 KAUCHHOD",
+   "partId": 396699
+  },
+  {
+   "partNumber": 385,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 KAUCHHOD",
+   "partId": 396700
+  },
+  {
+   "partNumber": 386,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-3 KAUCHHOD",
+   "partId": 397122
+  },
+  {
+   "partNumber": 387,
+   "partName": "PRIMARY SCHOOL R.NO.-1 BALRAMPUR",
+   "partId": 396701
+  },
+  {
+   "partNumber": 388,
+   "partName": "PRIMARY SCHOOL R.NO.-1 NAGLA PUSA",
+   "partId": 396702
+  },
+  {
+   "partNumber": 389,
+   "partName": "PRIMARY SCHOOL R.NO.-1 RUSTAMPUR ELAM",
+   "partId": 396703
+  },
+  {
+   "partNumber": 390,
+   "partName": "PRIMARY SCHOOL R.NO.-1 GAJNIPUR",
+   "partId": 396704
+  },
+  {
+   "partNumber": 391,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 ISHANPUR",
+   "partId": 396705
+  },
+  {
+   "partNumber": 392,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 ISHANPUR",
+   "partId": 397123
+  },
+  {
+   "partNumber": 393,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 HAJIPUR FATEH KHAN (1-8)",
+   "partId": 396706
+  },
+  {
+   "partNumber": 394,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 HAJIPUR FATEH KHAN (1-8)",
+   "partId": 397124
+  },
+  {
+   "partNumber": 395,
+   "partName": "PRIMARY SCHOOL R.NO.-1 HAIWATPUR PRATHA",
+   "partId": 396707
+  },
+  {
+   "partNumber": 396,
+   "partName": "JUNIOUR HIGH SCHOOL R.NO.-1 KESHOPUR GADRANA",
+   "partId": 396708
+  },
+  {
+   "partNumber": 397,
+   "partName": "JUNIOUR HIGH SCHOOL R.NO.-2 KESHORPUR GADRANA",
+   "partId": 396709
+  },
+  {
+   "partNumber": 398,
+   "partName": "JUNIOUR HIGH SCHOOL R.NO.-3 KESHORPUR GADRANA",
+   "partId": 396710
+  },
+  {
+   "partNumber": 399,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 MUSEPUR JALAL (1-8)",
+   "partId": 396711
+  },
+  {
+   "partNumber": 400,
+   "partName": "PRIMARY SCHOOL R.NO.-1 BHOPATPUR MAJRA KESHOPUR GADRANA",
+   "partId": 396712
+  },
+  {
+   "partNumber": 401,
+   "partName": "PRIMARY SCHOOL R.NO.-2 BHOPATPUR MAJRA KESHOPUR GADRANA",
+   "partId": 396713
+  },
+  {
+   "partNumber": 402,
+   "partName": "PRIMARY SCHOOL R.NO.-1 PALI RAJAPUR",
+   "partId": 396714
+  },
+  {
+   "partNumber": 403,
+   "partName": "PRIMARY SCHOOL R.NO.-2 PALI RAJAPUR",
+   "partId": 396715
+  },
+  {
+   "partNumber": 404,
+   "partName": "PIRMARY SCHOOL R.NO.-1 SIKRANA",
+   "partId": 396716
+  },
+  {
+   "partNumber": 405,
+   "partName": "CHAMPA HIGH SECENDARY SCHOOL R.NO.-1 ALIPUR",
+   "partId": 396717
+  },
+  {
+   "partNumber": 406,
+   "partName": "PRIMARY SCHOOL R.NO.-1 SHAHPUR MADRAK",
+   "partId": 396718
+  },
+  {
+   "partNumber": 407,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 MADRAK",
+   "partId": 396719
+  },
+  {
+   "partNumber": 408,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 MADRAK",
+   "partId": 396720
+  },
+  {
+   "partNumber": 409,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-3 MADRAK",
+   "partId": 396721
+  },
+  {
+   "partNumber": 410,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-4 MADRAK",
+   "partId": 396722
+  },
+  {
+   "partNumber": 411,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 RAMNAGAR MAJRA MADRAK (1-8)",
+   "partId": 396723
+  },
+  {
+   "partNumber": 412,
+   "partName": "PRIMARY SCHOOL R.NO.-1 NAGLA PURANMAL",
+   "partId": 396724
+  },
+  {
+   "partNumber": 413,
+   "partName": "PRIMARY SCHOOL R.NO.-1 ARYA NAGAR",
+   "partId": 396725
+  },
+  {
+   "partNumber": 414,
+   "partName": "PRIMARY SCHOOL R.NO.-1 NAUHATI",
+   "partId": 396726
+  },
+  {
+   "partNumber": 415,
+   "partName": "PRIMARY SCHOOL R.NO.-2 NAUHATI",
+   "partId": 396727
+  },
+  {
+   "partNumber": 416,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 KOTHIYA",
+   "partId": 396728
+  },
+  {
+   "partNumber": 417,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 MUKUTGARHI",
+   "partId": 396729
+  },
+  {
+   "partNumber": 418,
+   "partName": "PRIMARY SCHOOL R.NO.-1 SAMSTPUR KIRAT",
+   "partId": 396730
+  },
+  {
+   "partNumber": 419,
+   "partName": "PRIMARY SCHOOL R.NO.-1 MANOHARPUR KAYSTH",
+   "partId": 396731
+  },
+  {
+   "partNumber": 420,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 MAINATH (1-8)",
+   "partId": 396732
+  },
+  {
+   "partNumber": 421,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 MAINATH (1-8)",
+   "partId": 396733
+  },
+  {
+   "partNumber": 422,
+   "partName": "PRIMARY SCHOOL R.NO.-1 AISI",
+   "partId": 396734
+  },
+  {
+   "partNumber": 423,
+   "partName": "PRIMARY SCHOOL R.NO.-2 AISI",
+   "partId": 397125
+  },
+  {
+   "partNumber": 424,
+   "partName": "PRIMARY SCHOOL R.NO.-1 CHHANHARI",
+   "partId": 396735
+  },
+  {
+   "partNumber": 425,
+   "partName": "PRIMARY SCHOOL R.NO.-1 ABOOPUR",
+   "partId": 396736
+  },
+  {
+   "partNumber": 426,
+   "partName": "PRIAMRY SCHOOL R.NO.-1 AHMAD UMAR KHAN",
+   "partId": 396737
+  },
+  {
+   "partNumber": 427,
+   "partName": "PRIMARY SCHOOL R.NO.-1 HASANPUR BUJURG",
+   "partId": 396738
+  },
+  {
+   "partNumber": 428,
+   "partName": "PRIMARY SCHOOL R.NO.-1 SAHARANPUR",
+   "partId": 396739
+  },
+  {
+   "partNumber": 429,
+   "partName": "PRIMARY SCHOOL R.NO.-1 AJEETPUR AASNA",
+   "partId": 396740
+  },
+  {
+   "partNumber": 430,
+   "partName": "PRIMARY SCHOOL R.NO.-2 AJEETPUR AASNA",
+   "partId": 397126
+  },
+  {
+   "partNumber": 431,
+   "partName": "PRIMARY SCHOOL R.NO.-1 KHEDIYA KHAWAJA BUDHDA",
+   "partId": 396741
+  },
+  {
+   "partNumber": 432,
+   "partName": "PRIAMRY SCHOOL R.NO.-1 PALA AISI",
+   "partId": 396742
+  },
+  {
+   "partNumber": 433,
+   "partName": "PRIAMRY SCHOOL R.NO.-2 PALA AISI",
+   "partId": 396743
+  },
+  {
+   "partNumber": 434,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 BHAKRAULA (1-8)",
+   "partId": 396744
+  },
+  {
+   "partNumber": 435,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-2 BHAKRAULA (1-8)",
+   "partId": 396745
+  },
+  {
+   "partNumber": 436,
+   "partName": "JUNIOR HIGH SCHOOL R.NO.-1 DOLRA NIRPAL (1-8)",
+   "partId": 396746
+  },
+  {
+   "partNumber": 437,
+   "partName": "PRIMARY SCHOOL R.NO.-1 BADHAULI FATEH KHAN",
+   "partId": 396747
+  },
+  {
+   "partNumber": 438,
+   "partName": "PRIMARY SCHOOL R.NO.-2 BADHAULI FATEH KHAN",
+   "partId": 396748
+  },
+  {
+   "partNumber": 439,
+   "partName": "PRIMARY SCHOOL R.NO.-3 BADHAULI FATEH KHAN",
+   "partId": 396749
+  },
+  {
+   "partNumber": 440,
+   "partName": "DENIM PUBLIC SCHOOL R.NO.-1 SARAY HARNARAYAN",
+   "partId": 396750
+  },
+  {
+   "partNumber": 441,
+   "partName": "DENIM PUBLIC SCHOOL R.NO.-2 SARAY HARNARAYAN",
+   "partId": 396751
+  },
+  {
+   "partNumber": 442,
+   "partName": "DENIM PUBLIC SCHOOL R.NO.-3 SARAY HARNARAYAN",
+   "partId": 396752
+  },
+  {
+   "partNumber": 443,
+   "partName": "DENIM PUBLIC SCHOOL R.NO.-4 SARAY HARNARAYAN",
+   "partId": 396753
+  },
+  {
+   "partNumber": 444,
+   "partName": "DENIM PUBLIC SCHOOL R.NO.-5 SARAY HARNARAYAN",
+   "partId": 396754
+  },
+  {
+   "partNumber": 445,
+   "partName": "PRIMARY SCHOOL R.NO.-1 NAGLA AASHIK ALI",
+   "partId": 396755
+  },
+  {
+   "partNumber": 446,
+   "partName": "PRIMARY SCHOOL R.NO.-1 HAJIPUR CHAUHTTA",
+   "partId": 396756
+  },
+  {
+   "partNumber": 447,
+   "partName": "PRIMARY SCHOOL R.NO.-1 SINGHARPUR",
+   "partId": 396757
+  },
+  {
+   "partNumber": 448,
+   "partName": "PRIMARY SCHOOL R.NO.-1 RUSTAMPUR SAKAT KHAN",
+   "partId": 396758
+  },
+  {
+   "partNumber": 449,
+   "partName": "PRIMARY SCHOOL R.NO.-2 RUSTAMPUR SAKAT KHAN",
+   "partId": 396759
+  }
+ ]
+}

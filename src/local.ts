@@ -5,8 +5,7 @@
  */
 import sharp from "sharp";
 import type { Band, Dims } from "./image.js";
-import { pageSharp, type PageSource } from "./image.js";
-import { detectColumnBands } from "./image.js";
+import { detectColumnBands, effectiveDensity, pageSharp, type PageSource } from "./image.js";
 import { asciiDigits, epicMatches, mapGender, mapRelation, normalizeEpic, parseIntLoose, parseSerialBox, tidyName } from "./normalize.js";
 import { labelAlternation, labelRegex, scriptLetters, type Template } from "./templates.js";
 import { tesseractBatch, type TessResult, type TessWord } from "./tesseract.js";
@@ -565,7 +564,7 @@ export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Te
   const bodyCrops: Buffer[] = [];
   const bodyCropsHi: Buffer[] = [];
   const stampScores: StampScore[] = [];
-  const density = typeof pngPath === "string" ? (await sharp(pngPath).metadata()).density ?? 300 : pngPath.density ?? 300;
+  const density = typeof pngPath === "string" ? await (async () => { const m = await sharp(pngPath).metadata(); return effectiveDensity(m.density, m.width ?? 0) ?? 300; })() : pngPath.density ?? 300;
   const hindiOnly = L.langs.split("+").includes("hin") ? "hin" : L.langs;
   for (const r of rects) {
     stampScores.push(await stampScore(pngPath, r, density));
@@ -666,7 +665,7 @@ export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Te
     if (!hasEpic && !serialBoxFound[i]) continue;
     if (!hasEpic && !probe.nameHi.trim() && !probe.relationNameHi && probe.age === null && !probe.genderHi) continue;
     const epic = (() => {
-      const reads = [epicRes[i], epic2xRes[i], epic3xRes[i]].map((r) => ({
+      const reads = (process.env.OCR_EPIC_VOTE === "false" ? [epicRes[i]] : [epicRes[i], epic2xRes[i], epic3xRes[i]]).map((r) => ({ // OCR_EPIC_VOTE=false: single 1x read (ablation)
         v: normalizeEpic(parseEpicText(r?.text ?? "")).epic,
         conf: r?.words.length ? Math.min(...r.words.map((w) => w.conf)) : 0,
       }));

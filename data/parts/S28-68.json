@@ -1,0 +1,803 @@
+{
+ "stateCd": "S28",
+ "districtCd": "S2804",
+ "acNumber": 68,
+ "acName": "Sitarganj",
+ "fetchedAt": "2026-11-07T05:54:45",
+ "source": "https://gateway-voters.eci.gov.in/api/v1/printing-publish/get-part-list",
+ "count": 158,
+ "maxPart": 158,
+ "gaps": [],
+ "parts": [
+  {
+   "partNumber": 1,
+   "partName": "Rudpur West Block R.No 1",
+   "partId": 30820
+  },
+  {
+   "partNumber": 2,
+   "partName": "Rudpur West Block R.No 2",
+   "partId": 30821
+  },
+  {
+   "partNumber": 3,
+   "partName": "Rudpur East Block R.No. 1",
+   "partId": 30822
+  },
+  {
+   "partNumber": 4,
+   "partName": "Roodpur East Block R. No. 2",
+   "partId": 30823
+  },
+  {
+   "partNumber": 5,
+   "partName": "Ukrauli",
+   "partId": 30824
+  },
+  {
+   "partNumber": 6,
+   "partName": "Vankshetra Ukrauli",
+   "partId": 30825
+  },
+  {
+   "partNumber": 7,
+   "partName": "Shaktifarm No.1 R.No 1",
+   "partId": 30826
+  },
+  {
+   "partNumber": 8,
+   "partName": "Shaktifarm No.1 R.No 2",
+   "partId": 30827
+  },
+  {
+   "partNumber": 9,
+   "partName": "Shaktifarm No.1 Baikunthpur R.No 1",
+   "partId": 30828
+  },
+  {
+   "partNumber": 10,
+   "partName": "Baikunthpur",
+   "partId": 30959
+  },
+  {
+   "partNumber": 11,
+   "partName": "Shaktifarm No. 1 Baikunthpur R.No 2",
+   "partId": 30829
+  },
+  {
+   "partNumber": 12,
+   "partName": "Panch Quarter No. 1 Baikunthpur",
+   "partId": 30830
+  },
+  {
+   "partNumber": 13,
+   "partName": "Padagaon Govindnagar R.No 1",
+   "partId": 30831
+  },
+  {
+   "partNumber": 14,
+   "partName": "Padagaon Govindnagar R.No 2",
+   "partId": 30832
+  },
+  {
+   "partNumber": 15,
+   "partName": "Padagaw Govindnagar",
+   "partId": 30960
+  },
+  {
+   "partNumber": 16,
+   "partName": "Padagaon Govindnagar",
+   "partId": 30833
+  },
+  {
+   "partNumber": 17,
+   "partName": "Shaktifarm No.2 R.No 1",
+   "partId": 30834
+  },
+  {
+   "partNumber": 18,
+   "partName": "Shaktifarm No.2 R.No 2",
+   "partId": 30835
+  },
+  {
+   "partNumber": 19,
+   "partName": "Gurugram R.No 1",
+   "partId": 30836
+  },
+  {
+   "partNumber": 20,
+   "partName": "Gurugram R.No 2",
+   "partId": 30837
+  },
+  {
+   "partNumber": 21,
+   "partName": "Shaktifarm R.No 1",
+   "partId": 30838
+  },
+  {
+   "partNumber": 22,
+   "partName": "Shaktifarm R.No 2",
+   "partId": 30839
+  },
+  {
+   "partNumber": 23,
+   "partName": "Shaktifarm",
+   "partId": 30961
+  },
+  {
+   "partNumber": 24,
+   "partName": "Shaktifarm R.No 3",
+   "partId": 30840
+  },
+  {
+   "partNumber": 25,
+   "partName": "Shaktifarm Atirikt Bhawan R.No 1",
+   "partId": 30841
+  },
+  {
+   "partNumber": 26,
+   "partName": "Shaktifarm Atirikt Bhawan R.No 2",
+   "partId": 30842
+  },
+  {
+   "partNumber": 27,
+   "partName": "Shaktifarm R.No.1",
+   "partId": 30843
+  },
+  {
+   "partNumber": 28,
+   "partName": "Shaktifarm  R.No.2",
+   "partId": 30844
+  },
+  {
+   "partNumber": 29,
+   "partName": "Shaktifarm R.No.2",
+   "partId": 30845
+  },
+  {
+   "partNumber": 30,
+   "partName": "Shaktifarm R.No 4",
+   "partId": 30846
+  },
+  {
+   "partNumber": 31,
+   "partName": "Shaktifarm No.3 R.No 1",
+   "partId": 30847
+  },
+  {
+   "partNumber": 32,
+   "partName": "Shaktifarm No.3 R.No 2",
+   "partId": 30848
+  },
+  {
+   "partNumber": 33,
+   "partName": "Devnagar",
+   "partId": 30849
+  },
+  {
+   "partNumber": 34,
+   "partName": "Devnagar",
+   "partId": 30956
+  },
+  {
+   "partNumber": 35,
+   "partName": "Tiliyapur R.No 1",
+   "partId": 30850
+  },
+  {
+   "partNumber": 36,
+   "partName": "Tiliyapur R.No 2",
+   "partId": 30851
+  },
+  {
+   "partNumber": 37,
+   "partName": "Tiliyapur",
+   "partId": 30852
+  },
+  {
+   "partNumber": 38,
+   "partName": "Pipaliya",
+   "partId": 30853
+  },
+  {
+   "partNumber": 39,
+   "partName": "Pipaliya",
+   "partId": 30962
+  },
+  {
+   "partNumber": 40,
+   "partName": "Basgar R.No 1",
+   "partId": 30854
+  },
+  {
+   "partNumber": 41,
+   "partName": "Basgar R.No 2",
+   "partId": 30855
+  },
+  {
+   "partNumber": 42,
+   "partName": "Ratanfarm No.2 R.No 1",
+   "partId": 30856
+  },
+  {
+   "partNumber": 43,
+   "partName": "Ratanfarm No.2 Extra Room  R.No. 1",
+   "partId": 30857
+  },
+  {
+   "partNumber": 44,
+   "partName": "Ratanfarm No.2",
+   "partId": 30963
+  },
+  {
+   "partNumber": 45,
+   "partName": "Ratanfarm No.2 R.No 2",
+   "partId": 30858
+  },
+  {
+   "partNumber": 46,
+   "partName": "Baruvabag (Jhari)",
+   "partId": 30859
+  },
+  {
+   "partNumber": 47,
+   "partName": "Ratanfarm No.2 New Building",
+   "partId": 30860
+  },
+  {
+   "partNumber": 48,
+   "partName": "Ratanfarm No.3 R.No 1",
+   "partId": 30861
+  },
+  {
+   "partNumber": 49,
+   "partName": "Ratanfarm No.3 R.No 2",
+   "partId": 30862
+  },
+  {
+   "partNumber": 50,
+   "partName": "Ratanfarm No.1 R.No 1",
+   "partId": 30863
+  },
+  {
+   "partNumber": 51,
+   "partName": "Ratanfarm No. 1 R.No 2",
+   "partId": 30864
+  },
+  {
+   "partNumber": 52,
+   "partName": "Ratanfarm No.1 R.No 1 Nirmalnagar",
+   "partId": 30865
+  },
+  {
+   "partNumber": 53,
+   "partName": "Ratanfarm No.1 R.No 2 Nirmalnagar",
+   "partId": 30866
+  },
+  {
+   "partNumber": 54,
+   "partName": "Sisouna R.No 1",
+   "partId": 30867
+  },
+  {
+   "partNumber": 55,
+   "partName": "Sisouna R.No 2",
+   "partId": 30868
+  },
+  {
+   "partNumber": 56,
+   "partName": "Sisouna",
+   "partId": 30964
+  },
+  {
+   "partNumber": 57,
+   "partName": "Sisouna Extra Building",
+   "partId": 30869
+  },
+  {
+   "partNumber": 58,
+   "partName": "Nakuliya R.No 1",
+   "partId": 30870
+  },
+  {
+   "partNumber": 59,
+   "partName": "Nakuliya R.No 2",
+   "partId": 30871
+  },
+  {
+   "partNumber": 60,
+   "partName": "Nakuliya Atirikt Bhawan",
+   "partId": 30872
+  },
+  {
+   "partNumber": 61,
+   "partName": "Kalyanpur",
+   "partId": 30873
+  },
+  {
+   "partNumber": 62,
+   "partName": "Kalyanpur",
+   "partId": 30965
+  },
+  {
+   "partNumber": 63,
+   "partName": "Bamanpuri R.No. 1",
+   "partId": 30874
+  },
+  {
+   "partNumber": 64,
+   "partName": "Bananpuri R.No. 2",
+   "partId": 30875
+  },
+  {
+   "partNumber": 65,
+   "partName": "Sitarganj R.No 1",
+   "partId": 30876
+  },
+  {
+   "partNumber": 66,
+   "partName": "Sitarganj West Part R.No. 4",
+   "partId": 30877
+  },
+  {
+   "partNumber": 67,
+   "partName": "Sitarganj Purvi Part R.No 2",
+   "partId": 30878
+  },
+  {
+   "partNumber": 68,
+   "partName": "Sitarganj South Block R.No 1",
+   "partId": 30879
+  },
+  {
+   "partNumber": 69,
+   "partName": "Sitarganj South Block R.No 2",
+   "partId": 30880
+  },
+  {
+   "partNumber": 70,
+   "partName": "Sitarganj North Block R.No 1",
+   "partId": 30881
+  },
+  {
+   "partNumber": 71,
+   "partName": "Sitarganj North Block R.No 1",
+   "partId": 30882
+  },
+  {
+   "partNumber": 72,
+   "partName": "Sitarganj North Block R.No 2",
+   "partId": 30883
+  },
+  {
+   "partNumber": 73,
+   "partName": "Sitarganj West Block",
+   "partId": 30966
+  },
+  {
+   "partNumber": 74,
+   "partName": "Sitarganj South Block R.No 3",
+   "partId": 30884
+  },
+  {
+   "partNumber": 75,
+   "partName": "Sitarganj West Block R N 1",
+   "partId": 30885
+  },
+  {
+   "partNumber": 76,
+   "partName": "Sitarganj West Block R. No. 2",
+   "partId": 30886
+  },
+  {
+   "partNumber": 77,
+   "partName": "Sitarganj",
+   "partId": 30967
+  },
+  {
+   "partNumber": 78,
+   "partName": "Sitarganj R.No 1",
+   "partId": 30887
+  },
+  {
+   "partNumber": 79,
+   "partName": "Sitarganj R.No 2",
+   "partId": 30888
+  },
+  {
+   "partNumber": 80,
+   "partName": "Sitarganj R.No 3",
+   "partId": 30889
+  },
+  {
+   "partNumber": 81,
+   "partName": "Sitarganj Purvi Region R.No. 5",
+   "partId": 30890
+  },
+  {
+   "partNumber": 82,
+   "partName": "Sitarganj R.No 1 (North-East Block)",
+   "partId": 30891
+  },
+  {
+   "partNumber": 83,
+   "partName": "Sitarganj R.No 3 (North-West Block)",
+   "partId": 30892
+  },
+  {
+   "partNumber": 84,
+   "partName": "Sitarganj",
+   "partId": 30968
+  },
+  {
+   "partNumber": 85,
+   "partName": "Sitarganj R. No. 4 (North-West Blcok))",
+   "partId": 30893
+  },
+  {
+   "partNumber": 86,
+   "partName": "Sitarganj II R.No 1",
+   "partId": 30894
+  },
+  {
+   "partNumber": 87,
+   "partName": "Sitarganj II R.No 2",
+   "partId": 30895
+  },
+  {
+   "partNumber": 88,
+   "partName": "Sitarganj Pratham R.No 1",
+   "partId": 30896
+  },
+  {
+   "partNumber": 89,
+   "partName": "Sitarganj Pratham R.No 2",
+   "partId": 30897
+  },
+  {
+   "partNumber": 90,
+   "partName": "Sitarganj",
+   "partId": 30957
+  },
+  {
+   "partNumber": 91,
+   "partName": "Pandri R.No 1",
+   "partId": 30898
+  },
+  {
+   "partNumber": 92,
+   "partName": "Pandari R.No. 2",
+   "partId": 30899
+  },
+  {
+   "partNumber": 93,
+   "partName": "Sitarganj",
+   "partId": 30900
+  },
+  {
+   "partNumber": 94,
+   "partName": "Sitarganj",
+   "partId": 30969
+  },
+  {
+   "partNumber": 95,
+   "partName": "Sitarganj R.No.1",
+   "partId": 30901
+  },
+  {
+   "partNumber": 96,
+   "partName": "Sitarganj R.No. 2",
+   "partId": 30902
+  },
+  {
+   "partNumber": 97,
+   "partName": "Gaurikhera R.No 1",
+   "partId": 30903
+  },
+  {
+   "partNumber": 98,
+   "partName": "Gaurikhera R.No 2",
+   "partId": 30904
+  },
+  {
+   "partNumber": 99,
+   "partName": "Lauka",
+   "partId": 30905
+  },
+  {
+   "partNumber": 100,
+   "partName": "Gotha R.No 1",
+   "partId": 30906
+  },
+  {
+   "partNumber": 101,
+   "partName": "Gautha R.No 2",
+   "partId": 30907
+  },
+  {
+   "partNumber": 102,
+   "partName": "Virendranagar R N 1",
+   "partId": 30908
+  },
+  {
+   "partNumber": 103,
+   "partName": "Virdnra Nagar R No. 2",
+   "partId": 30909
+  },
+  {
+   "partNumber": 104,
+   "partName": "Chikaghat",
+   "partId": 30910
+  },
+  {
+   "partNumber": 105,
+   "partName": "Turkatisaur",
+   "partId": 30911
+  },
+  {
+   "partNumber": 106,
+   "partName": "Tharutisaur R N 1",
+   "partId": 30912
+  },
+  {
+   "partNumber": 107,
+   "partName": "Tharu Tisaur R. No. 2",
+   "partId": 30913
+  },
+  {
+   "partNumber": 108,
+   "partName": "Pindri R.No 1",
+   "partId": 30914
+  },
+  {
+   "partNumber": 109,
+   "partName": "Pindri R.No 2",
+   "partId": 30915
+  },
+  {
+   "partNumber": 110,
+   "partName": "Baghauri",
+   "partId": 30916
+  },
+  {
+   "partNumber": 111,
+   "partName": "Baghauri  R.No. 1",
+   "partId": 30917
+  },
+  {
+   "partNumber": 112,
+   "partName": "Baghauri R.No 2",
+   "partId": 30918
+  },
+  {
+   "partNumber": 113,
+   "partName": "Malpura R.No 1",
+   "partId": 30919
+  },
+  {
+   "partNumber": 114,
+   "partName": "Malpura",
+   "partId": 30970
+  },
+  {
+   "partNumber": 115,
+   "partName": "Malpura R.No 2",
+   "partId": 30920
+  },
+  {
+   "partNumber": 116,
+   "partName": "Haldua (New Building)",
+   "partId": 30921
+  },
+  {
+   "partNumber": 117,
+   "partName": "Sabepur",
+   "partId": 30971
+  },
+  {
+   "partNumber": 118,
+   "partName": "Nakatpura R.No 1",
+   "partId": 30922
+  },
+  {
+   "partNumber": 119,
+   "partName": "Nakatpura R.No 2",
+   "partId": 30923
+  },
+  {
+   "partNumber": 120,
+   "partName": "Sarkada R.No. 1",
+   "partId": 30924
+  },
+  {
+   "partNumber": 121,
+   "partName": "Sarkara R.NO. 2",
+   "partId": 30925
+  },
+  {
+   "partNumber": 122,
+   "partName": "Sugar Mil Sitarganj",
+   "partId": 30926
+  },
+  {
+   "partNumber": 123,
+   "partName": "Kunwarpur R.No 1",
+   "partId": 30927
+  },
+  {
+   "partNumber": 124,
+   "partName": "Kunwarpur R.No 2",
+   "partId": 30928
+  },
+  {
+   "partNumber": 125,
+   "partName": "Sisaiya (Naveen)",
+   "partId": 30929
+  },
+  {
+   "partNumber": 126,
+   "partName": "Kanthgari",
+   "partId": 30930
+  },
+  {
+   "partNumber": 127,
+   "partName": "Makhwara",
+   "partId": 30972
+  },
+  {
+   "partNumber": 128,
+   "partName": "Nakha R.No 1",
+   "partId": 30931
+  },
+  {
+   "partNumber": 129,
+   "partName": "Nakha R.No 2",
+   "partId": 30932
+  },
+  {
+   "partNumber": 130,
+   "partName": "Bhitoura",
+   "partId": 30933
+  },
+  {
+   "partNumber": 131,
+   "partName": "Vithaakbar Bhitora",
+   "partId": 30973
+  },
+  {
+   "partNumber": 132,
+   "partName": "Razpura",
+   "partId": 30934
+  },
+  {
+   "partNumber": 133,
+   "partName": "Rajpura",
+   "partId": 30958
+  },
+  {
+   "partNumber": 134,
+   "partName": "Khamiya No.4 R.No 1",
+   "partId": 30935
+  },
+  {
+   "partNumber": 135,
+   "partName": "Khamiya No.4 R.No 2",
+   "partId": 30936
+  },
+  {
+   "partNumber": 136,
+   "partName": "Suryanagar",
+   "partId": 30937
+  },
+  {
+   "partNumber": 137,
+   "partName": "Gaughat R.No 1",
+   "partId": 30938
+  },
+  {
+   "partNumber": 138,
+   "partName": "Gaughat R.No 2",
+   "partId": 30939
+  },
+  {
+   "partNumber": 139,
+   "partName": "Gaughat",
+   "partId": 30940
+  },
+  {
+   "partNumber": 140,
+   "partName": "Sahdaura Semalpur R.No 1",
+   "partId": 30941
+  },
+  {
+   "partNumber": 141,
+   "partName": "Sahdaura Semalpur R.No 2",
+   "partId": 30942
+  },
+  {
+   "partNumber": 142,
+   "partName": "Sahdaura",
+   "partId": 30974
+  },
+  {
+   "partNumber": 143,
+   "partName": "Sahdaura R.No.1",
+   "partId": 30943
+  },
+  {
+   "partNumber": 144,
+   "partName": "Sahdaura R.No 2",
+   "partId": 30944
+  },
+  {
+   "partNumber": 145,
+   "partName": "Firojpur R.NO. 1",
+   "partId": 30945
+  },
+  {
+   "partNumber": 146,
+   "partName": "Firojpur R.No 2",
+   "partId": 30946
+  },
+  {
+   "partNumber": 147,
+   "partName": "Alinagar R.NO. 1",
+   "partId": 30947
+  },
+  {
+   "partNumber": 148,
+   "partName": "Alinagar R.No. 2",
+   "partId": 30948
+  },
+  {
+   "partNumber": 149,
+   "partName": "Bari R.No 1",
+   "partId": 30949
+  },
+  {
+   "partNumber": 150,
+   "partName": "Bari R.No 2",
+   "partId": 30950
+  },
+  {
+   "partNumber": 151,
+   "partName": "Bari",
+   "partId": 30975
+  },
+  {
+   "partNumber": 152,
+   "partName": "Ajitpur R.No 1",
+   "partId": 30951
+  },
+  {
+   "partNumber": 153,
+   "partName": "Ajitpur R.No 2",
+   "partId": 30952
+  },
+  {
+   "partNumber": 154,
+   "partName": "Bra R.No 1",
+   "partId": 30953
+  },
+  {
+   "partNumber": 155,
+   "partName": "Bra R.No 2",
+   "partId": 30954
+  },
+  {
+   "partNumber": 156,
+   "partName": "Bara",
+   "partId": 30976
+  },
+  {
+   "partNumber": 157,
+   "partName": "Bra",
+   "partId": 30955
+  },
+  {
+   "partNumber": 158,
+   "partName": "Majhra",
+   "partId": 30977
+  }
+ ]
+}
