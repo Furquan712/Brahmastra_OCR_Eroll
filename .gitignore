@@ -14,3 +14,5 @@ data/pushed.json
 --list-langs.txt
 paper/private/
 paper/analysis/stampscan/
+# downloaded PDFs and their download reports (like raw-data/)
+raw-*/
