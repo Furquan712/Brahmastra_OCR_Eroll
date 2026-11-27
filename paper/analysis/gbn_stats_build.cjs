@@ -211,7 +211,7 @@ function crossAc(all) {
     let deletedSource = "pipeline";
     if (!rows.some((r) => r.del)) { const j = joinScan(rows, meta.folder); if (j.applied) { deletedSource = "scan-join"; console.log(ac, "scan join:", JSON.stringify(j)); } else deletedSource = "none"; }
     const o = acStats(rows);
-    o.name = meta.name; o.deletedSource = deletedSource; o.bytes = prev.acs?.[ac]?.bytes ?? null;
+    o.name = meta.name; o.deletedSource = deletedSource; if (prev.acs?.[ac]?.coverSections) o.coverSections = prev.acs[ac].coverSections; // sections listed on the covers (from eroll_parts), carried over o.bytes = prev.acs?.[ac]?.bytes ?? null;
     o.untagged = await v.countDocuments({ key, source: null });
     const runFile = fs.existsSync(RUNS) ? fs.readdirSync(RUNS).find((f) => f.includes(`-${ac}-`) && f.endsWith(".summary.json")) : null;
     if (runFile) { const s = JSON.parse(fs.readFileSync(path.join(RUNS, runFile), "utf8")); out.runs[ac] = { started: s.startedAt, finished: s.finishedAt, durationMs: s.durationMs, pagesPerSec: s.pagesPerSec, pages: s.pages, rows: s.rows, flaggedRows: s.flaggedRows, flagCounts: s.flagCounts, duplicatesReplaced: s.duplicatesReplaced, pdfs: s.pdfs, failures: s.failures?.length ?? s.failures, warnings: Array.isArray(s.warnings) ? s.warnings.length : s.warnings }; if (s.pages) o.pages = s.pages; }
@@ -219,6 +219,7 @@ function crossAc(all) {
     console.log(ac, meta.name, "rows", o.rows, "deleted", o.deleted, "(" + deletedSource + ")", "electors", o.electors, "added", o.action.added, "sexRatio", o.sexRatio, "blank gender", o.gender[""], "dupEpics", o.dupEpics);
   }
   out.crossAc = crossAc(all);
+  if (prev.epicZero) out.epicZero = prev.epicZero; // Noida ZYH0/YHO0 counts (Section 6.3), carried over
   console.log("crossAc", JSON.stringify({ ...out.crossAc, examplesKinds: undefined }));
   const A = out.acs, sum = (f) => Object.values(A).reduce((s, a) => s + f(a), 0);
   out.district = { rows: sum((a) => a.rows), deleted: sum((a) => a.deleted), electors: sum((a) => a.electors), M: sum((a) => a.gender.M), F: sum((a) => a.gender.F), sexRatio: Math.round(1000 * sum((a) => a.gender.F) / sum((a) => a.gender.M)), added: sum((a) => a.action.added), modified: sum((a) => a.action.modified), age18_19: sum((a) => a.age18_19), parts: sum((a) => a.parts) };

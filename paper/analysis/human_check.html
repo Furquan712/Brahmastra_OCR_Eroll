@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test-set human check</title>
+<style>
+  :root { --bg:#f6f5f1; --panel:#ffffff; --ink:#1c1b19; --muted:#6b6860; --line:#d9d6cd; --accent:#1f5f8b; --ok:#2e7d4f; --warn:#b3541e; --warnbg:#fdf1e7; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#17181a; --panel:#202225; --ink:#e9e7e1; --muted:#9a978e; --line:#383b40; --accent:#7db7de; --ok:#6fc392; --warn:#eaa16f; --warnbg:#3a2a1e; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 20px; margin: 4px 0 2px; }
+  .muted { color: var(--muted); font-size: 14px; }
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:16px; margin-top:14px; }
+  .bar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .bar .grow { flex:1; }
+  button, .btn { font:inherit; padding:7px 13px; border-radius:7px; border:1px solid var(--line); background:var(--panel); color:var(--ink); cursor:pointer; }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  @media (prefers-color-scheme: dark) { button.primary { color:#10202c; } }
+  button.on { border-color:var(--accent); box-shadow: inset 0 0 0 1px var(--accent); font-weight:600; }
+  button:disabled { opacity:.45; cursor:default; }
+  img.card { width:100%; height:auto; border:1px solid var(--line); border-radius:6px; background:#fff; image-rendering:auto; }
+  .zoom { overflow:auto; max-height:70vh; }
+  .zoom.big img.card { width:190%; max-width:none; }
+  .grid { display:grid; grid-template-columns: 150px 1fr; gap:10px 12px; align-items:center; margin-top:14px; }
+  label { color:var(--muted); font-size:14px; }
+  input[type=text] { font:inherit; font-size:18px; width:100%; padding:7px 9px; border:1px solid var(--line); border-radius:7px; background:var(--bg); color:var(--ink); }
+  input[type=text]:focus { outline:2px solid var(--accent); outline-offset:1px; }
+  .choices { display:flex; gap:6px; flex-wrap:wrap; }
+  .diff { grid-column: 1 / -1; background:var(--warnbg); border:1px solid var(--warn); border-radius:8px; padding:10px 12px; }
+  .diff b { color:var(--warn); }
+  .diff .vals { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; align-items:center; }
+  .val { font-size:18px; padding:5px 10px; border-radius:6px; border:1px solid var(--line); background:var(--panel); }
+  progress { width:100%; height:8px; }
+  .done { color:var(--ok); font-weight:600; }
+  ol { padding-left: 20px; } li { margin: 5px 0; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; gap:4px 0; } label { margin-top:8px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Test-set human check</h1>
+  <div class="muted">300 cards on ten pages. The card images are personal data: keep this folder private.</div>
+
+  <section class="panel" id="start">
+    <b>How it works</b>
+    <ol>
+      <li>You see one card image and type what is printed: EPIC number, house number, age, relation and gender. Nothing from any earlier transcription is shown.</li>
+      <li>When you press <b>Check</b>, any field where your entry differs from the first transcription is shown side by side. Look at the image again and choose.</li>
+      <li>Your first entry and your final choice are both saved, so the agreement rate can be reported.</li>
+    </ol>
+    <div class="grid">
+      <label for="who">Your name or initials</label><input type="text" id="who" autocomplete="off">
+      <label>Names (Hindi)</label>
+      <div class="choices">
+        <button id="nmBlind">I will type them in Hindi</button>
+        <button id="nmVerify">Show the first transcription and let me correct it</button>
+      </div>
+    </div>
+    <p class="muted" id="nmHelp">Typing the names yourself is the stronger check. Showing them is faster and is reported as "verified", not "independently transcribed".</p>
+    <div class="bar"><button class="primary" id="go" disabled>Start</button><span class="grow"></span>
+      <label class="btn">Load a saved file <input type="file" id="imp" accept="application/json" hidden></label></div>
+  </section>
+
+  <section class="panel" id="work" hidden>
+    <div class="bar">
+      <span id="pos"></span><span class="grow"></span>
+      <button id="zoomBtn">Zoom</button><button id="prev">Back</button><button id="exp">Save file</button>
+    </div>
+    <progress id="prog" value="0" max="1"></progress>
+    <div class="zoom" id="zoom"><img class="card" id="img" alt="card image"></div>
+    <div class="grid" id="form"></div>
+    <div class="bar" style="margin-top:14px">
+      <label class="btn"><input type="checkbox" id="stamped"> Card has the DELETED stamp</label>
+      <span class="grow"></span>
+      <button class="primary" id="next">Check</button>
+    </div>
+    <div class="muted" style="margin-top:8px">Enter moves to the next field. Type exactly what is printed, including punctuation. If a glyph cannot be decided at this size, choose your best reading and tick "cannot tell".</div>
+  </section>
+
+  <section class="panel" id="end" hidden>
+    <div class="done">All cards are done.</div>
+    <p>Press <b>Save file</b> and then run:<br><code>node paper/analysis/human_check_apply.mjs &lt;the saved file&gt;</code></p>
+    <div class="bar"><button class="primary" id="exp2">Save file</button><button id="review">Go back through the cards</button></div>
+  </section>
+</main>
+
+<script src="cards.js"></script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const KEY = "bench-human-check-v1";
+  const FIELDS = [
+    { k: "epic", label: "EPIC number", type: "text" },
+    { k: "name", label: "Name", type: "name" },
+    { k: "rel", label: "Relation", type: "choice", opts: ["पिता", "पति", "माता", "अन्य"] },
+    { k: "relName", label: "Relative's name", type: "name" },
+    { k: "house", label: "House number", type: "text" },
+    { k: "age", label: "Age", type: "text" },
+    { k: "gender", label: "Gender", type: "choice", opts: ["पुरुष", "महिला", "अन्य"] },
+  ];
+  const cards = [];
+  for (const p of (window.BENCH || [])) p.cards.forEach((c, i) => cards.push({ ...c, page: p.id, n: i + 1 }));
+  let S = { reviewer: "", nameMode: "", startedAt: "", cards: {} };
+  let at = 0, phase = "entry", cur = null, t0 = 0;
+
+  const norm = (k, v) => { v = String(v ?? "").normalize("NFC").replace(/\s+/g, " ").trim(); return k === "epic" ? v.toUpperCase() : v; };
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* storage may be unavailable; Save file still works */ } };
+  const load = () => { try { const s = JSON.parse(localStorage.getItem(KEY) || "null"); if (s && s.cards) S = s; } catch (e) {} };
+  const blind = (f) => f.type !== "name" || S.nameMode === "blind";
+
+  function download() {
+    const out = { ...S, exportedAt: new Date().toISOString(), total: cards.length };
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(out, null, 1)], { type: "application/json" }));
+    a.download = "human-check-" + (S.reviewer || "reviewer").replace(/\W+/g, "_") + ".json";
+    a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  }
+
+  function setMode(m) { S.nameMode = m; $("nmBlind").classList.toggle("on", m === "blind"); $("nmVerify").classList.toggle("on", m === "verify"); ready(); }
+  function ready() { $("go").disabled = !($("who").value.trim() && S.nameMode && cards.length); }
+
+  function show() {
+    if (at >= cards.length) { $("work").hidden = true; $("end").hidden = false; return; }
+    $("end").hidden = true; $("work").hidden = false;
+    const c = cards[at], saved = S.cards[c.img];
+    phase = "entry"; t0 = Date.now();
+    cur = saved ? JSON.parse(JSON.stringify(saved)) : { first: {}, final: {}, cannotTell: [], stamped: false };
+    $("img").src = "crops/" + c.img;
+    $("pos").textContent = `Card ${at + 1} of ${cards.length}  (page ${c.page}, card ${c.n})` + (saved ? "  · already done" : "");
+    $("prog").value = Object.keys(S.cards).length / cards.length;
+    $("stamped").checked = !!cur.stamped;
+    $("next").textContent = "Check";
+    const form = $("form"); form.innerHTML = "";
+    for (const f of FIELDS) {
+      const lab = document.createElement("label"); lab.textContent = f.label + (blind(f) ? "" : " (check)"); form.appendChild(lab);
+      const start = saved ? saved.final[f.k] : (blind(f) ? "" : c.model[f.k]);
+      if (f.type === "choice") {
+        const box = document.createElement("div"); box.className = "choices"; box.dataset.k = f.k; box.dataset.v = start || "";
+        for (const o of f.opts) { const b = document.createElement("button"); b.type = "button"; b.textContent = o; b.classList.toggle("on", o === start);
+          b.onclick = () => { box.dataset.v = o; [...box.children].forEach((x) => x.classList.toggle("on", x === b)); }; box.appendChild(b); }
+        form.appendChild(box);
+      } else {
+        const i = document.createElement("input"); i.type = "text"; i.dataset.k = f.k; i.value = start || ""; i.autocomplete = "off"; i.spellcheck = false;
+        if (f.type === "name") i.lang = "hi";
+        i.onkeydown = (e) => { if (e.key === "Enter") { e.preventDefault(); const all = [...form.querySelectorAll("input[type=text]")]; const n = all[all.indexOf(i) + 1]; n ? n.focus() : $("next").focus(); } };
+        form.appendChild(i);
+      }
+    }
+    const first = form.querySelector("input[type=text]"); if (first) first.focus();
+    window.scrollTo(0, 0);
+  }
+
+  const read = () => { const v = {}; for (const el of $("form").querySelectorAll("[data-k]")) v[el.dataset.k] = norm(el.dataset.k, el.tagName === "INPUT" ? el.value : el.dataset.v); return v; };
+
+  function check() {
+    const c = cards[at], v = read();
+    const missing = FIELDS.filter((f) => !v[f.k] && !(v.rel === "अन्य" && f.k === "relName") && !$("stamped").checked);
+    if (missing.length) { alert("Please fill: " + missing.map((f) => f.label).join(", ") + ". If the card is unreadable under a stamp, tick the DELETED box."); return; }
+    if (!S.cards[c.img]) cur.first = { ...v };
+    cur.final = { ...v }; cur.stamped = $("stamped").checked;
+    const diffs = FIELDS.filter((f) => norm(f.k, v[f.k]) !== norm(f.k, c.model[f.k]));
+    if (!diffs.length) return commit();
+    phase = "reconcile"; $("next").textContent = "Confirm and continue";
+    $("form").querySelectorAll(".diff").forEach((d) => d.remove());
+    for (const f of diffs) {
+      const d = document.createElement("div"); d.className = "diff";
+      d.innerHTML = `<b>${f.label}</b>: your entry and the first transcription differ. Look at the image again.`;
+      const vals = document.createElement("div"); vals.className = "vals";
+      const mk = (txt, val) => { const b = document.createElement("button"); b.type = "button"; b.innerHTML = txt; b.onclick = () => { cur.final[f.k] = val; [...vals.querySelectorAll("button")].forEach((x) => x.classList.toggle("on", x === b)); }; return b; };
+      const mine = mk("Mine: <span class='val'></span>", v[f.k]); mine.querySelector(".val").textContent = v[f.k] || "(blank)"; mine.classList.add("on");
+      const theirs = mk("First transcription: <span class='val'></span>", norm(f.k, c.model[f.k])); theirs.querySelector(".val").textContent = c.model[f.k] || "(blank)";
+      const ct = document.createElement("label"); ct.className = "btn"; ct.innerHTML = "<input type='checkbox'> cannot tell";
+      ct.querySelector("input").checked = cur.cannotTell.includes(f.k);
+      ct.querySelector("input").onchange = (e) => { cur.cannotTell = cur.cannotTell.filter((x) => x !== f.k); if (e.target.checked) cur.cannotTell.push(f.k); };
+      vals.append(mine, theirs, ct); d.appendChild(vals); $("form").appendChild(d);
+    }
+    $("form").querySelector(".diff").scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  function commit() {
+    const c = cards[at];
+    cur.ms = (cur.ms || 0) + (Date.now() - t0); cur.nameMode = S.nameMode; cur.at = new Date().toISOString();
+    const editing = !!S.cards[c.img];
+    S.cards[c.img] = cur; save();
+    at = editing ? at + 1 : nextOpen(at + 1); show();
+  }
+  const nextOpen = (from) => { for (let i = from; i < cards.length; i++) if (!S.cards[cards[i].img]) return i; for (let i = 0; i < from && i < cards.length; i++) if (!S.cards[cards[i].img]) return i; return cards.length; };
+
+  $("nmBlind").onclick = () => setMode("blind"); $("nmVerify").onclick = () => setMode("verify");
+  $("who").oninput = ready;
+  $("go").onclick = () => { S.reviewer = $("who").value.trim(); S.startedAt = S.startedAt || new Date().toISOString(); save(); $("start").hidden = true; at = nextOpen(0); show(); };
+  $("next").onclick = () => (phase === "entry" ? check() : commit());
+  $("prev").onclick = () => { if (at > 0) { at--; show(); } };
+  $("exp").onclick = download; $("exp2").onclick = download;
+  $("review").onclick = () => { at = 0; show(); };
+  $("zoomBtn").onclick = () => $("zoom").classList.toggle("big");
+  $("imp").onchange = async (e) => { const f = e.target.files[0]; if (!f) return; try { const s = JSON.parse(await f.text()); if (!s.cards) throw 0; S = s; save(); $("who").value = S.reviewer || ""; setMode(S.nameMode || ""); } catch (x) { alert("That file is not a saved check."); } };
+
+  load();
+  if (!cards.length) { $("start").innerHTML = "<b>cards.js was not found.</b> Run <code>node paper/analysis/human_check_build.mjs</code> first."; return; }
+  $("who").value = S.reviewer || ""; if (S.nameMode) setMode(S.nameMode);
+  const done = Object.keys(S.cards).length; if (done) $("nmHelp").textContent = `${done} of ${cards.length} cards are already saved in this browser; Start continues from there.`;
+  ready();
+})();
+</script>
+</body>
+</html>
