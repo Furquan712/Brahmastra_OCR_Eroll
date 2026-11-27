@@ -106,6 +106,7 @@ export interface CliOverrides {
   push?: boolean;
   /** --force-push: re-send PDFs the push ledger says are already on the dashboard. */
   forcePush?: boolean;
+  pushBulk?: boolean;
   /** false from --no-csv */
   csv?: boolean;
 }

@@ -15,7 +15,7 @@ import { parseErollFilename } from "./cover.js";
 import { evalText, evalTruthFile } from "./ocr-eval.js";
 import { checkPopplerAvailable, pdfPageCount, removeQuiet, renderPage } from "./pdf.js";
 import { processPdf, type PdfContext } from "./pipeline.js";
-import { pushConfigFromEnv, pushPdf, type PushConfig } from "./push.js";
+import { pushConfigFromEnv, pushPdf, pushRoll, type PushConfig, type RollItem } from "./push.js";
 import { buildSummary, summaryText, writeSummary } from "./summary.js";
 import { loadTemplates, selectTemplate } from "./templates.js";
 import { checkTesseract } from "./tesseract.js";
@@ -57,6 +57,7 @@ function addCommonOptions(cmd: Command): Command {
     .option("--bom", "write a UTF-8 BOM at the start of the CSV (Excel-friendly)")
     .option("--push", "after each PDF, push its rows into the dashboard (needs DASHBOARD_URL and DASHBOARD_INGEST_TOKEN in .env; or OCR_PUSH=true)")
     .option("--force-push", "with --push: re-send PDFs already recorded in data/pushed.json")
+    .option("--push-bulk", "with run --push: send the whole folder as one upload the dashboard queues; it REPLACES the roll, so the folder must be complete")
     .option("--no-csv", "with --push: do not write a part's CSV once the dashboard has accepted it (kept if the push failed or was skipped)")
     .option("--dry-run", "list PDFs and planned output; no rendering or model calls");
 }
@@ -355,13 +356,40 @@ async function runCommand(folder: string, opts: CliOverrides): Promise<number> {
   const agg: MergeStats = { rowsIn: 0, rowsOut: 0, duplicatesReplaced: 0, flagged: 0, flagCounts: {}, warnings: [] };
   const written = new Set<string>();
   let pushed = 0, pushSkipped = 0, pushFailed = 0, csvSkipped = 0;
+  // --push-bulk: the whole folder goes up as one upload that replaces the roll, so only when every PDF was read.
+  const mergedByFile = new Map<string, ReturnType<typeof mergeResults>>();
+  let bulkOk = false;
+  if (push && opts.pushBulk) {
+    const items: RollItem[] = [];
+    for (const r of results) {
+      if (r.status !== "ok") continue;
+      const m = mergeResults([r], c, tpl, cfg, log);
+      mergedByFile.set(r.file, m);
+      items.push({ result: r, rows: m.rows });
+    }
+    const unread = results.length - items.length;
+    if (unread) {
+      pushFailed = results.length;
+      agg.warnings.push(`whole-roll push not started: ${unread} PDF(s) failed, and it would drop their parts from the dashboard`);
+    } else {
+      const o = await pushRoll(push, c, items, log);
+      bulkOk = o.ok;
+      pushed = o.pushed;
+      pushSkipped = o.skipped;
+      if (!o.ok) {
+        pushFailed = items.length;
+        agg.warnings.push(o.reason);
+      }
+    }
+  }
   for (const r of results) {
     if (r.status !== "ok") continue;
-    const m = mergeResults([r], c, tpl, cfg, log);
+    const m = mergedByFile.get(r.file) ?? mergeResults([r], c, tpl, cfg, log);
     // With --no-csv the dashboard is the record: a part's CSV is written only when its rows did
     // NOT reach the dashboard (push failed, or nothing could be pushed), so no data is ever lost.
     let inDashboard = false;
-    if (push) {
+    if (push && opts.pushBulk) inDashboard = bulkOk;
+    else if (push) {
       const o = await pushPdf(push, c, r, m.rows, log);
       if (o.pushed) pushed++;
       else if (/failed/.test(o.reason)) { pushFailed++; agg.warnings.push(o.reason); }
