@@ -180,3 +180,14 @@ test("an English roll leaves the Hindi columns blank and keeps names as read", (
   assert.equal(rows[0].Section_name_hi, "");
   assert.equal(rows[0].PS_name_hi, "");
 });
+
+test("the ECI file name decides the part number, whatever the cover or a page header was read as", () => {
+  const file = "2026-EROLLGEN-S28-25-SIR-FinalRoll-Revision1-HIN-159-WI.pdf";
+  const r = pdf(file, "754", [
+    { page: 3, section: "main", cards: [card(1, "AAA0000001")] },
+    { page: 14, section: "main", cards: [card(2, "AAA0000002")] },
+  ]);
+  r.pages[1].partNo = "154";
+  const { rows } = mergeResults([r], constituency, tpl, cfg, log);
+  assert.deepEqual(rows.map((x) => x.Part_no), ["159", "159"]);
+});

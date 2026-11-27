@@ -3,7 +3,7 @@ import path from "node:path";
 import { RESULT_SCHEMA_VERSION, type ResultCache } from "./cache.js";
 import type { Config } from "./config.js";
 import { correctNames } from "./consensus.js";
-import { applyCoverMeta, buildCover, COVER_SCHEMA, CoverModelZ, coverPrompt, looksLikeCover, parseCoverText, parseErollFilename, parseSupplementHeader, readCoverPage, type CoverModelOut } from "./cover.js";
+import { applyCoverMeta, buildCover, COVER_SCHEMA, CoverModelZ, coverPrompt, looksLikeCover, parseCoverText, parseErollFilename, filePartNo, parseSupplementHeader, readCoverPage, type CoverModelOut } from "./cover.js";
 import {
   cropBand, cropRect, detectColumnBands, detectRowBands, downscaleForClassification,
   imageDims, isBlank, templateRowBands, type Band, type Dims,
@@ -646,6 +646,61 @@ async function processPageHybrid(ctx: PdfContext, pdfFile: string, pageNo: numbe
   return result;
 }
 
+/**
+ * fixSerials sees one page at a time, so a digit misread on most of a page (502 read as 902) wins
+ * the vote there. Across pages the main roll's serials run on without a break: a run of pages that
+ * is out of step is renumbered only when its cards fit exactly between the page before (itself in
+ * step) and the next page, or the cover's last serial. Returns the number of cards renumbered.
+ */
+export function repairSerialRuns(pages: PageResult[], cover: CoverInfo | null, maxRun = 8): number {
+  const blocks = pages.filter((p) => p.pageType === "voter_grid" && p.cards.length > 0).sort((a, b) => a.page - b.page);
+  const first = (k: number) => blocks[k].cards[0].serial;
+  const last = (k: number) => blocks[k].cards[blocks[k].cards.length - 1].serial;
+  const unbroken = (k: number) => first(k) !== null && blocks[k].cards.every((c, i) => c.serial === first(k)! + i);
+  const from = cover?.serialFrom ?? 1;
+  const inStep = (k: number) => unbroken(k) && (k === 0 ? first(k) === from : unbroken(k - 1) && first(k) === last(k - 1)! + 1);
+  let changed = 0;
+  let repairedUpTo = -1;
+  for (let i = 1; i < blocks.length; i++) {
+    if (!(inStep(i - 1) || repairedUpTo === i - 1)) continue;
+    const expected = last(i - 1)! + 1;
+    if (unbroken(i) && first(i) === expected) continue;
+    let count = 0;
+    for (let j = i; j < blocks.length && j < i + maxRun; j++) {
+      count += blocks[j].cards.length;
+      const fits = j + 1 < blocks.length ? unbroken(j + 1) && first(j + 1) === expected + count : cover?.serialTo === expected + count - 1;
+      if (!fits) continue;
+      let want = expected;
+      for (let k = i; k <= j; k++) {
+        for (const card of blocks[k].cards) {
+          if (card.serial !== want) {
+            card.serial = want;
+            card.extraFlags = [...new Set([...(card.extraFlags ?? []), "serial_corrected"])];
+            changed++;
+          }
+          want++;
+        }
+      }
+      repairedUpTo = j;
+      i = j;
+      break;
+    }
+  }
+  return changed;
+}
+
+/**
+ * The ECI file name says which part a PDF is. A cover or page header can be misread (AC 25 part
+ * 159 read as 754 on 11 of its pages put 319 voters under a part that does not exist), so the file
+ * name wins; the reads only count when the name carries no part number.
+ */
+export function applyFilePartNo(result: Pick<PdfResult, "partNo" | "cover">, file: string): void {
+  const n = filePartNo(file);
+  if (!n) return;
+  result.partNo = n;
+  if (result.cover) result.cover.partNo = n;
+}
+
 /** Processes one PDF end to end, with page-level resume. Never throws for a bad PDF: returns status "failed". */
 export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfResult> {
   const { cfg, log, cache, tpl } = ctx;
@@ -665,6 +720,9 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
     log.info("pdf", `${base}: cached result (${cached.pages.reduce((n, p) => n + p.cards.length, 0)} cards, ${cached.model}) - skipping OCR`);
     refreshEnglish(cached.pages, ctx.translit, tpl);
     cached.cover = cached.pages.find((x) => x.cover)?.cover ?? null;
+    applyFilePartNo(cached, base);
+    const renumbered = repairSerialRuns(cached.pages, cached.cover);
+    if (renumbered) log.info("pdf", `${base}: ${renumbered} serial number(s) repaired across pages`);
     applyOfficialPartName(cached.cover, parseErollFilename(base)?.stateCode ?? "", log, base);
     return cached;
   }
@@ -726,10 +784,14 @@ export async function processPdf(ctx: PdfContext, pdfFile: string): Promise<PdfR
     }
 
     const cover = pages.find((x) => x.cover)?.cover ?? null;
+    const renumbered = repairSerialRuns(pages, cover);
+    if (renumbered) log.info("pdf", `${base}: ${renumbered} serial number(s) repaired across pages`);
+    if (cover && filePartNo(base)) cover.partNo = filePartNo(base);
     applyOfficialPartName(cover, parseErollFilename(base)?.stateCode ?? "", log, base);
     const partCounts = new Map<string, number>();
     for (const pg of pages) if (pg.partNo) partCounts.set(pg.partNo, (partCounts.get(pg.partNo) ?? 0) + 1);
-    const partNo = cover?.partNo || [...partCounts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || "";
+    const partNo = filePartNo(base) || cover?.partNo || [...partCounts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || "";
+    if (cover && filePartNo(base)) cover.partNo = partNo;
 
     const result: PdfResult = {
       schemaVersion: RESULT_SCHEMA_VERSION,
