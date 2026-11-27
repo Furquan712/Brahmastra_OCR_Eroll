@@ -525,3 +525,9 @@ export function buildCover(
   };
   return { cover, warnings: w };
 }
+
+/** Part number carried by an ECI file name, "" when it has none. */
+export function filePartNo(file: string): string {
+  const n = parseErollFilename(file)?.partNo;
+  return n ? String(Number(n)) : "";
+}

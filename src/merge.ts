@@ -1,6 +1,7 @@
 import type { Config } from "./config.js";
 import type { Logger } from "./logger.js";
 import type { Template } from "./templates.js";
+import { filePartNo } from "./cover.js";
 import { DELETION_REASONS } from "./normalize.js";
 import type { ActionStatus, ConstituencyInfo, CoverInfo, OutputRow, PageResult, PdfResult, VoterCard } from "./types.js";
 import { VOTER_PAGE_TYPES } from "./types.js";
@@ -78,7 +79,7 @@ export function mergeResults(
     const cover = r.cover;
     const psEn = cover?.psNameEn ?? "";
     const psHi = cover?.psNameHi ?? "";
-    const pdfPart = r.partNo;
+    const pdfPart = filePartNo(r.file) || r.partNo;
     const latin = tpl.script === "latin";
     const sectionsByNo = new Map((cover?.sections ?? []).map((s) => [s.no, s]));
     const cv = (k: keyof CoverInfo): string => {
@@ -114,7 +115,7 @@ export function mergeResults(
         prevSerial = null; // serial continuity restarts per section
         prevSection = pg.section;
       }
-      const pagePart = pg.partNo || pdfPart;
+      const pagePart = filePartNo(r.file) || pg.partNo || pdfPart;
       const partNoMismatch = Boolean(pg.partNo && pdfPart && pg.partNo !== pdfPart);
       if (partNoMismatch) stats.warnings.push(`${r.file} p${pg.page}: page part no ${pg.partNo} != cover part no ${pdfPart}`);
       const rawEpics = pg.rawEpics ?? [];

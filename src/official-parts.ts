@@ -29,7 +29,7 @@ const GATEWAY_HEADERS = {
 /** After a failed fetch, wait this long before asking the portal again (a watcher runs for days). */
 const RETRY_AFTER_MS = 10 * 60 * 1000;
 
-interface PartsFile { acName?: string; districtCd?: string; count: number; maxPart: number; parts: { partNumber: number; partName: string }[] }
+interface PartsFile { acName?: string; fetchedAt?: string; districtCd?: string; count: number; maxPart: number; parts: { partNumber: number; partName: string }[] }
 
 // Only lists that were found are remembered: a watcher has to notice a list that arrives later.
 const loaded = new Map<string, Map<string, string>>();
@@ -163,6 +163,8 @@ export function sameAcName(a: string, b: string): boolean {
   return 1 - editDistance(x, y) / Math.max(x.length, y.length) >= 0.8;
 }
 
+const PORTAL_RENUMBERED = "2026-11-12";
+
 /** Official English name of a part, or null when no list is on file for the AC. */
 export function officialPartName(stateCode: string, acNo: string, partNo: string): string | null {
   return table(stateCode, acNo)?.get(String(Number(partNo))) ?? null;
@@ -177,6 +179,14 @@ export function officialPartCount(stateCode: string, acNo: string): number | nul
 /** Overwrites cover.psNameEn with the official name when one is on file. Returns true if applied. */
 export function applyOfficialPartName(cover: CoverInfo | null, stateCode: string, log: Logger, file: string): boolean {
   if (!cover) return false;
+  // The list on the portal numbers the parts of the current SIR roll. An SSR draft renumbers them
+  // (AC 275, 2027: part 200 is another school), so its cover is the only safe source of the name.
+  if (/-SSR-/i.test(file)) return false;
+  // Around 12 Nov 2026 the portal switched its lists to the numbering of the 2027 SSR draft (Noida:
+  // 811 parts became 784). A list fetched since then must not name the parts of a SIR roll.
+  const id = partsId(stateCode, cover.acNo);
+  const fetchedAt = id ? readFile(id)?.fetchedAt ?? "" : "";
+  if (/-SIR-/i.test(file) && fetchedAt >= PORTAL_RENUMBERED) return false;
   const name = officialPartName(stateCode, cover.acNo, cover.partNo);
   if (!name) return false;
   if (cover.psNameEn !== name) {
