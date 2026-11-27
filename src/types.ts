@@ -111,7 +111,7 @@ export interface VoterCard {
   notes: string;
   deleted?: boolean;
   /** Which engine produced the Hindi fields. */
-  engine?: "tesseract" | "llm";
+  engine?: "tesseract" | "llm" | "text";
   /** Why the local read was escalated to the model (hybrid engine). */
   escalated?: string[];
   /** Extra QA flags raised during extraction (e.g. serial_corrected, name_hi_corrected). */

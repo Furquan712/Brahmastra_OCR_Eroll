@@ -8,6 +8,9 @@
  *   chunk ...   the voters, 5,000 per request
  *   finish      recomputes the roll's summary counts
  *
+ * `run --push-bulk` sends a whole folder as ONE upload instead (pushRoll): begin (replaces the
+ * whole roll), parts, chunks, then a finish the dashboard queues, polled with "status" until done.
+ *
  * One PDF = one "source" ("main", or "supplement-2"), so a supplement pushed later never wipes the
  * main roll and a re-OCR of the main roll never wipes the supplements. Pushed PDFs are remembered
  * in data/pushed.json (per dashboard URL + PDF hash + rows hash); an unchanged PDF is not re-sent
@@ -174,7 +177,7 @@ async function post(cfg: PushConfig, body: Record<string, unknown>, log: Logger,
       if (res.ok) return json;
       const msg = `${res.status} ${String(json.error ?? json.raw ?? res.statusText)}`;
       // Auth / validation errors will not fix themselves; server errors and rate limits may.
-      if (res.status === 401 || res.status === 403 || res.status === 400 || res.status === 413) throw new Error(`${what}: ${msg}`);
+      if (res.status === 401 || res.status === 403 || res.status === 400 || res.status === 413 || /^404 Upload session not found/.test(msg)) throw new Error(`${what}: ${msg}`);
       lastErr = msg;
     } catch (e) {
       if (e instanceof Error && /^(?:begin|begin-part|parts|chunk|finish)/.test(e.message)) throw e;
@@ -217,15 +220,17 @@ export async function pushPdf(cfg: PushConfig, c: ConstituencyInfo, r: PdfResult
 
   const t0 = Date.now();
   try {
-    await post(cfg, { phase: "begin-part", ...meta, partNo, source }, log, "begin-part");
+    // Naming the upload keeps a retried finish from being matched to another part's upload.
+    const begun = await post(cfg, { phase: "begin-part", ...meta, partNo, source }, log, "begin-part");
+    const id = typeof begun.uploadId === "string" ? { uploadId: begun.uploadId } : {};
     if (parts.some((p) => p.sections.length || Object.values(p).some((v) => typeof v === "string" && v && v !== p.partNo))) {
-      await post(cfg, { phase: "parts", ...meta, parts }, log, "parts");
+      await post(cfg, { phase: "parts", ...meta, ...id, parts }, log, "parts");
     }
     for (let i = 0; i < voters.length; i += cfg.batchRows) {
       const batch = voters.slice(i, i + cfg.batchRows);
-      await post(cfg, { phase: "chunk", ...meta, voters: batch }, log, `chunk ${i / cfg.batchRows + 1}`);
+      await post(cfg, { phase: "chunk", ...meta, ...id, voters: batch }, log, `chunk ${i / cfg.batchRows + 1}`);
     }
-    const fin = await post(cfg, { phase: "finish", ...meta }, log, "finish");
+    const fin = await post(cfg, { phase: "finish", ...meta, ...id }, log, "finish");
     const up = (fin.upload ?? {}) as Record<string, unknown>;
     ledger[key] = { rowsHash: h, at: new Date().toISOString(), rows: rows.length };
     saveLedger(cfg.ledgerFile, ledger);
@@ -235,5 +240,126 @@ export async function pushPdf(cfg: PushConfig, c: ConstituencyInfo, r: PdfResult
     const reason = `${label}: push failed - ${errMsg(e)}`;
     log.error("push", reason);
     return { pushed: false, rows: rows.length, reason };
+  }
+}
+
+/* ---------- whole folder as one upload ---------- */
+
+export interface RollItem { result: PdfResult; rows: OutputRow[] }
+
+export interface RollOutcome { ok: boolean; pushed: number; skipped: number; reason: string }
+
+const PART_BATCH = 500;
+
+/** One part record per part number across the PDFs: the main roll's cover first, section lists unioned. */
+export function mergeRollParts(lists: { source: string; parts: DashboardPart[] }[]): DashboardPart[] {
+  const byPart = new Map<string, DashboardPart>();
+  for (const { parts } of [...lists].sort((a, b) => Number(b.source === "main") - Number(a.source === "main"))) {
+    for (const p of parts) {
+      const have = byPart.get(p.partNo);
+      if (!have) byPart.set(p.partNo, { ...p, sections: [...p.sections] });
+      else for (const s of p.sections) if (!have.sections.some((x) => x.no === s.no)) have.sections.push(s);
+    }
+  }
+  for (const p of byPart.values()) p.sections.sort((a, b) => Number(a.no) - Number(b.no));
+  return [...byPart.values()];
+}
+
+async function queueSupported(cfg: PushConfig, meta: DashboardMeta): Promise<boolean> {
+  try {
+    await post(cfg, { phase: "status", ...meta, uploadId: "probe" }, { warn: () => {} } as unknown as Logger, "status");
+    return true;
+  } catch (e) {
+    // A dashboard with the queue does not know this upload (404); an older one does not know the phase.
+    const msg = errMsg(e);
+    if (/\b404 Upload session not found/.test(msg)) return true;
+    if (/Unknown phase/.test(msg)) return false;
+    throw e;
+  }
+}
+
+/**
+ * Replaces a whole roll with the folder's PDFs in one upload. The dashboard receives every row,
+ * checks the count, and does the swap from its queue; this waits for it. Never throws. Everything
+ * the roll holds that is not in `items` goes, so the caller passes the complete folder.
+ */
+export async function pushRoll(cfg: PushConfig, c: ConstituencyInfo, items: RollItem[], log: Logger, o: { pollMs?: number; waitMs?: number } = {}): Promise<RollOutcome> {
+  const fail = (reason: string): RollOutcome => {
+    log.error("push", `whole-roll push failed - ${reason}`);
+    return { ok: false, pushed: 0, skipped: 0, reason };
+  };
+  if (!items.length) return fail("no PDFs");
+
+  const prepared = items.map(({ result: r, rows }) => {
+    const meta = dashboardMeta(c, r);
+    const source = sourceOf(r, c);
+    const partNo = r.partNo || rows[0]?.Part_no || "";
+    const voters = toDashboardVoters(rows, source);
+    const parts = source === "main" ? toDashboardParts(rows, r) : toDashboardParts(rows, r).map((p) => ({ partNo: p.partNo, sections: p.sections } as DashboardPart));
+    return { r, meta, source, partNo, voters, parts };
+  });
+  const meta = prepared[0].meta;
+  if (!meta.stateName || !meta.acNo || !meta.acName || !/^\d{4}$/.test(meta.year)) return fail("state / AC / year unknown (folder name or cover)");
+  const seat = (m: DashboardMeta) => `${m.stateName}|${m.acNo}|${m.year}|${m.type}`;
+  const other = prepared.find((p) => seat(p.meta) !== seat(meta));
+  if (other) return fail(`${other.r.file} belongs to ${seat(other.meta)}, not ${seat(meta)}`);
+  const empty = prepared.find((p) => !p.partNo || !p.voters.length);
+  if (empty) return fail(`${empty.r.file}: ${empty.partNo ? "no rows" : "part number unknown"}`);
+  const seen = new Set<string>();
+  for (const p of prepared) {
+    const k = `${p.partNo}|${p.source}`;
+    if (seen.has(k)) return fail(`two PDFs are part ${p.partNo} (${p.source})`);
+    seen.add(k);
+  }
+
+  const ledger = loadLedger(cfg.ledgerFile);
+  const entries = prepared.map((p) => ({ key: `${cfg.url}|${p.r.hash || p.r.file}|${p.partNo}|${p.source}`, hash: rowsHash(p.voters, p.parts), rows: p.voters.length }));
+  if (!cfg.force && entries.every((e) => ledger[e.key]?.rowsHash === e.hash)) return { ok: true, pushed: 0, skipped: items.length, reason: "" };
+
+  // Rows are stored in the order sent, which is the roll order the dashboard pages through.
+  prepared.sort((a, b) => Number(a.partNo) - Number(b.partNo) || a.source.localeCompare(b.source));
+  const voters = prepared.flatMap((p) => p.voters);
+  const parts = mergeRollParts(prepared);
+  const t0 = Date.now();
+  const secs = () => ((Date.now() - t0) / 1000).toFixed(0);
+  try {
+    if (!(await queueSupported(cfg, meta))) return fail("this dashboard has no upload queue yet; push without --push-bulk");
+    const begun = await post(cfg, { phase: "begin", ...meta }, log, "begin");
+    const uploadId = String(begun.uploadId ?? "");
+    if (!uploadId) return fail("begin returned no uploadId");
+    for (let i = 0; i < parts.length; i += PART_BATCH) await post(cfg, { phase: "parts", ...meta, uploadId, parts: parts.slice(i, i + PART_BATCH) }, log, "parts");
+    const chunks = Math.ceil(voters.length / cfg.batchRows);
+    for (let i = 0; i < chunks; i++) {
+      await post(cfg, { phase: "chunk", ...meta, uploadId, voters: voters.slice(i * cfg.batchRows, (i + 1) * cfg.batchRows) }, log, `chunk ${i + 1}`);
+      if ((i + 1) % 10 === 0 || i + 1 === chunks) log.info("push", `sent ${i + 1}/${chunks} batches (${secs()}s)`);
+    }
+    let fin = await post(cfg, { phase: "finish", ...meta, uploadId, queue: true, expectRows: voters.length }, log, "finish");
+    log.info("push", `${voters.length} rows of ${parts.length} parts received; the dashboard is finishing the upload`);
+    const until = Date.now() + (o.waitMs ?? 90 * 60_000);
+    let last = "";
+    while (!fin.upload) {
+      if (Date.now() > until) return fail(`still not finished after ${secs()}s (upload ${uploadId}); the dashboard keeps working on it`);
+      await sleep(o.pollMs ?? 10_000);
+      try {
+        const st = await post(cfg, { phase: "status", ...meta, uploadId }, log, "status");
+        if (st.state === "done") {
+          if (!st.upload) return fail(`the dashboard finished with no roll: ${String(st.outcome ?? "")}`);
+          fin = st;
+        } else if (st.state !== "finishing") return fail(`upload ${String(st.state)}: ${String(st.outcome ?? "")}`);
+        else if (st.error && st.error !== last) log.warn("push", `dashboard reports: ${(last = String(st.error))}`);
+      } catch (e) {
+        // The swap carries on whether or not this question got through.
+        log.warn("push", errMsg(e));
+      }
+    }
+    const up = fin.upload as Record<string, unknown>;
+    const now = new Date().toISOString();
+    const saved = loadLedger(cfg.ledgerFile);
+    for (const e of entries) saved[e.key] = { rowsHash: e.hash, at: now, rows: e.rows };
+    saveLedger(cfg.ledgerFile, saved);
+    log.info("push", `whole roll: ${items.length} PDFs, ${voters.length} rows -> ${cfg.url} (${meta.stateName} / AC ${meta.acNo} ${meta.acName} / ${meta.year} ${meta.type}; roll now ${String(up.rowCount ?? "?")} voters, ${String(up.deletedCount ?? 0)} deleted) in ${secs()}s`);
+    return { ok: true, pushed: items.length, skipped: 0, reason: "" };
+  } catch (e) {
+    return fail(errMsg(e));
   }
 }
