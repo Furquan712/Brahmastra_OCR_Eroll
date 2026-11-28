@@ -5,7 +5,7 @@ import type { VoterCard } from "./types.js";
 const DEVANAGARI_DIGITS = "०१२३४५६७८९";
 
 export function asciiDigits(s: string): string {
-  return s.replace(/[०-९]/g, (d) => String(DEVANAGARI_DIGITS.indexOf(d)));
+  return s.replace(/[०-९]/g, (d) => String(DEVANAGARI_DIGITS.indexOf(d))).replace(/[\u0A66-\u0A6F]/g, (d) => String(d.charCodeAt(0) - 0x0a66));
 }
 
 export function parseIntLoose(s: string): number | null {
@@ -53,7 +53,7 @@ export function mapRelation(hi: string, tpl: Template): string {
   }
   // substring (e.g. "पिता का नाम" vs "पिता")
   for (const [key, val] of Object.entries(tpl.relationMap)) {
-    if (/[ऀ-ॿ]/.test(key) && (k.includes(key) || key.includes(k))) return val;
+    if (INDIC.test(key) && (k.includes(key) || key.includes(k))) return val;
   }
   return "";
 }
@@ -67,7 +67,7 @@ export function mapGender(hi: string, tpl: Template): string {
     if (key.toLowerCase() === lower) return val;
   }
   for (const [key, val] of Object.entries(tpl.genderMap)) {
-    if (/[ऀ-ॿ]/.test(key) && k.includes(key)) return val;
+    if (INDIC.test(key) && k.includes(key)) return val;
   }
   return "";
 }
@@ -128,8 +128,34 @@ export function cleanNameLatin(raw: string): string {
 }
 
 /** Script-aware name clean-up. */
-export function cleanName(raw: string, script: "devanagari" | "latin"): string {
-  return script === "latin" ? cleanNameLatin(raw) : cleanNameHi(raw);
+/** A Punjabi (Gurmukhi) name as printed: the same tidy as cleanNameHi, in the Gurmukhi block. */
+export function cleanNameGu(raw: string): string {
+  const t = raw
+    .normalize("NFC")
+    .replace(/[\u200B-\u200D\uFEFF]/g, "")
+    .replace(/[\u0A66-\u0A6F]/g, (d) => String(d.charCodeAt(0) - 0x0a66))
+    .replace(/[\u0964\u0965]/g, ".")
+    .replace(/[^\u0A00-\u0A7F0-9\s.\-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const tokens: string[] = [];
+  for (let tok of t.split(" ")) {
+    tok = tok.replace(/^[\u0A01-\u0A03\u0A3C-\u0A4D\u0A70\u0A71.\-]+/, "");
+    if (!/[\u0A05-\u0A39\u0A59-\u0A5E\u0A72\u0A73]/.test(tok)) continue; // no Gurmukhi letter
+    tok = tok.replace(/^\d+|(?<![\u0A00-\u0A7F])\d+|\d+(?=[\u0A00-\u0A7F])/g, "").replace(/\d{2,}$/, "0");
+    tok = tok.replace(/\.{2,}/g, ".").replace(/-{2,}/g, "-").replace(/[.\-]+$/, (m) => (m.includes(".") ? "." : ""));
+    if (tok) tokens.push(tok);
+  }
+  return tokens.join(" ");
+}
+
+export type Script = "devanagari" | "gurmukhi" | "latin";
+
+/** Letters of an Indian script the rolls print local-language values in (Hindi or Punjabi). */
+export const INDIC = /[\u0900-\u097F\u0A00-\u0A7F]/;
+
+export function cleanName(raw: string, script: Script): string {
+  return script === "latin" ? cleanNameLatin(raw) : script === "gurmukhi" ? cleanNameGu(raw) : cleanNameHi(raw);
 }
 
 /** Deletion-reason letters printed before the serial in deletion lists (footer legend of the roll). */

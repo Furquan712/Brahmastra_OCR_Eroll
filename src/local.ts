@@ -80,7 +80,7 @@ function bbox(words: TessWord[]): Box | undefined {
 
 /** Finds a gender word in a line, tolerating one OCR'd character (पुरूष, महीला / Femle). */
 export function fuzzyGender(words: string[], genderWords: string[], script: Template["script"] = "devanagari"): string {
-  const letters = script === "latin" ? /[^A-Za-z]/g : /[^ऀ-ॿ]/g;
+  const letters = script === "latin" ? /[^A-Za-z]/g : script === "gurmukhi" ? /[^\u0A00-\u0A7F]/g : /[^ऀ-ॿ]/g;
   const norm = (x: string) => (script === "latin" ? x.toLowerCase() : x);
   for (const w of words) for (const g of genderWords) if (norm(w) === norm(g)) return g;
   for (const w of words) {
@@ -105,7 +105,49 @@ function hasLabel(line: string, label: string, script: Template["script"]): bool
  * Name / Fathers Name / House Number / Age, Gender); matching is tolerant of OCR damage and line
  * position is the fallback.
  */
+/**
+ * Sparse-text reads (psm 11, used for Gurmukhi) come back as loose word groups: a name's last word
+ * can land in a "line" of its own. Rebuild the printed lines from the word boxes: words whose
+ * vertical centres lie within half a line height of each other, left to right.
+ */
+/** "<word(s)> ਨਾਮ:" - text before the name label, i.e. a relation line (Punjabi rolls). */
+const PA_RELATION_LINE = /[\u0A00-\u0A7FA-Za-z]\S*\s+(?:\S+\s+)?ਨਾ?ਮ\s*[:：ਃ]/;
+
+export function regroupLines(res: TessResult): TessResult {
+  // Start from tesseract's own word groups (a label stays with its value) and join groups that sit
+  // side by side on one printed line: no horizontal overlap, centres within ~half a line height.
+  const groups = res.lines
+    .map((l) => l.words.filter((w) => w.text.trim()))
+    .filter((ws) => ws.length)
+    .map((ws) => [...ws].sort((a, b) => a.x - b.x));
+  if (!groups.length) return res;
+  const hs = groups.flat().map((w) => w.h).sort((a, b) => a - b);
+  const tol = hs[Math.floor(hs.length / 2)] * 0.5;
+  const left = (g: TessWord[]) => g[0].x, right = (g: TessWord[]) => Math.max(...g.map((w) => w.x + w.w));
+  const mid = (g: TessWord[]) => g.reduce((t, w) => t + w.y + w.h / 2, 0) / g.length;
+  let merged = true;
+  while (merged) {
+    merged = false;
+    outer: for (let i = 0; i < groups.length; i++) {
+      for (let j = 0; j < groups.length; j++) {
+        if (i === j) continue;
+        const [a, b] = [groups[i], groups[j]];
+        if (right(a) <= left(b) + 4 && Math.abs(mid(a) - mid(b)) <= tol) {
+          groups[i] = [...a, ...b];
+          groups.splice(j, 1);
+          merged = true;
+          break outer;
+        }
+      }
+    }
+  }
+  groups.sort((a, b) => mid(a) - mid(b));
+  const lines = groups.map((ws) => ({ text: ws.map((w) => w.text).join(" "), conf: Math.min(...ws.map((w) => w.conf)), words: ws }));
+  return { text: lines.map((l) => l.text).join("\n"), words: groups.flat(), lines };
+}
+
 export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
+  if (tpl.script === "gurmukhi") res = regroupLines(res);
   const out: BodyFields = {
     nameHi: "", nameConf: 0, relationTypeHi: "", relationNameHi: "", relationConf: 0,
     houseNo: "", houseConf: 0, age: null, genderHi: "", ageGenderConf: 0, deleted: false,
@@ -114,7 +156,7 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   const lines = res.lines.filter((l) => l.text.trim()).map((l) => ({ ...l, text: l.text.replace(/['’]/g, "") }));
   const used = new Set<number>();
   const joined = res.text;
-  if (/DELET|विलोपित/i.test(joined)) out.deleted = true;
+  if (/DELET|विलोपित|ਹਟਾਇਆ/i.test(joined)) out.deleted = true;
   const script = tpl.script;
   const L = tpl.labels ?? {};
   const nameLabels = L.name?.length ? L.name : ["नाम"];
@@ -126,7 +168,7 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   const genderRe = wholeWord(labelRegex(L.gender?.length ? L.gender : ["लिंग"])!);
   const houseRe = labelRegex(L.house?.length ? L.house : ["मकान संख्या", "गृह संख्या"])!;
   const houseLooseRe = labelRegex(L.houseLoose);
-  const nameWord = script === "latin" ? /\bName\b/i : /नाम/;
+  const nameWord = script === "latin" ? /\bName\b/i : script === "gurmukhi" ? /ਨਾਮ/ : /नाम/;
 
   const valueOf = (line: { text: string; words: { text: string; conf: number }[] }): { value: string; conf: number } => {
     const idx = line.text.search(LABEL_SPLIT);
@@ -139,7 +181,7 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
     return { value, conf };
   };
 
-  const ofScript = (k: string) => (script === "latin" ? /^[A-Za-z ]+$/.test(k) : /[ऀ-ॿ]/.test(k));
+  const ofScript = (k: string) => (script === "latin" ? /^[A-Za-z ]+$/.test(k) : script === "gurmukhi" ? /[\u0A00-\u0A7F]/.test(k) : /[ऀ-ॿ]/.test(k));
   const relationLabels = Object.keys(tpl.relationMap).filter((k) => ofScript(k) && !/ /.test(k)).sort((a, b) => a.length - b.length);
   const genderWords = Object.keys(tpl.genderMap).filter(ofScript).sort((a, b) => b.length - a.length);
   const findGender = (t: string): string => genderWords.find((gw) => hasLabel(t, gw, script)) ?? "";
@@ -166,10 +208,13 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   // 2. relation line: "<पिता|पति|माता> का नाम: X" / "Fathers Name: X"
   for (const [i, l] of lines.entries()) {
     if (used.has(i)) continue;
-    const lab = relationLabels.find((r) => hasLabel(l.text, r, script));
+    let lab = relationLabels.find((r) => hasLabel(l.text, r, script));
+    // Punjabi: a line with words before "ਨਾਮ:" is the relation line ("<ਪਿਤਾ|ਪਤੀ|...> ਦਾ ਨਾਮ:"), even when
+    // those words are misread ("ਤਾਂ ਦਾਂ ਨਾਮ: ...").
+    if (!lab && script === "gurmukhi" && PA_RELATION_LINE.test(l.text)) lab = "";
     // Usually "Fathers Name: X"; some English rolls print just "Others: X".
     const bareLabel = script === "latin" && lab !== undefined && new RegExp(`^\\W{0,2}${lab}s?\\s*[:：]`, "i").test(l.text);
-    if (lab && (nameWord.test(l.text) || bareLabel) && !nameStartRe.test(l.text)) {
+    if (lab !== undefined && (nameWord.test(l.text) || bareLabel) && !nameStartRe.test(l.text)) {
       used.add(i);
       out.relationTypeHi = lab;
       const v = valueOf(l);
@@ -192,7 +237,9 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
   // 4. name line: "नाम : X" / "Name : X" - first remaining line that starts with the name label.
   for (const [i, l] of lines.entries()) {
     if (used.has(i)) continue;
-    if (nameStartRe.test(l.text) || nameRe.test(l.text)) {
+    // Punjabi: a line with words before "ਨਾਮ:" is a relation line whose label was lost; taking it would
+    // name the wrong person.
+    if ((nameStartRe.test(l.text) || nameRe.test(l.text)) && !(script === "gurmukhi" && PA_RELATION_LINE.test(l.text))) {
       used.add(i);
       const v = valueOf(l);
       out.nameHi = v.value;
@@ -200,6 +247,8 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
       break;
     }
   }
+  // Punjabi: the colon-dot of "ਮਕਾਨ ਨੰ. : 1" often leaves a stray "." or "," after the number.
+  if (script === "gurmukhi") out.houseNo = out.houseNo.replace(/[\s.,;:|]+$/, "");
   // English rolls wrap a long name onto a second, unlabelled line ("Fathers Name: NARAYANA MURTY" /
   // "GUNTURU"): append such a line to the field whose line it follows.
   if (script === "latin") {
@@ -223,7 +272,8 @@ export function parseCardBody(res: TessResult, tpl: Template): BodyFields {
     }
   }
   // Positional fallback: if the name is still missing, take the first unused line's value.
-  if (!out.nameHi) {
+  // (Punjabi: a guessed line is too often the relation's name; an empty name is flagged instead.)
+  if (!out.nameHi && script !== "gurmukhi") {
     const first = lines.findIndex((_, i) => !used.has(i));
     if (first >= 0) {
       used.add(first);
@@ -250,14 +300,14 @@ const LIST_KINDS: { kind: PageType; hint: string; re: RegExp }[] = [
   { kind: "deletion_grid", hint: "deletion", re: /विलोपन(?:ों)?\s*की\s*सूची|List\s+of\s+Deletions?\b/i },
   { kind: "modification_grid", hint: "modification", re: /संशोधन(?:ों)?\s*की\s*सूची|List\s+of\s+Modifications?\b/i },
   { kind: "supplement_grid", hint: "supplement", re: /परिवर्धन(?:ों)?\s*की\s*सूची|पूरक\s*सूची|List\s+of\s+Additions?\b/i },
-  { kind: "voter_grid", hint: "main", re: /अनुभाग\s*संख्या|Section\s*No\.?\s*(?:and|&)\s*Name/i },
+  { kind: "voter_grid", hint: "main", re: /अनुभाग\s*संख्या|ਸੈਕਸ਼ਨ\s*ਨੰ|Section\s*No\.?\s*(?:and|&)\s*Name/i },
 ];
 
 /** A section name as printed on a header line, without the OCR debris of the other script. */
 export function cleanSectionName(name: string, script: Template["script"]): string {
-  const junk = script === "latin" ? /[ऀ-ॿ]/ : /[A-Za-z]/;
+  const junk = script === "latin" ? /[ऀ-ॿ\u0A00-\u0A7F]/ : script === "gurmukhi" ? /[A-Za-zऀ-ॿ]/ : /[A-Za-z\u0A00-\u0A7F]/;
   return name
-    .replace(/[^ऀ-ॿA-Za-z0-9\s.,()'/-]/g, " ")
+    .replace(/[^ऀ-ॿ\u0A00-\u0A7FA-Za-z0-9\s.,()'/-]/g, " ")
     .split(/\s+/)
     .filter((t) => t && !junk.test(t))
     .join(" ")
@@ -274,7 +324,7 @@ export function cleanSectionName(name: string, script: Template["script"]): stri
 export function classifyHeader(headerText: string, hasBands: boolean, pageNo: number, tpl: Template): HeaderInfo {
   const rawLines = asciiDigits(headerText).split(/\r?\n/).map((l) => l.replace(/\s+/g, " ").trim()).filter(Boolean);
   const t = rawLines.join(" ");
-  const m = /(?:भाग\s*संख्या|Part\s*No\.?)\s*[:：\s]*(\d{1,4})/i.exec(t) || /(\d{1,4})\s*$/.exec(rawLines[0] ?? "");
+  const m = /(?:भाग\s*संख्या|ਭਾਗ\s*ਨੰਬਰ|Part\s*No\.?)\s*[:：\s]*(\d{1,4})/i.exec(t) || /(\d{1,4})\s*$/.exec(rawLines[0] ?? "");
   const partNo = m ? m[1] : "";
   const hintsOf = (h: string) => tpl.sectionHints[h] ?? [];
   let best: { kind: PageType; line: string } | null = null;
@@ -290,14 +340,14 @@ export function classifyHeader(headerText: string, hasBands: boolean, pageNo: nu
   // The summary page's bordered table looks like a card grid to the row detector, so its heading
   // decides regardless; a page whose header names a list is that list even when the grid detector
   // saw nothing (a last page with a single card has no full-width border).
-  if (/निर्वाचकों\s*का\s*सार|निर्वाचकों\s*की\s*संख्या|नामावली\s*का\s*प्रकार|SUMMARY\s+OF\s+ELECTORS|NUMBER\s+OF\s+ELECTORS/i.test(t)) pageType = "summary";
+  if (/ਵੋਟਰਾਂ\s*ਦੀ\s*ਸਾਰਣੀ|निर्वाचकों\s*का\s*सार|निर्वाचकों\s*की\s*संख्या|नामावली\s*का\s*प्रकार|SUMMARY\s+OF\s+ELECTORS|NUMBER\s+OF\s+ELECTORS/i.test(t)) pageType = "summary";
   else if (best) pageType = best.kind;
   else if (!hasBands) pageType = pageNo === 1 ? "cover" : "other";
   // hasBands but no recognisable header -> null (caller decides)
 
   let sectionNo = "", sectionName = "", supplementNo = "";
   if (best?.kind === "voter_grid") {
-    const sm = /(?:अनुभाग\s*संख्या\s*(?:और|व|एवं)?\s*नाम|Section\s*No\.?\s*(?:and|&)?\s*Name)\s*[:：]?\s*(\d{1,3})\s*[-–.]\s*(.*)$/i.exec(best.line);
+    const sm = /(?:अनुभाग\s*संख्या\s*(?:और|व|एवं)?\s*नाम|ਸੈਕਸ਼ਨ\s*ਨੰ\.?\s*ਅਤੇ\s*ਨਾਮ|Section\s*No\.?\s*(?:and|&)?\s*Name)\s*[:：]?\s*(\d{1,3})\s*[-–.]\s*(.*)$/i.exec(best.line);
     if (sm) {
       sectionNo = String(Number(sm[1]));
       sectionName = cleanSectionName(sm[2], tpl.script);
@@ -413,15 +463,15 @@ export interface FooterRead { page: number | null; total: number | null; text: s
 export function parseFooterText(text: string): FooterRead {
   const t = asciiDigits(text).replace(/\s+/g, " ").trim();
   const out: FooterRead = { page: null, total: null, text: t };
-  let m = /(?:कुल\s*)?पृष्ठ\s*(\d{1,4})\s*[-–—]+\s*पृष्ठ\s*(\d{1,4})/.exec(t);
+  let m = /(?:कुल\s*)?पृष्ठ\s*(\d{1,4})\s*[-–—]+\s*पृष्ठ\s*(\d{1,4})/.exec(t) ?? /(?:ਕੁੱ?ਲ\s*)?ਪੰਨੇ\s*(\d{1,4})\s*[-–—]+\s*ਪੰਨਾ\s*(\d{1,4})/.exec(t);
   if (m) { out.total = Number(m[1]); out.page = Number(m[2]); return out; }
   m = /Total\s*Pages?\s*(\d{1,4})\s*[-–—]+\s*Page\s*(\d{1,4})/i.exec(t);
   if (m) { out.total = Number(m[1]); out.page = Number(m[2]); return out; }
   m = /page\s*(\d{1,4})\s*(?:of|\/)\s*(\d{1,4})/i.exec(t);
   if (m) { out.page = Number(m[1]); out.total = Number(m[2]); return out; }
-  const tot = /कुल\s*पृष्ठ\s*(\d{1,4})/.exec(t);
+  const tot = /(?:कुल\s*पृष्ठ|ਪੰਨੇ)\s*(\d{1,4})/.exec(t);
   if (tot) out.total = Number(tot[1]);
-  const pg = /[-–—]\s*पृष्ठ\s*(\d{1,4})\s*$/.exec(t) ?? /पृष्ठ\s*(\d{1,4})\s*$/.exec(t);
+  const pg = /[-–—]\s*(?:पृष्ठ|ਪੰਨਾ)\s*(\d{1,4})\s*$/.exec(t) ?? /(?:पृष्ठ|ਪੰਨਾ)\s*(\d{1,4})\s*$/.exec(t);
   if (pg) out.page = Number(pg[1]);
   return out;
 }
@@ -506,6 +556,14 @@ export function voteName(a: Read, b: Read, script: Template["script"] = "devanag
   const B = ok(b) ? b : null;
   if (A && B) {
     if (A.v === B.v) return { v: A.v, conf: Math.min(100, Math.max(A.conf, B.conf) + 5) };
+    // Punjabi: the sparse read often loses a name's last word ("ਜਤਿੰਦਰਪਾਲ" for "ਜਤਿੰਦਰਪਾਲ ਸਿੰਘ"); when one read
+    // is the other's words plus more, the longer one is the name.
+    if (script === "gurmukhi") {
+      const wa = A.v.split(/\s+/), wb = B.v.split(/\s+/);
+      const head = (x: string[], y: string[]) => x.length < y.length && x.every((w, i) => w === y[i]);
+      if (head(wa, wb)) return B;
+      if (head(wb, wa)) return A;
+    }
     return A.conf >= B.conf ? A : B;
   }
   return A ?? B ?? (a.v ? a : b); // keep a garbled read so the flags fire, rather than silently empty
@@ -565,7 +623,11 @@ export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Te
   const bodyCropsHi: Buffer[] = [];
   const stampScores: StampScore[] = [];
   const density = typeof pngPath === "string" ? await (async () => { const m = await sharp(pngPath).metadata(); return effectiveDensity(m.density, m.width ?? 0) ?? 300; })() : pngPath.density ?? 300;
-  const hindiOnly = L.langs.split("+").includes("hin") ? "hin" : L.langs;
+  // Names are read a second time in the roll's own script only (eng+hin -> hin, eng+pan -> pan).
+  const hindiOnly = L.langs.split("+").find((l) => l !== "eng") ?? L.langs;
+  // Gurmukhi vowel signs above the headline (ਿ ੀ ੋ, tippi) touch the line above: as one block (psm 6)
+  // tesseract merges the name and relation lines and drops both. Sparse text (psm 11) finds each line on its own.
+  const bodyPsm = tpl.script === "gurmukhi" ? 11 : 6;
   for (const r of rects) {
     stampScores.push(await stampScore(pngPath, r, density));
     const e = sub(r, L.epicBox);
@@ -612,8 +674,8 @@ export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Te
     tesseractBatch(serialCrops3x, { langs: "eng", psm: 8, whitelist: SWL.trim() }, workDir),
     tesseractBatch(sectionCrops, { langs: "eng", psm: 7, whitelist: "0123456789" }, workDir),
     tesseractBatch(sectionCrops4x, { langs: "eng", psm: 7, whitelist: "0123456789" }, workDir),
-    tesseractBatch(bodyCrops, { langs: L.langs, psm: 6 }, workDir),
-    tesseractBatch(bodyCropsHi, { langs: hindiOnly, psm: 6 }, workDir),
+    tesseractBatch(bodyCrops, { langs: L.langs, psm: bodyPsm }, workDir),
+    tesseractBatch(bodyCropsHi, { langs: hindiOnly, psm: bodyPsm }, workDir),
   ]);
 
   const empty: TessResult = { text: "", words: [], lines: [] };
@@ -626,6 +688,19 @@ export async function localReadCards(pngPath: PageSource, rects: Rect[], tpl: Te
     }
     return mergeBodies(parseCardBody(bodyRes[i] ?? empty, tpl), hi, tpl.script);
   });
+
+  // Punjabi: cards still missing the name or the relation get a third read laid out as a column of
+  // lines (psm 4), which finds some lines the sparse read lost; only missing fields are filled.
+  if (tpl.script === "gurmukhi") {
+    const redo = bodies.map((b, i) => (!b.nameHi || !b.relationNameHi ? i : -1)).filter((i) => i >= 0);
+    const extra = await tesseractBatch(redo.map((i) => bodyCropsHi[i]), { langs: hindiOnly, psm: 4 }, workDir);
+    redo.forEach((i, k) => {
+      const x = parseCardBody(extra[k] ?? empty, tpl), b = bodies[i];
+      if (!b.nameHi && x.nameHi) { b.nameHi = x.nameHi; b.nameConf = x.nameConf; }
+      if (!b.relationNameHi && x.relationNameHi) { b.relationNameHi = x.relationNameHi; b.relationConf = x.relationConf; }
+      if (!b.relationTypeHi && x.relationTypeHi) b.relationTypeHi = x.relationTypeHi;
+    });
+  }
 
   // Second round: digits-only re-read of the age line where the body read is missing or unsure.
   const ageCandidates = bodies.map((b, i) => (b.ageLine && (b.age === null || b.ageGenderConf < 90) ? i : -1)).filter((i) => i >= 0);

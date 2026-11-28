@@ -2,7 +2,7 @@ import type { Config } from "./config.js";
 import type { Logger } from "./logger.js";
 import type { Template } from "./templates.js";
 import { filePartNo } from "./cover.js";
-import { DELETION_REASONS } from "./normalize.js";
+import { DELETION_REASONS, INDIC } from "./normalize.js";
 import type { ActionStatus, ConstituencyInfo, CoverInfo, OutputRow, PageResult, PdfResult, VoterCard } from "./types.js";
 import { VOTER_PAGE_TYPES } from "./types.js";
 import { cardFlags } from "./validate.js";
@@ -22,7 +22,7 @@ export function actionOf(section: PageResult["section"], card: VoterCard): { sta
 /** A printed value split by script: Devanagari stays Hindi (+ English given), Latin is English only. */
 function byScript(printed: string, en: string): { hi: string; eg: string } {
   if (!printed) return { hi: "", eg: en };
-  return /[ऀ-ॿ]/.test(printed) ? { hi: printed, eg: en } : { hi: "", eg: en || printed };
+  return INDIC.test(printed) ? { hi: printed, eg: en } : { hi: "", eg: en || printed };
 }
 
 export interface MergeStats {
@@ -146,7 +146,7 @@ export function mergeResults(
         const sectionName = listed
           ? byScript(listed.name, listed.nameEn)
           : sectionNo && sectionNo === pg.sectionNo && pg.sectionName
-            ? byScript(pg.sectionName, /[ऀ-ॿ]/.test(pg.sectionName) ? "" : pg.sectionName)
+            ? byScript(pg.sectionName, INDIC.test(pg.sectionName) ? "" : pg.sectionName)
             : { hi: "", eg: "" };
         if (sectionName.hi && !sectionName.eg) sectionName.eg = ""; // Hindi header name without a cover entry: no English spelling
         for (const f of card.extraFlags ?? []) if (!flags.includes(f)) flags.push(f);
