@@ -10,8 +10,9 @@ import {
 } from "./image.js";
 import { cardRects, classifyHeader, localReadCards, readHeaderText, readPrintedPage, type FooterRead, type LocalCard, type Rect } from "./local.js";
 import type { Logger } from "./logger.js";
-import { cleanName, mapGender, mapRelation, normalizeCard } from "./normalize.js";
+import { cleanName, INDIC, mapGender, mapRelation, normalizeCard } from "./normalize.js";
 import { applyOfficialPartName } from "./official-parts.js";
+import { punjabiNames } from "./pa-names.js";
 import { pdfPageCount, removeQuiet, renderPage } from "./pdf.js";
 import { classifyPrompt, extractPrompt, systemPrompt } from "./prompts.js";
 import { CLASSIFY_JSON_SCHEMA, ClassifyZ, EXTRACT_JSON_SCHEMA, ExtractZ, type CardOut } from "./schemas.js";
@@ -114,11 +115,16 @@ function fillEnglish(cards: VoterCard[], translit: Transliterator, script: Templ
 /** Cached results keep their OCR but get fresh name cleaning + English, so edits to overrides/model apply without re-OCR. */
 function refreshEnglish(pages: PageResult[], translit: Transliterator, tpl: Template): void {
   // Only a Devanagari value is re-transliterated; an English roll's values stay as read.
-  const en = (hi: string | undefined, cur: string | undefined): string => (hi && /[ऀ-ॿ]/.test(hi) ? translit.name(hi) : (cur ?? ""));
+  const en = (hi: string | undefined, cur: string | undefined): string => (hi && INDIC.test(hi) ? translit.name(hi) : (cur ?? ""));
   for (const pg of pages) {
+    const pa = tpl.script === "gurmukhi" ? punjabiNames() : null;
     for (const c of pg.cards) {
       c.nameHi = cleanName(c.nameHi, tpl.script);
       c.relationNameHi = cleanName(c.relationNameHi, tpl.script);
+      if (pa) {
+        c.nameHi = pa.name(c.nameHi);
+        c.relationNameHi = pa.name(c.relationNameHi);
+      }
     }
     fillEnglish(pg.cards, translit, tpl.script);
     const cv = pg.cover;
@@ -409,6 +415,12 @@ export function fixSerials(reads: (number | null)[]): { serials: (number | null)
   return { serials, corrected };
 }
 
+/** Punjabi names get the dictionary correction (src/pa-names.ts); other scripts pass through. */
+function paName(name: string, tpl: Template): string {
+  const pa = tpl.script === "gurmukhi" ? punjabiNames() : null;
+  return pa ? pa.name(name) : name;
+}
+
 function localToVoterCard(c: LocalCard, serial: number | null, tpl: Template): VoterCard {
   return {
     serial,
@@ -416,11 +428,11 @@ function localToVoterCard(c: LocalCard, serial: number | null, tpl: Template): V
     marker: c.marker,
     markerSupplementNo: c.markerSupplementNo,
     epicNo: c.epicNo,
-    nameHi: cleanName(c.nameHi, tpl.script),
+    nameHi: paName(cleanName(c.nameHi, tpl.script), tpl),
     nameEn: "",
     relationTypeHi: c.relationTypeHi,
     relationType: mapRelation(c.relationTypeHi, tpl),
-    relationNameHi: cleanName(c.relationNameHi, tpl.script),
+    relationNameHi: paName(cleanName(c.relationNameHi, tpl.script), tpl),
     relationNameEn: "",
     houseNo: c.houseNo,
     age: c.age,

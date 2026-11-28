@@ -7,7 +7,8 @@
 import path from "node:path";
 import sharp from "sharp";
 import type { z } from "zod";
-import { asciiDigits } from "./normalize.js";
+import { effectiveDensity } from "./image.js";
+import { asciiDigits, INDIC } from "./normalize.js";
 import { COVER_JSON_SCHEMA, CoverZ } from "./schemas.js";
 import type { Template } from "./templates.js";
 import { tesseractBatch, type TessResult } from "./tesseract.js";
@@ -77,7 +78,7 @@ export interface CoverParse {
 
 /** True when a page's text is a roll cover (page 1 of a separately published supplement is not). */
 export function looksLikeCover(text: string): boolean {
-  return /(?:निर्वाचक\s*नामावली|ELECTORAL\s+ROLL)/i.test(text) && /(?:पुनरीक्षण\s*का\s*विवरण|मतदान\s*स्थल|Details\s+of\s+Revision|Polling\s+station)/i.test(text);
+  return /(?:निर्वाचक\s*नामावली|ELECTORAL\s+ROLL|ਵੋਟਰ\s*ਸੂਚੀ)/i.test(text) && /(?:पुनरीक्षण\s*का\s*विवरण|मतदान\s*स्थल|Details\s+of\s+Revision|Polling\s+station|ਸੁਧਾਈ\s*ਦਾ\s*ਵੇਰਵਾ|ਪੋਲਿੰਗ\s*ਸਟੇਸ਼ਨ)/i.test(text);
 }
 
 /**
@@ -111,7 +112,7 @@ export function parseSectionList(text: string): { no: string; name: string }[] {
     if (m) out.push({ no: String(Number(m[1])), name: cleanMetaValue(m[2]) });
     // A wrapped name continues on a short line of its own; a line carrying a label (":") is the
     // right-hand box of a whole-page read, not a section.
-    else if (out.length && /[ऀ-ॿA-Za-z]{2,}/.test(l) && !/[:：]/.test(l) && l.split(" ").length <= 4) {
+    else if (out.length && /[ऀ-ॿ\u0A00-\u0A7FA-Za-z]{2,}/.test(l) && !/[:：]/.test(l) && l.split(" ").length <= 4) {
       out[out.length - 1].name = cleanMetaValue(out[out.length - 1].name + " " + l);
     }
   }
@@ -150,15 +151,25 @@ const META_LABELS: { key: keyof CoverInfo; re: RegExp }[] = [
   { key: "tehsilHi", re: /(?:^|\s)(?:Sub[\s-]*division|Tehsil|Tahsil|Taluka|Taluk|Mandal)\s*[:：]\s*(.*)$/i },
   { key: "districtHi", re: /(?:^|\s)District\s*[:：]\s*(.*)$/i },
   { key: "pinCode", re: /(?:^|\s)Pin\s*code\s*[:：]?\s*(\d[\d\s]{3,9}\d)\s*$/i },
+  // Punjabi rolls: "ਮੁੱਖ ਪਿੰਡ/ ਸ਼ਹਿਰ : ਜਲਵਾਣਾ", "ਪੁਲਿਸ ਸਟੇਸ਼ਨ : ਸੰਦੌੜ", "ਜ਼ਿਲ੍ਹਾ : ਮਲੇਰਕੋਟਲਾ", "ਪਿੰਨ ਕੋਡ :148020".
+  { key: "mainTownVillageHi", re: /ਮੁੱ?ਖ\s*ਪਿੰ?ਡ\s*\/?\s*(?:ਸ਼ਹਿਰ|ਸਹਿਰ)?\s*[:：]\s*(.*)$/ },
+  { key: "wardHi", re: /(?:^|\s)ਵਾਰਡ\s*[:：]\s*(.*)$/ },
+  { key: "postOfficeHi", re: /(?:^|\s)(?:ਡਾਕਖਾਨਾ|ਡਾਕ\s*ਘਰ|ਡਾਕਘਰ)\s*[:：]\s*(.*)$/ },
+  { key: "policeStationHi", re: /(?:^|\s)(?:ਪੁਲਿਸ\s*ਸਟੇਸ਼ਨ|ਥਾਣਾ)\s*[:：]\s*(.*)$/ },
+  { key: "panchayatHi", re: /(?:^|\s)ਪੰਚਾਇਤ\s*[:：]?\s*(.*)$/ },
+  { key: "blockHi", re: /(?:^|\s)ਬਲਾਕ\s*[:：]?\s*(.*)$/ },
+  { key: "tehsilHi", re: /(?:^|\s)ਤਹਿਸੀਲ\s*[:：]\s*(.*)$/ },
+  { key: "districtHi", re: /(?:^|\s)(?:ਜ਼ਿਲ੍ਹਾ|ਜਿਲ੍ਹਾ|ਜ਼ਿਲਾ|ਜਿਲਾ)\s*[:：]\s*(.*)$/ },
+  { key: "pinCode", re: /(?:^|\s)ਪਿੰ?ਨ\s*ਕੋਡ\s*[:：]?\s*(\d[\d\s]{3,9}\d)\s*$/ },
 ];
 
 /** Labels that may follow a value on the same line of a whole-page read; a value stops there. */
-const NEXT_LABEL_SPLIT = /\s(?=(?:वार्ड|डाकघर|थाना|पंचायत|ब्लॉक|तहसील|जिला|पिन|Ward|Post\s*Office|Police\s*Station|Panchayat|Block|Sub[\s-]*division|Tehsil|District|Pin\s*code)\s*[:：])/i;
+const NEXT_LABEL_SPLIT = /\s(?=(?:वार्ड|डाकघर|थाना|पंचायत|ब्लॉक|तहसील|जिला|पिन|ਵਾਰਡ|ਡਾਕਖਾਨਾ|ਪੁਲਿਸ|ਪੰਚਾਇਤ|ਬਲਾਕ|ਤਹਿਸੀਲ|ਜ਼ਿਲ੍ਹਾ|ਪਿੰਨ|Ward|Post\s*Office|Police\s*Station|Panchayat|Block|Sub[\s-]*division|Tehsil|District|Pin\s*code)\s*[:：])/i;
 
 /** A value from a labelled cover line: Devanagari, digits and light punctuation only. */
 export function cleanMetaValue(v: string): string {
   return asciiDigits(v)
-    .replace(/[^ऀ-ॿ0-9A-Za-z\s.,()/-]/g, " ")
+    .replace(/[^ऀ-ॿ\u0A00-\u0A7F0-9A-Za-z\s.,()/-]/g, " ")
     .replace(/\s+/g, " ")
     .replace(/^[\s.,/-]+|[\s.,/-]+$/g, "")
     .trim();
@@ -180,7 +191,7 @@ export function parseCoverMetaText(text: string): Partial<Record<keyof CoverInfo
       }
       // An empty value ("पंचायत :") is legitimate; stop at the next label on the same line.
       const v = cleanMetaValue(m[1].split(NEXT_LABEL_SPLIT)[0]);
-      f[key] = /[ऀ-ॿA-Za-z]/.test(v) ? v : "";
+      f[key] = /[ऀ-ॿ\u0A00-\u0A7FA-Za-z]/.test(v) ? v : "";
       break;
     }
   }
@@ -194,13 +205,14 @@ export function parseCoverText(text: string): CoverParse {
   const f: CoverParse["fields"] = {};
 
   // Title: "निर्वाचक नामावली 2026 S24 उत्तर प्रदेश" / "ELECTORAL ROLL 2026 S05 Goa" (S is often read as $ or 5)
-  const title = lines.find((l) => /निर्वाचक\s*नामावली|ELECTORAL\s+ROLL/i.test(l) && /\d{4}/.test(l) && !/विधानसभा|भाग|Assembly|Part/i.test(l));
+  const title = lines.find((l) => /निर्वाचक\s*नामावली|ELECTORAL\s+ROLL|ਵੋਟਰ\s*ਸੂਚੀ/i.test(l) && /\d{4}/.test(l) && !/विधानसभा|भाग|Assembly|Part|ਵਿਧਾਨ|ਭਾਗ|ਪਹਿਚਾਣ|ਸੁਧਾਈ/i.test(l));
   if (title) {
     const code = /(?:^|\s)[S$5]\s?(\d{2})(?=\s|$)/.exec(title);
     if (code) {
       f.stateEn = STATE_CODES[`S${code[1]}`] ?? "";
       const after = title.slice(code.index + code[0].length).trim();
       if (/[ऀ-ॿ]/.test(after)) f.stateHi = after.replace(/[^ऀ-ॿ\s]/g, "").trim();
+      else if (/[\u0A00-\u0A7F]/.test(after)) f.stateHi = after.replace(/[^\u0A00-\u0A7F\s]/g, "").trim();
       else if (!f.stateEn && /[A-Za-z]/.test(after)) f.stateEn = after.replace(/[^A-Za-z\s]/g, "").trim();
     }
     const y = /\b((?:19|20)\d{2})\b/.exec(title);
@@ -215,20 +227,20 @@ export function parseCoverText(text: string): CoverParse {
   // AC: "विधानसभा निर्वाचन क्षेत्र की संख्या व नाम और आरक्षण स्थिति : 62 - दादरी (सामान्य) भाग संख्या : : 794"
   //     "No. Name and Reservation Status of Assembly Constituency : 26 - DABOLIM (GEN) Part No.:1"
   const acLine = lines.find((l) =>
-    ((/विधानसभा/.test(l) && !/^संसदीय/.test(l)) || (/Assembly\s+Constituency/i.test(l) && !/Parliamentary/i.test(l))) && /:\s*\d{1,3}\s*[-–]/.test(l),
+    ((/विधानसभा/.test(l) && !/^संसदीय/.test(l)) || (/ਵਿਧਾਨ\s*ਸਭਾ/.test(l) && !/^ਲੋਕ/.test(l)) || (/Assembly\s+Constituency/i.test(l) && !/Parliamentary/i.test(l))) && /:\s*\d{1,3}\s*[-–]/.test(l),
   );
   if (acLine) {
-    const m = /:\s*(\d{1,3})\s*[-–]\s*([^()]+?)\s*(?:\([^)]*\))?\s*(?:भाग.*|Part.*)?$/i.exec(acLine);
+    const m = /:\s*(\d{1,3})\s*[-–]\s*([^()]+?)\s*(?:\([^)]*\))?\s*(?:भाग.*|ਭਾਗ.*|Part.*)?$/i.exec(acLine);
     if (m) {
       f.acNo = String(Number(m[1]));
-      f.acNameHi = m[2].replace(/[^ऀ-ॿA-Za-z\s.\-]/g, "").replace(/\s+/g, " ").trim();
+      f.acNameHi = m[2].replace(/[^ऀ-ॿ\u0A00-\u0A7FA-Za-z\s.\-]/g, "").replace(/\s+/g, " ").trim();
     }
   }
 
-  const part = /(?:भाग\s*संख्या|Part\s*No\.?)\s*[:：\s]*(\d{1,4})/i.exec(all);
+  const part = /(?:भाग\s*संख्या|ਭਾਗ\s*ਨੰਬਰ|Part\s*No\.?)\s*[:：\s]*(\d{1,4})/i.exec(all);
   if (part) f.partNo = String(Number(part[1]));
 
-  const ry = /(?:पुनरीक्षण\s*का\s*वर्ष|Year\s+of\s+Revision)\s*[:：]?\s*((?:19|20)\d{2})/i.exec(all);
+  const ry = /(?:पुनरीक्षण\s*का\s*वर्ष|ਸੁਧਾਈ\s*ਦਾ\s*ਸਾਲ|Year\s+of\s+Revision)\s*[:：]?\s*((?:19|20)\d{2})/i.exec(all);
   if (ry) f.revisionYear = ry[1];
 
   // Roll identity decides Draft/Final: the नामावली lines (the electors table also says "अंतिम क्रम",
@@ -238,22 +250,25 @@ export function parseCoverText(text: string): CoverParse {
   if (idIdx >= 0) identity.push(...lines.slice(idIdx, idIdx + 5));
   if (identity.some((l) => /अंतिम|अन्तिम|final|integrated/i.test(l))) f.revisionType = "Final";
   else if (identity.some((l) => /प्रारूप|draft/i.test(l))) f.revisionType = "Draft";
+  // Punjabi: "ਵਿਸ਼ੇਸ਼ ਗਹਿਰੀ ਸੁਧਾਈ 2026 ਦੀ ਅੰਤਿਮ ਵੋਟਰ ਸੂਚੀ" / "... ਦੀ ਖਰੜਾ (ਡਰਾਫ਼ਟ) ਵੋਟਰ ਸੂਚੀ"
+  else if (/ਅੰਤਿਮ\s*ਵੋਟਰ/.test(all)) f.revisionType = "Final";
+  else if (/ਖਰੜਾ|ਡਰਾਫ਼?ਟ/.test(all)) f.revisionType = "Draft";
 
   for (const l of lines) {
-    if (!/तिथि|दिनांक|Date/i.test(l)) continue;
+    if (!/तिथि|दिनांक|Date|ਮਿਤੀ/i.test(l)) continue;
     const d = DATE_RE.exec(l);
     if (!d) continue;
-    if (/प्रकाशन|Publication|Updation/i.test(l)) f.publicationDate ??= d[1];
-    else if (/अर्हता|तिथि|दिनांक|Qualifying/i.test(l)) f.qualifyingDate ??= d[1];
+    if (/प्रकाशन|Publication|Updation|ਪ੍ਰਕਾਸ਼ਨਾ/i.test(l)) f.publicationDate ??= d[1];
+    else if (/अर्हता|तिथि|दिनांक|Qualifying|ਯੋਗਤਾ/i.test(l)) f.qualifyingDate ??= d[1];
   }
 
   // Polling station "<no> - <name>": the value line after the station label (the cover's section
   // list is printed the same way, so lines before the label are never taken), preferring the one
   // that carries the part number.
-  const psIdx = lines.findIndex((l) => /मतदान\s*स्थल/.test(l) || /Name\s+of\s+Polling\s+Station/i.test(l));
+  const psIdx = lines.findIndex((l) => /मतदान\s*स्थल/.test(l) || /ਪੋਲਿੰਗ\s*ਸਟੇਸ਼ਨ\s*ਦਾ\s*ਨੰ/.test(l) || /Name\s+of\s+Polling\s+Station/i.test(l));
   const valueLines = lines
     .map((l, i) => ({ i, m: /^(\d{1,4})\s*[-–]\s*(.+)$/.exec(l) }))
-    .filter((x): x is { i: number; m: RegExpExecArray } => !!x.m && !/विधानसभा|संसदीय|Assembly|Parliamentary/i.test(lines[x.i]));
+    .filter((x): x is { i: number; m: RegExpExecArray } => !!x.m && !/विधानसभा|संसदीय|ਵਿਧਾਨ|ਲੋਕ\s*ਸਭਾ|Assembly|Parliamentary/i.test(lines[x.i]));
   const afterLabel = psIdx >= 0 ? valueLines.filter((v) => v.i > psIdx) : valueLines;
   const ps = (f.partNo && afterLabel.find((v) => String(Number(v.m[1])) === f.partNo)) || afterLabel[0] || null;
   if (ps) {
@@ -262,30 +277,31 @@ export function parseCoverText(text: string): CoverParse {
     // right-column text may trail it.
     if ((/,\s*$/.test(name) || (name.split("(").length > name.split(")").length)) && lines[ps.i + 1]) name += " " + lines[ps.i + 1];
     name = name
-      .replace(/\s*(?:इस\s+भाग|Number\s+of\s+Auxiliary|Type\s+of\s+Polling).*$/i, "")
+      .replace(/\s*(?:इस\s+भाग|ਇਸ\s+ਭਾਗ|Number\s+of\s+Auxiliary|Type\s+of\s+Polling).*$/i, "")
       .replace(/[|_]+/g, " ")
-      .replace(/\s+[^ऀ-ॿA-Za-z\d.)]{1,2}$/u, "")
+      .replace(/\s+[^ऀ-ॿ\u0A00-\u0A7FA-Za-z\d.)]{1,2}$/u, "")
       .replace(/\s+/g, " ")
       .trim();
     f.psNameHi = name;
     f.psNoAndNameHi = `${String(Number(ps.m[1]))} - ${name}`;
   }
 
-  const addrIdx = lines.findIndex((l) => /मतदान\s*स्थल\s*का\s*पता/.test(l) || /Address\s+of\s+Polling\s+Station/i.test(l));
+  const addrIdx = lines.findIndex((l) => /मतदान\s*स्थल\s*का\s*पता/.test(l) || /ਪੋਲਿੰਗ\s*ਸਟੇਸ਼ਨ\s*ਦਾ\s*ਪਤਾ/.test(l) || /Address\s+of\s+Polling\s+Station/i.test(l));
   if (addrIdx >= 0) {
     const parts: string[] = [];
     for (let i = addrIdx; i < Math.min(lines.length, addrIdx + 4); i++) {
-      const l = i === addrIdx ? lines[i].replace(/^.*(?:पता|Station)\s*[:：]?\s*/i, "") : lines[i];
+      const l = i === addrIdx ? lines[i].replace(/^.*(?:पता|ਪਤਾ|Station)\s*[:：\s]*/i, "") : lines[i];
       if (!l) continue;
-      if (/निर्वाचकों|NUMBER\s+OF\s+ELECTORS|^\d+\.|संख्या\s*[:：]\s*$/i.test(l)) break;
-      if (/[ऀ-ॿ]{3,}|[A-Za-z]{3,}/.test(l)) parts.push(l.trim());
+      if (/निर्वाचकों|ਵੋਟਰਾਂ|NUMBER\s+OF\s+ELECTORS|^\d+\.|संख्या\s*[:：]\s*$/i.test(l)) break;
+      if (/[ऀ-ॿ]{3,}|[\u0A00-\u0A7F]{3,}|[A-Za-z]{3,}/.test(l)) parts.push(l.trim());
       if (parts.length && !/,\s*$/.test(l)) break; // a line that does not end in a comma ends the address
     }
     if (parts.length) f.psAddressHi = parts.join(" ").replace(/\s+/g, " ");
   }
 
   // Electors table: the numeric row "1 350 181 169 0 350" -> first serial, last serial, ..., total.
-  const elIdx = lines.findIndex((l) => /निर्वाचकों\s*की\s*संख्या|NUMBER\s+OF\s+ELECTORS/i.test(l));
+  // (Punjabi "4. ਵੋਟਰਾਂ ਦੀ ਗਿਣਤੀ" is often garbled past its first word.)
+  const elIdx = lines.findIndex((l) => /निर्वाचकों\s*की\s*संख्या|NUMBER\s+OF\s+ELECTORS|^4\.?\s*ਵੋਟਰਾਂ/i.test(l));
   if (elIdx >= 0) {
     for (let i = elIdx + 1; i < Math.min(lines.length, elIdx + 8); i++) {
       const nums = lines[i].replace(/[^\d]+/g, " ").trim().split(" ").filter(Boolean).map(Number);
@@ -304,14 +320,14 @@ export function parseCoverText(text: string): CoverParse {
 
   // The section list from the whole-page read: between its heading and the station details, with
   // whatever of the right-hand box ran into the same line cut off. The dedicated crop is cleaner.
-  const secStart = lines.findIndex((l) => /अनुभागों\s*की\s*संख्या|name\s+of\s+sections/i.test(l));
-  const secEnd = lines.findIndex((l, i) => i > secStart && /मतदान\s*स्थल\s*का\s*विवरण|Polling\s+station\s+details/i.test(l));
+  const secStart = lines.findIndex((l) => /अनुभागों\s*की\s*संख्या|ਸੈਕਸ਼ਨਾਂ\s*ਦੇ|name\s+of\s+sections/i.test(l));
+  const secEnd = lines.findIndex((l, i) => i > secStart && /मतदान\s*स्थल\s*का\s*विवरण|ਪੋਲਿੰਗ\s*ਸਟੇਸ਼ਨ\s*ਦੇ\s*ਵੇਰਵੇ|Polling\s+station\s+details/i.test(l));
   const sections = secStart >= 0
-    ? parseSectionList(lines.slice(secStart + 1, secEnd > secStart ? secEnd : secStart + 12).map((l) => l.split(/\s(?=(?:मुख्य|कस्बा|Main\s+Town)\b)/i)[0].split(NEXT_LABEL_SPLIT)[0]).join("\n"))
+    ? parseSectionList(lines.slice(secStart + 1, secEnd > secStart ? secEnd : secStart + 12).map((l) => l.split(/\s(?=(?:मुख्य|कस्बा|ਮੁੱ?ਖ|Main\s+Town)(?:\s|$))/i)[0].split(NEXT_LABEL_SPLIT)[0]).join("\n"))
     : [];
 
   const want: (keyof CoverInfo)[] = ["stateHi", "acNo", "acNameHi", "partNo", "revisionYear", "revisionType", "psNameHi", "serialTo"];
-  if (!/[ऀ-ॿ]/.test(all)) want.splice(want.indexOf("stateHi"), 1); // English roll: no Devanagari state name to miss
+  if (!/[ऀ-ॿ\u0A00-\u0A7F]/.test(all)) want.splice(want.indexOf("stateHi"), 1); // English roll: no Devanagari state name to miss
   return { fields: f, sections, missing: want.filter((k) => !f[k]) };
 }
 
@@ -330,7 +346,7 @@ export interface CoverRead {
   sectionsText: string;
 }
 
-const META_LABEL_WORD = /^[:：]?(?:मुख्य|कस्बा|वार्ड|डाकघर|थाना|पंचायत|ब्लॉक|ब्लाक|तहसील|जिला|पिन|Main|Ward|Post|Police|Panchayat|Block|Sub-?division|Tehsil|Taluka|Mandal|District|Pin)[:：]?$/i;
+const META_LABEL_WORD = /^[:：]?(?:मुख्य|कस्बा|वार्ड|डाकघर|थाना|पंचायत|ब्लॉक|ब्लाक|तहसील|जिला|पिन|ਮੁੱਖ|ਵਾਰਡ|ਡਾਕਖਾਨਾ|ਪੁਲਿਸ|ਪੰਚਾਇਤ|ਬਲਾਕ|ਤਹਿਸੀਲ|ਜ਼ਿਲ੍ਹਾ|ਪਿੰਨ|Main|Ward|Post|Police|Panchayat|Block|Sub-?division|Tehsil|Taluka|Mandal|District|Pin)[:：]?$/i;
 
 /**
  * Cover page OCR. The two-column page is read as a whole (psm 4), then the section-2 box is
@@ -345,7 +361,11 @@ export async function readCoverPage(pngPath: string, tpl: Template, workDir: str
   const meta = await img.metadata();
   const W = meta.width ?? 0, H = meta.height ?? 0;
   const png = await img.clone().greyscale().png().toBuffer();
-  const [r] = await tesseractBatch([png], { langs: tpl.local.langs, psm: tpl.local.coverPsm ?? 4 }, workDir);
+  // An oversized page (Punjab, Uttarakhand) is rendered at ~90 dpi to A4 pixel size and its tag says 90;
+  // tell tesseract what the pixels amount to on A4 or it misjudges the text size. Punjabi only for now:
+  // the Hindi rolls of this size are mid-run and keep their reads unchanged.
+  const dpi = tpl.script === "gurmukhi" ? effectiveDensity(meta.density, W) : undefined;
+  const [r] = await tesseractBatch([png], { langs: tpl.local.langs, psm: tpl.local.coverPsm ?? 4, ...(dpi ? { dpi } : {}) }, workDir);
   const out: CoverRead = { text: r?.text ?? "", metaText: "", pinCode: "", sectionsText: "" };
   if (!r || !W || !H) return out;
 
@@ -366,10 +386,10 @@ export async function readCoverPage(pngPath: string, tpl: Template, workDir: str
 
   // The section list sits left of the box, under its heading ("भाग में अनुभागों की संख्या और नाम" /
   // "No. and name of sections in the part") and above the station details.
-  const heading = r.words.filter((w) => /^(?:अनुभागों|sections)$/i.test(w.text) && w.x < W * 0.5 && w.y < top + (bottom - top));
+  const heading = r.words.filter((w) => /^(?:अनुभागों|ਸੈਕਸ਼ਨਾਂ|sections)$/i.test(w.text) && w.x < W * 0.5 && w.y < top + (bottom - top));
   if (heading.length) {
     const sTop = Math.max(...heading.map((w) => w.y + w.h)) + Math.round(H * 0.004);
-    const stop = r.words.filter((w) => /^(?:मतदान|Polling)$/i.test(w.text) && w.y > sTop && w.x < W * 0.3).map((w) => w.y);
+    const stop = r.words.filter((w) => /^(?:मतदान|ਪੋਲਿੰਗ|Polling)$/i.test(w.text) && w.y > sTop && w.x < W * 0.3).map((w) => w.y);
     const sBottom = Math.min(stop.length ? Math.min(...stop) - Math.round(H * 0.004) : bottom, bottom + Math.round(H * 0.05), H);
     const sLeft = Math.round(W * 0.012), sRight = Math.max(sLeft + 50, left - Math.round(W * 0.01));
     if (sBottom - sTop > 15) {
@@ -385,7 +405,7 @@ export async function readCoverPage(pngPath: string, tpl: Template, workDir: str
   out.metaText = m.text;
 
   // Pin code: digit-only re-read of the number on the "पिन कोड" line.
-  const pinLine = m.lines.find((l) => /पिन/.test(l.text));
+  const pinLine = m.lines.find((l) => /पिन|ਪਿੰ?ਨ/.test(l.text));
   const digitsWord = pinLine?.words.filter((w) => /\d/.test(asciiDigits(w.text))).sort((a, b) => b.w - a.w)[0];
   if (digitsWord) {
     const cm = await sharp(crop).metadata();
@@ -492,7 +512,7 @@ export function buildCover(
   const both = (printed: string): { hi: string; en: string } => {
     const v = printed.replace(/\s+/g, " ").trim();
     if (!v) return { hi: "", en: "" };
-    if (/[ऀ-ॿ]/.test(v)) return { hi: v, en: translit.name(v) };
+    if (INDIC.test(v)) return { hi: v, en: translit.name(v) };
     return { hi: "", en: titleCaseIfUpper(v) };
   };
   const meta = (k: keyof CoverInfo): { hi: string; en: string } => both(cleanMetaValue(pick(k)));

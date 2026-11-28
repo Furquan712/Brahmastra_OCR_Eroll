@@ -10,6 +10,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Logger } from "./logger.js";
 import { isDevanagari, normalizeDevanagari } from "./translit/devanagari.js";
+import { gurmukhiToDevanagari, isGurmukhi } from "./translit/gurmukhi.js";
 import { loadModelJson, transliterateWord, type TrainPair, type TranslitModel } from "./translit/model.js";
 
 export interface TranslitStats {
@@ -168,9 +169,9 @@ export class Transliterator {
     return out;
   }
 
-  /** A full name or phrase: whole-phrase override first, else word by word (hyphens kept). */
+  /** A full name or phrase: whole-phrase override first, else word by word (hyphens kept). Punjabi is read as its Devanagari twin. */
   name(hi: string): string {
-    const t = normalizeDevanagari(hi).replace(/\s+/g, " ").trim();
+    const t = normalizeDevanagari(isGurmukhi(hi) ? gurmukhiToDevanagari(hi) : hi).replace(/\s+/g, " ").trim();
     if (!t) return "";
     const whole = this.overrides.get(t);
     if (whole) return whole;

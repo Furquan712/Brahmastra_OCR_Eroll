@@ -1,0 +1,46 @@
+{
+  "name": "punjab",
+  "extends": "default",
+  "description": "Punjab - ECI Punjabi (Gurmukhi) roll, same 3x10 card layout as default. OCR with tesseract eng+pan.",
+  "match": { "states": ["Punjab", "ਪੰਜਾਬ"] },
+  "language": "Punjabi (Gurmukhi script)",
+  "script": "gurmukhi",
+  "local": { "langs": "eng+pan" },
+  "labels": {
+    "serial": ["ਲੜੀ ਨੰ"],
+    "name": ["ਨਾਮ"],
+    "father": ["ਪਿਤਾ ਦਾ ਨਾਮ"],
+    "husband": ["ਪਤੀ ਦਾ ਨਾਮ"],
+    "mother": ["ਮਾਤਾ ਦਾ ਨਾਮ"],
+    "other": ["ਹੋਰ"],
+    "house": ["ਮਕਾਨ ਨੰ.", "ਮਕਾਨ ਨੰ"],
+    "houseLoose": ["ਮਕਾਨ", "ਨੰ."],
+    "age": ["ਉਮਰ"],
+    "gender": ["ਲਿੰਗ"],
+    "partNo": ["ਭਾਗ ਨੰਬਰ"],
+    "sectionNoName": ["ਸੈਕਸ਼ਨ ਨੰ. ਅਤੇ ਨਾਮ"],
+    "photoPlaceholder": ["ਫੋਟੋ ਉਪਲਬਧ ਹੈ", "ਫੋਟੋ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"]
+  },
+  "relationMap": {
+    "ਪਿਤਾ": "Father",
+    "ਪਿਤਾ ਦਾ ਨਾਮ": "Father",
+    "ਪਤੀ": "Husband",
+    "ਪਤੀ ਦਾ ਨਾਮ": "Husband",
+    "ਮਾਤਾ": "Mother",
+    "ਮਾਤਾ ਦਾ ਨਾਮ": "Mother",
+    "ਹੋਰ": "Other",
+    "ਪਤਨੀ": "Other",
+    "ਪਤਨੀ ਦਾ ਨਾਮ": "Other"
+  },
+  "genderMap": {
+    "ਪੁਰਸ਼": "Male",
+    "ਇਸਤਰੀ": "Female",
+    "ਤੀਜਾ ਲਿੰਗ": "Other"
+  },
+  "sectionHints": {
+    "main": ["ਸੈਕਸ਼ਨ ਨੰ. ਅਤੇ ਨਾਮ", "ਸੈਕਸ਼ਨ ਨੰ"],
+    "supplement": ["ਵਾਧਿਆਂ ਦੀ ਸੂਚੀ"],
+    "deletion": ["ਕਟੌਤੀਆਂ ਦੀ ਸੂਚੀ"],
+    "modification": ["ਸੋਧਾਂ ਦੀ ਸੂਚੀ"]
+  }
+}

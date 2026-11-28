@@ -196,6 +196,34 @@ async function post(cfg: PushConfig, body: Record<string, unknown>, log: Logger,
 
 export interface PushOutcome { pushed: boolean; rows: number; reason: string }
 
+/** Wait time for one PDF's queued finish; OCR_PUSH_QUEUE_WAIT_S overrides (default 20 min). */
+const QUEUE_WAIT_MS = (Number(process.env.OCR_PUSH_QUEUE_WAIT_S) || 1200) * 1000;
+const QUEUE_POLL_MS = 15_000;
+
+/** Polls "status" until the dashboard's queue has finished this upload. Throws when it does not. */
+async function awaitQueuedFinish(cfg: PushConfig, meta: DashboardMeta, uploadId: string, log: Logger, label: string): Promise<Record<string, unknown>> {
+  const t0 = Date.now();
+  log.info("push", `${label}: rows received; waiting for the dashboard's queue to finish them`);
+  for (;;) {
+    if (Date.now() - t0 > QUEUE_WAIT_MS) throw new Error(`finish: still queued on the dashboard after ${Math.round((Date.now() - t0) / 1000)}s (upload ${uploadId}); it keeps working on it`);
+    await sleep(QUEUE_POLL_MS);
+    let st: Record<string, unknown>;
+    try {
+      st = await post(cfg, { phase: "status", ...meta, uploadId }, log, "status");
+    } catch (e) {
+      if (/\b404 Upload session not found/.test(errMsg(e))) throw new Error(`finish: ${errMsg(e)}`);
+      log.warn("push", `${label}: ${errMsg(e)}`);
+      continue;
+    }
+    if (st.state === "done") {
+      if (!st.upload) throw new Error(`finish: the dashboard finished with no roll: ${String(st.outcome ?? "")}`);
+      log.info("push", `${label}: finished by the queue after ${Math.round((Date.now() - t0) / 1000)}s`);
+      return st;
+    }
+    if (st.state !== "finishing") throw new Error(`finish: upload ${String(st.state)}: ${String(st.outcome ?? "")}`);
+  }
+}
+
 /**
  * Pushes one PDF's merged rows. Never throws: a failure is logged and reported so the CSV run
  * goes on (the rows are still on disk; the next run retries, since the ledger is only written
@@ -230,7 +258,15 @@ export async function pushPdf(cfg: PushConfig, c: ConstituencyInfo, r: PdfResult
       const batch = voters.slice(i, i + cfg.batchRows);
       await post(cfg, { phase: "chunk", ...meta, ...id, voters: batch }, log, `chunk ${i / cfg.batchRows + 1}`);
     }
-    const fin = await post(cfg, { phase: "finish", ...meta, ...id }, log, "finish");
+    let fin: Record<string, unknown>;
+    try {
+      fin = await post(cfg, { phase: "finish", ...meta, ...id }, log, "finish");
+    } catch (e) {
+      // The dashboard has the rows and finishes them from its queue: wait for that, rather than
+      // calling the part failed and sending it all again on the next run.
+      if (!id.uploadId || !/\b409 The rows are received/.test(errMsg(e))) throw e;
+      fin = await awaitQueuedFinish(cfg, meta, id.uploadId, log, label);
+    }
     const up = (fin.upload ?? {}) as Record<string, unknown>;
     ledger[key] = { rowsHash: h, at: new Date().toISOString(), rows: rows.length };
     saveLedger(cfg.ledgerFile, ledger);

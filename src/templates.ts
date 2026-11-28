@@ -8,7 +8,7 @@ export interface Template {
   match: { states: string[] };
   language: string;
   /** Script the roll is printed in: names are transliterated (devanagari) or taken as read (latin). */
-  script: "devanagari" | "latin";
+  script: "devanagari" | "gurmukhi" | "latin";
   grid: { cols: number; rows: number };
   strips: { rowsPerStrip: number; padPx: number };
   fallbackBody: { top: number; bottom: number; left: number; right: number };
@@ -89,7 +89,7 @@ function validate(t: Template): void {
     }
   }
   for (const p of t.epicPatterns) new RegExp(p); // throws on bad regex
-  if (t.script !== "devanagari" && t.script !== "latin") throw new Error(`Template "${t.name}": "script" must be devanagari or latin`);
+  if (!["devanagari", "gurmukhi", "latin"].includes(t.script)) throw new Error(`Template "${t.name}": "script" must be devanagari, gurmukhi or latin`);
 }
 
 /** Regex alternation source for printed labels: flexible spaces, apostrophes optional. */
@@ -107,7 +107,7 @@ export function labelRegex(labels: string[] | undefined, flags = "iu"): RegExp |
 
 /** Letters of the template's script (for stripping OCR junk from a token before comparing). */
 export function scriptLetters(t: Template): RegExp {
-  return t.script === "latin" ? /[^A-Za-z]/g : /[^ऀ-ॿ]/g;
+  return t.script === "latin" ? /[^A-Za-z]/g : t.script === "gurmukhi" ? /[^\u0A00-\u0A7F]/g : /[^ऀ-ॿ]/g;
 }
 
 /** Pick the template for a state: explicit override > state match > "default". */
