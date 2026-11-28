@@ -260,7 +260,9 @@ export async function pushPdf(cfg: PushConfig, c: ConstituencyInfo, r: PdfResult
     }
     let fin: Record<string, unknown>;
     try {
-      fin = await post(cfg, { phase: "finish", ...meta, ...id }, log, "finish");
+      // expectRows: a chunk the dashboard stored twice (its answer was lost and the chunk resent)
+      // makes the finish refuse, rather than leave the part with doubled voters.
+      fin = await post(cfg, { phase: "finish", ...meta, ...id, ...(id.uploadId ? { expectRows: voters.length } : {}) }, log, "finish");
     } catch (e) {
       // The dashboard has the rows and finishes them from its queue: wait for that, rather than
       // calling the part failed and sending it all again on the next run.
